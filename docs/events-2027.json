@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21T21:36:13+00:00",
+  "generated": "2026-07-21T22:39:39+00:00",
   "year": 2027,
   "count": 565,
   "sources": [
@@ -4110,26 +4110,6 @@
       "is_past": false
     },
     {
-      "title": "Weimaraner Club of Vic - RTG3 RTG",
-      "start": "2027-05-23",
-      "end": "2027-05-23",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Obedience",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Victorian Gundog Club",
       "start": "2027-05-26",
       "end": "2027-05-26",
@@ -4710,6 +4690,26 @@
     },
     {
       "title": "Soft Coated Wheaten Terrier Club Inc",
+      "start": "2027-06-12",
+      "end": "2027-06-12",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Toy Dog Club of Vic Inc",
       "start": "2027-06-12",
       "end": "2027-06-12",
       "location": "Victoria",
