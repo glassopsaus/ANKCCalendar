@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-21T21:26:42+00:00",
+  "generated": "2026-07-21T23:36:45+00:00",
   "year": 2025,
-  "count": 1631,
+  "count": 1624,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -1401,7 +1401,7 @@
       "title": "Hobart Dog Training Club Inc \u2013 Scent Work",
       "start": "2025-04-04",
       "end": "2025-04-04",
-      "location": "",
+      "location": "Hobart Dog Training Club Inc",
       "url": "https://tasdogs.com/dates/",
       "category": "Scent Work",
       "region": "TAS",
@@ -1409,32 +1409,13 @@
       "color": "#c8632a",
       "cancelled": false,
       "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scent Work Container Trial",
-      "start": "2025-04-04",
-      "end": "2025-04-04",
-      "location": "Hobart Dog Training Club Inc",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "TAS",
-      "color": "#c8632a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
+        "Dogs Tasmania",
         "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true
     },
@@ -2508,27 +2489,6 @@
       "is_past": true
     },
     {
-      "title": "Stellar Dogs Training & Education - Term 2 (Scentwork REMOTE)",
-      "start": "2025-05-01",
-      "end": "2025-05-01",
-      "location": "Stellar Dogs Training and Education",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "May in Maralaya",
       "start": "2025-05-02",
       "end": "2025-05-02",
@@ -2615,8 +2575,8 @@
     {
       "title": "Hobart Dog Training Club Inc \u2013 Scent Work",
       "start": "2025-05-03",
-      "end": "2025-05-03",
-      "location": "",
+      "end": "2025-05-04",
+      "location": "Hobart Dog Training Club Inc",
       "url": "https://tasdogs.com/dates/",
       "category": "Scent Work",
       "region": "TAS",
@@ -2624,11 +2584,13 @@
       "color": "#c8632a",
       "cancelled": false,
       "sources": [
-        "Dogs Tasmania"
+        "Dogs Tasmania",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true
     },
@@ -2663,27 +2625,6 @@
       "cancelled": false,
       "region": "SA",
       "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scent Work Trial",
-      "start": "2025-05-03",
-      "end": "2025-05-04",
-      "location": "Hobart Dog Training Club Inc",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "TAS",
-      "color": "#c8632a",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
@@ -3260,8 +3201,8 @@
     {
       "title": "Hobart Dog Training Club Inc \u2013 Tracking",
       "start": "2025-05-17",
-      "end": "2025-05-17",
-      "location": "",
+      "end": "2025-05-19",
+      "location": "Hobart Dog Training Club Inc",
       "url": "https://tasdogs.com/dates/",
       "category": "Tracking",
       "region": "TAS",
@@ -3269,11 +3210,13 @@
       "color": "#c8632a",
       "cancelled": false,
       "sources": [
-        "Dogs Tasmania"
+        "Dogs Tasmania",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true
     },
@@ -3356,27 +3299,6 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Tracking Trial",
-      "start": "2025-05-17",
-      "end": "2025-05-19",
-      "location": "Hobart Dog Training Club Inc",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Tracking",
-      "cancelled": false,
-      "region": "TAS",
-      "color": "#c8632a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
       "open_now": false,
       "is_past": true
     },
@@ -3709,26 +3631,6 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Ulverstone Kennel Club \u2013 Conformation",
-      "start": "2025-05-24",
-      "end": "2025-05-24",
-      "location": "Ulverstone",
-      "url": "https://tasdogs.com/dates/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -5031,7 +4933,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Tasmania"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -5077,26 +4980,6 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Ulverstone Kennel Club \u2013 Scent Work",
-      "start": "2025-06-28",
-      "end": "2025-06-28",
-      "location": "",
-      "url": "https://tasdogs.com/dates/",
-      "category": "Scent Work",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -8946,7 +8829,7 @@
     {
       "title": "Hobart Canine Obedience Clb Inc \u2013 Scent Work",
       "start": "2025-09-20",
-      "end": "2025-09-20",
+      "end": "2025-09-21",
       "location": "Hobart",
       "url": "https://tasdogs.com/dates/",
       "category": "Scent Work",
@@ -8955,11 +8838,13 @@
       "color": "#c8632a",
       "cancelled": false,
       "sources": [
-        "Dogs Tasmania"
+        "Dogs Tasmania",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true
     },
@@ -8996,27 +8881,6 @@
       "cancelled": false,
       "region": "WA",
       "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scent Work Trial",
-      "start": "2025-09-20",
-      "end": "2025-09-21",
-      "location": "Hobart Dog Training Club Inc",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "TAS",
-      "color": "#c8632a",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [

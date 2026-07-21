@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-21T21:31:11+00:00",
+  "generated": "2026-07-21T23:40:38+00:00",
   "year": 2026,
-  "count": 2905,
+  "count": 2806,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -261,7 +261,7 @@
       "title": "Create your first DWD routine workshop",
       "start": "2026-01-10",
       "end": "2026-01-10",
-      "location": "Dances with Dogs Advisory Committee  -South Australia",
+      "location": "Dances with Dogs Advisory Committee - South Australia",
       "url": "https://www.topdogevents.com.au/trials",
       "category": "Dances with Dogs",
       "cancelled": false,
@@ -627,7 +627,7 @@
       "title": "Information Session: Strong Starts and Flashy Finishes",
       "start": "2026-01-18",
       "end": "2026-01-18",
-      "location": "Dances with Dogs Advisory Committee  -South Australia",
+      "location": "Dances with Dogs Advisory Committee - South Australia",
       "url": "https://www.topdogevents.com.au/trials",
       "category": "Dances with Dogs",
       "cancelled": false,
@@ -670,7 +670,7 @@
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
       "start": "2026-01-20",
       "end": "2026-01-20",
-      "location": "",
+      "location": "Oxley Dog Training Club Inc",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -1092,7 +1092,7 @@
       "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
       "club": "",
       "start": "2026-01-25",
-      "end": "2026-01-25",
+      "end": "2026-02-02",
       "location": "Western Australia",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Sprint",
@@ -1101,32 +1101,13 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "West Coast Dog Sports Sprint Dog (tm)",
-      "start": "2026-01-25",
-      "end": "2026-02-02",
-      "location": "West Coast Dog Sports",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Sprint",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
+        "Dogs West (WA calendar)",
         "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": true
     },
@@ -1615,26 +1596,6 @@
       "is_past": true
     },
     {
-      "title": "Dalmatian Club of Vic Inc - 11am",
-      "start": "2026-02-06",
-      "end": "2026-02-06",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Lyndhurst Canine Country Club Inc - 3pm",
       "start": "2026-02-06",
       "end": "2026-02-06",
@@ -1960,27 +1921,6 @@
       "is_past": true
     },
     {
-      "title": "Tuggerah Lakes Kennel & Obedience Club \u2013 Conformation",
-      "start": "2026-02-07",
-      "end": "2026-02-08",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "ACWA 25th Bithday BBQ Fundraiser",
       "start": "2026-02-08",
       "end": "2026-02-08",
@@ -2002,24 +1942,23 @@
       "is_past": true
     },
     {
-      "title": "ACWA's 25th Anniversary Agility and Games Trial",
+      "title": "Agility and Games Trial ACWA",
+      "club": "",
       "start": "2026-02-08",
       "end": "2026-02-08",
-      "location": "Agility Club of WA",
-      "url": "https://www.topdogevents.com.au/trials",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Agility",
-      "cancelled": false,
       "region": "WA",
+      "source": "Dogs West (WA calendar)",
       "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
+      "cancelled": false,
       "sources": [
-        "Top Dog Events",
         "Dogs West (WA calendar)"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -2094,26 +2033,6 @@
     },
     {
       "title": "Beagle Club of Vic Inc - Not before 11am",
-      "start": "2026-02-08",
-      "end": "2026-02-08",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Griffon Bruxellois Club of Vic Inc - 11am",
       "start": "2026-02-08",
       "end": "2026-02-08",
       "location": "Victoria",
@@ -2381,7 +2300,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -2608,27 +2528,6 @@
       "is_past": true
     },
     {
-      "title": "Obedience & Rally O Trials Albany All Breeds DC \u2013 Rally Obedience",
-      "club": "",
-      "start": "2026-02-14",
-      "end": "2026-02-14",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Rally Obedience",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Scent Work S'Cttee \u2013 Scent Work",
       "club": "Scent Work S'Cttee",
       "start": "2026-02-14",
@@ -2665,34 +2564,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Warragul & District Kennel & Obedience Club Inc PM",
-      "start": "2026-02-14",
-      "end": "2026-02-14",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)",
-        "Dogs Victoria (Vic Dog Trials)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://vicdog.com/events/20260214-warragul-scent-work-trial/",
       "open_now": false,
       "is_past": true
     },
@@ -2807,7 +2684,7 @@
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
       "start": "2026-02-17",
       "end": "2026-02-17",
-      "location": "",
+      "location": "Oxley Dog Training Club Inc",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -3706,7 +3583,7 @@
       "title": "DOGS NSW Agility Committee \u2013 Agility",
       "start": "2026-02-28",
       "end": "2026-03-01",
-      "location": "",
+      "location": "Dogs NSW Agility Committee",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Agility",
       "region": "NSW",
@@ -4681,27 +4558,6 @@
     {
       "title": "Lake District Canine Club \u2013 Conformation",
       "start": "2026-03-07",
-      "end": "2026-03-07",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Lake Macquarie All Breeds Kennel Club Inc \u2013 Conformation",
-      "start": "2026-03-07",
       "end": "2026-03-08",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
@@ -4799,6 +4655,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
+        "Dogs Victoria (official calendar)",
         "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "listed",
@@ -4806,26 +4663,6 @@
       "verified": true,
       "closes": null,
       "entry_url": "https://vicdog.com/events/20260309-lagotto-romagnolo-club-scent-work-trial/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Southern Obedience Dog Club",
-      "start": "2026-03-07",
-      "end": "2026-03-08",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -4967,32 +4804,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "",
-      "start": "2026-03-08",
-      "end": "2026-03-08",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -5320,27 +5137,6 @@
     {
       "title": "DOGS NSW Fast N Furious Working Party \u2013 Conformation",
       "start": "2026-03-13",
-      "end": "2026-03-13",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Field Spaniel Club of NSW Inc \u2013 Conformation",
-      "start": "2026-03-13",
       "end": "2026-03-15",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
@@ -5363,27 +5159,6 @@
       "title": "Moree Kennel Club Inc \u2013 Conformation",
       "start": "2026-03-13",
       "end": "2026-03-15",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "New England Ladies Kennel Club \u2013 Conformation",
-      "start": "2026-03-13",
-      "end": "2026-03-14",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -5479,7 +5254,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -5741,27 +5517,6 @@
       "verified": true,
       "closes": "2026-03-01",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46562",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Jimboomba \u2013 Agility",
-      "club": "Jimboomba",
-      "start": "2026-03-14",
-      "end": "2026-03-14",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -6079,31 +5834,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "K9 Scent Club",
-      "start": "2026-03-15",
-      "end": "2026-03-15",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -6346,7 +6082,7 @@
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
       "start": "2026-03-17",
       "end": "2026-03-17",
-      "location": "",
+      "location": "Oxley Dog Training Club Inc",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -6475,27 +6211,6 @@
       "is_past": true
     },
     {
-      "title": "Newcastle Toy & All Breeds Kennel Club \u2013 Conformation",
-      "start": "2026-03-20",
-      "end": "2026-03-20",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Sprintdog Club \u2013 Sprint",
       "club": "Sprintdog Club",
       "start": "2026-03-20",
@@ -6580,7 +6295,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -6622,27 +6338,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Brisbane \u2013 Agility",
-      "club": "Brisbane",
-      "start": "2026-03-21",
-      "end": "2026-03-21",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
@@ -7314,32 +7009,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "",
-      "start": "2026-03-22",
-      "end": "2026-03-22",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -7721,11 +7396,13 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "open_now": false,
       "is_past": true
     },
@@ -7762,27 +7439,6 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "DOGS NSW Obedience, Tracking & \u2013 Trick Dog",
-      "start": "2026-03-28",
-      "end": "2026-03-28",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Trick Dog",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
       "sources": [
         "Dogs NSW"
       ],
@@ -7974,27 +7630,6 @@
       "is_past": true
     },
     {
-      "title": "Open Agility, Jumping and Games Trial",
-      "start": "2026-03-28",
-      "end": "2026-03-28",
-      "location": "Border Collie Club of Victoria",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Rockhampton \u2013 Sprint",
       "club": "Rockhampton",
       "start": "2026-03-28",
@@ -8084,27 +7719,6 @@
       "verified": true,
       "closes": "2026-03-22",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46646",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "The Border Collie Club of NSW Inc Agility & Jumping Trial",
-      "start": "2026-03-28",
-      "end": "2026-03-28",
-      "location": "Border Collie Club of NSW INC",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "NSW",
-      "color": "#7a3ea6",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
       "open_now": false,
       "is_past": true
     },
@@ -8337,7 +7951,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -8384,30 +7999,6 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Toowoomba \u2013 Obedience",
-      "club": "Toowoomba",
-      "start": "2026-03-29",
-      "end": "2026-03-29",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-23",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46032",
       "open_now": false,
       "is_past": true
     },
@@ -8501,27 +8092,6 @@
     {
       "title": "American Cocker Spaniel Club of NSW Inc \u2013 Conformation",
       "start": "2026-04-03",
-      "end": "2026-04-03",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dachshund Club of NSW Inc \u2013 Conformation",
-      "start": "2026-04-03",
       "end": "2026-04-04",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
@@ -8530,7 +8100,7 @@
       "source": "Dogs NSW",
       "color": "#7a3ea6",
       "cancelled": false,
-      "provider": "Show Manager",
+      "provider": null,
       "sources": [
         "Dogs NSW"
       ],
@@ -8597,7 +8167,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -8651,27 +8222,6 @@
       "is_past": true
     },
     {
-      "title": "Townsville \u2013 Scent Work",
-      "club": "Townsville",
-      "start": "2026-04-03",
-      "end": "2026-04-05",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Scent Work",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "WCDS Sprint Dog(tm)",
       "start": "2026-04-03",
       "end": "2026-04-03",
@@ -8705,31 +8255,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Agility Dog Club of Victoria",
-      "start": "2026-04-04",
-      "end": "2026-04-05",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Agility",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -8759,7 +8290,7 @@
     {
       "title": "Australian Kelpie Club of NSW Inc \u2013 Conformation",
       "start": "2026-04-04",
-      "end": "2026-04-04",
+      "end": "2026-04-05",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -8799,27 +8330,6 @@
       "is_past": true
     },
     {
-      "title": "Basset Hound Club of NSW Inc \u2013 Conformation",
-      "start": "2026-04-04",
-      "end": "2026-04-05",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Berwick Obedience Dog Club",
       "start": "2026-04-04",
       "end": "2026-04-04",
@@ -8831,11 +8341,13 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "open_now": false,
       "is_past": true
     },
@@ -8932,27 +8444,6 @@
       "cancelled": false,
       "region": "ACT",
       "color": "#1d6fb8",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Easter Saturday Advanced Trial",
-      "start": "2026-04-04",
-      "end": "2026-04-04",
-      "location": "Berwick Obedience Dog Club Inc.",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
@@ -10326,13 +9817,11 @@
       "cancelled": false,
       "provider": "Top Dog Events",
       "sources": [
-        "Dogs NSW",
-        "Top Dog Events"
+        "Dogs NSW"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -10736,30 +10225,6 @@
       "is_past": true
     },
     {
-      "title": "Maryborough \u2013 Rally Obedience",
-      "club": "Maryborough",
-      "start": "2026-04-11",
-      "end": "2026-04-11",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-28",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46571",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Mock Retrieving Trial Retrieving Mock Trial",
       "start": "2026-04-11",
       "end": "2026-04-12",
@@ -10836,6 +10301,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
+        "Dogs Victoria (official calendar)",
         "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "listed",
@@ -10871,7 +10337,7 @@
       "title": "South Australia State Trick Dog Test Championship",
       "start": "2026-04-11",
       "end": "2026-04-11",
-      "location": "Dances with Dogs Advisory Committee  -South Australia",
+      "location": "Dances with Dogs Advisory Committee - South Australia",
       "url": "https://www.topdogevents.com.au/trials",
       "category": "Trick Dog",
       "cancelled": false,
@@ -10905,29 +10371,6 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Warragul & District Kennel and Obedience Club Inc.",
-      "start": "2026-04-11",
-      "end": "2026-04-11",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)",
-        "Dogs Victoria (Vic Dog Trials)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://vicdog.com/events/20260411-warragul-scent-work-trial/",
       "open_now": false,
       "is_past": true
     },
@@ -11000,7 +10443,7 @@
       "title": "Dances with Dogs Advisory committee - Tricks and DWD National 2027 fundraising raffle",
       "start": "2026-04-12",
       "end": "2026-04-12",
-      "location": "Dances with Dogs Advisory Committee  -South Australia",
+      "location": "Dances with Dogs Advisory Committee - South Australia",
       "url": "https://www.topdogevents.com.au/trials",
       "category": "Trick Dog",
       "cancelled": false,
@@ -11332,12 +10775,32 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "open_now": false,
+      "is_past": true
+    },
+    {
+      "title": "Grafton Dog Obedience Club \u2013 Scent Work",
+      "start": "2026-04-15",
+      "end": "2026-04-15",
+      "location": "",
+      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
+      "category": "Scent Work",
+      "region": "NSW",
+      "source": "Dogs NSW",
+      "color": "#7a3ea6",
+      "cancelled": false,
+      "provider": "Top Dog Events",
+      "sources": [
+        "Dogs NSW"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -11485,7 +10948,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -11501,27 +10965,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Cairns \u2013 Rally Obedience",
-      "club": "Cairns",
-      "start": "2026-04-17",
-      "end": "2026-04-18",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -11740,11 +11183,13 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "open_now": false,
       "is_past": true
     },
@@ -11798,7 +11243,7 @@
       "title": "Championship & Open Show German S/haired Pointer Club \u2013 Conformation",
       "club": "",
       "start": "2026-04-18",
-      "end": "2026-04-18",
+      "end": "2026-04-19",
       "location": "Western Australia",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Conformation",
@@ -11908,7 +11353,7 @@
     {
       "title": "K9 Scent Club",
       "start": "2026-04-18",
-      "end": "2026-04-19",
+      "end": "2026-04-21",
       "location": "Victoria",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Scent Work",
@@ -11918,10 +11363,11 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
+        "Top Dog Events",
         "Dogs Victoria (Vic Dog Trials)"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
       "entry_url": "https://vicdog.com/events/20260417-bearded-collie-club-victoria-scent-work-trial/",
@@ -11974,27 +11420,6 @@
       "is_past": true
     },
     {
-      "title": "Open Agility & Jumping Trial",
-      "start": "2026-04-18",
-      "end": "2026-04-18",
-      "location": "Action Dogs Victoria",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Oxley Dog Training Club Inc \u2013 Sled Sports",
       "start": "2026-04-18",
       "end": "2026-04-19",
@@ -12035,27 +11460,6 @@
       "verified": true,
       "closes": "2026-03-20",
       "entry_url": "",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "State Breed Exhibition (inc Obed & Rally O) German Shepherd DA \u2013 Conformation",
-      "club": "",
-      "start": "2026-04-18",
-      "end": "2026-04-19",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Conformation",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -12166,27 +11570,6 @@
       "verified": true,
       "closes": "2026-04-05",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46531",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Ultimate A & Masters - Trial 1",
-      "start": "2026-04-18",
-      "end": "2026-04-21",
-      "location": "K9 Scent Club Inc",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
       "open_now": false,
       "is_past": true
     },
@@ -12623,27 +12006,6 @@
       "is_past": true
     },
     {
-      "title": "Hawkesbury District Agricultural \u2013 Conformation",
-      "start": "2026-04-24",
-      "end": "2026-04-24",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Mildura & District Kennel Club Inc AM",
       "start": "2026-04-24",
       "end": "2026-04-24",
@@ -12676,7 +12038,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -12718,31 +12081,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Stratford Dog Agility Club Inc",
-      "start": "2026-04-24",
-      "end": "2026-04-24",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Agility",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -12754,27 +12098,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Townsville \u2013 Rally Obedience",
-      "club": "Townsville",
-      "start": "2026-04-24",
-      "end": "2026-04-25",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -14123,7 +13446,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs NSW"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -14379,7 +13703,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -14429,27 +13754,6 @@
       "is_past": true
     },
     {
-      "title": "Hunter Kennel Club Inc \u2013 Conformation",
-      "start": "2026-05-02",
-      "end": "2026-05-02",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Hunter Valley Non-Sporting & Utility Dog \u2013 Conformation",
       "start": "2026-05-02",
       "end": "2026-05-03",
@@ -14463,26 +13767,6 @@
       "provider": "Show Manager",
       "sources": [
         "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "K9 Scent Club",
-      "start": "2026-05-02",
-      "end": "2026-05-02",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
@@ -14676,27 +13960,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Shoalhaven Dog Training Club Inc \u2013 Agility",
-      "start": "2026-05-02",
-      "end": "2026-05-02",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Agility",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
       ],
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
@@ -15409,7 +14672,7 @@
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
       "start": "2026-05-05",
       "end": "2026-05-05",
-      "location": "",
+      "location": "Oxley Dog Training Club Inc",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -15594,32 +14857,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Cairns \u2013 Agility",
-      "club": "Cairns",
-      "start": "2026-05-08",
-      "end": "2026-05-09",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -15742,7 +14985,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -16036,27 +15280,6 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Gold Coast \u2013 Agility",
-      "club": "Gold Coast",
-      "start": "2026-05-09",
-      "end": "2026-05-09",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -16414,32 +15637,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "",
-      "start": "2026-05-09",
-      "end": "2026-05-09",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -17233,7 +16436,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -17288,27 +16492,6 @@
       "is_past": true
     },
     {
-      "title": "South West Slopes All Breeds Kennel Club \u2013 Conformation",
-      "start": "2026-05-15",
-      "end": "2026-05-16",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Townsville \u2013 Obedience",
       "club": "Townsville",
       "start": "2026-05-15",
@@ -17316,27 +16499,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Townsville \u2013 Rally Obedience",
-      "club": "Townsville",
-      "start": "2026-05-15",
-      "end": "2026-05-16",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -17581,7 +16743,7 @@
       "title": "Dances with Dogs Advisory committee - Tricks and DWD National 2027 fundraising raffle",
       "start": "2026-05-16",
       "end": "2026-05-16",
-      "location": "Dances with Dogs Advisory Committee  -South Australia",
+      "location": "Dances with Dogs Advisory Committee - South Australia",
       "url": "https://www.topdogevents.com.au/trials",
       "category": "Trick Dog",
       "cancelled": false,
@@ -17611,7 +16773,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -17674,32 +16837,13 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Hastings - Novice Scent Work Trial",
-      "start": "2026-05-16",
-      "end": "2026-05-16",
-      "location": "Hastings & District Obedience Dog Club",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
+        "Dogs Victoria (official calendar)",
         "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "open_now": false,
       "is_past": true
     },
@@ -17711,27 +16855,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Jimboomba \u2013 Rally Obedience",
-      "club": "Jimboomba",
-      "start": "2026-05-16",
-      "end": "2026-05-16",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -17921,7 +17044,7 @@
       "title": "South Australia State Dances With Dogs Championships",
       "start": "2026-05-16",
       "end": "2026-05-17",
-      "location": "Dances with Dogs Advisory Committee  -South Australia",
+      "location": "Dances with Dogs Advisory Committee - South Australia",
       "url": "https://www.topdogevents.com.au/trials",
       "category": "Dances with Dogs",
       "cancelled": false,
@@ -17993,13 +17116,32 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)",
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": true
+    },
+    {
+      "title": "Trackwest Tracking Trial 16 & 20 May 2026",
+      "start": "2026-05-16",
+      "end": "2026-05-20",
+      "location": "TrackWest Dog Club (Inc)",
+      "url": "https://www.topdogevents.com.au/trials",
+      "category": "Tracking",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
         "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": true
     },
@@ -18446,32 +17588,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "",
-      "start": "2026-05-20",
-      "end": "2026-05-20",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -18523,7 +17645,7 @@
     {
       "title": "Cowra & District Kennel Club Inc \u2013 Conformation",
       "start": "2026-05-22",
-      "end": "2026-05-23",
+      "end": "2026-05-24",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -18608,27 +17730,6 @@
       "is_past": true
     },
     {
-      "title": "Ladies Kennel Club of Broken Hill \u2013 Conformation",
-      "start": "2026-05-22",
-      "end": "2026-05-24",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Tableland May Trial Agility Obedience Rally",
       "start": "2026-05-22",
       "end": "2026-05-24",
@@ -18641,7 +17742,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -18671,31 +17773,10 @@
       "is_past": true
     },
     {
-      "title": "Tableland \u2013 Rally Obedience",
-      "club": "Tableland",
-      "start": "2026-05-22",
-      "end": "2026-05-23",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Albury & Border Kennel Club Inc \u2013 Agility",
       "start": "2026-05-23",
       "end": "2026-05-24",
-      "location": "",
+      "location": "Albury and Border Kennel Club",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Agility",
       "region": "NSW",
@@ -18779,7 +17860,7 @@
       "title": "DOGS NSW Agility Committee \u2013 Agility",
       "start": "2026-05-23",
       "end": "2026-05-24",
-      "location": "",
+      "location": "Dogs NSW Agility Committee",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Agility",
       "region": "NSW",
@@ -19070,7 +18151,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -19149,27 +18231,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Rockhampton \u2013 Rally Obedience",
-      "club": "Rockhampton",
-      "start": "2026-05-23",
-      "end": "2026-05-23",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -19632,27 +18693,6 @@
       "is_past": true
     },
     {
-      "title": "Denison Dog Training Club Inc \u2013 Trick Dog",
-      "start": "2026-05-24",
-      "end": "2026-05-24",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Trick Dog",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Ozentries",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Earthdog Committee \u2013 Earthdog",
       "club": "Earthdog Committee",
       "start": "2026-05-24",
@@ -19872,7 +18912,7 @@
     {
       "title": "Bathurst & District Kennel Club Inc \u2013 Conformation",
       "start": "2026-05-29",
-      "end": "2026-05-29",
+      "end": "2026-05-30",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -19903,53 +18943,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Cairns \u2013 Agility",
-      "club": "Cairns",
-      "start": "2026-05-29",
-      "end": "2026-05-30",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Lithgow & District Kennel Club Inc \u2013 Conformation",
-      "start": "2026-05-29",
-      "end": "2026-05-30",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -20140,7 +19139,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -20447,27 +19447,6 @@
       "location": "Western Australia",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Retrieving",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "State Agility Trials CAWA Events Ctee",
-      "club": "",
-      "start": "2026-05-30",
-      "end": "2026-05-31",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Agility",
       "region": "WA",
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
@@ -21017,32 +19996,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "",
-      "start": "2026-06-01",
-      "end": "2026-06-01",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -21074,7 +20033,7 @@
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
       "start": "2026-06-02",
       "end": "2026-06-02",
-      "location": "",
+      "location": "Oxley Dog Training Club Inc",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -21212,7 +20171,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -21228,27 +20188,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Cairns \u2013 Rally Obedience",
-      "club": "Cairns",
-      "start": "2026-06-05",
-      "end": "2026-06-06",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -21490,7 +20429,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs NSW"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -21499,30 +20439,9 @@
       "is_past": true
     },
     {
-      "title": "Agility Dog Club of NSW Inc \u2013 Agility",
-      "start": "2026-06-06",
-      "end": "2026-06-07",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Agility",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Airedale Terrier Club of Victoria",
       "start": "2026-06-06",
-      "end": "2026-06-06",
+      "end": "2026-06-07",
       "location": "Victoria",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Conformation",
@@ -21584,26 +20503,6 @@
       "verified": true,
       "closes": "2026-05-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47159",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "American Staffordshire Terrier Club of Vic Inc",
-      "start": "2026-06-06",
-      "end": "2026-06-07",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -22023,6 +20922,26 @@
       "is_past": true
     },
     {
+      "title": "Toy Dog Club of Vic Inc",
+      "start": "2026-06-06",
+      "end": "2026-06-06",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": true
+    },
+    {
       "title": "Tracking Trial",
       "start": "2026-06-06",
       "end": "2026-06-08",
@@ -22056,13 +20975,32 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)",
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": true
+    },
+    {
+      "title": "Trackwest Tracking Trial 6 & 10th June 2026",
+      "start": "2026-06-06",
+      "end": "2026-06-10",
+      "location": "TrackWest Dog Club (Inc)",
+      "url": "https://www.topdogevents.com.au/trials",
+      "category": "Tracking",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
         "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": true
     },
@@ -22665,7 +21603,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -22691,26 +21630,6 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Southern Obedience Dog Club",
-      "start": "2026-06-08",
-      "end": "2026-06-08",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -23130,7 +22049,7 @@
       "title": "Border Collie Club of NSW Inc \u2013 Agility",
       "start": "2026-06-13",
       "end": "2026-06-13",
-      "location": "",
+      "location": "Border Collie Club of NSW INC",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Agility",
       "region": "NSW",
@@ -23635,7 +22554,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -23672,27 +22592,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Rockhampton \u2013 Rally Obedience",
-      "club": "Rockhampton",
-      "start": "2026-06-13",
-      "end": "2026-06-13",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -23986,7 +22885,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -24083,7 +22983,7 @@
       "title": "Cessnock Dog Club \u2013 Scent Work",
       "start": "2026-06-14",
       "end": "2026-06-14",
-      "location": "",
+      "location": "Cessnock Dog Club",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -24206,26 +23106,6 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "K9 Scent Club",
-      "start": "2026-06-14",
-      "end": "2026-06-14",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -24591,27 +23471,6 @@
       "title": "Coffs Harbour District All Breeds Kennel \u2013 Conformation",
       "start": "2026-06-19",
       "end": "2026-06-21",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Corowa & Districts Kennel Club \u2013 Conformation",
-      "start": "2026-06-19",
-      "end": "2026-06-20",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -25292,11 +24151,13 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": true
     },
@@ -25318,27 +24179,6 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Rally double trial",
-      "start": "2026-06-20",
-      "end": "2026-06-20",
-      "location": "Pine Rivers Dog Training Club",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Rally Obedience",
-      "cancelled": false,
-      "region": "QLD",
-      "color": "#c0392b",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
       "open_now": false,
       "is_past": true
     },
@@ -25552,13 +24392,32 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)",
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": true
+    },
+    {
+      "title": "Trackwest Track & Search 20,21 & 24th June 2026",
+      "start": "2026-06-20",
+      "end": "2026-06-24",
+      "location": "TrackWest Dog Club (Inc)",
+      "url": "https://www.topdogevents.com.au/trials",
+      "category": "Track & Search",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
         "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": true
     },
@@ -26027,30 +24886,6 @@
     },
     {
       "title": "2026  Agility Nationals Qld ***MAJOR RAFFLE*** - Drawn 23/6/2026",
-      "start": "2026-06-23",
-      "end": "2026-06-23",
-      "location": "2026 QLD Nationals Committee",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "QLD",
-      "color": "#c0392b",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-19",
-      "entry_url": "",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "2026 Agility Nationals Queensland - Entries",
       "start": "2026-06-23",
       "end": "2026-06-28",
       "location": "2026 QLD Nationals Committee",
@@ -26795,13 +25630,32 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)",
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": true
+    },
+    {
+      "title": "Trackwest Tracking Trial Sat 27th June & Wed 1st July 2026",
+      "start": "2026-06-27",
+      "end": "2026-07-01",
+      "location": "TrackWest Dog Club (Inc)",
+      "url": "https://www.topdogevents.com.au/trials",
+      "category": "Tracking",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
         "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": true
     },
@@ -27184,7 +26038,7 @@
     {
       "title": "MOCK - Oxley Dog Training Club \"MOCK\" SW Trial 29th June 2026",
       "start": "2026-06-29",
-      "end": "2026-06-29",
+      "end": "2026-07-01",
       "location": "Oxley Dog Training Club Inc",
       "url": "https://www.topdogevents.com.au/trials",
       "category": "Scent Work",
@@ -27194,32 +26048,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs NSW"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
-      "start": "2026-06-29",
-      "end": "2026-07-01",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -27522,7 +26356,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -27745,32 +26580,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs NSW"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "DOGS NSW Agility Committee \u2013 Agility",
-      "start": "2026-07-04",
-      "end": "2026-07-05",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Agility",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -27998,27 +26813,6 @@
       "is_past": true
     },
     {
-      "title": "Penrith Kennel & Obedience Club Inc \u2013 Conformation",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Restricted",
       "start": "2026-07-04",
       "end": "2026-07-04",
@@ -28101,27 +26895,6 @@
       "verified": true,
       "closes": "2026-07-01",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48686",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "State Scentwork Trial CAWA Events Ctee \u2013 Scent Work",
-      "club": "",
-      "start": "2026-07-04",
-      "end": "2026-07-06",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -28265,11 +27038,13 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "open_now": false,
       "is_past": true
     },
@@ -28277,7 +27052,7 @@
       "title": "Cessnock Dog Club \u2013 Scent Work",
       "start": "2026-07-05",
       "end": "2026-07-05",
-      "location": "",
+      "location": "Cessnock Dog Club",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -28511,27 +27286,6 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Open SprintDog Trial",
-      "start": "2026-07-05",
-      "end": "2026-07-05",
-      "location": "Border Collie Club of Victoria",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Sprint",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
       "open_now": false,
       "is_past": true
     },
@@ -28795,7 +27549,7 @@
     {
       "title": "Bungendore & Palerang All Breeds Kennel \u2013 Conformation",
       "start": "2026-07-10",
-      "end": "2026-07-11",
+      "end": "2026-07-12",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -28846,27 +27600,6 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dareton Kennel Club Inc \u2013 Conformation",
-      "start": "2026-07-10",
-      "end": "2026-07-12",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
       "sources": [
         "Dogs NSW"
       ],
@@ -28973,7 +27706,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -29226,27 +27960,6 @@
       "is_past": true
     },
     {
-      "title": "Gold Coast \u2013 Agility",
-      "club": "Gold Coast",
-      "start": "2026-07-11",
-      "end": "2026-07-11",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "HDTC Obedience Trials",
       "start": "2026-07-11",
       "end": "2026-07-11",
@@ -29300,11 +28013,13 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "open_now": false,
       "is_past": true
     },
@@ -29321,32 +28036,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs NSW"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Kyeamba Kennel & Training Club Inc \u2013 Scent Work",
-      "start": "2026-07-11",
-      "end": "2026-07-11",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -29468,11 +28163,13 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": true
     },
@@ -29519,30 +28216,6 @@
       "verified": true,
       "closes": "2026-07-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48926",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scent Work trial 1 11.7.26",
-      "start": "2026-07-11",
-      "end": "2026-07-11",
-      "location": "Rockhampton Dog Obedience Club",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "QLD",
-      "color": "#c0392b",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-12",
-      "entry_url": "",
       "open_now": false,
       "is_past": true
     },
@@ -29648,27 +28321,6 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Ultimate",
-      "start": "2026-07-11",
-      "end": "2026-07-11",
-      "location": "K9 Scent Club Inc",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
       "open_now": false,
       "is_past": true
     },
@@ -30094,7 +28746,6 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
       "status": "closed",
@@ -30102,6 +28753,30 @@
       "verified": true,
       "closes": "2026-07-12",
       "entry_url": "",
+      "open_now": false,
+      "is_past": true
+    },
+    {
+      "title": "Sunshine Coast \u2013 Scent Work",
+      "club": "Sunshine Coast",
+      "start": "2026-07-12",
+      "end": "2026-07-12",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Scent Work",
+      "region": "QLD",
+      "source": "Dogs Queensland (trial calendar)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-07-03",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48313",
       "open_now": false,
       "is_past": true
     },
@@ -30313,32 +28988,12 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs NSW"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Coffs Harbour Dog Training Club Inc \u2013 Agility",
-      "start": "2026-07-17",
-      "end": "2026-07-19",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Agility",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -30439,6 +29094,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
+        "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
       "status": "closed",
@@ -30446,48 +29102,6 @@
       "verified": true,
       "closes": "2026-07-02",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48377",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Rockhampton \u2013 Tracking",
-      "club": "Rockhampton",
-      "start": "2026-07-17",
-      "end": "2026-07-19",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Tracking",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Rylstone Kandos & District Dog Club \u2013 Conformation",
-      "start": "2026-07-17",
-      "end": "2026-07-17",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": true
     },
@@ -32145,7 +30759,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -32310,27 +30925,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Retrieving",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Jimboomba \u2013 Agility",
-      "club": "Jimboomba",
-      "start": "2026-07-25",
-      "end": "2026-07-25",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Agility",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -32861,7 +31455,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -32926,12 +31521,12 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-07-22",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49304",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -33063,26 +31658,6 @@
       "verified": true,
       "closes": "2026-07-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48393",
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "K9 Scent Club",
-      "start": "2026-07-26",
-      "end": "2026-07-26",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": false
     },
@@ -33251,33 +31826,13 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "",
-      "start": "2026-07-26",
-      "end": "2026-07-26",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -33693,27 +32248,6 @@
     },
     {
       "title": "Toy & General All Breeds Dog Club of NSW \u2013 Conformation",
-      "start": "2026-07-31",
-      "end": "2026-08-01",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Wagga Wagga All Breeds Kennel Club \u2013 Conformation",
       "start": "2026-07-31",
       "end": "2026-08-02",
       "location": "",
@@ -34211,7 +32745,7 @@
       "title": "Manly & District Kennel & Dog Training \u2013 Agility",
       "start": "2026-08-01",
       "end": "2026-08-01",
-      "location": "",
+      "location": "Manly & District Kennel & Dog Training Club Inc",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Agility",
       "region": "NSW",
@@ -34615,7 +33149,7 @@
       "title": "DOGS NSW Herding Working Party State \u2013 Herding",
       "start": "2026-08-02",
       "end": "2026-08-02",
-      "location": "",
+      "location": "Herding Working Party - Dogs NSW",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Herding",
       "region": "NSW",
@@ -34624,12 +33158,15 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -34763,27 +33300,6 @@
       "is_past": false
     },
     {
-      "title": "HWP Aug Test Day",
-      "start": "2026-08-02",
-      "end": "2026-08-02",
-      "location": "Herding Working Party - Dogs NSW",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Herding",
-      "cancelled": false,
-      "region": "NSW",
-      "color": "#7a3ea6",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "open_now": true,
-      "is_past": false
-    },
-    {
       "title": "Herding Trial - Double header All Breeds Herding Club",
       "club": "",
       "start": "2026-08-02",
@@ -34817,7 +33333,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs NSW"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -34871,27 +33388,6 @@
       "closes": "2026-07-27",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49293",
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Northern Suburbs Dog Training Club Inc \u2013 Agility",
-      "start": "2026-08-02",
-      "end": "2026-08-02",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Agility",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -34985,7 +33481,7 @@
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
       "start": "2026-08-04",
       "end": "2026-08-04",
-      "location": "",
+      "location": "Oxley Dog Training Club Inc",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -35148,6 +33644,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
+        "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
       "status": "open",
@@ -35166,27 +33663,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Cairns \u2013 Rally Obedience",
-      "club": "Cairns",
-      "start": "2026-08-07",
-      "end": "2026-08-08",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -35386,7 +33862,7 @@
       "title": "Orange Dog Sports Club Inc \u2013 Agility",
       "start": "2026-08-07",
       "end": "2026-08-07",
-      "location": "",
+      "location": "Orange Dog Sports Club Inc.",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Agility",
       "region": "NSW",
@@ -35762,7 +34238,7 @@
       "title": "Parkes & District Kennel Club Inc \u2013 Agility",
       "start": "2026-08-08",
       "end": "2026-08-09",
-      "location": "",
+      "location": "Parkes and District Kennel Club",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Agility",
       "region": "NSW",
@@ -36973,32 +35449,13 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "K9 Scent Club",
-      "start": "2026-08-15",
-      "end": "2026-08-15",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -37083,27 +35540,6 @@
       "status_label": "Open (verified)",
       "verified": true,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Newfoundland Club of NSW Inc \u2013 Conformation",
-      "start": "2026-08-15",
-      "end": "2026-08-15",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -37287,14 +35723,32 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)",
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Trackwest Track & Search 15, 16 & 19th August 2026",
+      "start": "2026-08-15",
+      "end": "2026-08-19",
+      "location": "TrackWest Dog Club (Inc)",
+      "url": "https://www.topdogevents.com.au/trials",
+      "category": "Track & Search",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
         "Top Dog Events"
       ],
-      "topdog_open": true,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
-      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": true,
       "is_past": false
     },
@@ -38092,7 +36546,7 @@
     {
       "title": "Coolamon-Ganmain Kennel Club \u2013 Conformation",
       "start": "2026-08-21",
-      "end": "2026-08-21",
+      "end": "2026-08-22",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -38153,27 +36607,6 @@
       "closes": "2026-08-05",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48751",
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Lismore & District Kennel Club Inc \u2013 Conformation",
-      "start": "2026-08-21",
-      "end": "2026-08-22",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -38272,7 +36705,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -38601,26 +37035,6 @@
       "is_past": false
     },
     {
-      "title": "Hastings & District Obedience Dog Club Inc",
-      "start": "2026-08-22",
-      "end": "2026-08-22",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "club": "",
       "start": "2026-08-22",
@@ -38927,7 +37341,7 @@
       "title": "State Retrieving Trial CAWA Events Ctee",
       "club": "",
       "start": "2026-08-22",
-      "end": "2026-08-22",
+      "end": "2026-08-23",
       "location": "Western Australia",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Retrieving",
@@ -38936,32 +37350,14 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "State Retrieving Trial Championship",
-      "start": "2026-08-22",
-      "end": "2026-08-23",
-      "location": "Dogs West State Championship Retrieving Trial Working Party",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Retrieving",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
+        "Dogs West (WA calendar)",
         "Top Dog Events"
       ],
+      "topdog_open": true,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": true,
       "is_past": false
     },
@@ -39200,27 +37596,6 @@
       "is_past": false
     },
     {
-      "title": "Coolamon-Ganmain Kennel Club \u2013 Conformation",
-      "start": "2026-08-23",
-      "end": "2026-08-23",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "DOGS NSW Northern Region (Coastal) \u2013 Conformation",
       "start": "2026-08-23",
       "end": "2026-08-23",
@@ -39339,32 +37714,13 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Frankston Obedience Dog Club Inc",
-      "start": "2026-08-23",
-      "end": "2026-08-23",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Scent Work",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -40107,12 +38463,15 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)"
+        "Dogs West (WA calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -40191,33 +38550,13 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "",
-      "start": "2026-08-29",
-      "end": "2026-08-29",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -40343,27 +38682,6 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "West Coast Dog Sports Lure Coursing Trial",
-      "start": "2026-08-29",
-      "end": "2026-08-29",
-      "location": "West Coast Dog Sports",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Lure Coursing",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "open_now": true,
       "is_past": false
     },
     {
@@ -40974,7 +39292,7 @@
     {
       "title": "DogzCairns Double Trial: Obedience/Rally/Tricks/Agility/Jumping",
       "start": "2026-09-05",
-      "end": "2026-09-05",
+      "end": "2026-09-06",
       "location": "DogzCairns",
       "url": "https://www.topdogevents.com.au/trials",
       "category": "Rally Obedience",
@@ -40985,6 +39303,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
+        "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
       "status": "open",
@@ -40993,27 +39312,6 @@
       "closes": "2026-08-30",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49197",
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Dogzcairns \u2013 Rally Obedience",
-      "club": "Dogzcairns",
-      "start": "2026-09-05",
-      "end": "2026-09-06",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -41131,12 +39429,15 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -41251,7 +39552,7 @@
     {
       "title": "New England Ladies Kennel Club \u2013 Conformation",
       "start": "2026-09-05",
-      "end": "2026-09-05",
+      "end": "2026-09-06",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -41288,27 +39589,6 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Novice Scent Work - Geelong",
-      "start": "2026-09-05",
-      "end": "2026-09-05",
-      "location": "K9 Scent Club Inc",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "open_now": true,
       "is_past": false
     },
     {
@@ -41430,27 +39710,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Tamworth Kennel Club \u2013 Conformation",
-      "start": "2026-09-05",
-      "end": "2026-09-06",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
       ],
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
@@ -42068,32 +40327,13 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Agility Dog Club of Victoria",
-      "start": "2026-09-12",
-      "end": "2026-09-12",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Agility",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -42144,7 +40384,7 @@
     {
       "title": "Australian Terrier Club of NSW Inc \u2013 Conformation",
       "start": "2026-09-12",
-      "end": "2026-09-12",
+      "end": "2026-09-13",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -42564,27 +40804,6 @@
       "is_past": false
     },
     {
-      "title": "Staffordshire Bull Terrier Club of Northern \u2013 Conformation",
-      "start": "2026-09-12",
-      "end": "2026-09-13",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Tracking Trial Trackwest",
       "club": "",
       "start": "2026-09-12",
@@ -42597,14 +40816,32 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)",
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Trackwest Tracking Trial 12th & 16th September 2026",
+      "start": "2026-09-12",
+      "end": "2026-09-16",
+      "location": "TrackWest Dog Club (Inc)",
+      "url": "https://www.topdogevents.com.au/trials",
+      "category": "Tracking",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
         "Top Dog Events"
       ],
-      "topdog_open": true,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
-      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": true,
       "is_past": false
     },
@@ -43953,14 +42190,16 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
+        "Top Dog Events",
         "Dogs Victoria (Vic Dog Trials)"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
       "verified": true,
       "closes": null,
       "entry_url": "https://vicdog.com/events/20260921-australian-shepherd-club-scent-work-trial/",
-      "open_now": false,
+      "open_now": true,
       "is_past": false
     },
     {
@@ -43982,27 +42221,6 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Double",
-      "start": "2026-09-21",
-      "end": "2026-09-21",
-      "location": "Australian Shepherd Club of Victoria",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "open_now": true,
       "is_past": false
     },
     {
@@ -44475,7 +42693,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -44511,27 +42730,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Gold Coast \u2013 Rally Obedience",
-      "club": "Gold Coast",
-      "start": "2026-09-26",
-      "end": "2026-09-26",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -44619,12 +42817,15 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -44689,27 +42890,6 @@
       "is_past": false
     },
     {
-      "title": "Single Trial Ultimate A or B - Mt Eliza",
-      "start": "2026-09-26",
-      "end": "2026-09-26",
-      "location": "K9 Scent Club Inc",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "open_now": true,
-      "is_past": false
-    },
-    {
       "title": "Southern Highlands Kennel & Obedience \u2013 Sled Sports",
       "start": "2026-09-26",
       "end": "2026-09-26",
@@ -44770,27 +42950,6 @@
       "status_label": "Open (verified)",
       "verified": true,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Uralla & District Kennel Club \u2013 Conformation",
-      "start": "2026-09-26",
-      "end": "2026-09-26",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -45523,7 +43682,7 @@
     {
       "title": "Irish Wolfhound Club of NSW Inc \u2013 Conformation",
       "start": "2026-10-03",
-      "end": "2026-10-03",
+      "end": "2026-10-05",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -45624,27 +43783,6 @@
       "verified": true,
       "closes": "2026-09-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49383",
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Rhodesian Ridgeback Club Inc (NSW) \u2013 Conformation",
-      "start": "2026-10-03",
-      "end": "2026-10-05",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
       "open_now": false,
       "is_past": false
     },
@@ -46279,7 +44417,7 @@
     {
       "title": "4p\u2019s All Toy Dog Club of NSW \u2013 Conformation",
       "start": "2026-10-10",
-      "end": "2026-10-10",
+      "end": "2026-10-11",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -46374,27 +44512,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "German Shepherd Dog League NSW Inc \u2013 Conformation",
-      "start": "2026-10-10",
-      "end": "2026-10-11",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW"
       ],
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
@@ -47482,14 +45599,32 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)",
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved; not open (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Trackwest Track & Search (Urban only) 17th October 2026",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "location": "TrackWest Dog Club (Inc)",
+      "url": "https://www.topdogevents.com.au/trials",
+      "category": "Track & Search",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
         "Top Dog Events"
       ],
-      "topdog_open": true,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
-      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": true,
       "is_past": false
     },
@@ -47839,33 +45974,13 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs NSW"
       ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Agility Dog Club of NSW Inc \u2013 Agility",
-      "start": "2026-10-24",
-      "end": "2026-10-25",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Agility",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -47955,7 +46070,7 @@
     {
       "title": "Fairfield & District All Breeds Kennel Club \u2013 Conformation",
       "start": "2026-10-24",
-      "end": "2026-10-24",
+      "end": "2026-10-25",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -48111,27 +46226,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Walcha Kennel Club \u2013 Conformation",
-      "start": "2026-10-24",
-      "end": "2026-10-25",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
       ],
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
@@ -49939,27 +48033,6 @@
     {
       "title": "Far South East Kennel Club \u2013 Conformation",
       "start": "2026-11-06",
-      "end": "2026-11-06",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Maitland & Kurri District Kennel Club \u2013 Conformation",
-      "start": "2026-11-06",
       "end": "2026-11-07",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
@@ -50596,26 +48669,6 @@
       "is_past": false
     },
     {
-      "title": "Bass Valley Kennel Club - 5pm",
-      "start": "2026-11-14",
-      "end": "2026-11-14",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Blacktown Kennel & Training Club Inc \u2013 Obedience",
       "start": "2026-11-14",
       "end": "2026-11-14",
@@ -51077,7 +49130,7 @@
     {
       "title": "Bulahdelah Show Society Inc \u2013 Conformation",
       "start": "2026-11-21",
-      "end": "2026-11-21",
+      "end": "2026-11-22",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -51120,27 +49173,6 @@
       "title": "Combined Collie & Shetland Sheepdog Dog \u2013 Conformation",
       "start": "2026-11-21",
       "end": "2026-11-21",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Dalwood Dog Show Committee \u2013 Conformation",
-      "start": "2026-11-21",
-      "end": "2026-11-22",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -51594,7 +49626,7 @@
     {
       "title": "Cooma & District Kennel & Obedience Club \u2013 Conformation",
       "start": "2026-11-28",
-      "end": "2026-11-28",
+      "end": "2026-11-29",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Conformation",
@@ -51686,27 +49718,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Orange & District Kennel & Obedience \u2013 Conformation",
-      "start": "2026-11-28",
-      "end": "2026-11-29",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
       ],
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
@@ -52366,27 +50377,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Uralla & District Kennel Club \u2013 Conformation",
-      "start": "2026-12-11",
-      "end": "2026-12-12",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Conformation",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW"
       ],
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
