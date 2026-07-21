@@ -1,0 +1,24 @@
+name: TEST - NSW PDF parser
+
+# Temporary, manual-only workflow to check what the Dogs NSW PDF parser
+# extracts from the live PDF. It does NOT touch events.json or the live site.
+# Delete this file once NSW parsing is confirmed working.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test-nsw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Run NSW PDF parser (prints results to log)
+        run: python scraper/nsw_pdf.py 2026

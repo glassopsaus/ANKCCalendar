@@ -1,0 +1,44 @@
+name: Update tracking calendar
+
+on:
+  schedule:
+    # 15:30 UTC daily = 01:30 AEST (UTC+10). Cron is always UTC and does not
+    # follow daylight saving, so during AEDT (UTC+11) this runs at 02:30 local.
+    - cron: "30 15 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Chromium for Playwright (renders Top Dog JS pagination)
+        run: python -m playwright install --with-deps chromium
+
+      - name: Scrape events
+        env:
+          YEAR: "2026"
+        run: python scraper/scrape.py
+
+      - name: Commit updated event data
+        run: |
+          git config user.name  "tracking-calendar-bot"
+          git config user.email "actions@github.com"
+          git add docs/events.json docs/events-*.json docs/years.json
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Auto-update tracking events ($(date -u +%Y-%m-%d))"
+            git push
+          fi

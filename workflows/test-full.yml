@@ -1,0 +1,61 @@
+name: TEST - full scraper (dry run)
+
+# Temporary, manual-only. Runs the COMPLETE scraper (all sources + NSW PDF +
+# Show Manager cross-check) and prints results to the log. Does NOT commit
+# events.json, so the live site is untouched. Delete this file once the
+# cross-check output looks right and the daily workflow is trusted to write.
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Chromium for Playwright (renders Top Dog JS pagination)
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run full scraper (writes events.json to a temp copy, prints summary)
+        run: |
+          cd scraper
+          python scrape.py
+          echo "======================================================"
+          echo "SUMMARY OF PRODUCED events.json"
+          echo "======================================================"
+          python - <<'PY'
+          import json, collections, pathlib
+          p = pathlib.Path("../docs/events.json")
+          data = json.loads(p.read_text())
+          evs = data["events"]
+          print("year:", data.get("year"), "| total events:", len(evs))
+          by_region = collections.Counter(e.get("region") for e in evs)
+          by_cat = collections.Counter(e.get("category") for e in evs)
+          by_status = collections.Counter(e.get("status_label") or e.get("status") for e in evs)
+          by_source = collections.Counter(e.get("source") for e in evs)
+          print("\nby region:", dict(by_region))
+          print("by category:", dict(by_cat))
+          print("by source:", dict(by_source))
+          print("\nby status:")
+          for k, v in by_status.most_common():
+              print(f"  {v:4}  {k}")
+          print("\n--- sample: 25 events across statuses ---")
+          for e in evs[:25]:
+              print(f"{e.get('start')}..{e.get('end')} {str(e.get('region')):3} "
+                    f"{str(e.get('category'))[:22]:22} "
+                    f"{str(e.get('status_label') or '')[:34]:34} {e.get('title','')[:44]}")
+          PY
+
+      - name: Show events.json diff size (NOT committed)
+        run: |
+          echo "events.json was regenerated in the runner only."
+          echo "It is NOT committed - the live site is unchanged."
+          git status --porcelain docs/events.json || true
