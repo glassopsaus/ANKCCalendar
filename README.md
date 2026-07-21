@@ -164,7 +164,8 @@ docs/
 
 1. Push these files to a GitHub repo, keeping the structure above.
 2. **Settings → Pages** → *Build from branch* → branch `main`, folder `/docs`.
-   The page goes live at `https://<you>.github.io/<repo>/`.
+   The page goes live at `https://<you>.github.io/<repo>/` — for this project,
+   `https://glassopsaus.github.io/ANKCCalendar/`.
 3. **Settings → Actions → General → Workflow permissions** → *Read and write*
    (so the Action can commit `events.json`).
 4. The Action installs Playwright's Chromium automatically
@@ -188,3 +189,29 @@ docs/
 - Known non-blocking rough edges: WA event titles keep the fixture+club text
   together rather than a clean club field; the "unverified" label's meaning is
   broader now that Show Manager is a primary source for many events.
+
+## Next levers (considered, deferred — build if the trigger appears)
+
+- **Canonical club list / alias table for de-duplication.** Dedup currently
+  matches events by distinctive club-name tokens drawn from title + location
+  (handles the common case where sources put the club name in different fields,
+  e.g. DV in the title vs Top Dog in the location). It CANNOT merge two copies
+  that name the same club with *no shared distinctive token* (e.g. "K9 Scent
+  Club" vs "Geelong Nose Work" for the same club). A canonical per-state club
+  registry with aliases would fix that class, and would also strengthen the NSW
+  Tracking/T&S disambiguation and the matcher's fuzzy name pairing.
+  *Deferred because:* the field-placement duplication (the observed problem) is
+  already handled without it; a full registry+alias resolver across 8 states is
+  a substantial subsystem; and the state-body club directories don't cleanly
+  expose the *aliases* that would justify it (they list formal names only).
+  *Trigger to build:* real duplicates appear where the two copies share no
+  distinctive token. *Best source when building:* harvest `vicdog.com/clubs/`
+  (already scraped; clean canonical VIC names) and the equivalent club lists per
+  state, rather than the harder-to-scrape state directories. Build it targeted
+  at the observed cases, not speculatively.
+- **Canine Disc via CDA (`caninediscaustralia.com/event-schedule`).** The only
+  place Canine Disc events are listed (they run under CDA, not the state
+  bodies). Deferred because the schedule page is currently empty and is a
+  GoDaddy-builder site with unstable markup. *Trigger to build:* the schedule
+  page actually lists events — then assess the real markup before writing a
+  parser. The discipline is already recognised if it reaches us via any source.
