@@ -1651,8 +1651,12 @@ def build_year():
         dup = False
         toks = title_tokens(e["title"])
         for k in unique:
+            # Anchor on the START date + region. The END may differ between
+            # sources for the SAME trial (one lists a single day, another the
+            # full weekend span), so we don't require identical ends here —
+            # the discipline + club-name checks below do the discriminating, and
+            # start+region+category+club is enough to identify one trial.
             if (k.get("start") == e.get("start")
-                    and k.get("end") == e.get("end")
                     and k.get("region") == e.get("region")):
                 # Same trial must be the same discipline. Without this, a club
                 # running (say) a Tracking AND a Scent Work trial on the same day
@@ -1680,6 +1684,16 @@ def build_year():
                     # Preserve a Top Dog "enterable" flag from either copy.
                     if e.get("topdog_open"):
                         k["topdog_open"] = True
+                    # Keep the fuller date span (sources may disagree on whether
+                    # a weekend trial is 1 or 2 days; show the longer end).
+                    if (e.get("end") or "") > (k.get("end") or ""):
+                        k["end"] = e["end"]
+                    # Fill any field the survivor lacks from the duplicate, so
+                    # merging keeps the best available info (location, links...).
+                    for fld in ("location", "entry_url", "schedule_url",
+                                "closes", "address"):
+                        if not k.get(fld) and e.get(fld):
+                            k[fld] = e[fld]
                     break
         if not dup:
             unique.append(e)
