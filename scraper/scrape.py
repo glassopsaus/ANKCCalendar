@@ -1549,12 +1549,20 @@ def build_year():
         # Normalise state words first, then keep distinctive tokens. State words
         # are mapped to a canonical form and kept (they can be the only thing
         # distinguishing/uniting two source titles, e.g. Vic vs Victoria).
-        raw = re.findall(r"[a-z&]+", (t or "").lower())
+        # Tokens are drawn from alphanumeric words so short-but-distinctive
+        # identifiers survive (e.g. "K9", "SSDC") — dropping everything <4 chars
+        # reduced names like "K9 Scent Club" to nothing, which broke dedup.
+        raw = re.findall(r"[a-z0-9&]+", (t or "").lower())
         toks = set()
         for w in raw:
             if w in _STATE_WORDS:
                 toks.add(_STATE_WORDS[w])
-            elif len(w) >= 4 and w not in _TITLE_STOP:
+            elif w in _TITLE_STOP:
+                continue
+            elif len(w) >= 4:
+                toks.add(w)
+            elif len(w) >= 2 and any(c.isdigit() for c in w):
+                # short alphanumeric identifier like "k9" — distinctive, keep it
                 toks.add(w)
         return toks
 
@@ -1594,6 +1602,41 @@ def build_year():
                     return True
         return False
 
+    # Words dropped from the ORDERED name used for prefix matching: only true
+    # fillers and generic trial-type words — NOT discipline words or 'club',
+    # which are part of a club's actual name (e.g. "K9 Scent Club") and give
+    # short names enough words to form a reliable multi-word prefix.
+    _NAME_FILLER = {"inc", "the", "of", "and", "open", "trial", "trials",
+                    "test", "tests"}
+
+    def norm_name(t):
+        """Ordered list of a title's name words (only true fillers/trial-type
+        words removed; discipline words and 'club' kept, unlike title_tokens).
+        Used for prefix-containment: one source's club name being the leading
+        part of the other's is a strong same-event signal that token-set overlap
+        misses for short names like 'K9 Scent Club'."""
+        raw = re.findall(r"[a-z0-9&]+", (t or "").lower())
+        out = []
+        for w in raw:
+            if w in _STATE_WORDS:
+                out.append(_STATE_WORDS[w])
+            elif w in _NAME_FILLER or w == "&":
+                continue
+            elif len(w) >= 3 or (len(w) >= 2 and any(c.isdigit() for c in w)):
+                out.append(w)
+        return out
+
+    def name_prefix_match(a, b):
+        """True if one normalised name is a (non-trivial) leading prefix of the
+        other — e.g. 'k9 scent club' vs 'k9 scent club geelong'. Requires the
+        shorter to be >=2 significant words so a single shared generic token
+        (e.g. just 'k9') can't trigger a merge."""
+        na, nb = norm_name(a), norm_name(b)
+        short, long = (na, nb) if len(na) <= len(nb) else (nb, na)
+        if len(short) < 2:
+            return False
+        return long[:len(short)] == short
+
     seen_exact = set()
     kept = []
     for e in sorted(all_events, key=lambda x: (x.get("start") or "", x["title"])):
@@ -1619,9 +1662,15 @@ def build_year():
                     continue
                 ktoks = title_tokens(k["title"])
                 overlap = len(toks & ktoks)
-                if (overlap >= 2 or (toks and toks <= ktoks)
-                        or (ktoks and ktoks <= toks)
-                        or same_club_by_acronym(e["title"], k["title"])):
+                # A subset match is only trustworthy if the smaller set has >=2
+                # tokens; a single shared token (e.g. just "k9") is too weak and
+                # could merge different clubs — those cases are instead handled
+                # by name_prefix_match, which requires an ordered 2+ word prefix.
+                subset_ok = ((toks and toks <= ktoks and len(toks) >= 2)
+                             or (ktoks and ktoks <= toks and len(ktoks) >= 2))
+                if (overlap >= 2 or subset_ok
+                        or same_club_by_acronym(e["title"], k["title"])
+                        or name_prefix_match(e["title"], k["title"])):
                     dup = True
                     # Merge the duplicate's source(s) into the survivor so it
                     # records every source that corroborated this event.
