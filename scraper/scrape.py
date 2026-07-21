@@ -1647,9 +1647,33 @@ def build_year():
         kept.append(e)
 
     unique = []
+
+    # Generic club-name scaffolding that is NOT distinctive: every "X Club of
+    # Vic Inc" shares these, so they must be excluded from club-identity
+    # matching or unrelated breed clubs on the same day would all collapse.
+    _CLUB_GENERIC = ({"club", "association", "society", "kennel", "canine",
+                      "region", "regional", "districts", "district", "county",
+                      "state", "australian", "australia", "royal"}
+                     | set(_STATE_WORDS.values()) | set(_STATE_WORDS.keys()))
+
+    def club_id_tokens(ev):
+        """DISTINCTIVE club-name tokens from title AND location combined. Drops
+        both the aggressive title-stops (discipline words) AND generic club
+        scaffolding ('club', 'kennel', state names, etc.), leaving only what
+        actually identifies the club — 'k9' for "K9 Scent Club", {'afghan',
+        'hound'} for "Afghan Hound Club of Vic". Sources put the club name in
+        different fields (DV: title; Top Dog: location), so both are combined."""
+        parts = [ev.get("title", "")]
+        loc = ev.get("location", "")
+        if loc and loc.strip().lower() not in _STATE_WORDS:
+            parts.append(loc)
+        toks = title_tokens(" ".join(parts))
+        return {t for t in toks if t not in _CLUB_GENERIC}
+
     for e in kept:
         dup = False
         toks = title_tokens(e["title"])
+        e_club = club_id_tokens(e)
         for k in unique:
             # Anchor on the START date + region. The END may differ between
             # sources for the SAME trial (one lists a single day, another the
@@ -1672,7 +1696,17 @@ def build_year():
                 # by name_prefix_match, which requires an ordered 2+ word prefix.
                 subset_ok = ((toks and toks <= ktoks and len(toks) >= 2)
                              or (ktoks and ktoks <= toks and len(ktoks) >= 2))
-                if (overlap >= 2 or subset_ok
+                # Club-identity match across title+location (handles the DV-vs-
+                # Top Dog field-placement difference). Merge when the distinctive
+                # club tokens of one are a non-empty subset of the other's — this
+                # matches "K9 Scent Club" {k9} inside Top Dog's {k9, geelong},
+                # while keeping unrelated breed clubs apart (e.g. {afghan,hound}
+                # vs {beagle} are not subsets, and {dachshund} vs {dalmatian}
+                # share nothing).
+                k_club = club_id_tokens(k)
+                club_match = bool(e_club and k_club) and (
+                    e_club <= k_club or k_club <= e_club)
+                if (overlap >= 2 or subset_ok or club_match
                         or same_club_by_acronym(e["title"], k["title"])
                         or name_prefix_match(e["title"], k["title"])):
                     dup = True
