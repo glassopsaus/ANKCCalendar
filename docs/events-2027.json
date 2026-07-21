@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-21T22:39:39+00:00",
+  "generated": "2026-07-21T23:25:16+00:00",
   "year": 2027,
-  "count": 565,
+  "count": 564,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -4527,26 +4527,6 @@
     },
     {
       "title": "Airedale Terrier Club of Victoria",
-      "start": "2027-06-12",
-      "end": "2027-06-12",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved; not open (unverified)",
-      "verified": false,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "American Staffordshire Terrier Club of Vic Inc",
       "start": "2027-06-12",
       "end": "2027-06-13",
       "location": "Victoria",
