@@ -1,0 +1,21 @@
+{
+  "generated": "2026-07-21T21:22:25+00:00",
+  "current_year": 2026,
+  "years": [
+    {
+      "year": 2025,
+      "count": 1631,
+      "signature": "23d5be02e3d5e6b63847bb3258959f9425ca68c7ea7a9d1adf738159fa15cb8e",
+      "stable_runs": 1,
+      "frozen": false
+    },
+    {
+      "year": 2026,
+      "count": 2905
+    },
+    {
+      "year": 2027,
+      "count": 565
+    }
+  ]
+}
