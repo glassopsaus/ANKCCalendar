@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T03:07:01+00:00",
+  "generated": "2026-07-22T04:07:14+00:00",
   "year": 2025,
   "count": 1680,
   "sources": [
@@ -6382,7 +6382,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club"
@@ -6405,7 +6405,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Wollongong Dog Sports Club"
