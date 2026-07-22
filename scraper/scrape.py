@@ -59,6 +59,12 @@ except Exception as _e:
     HAVE_WA = False
     print(f"[init] wa_calendar import failed: {_e}", file=sys.stderr)
 try:
+    import sa_calendar
+    HAVE_SA = True
+except Exception as _e:
+    HAVE_SA = False
+    print(f"[init] sa_calendar import failed: {_e}", file=sys.stderr)
+try:
     import show_manager
     HAVE_SM = True
 except Exception as _e:
@@ -1887,6 +1893,22 @@ def build_year():
             all_events.extend(wa_events)
         except Exception as e:
             print(f"[wa] FAILED: {e}", file=sys.stderr)
+
+    # --- Dogs SA (SACA governing-body calendar, SA primary source) -----------
+    # SA had no governing-body source, so SA trials only ever appeared via entry
+    # platforms (Top Dog / Show Manager) and looked single-source. Dogs SA's
+    # upcoming-events calendar closes that gap; these are governing-body
+    # "approved" listings, cross-checked for entry status downstream against the
+    # entry platforms. Upcoming-window only (no past SA events). Fails safe.
+    if HAVE_SA:
+        try:
+            sa_events = sa_calendar.parse_sa_calendar(YEAR)
+            for e in sa_events:
+                e.setdefault("source", "Dogs SA")
+                e["color"] = REGION_COLOR.get("SA", "#c9a227")
+            all_events.extend(sa_events)
+        except Exception as e:
+            print(f"[sa] FAILED: {e}", file=sys.stderr)
 
     # National Events (Dogs Australia): supplementary feed of national-title and
     # major breed championship events. Adds events; verifies nothing; dedups
