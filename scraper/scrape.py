@@ -157,6 +157,20 @@ SOURCES = [
         "source_url": "https://www.topdogevents.com.au/trials",
         "parser": "topdog",
     },
+    {
+        "id": "readyentries",
+        "name": "Ready Entries",
+        # Multi-region: region is read PER EVENT from each object's state field
+        # (act/nsw/qld/...), like Top Dog — no single region/color here.
+        "region": None,
+        "color": None,
+        # Bubble.io SPA; data is fetched via an encrypted session-bound query,
+        # so it's only reachable through the headless browser (see
+        # readyentries_browser.py + parse_readyentries). Fail-safe: yields
+        # nothing rather than breaking the run if the browser/site changes.
+        "parser": "readyentries",
+        "source_url": "https://readyentries.com/view-events",
+    },
 ]
 
 # Region colours reused when a source (Top Dog Events) supplies events for
@@ -252,6 +266,125 @@ def norm_date(value):
     if isinstance(value, dt.date):
         return value.isoformat()
     return None
+
+
+# ---------------------------------------------------------------------------
+# Ready Entries (readyentries.com) — Bubble.io SPA, data via headless browser.
+# ---------------------------------------------------------------------------
+_RE_STATE_MAP = {
+    "act": "ACT", "nsw": "NSW", "qld": "QLD", "vic": "VIC",
+    "sa": "SA", "wa": "WA", "tas": "TAS", "nt": "NT",
+}
+# Ready Entries entry_status_text -> our internal status key.
+_RE_STATUS_MAP = {
+    "open for entry": "open",
+    "not yet open for entry": "listed",
+    "closed for entry": "closed",
+    "entry by ballot application only": "listed",
+}
+
+
+def _re_epoch_to_iso(v):
+    """Ready Entries dates are epoch MILLISECONDS (e.g. 1784688076433). Convert
+    to an ISO date, or None."""
+    if not isinstance(v, (int, float)):
+        return None
+    try:
+        return dt.datetime.utcfromtimestamp(v / 1000.0).date().isoformat()
+    except (ValueError, OverflowError, OSError):
+        return None
+
+
+def parse_readyentries(source):
+    """Fetch Ready Entries events via the headless browser (it renders the
+    Bubble SPA and we intercept the decrypted JSON), then normalise the raw
+    Bubble objects into our event shape. Fail-safe: returns [] on any problem
+    so it can never break the run.
+    """
+    try:
+        import readyentries_browser
+        raw = readyentries_browser.get_readyentries_events()
+    except Exception as e:
+        print(f"[readyentries] browser module error: {e}", file=sys.stderr)
+        return []
+    if not raw:
+        print("[readyentries] no events captured", file=sys.stderr)
+        return []
+
+    # One-off field diagnostic so we can confirm the per-event link field.
+    try:
+        _sample_keys = sorted(raw[0].keys())
+        print(f"[readyentries] sample fields: {_sample_keys}", file=sys.stderr)
+    except Exception:
+        pass
+
+    events = []
+    for r in raw:
+        if not isinstance(r, dict):
+            continue
+        # Skip records explicitly hidden from the public events list.
+        if r.get("hide_from_events_list_boolean") is True:
+            continue
+        title = (r.get("name_text") or "").strip()
+        start = _re_epoch_to_iso(r.get("start_date_date"))
+        end = _re_epoch_to_iso(r.get("end_date_date")) or start
+        if not title or not start:
+            continue
+        if dt.date.fromisoformat(start).year != YEAR:
+            continue
+
+        region = _RE_STATE_MAP.get(
+            str(r.get("state_option_state") or "").strip().lower())
+        location = (r.get("location_text") or "").strip()
+
+        # Discipline: the Bubble field is an opaque LOOKUP id, so classify from
+        # the trial name (same approach as the ACT/TAS feeds).
+        discipline = classify_feed_discipline(title, location)
+        if not discipline:
+            continue
+
+        # Entry status from Ready Entries' own field.
+        status_key = _RE_STATUS_MAP.get(
+            str(r.get("entry_status_text") or "").strip().lower())
+        cancelled = bool(r.get("event_group_cancelled__boolean"))
+        closes = _re_epoch_to_iso(r.get("entries_close_date"))
+
+        # Per-event entry link. Ready Entries is a real entry platform, so a
+        # per-event URL would be a genuine entry link. NOTE: the exact public
+        # per-event URL format is NOT yet confirmed — /view-event?event=<id> is
+        # a plausible Bubble pattern but unverified. We set it provisionally;
+        # the first run's data lets us check whether these resolve. If they
+        # 404, drop to the generic view-events page instead (still an entry
+        # platform destination). TODO: confirm the real per-event URL.
+        ev_id = r.get("_id") or r.get("id")
+        entry_url = None
+        if ev_id:
+            entry_url = f"https://readyentries.com/view-event?event={ev_id}"
+
+        ev = {
+            "title": title,
+            "start": start,
+            "end": end,
+            "location": location or (region or ""),
+            "url": entry_url or "https://readyentries.com/view-events",
+            "category": discipline,
+            "region": region,
+            "cancelled": cancelled,
+            "color": REGION_COLOR.get(region),
+        }
+        if entry_url:
+            ev["entry_url"] = entry_url
+        if closes:
+            ev["closes"] = closes
+        if status_key:
+            ev["status"] = status_key
+        events.append(ev)
+
+    from collections import Counter
+    _bd = Counter(e["category"] for e in events)
+    print(f"[readyentries] parsed {len(events)} events across disciplines "
+          f"{dict(_bd)}", file=sys.stderr)
+    return events
 
 
 # ---------------------------------------------------------------------------
@@ -1300,6 +1433,8 @@ def scrape_source(source):
     parser = source.get("parser")
     if parser == "topdog":
         events = parse_topdog(source)
+    elif parser == "readyentries":
+        events = parse_readyentries(source)
     elif parser == "tasdogs":
         events = parse_tasdogs(source)
     elif source.get("id") == "dogsact":
@@ -1373,6 +1508,8 @@ def _entry_link_rank(url):
     if re.search(r"showmanager\.com\.au", url, re.I):
         return 0
     if re.search(r"topdogevents\.com\.au/trials/\d+", url, re.I):
+        return 0
+    if re.search(r"readyentries\.com/view-event\b", url, re.I):
         return 0
     return 1  # some other specific deep link
 
