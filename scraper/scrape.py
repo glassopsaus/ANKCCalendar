@@ -1671,6 +1671,21 @@ def build_year():
         "tas": "tasmania", "tasmania": "tasmania",
         "act": "act", "nt": "northernterritory",
     }
+    # Full multi-word state/territory names, as a whole string, so a location
+    # that is just a bare state name ("Western Australia", "New South Wales")
+    # is recognised as non-distinctive — not tokenised into stray words like
+    # "western" that then break club-identity matching.
+    _FULL_STATE_NAMES = {
+        "victoria", "queensland", "tasmania",
+        "new south wales", "western australia", "south australia",
+        "northern territory", "australian capital territory", "act",
+    }
+    # Component words of spaced state names -> drop from distinctive tokens
+    # (they carry no club identity: "Western Australia" as a location must not
+    # contribute a "western" token).
+    _STATE_PART_WORDS = {"western", "southern", "northern", "south", "north",
+                         "new", "wales", "capital", "territory", "australia",
+                         "australian"}
     _TITLE_STOP = {"trial", "trials", "test", "tests", "club", "dog", "dogs",
                    "obedience", "tracking", "track", "search", "scent",
                    "inc", "the", "of", "and", "open"}
@@ -1687,7 +1702,7 @@ def build_year():
         for w in raw:
             if w in _STATE_WORDS:
                 toks.add(_STATE_WORDS[w])
-            elif w in _TITLE_STOP:
+            elif w in _TITLE_STOP or w in _STATE_PART_WORDS:
                 continue
             elif len(w) >= 4:
                 toks.add(w)
@@ -1795,7 +1810,8 @@ def build_year():
         different fields (DV: title; Top Dog: location), so both are combined."""
         parts = [ev.get("title", "")]
         loc = ev.get("location", "")
-        if loc and loc.strip().lower() not in _STATE_WORDS:
+        _loc_lc = loc.strip().lower() if loc else ""
+        if loc and _loc_lc not in _STATE_WORDS and _loc_lc not in _FULL_STATE_NAMES:
             parts.append(loc)
         toks = title_tokens(" ".join(parts))
         return {t for t in toks if t not in _CLUB_GENERIC}
