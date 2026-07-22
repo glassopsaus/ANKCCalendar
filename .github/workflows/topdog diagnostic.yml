@@ -1,0 +1,34 @@
+name: Top Dog diagnostic (temporary)
+
+# Manual-only. Runs JUST the Top Dog headless-browser walk (upcoming p1) so the
+# "SAMPLE LISTING LINK CONTEXT" diagnostic prints to the log, WITHOUT a full
+# multi-year refresh and WITHOUT committing anything. Delete this workflow once
+# the Top Dog per-event link structure is understood.
+
+on:
+  workflow_dispatch: {}
+
+# No write permission: this job cannot change the live data.
+permissions:
+  contents: read
+
+jobs:
+  topdog-diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Chromium for Playwright
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run Top Dog browser diagnostic (upcoming only)
+        env:
+          TOPDOG_DIAG: "1"
+        run: python scraper/topdog_browser.py
