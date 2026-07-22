@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21T23:45:08+00:00",
+  "generated": "2026-07-22T00:25:53+00:00",
   "year": 2027,
   "count": 564,
   "sources": [
@@ -77,7 +77,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria New Year Committee"
     },
     {
       "title": "RCH Fundraiser - Twilight",
@@ -97,7 +98,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "RCH Fundraiser - Twilight"
     },
     {
       "title": "Cranbourne Dog Club Inc AM",
@@ -117,7 +119,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cranbourne Dog Club Inc AM"
     },
     {
       "title": "Cranbourne Dog Club Inc",
@@ -137,7 +140,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cranbourne Dog Club Inc"
     },
     {
       "title": "Lady Bay Kennel Club Inc",
@@ -157,7 +161,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lady Bay Kennel Club Inc"
     },
     {
       "title": "Warrnambool & District K & O Club Inc",
@@ -177,7 +182,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Warrnambool & District K & O Club Inc"
     },
     {
       "title": "Lang Lang P A & H Society Inc",
@@ -197,7 +203,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lang Lang P A & H Society Inc"
     },
     {
       "title": "Ballarat Dog Club Inc",
@@ -217,7 +224,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Ballarat Dog Club Inc"
     },
     {
       "title": "Southern Obedience Dog Training Club Inc",
@@ -237,11 +245,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Southern Obedience Dog Training Club Inc"
     },
     {
       "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
-      "club": "",
+      "club": "Sprintdog \u2122 All breeds West Coast Dog Sports",
       "start": "2027-01-23",
       "end": "2027-01-23",
       "location": "Western Australia",
@@ -278,11 +287,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Australia Day International Dog Club Inc"
     },
     {
       "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
-      "club": "",
+      "club": "Sprintdog \u2122 All breeds West Coast Dog Sports",
       "start": "2027-01-24",
       "end": "2027-01-24",
       "location": "Western Australia",
@@ -303,7 +313,7 @@
     },
     {
       "title": "Sprintdog \u2122 Whippet Club",
-      "club": "",
+      "club": "Sprintdog \u2122 Whippet Club",
       "start": "2027-01-25",
       "end": "2027-01-25",
       "location": "Western Australia",
@@ -324,7 +334,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Fremantle Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Fremantle Dog Club \u2013 Conformation",
       "start": "2027-01-29",
       "end": "2027-01-29",
       "location": "Western Australia",
@@ -345,7 +355,7 @@
     },
     {
       "title": "Obedience & Rally Trial SRA&ODC",
-      "club": "",
+      "club": "Obedience & Rally Trial SRA&ODC",
       "start": "2027-01-29",
       "end": "2027-01-29",
       "location": "Western Australia",
@@ -366,7 +376,7 @@
     },
     {
       "title": "Obedience & Rally Trial SRA&ODC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally Trial SRA&ODC \u2013 Rally Obedience",
       "start": "2027-01-29",
       "end": "2027-01-29",
       "location": "Western Australia",
@@ -387,7 +397,7 @@
     },
     {
       "title": "Agility, Jumping & Games Trial Cloverdale Canine Comp",
-      "club": "",
+      "club": "Agility, Jumping & Games Trial Cloverdale Canine Comp",
       "start": "2027-01-30",
       "end": "2027-01-30",
       "location": "Western Australia",
@@ -408,7 +418,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Fremantle Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Fremantle Dog Club \u2013 Conformation",
       "start": "2027-01-30",
       "end": "2027-01-30",
       "location": "Western Australia",
@@ -445,7 +455,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "South Eastern Kennel Club Inc AM"
     },
     {
       "title": "South Eastern Kennel Club Inc",
@@ -465,7 +476,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "South Eastern Kennel Club Inc"
     },
     {
       "title": "Border Collie Club of Victoria \u2013 RTG5 Twilight RTG",
@@ -485,7 +497,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Border Collie Club of Victoria \u2013 RTG5 Twilight RTG"
     },
     {
       "title": "Classic Dog Show",
@@ -505,11 +518,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Classic Dog Show"
     },
     {
       "title": "Sprintdog\u2122 Trial Whippet Club",
-      "club": "",
+      "club": "Sprintdog\u2122 Trial Whippet Club",
       "start": "2027-02-06",
       "end": "2027-02-06",
       "location": "Western Australia",
@@ -530,7 +544,7 @@
     },
     {
       "title": "Open Show (All Breeds) Bunbury & Dist.DC \u2013 Conformation",
-      "club": "",
+      "club": "Open Show (All Breeds) Bunbury & Dist.DC \u2013 Conformation",
       "start": "2027-02-07",
       "end": "2027-02-07",
       "location": "Western Australia",
@@ -567,11 +581,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lyndhurst Canine Country Club Inc"
     },
     {
       "title": "Agility Trials x 2 Albany All Breeds DC",
-      "club": "",
+      "club": "Agility Trials x 2 Albany All Breeds DC",
       "start": "2027-02-13",
       "end": "2027-02-13",
       "location": "Western Australia",
@@ -608,11 +623,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lyndhurst Canine Country Club Inc AM"
     },
     {
       "title": "Obedience & Rally Trial Albany All Breeds DC",
-      "club": "",
+      "club": "Obedience & Rally Trial Albany All Breeds DC",
       "start": "2027-02-13",
       "end": "2027-02-13",
       "location": "Western Australia",
@@ -633,7 +649,7 @@
     },
     {
       "title": "Obedience & Rally Trial Albany All Breeds DC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally Trial Albany All Breeds DC \u2013 Rally Obedience",
       "start": "2027-02-13",
       "end": "2027-02-13",
       "location": "Western Australia",
@@ -670,11 +686,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Warragul & District Kennel & Obedience Dog Club Inc"
     },
     {
       "title": "Agility Trials x 2 (Jumping Only) Albany All Breeds DC",
-      "club": "",
+      "club": "Agility Trials x 2 (Jumping Only) Albany All Breeds DC",
       "start": "2027-02-14",
       "end": "2027-02-14",
       "location": "Western Australia",
@@ -695,7 +712,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Albany All Breeds DC \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Albany All Breeds DC \u2013 Conformation",
       "start": "2027-02-14",
       "end": "2027-02-14",
       "location": "Western Australia",
@@ -732,11 +749,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lyndhurst Canine Country Club Inc"
     },
     {
       "title": "Trick Dog Tests Albany All Breeds DC",
-      "club": "",
+      "club": "Trick Dog Tests Albany All Breeds DC",
       "start": "2027-02-14",
       "end": "2027-02-14",
       "location": "Western Australia",
@@ -757,7 +775,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Hills Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Hills Kennel Club \u2013 Conformation",
       "start": "2027-02-19",
       "end": "2027-02-19",
       "location": "Western Australia",
@@ -778,7 +796,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Hills Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Hills Kennel Club \u2013 Conformation",
       "start": "2027-02-20",
       "end": "2027-02-20",
       "location": "Western Australia",
@@ -815,11 +833,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria Sprintdog Committee"
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DC",
-      "club": "",
+      "club": "Obedience & Rally O Trials German Shepherd DC",
       "start": "2027-02-20",
       "end": "2027-02-20",
       "location": "Western Australia",
@@ -840,7 +859,7 @@
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials German Shepherd DC \u2013 Rally Obedience",
       "start": "2027-02-20",
       "end": "2027-02-20",
       "location": "Western Australia",
@@ -861,7 +880,7 @@
     },
     {
       "title": "Sprintdog\u2122 Trial Whippet Club",
-      "club": "",
+      "club": "Sprintdog\u2122 Trial Whippet Club",
       "start": "2027-02-20",
       "end": "2027-02-20",
       "location": "Western Australia",
@@ -898,7 +917,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Sunshine Kennel Club (AM)"
     },
     {
       "title": "Canine Amenities",
@@ -918,7 +938,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Canine Amenities"
     },
     {
       "title": "Rottweiler Club of Victoria Inc",
@@ -938,7 +959,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Rottweiler Club of Victoria Inc"
     },
     {
       "title": "Rochester",
@@ -958,7 +980,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Rochester"
     },
     {
       "title": "Berwick Agrictlural",
@@ -978,7 +1001,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Berwick Agrictlural"
     },
     {
       "title": "Hound Club of Vic Inc",
@@ -998,7 +1022,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Hound Club of Vic Inc"
     },
     {
       "title": "Samoyed Club of Vic Inc",
@@ -1018,7 +1043,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Samoyed Club of Vic Inc"
     },
     {
       "title": "Staffordshire Bull Terrier Club of Victoria RTB",
@@ -1038,7 +1064,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Staffordshire Bull Terrier Club of Victoria RTB"
     },
     {
       "title": "Basenji Club of Victoria (Outdoors Only)",
@@ -1058,7 +1085,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Basenji Club of Victoria (Outdoors Only)"
     },
     {
       "title": "Geelong Obedience Dog Club",
@@ -1078,7 +1106,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Geelong Obedience Dog Club"
     },
     {
       "title": "German Shepherd Dog Club of Victoria",
@@ -1098,7 +1127,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Victoria"
     },
     {
       "title": "German Shepherd Dog Club of Victoria RTB",
@@ -1118,7 +1148,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Victoria RTB"
     },
     {
       "title": "Southern Obedience Dog Training Club",
@@ -1138,11 +1169,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Southern Obedience Dog Training Club"
     },
     {
       "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
-      "club": "",
+      "club": "Sprintdog \u2122 All breeds West Coast Dog Sports",
       "start": "2027-03-06",
       "end": "2027-03-06",
       "location": "Western Australia",
@@ -1179,7 +1211,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Staffordshire Bull Terrier Club of Vic Inc"
     },
     {
       "title": "Yarram and District Canine Club Inc AM",
@@ -1199,7 +1232,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Yarram and District Canine Club Inc AM"
     },
     {
       "title": "Warragul & District Kennel & Obedience Club Inc PM",
@@ -1219,7 +1253,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Warragul & District Kennel & Obedience Club Inc PM"
     },
     {
       "title": "Yarram and District Canine Club In",
@@ -1239,7 +1274,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Yarram and District Canine Club In"
     },
     {
       "title": "Warragul & District Kennel & Obedience Club Inc",
@@ -1259,7 +1295,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Warragul & District Kennel & Obedience Club Inc"
     },
     {
       "title": "German Shorthaired Pointer Club of Vic Inc",
@@ -1279,7 +1316,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "German Shorthaired Pointer Club of Vic Inc"
     },
     {
       "title": "Cohuna & District Kennel Club AM",
@@ -1299,7 +1337,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cohuna & District Kennel Club AM"
     },
     {
       "title": "Chihuahua Club of Vic",
@@ -1319,11 +1358,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Chihuahua Club of Vic"
     },
     {
       "title": "DWD Trial DWD Club \u2013 Dances with Dogs",
-      "club": "",
+      "club": "DWD Trial DWD Club \u2013 Dances with Dogs",
       "start": "2027-03-13",
       "end": "2027-03-13",
       "location": "Western Australia",
@@ -1360,7 +1400,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Hungarian Vizsla Club of Victoria Inc"
     },
     {
       "title": "Kerang & District Kennel Club Inc AM",
@@ -1380,11 +1421,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Kerang & District Kennel Club Inc AM"
     },
     {
       "title": "Scentwork Trial Bunbury & Districts \u2013 Scent Work",
-      "club": "",
+      "club": "Scentwork Trial Bunbury & Districts",
       "start": "2027-03-13",
       "end": "2027-03-13",
       "location": "Western Australia",
@@ -1421,7 +1463,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Southern Obedience Dog Training Club Inc"
     },
     {
       "title": "K9 Scent Club",
@@ -1441,7 +1484,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "K9 Scent Club"
     },
     {
       "title": "Pakenham Agricultural Society",
@@ -1461,11 +1505,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Pakenham Agricultural Society"
     },
     {
       "title": "Scentwork Trial Bunbury & Districts \u2013 Scent Work",
-      "club": "",
+      "club": "Scentwork Trial Bunbury & Districts",
       "start": "2027-03-14",
       "end": "2027-03-14",
       "location": "Western Australia",
@@ -1486,7 +1531,7 @@
     },
     {
       "title": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
       "start": "2027-03-19",
       "end": "2027-03-19",
       "location": "Western Australia",
@@ -1507,7 +1552,7 @@
     },
     {
       "title": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
       "start": "2027-03-20",
       "end": "2027-03-20",
       "location": "Western Australia",
@@ -1528,7 +1573,7 @@
     },
     {
       "title": "Sprintdog\u2122 Trial Whippet Club",
-      "club": "",
+      "club": "Sprintdog\u2122 Trial Whippet Club",
       "start": "2027-03-20",
       "end": "2027-03-20",
       "location": "Western Australia",
@@ -1565,7 +1610,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Twilight Canine Country Club Inc"
     },
     {
       "title": "Schnauzer Club of Victoria",
@@ -1585,7 +1631,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Schnauzer Club of Victoria"
     },
     {
       "title": "Cavalier King Charles Spaniel Club of Victoria Inc",
@@ -1605,7 +1652,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
     },
     {
       "title": "Dogs Victoria Easter Festival",
@@ -1625,7 +1673,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria Easter Festival"
     },
     {
       "title": "Dobermann Club of Victoria Inc",
@@ -1645,7 +1694,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dobermann Club of Victoria Inc"
     },
     {
       "title": "Dogs Victoria OTEC",
@@ -1665,11 +1715,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria OTEC"
     },
     {
       "title": "Retrieving Trial - All Age Stakes Labrador Retriever Club",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes Labrador Retriever Club",
       "start": "2027-03-27",
       "end": "2027-03-27",
       "location": "Western Australia",
@@ -1706,11 +1757,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria OTEC"
     },
     {
       "title": "Retrieving Trial - All Age Stakes Retrieving Club of WA",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes Retrieving Club of WA",
       "start": "2027-03-28",
       "end": "2027-03-28",
       "location": "Western Australia",
@@ -1731,7 +1783,7 @@
     },
     {
       "title": "Agility, Jumping & Games Trial Cloverdale Canine C.",
-      "club": "",
+      "club": "Agility, Jumping & Games Trial Cloverdale Canine C.",
       "start": "2027-04-03",
       "end": "2027-04-03",
       "location": "Western Australia",
@@ -1752,7 +1804,7 @@
     },
     {
       "title": "Championship Shows x 2 (All Breeds) All Breeds Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Shows x 2 (All Breeds) All Breeds Dog Club \u2013 Conformation",
       "start": "2027-04-03",
       "end": "2027-04-03",
       "location": "Western Australia",
@@ -1789,7 +1841,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Club L'Epagneul Breton"
     },
     {
       "title": "Sovereign City Kennel Club Inc",
@@ -1809,7 +1862,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Sovereign City Kennel Club Inc"
     },
     {
       "title": "Bunyip Agricultural Society",
@@ -1829,11 +1883,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bunyip Agricultural Society"
     },
     {
       "title": "Championship Show (All Breeds) All Breeds Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) All Breeds Dog Club \u2013 Conformation",
       "start": "2027-04-04",
       "end": "2027-04-04",
       "location": "Western Australia",
@@ -1854,7 +1909,7 @@
     },
     {
       "title": "Herding Trial - Double Header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header All Breeds Herding Club",
       "start": "2027-04-04",
       "end": "2027-04-04",
       "location": "Western Australia",
@@ -1875,7 +1930,7 @@
     },
     {
       "title": "Obedience Trials x 2 & Rally Trial Bunbury & Dist.DC",
-      "club": "",
+      "club": "Obedience Trials x 2 & Rally Trial Bunbury & Dist.DC",
       "start": "2027-04-04",
       "end": "2027-04-04",
       "location": "Western Australia",
@@ -1896,7 +1951,7 @@
     },
     {
       "title": "Obedience Trials x 2 & Rally Trial Bunbury & Dist.DC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience Trials x 2 & Rally Trial Bunbury & Dist.DC \u2013 Rally Obedience",
       "start": "2027-04-04",
       "end": "2027-04-04",
       "location": "Western Australia",
@@ -1933,7 +1988,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Shetland Sheepdog Club of Victoria"
     },
     {
       "title": "Australian Shepherd Club Vic",
@@ -1953,7 +2009,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Australian Shepherd Club Vic"
     },
     {
       "title": "Bearded Collie Club of Vic",
@@ -1973,11 +2030,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bearded Collie Club of Vic"
     },
     {
       "title": "DWD Trial Midland Dog Training \u2013 Dances with Dogs",
-      "club": "",
+      "club": "DWD Trial Midland Dog Training \u2013 Dances with Dogs",
       "start": "2027-04-09",
       "end": "2027-04-09",
       "location": "Western Australia",
@@ -2014,7 +2072,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Ballarat Obedience Dog Club"
     },
     {
       "title": "Chihuahua Club of Vic Inc",
@@ -2034,7 +2093,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Chihuahua Club of Vic Inc"
     },
     {
       "title": "Kilmore Kennel Club Inc AM",
@@ -2054,7 +2114,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Kilmore Kennel Club Inc AM"
     },
     {
       "title": "Warragul & District Kennel & Obedience Dog Club Inc",
@@ -2074,7 +2135,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Warragul & District Kennel & Obedience Dog Club Inc"
     },
     {
       "title": "Bulla Amenities Show Committee",
@@ -2094,7 +2156,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bulla Amenities Show Committee"
     },
     {
       "title": "Gippsland Obedience Dog Club",
@@ -2114,7 +2177,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Gippsland Obedience Dog Club"
     },
     {
       "title": "Greensborough and District Kennel Club - AM Show",
@@ -2134,11 +2198,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Greensborough and District Kennel Club - AM Show"
     },
     {
       "title": "Obedience & Rally Trials Southern River A&ODC",
-      "club": "",
+      "club": "Obedience & Rally Trials Southern River A&ODC",
       "start": "2027-04-11",
       "end": "2027-04-11",
       "location": "Western Australia",
@@ -2159,7 +2224,7 @@
     },
     {
       "title": "Obedience & Rally Trials Southern River A&ODC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally Trials Southern River A&ODC \u2013 Rally Obedience",
       "start": "2027-04-11",
       "end": "2027-04-11",
       "location": "Western Australia",
@@ -2196,7 +2261,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Wangaratta Kennel & Obedience Dog Club Inc"
     },
     {
       "title": "Wodonga Kennel Club Inc",
@@ -2216,7 +2282,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Wodonga Kennel Club Inc"
     },
     {
       "title": "Bendigo Obedience Dog Club",
@@ -2236,11 +2303,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bendigo Obedience Dog Club"
     },
     {
       "title": "Championship & Open Show German S/haired Pointer Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show German S/haired Pointer Club \u2013 Conformation",
       "start": "2027-04-17",
       "end": "2027-04-17",
       "location": "Western Australia",
@@ -2261,7 +2329,7 @@
     },
     {
       "title": "DWD Competition DWD Club of WA \u2013 Dances with Dogs",
-      "club": "",
+      "club": "DWD Competition DWD Club of WA \u2013 Dances with Dogs",
       "start": "2027-04-17",
       "end": "2027-04-17",
       "location": "Western Australia",
@@ -2282,7 +2350,7 @@
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double header All Breeds Herding Club",
       "start": "2027-04-17",
       "end": "2027-04-17",
       "location": "Western Australia",
@@ -2303,7 +2371,7 @@
     },
     {
       "title": "Championship & Open Show BT&BT(Min)Assoc. \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Hound Club \u2013 Conformation",
       "start": "2027-04-18",
       "end": "2027-04-18",
       "location": "Western Australia",
@@ -2324,7 +2392,7 @@
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "start": "2027-04-18",
       "end": "2027-04-18",
       "location": "Western Australia",
@@ -2345,7 +2413,7 @@
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
-      "club": "",
+      "club": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
       "start": "2027-04-18",
       "end": "2027-04-18",
       "location": "Western Australia",
@@ -2382,7 +2450,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Wangaratta Kennel & Obedience Dog Club Inc"
     },
     {
       "title": "Wodonga Kennel Club Inc",
@@ -2402,7 +2471,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Wodonga Kennel Club Inc"
     },
     {
       "title": "White Swiss Shepherd Dog Association of Victoria Inc",
@@ -2422,7 +2492,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "White Swiss Shepherd Dog Association of Victoria Inc"
     },
     {
       "title": "German Shorthaired Pointer Club of Vic Inc",
@@ -2442,7 +2513,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "German Shorthaired Pointer Club of Vic Inc"
     },
     {
       "title": "Mildura & District Kennel Club Inc AM",
@@ -2462,11 +2534,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Mildura & District Kennel Club Inc AM"
     },
     {
       "title": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
       "start": "2027-04-24",
       "end": "2027-04-24",
       "location": "Western Australia",
@@ -2503,7 +2576,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Colac Kennel Club Inc"
     },
     {
       "title": "Geelong Obedience Dog Club Inc",
@@ -2523,7 +2597,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Geelong Obedience Dog Club Inc"
     },
     {
       "title": "Merbein Kennel Club AM",
@@ -2543,11 +2618,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Merbein Kennel Club AM"
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DA",
-      "club": "",
+      "club": "Obedience & Rally O Trials German Shepherd DA",
       "start": "2027-04-24",
       "end": "2027-04-24",
       "location": "Western Australia",
@@ -2568,7 +2644,7 @@
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DA \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials German Shepherd DA \u2013 Rally Obedience",
       "start": "2027-04-24",
       "end": "2027-04-24",
       "location": "Western Australia",
@@ -2589,7 +2665,7 @@
     },
     {
       "title": "Retrieving Trial - Nov & Rest Stakes (National Fundraiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Retrieving Trial - Nov & Rest Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-04-24",
       "end": "2027-04-24",
       "location": "Western Australia",
@@ -2610,7 +2686,7 @@
     },
     {
       "title": "Scentwork Trial Scent Work Club of WA",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club of WA",
       "start": "2027-04-24",
       "end": "2027-04-24",
       "location": "Western Australia",
@@ -2631,7 +2707,7 @@
     },
     {
       "title": "Agility Trial x 2 Southern River A&ODC",
-      "club": "",
+      "club": "Agility Trial x 2 Southern River A&ODC",
       "start": "2027-04-25",
       "end": "2027-04-25",
       "location": "Western Australia",
@@ -2652,7 +2728,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
       "start": "2027-04-25",
       "end": "2027-04-25",
       "location": "Western Australia",
@@ -2673,7 +2749,7 @@
     },
     {
       "title": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-04-25",
       "end": "2027-04-25",
       "location": "Western Australia",
@@ -2694,7 +2770,7 @@
     },
     {
       "title": "Scentwork Trial Scent Work Club of WA",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club of WA",
       "start": "2027-04-25",
       "end": "2027-04-25",
       "location": "Western Australia",
@@ -2715,7 +2791,7 @@
     },
     {
       "title": "Scentwork Trial Scent Work Club of WA",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club of WA",
       "start": "2027-04-26",
       "end": "2027-04-26",
       "location": "Western Australia",
@@ -2752,7 +2828,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Victorian Gundog Club Inc"
     },
     {
       "title": "Bulla Amenities Show",
@@ -2772,7 +2849,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bulla Amenities Show"
     },
     {
       "title": "Tracking Club of Victoria",
@@ -2792,11 +2870,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Tracking Club of Victoria"
     },
     {
       "title": "Championship & Open Show Bull Terrier Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Bull Terrier Club \u2013 Conformation",
       "start": "2027-05-01",
       "end": "2027-05-01",
       "location": "Western Australia",
@@ -2817,7 +2896,7 @@
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double header All Breeds Herding Club",
       "start": "2027-05-01",
       "end": "2027-05-01",
       "location": "Western Australia",
@@ -2854,7 +2933,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Hound Club of Vic Inc"
     },
     {
       "title": "K9 Scent Club",
@@ -2874,7 +2954,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "K9 Scent Club"
     },
     {
       "title": "Murray Valley Obedience Dog Club Inc",
@@ -2894,11 +2975,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Murray Valley Obedience Dog Club Inc"
     },
     {
       "title": "Obedience & Rally Trials & Trick Dog Tests Perth Training & ODC",
-      "club": "",
+      "club": "Obedience & Rally Trials & Trick Dog Tests Perth Training & ODC",
       "start": "2027-05-01",
       "end": "2027-05-01",
       "location": "Western Australia",
@@ -2919,7 +3001,7 @@
     },
     {
       "title": "Obedience & Rally Trials & Trick Dog Tests Perth Training & ODC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally Trials & Trick Dog Tests Perth Training & ODC \u2013 Rally Obedience",
       "start": "2027-05-01",
       "end": "2027-05-01",
       "location": "Western Australia",
@@ -2940,7 +3022,7 @@
     },
     {
       "title": "Agility Trials x 2 Agility Club of WA",
-      "club": "",
+      "club": "Agility Trials x 2 Agility Club of WA",
       "start": "2027-05-02",
       "end": "2027-05-02",
       "location": "Western Australia",
@@ -2961,7 +3043,7 @@
     },
     {
       "title": "Championship & Open Show Shetland Sheepdog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Shetland Sheepdog Club \u2013 Conformation",
       "start": "2027-05-02",
       "end": "2027-05-02",
       "location": "Western Australia",
@@ -2998,11 +3080,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Croydon & District Obedience Dog Club"
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2027-05-02",
       "end": "2027-05-02",
       "location": "Western Australia",
@@ -3023,7 +3106,7 @@
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
-      "club": "",
+      "club": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
       "start": "2027-05-02",
       "end": "2027-05-02",
       "location": "Western Australia",
@@ -3044,7 +3127,7 @@
     },
     {
       "title": "Scentwork Advanced Tracking Club",
-      "club": "",
+      "club": "Scentwork Advanced Tracking Club",
       "start": "2027-05-02",
       "end": "2027-05-02",
       "location": "Western Australia",
@@ -3065,7 +3148,7 @@
     },
     {
       "title": "Scentwork Advanced Tracking Club \u2013 Scent Work",
-      "club": "",
+      "club": "Scentwork Advanced Tracking Club",
       "start": "2027-05-02",
       "end": "2027-05-02",
       "location": "Western Australia",
@@ -3102,7 +3185,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Toy Poodle Society of Victoria Inc"
     },
     {
       "title": "Shepparton & District Kennel Club Inc",
@@ -3122,7 +3206,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Shepparton & District Kennel Club Inc"
     },
     {
       "title": "Borzoi Club of Vic Inc",
@@ -3142,11 +3227,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Borzoi Club of Vic Inc"
     },
     {
       "title": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
       "start": "2027-05-08",
       "end": "2027-05-08",
       "location": "Western Australia",
@@ -3183,11 +3269,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Northern Obedience Dog Club Inc"
     },
     {
       "title": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club",
-      "club": "",
+      "club": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club",
       "start": "2027-05-08",
       "end": "2027-05-08",
       "location": "Western Australia",
@@ -3208,7 +3295,7 @@
     },
     {
       "title": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club \u2013 Rally Obedience",
       "start": "2027-05-08",
       "end": "2027-05-08",
       "location": "Western Australia",
@@ -3245,11 +3332,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Papillon Club of Vic Inc"
     },
     {
       "title": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-05-08",
       "end": "2027-05-08",
       "location": "Western Australia",
@@ -3286,11 +3374,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Rhodesian Ridgeback Club of Vic Inc"
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-05-08",
       "end": "2027-05-08",
       "location": "Western Australia",
@@ -3327,7 +3416,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Shepparton & District Kennel Club Inc AM"
     },
     {
       "title": "The Hungarian Vizsla Club of Victoria",
@@ -3347,7 +3437,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "The Hungarian Vizsla Club of Victoria"
     },
     {
       "title": "Wangaratta Kennel & Obedience Dog Club Inc",
@@ -3367,7 +3458,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Wangaratta Kennel & Obedience Dog Club Inc"
     },
     {
       "title": "Welsh Corgi Club of Vic",
@@ -3387,11 +3479,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Welsh Corgi Club of Vic"
     },
     {
       "title": "Championship Show & Open Show (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show & Open Show (All Breeds) Canine Stewards Assoc \u2013 Conformation",
       "start": "2027-05-09",
       "end": "2027-05-09",
       "location": "Western Australia",
@@ -3428,7 +3521,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Collie Club of Victoria"
     },
     {
       "title": "Euroa Kennel Club Inc AM",
@@ -3448,11 +3542,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Euroa Kennel Club Inc AM"
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "start": "2027-05-09",
       "end": "2027-05-09",
       "location": "Western Australia",
@@ -3473,7 +3568,7 @@
     },
     {
       "title": "Retrieving Trial (All Age Stakes) Gundog Club of WA",
-      "club": "",
+      "club": "Retrieving Trial (All Age Stakes) Gundog Club of WA",
       "start": "2027-05-09",
       "end": "2027-05-09",
       "location": "Western Australia",
@@ -3510,11 +3605,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
     },
     {
       "title": "Agility Trials x 2 Northern Suburbs T&ODC",
-      "club": "",
+      "club": "Agility Trials x 2 Northern Suburbs T&ODC",
       "start": "2027-05-15",
       "end": "2027-05-15",
       "location": "Western Australia",
@@ -3535,7 +3631,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Geraldton & Dist. KC \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Geraldton & Dist. KC \u2013 Conformation",
       "start": "2027-05-15",
       "end": "2027-05-15",
       "location": "Western Australia",
@@ -3572,7 +3668,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Eltham & District Kennel Club Inc"
     },
     {
       "title": "Labrador Retriever Club of Vic",
@@ -3592,7 +3689,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Labrador Retriever Club of Vic"
     },
     {
       "title": "Labrador Retriever Club of Vic RTB",
@@ -3612,11 +3710,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Labrador Retriever Club of Vic RTB"
     },
     {
       "title": "State Breed Exhibition (inc Obed & Rally O) German Shepherd DA \u2013 Conformation",
-      "club": "",
+      "club": "State Breed Exhibition (inc Obed & Rally O) German Shepherd DA \u2013 Conformation",
       "start": "2027-05-15",
       "end": "2027-05-16",
       "location": "Western Australia",
@@ -3637,7 +3736,7 @@
     },
     {
       "title": "State Breed Exhibition (inc Obed & Rally O) German Shepherd DA \u2013 Rally Obedience",
-      "club": "",
+      "club": "State Breed Exhibition (inc Obed & Rally O) German Shepherd DA \u2013 Rally Obedience",
       "start": "2027-05-15",
       "end": "2027-05-16",
       "location": "Western Australia",
@@ -3658,7 +3757,7 @@
     },
     {
       "title": "Tracking Trial Trackwest",
-      "club": "",
+      "club": "Tracking Trial Trackwest",
       "start": "2027-05-15",
       "end": "2027-05-19",
       "location": "Western Australia",
@@ -3695,11 +3794,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Berwick Obedience Dog Club"
     },
     {
       "title": "Championship Show (All Breeds) Geraldton & Dist. KC \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Geraldton & Dist. KC \u2013 Conformation",
       "start": "2027-05-16",
       "end": "2027-05-16",
       "location": "Western Australia",
@@ -3720,7 +3820,7 @@
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double header All Breeds Herding Club",
       "start": "2027-05-16",
       "end": "2027-05-16",
       "location": "Western Australia",
@@ -3757,11 +3857,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Nova Scotia Duck Tolling Retriever Club of Victoria RTB"
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Labrador Retriever Club",
-      "club": "",
+      "club": "Retrieving Trial - Novice & Restricted Stakes Labrador Retriever Club",
       "start": "2027-05-16",
       "end": "2027-05-16",
       "location": "Western Australia",
@@ -3782,7 +3883,7 @@
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-05-19",
       "end": "2027-05-19",
       "location": "Western Australia",
@@ -3819,7 +3920,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "British Bulldog Club of Vic"
     },
     {
       "title": "Canine Museum Foundation Inc AM",
@@ -3839,11 +3941,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Canine Museum Foundation Inc AM"
     },
     {
       "title": "DWD Competitions x 2 DWD Club of WA \u2013 Dances with Dogs",
-      "club": "",
+      "club": "DWD Competitions x 2 DWD Club of WA \u2013 Dances with Dogs",
       "start": "2027-05-22",
       "end": "2027-05-22",
       "location": "Western Australia",
@@ -3864,7 +3967,7 @@
     },
     {
       "title": "Lure Coursing Whippet Club of WA",
-      "club": "",
+      "club": "Lure Coursing Whippet Club of WA",
       "start": "2027-05-22",
       "end": "2027-05-23",
       "location": "Western Australia",
@@ -3901,11 +4004,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "North East Tracking & Scent Club"
     },
     {
       "title": "Novice All Pointing Breeds C/S United Field Trial Club of WA",
-      "club": "",
+      "club": "Novice All Pointing Breeds C/S United Field Trial Club of WA",
       "start": "2027-05-22",
       "end": "2027-05-22",
       "location": "Western Australia",
@@ -3926,7 +4030,7 @@
     },
     {
       "title": "Tracking Search Dog Trial Trackwest",
-      "club": "",
+      "club": "Tracking Search Dog Trial Trackwest",
       "start": "2027-05-22",
       "end": "2027-05-26",
       "location": "Western Australia",
@@ -3963,11 +4067,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Working Dog Club of Victoria - RTG5 RTG"
     },
     {
       "title": "Agility Trial Bunbury & Districts DC",
-      "club": "",
+      "club": "Agility Trial Bunbury & Districts DC",
       "start": "2027-05-23",
       "end": "2027-05-23",
       "location": "Western Australia",
@@ -4004,11 +4109,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Boston Terrier Club of Vic Inc AM"
     },
     {
       "title": "Championship & Open Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
       "start": "2027-05-23",
       "end": "2027-05-23",
       "location": "Western Australia",
@@ -4045,11 +4151,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Gorden Setter Club of Victoria - RTG3 RTG"
     },
     {
       "title": "Open APB C/S United Field Trial Club of WA",
-      "club": "",
+      "club": "Open APB C/S United Field Trial Club of WA",
       "start": "2027-05-23",
       "end": "2027-05-23",
       "location": "Western Australia",
@@ -4070,7 +4177,7 @@
     },
     {
       "title": "Retrieving Trial - Retrieving Ability Tests for Gundogs Golden Retriever Club",
-      "club": "",
+      "club": "Retrieving Trial - Retrieving Ability Tests for Gundogs Golden Retriever Club",
       "start": "2027-05-23",
       "end": "2027-05-23",
       "location": "Western Australia",
@@ -4107,7 +4214,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Toy Poodle Society of Vic"
     },
     {
       "title": "Victorian Gundog Club",
@@ -4127,11 +4235,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Victorian Gundog Club"
     },
     {
       "title": "Championship Shows x 2 (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "club": "",
+      "club": "Championship Shows x 2 (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
       "start": "2027-05-29",
       "end": "2027-05-29",
       "location": "Western Australia",
@@ -4168,11 +4277,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dandenong Poultry & Kennel Club Inc"
     },
     {
       "title": "Tracking/Track & Search Dog Trials Advanced Tracking Club",
-      "club": "",
+      "club": "Tracking/Track & Search Dog Trials Advanced Tracking Club",
       "start": "2027-05-29",
       "end": "2027-06-02",
       "location": "Western Australia",
@@ -4193,7 +4303,7 @@
     },
     {
       "title": "Championship Shows (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "club": "",
+      "club": "Championship Shows (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
       "start": "2027-05-30",
       "end": "2027-05-30",
       "location": "Western Australia",
@@ -4214,7 +4324,7 @@
     },
     {
       "title": "Championship & Open Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
       "start": "2027-06-05",
       "end": "2027-06-06",
       "location": "Western Australia",
@@ -4235,7 +4345,7 @@
     },
     {
       "title": "Open All Pointing Breeds C/S United Field Trial Club of WA",
-      "club": "",
+      "club": "Open All Pointing Breeds C/S United Field Trial Club of WA",
       "start": "2027-06-05",
       "end": "2027-06-05",
       "location": "Western Australia",
@@ -4256,7 +4366,7 @@
     },
     {
       "title": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-06-05",
       "end": "2027-06-05",
       "location": "Western Australia",
@@ -4277,7 +4387,7 @@
     },
     {
       "title": "State Agility Trials CAWA Events Ctee",
-      "club": "",
+      "club": "State Agility Trials CAWA Events Ctee",
       "start": "2027-06-05",
       "end": "2027-06-06",
       "location": "Western Australia",
@@ -4298,7 +4408,7 @@
     },
     {
       "title": "Tracking Trial Trackwest",
-      "club": "",
+      "club": "Tracking Trial Trackwest",
       "start": "2027-06-05",
       "end": "2027-06-09",
       "location": "Western Australia",
@@ -4319,7 +4429,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
       "start": "2027-06-06",
       "end": "2027-06-06",
       "location": "Western Australia",
@@ -4356,11 +4466,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Finnish Lapphund Club of Vic Inc"
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "start": "2027-06-06",
       "end": "2027-06-06",
       "location": "Western Australia",
@@ -4381,7 +4492,7 @@
     },
     {
       "title": "Retrieving Trial - (Novice & Restricted Stakes) Gun Dog Club",
-      "club": "",
+      "club": "Retrieving Trial - (Novice & Restricted Stakes) Gun Dog Club",
       "start": "2027-06-06",
       "end": "2027-06-06",
       "location": "Western Australia",
@@ -4402,7 +4513,7 @@
     },
     {
       "title": "Championship & Open Shows Labrador Retriever Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Shows Labrador Retriever Club \u2013 Conformation",
       "start": "2027-06-07",
       "end": "2027-06-07",
       "location": "Western Australia",
@@ -4423,7 +4534,7 @@
     },
     {
       "title": "Lure Coursing Whippet Club",
-      "club": "",
+      "club": "Lure Coursing Whippet Club",
       "start": "2027-06-07",
       "end": "2027-06-07",
       "location": "Western Australia",
@@ -4444,7 +4555,7 @@
     },
     {
       "title": "Obedience & Rally O Trials Southern River A&ODC",
-      "club": "",
+      "club": "Obedience & Rally O Trials Southern River A&ODC",
       "start": "2027-06-07",
       "end": "2027-06-07",
       "location": "Western Australia",
@@ -4465,7 +4576,7 @@
     },
     {
       "title": "Obedience & Rally O Trials Southern River A&ODC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials Southern River A&ODC \u2013 Rally Obedience",
       "start": "2027-06-07",
       "end": "2027-06-07",
       "location": "Western Australia",
@@ -4486,7 +4597,7 @@
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-06-07",
       "end": "2027-06-07",
       "location": "Western Australia",
@@ -4523,7 +4634,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "West Gippsland Kennel Club"
     },
     {
       "title": "Airedale Terrier Club of Victoria",
@@ -4543,7 +4655,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Airedale Terrier Club of Victoria"
     },
     {
       "title": "Bairnsdale & District Obedience Dog Club Inc",
@@ -4563,11 +4676,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bairnsdale & District Obedience Dog Club Inc"
     },
     {
       "title": "Championship Shows x 2 (Canine Fundraisers - All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "club": "",
+      "club": "Championship Shows x 2 (Canine Fundraisers - All Breeds) CAWA Events Ctee \u2013 Conformation",
       "start": "2027-06-12",
       "end": "2027-06-12",
       "location": "Western Australia",
@@ -4604,7 +4718,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Japanese Chin Club of Vic Inc"
     },
     {
       "title": "Newfoundland Club of Vic Inc",
@@ -4624,11 +4739,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Newfoundland Club of Vic Inc"
     },
     {
       "title": "Novice Spaniels & Retrievers United Field Trial Club of WA",
-      "club": "",
+      "club": "Novice Spaniels & Retrievers United Field Trial Club of WA",
       "start": "2027-06-12",
       "end": "2027-06-12",
       "location": "Western Australia",
@@ -4649,7 +4765,7 @@
     },
     {
       "title": "Scentwork Trial Midland Dog Training Club \u2013 Scent Work",
-      "club": "",
+      "club": "Scentwork Trial Midland Dog Training Club",
       "start": "2027-06-12",
       "end": "2027-06-12",
       "location": "Western Australia",
@@ -4686,7 +4802,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Soft Coated Wheaten Terrier Club Inc"
     },
     {
       "title": "Toy Dog Club of Vic Inc",
@@ -4706,11 +4823,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Toy Dog Club of Vic Inc"
     },
     {
       "title": "Agility Trial x 2 Agility Club of WA",
-      "club": "",
+      "club": "Agility Trial x 2 Agility Club of WA",
       "start": "2027-06-13",
       "end": "2027-06-13",
       "location": "Western Australia",
@@ -4747,7 +4865,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bernese Mountain Dog Club of Vic Inc"
     },
     {
       "title": "Cavalier King Charles Spaniel Club of Vic",
@@ -4767,11 +4886,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cavalier King Charles Spaniel Club of Vic"
     },
     {
       "title": "Championship Shows x 1 (Canine Fundraisers - All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "club": "",
+      "club": "Championship Shows x 1 (Canine Fundraisers - All Breeds) CAWA Events Ctee \u2013 Conformation",
       "start": "2027-06-13",
       "end": "2027-06-13",
       "location": "Western Australia",
@@ -4808,7 +4928,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "East Gippsland Obedience Dog Club Inc"
     },
     {
       "title": "Italian Greyhound Club of Vic Inc",
@@ -4828,7 +4949,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Italian Greyhound Club of Vic Inc"
     },
     {
       "title": "K9 Scent Club",
@@ -4848,11 +4970,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "K9 Scent Club"
     },
     {
       "title": "Retrieving Trial - All Age Stakes Retrieving Club",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes Retrieving Club",
       "start": "2027-06-13",
       "end": "2027-06-13",
       "location": "Western Australia",
@@ -4889,11 +5012,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Sporting Terrier Club of Vic Inc"
     },
     {
       "title": "Tracking/Track & Search Trial Advanced Tracking Club",
-      "club": "",
+      "club": "Tracking/Track & Search Trial Advanced Tracking Club",
       "start": "2027-06-13",
       "end": "2027-06-16",
       "location": "Western Australia",
@@ -4930,7 +5054,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dalmatian Club of Vic Inc"
     },
     {
       "title": "Gippsland Obedience Dog Club Inc",
@@ -4950,7 +5075,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Gippsland Obedience Dog Club Inc"
     },
     {
       "title": "Southern Obedience Dog Club",
@@ -4970,7 +5096,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Southern Obedience Dog Club"
     },
     {
       "title": "Victorian Spitz Breeds Club Inc",
@@ -4990,7 +5117,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Victorian Spitz Breeds Club Inc"
     },
     {
       "title": "Frankston & Peninsula Kennel Club Inc AM",
@@ -5010,7 +5138,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Frankston & Peninsula Kennel Club Inc AM"
     },
     {
       "title": "Hastings & District Obedience Dog Club",
@@ -5030,7 +5159,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Hastings & District Obedience Dog Club"
     },
     {
       "title": "Ladies Kennel Association Inc",
@@ -5050,11 +5180,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Ladies Kennel Association Inc"
     },
     {
       "title": "Lure Coursing Whippet Club",
-      "club": "",
+      "club": "Lure Coursing Whippet Club",
       "start": "2027-06-19",
       "end": "2027-06-19",
       "location": "Western Australia",
@@ -5075,7 +5206,7 @@
     },
     {
       "title": "Novice All Pointing Breeds C/S United Field Trial Club of WA",
-      "club": "",
+      "club": "Novice All Pointing Breeds C/S United Field Trial Club of WA",
       "start": "2027-06-19",
       "end": "2027-06-19",
       "location": "Western Australia",
@@ -5096,7 +5227,7 @@
     },
     {
       "title": "Obedience, Rally & Trick Trials Gun Dog Club",
-      "club": "",
+      "club": "Obedience, Rally & Trick Trials Gun Dog Club",
       "start": "2027-06-19",
       "end": "2027-06-19",
       "location": "Western Australia",
@@ -5117,7 +5248,7 @@
     },
     {
       "title": "Obedience, Rally & Trick Trials Gun Dog Club \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience, Rally & Trick Trials Gun Dog Club \u2013 Rally Obedience",
       "start": "2027-06-19",
       "end": "2027-06-19",
       "location": "Western Australia",
@@ -5138,7 +5269,7 @@
     },
     {
       "title": "Obedience, Rally & Trick Trials Gun Dog Club \u2013 Trick Dog",
-      "club": "",
+      "club": "Obedience, Rally & Trick Trials Gun Dog Club \u2013 Trick Dog",
       "start": "2027-06-19",
       "end": "2027-06-19",
       "location": "Western Australia",
@@ -5159,7 +5290,7 @@
     },
     {
       "title": "Track & Search Dog Trial Trackwest",
-      "club": "",
+      "club": "Track & Search Dog Trial Trackwest",
       "start": "2027-06-19",
       "end": "2027-06-23",
       "location": "Western Australia",
@@ -5196,11 +5327,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Frankston & Peninsula Kennel Club Inc PM"
     },
     {
       "title": "Lure Coursing Whippet Club",
-      "club": "",
+      "club": "Lure Coursing Whippet Club",
       "start": "2027-06-20",
       "end": "2027-06-20",
       "location": "Western Australia",
@@ -5221,7 +5353,7 @@
     },
     {
       "title": "Obedience & Rally O Trials Northern Suburbs T&ODC",
-      "club": "",
+      "club": "Obedience & Rally O Trials Northern Suburbs T&ODC",
       "start": "2027-06-20",
       "end": "2027-06-20",
       "location": "Western Australia",
@@ -5242,7 +5374,7 @@
     },
     {
       "title": "Obedience & Rally O Trials Northern Suburbs T&ODC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials Northern Suburbs T&ODC \u2013 Rally Obedience",
       "start": "2027-06-20",
       "end": "2027-06-20",
       "location": "Western Australia",
@@ -5263,7 +5395,7 @@
     },
     {
       "title": "Open All Pointing Breeds C/S United Field Trial Club of WA",
-      "club": "",
+      "club": "Open All Pointing Breeds C/S United Field Trial Club of WA",
       "start": "2027-06-20",
       "end": "2027-06-20",
       "location": "Western Australia",
@@ -5300,7 +5432,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "White Swiss Shepherd Dog Association of Victoria Inc"
     },
     {
       "title": "Red Cliffs & District Kennel Club Inc AM",
@@ -5320,7 +5453,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Red Cliffs & District Kennel Club Inc AM"
     },
     {
       "title": "Dog Stewards Association Inc AM",
@@ -5340,11 +5474,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dog Stewards Association Inc AM"
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double header All Breeds Herding Club",
       "start": "2027-06-26",
       "end": "2027-06-26",
       "location": "Western Australia",
@@ -5365,7 +5500,7 @@
     },
     {
       "title": "Novice Pointer & Setter C/S United Field Trial Club of WA",
-      "club": "",
+      "club": "Novice Pointer & Setter C/S United Field Trial Club of WA",
       "start": "2027-06-26",
       "end": "2027-06-26",
       "location": "Western Australia",
@@ -5402,7 +5537,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Red Cliffs Ladies Kennel & Obedience Club Inc PM"
     },
     {
       "title": "Rottweiler Club of Victoria",
@@ -5422,11 +5558,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Rottweiler Club of Victoria"
     },
     {
       "title": "Tracking Trial Trackwest",
-      "club": "",
+      "club": "Tracking Trial Trackwest",
       "start": "2027-06-26",
       "end": "2027-06-30",
       "location": "Western Australia",
@@ -5447,7 +5584,7 @@
     },
     {
       "title": "Obedience/ Double header Rally Trial Shetland Sheepdog Club",
-      "club": "",
+      "club": "Obedience/ Double header Rally Trial Shetland Sheepdog Club",
       "start": "2027-06-27",
       "end": "2027-06-27",
       "location": "Western Australia",
@@ -5468,7 +5605,7 @@
     },
     {
       "title": "Obedience/ Double header Rally Trial Shetland Sheepdog Club \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience/ Double header Rally Trial Shetland Sheepdog Club \u2013 Rally Obedience",
       "start": "2027-06-27",
       "end": "2027-06-27",
       "location": "Western Australia",
@@ -5489,7 +5626,7 @@
     },
     {
       "title": "Open Pointer & Setter C/S United Field Trial Club of WA",
-      "club": "",
+      "club": "Open Pointer & Setter C/S United Field Trial Club of WA",
       "start": "2027-06-27",
       "end": "2027-06-27",
       "location": "Western Australia",
@@ -5510,7 +5647,7 @@
     },
     {
       "title": "Open Show & Members Competition German Shepherd DA \u2013 Conformation",
-      "club": "",
+      "club": "Open Show & Members Competition German Shepherd DA \u2013 Conformation",
       "start": "2027-06-27",
       "end": "2027-06-27",
       "location": "Western Australia",
@@ -5547,7 +5684,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Sunraysia Kennel Club Inc. AM"
     },
     {
       "title": "Tracking Club of Vic Inc",
@@ -5567,11 +5705,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Tracking Club of Vic Inc"
     },
     {
       "title": "Agility, Jumping & Games Trial Cloverdale Canine Comp.",
-      "club": "",
+      "club": "Agility, Jumping & Games Trial Cloverdale Canine Comp.",
       "start": "2027-07-03",
       "end": "2027-07-03",
       "location": "Western Australia",
@@ -5592,7 +5731,7 @@
     },
     {
       "title": "Championship & Open Shows (All Breeds) Hills Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Shows (All Breeds) Hills Kennel Club \u2013 Conformation",
       "start": "2027-07-03",
       "end": "2027-07-03",
       "location": "Western Australia",
@@ -5613,7 +5752,7 @@
     },
     {
       "title": "Endurance Test German Shepherd DA",
-      "club": "",
+      "club": "Endurance Test German Shepherd DA",
       "start": "2027-07-03",
       "end": "2027-07-03",
       "location": "Western Australia",
@@ -5650,11 +5789,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Geelong Obedience Dog Club"
     },
     {
       "title": "Retrieving Trial - Nov & Rest Stakes (National Fundraiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Retrieving Trial - Nov & Rest Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-07-03",
       "end": "2027-07-03",
       "location": "Western Australia",
@@ -5675,7 +5815,7 @@
     },
     {
       "title": "State Scentwork Trial CAWA Events Ctee \u2013 Scent Work",
-      "club": "",
+      "club": "State Scentwork Trial CAWA Events Ctee",
       "start": "2027-07-03",
       "end": "2027-07-05",
       "location": "Western Australia",
@@ -5696,7 +5836,7 @@
     },
     {
       "title": "Tracking/Track & Search Trial Advanced Tracking Club",
-      "club": "",
+      "club": "Tracking/Track & Search Trial Advanced Tracking Club",
       "start": "2027-07-03",
       "end": "2027-07-07",
       "location": "Western Australia",
@@ -5733,7 +5873,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Victorian Poultry & Kennel Club Inc AM"
     },
     {
       "title": "Box Hill & District Kennel Club Inc",
@@ -5753,11 +5894,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Box Hill & District Kennel Club Inc"
     },
     {
       "title": "Championship & Open Show Oriental Breeds \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Oriental Breeds \u2013 Conformation",
       "start": "2027-07-04",
       "end": "2027-07-04",
       "location": "Western Australia",
@@ -5778,7 +5920,7 @@
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "start": "2027-07-04",
       "end": "2027-07-04",
       "location": "Western Australia",
@@ -5799,7 +5941,7 @@
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2027-07-04",
       "end": "2027-07-04",
       "location": "Western Australia",
@@ -5820,7 +5962,7 @@
     },
     {
       "title": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-07-04",
       "end": "2027-07-04",
       "location": "Western Australia",
@@ -5841,7 +5983,7 @@
     },
     {
       "title": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
       "start": "2027-07-09",
       "end": "2027-07-09",
       "location": "Western Australia",
@@ -5862,7 +6004,7 @@
     },
     {
       "title": "State Scentwork Trial - cont CAWA Events Ctee \u2013 Scent Work",
-      "club": "",
+      "club": "State Scentwork Trial - cont CAWA Events Ctee",
       "start": "2027-07-09",
       "end": "2027-07-11",
       "location": "Western Australia",
@@ -5883,7 +6025,7 @@
     },
     {
       "title": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
       "start": "2027-07-10",
       "end": "2027-07-10",
       "location": "Western Australia",
@@ -5920,7 +6062,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Junior Kennel Club of Vic Inc"
     },
     {
       "title": "K9 Scent Club",
@@ -5940,11 +6083,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "K9 Scent Club"
     },
     {
       "title": "Open All Pointing Breeds C/S United Field Trial Club of WA",
-      "club": "",
+      "club": "Open All Pointing Breeds C/S United Field Trial Club of WA",
       "start": "2027-07-10",
       "end": "2027-07-10",
       "location": "Western Australia",
@@ -5965,7 +6109,7 @@
     },
     {
       "title": "Trick Dog Tests x 2 DWD Club of WA",
-      "club": "",
+      "club": "Trick Dog Tests x 2 DWD Club of WA",
       "start": "2027-07-10",
       "end": "2027-07-10",
       "location": "Western Australia",
@@ -5986,7 +6130,7 @@
     },
     {
       "title": "Trick Dog Tests x 2 DWD Club of WA \u2013 Dances with Dogs",
-      "club": "",
+      "club": "Trick Dog Tests x 2 DWD Club of WA \u2013 Dances with Dogs",
       "start": "2027-07-10",
       "end": "2027-07-10",
       "location": "Western Australia",
@@ -6007,7 +6151,7 @@
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double header All Breeds Herding Club",
       "start": "2027-07-11",
       "end": "2027-07-11",
       "location": "Western Australia",
@@ -6028,7 +6172,7 @@
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
-      "club": "",
+      "club": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
       "start": "2027-07-11",
       "end": "2027-07-11",
       "location": "Western Australia",
@@ -6065,11 +6209,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
     },
     {
       "title": "Agility Trials x 2 & Agility Games Geraldton & Dist. KC",
-      "club": "",
+      "club": "Agility Trials x 2 & Agility Games Geraldton & Dist. KC",
       "start": "2027-07-17",
       "end": "2027-07-17",
       "location": "Western Australia",
@@ -6106,11 +6251,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Ballaarat Dog Obedience Club Inc"
     },
     {
       "title": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
       "start": "2027-07-17",
       "end": "2027-07-17",
       "location": "Western Australia",
@@ -6131,7 +6277,7 @@
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2027-07-17",
       "end": "2027-07-17",
       "location": "Western Australia",
@@ -6168,11 +6314,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Metropolitan Canine Association Inc"
     },
     {
       "title": "Obedience & Rally Trials Geraldton & Dist. KC",
-      "club": "",
+      "club": "Obedience & Rally Trials Geraldton & Dist. KC",
       "start": "2027-07-17",
       "end": "2027-07-17",
       "location": "Western Australia",
@@ -6193,7 +6340,7 @@
     },
     {
       "title": "Obedience & Rally Trials Geraldton & Dist. KC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally Trials Geraldton & Dist. KC \u2013 Rally Obedience",
       "start": "2027-07-17",
       "end": "2027-07-17",
       "location": "Western Australia",
@@ -6214,7 +6361,7 @@
     },
     {
       "title": "Open Pointer & Setter Field Trial Irish Setter Club of WA",
-      "club": "",
+      "club": "Open Pointer & Setter Field Trial Irish Setter Club of WA",
       "start": "2027-07-17",
       "end": "2027-07-17",
       "location": "Western Australia",
@@ -6235,7 +6382,7 @@
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Gun Dog Club",
-      "club": "",
+      "club": "Retrieving Trial - Novice & Restricted Stakes Gun Dog Club",
       "start": "2027-07-17",
       "end": "2027-07-17",
       "location": "Western Australia",
@@ -6256,7 +6403,7 @@
     },
     {
       "title": "Tracking Trial Trackwest",
-      "club": "",
+      "club": "Tracking Trial Trackwest",
       "start": "2027-07-17",
       "end": "2027-07-21",
       "location": "Western Australia",
@@ -6277,7 +6424,7 @@
     },
     {
       "title": "Agility Trials x 2 Geraldton & Dist. KC",
-      "club": "",
+      "club": "Agility Trials x 2 Geraldton & Dist. KC",
       "start": "2027-07-18",
       "end": "2027-07-18",
       "location": "Western Australia",
@@ -6298,7 +6445,7 @@
     },
     {
       "title": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
       "start": "2027-07-18",
       "end": "2027-07-18",
       "location": "Western Australia",
@@ -6335,11 +6482,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria Sprintdog Committee"
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "start": "2027-07-18",
       "end": "2027-07-18",
       "location": "Western Australia",
@@ -6360,7 +6508,7 @@
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2027-07-18",
       "end": "2027-07-18",
       "location": "Western Australia",
@@ -6381,7 +6529,7 @@
     },
     {
       "title": "Open Pointer & Setter Field Trial Irish Setter Club of WA",
-      "club": "",
+      "club": "Open Pointer & Setter Field Trial Irish Setter Club of WA",
       "start": "2027-07-18",
       "end": "2027-07-18",
       "location": "Western Australia",
@@ -6402,7 +6550,7 @@
     },
     {
       "title": "Retrieving Trial - All Age Stakes Gun Dog Club",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes Gun Dog Club",
       "start": "2027-07-18",
       "end": "2027-07-18",
       "location": "Western Australia",
@@ -6439,7 +6587,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "White Swiss Shepherd Dog Association of Victoria Inc"
     },
     {
       "title": "KCC Park Friends of the Park Show AM",
@@ -6459,7 +6608,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "KCC Park Friends of the Park Show AM"
     },
     {
       "title": "Casey All Breeds Kennel Club Inc PM",
@@ -6479,7 +6629,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Casey All Breeds Kennel Club Inc PM"
     },
     {
       "title": "Caufield & District Kennel Club Inc AM",
@@ -6499,11 +6650,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Caufield & District Kennel Club Inc AM"
     },
     {
       "title": "Championship Show (All Breeds) x 2 All Breeds Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) x 2 All Breeds Dog Club \u2013 Conformation",
       "start": "2027-07-24",
       "end": "2027-07-24",
       "location": "Western Australia",
@@ -6524,7 +6676,7 @@
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DA",
-      "club": "",
+      "club": "Obedience & Rally O Trials German Shepherd DA",
       "start": "2027-07-24",
       "end": "2027-07-24",
       "location": "Western Australia",
@@ -6545,7 +6697,7 @@
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DA \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials German Shepherd DA \u2013 Rally Obedience",
       "start": "2027-07-24",
       "end": "2027-07-24",
       "location": "Western Australia",
@@ -6566,7 +6718,7 @@
     },
     {
       "title": "Track & Search Dog Trial Trackwest",
-      "club": "",
+      "club": "Track & Search Dog Trial Trackwest",
       "start": "2027-07-24",
       "end": "2027-07-28",
       "location": "Western Australia",
@@ -6587,7 +6739,7 @@
     },
     {
       "title": "Agility Trials x 2 Southern River A&ODC",
-      "club": "",
+      "club": "Agility Trials x 2 Southern River A&ODC",
       "start": "2027-07-25",
       "end": "2027-07-25",
       "location": "Western Australia",
@@ -6624,11 +6776,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "K9 Scent Club"
     },
     {
       "title": "Open Show (All Breeds) All Breeds Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Open Show (All Breeds) All Breeds Dog Club \u2013 Conformation",
       "start": "2027-07-25",
       "end": "2027-07-25",
       "location": "Western Australia",
@@ -6649,7 +6802,7 @@
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
-      "club": "",
+      "club": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
       "start": "2027-07-25",
       "end": "2027-07-25",
       "location": "Western Australia",
@@ -6670,7 +6823,7 @@
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-07-25",
       "end": "2027-07-25",
       "location": "Western Australia",
@@ -6691,7 +6844,7 @@
     },
     {
       "title": "Agility Trial Perth Training &ODC",
-      "club": "",
+      "club": "Agility Trial Perth Training &ODC",
       "start": "2027-07-31",
       "end": "2027-07-31",
       "location": "Western Australia",
@@ -6712,7 +6865,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
       "start": "2027-07-31",
       "end": "2027-07-31",
       "location": "Western Australia",
@@ -6749,11 +6902,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Heidelberg & District Kennel Club Inc PM"
     },
     {
       "title": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-07-31",
       "end": "2027-07-31",
       "location": "Western Australia",
@@ -6790,7 +6944,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Town and Country Kennel Club AM"
     },
     {
       "title": "Australian Terrier Club AM",
@@ -6810,11 +6965,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Australian Terrier Club AM"
     },
     {
       "title": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
       "start": "2027-08-01",
       "end": "2027-08-01",
       "location": "Western Australia",
@@ -6835,7 +6991,7 @@
     },
     {
       "title": "DWD & Trick Dog Tests DWD Club",
-      "club": "",
+      "club": "DWD & Trick Dog Tests DWD Club",
       "start": "2027-08-01",
       "end": "2027-08-01",
       "location": "Western Australia",
@@ -6856,7 +7012,7 @@
     },
     {
       "title": "DWD & Trick Dog Tests DWD Club \u2013 Dances with Dogs",
-      "club": "",
+      "club": "DWD & Trick Dog Tests DWD Club \u2013 Dances with Dogs",
       "start": "2027-08-01",
       "end": "2027-08-01",
       "location": "Western Australia",
@@ -6877,7 +7033,7 @@
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double header All Breeds Herding Club",
       "start": "2027-08-01",
       "end": "2027-08-01",
       "location": "Western Australia",
@@ -6914,11 +7070,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Non Sporting Dog Club of Vic Inc"
     },
     {
       "title": "Retrieving Trial - All Age Stakes Retrieving Club",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes Retrieving Club",
       "start": "2027-08-01",
       "end": "2027-08-01",
       "location": "Western Australia",
@@ -6955,11 +7112,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Utility Dog Club of Vic Inc"
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-08-04",
       "end": "2027-08-04",
       "location": "Western Australia",
@@ -6996,7 +7154,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bendigo Kennel Club Inc AM"
     },
     {
       "title": "Australian Kelpie Club of Vic Inc AM",
@@ -7016,7 +7175,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Australian Kelpie Club of Vic Inc AM"
     },
     {
       "title": "Dogs Victoria - OTEC State Trial",
@@ -7036,7 +7196,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria - OTEC State Trial"
     },
     {
       "title": "Eaglehawk & District Kennel Club Inc AM",
@@ -7056,11 +7217,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Eaglehawk & District Kennel Club Inc AM"
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "start": "2027-08-07",
       "end": "2027-08-07",
       "location": "Western Australia",
@@ -7081,7 +7243,7 @@
     },
     {
       "title": "Open Pointer & Setter Field Trial Irish Setter Club of WA",
-      "club": "",
+      "club": "Open Pointer & Setter Field Trial Irish Setter Club of WA",
       "start": "2027-08-07",
       "end": "2027-08-07",
       "location": "Western Australia",
@@ -7102,7 +7264,7 @@
     },
     {
       "title": "Retrieving Trial - Retrieving Ability Tests for Gundogs Golden Retriever Club",
-      "club": "",
+      "club": "Retrieving Trial - Retrieving Ability Tests for Gundogs Golden Retriever Club",
       "start": "2027-08-07",
       "end": "2027-08-07",
       "location": "Western Australia",
@@ -7123,7 +7285,7 @@
     },
     {
       "title": "Tracking Trial Trackwest",
-      "club": "",
+      "club": "Tracking Trial Trackwest",
       "start": "2027-08-07",
       "end": "2027-08-11",
       "location": "Western Australia",
@@ -7160,7 +7322,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Castlemaine & District Kennel Club Inc"
     },
     {
       "title": "Dogs Victoria - OTEC State Trial",
@@ -7180,11 +7343,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria - OTEC State Trial"
     },
     {
       "title": "Open Pointer & Setter Field Trial Irish Setter Club of WA",
-      "club": "",
+      "club": "Open Pointer & Setter Field Trial Irish Setter Club of WA",
       "start": "2027-08-08",
       "end": "2027-08-08",
       "location": "Western Australia",
@@ -7205,7 +7369,7 @@
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Labrador Retriever Club",
-      "club": "",
+      "club": "Retrieving Trial - Novice & Restricted Stakes Labrador Retriever Club",
       "start": "2027-08-08",
       "end": "2027-08-08",
       "location": "Western Australia",
@@ -7226,7 +7390,7 @@
     },
     {
       "title": "Tracking/Track & Search Trial Advanced Tracking Club",
-      "club": "",
+      "club": "Tracking/Track & Search Trial Advanced Tracking Club",
       "start": "2027-08-08",
       "end": "2027-08-08",
       "location": "Western Australia",
@@ -7263,7 +7427,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "White Swiss Shepherd Dog Association of Victoria Inc"
     },
     {
       "title": "Lilydale Kennel Club Inc",
@@ -7283,7 +7448,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lilydale Kennel Club Inc"
     },
     {
       "title": "North East Tracking & Scent Club",
@@ -7303,11 +7469,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "North East Tracking & Scent Club"
     },
     {
       "title": "Championship Show (All Breeds) Bunbury & Dist KC \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Bunbury & Dist KC \u2013 Conformation",
       "start": "2027-08-14",
       "end": "2027-08-14",
       "location": "Western Australia",
@@ -7344,7 +7511,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "K9 Scent Club"
     },
     {
       "title": "Lilydale Kennel Club Inc AM",
@@ -7364,11 +7532,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lilydale Kennel Club Inc AM"
     },
     {
       "title": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club",
-      "club": "",
+      "club": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club",
       "start": "2027-08-14",
       "end": "2027-08-14",
       "location": "Western Australia",
@@ -7389,7 +7558,7 @@
     },
     {
       "title": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club \u2013 Rally Obedience",
       "start": "2027-08-14",
       "end": "2027-08-14",
       "location": "Western Australia",
@@ -7410,7 +7579,7 @@
     },
     {
       "title": "Retrieving Trial - All Age Stakes Retrieving Club",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes Retrieving Club",
       "start": "2027-08-14",
       "end": "2027-08-14",
       "location": "Western Australia",
@@ -7447,7 +7616,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Schipperke Club of Victoria"
     },
     {
       "title": "Westernport Obedience Dog Club",
@@ -7467,7 +7637,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Westernport Obedience Dog Club"
     },
     {
       "title": "Bendigo Obedience Dog Club",
@@ -7487,11 +7658,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bendigo Obedience Dog Club"
     },
     {
       "title": "Championship Show (All Breeds) Bunbury & Dist KC \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Bunbury & Dist KC \u2013 Conformation",
       "start": "2027-08-15",
       "end": "2027-08-15",
       "location": "Western Australia",
@@ -7528,11 +7700,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lilydale Kennel Club Inc"
     },
     {
       "title": "Retrieving Trial - All Age Stakes Labrador Retriever Club",
-      "club": "",
+      "club": "Retrieving Trial - All Age Stakes Labrador Retriever Club",
       "start": "2027-08-15",
       "end": "2027-08-15",
       "location": "Western Australia",
@@ -7569,7 +7742,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Shih Tzu Club of Victoria Inc."
     },
     {
       "title": "Australian Shepherd Club of Victoria Inc RTB",
@@ -7589,7 +7763,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Australian Shepherd Club of Victoria Inc RTB"
     },
     {
       "title": "Australian Shepherd Club of Victoria Inc RTB AGILITY &",
@@ -7609,7 +7784,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Australian Shepherd Club of Victoria Inc RTB AGILITY &"
     },
     {
       "title": "Bulla Agility Dogs Inc",
@@ -7629,11 +7805,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bulla Agility Dogs Inc"
     },
     {
       "title": "Championship & Open Show Gun Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Gun Dog Club \u2013 Conformation",
       "start": "2027-08-21",
       "end": "2027-08-21",
       "location": "Western Australia",
@@ -7654,7 +7831,7 @@
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "start": "2027-08-21",
       "end": "2027-08-21",
       "location": "Western Australia",
@@ -7675,7 +7852,7 @@
     },
     {
       "title": "Lure coursing Trial Whippet \u2013 Lure Coursing",
-      "club": "",
+      "club": "Lure coursing Trial Whippet \u2013 Lure Coursing",
       "start": "2027-08-21",
       "end": "2027-08-21",
       "location": "Western Australia",
@@ -7696,7 +7873,7 @@
     },
     {
       "title": "Obedience & Rally O Trials (Fund Raisers) CAWA Events Ctee",
-      "club": "",
+      "club": "Obedience & Rally O Trials (Fund Raisers) CAWA Events Ctee",
       "start": "2027-08-21",
       "end": "2027-08-21",
       "location": "Western Australia",
@@ -7717,7 +7894,7 @@
     },
     {
       "title": "Obedience & Rally O Trials (Fund Raisers) CAWA Events Ctee \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials (Fund Raisers) CAWA Events Ctee \u2013 Rally Obedience",
       "start": "2027-08-21",
       "end": "2027-08-21",
       "location": "Western Australia",
@@ -7738,7 +7915,7 @@
     },
     {
       "title": "State Retrieving Trial CAWA Events Ctee",
-      "club": "",
+      "club": "State Retrieving Trial CAWA Events Ctee",
       "start": "2027-08-21",
       "end": "2027-08-21",
       "location": "Western Australia",
@@ -7775,11 +7952,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Victorian Gundog Club"
     },
     {
       "title": "Agility Trial (Fund Raiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Agility Trial (Fund Raiser) CAWA Events Ctee",
       "start": "2027-08-22",
       "end": "2027-08-22",
       "location": "Western Australia",
@@ -7800,7 +7978,7 @@
     },
     {
       "title": "Championship & Open Show Non Sporting Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Non Sporting Dog Club \u2013 Conformation",
       "start": "2027-08-22",
       "end": "2027-08-22",
       "location": "Western Australia",
@@ -7837,11 +8015,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Chihuahua Club of Vic Inc"
     },
     {
       "title": "Lure coursing Trial Whippet \u2013 Lure Coursing",
-      "club": "",
+      "club": "Lure coursing Trial Whippet \u2013 Lure Coursing",
       "start": "2027-08-22",
       "end": "2027-08-22",
       "location": "Western Australia",
@@ -7878,11 +8057,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Samoyed Club of Vic Inc"
     },
     {
       "title": "State Retrieving Trial CAWA Events Ctee",
-      "club": "",
+      "club": "State Retrieving Trial CAWA Events Ctee",
       "start": "2027-08-22",
       "end": "2027-08-22",
       "location": "Western Australia",
@@ -7903,7 +8083,7 @@
     },
     {
       "title": "Tracking & Track n Search Advanced Tracking Trial",
-      "club": "",
+      "club": "Tracking & Track n Search Advanced Tracking Trial",
       "start": "2027-08-22",
       "end": "2027-08-22",
       "location": "Western Australia",
@@ -7940,11 +8120,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Macalister Kennel & Obedience Club Inc"
     },
     {
       "title": "Agility Trials x 2 & Agility Games Geraldton & Dist. KC",
-      "club": "",
+      "club": "Agility Trials x 2 & Agility Games Geraldton & Dist. KC",
       "start": "2027-08-28",
       "end": "2027-08-28",
       "location": "Western Australia",
@@ -7981,11 +8162,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Geelong Kennel Club AM"
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2027-08-28",
       "end": "2027-08-29",
       "location": "Western Australia",
@@ -8006,7 +8188,7 @@
     },
     {
       "title": "Obedience & Rally O Trials Geraldton & Dist. KC",
-      "club": "",
+      "club": "Obedience & Rally O Trials Geraldton & Dist. KC",
       "start": "2027-08-28",
       "end": "2027-08-28",
       "location": "Western Australia",
@@ -8027,7 +8209,7 @@
     },
     {
       "title": "Obedience & Rally O Trials Geraldton & Dist. KC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials Geraldton & Dist. KC \u2013 Rally Obedience",
       "start": "2027-08-28",
       "end": "2027-08-28",
       "location": "Western Australia",
@@ -8064,11 +8246,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Sale/Maffra Kennel Club Inc"
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-08-28",
       "end": "2027-08-28",
       "location": "Western Australia",
@@ -8089,7 +8272,7 @@
     },
     {
       "title": "Tracking Trial Trackwest",
-      "club": "",
+      "club": "Tracking Trial Trackwest",
       "start": "2027-08-28",
       "end": "2027-09-01",
       "location": "Western Australia",
@@ -8110,7 +8293,7 @@
     },
     {
       "title": "Agility Trials x 2 Geraldton & Dist. KC",
-      "club": "",
+      "club": "Agility Trials x 2 Geraldton & Dist. KC",
       "start": "2027-08-29",
       "end": "2027-08-29",
       "location": "Western Australia",
@@ -8147,7 +8330,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Geelong Kennel Club"
     },
     {
       "title": "Moorabbin & District Obedience Dog Club",
@@ -8167,11 +8351,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Moorabbin & District Obedience Dog Club"
     },
     {
       "title": "Agility Trials x 3 Agility Club of WA",
-      "club": "",
+      "club": "Agility Trials x 3 Agility Club of WA",
       "start": "2027-09-04",
       "end": "2027-09-04",
       "location": "Western Australia",
@@ -8192,7 +8377,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
       "start": "2027-09-04",
       "end": "2027-09-04",
       "location": "Western Australia",
@@ -8229,11 +8414,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "K9 Scent Club"
     },
     {
       "title": "Tracking/Track & Search Trial Advanced Tracking Club",
-      "club": "",
+      "club": "Tracking/Track & Search Trial Advanced Tracking Club",
       "start": "2027-09-04",
       "end": "2027-09-08",
       "location": "Western Australia",
@@ -8270,11 +8456,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Yea & District Kennel Club Inc"
     },
     {
       "title": "Championship Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
       "start": "2027-09-05",
       "end": "2027-09-05",
       "location": "Western Australia",
@@ -8295,7 +8482,7 @@
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double header All Breeds Herding Club",
       "start": "2027-09-05",
       "end": "2027-09-05",
       "location": "Western Australia",
@@ -8316,7 +8503,7 @@
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-09-05",
       "end": "2027-09-05",
       "location": "Western Australia",
@@ -8353,11 +8540,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Seymour Kennel Club Inc"
     },
     {
       "title": "Agility Trial (State fundraiser) CAWA Events Ctee",
-      "club": "",
+      "club": "Agility Trial (State fundraiser) CAWA Events Ctee",
       "start": "2027-09-11",
       "end": "2027-09-11",
       "location": "Western Australia",
@@ -8394,11 +8582,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Belgrave & District Kennel Club Inc"
     },
     {
       "title": "Championship & Open Show Dachshund Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Dachshund Club \u2013 Conformation",
       "start": "2027-09-11",
       "end": "2027-09-11",
       "location": "Western Australia",
@@ -8419,7 +8608,7 @@
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double Header Trials All Breeds Herding Club",
       "start": "2027-09-11",
       "end": "2027-09-11",
       "location": "Western Australia",
@@ -8456,7 +8645,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "North East Tracking & Scent Club"
     },
     {
       "title": "Shepparton & District Obedience Dog Club",
@@ -8476,11 +8666,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Shepparton & District Obedience Dog Club"
     },
     {
       "title": "Tracking Trial Trackwest",
-      "club": "",
+      "club": "Tracking Trial Trackwest",
       "start": "2027-09-11",
       "end": "2027-09-15",
       "location": "Western Australia",
@@ -8501,7 +8692,7 @@
     },
     {
       "title": "Championship & Open Show Dobermann Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Dobermann Club \u2013 Conformation",
       "start": "2027-09-12",
       "end": "2027-09-12",
       "location": "Western Australia",
@@ -8538,7 +8729,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Northern Obedience Dog Club"
     },
     {
       "title": "Cavalier King Charles Spaniel Club of Victoria Inc",
@@ -8558,7 +8750,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
     },
     {
       "title": "Bairnsdale & District Kennel Club Inc",
@@ -8578,11 +8771,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bairnsdale & District Kennel Club Inc"
     },
     {
       "title": "Dances With Dogs Competition - PM DWD Club of WA \u2013 Dances with Dogs",
-      "club": "",
+      "club": "Dances With Dogs Competition - PM DWD Club of WA \u2013 Dances with Dogs",
       "start": "2027-09-17",
       "end": "2027-09-17",
       "location": "Western Australia",
@@ -8619,11 +8813,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Tracking Club of Vic Inc"
     },
     {
       "title": "Championship Shows x 2 (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "club": "",
+      "club": "Championship Shows x 2 (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
       "start": "2027-09-18",
       "end": "2027-09-18",
       "location": "Western Australia",
@@ -8660,7 +8855,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "East Gippsland Kennel Club Inc"
     },
     {
       "title": "Geelong Obedience Dog Club Inc",
@@ -8680,7 +8876,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Geelong Obedience Dog Club Inc"
     },
     {
       "title": "Kyneton & District Kennel Club Inc AM",
@@ -8700,11 +8897,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Kyneton & District Kennel Club Inc AM"
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-09-18",
       "end": "2027-09-18",
       "location": "Western Australia",
@@ -8741,7 +8939,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Warragul & District Kennel & Obedience Dog Club Inc"
     },
     {
       "title": "Ballarat Dog Club Inc",
@@ -8761,11 +8960,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Ballarat Dog Club Inc"
     },
     {
       "title": "Championship Shows x 2 (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "club": "",
+      "club": "Championship Shows x 2 (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
       "start": "2027-09-19",
       "end": "2027-09-19",
       "location": "Western Australia",
@@ -8802,11 +9002,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Gippsland Obedience Dog Club"
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2027-09-19",
       "end": "2027-09-19",
       "location": "Western Australia",
@@ -8827,7 +9028,7 @@
     },
     {
       "title": "Obedience Trial x 2 & Rally O Trial Bunbury & Dist.DC",
-      "club": "",
+      "club": "Obedience Trial x 2 & Rally O Trial Bunbury & Dist.DC",
       "start": "2027-09-19",
       "end": "2027-09-19",
       "location": "Western Australia",
@@ -8848,7 +9049,7 @@
     },
     {
       "title": "Obedience Trial x 2 & Rally O Trial Bunbury & Dist.DC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience Trial x 2 & Rally O Trial Bunbury & Dist.DC \u2013 Rally Obedience",
       "start": "2027-09-19",
       "end": "2027-09-19",
       "location": "Western Australia",
@@ -8869,7 +9070,7 @@
     },
     {
       "title": "Tracking/Track & Search Trial Advanced Tracking Club",
-      "club": "",
+      "club": "Tracking/Track & Search Trial Advanced Tracking Club",
       "start": "2027-09-19",
       "end": "2027-09-22",
       "location": "Western Australia",
@@ -8906,7 +9107,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "German Shorthaired Pointer Club of Vic."
     },
     {
       "title": "German Shorthaired Pointer Club of Vic.",
@@ -8926,7 +9128,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "German Shorthaired Pointer Club of Vic."
     },
     {
       "title": "Royal Agricultural Society of Vic - Melbourne Royal Show",
@@ -8946,11 +9149,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Royal Agricultural Society of Vic - Melbourne Royal Show"
     },
     {
       "title": "Championship Show (ROYAL) (All Breeds) RASWA \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (ROYAL) (All Breeds) RASWA \u2013 Conformation",
       "start": "2027-09-25",
       "end": "2027-10-02",
       "location": "Western Australia",
@@ -8987,7 +9191,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Ballaarat Dog Obedience Club Inc"
     },
     {
       "title": "Murray Valley Obedience Dog Club Inc",
@@ -9007,11 +9212,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Murray Valley Obedience Dog Club Inc"
     },
     {
       "title": "Championship & Open Show WA Terrier Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show WA Terrier Club \u2013 Conformation",
       "start": "2027-10-03",
       "end": "2027-10-03",
       "location": "Western Australia",
@@ -9048,11 +9254,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Eastern Suburbs Obedience Dog Club"
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
-      "club": "",
+      "club": "Herding Trial - Double header All Breeds Herding Club",
       "start": "2027-10-03",
       "end": "2027-10-03",
       "location": "Western Australia",
@@ -9089,11 +9296,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Kerang Agricultural Society Inc."
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-10-03",
       "end": "2027-10-03",
       "location": "Western Australia",
@@ -9130,11 +9338,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria Scent Work Committee - State Scent Work Trial"
     },
     {
       "title": "Championship Show x 2 (All Breeds) Fremantle Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show x 2 (All Breeds) Fremantle Dog Club \u2013 Conformation",
       "start": "2027-10-09",
       "end": "2027-10-09",
       "location": "Western Australia",
@@ -9171,7 +9380,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "East Gippsland Dog Obedience Club (Sale or Morwell)"
     },
     {
       "title": "Golden Retriever Club of Vic Inc",
@@ -9191,7 +9401,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Golden Retriever Club of Vic Inc"
     },
     {
       "title": "Shepparton Agricultural Society",
@@ -9211,11 +9422,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Shepparton Agricultural Society"
     },
     {
       "title": "State Obedience & Rally O Trials CAWA Events Ctee",
-      "club": "",
+      "club": "State Obedience & Rally O Trials CAWA Events Ctee",
       "start": "2027-10-09",
       "end": "2027-10-09",
       "location": "Western Australia",
@@ -9236,7 +9448,7 @@
     },
     {
       "title": "State Obedience & Rally O Trials CAWA Events Ctee \u2013 Rally Obedience",
-      "club": "",
+      "club": "State Obedience & Rally O Trials CAWA Events Ctee \u2013 Rally Obedience",
       "start": "2027-10-09",
       "end": "2027-10-09",
       "location": "Western Australia",
@@ -9257,7 +9469,7 @@
     },
     {
       "title": "Championship (All Breeds) and Open show Fremantle Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship (All Breeds) and Open show Fremantle Dog Club \u2013 Conformation",
       "start": "2027-10-10",
       "end": "2027-10-10",
       "location": "Western Australia",
@@ -9294,7 +9506,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Croydon & District Obedience Dog Club"
     },
     {
       "title": "Gippsland Obedience Dog Club",
@@ -9314,7 +9527,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Gippsland Obedience Dog Club"
     },
     {
       "title": "Romsey Kennel Club Inc AM",
@@ -9334,11 +9548,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Romsey Kennel Club Inc AM"
     },
     {
       "title": "State Trick Trial CAWA Events Ctee \u2013 Trick Dog",
-      "club": "",
+      "club": "State Trick Trial CAWA Events Ctee \u2013 Trick Dog",
       "start": "2027-10-10",
       "end": "2027-10-10",
       "location": "Western Australia",
@@ -9359,7 +9574,7 @@
     },
     {
       "title": "Scentwork Trial Advanced Tracking Trial",
-      "club": "",
+      "club": "Scentwork Trial Advanced Tracking Trial",
       "start": "2027-10-13",
       "end": "2027-10-13",
       "location": "Western Australia",
@@ -9380,7 +9595,7 @@
     },
     {
       "title": "Scentwork Trial Advanced Tracking Trial \u2013 Scent Work",
-      "club": "",
+      "club": "Scentwork Trial Advanced Tracking Trial",
       "start": "2027-10-13",
       "end": "2027-10-13",
       "location": "Western Australia",
@@ -9417,7 +9632,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "White Swiss Shepherd Dog Association of Victoria Inc"
     },
     {
       "title": "Benalla A & P Society Inc AM",
@@ -9437,7 +9653,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Benalla A & P Society Inc AM"
     },
     {
       "title": "Royal Geelong Agricultural Society",
@@ -9457,11 +9674,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Royal Geelong Agricultural Society"
     },
     {
       "title": "Championship Show (All Breeds) Bunbury & Dist.DC \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Bunbury & Dist.DC \u2013 Conformation",
       "start": "2027-10-16",
       "end": "2027-10-16",
       "location": "Western Australia",
@@ -9498,11 +9716,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Kyabram A & P Society Inc AM"
     },
     {
       "title": "Lure Coursing Whippet Club",
-      "club": "",
+      "club": "Lure Coursing Whippet Club",
       "start": "2027-10-16",
       "end": "2027-10-16",
       "location": "Western Australia",
@@ -9523,7 +9742,7 @@
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DA",
-      "club": "",
+      "club": "Obedience & Rally O Trials German Shepherd DA",
       "start": "2027-10-16",
       "end": "2027-10-16",
       "location": "Western Australia",
@@ -9544,7 +9763,7 @@
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DA \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally O Trials German Shepherd DA \u2013 Rally Obedience",
       "start": "2027-10-16",
       "end": "2027-10-16",
       "location": "Western Australia",
@@ -9565,7 +9784,7 @@
     },
     {
       "title": "Track & Search Dog Trials Trackwest",
-      "club": "",
+      "club": "Track & Search Dog Trials Trackwest",
       "start": "2027-10-16",
       "end": "2027-10-16",
       "location": "Western Australia",
@@ -9602,7 +9821,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Werribee Obedience Dog Club"
     },
     {
       "title": "Echuca & District Kennel Club Inc AM",
@@ -9622,11 +9842,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Echuca & District Kennel Club Inc AM"
     },
     {
       "title": "Lure Coursing Whippet Club",
-      "club": "",
+      "club": "Lure Coursing Whippet Club",
       "start": "2027-10-17",
       "end": "2027-10-17",
       "location": "Western Australia",
@@ -9647,7 +9868,7 @@
     },
     {
       "title": "Scent Work Trial Midland Dog Club",
-      "club": "",
+      "club": "Scent Work Trial Midland Dog Club",
       "start": "2027-10-17",
       "end": "2027-10-17",
       "location": "Western Australia",
@@ -9684,7 +9905,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Numurkah A & P Societ"
     },
     {
       "title": "Bendigo Agricultural Show Society Inc AM",
@@ -9704,11 +9926,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bendigo Agricultural Show Society Inc AM"
     },
     {
       "title": "Agility Trials x 2 Southern River A&ODC",
-      "club": "",
+      "club": "Agility Trials x 2 Southern River A&ODC",
       "start": "2027-10-23",
       "end": "2027-10-23",
       "location": "Western Australia",
@@ -9729,7 +9952,7 @@
     },
     {
       "title": "Championship Show German Shepherd DA \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show German Shepherd DA \u2013 Conformation",
       "start": "2027-10-23",
       "end": "2027-10-23",
       "location": "Western Australia",
@@ -9750,7 +9973,7 @@
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-10-23",
       "end": "2027-10-23",
       "location": "Western Australia",
@@ -9771,7 +9994,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Geraldton & Dist. KC \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Geraldton & Dist. KC \u2013 Conformation",
       "start": "2027-10-24",
       "end": "2027-10-24",
       "location": "Western Australia",
@@ -9808,11 +10031,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Warragul & District Kennel & Obedience Club Inc"
     },
     {
       "title": "Scentwork Trial Scent Work Club",
-      "club": "",
+      "club": "Scentwork Trial Scent Work Club",
       "start": "2027-10-27",
       "end": "2027-10-27",
       "location": "Western Australia",
@@ -9849,7 +10073,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Basset Hound Club of Vic Inc"
     },
     {
       "title": "Bearded Collie Club of Vic Inc",
@@ -9869,7 +10094,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bearded Collie Club of Vic Inc"
     },
     {
       "title": "French Bulldog Club of Vic Inc",
@@ -9889,7 +10115,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "French Bulldog Club of Vic Inc"
     },
     {
       "title": "Afghan Hound Club of Vic Inc",
@@ -9909,7 +10136,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Afghan Hound Club of Vic Inc"
     },
     {
       "title": "Australian Shepherd Club of Vic Inc",
@@ -9929,7 +10157,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Australian Shepherd Club of Vic Inc"
     },
     {
       "title": "Beagle Club of Vic Inc",
@@ -9949,7 +10178,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Beagle Club of Vic Inc"
     },
     {
       "title": "Berwick Obedience Dog Club",
@@ -9969,7 +10199,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Berwick Obedience Dog Club"
     },
     {
       "title": "Border Collie Club of Vic",
@@ -9989,7 +10220,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Border Collie Club of Vic"
     },
     {
       "title": "Club L'Epagneul Breton Victoria",
@@ -10009,7 +10241,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Club L'Epagneul Breton Victoria"
     },
     {
       "title": "Curly Coated Retriever Club of Vic Inc",
@@ -10029,7 +10262,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Curly Coated Retriever Club of Vic Inc"
     },
     {
       "title": "Dachshund Club of Vic Inc",
@@ -10049,7 +10283,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dachshund Club of Vic Inc"
     },
     {
       "title": "Dalmatian Club of Victoria",
@@ -10069,7 +10304,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dalmatian Club of Victoria"
     },
     {
       "title": "Finnish Lapphund Club of Vic Inc",
@@ -10089,7 +10325,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Finnish Lapphund Club of Vic Inc"
     },
     {
       "title": "German Shepherd Dog Club of Vic Inc RTG5",
@@ -10109,7 +10346,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Vic Inc RTG5"
     },
     {
       "title": "Great Dane Club of Vic Inc",
@@ -10129,7 +10367,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Great Dane Club of Vic Inc"
     },
     {
       "title": "Japanese Spitz Club of Vic Inc 2PM",
@@ -10149,7 +10388,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Japanese Spitz Club of Vic Inc 2PM"
     },
     {
       "title": "Papillon Club of Vic Inc",
@@ -10169,7 +10409,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Papillon Club of Vic Inc"
     },
     {
       "title": "Pekingese Club of Vic Inc AM",
@@ -10189,7 +10430,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Pekingese Club of Vic Inc AM"
     },
     {
       "title": "Rarer Gundog Spaniel Club of Vic Inc",
@@ -10209,7 +10451,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Rarer Gundog Spaniel Club of Vic Inc"
     },
     {
       "title": "Rhodesian Ridgeback Club of Vic Inc AM",
@@ -10229,7 +10472,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Rhodesian Ridgeback Club of Vic Inc AM"
     },
     {
       "title": "Rottweiler Club of Vic Inc",
@@ -10249,7 +10493,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Rottweiler Club of Vic Inc"
     },
     {
       "title": "Saluki Club of Vic Inc",
@@ -10269,7 +10514,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Saluki Club of Vic Inc"
     },
     {
       "title": "Schipperke Club of Vic Inc",
@@ -10289,7 +10535,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Schipperke Club of Vic Inc"
     },
     {
       "title": "Siberian Husky Club of Vic Inc",
@@ -10309,7 +10556,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Siberian Husky Club of Vic Inc"
     },
     {
       "title": "Varieties of Bichon Related Breeds of Vic Inc",
@@ -10329,7 +10577,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Varieties of Bichon Related Breeds of Vic Inc"
     },
     {
       "title": "Victorian Gundog Club Inc",
@@ -10349,7 +10598,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Victorian Gundog Club Inc"
     },
     {
       "title": "Welsh Corgi Club of Vic Inc",
@@ -10369,7 +10619,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Welsh Corgi Club of Vic Inc"
     },
     {
       "title": "Working Dog Club of Vic Inc - must be 4pm start",
@@ -10389,11 +10640,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Working Dog Club of Vic Inc - must be 4pm start"
     },
     {
       "title": "Championship Shows x 2 - (Celeb of Best All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "club": "",
+      "club": "Championship Shows x 2 - (Celeb of Best All Breeds) CAWA Events Ctee \u2013 Conformation",
       "start": "2027-10-31",
       "end": "2027-10-31",
       "location": "Western Australia",
@@ -10430,7 +10682,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Cocker Spaniel Club of Victoria"
     },
     {
       "title": "Hound Club of Vic Inc",
@@ -10450,7 +10703,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Hound Club of Vic Inc"
     },
     {
       "title": "K9 Scent Club",
@@ -10470,7 +10724,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "K9 Scent Club"
     },
     {
       "title": "Little Lion Dogs of Victoria Inc",
@@ -10490,7 +10745,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Little Lion Dogs of Victoria Inc"
     },
     {
       "title": "Miniature Pinscher Club of Vic Inc",
@@ -10510,7 +10766,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Miniature Pinscher Club of Vic Inc"
     },
     {
       "title": "Working Dog Club of Vic Inc",
@@ -10530,7 +10787,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Working Dog Club of Vic Inc"
     },
     {
       "title": "Victorian Women\u2019s Dog Club Inc",
@@ -10550,7 +10808,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Victorian Women\u2019s Dog Club Inc"
     },
     {
       "title": "German Shorthaired Pointer Club of Vic.",
@@ -10570,7 +10829,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "German Shorthaired Pointer Club of Vic."
     },
     {
       "title": "Central Gippsland Kennel Club Inc",
@@ -10590,7 +10850,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Central Gippsland Kennel Club Inc"
     },
     {
       "title": "Portland & District Kennel Club Inc",
@@ -10610,7 +10871,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Portland & District Kennel Club Inc"
     },
     {
       "title": "Bairnsdale & District Dog Obedience Club Inc",
@@ -10630,7 +10892,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bairnsdale & District Dog Obedience Club Inc"
     },
     {
       "title": "Bull Terrier Club of Vic In",
@@ -10650,7 +10913,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bull Terrier Club of Vic In"
     },
     {
       "title": "Central Gippsland Kennel Club Inc - AM",
@@ -10670,11 +10934,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Central Gippsland Kennel Club Inc - AM"
     },
     {
       "title": "Championship & Open Show Poodle Society \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Poodle Society \u2013 Conformation",
       "start": "2027-11-06",
       "end": "2027-11-06",
       "location": "Western Australia",
@@ -10711,7 +10976,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Geelong Obedience Dog Club Inc"
     },
     {
       "title": "Morwell/Traralgon Kennel Club Inc - PM",
@@ -10731,11 +10997,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Morwell/Traralgon Kennel Club Inc - PM"
     },
     {
       "title": "Championship & Open Show Cocker Spaniel Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship & Open Show Cocker Spaniel Club \u2013 Conformation",
       "start": "2027-11-07",
       "end": "2027-11-07",
       "location": "Western Australia",
@@ -10772,7 +11039,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Gippsland Obedience Dog Club Inc"
     },
     {
       "title": "Morwell/Traralgon Kennel Club Inc - AM",
@@ -10792,7 +11060,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Morwell/Traralgon Kennel Club Inc - AM"
     },
     {
       "title": "Warrnambool & District K & O Club Inc",
@@ -10812,7 +11081,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Warrnambool & District K & O Club Inc"
     },
     {
       "title": "Bass Valley Kennel Club AM",
@@ -10832,11 +11102,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bass Valley Kennel Club AM"
     },
     {
       "title": "Jumping & Games Trials Cloverdale Canine Companions \u2013 Agility",
-      "club": "",
+      "club": "Jumping & Games Trials Cloverdale Canine Companions",
       "start": "2027-11-13",
       "end": "2027-11-13",
       "location": "Western Australia",
@@ -10873,11 +11144,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Southern Obedience Dog Training Club Inc"
     },
     {
       "title": "Sprintdog\u2122 Trial Whippet Club",
-      "club": "",
+      "club": "Sprintdog\u2122 Trial Whippet Club",
       "start": "2027-11-13",
       "end": "2027-11-13",
       "location": "Western Australia",
@@ -10914,11 +11186,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Bass Valley Kennel Club"
     },
     {
       "title": "Agility Trials x 2 Albany All Breeds DC",
-      "club": "",
+      "club": "Agility Trials x 2 Albany All Breeds DC",
       "start": "2027-11-20",
       "end": "2027-11-20",
       "location": "Western Australia",
@@ -10939,7 +11212,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Albany All Breeds DC \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Albany All Breeds DC \u2013 Conformation",
       "start": "2027-11-20",
       "end": "2027-11-20",
       "location": "Western Australia",
@@ -10976,7 +11249,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Knox Obedience Dog Club"
     },
     {
       "title": "Kyneton Agricultural Society",
@@ -10996,11 +11270,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Kyneton Agricultural Society"
     },
     {
       "title": "Obedience & Rally Trials Albany All Breeds DC",
-      "club": "",
+      "club": "Obedience & Rally Trials Albany All Breeds DC",
       "start": "2027-11-20",
       "end": "2027-11-20",
       "location": "Western Australia",
@@ -11021,7 +11296,7 @@
     },
     {
       "title": "Obedience & Rally Trials Albany All Breeds DC \u2013 Rally Obedience",
-      "club": "",
+      "club": "Obedience & Rally Trials Albany All Breeds DC \u2013 Rally Obedience",
       "start": "2027-11-20",
       "end": "2027-11-20",
       "location": "Western Australia",
@@ -11042,7 +11317,7 @@
     },
     {
       "title": "Agility Trials x 2 (Jumping Only) Albany All Breeds DC",
-      "club": "",
+      "club": "Agility Trials x 2 (Jumping Only) Albany All Breeds DC",
       "start": "2027-11-21",
       "end": "2027-11-21",
       "location": "Western Australia",
@@ -11063,7 +11338,7 @@
     },
     {
       "title": "Trick Dog Tests Albany All Breeds DC",
-      "club": "",
+      "club": "Trick Dog Tests Albany All Breeds DC",
       "start": "2027-11-21",
       "end": "2027-11-21",
       "location": "Western Australia",
@@ -11100,11 +11375,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Western Districts Kennel Club AM"
     },
     {
       "title": "State DWD Competition CAWA Events Ctee \u2013 Dances with Dogs",
-      "club": "",
+      "club": "State DWD Competition CAWA Events Ctee \u2013 Dances with Dogs",
       "start": "2027-11-26",
       "end": "2027-11-26",
       "location": "Western Australia",
@@ -11141,7 +11417,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Daylesford & District Ag Society Inc"
     },
     {
       "title": "Portland Obedience Dog Club",
@@ -11161,11 +11438,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Portland Obedience Dog Club"
     },
     {
       "title": "State Trick Trial CAWA Events Ctee \u2013 Trick Dog",
-      "club": "",
+      "club": "State Trick Trial CAWA Events Ctee \u2013 Trick Dog",
       "start": "2027-11-27",
       "end": "2027-11-27",
       "location": "Western Australia",
@@ -11202,7 +11480,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Melbourne Dog Club Inc AM"
     },
     {
       "title": "Dogs Victoria Royal Canin Summer Spectacular",
@@ -11222,7 +11501,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria Royal Canin Summer Spectacular"
     },
     {
       "title": "Dobermann Club of Vic",
@@ -11242,7 +11522,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dobermann Club of Vic"
     },
     {
       "title": "Old English Sheepdog Club of Vic Inc",
@@ -11262,11 +11543,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Old English Sheepdog Club of Vic Inc"
     },
     {
       "title": "Sprintdog \u2122 WCDS",
-      "club": "",
+      "club": "Sprintdog \u2122 WCDS",
       "start": "2027-12-04",
       "end": "2027-12-04",
       "location": "Western Australia",
@@ -11303,7 +11585,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Toy Poodle Society of Victoria Inc"
     },
     {
       "title": "Victorian Gundog Club",
@@ -11323,7 +11606,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Victorian Gundog Club"
     },
     {
       "title": "White Swiss Shepherd Dog Association of Vic Inc",
@@ -11343,11 +11627,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "White Swiss Shepherd Dog Association of Vic Inc"
     },
     {
       "title": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
       "start": "2027-12-10",
       "end": "2027-12-10",
       "location": "Western Australia",
@@ -11368,7 +11653,7 @@
     },
     {
       "title": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
       "start": "2027-12-11",
       "end": "2027-12-11",
       "location": "Western Australia",
@@ -11405,11 +11690,12 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Maldon & District Kennel Club AM"
     },
     {
       "title": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
-      "club": "",
+      "club": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
       "start": "2027-12-12",
       "end": "2027-12-12",
       "location": "Western Australia",
@@ -11446,7 +11732,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Yarra Valley Kennel Club"
     },
     {
       "title": "Collie Club of Victoria",
@@ -11466,7 +11753,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Collie Club of Victoria"
     },
     {
       "title": "Yarra Valley Kennel Club AM",
@@ -11486,7 +11774,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Yarra Valley Kennel Club AM"
     },
     {
       "title": "Sovereign City Kennel Club Inc",
@@ -11506,7 +11795,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Sovereign City Kennel Club Inc"
     },
     {
       "title": "Lancefield Kennel Club Inc AM",
@@ -11526,7 +11816,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Lancefield Kennel Club Inc AM"
     },
     {
       "title": "Central Highlands Kennel Club Inc AM",
@@ -11546,7 +11837,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Central Highlands Kennel Club Inc AM"
     },
     {
       "title": "Dogs Victoria New Year Committee AM",
@@ -11566,7 +11858,8 @@
       "status_label": "Approved; not open (unverified)",
       "verified": false,
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "club": "Dogs Victoria New Year Committee AM"
     },
     {
       "title": "Boxer Club of NSW - (Group 6 Obedience Trial)",
@@ -11595,7 +11888,7 @@
     },
     {
       "title": "Boxer Club of NSW - (Group 6 Rally Trial) \u2013 Rally Obedience",
-      "club": "Boxer Club of NSW - (Group 6 Rally Trial)",
+      "club": "Boxer Club of NSW - (Group 6 Rally Trial) \u2013 Rally Obedience",
       "start": "2027-06-12",
       "end": "2027-06-12",
       "location": "",
