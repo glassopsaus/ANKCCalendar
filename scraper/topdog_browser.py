@@ -116,12 +116,21 @@ def _walk_section(page, section, pages_html, PWTimeout):
             break
         prev_signature = signature
         pages_html.append((section, html))
-        # Diagnostic: how many per-event /trials/<id> links are present in the
-        # captured HTML? This tells us whether per-event links are in the DOM at
-        # all (harvestable) or absent (injected later / require interaction).
+        # Diagnostic: how are per-event trial IDs represented (if at all) in the
+        # captured HTML? Per-event links (/trials/<id>) tell us if IDs are
+        # harvestable as hrefs; data-* attributes with digits tell us if the ID
+        # is carried some other way (e.g. a click handler's data-trial-id).
         _nlinks = len(re.findall(r"/trials/\d+", html))
+        extra = ""
+        if page_num == 1:
+            # One-off structural probe on the first page of each section.
+            data_attrs = re.findall(r'(data-[a-z0-9\-]*(?:id|trial|event)[a-z0-9\-]*)\s*=\s*"(\d+)"', html, re.I)
+            has_json = bool(re.search(r'/trials\.json|/trials\?[^"]*format=json|"trials_url"', html, re.I))
+            extra = (f"; data-id-attrs={len(data_attrs)}"
+                     f"{' e.g. '+data_attrs[0][0] if data_attrs else ''}"
+                     f"; json_hint={has_json}")
         print(f"[topdog-browser] {section} p{page_num}: captured "
-              f"({len(signature)} rows, {_nlinks} per-event links in HTML)",
+              f"({len(signature)} rows, {_nlinks} per-event links in HTML{extra})",
               file=sys.stderr)
 
 
