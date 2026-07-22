@@ -1966,7 +1966,7 @@ def build_year():
                         e2["status_label"] = f"Entries via {prov} (unverified)"
                     else:
                         e2["status"] = "approved_not_open"
-                        e2["status_label"] = "Approved; not open (unverified)"
+                        e2["status_label"] = "Approved (unverified)"
                     e2["verified"] = False
     else:
         for e2 in unique:
@@ -1982,8 +1982,8 @@ def build_year():
     #                      verified.
     #   open (enterable) = Show Manager reports "open", OR the event is in Top
     #                      Dog's UPCOMING section (topdog_open=True).
-    # "Approved; not open" now strictly means: on a governing (ANKC) source
-    # only, no entry platform, not otherwise corroborated.
+    # "Approved" now strictly means: on a governing (ANKC) source only, no
+    # entry platform, not otherwise corroborated.
     ENTRY_PLATFORMS = {"Show Manager", "Dogz Online", "Top Dog Events"}
     today = dt.date.today()
 
@@ -2048,7 +2048,7 @@ def build_year():
         else:
             # governing-source only, no entry platform
             e2["status"] = "approved_not_open"
-            e2["status_label"] = "Approved; not open (unverified)"
+            e2["status_label"] = "Approved (unverified)"
 
     # ---- Past-event pass ----------------------------------------------------
     # "Past" (the event's last day has gone by) is INDEPENDENT of entry-state
