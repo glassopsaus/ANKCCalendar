@@ -1269,6 +1269,33 @@ _GENERIC_LINK_RES = (
 )
 
 
+def _entry_link_rank(url):
+    """Preference rank for a specific per-event link when several exist for one
+    merged event. Lower = preferred. The "Enter / details" button should point
+    where you can actually ENTER, so entry PLATFORMS outrank information
+    listings: Show Manager / Top Dog (enter + pay) > vicdog.com event page
+    (VIC listing/details only) > any other specific deep link."""
+    if not url:
+        return 99
+    if re.search(r"showmanager\.com\.au", url, re.I):
+        return 0
+    if re.search(r"topdogevents\.com\.au/trials/\d+", url, re.I):
+        return 0
+    if re.search(r"vicdog\.com/events/", url, re.I):
+        return 2  # real per-event page, but a listing site, not an entry platform
+    return 1  # some other specific deep link — prefer over vicdog listing
+
+
+def _best_entry_link(urls):
+    """Pick the most enter-able specific link from candidates (ignores generic
+    listing/calendar pages and Nones). Returns None if there is no specific
+    link at all."""
+    specific = [u for u in urls if _is_specific_event_link(u)]
+    if not specific:
+        return None
+    return sorted(specific, key=_entry_link_rank)[0]
+
+
 def _is_specific_event_link(url):
     """True if `url` is a specific per-event page (e.g. Top Dog /trials/<id> or
     a Show Manager event Details page), as opposed to a generic listing or
@@ -1827,15 +1854,16 @@ def build_year():
                                 "closes", "address"):
                         if not k.get(fld) and e.get(fld):
                             k[fld] = e[fld]
-                    # A SPECIFIC per-event link (Top Dog /trials/<id> or a Show
-                    # Manager detail page) from EITHER copy should win over a
-                    # generic listing/calendar page — otherwise a DV survivor
-                    # keeps its generic calendar URL and the real Top Dog entry
-                    # link is lost. Stash the best specific link seen.
-                    for cand in (e.get("url"), e.get("entry_url")):
-                        if _is_specific_event_link(cand):
-                            k["_best_link"] = cand
-                            break
+                    # Collect every candidate per-event link from BOTH copies
+                    # into a pool; the best (most enter-able) one is chosen when
+                    # entry_url is assigned. This lets an entry-platform link
+                    # (Top Dog / Show Manager) win over a vicdog listing page,
+                    # and any specific link win over a generic survivor url.
+                    pool = k.setdefault("_link_pool", [])
+                    for cand in (k.get("url"), k.get("entry_url"),
+                                 e.get("url"), e.get("entry_url")):
+                        if cand and cand not in pool:
+                            pool.append(cand)
                     # Stash the duplicate's title/location text so the later
                     # club/detail derivation can draw the club name from one
                     # source and the trial-type descriptor from the other.
@@ -1981,20 +2009,17 @@ def build_year():
         topdog_open = bool(e2.get("topdog_open"))
         closes_passed = _closes_passed(e2)
 
-        # Entry link: prefer a SPECIFIC per-event page over any generic
-        # listing/calendar page, drawing from (a) a per-event link stashed
-        # during merge (e.g. Top Dog's /trials/<id> when a DV copy was the
-        # survivor), then (b) the event's own url/entry_url if specific.
-        # A generic page (DV calendar, bare Top Dog /trials) is never used —
-        # better no "Enter" link than one that dumps the user on an index.
-        # Don't overwrite a Show Manager entry_url the matcher already set.
-        sm_entry = e2.get("entry_url")
-        if not _is_specific_event_link(sm_entry):
-            best = e2.get("_best_link")
-            if not _is_specific_event_link(best):
-                best = e2.get("url") if _is_specific_event_link(e2.get("url")) else None
-            e2["entry_url"] = best  # may be None -> no Enter link shown
-        e2.pop("_best_link", None)
+        # Entry link: the "Enter / details" button should point where you can
+        # actually ENTER, so we pick the most enter-able SPECIFIC per-event link
+        # across every source that merged into this event — entry platforms
+        # (Show Manager / Top Dog) rank above information listings (vicdog event
+        # pages), which in turn beat any generic listing/calendar page (never
+        # used). Candidates: a matcher-set entry_url, the pool gathered during
+        # merge, and the event's own url/entry_url.
+        candidates = list(e2.get("_link_pool") or [])
+        candidates += [e2.get("entry_url"), e2.get("url")]
+        e2["entry_url"] = _best_entry_link(candidates)  # None -> no Enter link
+        e2.pop("_link_pool", None)
 
         # ---- verified (real) ----
         e2["verified"] = (len(srcs) >= 2) or on_entry_platform
@@ -2128,7 +2153,7 @@ def build_year():
     # any internal scratch fields so they never ship in the JSON.
     for e in unique:
         _derive_club(e)
-        e.pop("_best_link", None)
+        e.pop("_link_pool", None)
         e.pop("_alt_text", None)
 
     payload = {
