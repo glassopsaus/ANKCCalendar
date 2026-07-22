@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-22T02:36:56+00:00",
+  "generated": "2026-07-22T03:11:30+00:00",
   "year": 2026,
-  "count": 2784,
+  "count": 2861,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -204,6 +204,28 @@
       "club": "Oxley Dog Training Club Inc"
     },
     {
+      "title": "Obedience Trial \u2013 Evening (CCD & CD) \u2013 BDOC",
+      "start": "2026-01-07",
+      "end": "2026-01-07",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-obedience-trial-evening-ccd-cd/",
+      "category": "Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-obedience-trial-evening-ccd-cd/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Obedience Trial \u2013 Evening (CCD & CD) \u2013 BDOC"
+    },
+    {
       "title": "Sprintdog Club \u2013 Sprint",
       "club": "Sprintdog Club \u2013 Sprint",
       "start": "2026-01-07",
@@ -228,6 +250,50 @@
       "is_past": true
     },
     {
+      "title": "Dances With Dogs Trial (Double) \u2013 ACTCDC \u2013 CANCELLED",
+      "start": "2026-01-08",
+      "end": "2026-01-08",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dances-with-dogs-trial-double-actcdc/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dances-with-dogs-trial-double-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dances With Dogs Trial (Double) \u2013 ACTCDC \u2013 CANCELLED"
+    },
+    {
+      "title": "Trick Dog Test (Double) \u2013 ACTCDC \u2013 CANCELLED",
+      "start": "2026-01-08",
+      "end": "2026-01-08",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-test-actcdc-2/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/trick-dog-test-actcdc-2/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Trick Dog Test (Double) \u2013 ACTCDC \u2013 CANCELLED"
+    },
+    {
       "title": "Oxley Dog Training Club Double Rally Trial",
       "start": "2026-01-09",
       "end": "2026-01-09",
@@ -249,6 +315,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
+    },
+    {
+      "title": "Trick Dog Test (PM) \u2013 ACTCDC \u2013 CANCELLED",
+      "start": "2026-01-09",
+      "end": "2026-01-09",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-test-pm-actcdc/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/trick-dog-test-pm-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Trick Dog Test (PM) \u2013 ACTCDC \u2013 CANCELLED"
     },
     {
       "title": "2025 Dog of the Year Awards' Night",
@@ -389,6 +477,50 @@
       "club": "Northern Suburbs Dog Training Club Inc \u2013 Retrieving"
     },
     {
+      "title": "Trick Dog Test (Double) \u2013 ACTCDC \u2013 CANCELLED",
+      "start": "2026-01-10",
+      "end": "2026-01-10",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-test-actcdc-2/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/trick-dog-test-actcdc-2/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Trick Dog Test (Double) \u2013 ACTCDC \u2013 CANCELLED"
+    },
+    {
+      "title": "Dances With Dogs Trial (Double) \u2013 ACTCDC \u2013 CANCELLED",
+      "start": "2026-01-11",
+      "end": "2026-01-11",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dances-with-dogs-trial-double-actcdc/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dances-with-dogs-trial-double-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dances With Dogs Trial (Double) \u2013 ACTCDC \u2013 CANCELLED"
+    },
+    {
       "title": "WSSW Container Carnivale",
       "start": "2026-01-12",
       "end": "2026-01-12",
@@ -477,6 +609,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Read More"
+    },
+    {
+      "title": "New Rally Signs Clinic \u2013 Dogs ACT",
+      "start": "2026-01-15",
+      "end": "2026-01-15",
+      "location": "",
+      "url": "https://dogsact.org.au/event/new-rally-signs-clinic-dogs-act/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/new-rally-signs-clinic-dogs-act/",
+      "open_now": false,
+      "is_past": true,
+      "club": "New Rally Signs Clinic \u2013 Dogs ACT"
     },
     {
       "title": "WSSW Summer Sizzler",
@@ -595,6 +749,30 @@
       "open_now": false,
       "is_past": true,
       "club": "Northern Suburbs Dog Training Club Inc"
+    },
+    {
+      "title": "Rally Trial (Double Evening) \u2013 ACTCDC",
+      "start": "2026-01-17",
+      "end": "2026-01-17",
+      "location": "",
+      "url": "https://dogsact.org.au/event/rally-trial-double-evening-actcdc-2/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-01-09",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45778",
+      "open_now": false,
+      "is_past": true,
+      "club": "Rally Trial (Double Evening) \u2013 ACTCDC"
     },
     {
       "title": "All Star Dog Sports \u2013 Dances with Dogs",
@@ -738,6 +916,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
+    },
+    {
+      "title": "Dogs ACT Rally Trial",
+      "start": "2026-01-21",
+      "end": "2026-01-21",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-rally-trial/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-rally-trial/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT Rally Trial"
     },
     {
       "title": "22/01/2026",
@@ -1056,6 +1256,28 @@
       "club": "DOGS NSW Grounds Development \u2013 Sled Sports"
     },
     {
+      "title": "Dogs ACT \u2013 Championship Shows (Australia Day Shows)",
+      "start": "2026-01-24",
+      "end": "2026-01-24",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-championship-shows-australia-day-shows/",
+      "category": "Conformation",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-championship-shows-australia-day-shows/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT \u2013 Championship Shows (Australia Day Shows)"
+    },
+    {
       "title": "Retrieving Training Class 6 week Block - 07:45am start time",
       "start": "2026-01-24",
       "end": "2026-02-28",
@@ -1237,6 +1459,28 @@
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW Library & Archives Committee \u2013 Conformation"
+    },
+    {
+      "title": "Scent Work Trial \u2013 Dogs ACT",
+      "start": "2026-01-28",
+      "end": "2026-01-28",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-dogs-act-12/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-dogs-act-12/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 Dogs ACT"
     },
     {
       "title": "Championship Show (All Breeds) Fremantle Dog Club \u2013 Conformation",
@@ -1623,6 +1867,29 @@
       "club": "Breed Numbers \u2013 Kennel Club of ..."
     },
     {
+      "title": "Jumping Trial (Ribbon) \u2013 TDTC",
+      "start": "2026-02-04",
+      "end": "2026-02-04",
+      "location": "Tuggeranong Dog Training Club",
+      "url": "https://dogsact.org.au/event/jumping-trial-ribbon-tdtc/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Top Dog Events"
+      ],
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://dogsact.org.au/event/jumping-trial-ribbon-tdtc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Tuggeranong Dog Training Club"
+    },
+    {
       "title": "Read More",
       "start": "2026-02-04",
       "end": "2026-02-04",
@@ -1645,27 +1912,26 @@
       "club": "Read More"
     },
     {
-      "title": "Ribbon Jumping trial",
+      "title": "Scent Work Trial (PM) \u2013 Dogs ACT",
       "start": "2026-02-04",
       "end": "2026-02-04",
-      "location": "Tuggeranong Dog Training Club",
-      "url": "https://www.topdogevents.com.au/trials",
-      "category": "Agility",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-pm-dogs-act/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
       "cancelled": false,
       "region": "ACT",
       "color": "#1d6fb8",
-      "topdog_open": false,
-      "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Dogs ACT"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-pm-dogs-act/",
       "open_now": false,
       "is_past": true,
-      "club": "Tuggeranong Dog Training Club"
+      "club": "Scent Work Trial (PM) \u2013 Dogs ACT"
     },
     {
       "title": "Australian Kelpie Club of Vic Inc - 11am",
@@ -1732,6 +1998,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Lyndhurst Canine Country Club Inc - 3pm"
+    },
+    {
+      "title": "Scent Work Trial (PM) \u2013 TDTC",
+      "start": "2026-02-06",
+      "end": "2026-02-06",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc-4/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc-4/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial (PM) \u2013 TDTC"
     },
     {
       "title": "Sprintdog Club \u2013 Sprint",
@@ -2242,6 +2530,30 @@
       "is_past": true
     },
     {
+      "title": "Scent Work Trial \u2013 Dogs ACT",
+      "start": "2026-02-08",
+      "end": "2026-02-08",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-dogs-act-13/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-02-01",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46372",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 Dogs ACT"
+    },
+    {
       "title": "Bega Valley Kennel & Training Club Inc \u2013 Trick Dog",
       "start": "2026-02-10",
       "end": "2026-02-10",
@@ -2311,6 +2623,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Sapphire Coast Kennel & Obedience Club"
+    },
+    {
+      "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-02-12",
+      "end": "2026-02-12",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-13/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-13/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "DOGS NSW Scent Work Working Party \u2013 Scent Work",
@@ -2428,6 +2762,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
+    },
+    {
+      "title": "Agility & Jumping Trial \u2013 ACTCDC (PM Trial)",
+      "start": "2026-02-14",
+      "end": "2026-02-14",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-trial-actcdc-2/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/agility-trial-actcdc-2/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Agility & Jumping Trial \u2013 ACTCDC (PM Trial)"
     },
     {
       "title": "Agility Trials x 2 Albany All Breeds DC",
@@ -3334,6 +3690,30 @@
       "is_past": true
     },
     {
+      "title": "Trick Dog Test \u2013 Canb Royal",
+      "start": "2026-02-21",
+      "end": "2026-02-21",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-test-canb-royal/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-02-17",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46593",
+      "open_now": false,
+      "is_past": true,
+      "club": "Trick Dog Test \u2013 Canb Royal"
+    },
+    {
       "title": "Berwick & District A & H Society Inc",
       "start": "2026-02-22",
       "end": "2026-02-22",
@@ -3563,6 +3943,28 @@
       "club": "Read More"
     },
     {
+      "title": "Dogs ACT Tracking Stewards Course.",
+      "start": "2026-02-25",
+      "end": "2026-02-25",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-tracking-stewards-course/",
+      "category": "Tracking",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-tracking-stewards-course/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT Tracking Stewards Course."
+    },
+    {
       "title": "Cessnock & District Agricultural Society \u2013 Conformation",
       "start": "2026-02-27",
       "end": "2026-02-27",
@@ -3631,6 +4033,30 @@
       "open_now": false,
       "is_past": true,
       "club": "Rochester A & P Association Inc"
+    },
+    {
+      "title": "Scent Work Trial \u2013 TDTC (PM)",
+      "start": "2026-02-27",
+      "end": "2026-02-27",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-tdtc-pm-2/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-02-24",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46311",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 TDTC (PM)"
     },
     {
       "title": "WESTERN CLASSIC WEEKEND Dances With Dogs Obedience Rally",
@@ -3909,6 +4335,30 @@
       "club": "Rylstone Kandos Show Society Inc \u2013 Conformation"
     },
     {
+      "title": "Scent Work Trial (PM) \u2013 ACTCDC",
+      "start": "2026-02-28",
+      "end": "2026-02-28",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-actcdc-2/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-02-24",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46311",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial (PM) \u2013 ACTCDC"
+    },
+    {
       "title": "TRAINING DAY - SprintDog",
       "start": "2026-02-28",
       "end": "2026-02-28",
@@ -4002,6 +4452,30 @@
       "club": "Samoyed Club of Vic Inc"
     },
     {
+      "title": "Scent Work Trial \u2013 Dogs ACT",
+      "start": "2026-03-01",
+      "end": "2026-03-01",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-dogs-act-14/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-02-24",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46311",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 Dogs ACT"
+    },
+    {
       "title": "South Eastern Kennel Club Inc",
       "start": "2026-03-01",
       "end": "2026-03-01",
@@ -4072,24 +4546,24 @@
       "club": "Western Classic Working Party"
     },
     {
-      "title": "March Ribbon Jumping",
+      "title": "Jumping Ribbon Trail \u2013 ACTCDC \u2013 CANCELLED",
       "start": "2026-03-03",
       "end": "2026-03-03",
       "location": "ACT Companion Dog Club",
-      "url": "https://www.topdogevents.com.au/trials",
+      "url": "https://dogsact.org.au/event/jumping-ribbon-trail-actcdc/",
       "category": "Agility",
+      "source": "Dogs ACT",
       "cancelled": false,
       "region": "ACT",
       "color": "#1d6fb8",
-      "topdog_open": false,
-      "source": "Top Dog Events",
       "sources": [
+        "Dogs ACT",
         "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials",
+      "entry_url": "https://dogsact.org.au/event/jumping-ribbon-trail-actcdc/",
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -4207,6 +4681,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true
+    },
+    {
+      "title": "Dogs ACT Tracking Stewards Course",
+      "start": "2026-03-04",
+      "end": "2026-03-04",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-tracking-stewards-course-2/",
+      "category": "Tracking",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-tracking-stewards-course-2/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT Tracking Stewards Course"
     },
     {
       "title": "Oxley Dog Training Club Double Obedience Trial",
@@ -4437,6 +4933,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
+    },
+    {
+      "title": "Scent Work Trial (PM) \u2013 TDTC",
+      "start": "2026-03-06",
+      "end": "2026-03-06",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc-6/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc-6/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial (PM) \u2013 TDTC"
     },
     {
       "title": "Sprintdob Committee \u2013 Sprint",
@@ -4978,6 +5496,28 @@
       "club": "Southern Obedience Dog Training Club"
     },
     {
+      "title": "Rally Trial (Double Evening) \u2013 ACTCDC",
+      "start": "2026-03-07",
+      "end": "2026-03-07",
+      "location": "",
+      "url": "https://dogsact.org.au/event/rally-trial-actcdc-2/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/rally-trial-actcdc-2/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Rally Trial (Double Evening) \u2013 ACTCDC"
+    },
+    {
       "title": "Southern Obedience Dog Club",
       "start": "2026-03-07",
       "end": "2026-03-08",
@@ -5160,6 +5700,30 @@
       "club": "Scent Work Club of WA"
     },
     {
+      "title": "Scent Work Trial (AM) \u2013 Dogs ACT",
+      "start": "2026-03-08",
+      "end": "2026-03-08",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-am-dogs-act/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-03-01",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46374",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial (AM) \u2013 Dogs ACT"
+    },
+    {
       "title": "Warragul & District Kennel & Obedience Club Inc PM",
       "start": "2026-03-08",
       "end": "2026-03-09",
@@ -5226,6 +5790,30 @@
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
+    },
+    {
+      "title": "Dogs ACT \u2013 SprintDog Trial",
+      "start": "2026-03-09",
+      "end": "2026-03-09",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-03-01",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46124",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT \u2013 SprintDog Trial"
     },
     {
       "title": "Lagotto Romagnolo Club of Vic Inc",
@@ -5619,6 +6207,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Adelong P & A Society Inc \u2013 Conformation"
+    },
+    {
+      "title": "Agility & Jumping Trial \u2013 BDOC",
+      "start": "2026-03-14",
+      "end": "2026-03-14",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-agility-jumping-trial/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-agility-jumping-trial/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Agility & Jumping Trial \u2013 BDOC"
     },
     {
       "title": "Agility and Jumping Trial",
@@ -6035,6 +6645,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
+    },
+    {
+      "title": "Obedience Trial (PM) \u2013 ACTCDC",
+      "start": "2026-03-14",
+      "end": "2026-03-14",
+      "location": "",
+      "url": "https://dogsact.org.au/event/obedience-trial-pm-actcdc/",
+      "category": "Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/obedience-trial-pm-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Obedience Trial (PM) \u2013 ACTCDC"
     },
     {
       "title": "Rockhampton \u2013 Agility",
@@ -6915,6 +7547,28 @@
       "club": "Denison Dog Training Club INC"
     },
     {
+      "title": "Dogs ACT Tracking Stewards Training",
+      "start": "2026-03-21",
+      "end": "2026-03-21",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-tracking-stewards-training/",
+      "category": "Tracking",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-tracking-stewards-training/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT Tracking Stewards Training"
+    },
+    {
       "title": "Fra \u2013 Retrieving",
       "club": "Fra \u2013 Retrieving",
       "start": "2026-03-21",
@@ -7221,6 +7875,28 @@
       "is_past": true
     },
     {
+      "title": "Scent Work Trial \u2013 BDOC",
+      "start": "2026-03-21",
+      "end": "2026-03-21",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-bdoc-8/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-bdoc-8/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 BDOC"
+    },
+    {
       "title": "State Trials S\u2019Cttee \u2013 Obedience",
       "club": "State Trials S\u2019Cttee",
       "start": "2026-03-21",
@@ -7363,6 +8039,28 @@
       "is_past": true
     },
     {
+      "title": "Trick Dog Test (Double) \u2013 ACTCDC",
+      "start": "2026-03-21",
+      "end": "2026-03-21",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-test-double-actcdc/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/trick-dog-test-double-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Trick Dog Test (Double) \u2013 ACTCDC"
+    },
+    {
       "title": "Twilight Canine Country Club Inc",
       "start": "2026-03-21",
       "end": "2026-03-21",
@@ -7480,6 +8178,28 @@
       "club": "Dalmatian Club of Vic Inc"
     },
     {
+      "title": "Dances with Dogs (Double) \u2013 BDOC",
+      "start": "2026-03-22",
+      "end": "2026-03-22",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-trial-double-bdoc/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/trick-trial-double-bdoc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dances with Dogs (Double) \u2013 BDOC"
+    },
+    {
       "title": "Scent Work Club of WA Trial",
       "start": "2026-03-22",
       "end": "2026-03-22",
@@ -7502,6 +8222,30 @@
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
+    },
+    {
+      "title": "Scent Work Trial \u2013 ACTGSDA",
+      "start": "2026-03-22",
+      "end": "2026-03-22",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-actgsda-4/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-03-22",
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-actgsda-4/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 ACTGSDA"
     },
     {
       "title": "Schnauzer Club of Victoria CHAMP & OPEN",
@@ -7594,6 +8338,28 @@
       "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": true
+    },
+    {
+      "title": "Jumping Ribbon Trail \u2013 ACTCDC",
+      "start": "2026-03-24",
+      "end": "2026-03-24",
+      "location": "",
+      "url": "https://dogsact.org.au/event/jumping-ribbon-trail-actcdc-2/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/jumping-ribbon-trail-actcdc-2/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Jumping Ribbon Trail \u2013 ACTCDC"
     },
     {
       "title": "March 24th Ribbon",
@@ -7825,6 +8591,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
+    },
+    {
+      "title": "Scent Work Trial (PM) \u2013 TDTC",
+      "start": "2026-03-27",
+      "end": "2026-03-27",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc-7/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc-7/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial (PM) \u2013 TDTC"
     },
     {
       "title": "Western Classic Championship & Performance CAWA Events Ctee \u2013 Conformation",
@@ -8482,6 +9270,30 @@
       "club": "Inner Sydney Dog Sports Club Inc"
     },
     {
+      "title": "Scent Work Trial (AM) \u2013 Dogs ACT",
+      "start": "2026-03-29",
+      "end": "2026-03-29",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-am-dogs-act-2/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-03-24",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46375",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial (AM) \u2013 Dogs ACT"
+    },
+    {
       "title": "TDOC Agility Trials",
       "start": "2026-03-29",
       "end": "2026-03-29",
@@ -8829,6 +9641,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club Victoria"
+    },
+    {
+      "title": "Agility (Easter Trial) \u2013 ACTCDC",
+      "start": "2026-04-04",
+      "end": "2026-04-04",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-easter-trial-actcdc/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/agility-easter-trial-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Agility (Easter Trial) \u2013 ACTCDC"
     },
     {
       "title": "Agility, Jumping & Games Trial Cloverdale Canine C.",
@@ -9997,6 +10831,30 @@
       "is_past": true
     },
     {
+      "title": "SprintDog Trial \u2013 Dogs ACT",
+      "start": "2026-04-06",
+      "end": "2026-04-06",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-2/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-03-30",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46422",
+      "open_now": false,
+      "is_past": true,
+      "club": "SprintDog Trial \u2013 Dogs ACT"
+    },
+    {
       "title": "Sprintdog \u2122 Trial West Coast Dog Sports",
       "club": "Sprintdog \u2122 Trial West Coast Dog Sports",
       "start": "2026-04-06",
@@ -10132,6 +10990,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
+    },
+    {
+      "title": "SprintDog Trial \u2013 BDOC",
+      "start": "2026-04-07",
+      "end": "2026-04-07",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-sprintdog-trial/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-sprintdog-trial/",
+      "open_now": false,
+      "is_past": true,
+      "club": "SprintDog Trial \u2013 BDOC"
     },
     {
       "title": "The German Shorthaired Pointer Society \u2013 Conformation",
@@ -10992,6 +11872,28 @@
       "club": "Hobart Dog Training Club Inc"
     },
     {
+      "title": "Obedience Trial (Double) \u2013 BDOC",
+      "start": "2026-04-11",
+      "end": "2026-04-11",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-obedience-trial-double/",
+      "category": "Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-obedience-trial-double/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Obedience Trial (Double) \u2013 BDOC"
+    },
+    {
       "title": "Open Scent Work Trial",
       "start": "2026-04-11",
       "end": "2026-04-11",
@@ -11039,6 +11941,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
+    },
+    {
+      "title": "Rally Trial \u2013 BDOC",
+      "start": "2026-04-11",
+      "end": "2026-04-11",
+      "location": "",
+      "url": "https://dogsact.org.au/event/rally-trial-bdoc-3/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/rally-trial-bdoc-3/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Rally Trial \u2013 BDOC"
     },
     {
       "title": "South Australia State Trick Dog Test Championship",
@@ -11364,6 +12288,28 @@
       "club": "Hobart Dog Training Club Inc"
     },
     {
+      "title": "Rally Trial \u2013 BDOC",
+      "start": "2026-04-12",
+      "end": "2026-04-12",
+      "location": "",
+      "url": "https://dogsact.org.au/event/rally-trial-bdoc-3/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/rally-trial-bdoc-3/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Rally Trial \u2013 BDOC"
+    },
+    {
       "title": "SRAODC Obedience, Rally and Tricks Trial Obedience Rally",
       "start": "2026-04-12",
       "end": "2026-04-12",
@@ -11480,6 +12426,28 @@
       "is_past": true
     },
     {
+      "title": "Agility Trial (Ribbon) \u2013 BDOC",
+      "start": "2026-04-15",
+      "end": "2026-04-15",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-agility-ribbon-trial/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-agility-ribbon-trial/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Agility Trial (Ribbon) \u2013 BDOC"
+    },
+    {
       "title": "Belconnen Dog Obedience Club Agility Ribbon Trial",
       "start": "2026-04-15",
       "end": "2026-04-15",
@@ -11547,6 +12515,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club"
+    },
+    {
+      "title": "Scent Work Trial (PM) \u2013 TDTC",
+      "start": "2026-04-15",
+      "end": "2026-04-15",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial (PM) \u2013 TDTC"
     },
     {
       "title": "White Swiss Shepherd Dog Association of Victoria Inc",
@@ -12361,6 +13351,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Tracking Club of Vic Inc - Open Tracking Trial 1 only"
+    },
+    {
+      "title": "Trick Trial \u2013 ACTCDC",
+      "start": "2026-04-18",
+      "end": "2026-04-18",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-trial-actcdc/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/trick-trial-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Trick Trial \u2013 ACTCDC"
     },
     {
       "title": "All Star Dog Sports \u2013 Trick Dog",
@@ -13406,8 +14418,8 @@
       "club": "Redlands Dog Obedience Club Inc"
     },
     {
-      "title": "Retrieving Trial - Nov & Rest Stakes (Natl FundraiseCAWA Events Ctee",
-      "club": "Retrieving Trial - Nov & Rest Stakes (Natl FundraiseCAWA Events Ctee",
+      "title": "Retrieving Trial - Nov & Rest Stakes (Natl FundraiserCAWA Events Ctee",
+      "club": "Retrieving Trial - Nov & Rest Stakes (Natl FundraiserCAWA Events Ctee",
       "start": "2026-04-25",
       "end": "2026-04-25",
       "location": "Western Australia",
@@ -13426,6 +14438,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true
+    },
+    {
+      "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-04-25",
+      "end": "2026-04-25",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-14/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-14/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "SprintDog TM",
@@ -14314,6 +15348,28 @@
       "club": "Hobart Dog Training Club Inc"
     },
     {
+      "title": "SprintDog Trial \u2013 BDOC",
+      "start": "2026-05-01",
+      "end": "2026-05-01",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-sprintdog-trial-2/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-sprintdog-trial-2/",
+      "open_now": false,
+      "is_past": true,
+      "club": "SprintDog Trial \u2013 BDOC"
+    },
+    {
       "title": "Weimaraner Club of VIC Inc NATIONAL RTB OBEDIENCE &",
       "start": "2026-05-01",
       "end": "2026-05-01",
@@ -14931,6 +15987,30 @@
       "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": true
+    },
+    {
+      "title": "SprintDog Trial \u2013 Dogs ACT",
+      "start": "2026-05-02",
+      "end": "2026-05-02",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-3/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-04-25",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46480",
+      "open_now": false,
+      "is_past": true,
+      "club": "SprintDog Trial \u2013 Dogs ACT"
     },
     {
       "title": "Townsville \u2013 Tracking",
@@ -15632,6 +16712,28 @@
       "club": "Gawler Dog Training Club Inc."
     },
     {
+      "title": "Jumping Ribbon Trial \u2013 ACTCDC",
+      "start": "2026-05-05",
+      "end": "2026-05-05",
+      "location": "",
+      "url": "https://dogsact.org.au/event/jumping-ribbon-trial-actcdc/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/jumping-ribbon-trial-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Jumping Ribbon Trial \u2013 ACTCDC"
+    },
+    {
       "title": "May 5th Ribbon",
       "start": "2026-05-05",
       "end": "2026-05-05",
@@ -15947,12 +17049,13 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs ACT"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials",
+      "entry_url": "https://dogsact.org.au/event/agility-trial-act-gundog-society/",
       "open_now": false,
       "is_past": true,
       "club": "The ACT Gundog Society"
@@ -19343,6 +20446,28 @@
       "club": "Rockhampton Dog Obedience Club"
     },
     {
+      "title": "Rally Trial (Double) \u2013 BDOC",
+      "start": "2026-05-23",
+      "end": "2026-05-23",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-rally-trial-double/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-rally-trial-double/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Rally Trial (Double) \u2013 BDOC"
+    },
+    {
       "title": "Redlands Scentwork Exterior and Containers",
       "start": "2026-05-23",
       "end": "2026-05-23",
@@ -19639,6 +20764,28 @@
       "is_past": true
     },
     {
+      "title": "Track & Search \u2013 Canberra Scent Sport Club",
+      "start": "2026-05-23",
+      "end": "2026-05-23",
+      "location": "",
+      "url": "https://dogsact.org.au/event/track-search-canberra-scent-sport-club/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/track-search-canberra-scent-sport-club/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Track & Search \u2013 Canberra Scent Sport Club"
+    },
+    {
       "title": "Tracking Search Dog Trial Trackwest",
       "club": "Tracking Search Dog Trial Trackwest",
       "start": "2026-05-23",
@@ -19682,6 +20829,28 @@
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
+    },
+    {
+      "title": "Trick Trial (Single) \u2013 BDOC",
+      "start": "2026-05-23",
+      "end": "2026-05-23",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-trick-trial-single/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-trick-trial-single/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Trick Trial (Single) \u2013 BDOC"
     },
     {
       "title": "Working Dog Club of Vic Inc - RTG5",
@@ -20369,6 +21538,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs and Tricks Subcommittee  (of Dogs Queensland)"
+    },
+    {
+      "title": "Dogs ACT Obedience & Rally Titles",
+      "start": "2026-05-30",
+      "end": "2026-05-30",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-obedience-rally-titles/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-obedience-rally-titles/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT Obedience & Rally Titles"
     },
     {
       "title": "Dogs West State Agility Trial 2026",
@@ -21279,6 +22470,28 @@
       "club": "Scent Work Club of WA"
     },
     {
+      "title": "SprintDog Trial \u2013 BDOC",
+      "start": "2026-06-01",
+      "end": "2026-06-01",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-sprintdog-trial-3/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-sprintdog-trial-3/",
+      "open_now": false,
+      "is_past": true,
+      "club": "SprintDog Trial \u2013 BDOC"
+    },
+    {
       "title": "Caboolture Sports \u2013 Scent Work",
       "club": "Caboolture Sports",
       "start": "2026-06-02",
@@ -21348,6 +22561,52 @@
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
+    },
+    {
+      "title": "SprintDog Trial \u2013 Dogs ACT",
+      "start": "2026-06-02",
+      "end": "2026-06-02",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-4/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-05-24",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47525",
+      "open_now": false,
+      "is_past": true,
+      "club": "SprintDog Trial \u2013 Dogs ACT"
+    },
+    {
+      "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-06-04",
+      "end": "2026-06-04",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-15/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-15/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "State Trials S\u2019Cttee \u2013 Obedience",
@@ -21739,6 +22998,28 @@
       "club": "Agility Dog Club of NSW Inc."
     },
     {
+      "title": "Agility Winter Trial \u2013 ACTCDC",
+      "start": "2026-06-06",
+      "end": "2026-06-06",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-winter-trial-actcdc/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/agility-winter-trial-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Agility Winter Trial \u2013 ACTCDC"
+    },
+    {
       "title": "Airedale Terrier Club of Victoria",
       "start": "2026-06-06",
       "end": "2026-06-07",
@@ -21878,6 +23159,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true
+    },
+    {
+      "title": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs",
+      "start": "2026-06-06",
+      "end": "2026-06-06",
+      "location": "",
+      "url": "https://dogsact.org.au/event/6-championship-shows-act-ladies-canberra-all-breeds-kennel-clubs-2/",
+      "category": "Conformation",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/6-championship-shows-act-ladies-canberra-all-breeds-kennel-clubs-2/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"
     },
     {
       "title": "DOGS NSW Herding Working Party State \u2013 Herding",
@@ -24632,6 +25935,28 @@
       "club": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search"
     },
     {
+      "title": "Tracking Trial \u2013 ACTCDC",
+      "start": "2026-06-14",
+      "end": "2026-06-14",
+      "location": "",
+      "url": "https://dogsact.org.au/event/tracking-trial-actcdc-6/",
+      "category": "Tracking",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/tracking-trial-actcdc-6/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Tracking Trial \u2013 ACTCDC"
+    },
+    {
       "title": "Triple Earthdog Tests",
       "start": "2026-06-14",
       "end": "2026-06-14",
@@ -25776,6 +27101,30 @@
       "club": "Rottweiler Club of Victoria"
     },
     {
+      "title": "Scent Work Trial \u2013 Dogs ACT",
+      "start": "2026-06-20",
+      "end": "2026-06-20",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-scent-work-trial/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-06-15",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48146",
+      "open_now": false,
+      "is_past": true,
+      "club": "Scent Work Trial \u2013 Dogs ACT"
+    },
+    {
       "title": "Schnauzer Club of NSW Inc \u2013 Obedience",
       "start": "2026-06-20",
       "end": "2026-06-20",
@@ -26429,6 +27778,94 @@
       "open_now": false,
       "is_past": true,
       "club": "2026 QLD Nationals Committee"
+    },
+    {
+      "title": "Endurance Test \u2013 Dogs ACT",
+      "start": "2026-06-23",
+      "end": "2026-06-23",
+      "location": "",
+      "url": "https://dogsact.org.au/event/endurance-test-dogs-act/",
+      "category": "Endurance",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/endurance-test-dogs-act/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Endurance Test \u2013 Dogs ACT"
+    },
+    {
+      "title": "National Agility Trials 2026 QLD",
+      "start": "2026-06-23",
+      "end": "2026-06-23",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-nationals/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/agility-nationals/",
+      "open_now": false,
+      "is_past": true,
+      "club": "National Agility Trials 2026 QLD"
+    },
+    {
+      "title": "Rally Trial (Double) \u2013 ACTCDC",
+      "start": "2026-06-23",
+      "end": "2026-06-23",
+      "location": "",
+      "url": "https://dogsact.org.au/event/rally-trial-double-actcdc/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/rally-trial-double-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Rally Trial (Double) \u2013 ACTCDC"
+    },
+    {
+      "title": "Tracking Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-06-23",
+      "end": "2026-06-23",
+      "location": "",
+      "url": "https://dogsact.org.au/event/tracking-trial-canberra-scent-sport-club-6/",
+      "category": "Tracking",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/tracking-trial-canberra-scent-sport-club-6/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Tracking Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "GRAFTON - 24th June 2026 - INT/CONT",
@@ -27118,6 +28555,28 @@
       "club": "Port Macquarie Dog Club"
     },
     {
+      "title": "Rally Trial (Double) \u2013 ACTCDC",
+      "start": "2026-06-27",
+      "end": "2026-06-27",
+      "location": "",
+      "url": "https://dogsact.org.au/event/rally-trial-double-actcdc/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/rally-trial-double-actcdc/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Rally Trial (Double) \u2013 ACTCDC"
+    },
+    {
       "title": "State Trials S\u2019Cttee \u2013 Obedience",
       "club": "State Trials S\u2019Cttee",
       "start": "2026-06-27",
@@ -27456,6 +28915,30 @@
       "club": "East Gippsland Dog Obedience Club Inc"
     },
     {
+      "title": "Endurance Test \u2013 Dogs ACT",
+      "start": "2026-06-28",
+      "end": "2026-06-28",
+      "location": "",
+      "url": "https://dogsact.org.au/event/endurance-test-dogs-act/",
+      "category": "Endurance",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-06-20",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47841",
+      "open_now": false,
+      "is_past": true,
+      "club": "Endurance Test \u2013 Dogs ACT"
+    },
+    {
       "title": "Fast Paws Sydney Inc \u2013 Sled Sports",
       "start": "2026-06-28",
       "end": "2026-06-28",
@@ -27614,6 +29097,28 @@
       "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": true
+    },
+    {
+      "title": "Tracking Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-06-28",
+      "end": "2026-06-28",
+      "location": "",
+      "url": "https://dogsact.org.au/event/tracking-trial-canberra-scent-sport-club-6/",
+      "category": "Tracking",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/tracking-trial-canberra-scent-sport-club-6/",
+      "open_now": false,
+      "is_past": true,
+      "club": "Tracking Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "MOCK - Oxley Dog Training Club \"MOCK\" SW Trial 29th June 2026",
@@ -28479,10 +29984,10 @@
       "is_past": true
     },
     {
-      "title": "Scent Work Trial - BDOC",
+      "title": "Scent Work Trial \u2013 BDOC",
       "start": "2026-07-04",
       "end": "2026-07-04",
-      "location": "ACT",
+      "location": "",
       "url": "https://dogsact.org.au/event/scent-work-trial-bdoc-9/",
       "category": "Scent Work",
       "source": "Dogs ACT",
@@ -28498,7 +30003,7 @@
       "entry_url": "https://dogsact.org.au/event/scent-work-trial-bdoc-9/",
       "open_now": false,
       "is_past": true,
-      "club": "Scent Work Trial - BDOC"
+      "club": "Scent Work Trial \u2013 BDOC"
     },
     {
       "title": "Sled Sports Committee \u2013 Sled Sports",
@@ -28939,10 +30444,10 @@
       "is_past": true
     },
     {
-      "title": "Scent Work Trial - ACTGSDA",
+      "title": "Scent Work Trial \u2013 ACTGSDA",
       "start": "2026-07-05",
       "end": "2026-07-05",
-      "location": "ACT GSDA Complex, German Shepherd Dog Complex - EPIC Showgrounds",
+      "location": "",
       "url": "https://dogsact.org.au/event/scent-work-trial-actgsda-5/",
       "category": "Scent Work",
       "source": "Dogs ACT",
@@ -28958,7 +30463,7 @@
       "entry_url": "https://dogsact.org.au/event/scent-work-trial-actgsda-5/",
       "open_now": false,
       "is_past": true,
-      "club": "ACT GSDA Complex, German Shepherd Dog Complex - EPIC Showgrounds"
+      "club": "Scent Work Trial \u2013 ACTGSDA"
     },
     {
       "title": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search",
@@ -29076,10 +30581,10 @@
       "is_past": true
     },
     {
-      "title": "Obedience Trial (Evening Trial) - BDOC",
+      "title": "Obedience Trial (Evening Trial) \u2013 BDOC",
       "start": "2026-07-08",
       "end": "2026-07-08",
-      "location": "Belconnen Dog Obedience Club grounds, 1 Morisset Road, Mitchell, ACT, 2912, Australia",
+      "location": "",
       "url": "https://dogsact.org.au/event/obedience-trial-evening-trial-bdoc/",
       "category": "Obedience",
       "source": "Dogs ACT",
@@ -29095,7 +30600,7 @@
       "entry_url": "https://dogsact.org.au/event/obedience-trial-evening-trial-bdoc/",
       "open_now": false,
       "is_past": true,
-      "club": "Belconnen Dog Obedience Club grounds, 1 Morisset Road, Mitchell, ACT, 2912, Australia"
+      "club": "Obedience Trial (Evening Trial) \u2013 BDOC"
     },
     {
       "title": "Oxley Dog Training Club Double Obedience Trial",
@@ -29121,10 +30626,10 @@
       "club": "Oxley Dog Training Club Inc"
     },
     {
-      "title": "Scent Work Trial - ACTCDC",
+      "title": "Scent Work Trial \u2013 ACTCDC",
       "start": "2026-07-08",
       "end": "2026-07-08",
-      "location": "ACT",
+      "location": "",
       "url": "https://dogsact.org.au/event/scent-work-trial-actcdc-3/",
       "category": "Scent Work",
       "source": "Dogs ACT",
@@ -29142,13 +30647,13 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48634",
       "open_now": false,
       "is_past": true,
-      "club": "Scent Work Trial - ACTCDC"
+      "club": "Scent Work Trial \u2013 ACTCDC"
     },
     {
-      "title": "Scent Work Trial - ACTCDC",
+      "title": "Scent Work Trial \u2013 ACTCDC",
       "start": "2026-07-09",
       "end": "2026-07-09",
-      "location": "ACT",
+      "location": "",
       "url": "https://dogsact.org.au/event/scent-work-trial-actcdc-5/",
       "category": "Scent Work",
       "source": "Dogs ACT",
@@ -29166,7 +30671,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48634",
       "open_now": false,
       "is_past": true,
-      "club": "Scent Work Trial - ACTCDC"
+      "club": "Scent Work Trial \u2013 ACTCDC"
     },
     {
       "title": "All Breeds Tracking \u2013 Tracking",
@@ -30340,10 +31845,10 @@
       "club": "Retrieving Club of W.A."
     },
     {
-      "title": "Obedience Trial (Double) - ACTCDC",
+      "title": "Obedience Trial (Double) \u2013 ACTCDC",
       "start": "2026-07-12",
       "end": "2026-07-12",
-      "location": "ACT Companion Dog Club grounds, 240 Narrabundah Lane, Symonston, Canberra, ACT, 2609, Australia",
+      "location": "",
       "url": "https://dogsact.org.au/event/obedience-trial-double-actcdc/",
       "category": "Obedience",
       "source": "Dogs ACT",
@@ -30359,7 +31864,7 @@
       "entry_url": "https://dogsact.org.au/event/obedience-trial-double-actcdc/",
       "open_now": false,
       "is_past": true,
-      "club": "ACT Companion Dog Club grounds, 240 Narrabundah Lane, Symonston, Canberra, ACT, 2609, Australia"
+      "club": "Obedience Trial (Double) \u2013 ACTCDC"
     },
     {
       "title": "Penrith Kennel & Obedience Club Inc \u2013 Obedience",
@@ -31522,10 +33027,10 @@
       "club": "RIVERLAND DOG TRAINING AND KENNEL CLUB INC"
     },
     {
-      "title": "Scent Work Trial - Canberra Scent Sport Club",
+      "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
       "start": "2026-07-18",
       "end": "2026-07-18",
-      "location": "ACT",
+      "location": "",
       "url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-16/",
       "category": "Scent Work",
       "source": "Dogs ACT",
@@ -31543,13 +33048,13 @@
       "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-16/",
       "open_now": false,
       "is_past": true,
-      "club": "Scent Work Trial - Canberra Scent Sport Club"
+      "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
     },
     {
-      "title": "SprintDog Trial - Dogs ACT",
+      "title": "SprintDog Trial \u2013 Dogs ACT",
       "start": "2026-07-18",
       "end": "2026-07-18",
-      "location": "Belconnen Dog Obedience Club grounds, 1 Morisset Road, Mitchell, ACT, 2912, Australia",
+      "location": "",
       "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-5/",
       "category": "Sprint",
       "source": "Dogs ACT",
@@ -31567,7 +33072,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48501",
       "open_now": false,
       "is_past": true,
-      "club": "Belconnen Dog Obedience Club grounds, 1 Morisset Road, Mitchell, ACT, 2912, Australia"
+      "club": "SprintDog Trial \u2013 Dogs ACT"
     },
     {
       "title": "State Herding \u2013 Herding",
@@ -32055,10 +33560,10 @@
       "club": "Rylstone Kandos & District Dog Club \u2013 Conformation"
     },
     {
-      "title": "SprintDog Trial - BDOC",
+      "title": "SprintDog Trial \u2013 BDOC",
       "start": "2026-07-19",
       "end": "2026-07-19",
-      "location": "Belconnen Dog Obedience Club grounds, 1 Morisset Road, Mitchell, ACT, 2912, Australia",
+      "location": "",
       "url": "https://dogsact.org.au/event/bdoc-sprintdog-trial-4/",
       "category": "Sprint",
       "source": "Dogs ACT",
@@ -32074,7 +33579,7 @@
       "entry_url": "https://dogsact.org.au/event/bdoc-sprintdog-trial-4/",
       "open_now": false,
       "is_past": true,
-      "club": "Belconnen Dog Obedience Club grounds, 1 Morisset Road, Mitchell, ACT, 2912, Australia"
+      "club": "SprintDog Trial \u2013 BDOC"
     },
     {
       "title": "Toowoomba Agility & Jumping Trials",
@@ -33070,10 +34575,10 @@
       "is_past": false
     },
     {
-      "title": "Tracking Trial - Canberra Scent Sport Club",
+      "title": "Tracking Trial \u2013 Canberra Scent Sport Club",
       "start": "2026-07-25",
-      "end": "2026-07-26",
-      "location": "ACT",
+      "end": "2026-07-25",
+      "location": "",
       "url": "https://dogsact.org.au/event/tracking-trial-canberra-scent-sport-club-7/",
       "category": "Tracking",
       "source": "Dogs ACT",
@@ -33089,7 +34594,7 @@
       "entry_url": "https://dogsact.org.au/event/tracking-trial-canberra-scent-sport-club-7/",
       "open_now": false,
       "is_past": false,
-      "club": "Tracking Trial - Canberra Scent Sport Club"
+      "club": "Tracking Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "WSSW Christmas in July",
@@ -34132,10 +35637,10 @@
       "club": "Perth Training & Obedience Dog Club"
     },
     {
-      "title": "Agility & Jumping Trial - TDTC",
+      "title": "Agility & Jumping Trial \u2013 TDTC",
       "start": "2026-08-01",
       "end": "2026-08-01",
-      "location": "Tuggeranong Dog Training Club Grounds, Cnr of Athllon Drive & Rowland Rees Crescent Greenway ACT, Canberra, ACT, Australia",
+      "location": "Tuggeranong Dog Training Club",
       "url": "https://dogsact.org.au/event/agility-jumping-trial-tdtc-2/",
       "category": "Agility",
       "source": "Dogs ACT",
@@ -34153,7 +35658,7 @@
       "entry_url": "https://dogsact.org.au/event/agility-jumping-trial-tdtc-2/",
       "open_now": true,
       "is_past": false,
-      "club": "Tuggeranong Dog Training Club Grounds, Cnr of Athllon Drive & Rowland Rees Crescent Greenway ACT, Canberra, ACT, Australia"
+      "club": "Tuggeranong Dog Training Club"
     },
     {
       "title": "Agility Trial Perth Training &ODC",
@@ -36334,6 +37839,30 @@
       "club": "Saluki Club of Victoria LURE COURSE"
     },
     {
+      "title": "Scent Work Trial \u2013 TDTC",
+      "start": "2026-08-08",
+      "end": "2026-08-08",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-tdtc-18/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-07-31",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49281",
+      "open_now": true,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 TDTC"
+    },
+    {
       "title": "The Staffordshire Bull Terrier Club of South Australia Inc. - Sprint Dog Trail",
       "start": "2026-08-08",
       "end": "2026-08-08",
@@ -36911,6 +38440,30 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49311",
       "open_now": true,
       "is_past": false
+    },
+    {
+      "title": "Scent Work Trial \u2013 Dogs ACT",
+      "start": "2026-08-09",
+      "end": "2026-08-09",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-scent-work-trial-2/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-07-31",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49281",
+      "open_now": true,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 Dogs ACT"
     },
     {
       "title": "Schipperke Club of Victoria CHAMP SHOW",
@@ -37597,6 +39150,28 @@
       "is_past": false
     },
     {
+      "title": "Obedience Trial (Double) \u2013 BDOC",
+      "start": "2026-08-15",
+      "end": "2026-08-15",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-obedience-trial-double-2/",
+      "category": "Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-obedience-trial-double-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Obedience Trial (Double) \u2013 BDOC"
+    },
+    {
       "title": "Obedience and Rally Trial and Tricks Test",
       "start": "2026-08-15",
       "end": "2026-08-15",
@@ -37687,6 +39262,28 @@
       "open_now": true,
       "is_past": false,
       "club": "RIVERLAND DOG TRAINING AND KENNEL CLUB INC"
+    },
+    {
+      "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-08-15",
+      "end": "2026-08-15",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-17/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-17/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "Stellar Dogs Training & Education - Winter 2026 Aug-Sep (Introduction to Scentwork L1)",
@@ -38192,6 +39789,28 @@
       "club": "Samoyed Club of Vic Inc"
     },
     {
+      "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-08-16",
+      "end": "2026-08-16",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-17/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-17/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
+    },
+    {
       "title": "Scent work in the City by SRAODC",
       "start": "2026-08-16",
       "end": "2026-08-16",
@@ -38397,6 +40016,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search"
+    },
+    {
+      "title": "Agility Ribbon Trial (Jumping) \u2013 BDOC",
+      "start": "2026-08-19",
+      "end": "2026-08-19",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-agility-ribbon-trial-2/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-agility-ribbon-trial-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility Ribbon Trial (Jumping) \u2013 BDOC"
     },
     {
       "title": "BDOC Ribbon Jumping Trial",
@@ -40830,6 +42471,28 @@
       "is_past": false
     },
     {
+      "title": "Trick Dog Test \u2013 ACTCDC",
+      "start": "2026-08-29",
+      "end": "2026-08-29",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-test-actcdc-3/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/trick-dog-test-actcdc-3/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Trick Dog Test \u2013 ACTCDC"
+    },
+    {
       "title": "Wentworth Show Society Inc \u2013 Conformation",
       "start": "2026-08-29",
       "end": "2026-08-29",
@@ -40991,6 +42654,28 @@
       "club": "DOGS NSW Spring Fair Lure Coursing Trial \u2013 Lure Coursing"
     },
     {
+      "title": "Dances with Dogs Trial (Double) \u2013 ACTCDC",
+      "start": "2026-08-30",
+      "end": "2026-08-30",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dances-with-dogs-trial-actcdc/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dances-with-dogs-trial-actcdc/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Dances with Dogs Trial (Double) \u2013 ACTCDC"
+    },
+    {
       "title": "Forbes Kennel Club Inc \u2013 Conformation",
       "start": "2026-08-30",
       "end": "2026-08-30",
@@ -41080,6 +42765,28 @@
       "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Tracking Trial \u2013 ACTCDC",
+      "start": "2026-08-30",
+      "end": "2026-08-30",
+      "location": "",
+      "url": "https://dogsact.org.au/event/tracking-trial-actcdc-7/",
+      "category": "Tracking",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/tracking-trial-actcdc-7/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Tracking Trial \u2013 ACTCDC"
     },
     {
       "title": "Werribee Obedience Dog Club",
@@ -41453,6 +43160,28 @@
       "is_past": false
     },
     {
+      "title": "Championship Shows \u2013 BABKC",
+      "start": "2026-09-05",
+      "end": "2026-09-05",
+      "location": "",
+      "url": "https://dogsact.org.au/event/championship-shows-babkc/",
+      "category": "Conformation",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/championship-shows-babkc/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Championship Shows \u2013 BABKC"
+    },
+    {
       "title": "Collie Club of Victoria Inc",
       "start": "2026-09-05",
       "end": "2026-09-06",
@@ -41819,6 +43548,50 @@
       "club": "Newcastle & Hunter Region GSD Club of"
     },
     {
+      "title": "Obedience Trial (AM) \u2013 ACT Gundog Society",
+      "start": "2026-09-05",
+      "end": "2026-09-05",
+      "location": "",
+      "url": "https://dogsact.org.au/event/obedience-trial-am-act-gundog-society-2/",
+      "category": "Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/obedience-trial-am-act-gundog-society-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Obedience Trial (AM) \u2013 ACT Gundog Society"
+    },
+    {
+      "title": "Obedience Trial (PM) \u2013 ACTCDC",
+      "start": "2026-09-05",
+      "end": "2026-09-05",
+      "location": "",
+      "url": "https://dogsact.org.au/event/obedience-trial-pm-actcdc-2/",
+      "category": "Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/obedience-trial-pm-actcdc-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Obedience Trial (PM) \u2013 ACTCDC"
+    },
+    {
       "title": "Redlands Dances with Dogs Trial",
       "start": "2026-09-05",
       "end": "2026-09-05",
@@ -41973,6 +43746,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Tasmania State Retrieving Trial"
+    },
+    {
+      "title": "Track & Search Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-09-05",
+      "end": "2026-09-05",
+      "location": "",
+      "url": "https://dogsact.org.au/event/track-search-trial-canberra-scent-sport-club/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/track-search-trial-canberra-scent-sport-club/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Track & Search Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "Victorian Herding Association",
@@ -42295,6 +44090,50 @@
       "is_past": false
     },
     {
+      "title": "Track & Search Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-09-06",
+      "end": "2026-09-06",
+      "location": "",
+      "url": "https://dogsact.org.au/event/track-search-trial-canberra-scent-sport-club/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/track-search-trial-canberra-scent-sport-club/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Track & Search Trial \u2013 Canberra Scent Sport Club"
+    },
+    {
+      "title": "Agility Ribbon Trial \u2013 ACTCDC",
+      "start": "2026-09-08",
+      "end": "2026-09-08",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-ribbon-trial-actcdc/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/agility-ribbon-trial-actcdc/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility Ribbon Trial \u2013 ACTCDC"
+    },
+    {
       "title": "Metro Mid Week Dog Training Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-09-08",
       "end": "2026-09-08",
@@ -42363,6 +44202,28 @@
       "open_now": false,
       "is_past": false,
       "club": "West Wyalong Show Society Inc \u2013 Conformation"
+    },
+    {
+      "title": "Scent Work Trial \u2013 ACTGSDA",
+      "start": "2026-09-10",
+      "end": "2026-09-10",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-actgsda-7/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-actgsda-7/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 ACTGSDA"
     },
     {
       "title": "Cairns \u2013 Obedience",
@@ -42591,6 +44452,28 @@
       "open_now": true,
       "is_past": false,
       "club": "Agility Dog Club Victoria"
+    },
+    {
+      "title": "Agility & Jumping Trial \u2013 BDOC",
+      "start": "2026-09-12",
+      "end": "2026-09-12",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-agility-jumping-trial-2/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-agility-jumping-trial-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility & Jumping Trial \u2013 BDOC"
     },
     {
       "title": "Agility Trial (State fundraiser) CAWA Events Ctee",
@@ -44168,6 +46051,28 @@
       "club": "Southern Obedience Dog Training Club"
     },
     {
+      "title": "SprintDog Trial \u2013 BDOC",
+      "start": "2026-09-19",
+      "end": "2026-09-19",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-6/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-6/",
+      "open_now": false,
+      "is_past": false,
+      "club": "SprintDog Trial \u2013 BDOC"
+    },
+    {
       "title": "Tableland \u2013 Agility",
       "club": "Tableland",
       "start": "2026-09-19",
@@ -44484,6 +46389,30 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "SprintDog Trial \u2013 Dogs ACT",
+      "start": "2026-09-20",
+      "end": "2026-09-20",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-sprintdog-trial-5/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT",
+        "Show Manager"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-08-27",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49038",
+      "open_now": true,
+      "is_past": false,
+      "club": "SprintDog Trial \u2013 Dogs ACT"
     },
     {
       "title": "West Wyalong Kennel Club \u2013 Conformation",
@@ -45256,6 +47185,28 @@
       "club": "Poodle Club of Vic Inc"
     },
     {
+      "title": "Rally Trial (Double) \u2013 BDOC",
+      "start": "2026-09-26",
+      "end": "2026-09-26",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-rally-trial-double-2/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-rally-trial-double-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Rally Trial (Double) \u2013 BDOC"
+    },
+    {
       "title": "Royal Agricultural Society of Vic - Melbourne Royal Show",
       "start": "2026-09-26",
       "end": "2026-09-26",
@@ -45321,6 +47272,28 @@
       "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Track & Search Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-09-26",
+      "end": "2026-09-26",
+      "location": "",
+      "url": "https://dogsact.org.au/event/track-search-trial-canberra-scent-sport-club-2/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/track-search-trial-canberra-scent-sport-club-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Track & Search Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "Trackwest Track & Search 26th & 27th Sept 2026",
@@ -45681,6 +47654,28 @@
       "club": "Scottish Terrier Club of ViC"
     },
     {
+      "title": "Track & Search Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-09-27",
+      "end": "2026-09-27",
+      "location": "",
+      "url": "https://dogsact.org.au/event/track-search-trial-canberra-scent-sport-club-2/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/track-search-trial-canberra-scent-sport-club-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Track & Search Trial \u2013 Canberra Scent Sport Club"
+    },
+    {
       "title": "Weimaraner Club of Vic Inc AM",
       "start": "2026-09-27",
       "end": "2026-09-27",
@@ -45894,12 +47889,13 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs ACT"
       ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials",
+      "entry_url": "https://dogsact.org.au/event/dogs-act-agility-state-titles/",
       "open_now": true,
       "is_past": false,
       "club": "DogsACT Agility"
@@ -46083,6 +48079,28 @@
       "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Championship Shows \u2013 Dogs ACT",
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "location": "",
+      "url": "https://dogsact.org.au/event/championship-shows-dogs-act/",
+      "category": "Conformation",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/championship-shows-dogs-act/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Championship Shows \u2013 Dogs ACT"
     },
     {
       "title": "Eastern Suburbs Dog Training Club Inc \u2013 Obedience",
@@ -46789,6 +48807,28 @@
       "is_past": false
     },
     {
+      "title": "Scent Work Trial \u2013 ACTCDC",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-actcdc-4/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-actcdc-4/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 ACTCDC"
+    },
+    {
       "title": "Cairns \u2013 Agility",
       "club": "Cairns",
       "start": "2026-10-09",
@@ -47325,6 +49365,28 @@
       "is_past": false
     },
     {
+      "title": "Trick Trial (Double) \u2013 BDOC",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-trial-double-bdoc-2/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/trick-trial-double-bdoc-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Trick Trial (Double) \u2013 BDOC"
+    },
+    {
       "title": "Victorian Herding Association",
       "start": "2026-10-10",
       "end": "2026-10-11",
@@ -47462,6 +49524,28 @@
       "open_now": true,
       "is_past": false,
       "club": "Croydon Obedience Dog Club Inc"
+    },
+    {
+      "title": "Dances with Dogs Trial (Double) \u2013 ACTCDC",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dances-with-dogs-trial-double-actcdc-2/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dances-with-dogs-trial-double-actcdc-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Dances with Dogs Trial (Double) \u2013 ACTCDC"
     },
     {
       "title": "Dover Gardens October Obedience and Rally Trials",
@@ -47711,6 +49795,28 @@
       "entry_url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Agility Trial (Ribbon) \u2013 TDTC",
+      "start": "2026-10-14",
+      "end": "2026-10-14",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-trial-ribbon-tdtc-2/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/agility-trial-ribbon-tdtc-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility Trial (Ribbon) \u2013 TDTC"
     },
     {
       "title": "KKTC Mid Week Jumping Trial",
@@ -48119,6 +50225,28 @@
       "club": "Precision Agility Academy"
     },
     {
+      "title": "Scent Work Trial \u2013 TDTC",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-tdtc-19/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-tdtc-19/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 TDTC"
+    },
+    {
       "title": "Southern Highlands Kennel & Obedience \u2013 Conformation",
       "start": "2026-10-17",
       "end": "2026-10-18",
@@ -48390,6 +50518,28 @@
       "is_past": false
     },
     {
+      "title": "Scent Work Trial \u2013 Dogs ACT",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-scent-work-trial-3/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-scent-work-trial-3/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 Dogs ACT"
+    },
+    {
       "title": "Sutherland Shire Dog Training Club Inc \u2013 Dances with Dogs",
       "start": "2026-10-18",
       "end": "2026-10-18",
@@ -48637,6 +50787,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Agility, Jumping & Snooker Trial \u2013 ACTCDC",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-jumping-snooker-trial-actcdc/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/agility-jumping-snooker-trial-actcdc/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility, Jumping & Snooker Trial \u2013 ACTCDC"
     },
     {
       "title": "Bundaberg \u2013 Obedience",
@@ -50110,6 +52282,28 @@
       "club": "Pyrenean Mountain Dog Club of Vic Inc"
     },
     {
+      "title": "Rally Trial \u2013 ACTCDC",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "location": "",
+      "url": "https://dogsact.org.au/event/rally-trial-actcdc-3/",
+      "category": "Rally Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/rally-trial-actcdc-3/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Rally Trial \u2013 ACTCDC"
+    },
+    {
       "title": "Rarer Gundog Spaniel Club of Vic Inc",
       "start": "2026-10-31",
       "end": "2026-10-31",
@@ -50818,6 +53012,28 @@
       "club": "Dachshund Club of Vic Inc"
     },
     {
+      "title": "Obedience Trial (PM) \u2013 ACTCDC",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "location": "",
+      "url": "https://dogsact.org.au/event/obedience-trial-pm-actcdc-3/",
+      "category": "Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/obedience-trial-pm-actcdc-3/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Obedience Trial (PM) \u2013 ACTCDC"
+    },
+    {
       "title": "Central Gippsland Kennel Club Inc",
       "start": "2026-11-06",
       "end": "2026-11-06",
@@ -51131,6 +53347,28 @@
       "club": "Morwell/Traralgon Kennel Club Inc - PM"
     },
     {
+      "title": "Obedience Trial (PM) \u2013 ACTCDC",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "",
+      "url": "https://dogsact.org.au/event/obedience-trial-pm-actcdc-3/",
+      "category": "Obedience",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/obedience-trial-pm-actcdc-3/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Obedience Trial (PM) \u2013 ACTCDC"
+    },
+    {
       "title": "Redlands \u2013 Agility",
       "club": "Redlands",
       "start": "2026-11-07",
@@ -51352,6 +53590,50 @@
       "open_now": false,
       "is_past": false,
       "club": "Morwell/Traralgon Kennel Club Inc AM"
+    },
+    {
+      "title": "Scent Work Trial (PM) \u2013 TDTC",
+      "start": "2026-11-11",
+      "end": "2026-11-11",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc-2/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-pm-tdtc-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial (PM) \u2013 TDTC"
+    },
+    {
+      "title": "Scent Work Trial \u2013 TDTC (PM)",
+      "start": "2026-11-12",
+      "end": "2026-11-12",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-tdtc-pm/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-tdtc-pm/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 TDTC (PM)"
     },
     {
       "title": "Agility Subcommittee \u2013 Agility",
@@ -51716,6 +53998,28 @@
       "club": "Southern Obedience Dog Training Club Inc"
     },
     {
+      "title": "SprintDog Trial \u2013 Dogs ACT",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-7/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-7/",
+      "open_now": false,
+      "is_past": false,
+      "club": "SprintDog Trial \u2013 Dogs ACT"
+    },
+    {
       "title": "Sprintdog\u2122 Trial Whippet Club",
       "club": "Sprintdog\u2122 Trial Whippet Club",
       "start": "2026-11-14",
@@ -51941,6 +54245,28 @@
       "is_past": false
     },
     {
+      "title": "Agility Ribbon Trial (Jumping) \u2013 BDOC",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "location": "",
+      "url": "https://dogsact.org.au/event/bdoc-agility-ribbon-trial-3/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/bdoc-agility-ribbon-trial-3/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility Ribbon Trial (Jumping) \u2013 BDOC"
+    },
+    {
       "title": "Dobermann Club of Victoria Inc",
       "start": "2026-11-19",
       "end": "2026-11-20",
@@ -51961,6 +54287,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Dobermann Club of Victoria Inc"
+    },
+    {
+      "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-11-19",
+      "end": "2026-11-19",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-18/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-18/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "Field Spaniel Club of NSW Inc \u2013 Sled Sports",
@@ -52075,6 +54423,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Championship Shows \u2013 Dogs ACT",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "location": "",
+      "url": "https://dogsact.org.au/event/championship-shows-dogs-act-2/",
+      "category": "Conformation",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/championship-shows-dogs-act-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Championship Shows \u2013 Dogs ACT"
     },
     {
       "title": "Combined Collie & Shetland Sheepdog Dog \u2013 Conformation",
@@ -52878,6 +55248,28 @@
       "club": "Oxley Dog Training Club Inc"
     },
     {
+      "title": "Championship Show (All Breeds) Labrador Retriever Club \u2013 Conformation",
+      "club": "Championship Show (All Breeds) Labrador Retriever Club \u2013 Conformation",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Conformation",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Dogs Victoria Royal Canin Summer Spectacular - PM",
       "start": "2026-12-04",
       "end": "2026-12-04",
@@ -52898,6 +55290,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria Royal Canin Summer Spectacular - PM"
+    },
+    {
+      "title": "Sprintdog\u2122 Trial All breeds West Coast Dog Sports",
+      "club": "Sprintdog\u2122 Trial All breeds West Coast Dog Sports",
+      "start": "2026-12-04",
+      "end": "2026-12-04",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Sprint",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Blacktown Kennel & Training Club Inc \u2013 Conformation",
@@ -53078,28 +55492,6 @@
       "club": "Hawkesbury Dog Agility Club Inc"
     },
     {
-      "title": "Sprintdog\u2122 Trial All breeds West Coast Dog Sports",
-      "club": "Sprintdog\u2122 Trial All breeds West Coast Dog Sports",
-      "start": "2026-12-05",
-      "end": "2026-12-05",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Sprint",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Toy Poodle Society of Vic",
       "start": "2026-12-05",
       "end": "2026-12-05",
@@ -53187,28 +55579,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Wollondilly All Breeds Kennel Club Inc"
-    },
-    {
-      "title": "Championship Show (All Breeds) Labrador Retriever Club \u2013 Conformation",
-      "club": "Championship Show (All Breeds) Labrador Retriever Club \u2013 Conformation",
-      "start": "2026-12-06",
-      "end": "2026-12-06",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Conformation",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
     },
     {
       "title": "DOGS NSW Complex Fundraising Working \u2013 Conformation",
@@ -53414,6 +55784,28 @@
       "is_past": false
     },
     {
+      "title": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "location": "",
+      "url": "https://dogsact.org.au/event/championship-shows-act-ladies-canberra-all-breeds-kennel-clubs-2/",
+      "category": "Conformation",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/championship-shows-act-ladies-canberra-all-breeds-kennel-clubs-2/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"
+    },
+    {
       "title": "Fast Paws Sydney Inc \u2013 Sled Sports",
       "start": "2026-12-12",
       "end": "2026-12-13",
@@ -53524,6 +55916,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-19/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-19/",
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
     },
     {
       "title": "Yarra Valley Kennel Club Inc",
@@ -53843,56 +56257,6 @@
       "verified": true,
       "closes": "2026-01-08",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45830",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "ACT-CDC Rally Obedience Evening Trial 1",
-      "club": "ACT-CDC Rally Obedience Evening Trial 1",
-      "start": "2026-01-17",
-      "end": "2026-01-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45778",
-      "category": "Rally Obedience",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-09",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45778",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "ACT-CDC Rally Obedience Evening Trial 2",
-      "club": "ACT-CDC Rally Obedience Evening Trial 2",
-      "start": "2026-01-17",
-      "end": "2026-01-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45779",
-      "category": "Rally Obedience",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-09",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45779",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -54324,31 +56688,6 @@
       "is_past": true
     },
     {
-      "title": "Tuggeranong Dog Training Club Excellent Vehicles/Advanced Containers \u2013 Scent Work",
-      "club": "Tuggeranong Dog Training Club Excellent Vehicles/Advanced Containers",
-      "start": "2026-02-06",
-      "end": "2026-02-06",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46371",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-31",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46371",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "All Star Dog Sports - Fast Games a Good Game - SPRINT \u2013 Sprint",
       "club": "All Star Dog Sports - Fast Games a Good Game - SPRINT \u2013 Sprint",
       "start": "2026-02-08",
@@ -54368,31 +56707,6 @@
       "verified": true,
       "closes": "2026-01-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46053",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Scent Work Element Trial",
-      "club": "Dogs ACT - Scent Work Element Trial",
-      "start": "2026-02-08",
-      "end": "2026-02-08",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46372",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-01",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46372",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -54574,56 +56888,6 @@
       "is_past": true
     },
     {
-      "title": "Royal National Capital Agricultural Society (Ring 1) \u2013 Trick Dog",
-      "club": "Royal National Capital Agricultural Society (Ring 1) \u2013 Trick Dog",
-      "start": "2026-02-21",
-      "end": "2026-02-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46593",
-      "category": "Trick Dog",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-17",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46593",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Royal National Capital Agricultural Society (Ring 2) \u2013 Trick Dog",
-      "club": "Royal National Capital Agricultural Society (Ring 2) \u2013 Trick Dog",
-      "start": "2026-02-21",
-      "end": "2026-02-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46594",
-      "category": "Trick Dog",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-17",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46594",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Dalmatian club of Vic Sprintdog RAFFLE #1 (FULL) (Dalmatian Club of Vic Inc)",
       "club": "Dalmatian club of Vic Sprintdog RAFFLE #1 (FULL) (Dalmatian Club of Vic Inc)",
       "start": "2026-02-24",
@@ -54718,56 +56982,6 @@
       "verified": true,
       "closes": "2026-02-26",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "TDTC Master Vehicles/Novice Interiors/Advanced Interiors/Novice Vehicles \u2013 Scent Work",
-      "club": "TDTC Master Vehicles/Novice Interiors/Advanced Interiors/Novice Vehicles",
-      "start": "2026-02-27",
-      "end": "2026-02-27",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46401",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-23",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46401",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "ACT Companion Dog Club Scent Work trial",
-      "club": "ACT Companion Dog Club Scent Work trial",
-      "start": "2026-02-28",
-      "end": "2026-02-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46311",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46311",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -54874,31 +57088,6 @@
       "is_past": true
     },
     {
-      "title": "Dogs ACT - Scent Work Element Trial",
-      "club": "Dogs ACT - Scent Work Element Trial",
-      "start": "2026-03-01",
-      "end": "2026-03-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46373",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-22",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46373",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Yuggera Canine Club \u2013 Scent Work",
       "club": "Yuggera Canine Club",
       "start": "2026-03-03",
@@ -54918,31 +57107,6 @@
       "verified": true,
       "closes": "2026-02-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46599",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Tuggeranong Dog Training Club Advanced Exteriors/Novice Containers \u2013 Scent Work",
-      "club": "Tuggeranong Dog Training Club Advanced Exteriors/Novice Containers",
-      "start": "2026-03-06",
-      "end": "2026-03-06",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46402",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-02",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46402",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -54993,31 +57157,6 @@
       "verified": true,
       "closes": "2026-03-06",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Scent Work Element Trial",
-      "club": "Dogs ACT - Scent Work Element Trial",
-      "start": "2026-03-08",
-      "end": "2026-03-08",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46374",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-01",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46374",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -55093,56 +57232,6 @@
       "verified": true,
       "closes": "2026-03-02",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45905",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog (Part A Restricted)",
-      "club": "Dogs ACT - Sprint Dog (Part A Restricted)",
-      "start": "2026-03-09",
-      "end": "2026-03-09",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46124",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-01",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46124",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog (Part B)",
-      "club": "Dogs ACT - Sprint Dog (Part B)",
-      "start": "2026-03-09",
-      "end": "2026-03-09",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46149",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-01",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46149",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -55399,31 +57488,6 @@
       "is_past": true
     },
     {
-      "title": "Belconnen Dog Obedience Club \u2013 Scent Work",
-      "club": "Belconnen Dog Obedience Club",
-      "start": "2026-03-21",
-      "end": "2026-03-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46701",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-09",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46701",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Field & Retrieving Association For Gundogs \u2013 RATG",
       "club": "Field & Retrieving Association For Gundogs \u2013 RATG",
       "start": "2026-03-21",
@@ -55549,31 +57613,6 @@
       "is_past": true
     },
     {
-      "title": "The ACT German Shepherd Dog Association \u2013 Scent Work",
-      "club": "The ACT German Shepherd Dog Association",
-      "start": "2026-03-22",
-      "end": "2026-03-22",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46724",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-10",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46724",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "The Gun Dog Society Inc \u2013 Retrieving",
       "club": "The Gun Dog Society Inc \u2013 Retrieving",
       "start": "2026-03-22",
@@ -55599,31 +57638,6 @@
       "is_past": true
     },
     {
-      "title": "Problem Solving Cues, Markers and Reward Placement (Dogs ACT - Scent Work)",
-      "club": "Problem Solving Cues, Markers and Reward Placement (Dogs ACT - Scent Work)",
-      "start": "2026-03-23",
-      "end": "2026-03-23",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-22",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
       "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
       "start": "2026-03-26",
@@ -55643,31 +57657,6 @@
       "verified": true,
       "closes": "2026-03-25",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Tuggeranong Dog Training Club Novice Interiors/Exteriors & Advanced Containers/Vehicles \u2013 Scent Work",
-      "club": "Tuggeranong Dog Training Club Novice Interiors/Exteriors & Advanced Containers/Vehicles",
-      "start": "2026-03-27",
-      "end": "2026-03-27",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46403",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46403",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -55718,31 +57707,6 @@
       "verified": true,
       "closes": "2026-03-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46591",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Scent Work Element Trial",
-      "club": "Dogs ACT - Scent Work Element Trial",
-      "start": "2026-03-29",
-      "end": "2026-03-29",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46375",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46375",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -55993,56 +57957,6 @@
       "verified": true,
       "closes": "2026-04-02",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog Part A - Restricted",
-      "club": "Dogs ACT - Sprint Dog Part A - Restricted",
-      "start": "2026-04-06",
-      "end": "2026-04-06",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46422",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-30",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46422",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog Part B",
-      "club": "Dogs ACT - Sprint Dog Part B",
-      "start": "2026-04-06",
-      "end": "2026-04-06",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46423",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-30",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46423",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -56443,31 +58357,6 @@
       "verified": true,
       "closes": "2026-04-13",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Tuggeranong Dog Training Club Element Trial Excl Exterior Adv Interior \u2013 Scent Work",
-      "club": "Tuggeranong Dog Training Club Element Trial Excl Exterior Adv Interior",
-      "start": "2026-04-15",
-      "end": "2026-04-15",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47575",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-12",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47575",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -57293,56 +59182,6 @@
       "verified": true,
       "closes": "2026-04-29",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog Part A Restricted",
-      "club": "Dogs ACT - Sprint Dog Part A Restricted",
-      "start": "2026-05-02",
-      "end": "2026-05-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46480",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-25",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46480",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog Part B",
-      "club": "Dogs ACT - Sprint Dog Part B",
-      "start": "2026-05-02",
-      "end": "2026-05-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46481",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-25",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46481",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -59099,56 +60938,6 @@
       "is_past": true
     },
     {
-      "title": "Dogs ACT - Sprint Dog - part A (restricted)",
-      "club": "Dogs ACT - Sprint Dog - part A (restricted)",
-      "start": "2026-06-02",
-      "end": "2026-06-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47525",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47525",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog - part B Open",
-      "club": "Dogs ACT - Sprint Dog - part B Open",
-      "start": "2026-06-02",
-      "end": "2026-06-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47526",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47526",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Darwin Obedience Dog Club",
       "club": "Darwin Obedience Dog Club",
       "start": "2026-06-05",
@@ -60074,31 +61863,6 @@
       "is_past": true
     },
     {
-      "title": "Tuggeranong Dog Training Club Advanced Element Trial \u2013 Scent Work",
-      "club": "Tuggeranong Dog Training Club Advanced Element Trial",
-      "start": "2026-06-20",
-      "end": "2026-06-20",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48139",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-15",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48139",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Albury & Border Kennel Club Inc SprintDogTM",
       "club": "Albury & Border Kennel Club Inc SprintDogTM",
       "start": "2026-06-21",
@@ -60168,31 +61932,6 @@
       "verified": true,
       "closes": "2026-06-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48242",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT - Scent Work",
-      "club": "Dogs ACT",
-      "start": "2026-06-21",
-      "end": "2026-06-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48146",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-15",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48146",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -60443,31 +62182,6 @@
       "verified": true,
       "closes": "2026-06-22",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48857",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "DogsACT - Endurance",
-      "club": "DogsACT - Endurance",
-      "start": "2026-06-28",
-      "end": "2026-06-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47841",
-      "category": "Endurance",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-20",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47841",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -62349,31 +64063,6 @@
       "is_past": false
     },
     {
-      "title": "Dogs ACT - Scent Work",
-      "club": "Dogs ACT",
-      "start": "2026-08-09",
-      "end": "2026-08-09",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49281",
-      "category": "Scent Work",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-07-31",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49281",
-      "schedule_url": null,
-      "address": null,
-      "open_now": true,
-      "is_past": false
-    },
-    {
       "title": "Working Gundog Club Inc. \u2013 Retrieving",
       "club": "Working Gundog Club Inc. \u2013 Retrieving",
       "start": "2026-08-09",
@@ -63693,56 +65382,6 @@
       "verified": true,
       "closes": "2026-09-13",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49300",
-      "schedule_url": null,
-      "address": null,
-      "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog Part A restricted (Ballot)",
-      "club": "Dogs ACT - Sprint Dog Part A restricted (Ballot)",
-      "start": "2026-09-20",
-      "end": "2026-09-20",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49038",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-08-27",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49038",
-      "schedule_url": null,
-      "address": null,
-      "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Dogs ACT - Sprint Dog Part B open (Ballot)",
-      "club": "Dogs ACT - Sprint Dog Part B open (Ballot)",
-      "start": "2026-09-20",
-      "end": "2026-09-20",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49039",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-08-27",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49039",
       "schedule_url": null,
       "address": null,
       "open_now": true,
