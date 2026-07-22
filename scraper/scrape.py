@@ -1353,6 +1353,13 @@ _GENERIC_LINK_RES = (
     # only ever points to a genuine entry platform (or the Top Dog listing
     # fallback below). Per product decision: no vicdog links at all.
     re.compile(r"vicdog\.com", re.I),
+    # Dogs ACT /event/ pages are real per-event pages, but they're the
+    # governing body's info/schedule listing (advertisement PDF + details),
+    # NOT an entry platform. Per product decision, treat like vicdog: exclude
+    # all dogsact.org.au links so "Enter / details" only points to a genuine
+    # entry platform. (The events themselves are still captured via the ACT
+    # month-walk; only the entry_url link is suppressed.)
+    re.compile(r"dogsact\.org\.au/event", re.I),
 )
 
 
