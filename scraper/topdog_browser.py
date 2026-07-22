@@ -192,7 +192,12 @@ def _table_signature(html):
 
 
 if __name__ == "__main__":
-    pages = get_topdog_pages()
+    # Standalone diagnostic run: walk only the "upcoming" section so the
+    # SAMPLE LISTING LINK CONTEXT dump (page 1) appears quickly, without the
+    # full upcoming+past walk. Used by the temporary topdog-diagnostic workflow.
+    import os
+    sections = ("upcoming",) if os.environ.get("TOPDOG_DIAG") else ("upcoming", "past")
+    pages = get_topdog_pages(sections=sections)
     if pages is None:
         print("no pages (browser unavailable)")
     else:
