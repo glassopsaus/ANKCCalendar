@@ -4,7 +4,7 @@ on:
   schedule:
     # 15:30 UTC daily = 01:30 AEST (UTC+10). Cron is always UTC and does not
     # follow daylight saving, so during AEDT (UTC+11) this runs at 02:30 local.
-    - cron: "30 15 * * *"
+    - cron: "0 16 * * *"
   workflow_dispatch: {}
 
 permissions:
