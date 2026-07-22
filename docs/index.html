@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Australian Dog Sports — trials &amp; shows calendar 2026</title>
+<style>
+  :root{
+    --paper:#f6f7f4; --card:#ffffff; --ink:#1b2430; --ink-soft:#5a6675; --hair:#e3e6e0;
+    --verified:#1f7a4d; --verified-bg:#e7f2ec;
+    --unverified:#9a6b12; --unverified-bg:#f6efdd;
+    --open:#1f7a4d; --open-bg:#e7f2ec;
+    --listed:#3a6ea5; --listed-bg:#e6eef6;
+    --closed:#6b7280; --closed-bg:#eef0f2;
+    --approved:#9a6b12; --approved-bg:#f6efdd;
+    --cancel:#a3283a; --cancel-bg:#f6e5e8;
+    --past:#78808c; --past-bg:#eceef1;
+    /* Discipline family colours. Related sports share a hue family so ~20
+       disciplines stay legible rather than becoming 20 unrelated colours. */
+    --fam-scent:#6b3f8a;      --fam-scent-bg:#efe8f5;
+    --fam-tracking:#2f5d8a;   --fam-tracking-bg:#e6eef6;
+    --fam-obedience:#1f6f6b;  --fam-obedience-bg:#e0efee;
+    --fam-agility:#b5561f;    --fam-agility-bg:#f6e9df;
+    --fam-field:#5c6a1f;      --fam-field-bg:#eef0df;
+    --fam-endurance:#8a5a2f;  --fam-endurance-bg:#f1e8df;
+    --fam-show:#8a3a5a;       --fam-show-bg:#f4e4ea;
+    --fam-other:#556070;      --fam-other-bg:#e9ecef;
+    --radius:10px; --shadow:0 1px 2px rgba(27,36,48,.06), 0 4px 16px rgba(27,36,48,.05);
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--paper); color:var(--ink);
+    font-family:"Inter","Helvetica Neue",Arial,system-ui,sans-serif; line-height:1.45;}
+  .wrap{max-width:940px; margin:0 auto; padding:28px 20px 80px;}
+  header.masthead{margin-bottom:22px;}
+  #year-picker{display:inline-flex;gap:4px;vertical-align:baseline;}
+  #year-picker button{font:inherit;color:inherit;background:none;border:none;
+    cursor:pointer;padding:0 4px;border-radius:5px;opacity:.5;letter-spacing:inherit;}
+  #year-picker button:hover{opacity:.85;}
+  #year-picker button[aria-current="true"]{opacity:1;font-weight:700;
+    text-decoration:underline;text-underline-offset:3px;}
+  .eyebrow{font-size:12px; letter-spacing:.14em; text-transform:uppercase;
+    color:var(--ink-soft); font-weight:600; margin:0 0 6px;}
+  h1{font-family:"Georgia","Times New Roman",serif; font-size:clamp(28px,5vw,44px);
+    line-height:1.04; margin:0 0 10px; font-weight:700; letter-spacing:-.01em;}
+  h1 .amp{font-style:italic; font-weight:400; color:var(--ink-soft);}
+  .lede{margin:0; color:var(--ink-soft); max-width:62ch; font-size:15px;}
+  .lede strong{color:var(--ink); font-weight:600;}
+  .meta{margin-top:14px; font-size:12.5px; color:var(--ink-soft);
+    display:flex; flex-wrap:wrap; gap:6px 16px; align-items:center;}
+  .meta .dot{width:4px;height:4px;border-radius:50%;background:var(--hair);display:inline-block}
+  .controls{position:sticky; top:0; z-index:5; background:var(--paper);
+    padding:14px 0 12px; margin-bottom:6px; border-bottom:1px solid var(--hair);}
+  /* Per-group accordion toggle: hidden on desktop (bodies always visible);
+     shown on mobile where each group collapses independently. */
+  .filters-toggle{display:none; width:100%; align-items:center; gap:8px;
+    background:var(--card); border:1px solid var(--hair); border-radius:9px;
+    padding:9px 12px; cursor:pointer; font:inherit; color:var(--ink);
+    text-align:left;}
+  .filters-toggle .ft-label{font-size:12px; letter-spacing:.08em;
+    text-transform:uppercase; font-weight:600; color:var(--ink-soft);
+    min-width:78px;}
+  .filters-toggle .ft-summary{flex:1; font-size:13px; color:var(--ink-soft);
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .filters-toggle .ft-chev{transition:transform .15s; color:var(--ink-soft);}
+  .faccordion + .faccordion{margin-top:9px;}
+  .filter-row{display:flex; flex-wrap:wrap; gap:8px; align-items:baseline;}
+  .filter-row + .filter-row{margin-top:9px}
+  .flabel{font-size:11px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-soft); font-weight:600; margin-right:2px; min-width:74px;}
+  .flabel .all{display:block; font-size:10px; letter-spacing:.04em; text-transform:none;
+    font-weight:500; margin-top:2px;}
+  .flabel .all button{background:none;border:none;color:var(--ink-soft);cursor:pointer;
+    text-decoration:underline; padding:0; font:inherit; font-size:10px;}
+  .flabel .all button:hover{color:var(--ink)}
+  .chip{border:1px solid var(--hair); background:var(--card); color:var(--ink);
+    padding:5px 11px; border-radius:999px; font-size:13px; cursor:pointer;
+    display:inline-flex; align-items:center; gap:6px; user-select:none;
+    transition:border-color .12s, background .12s, opacity .12s;}
+  .chip:hover{border-color:var(--ink-soft)}
+  .chip[aria-pressed="false"]{opacity:.4}
+  .chip.empty{opacity:.22; text-decoration:line-through; text-decoration-color:var(--hair);}
+  .chip[aria-pressed="true"].empty{opacity:.5; text-decoration:none;}
+  .chip .sw{width:9px;height:9px;border-radius:2px;display:inline-block; flex:none}
+  .chip .sw.round{border-radius:50%}
+  .chip .cnt{font-size:11px; color:var(--ink-soft); font-variant-numeric:tabular-nums;}
+  .month{margin-top:26px;}
+  .month > h2{font-size:13px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--ink-soft); font-weight:700; margin:0 0 10px; padding-bottom:6px;
+    border-bottom:1px solid var(--hair); display:flex; justify-content:space-between; align-items:baseline;}
+  .month > h2 .n{font-weight:500; letter-spacing:0; text-transform:none;}
+  .card{background:var(--card); border:1px solid var(--hair);
+    border-left:4px solid var(--disc,var(--hair)); border-radius:var(--radius);
+    box-shadow:var(--shadow); padding:13px 15px; margin-bottom:9px;
+    display:grid; grid-template-columns:64px 1fr auto; gap:4px 15px; align-items:start;}
+  .card.is-cancelled{opacity:.62}
+  .card.is-cancelled .title{text-decoration:line-through}
+  .date{grid-row:1 / span 2; text-align:center; padding-top:2px;}
+  .date .d{font-size:22px; font-weight:700; line-height:1; font-variant-numeric:tabular-nums;}
+  .date .d.range{font-size:15px;}
+  .date .dow{font-size:11px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.06em; margin-top:3px;}
+  .body{min-width:0;}
+  .title{font-weight:600; font-size:15px; margin:0 0 5px; word-wrap:break-word;}
+  .tags{display:flex; flex-wrap:wrap; gap:6px; align-items:center;}
+  .tag{font-size:11.5px; font-weight:600; padding:2px 8px; border-radius:5px;
+    display:inline-flex; align-items:center; gap:5px; white-space:nowrap;}
+  .tag.disc{background:var(--disc-bg,#eee); color:var(--disc,#333);}
+  .tag.state{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:600;}
+  .tag.club{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:500;}
+  .tag.loc{background:transparent; color:var(--ink-soft); padding-left:0; font-weight:500;}
+  .tag.src{background:transparent;color:var(--ink-soft);border:1px dashed var(--hair);font-weight:500}
+  .right{grid-row:1 / span 2; display:flex; flex-direction:column; align-items:flex-end; gap:6px; text-align:right;}
+  .status{font-size:12px; font-weight:700; padding:4px 10px; border-radius:999px;
+    display:inline-flex; align-items:center; gap:6px; white-space:nowrap;}
+  .status .ic{width:13px;height:13px;flex:none}
+  .status.st-open{background:var(--open-bg); color:var(--open);}
+  .status.st-listed{background:var(--listed-bg); color:var(--listed);}
+  .status.st-closed{background:var(--closed-bg); color:var(--closed);}
+  .status.st-approved{background:var(--approved-bg); color:var(--approved);}
+  .status.st-cancelled{background:var(--cancel-bg); color:var(--cancel);}
+  .status.st-past{background:var(--past-bg); color:var(--past);}
+  .vmark{display:inline-flex; align-items:center; gap:4px; font-size:12px;
+    font-weight:600; color:var(--verified); white-space:nowrap;}
+  .card.is-past{opacity:.66}
+  .closes{font-size:11.5px; color:var(--ink-soft); white-space:nowrap;}
+  .closes b{color:var(--ink); font-weight:600;}
+  .enter{font-size:12.5px; font-weight:600; color:var(--fam-tracking); text-decoration:none;
+    border-bottom:1px solid currentColor; padding-bottom:1px;}
+  .enter:hover{color:var(--ink)}
+  .enter.sched{font-weight:500; color:var(--ink-soft);}
+  .enter.sched:hover{color:var(--ink)}
+  .state-msg{padding:48px 16px; text-align:center; color:var(--ink-soft);}
+  .state-msg.err{color:var(--cancel);}
+  .count{font-size:12.5px;color:var(--ink-soft);margin:8px 0 0}
+  .legend{margin-top:8px; font-size:11.5px; color:var(--ink-soft);
+    display:flex; flex-wrap:wrap; gap:4px 14px; align-items:center;}
+  .legend .li{display:inline-flex;align-items:center;gap:5px}
+  .more{display:block; margin:16px auto 0; padding:9px 18px; border:1px solid var(--hair);
+    background:var(--card); border-radius:999px; font-size:13px; font-weight:600;
+    color:var(--ink); cursor:pointer;}
+  .more:hover{border-color:var(--ink-soft)}
+  footer{margin-top:44px; padding-top:16px; border-top:1px solid var(--hair);
+    font-size:12px; color:var(--ink-soft);}
+  footer a{color:var(--ink-soft)}
+  .sources{margin-top:6px; display:flex; flex-wrap:wrap; gap:4px 12px;}
+  @media (max-width:560px){
+    .card{grid-template-columns:52px 1fr; gap:6px 12px;}
+    .right{grid-row:auto; grid-column:1 / -1; flex-direction:row; align-items:center;
+      justify-content:flex-start; flex-wrap:wrap; margin-top:4px;}
+    .date{grid-row:1 / span 2;}
+    .flabel{min-width:100%;}
+    /* Collapsible filters on mobile: each group's toggle shown, its body
+       hidden unless that group is open. */
+    .filters-toggle{display:flex;}
+    .facc-body{display:none; margin-top:10px;}
+    .faccordion.open .facc-body{display:flex;}
+    .faccordion.open .filters-toggle .ft-chev{transform:rotate(180deg);}
+    .filter-row + .filter-row{margin-top:12px;}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">Australian Dog Sports · <span id="year-picker"></span></p>
+    <h1>The National <span class="amp">Dog&nbsp;Sports</span> Calendar</h1>
+    <p class="lede">Every ANKC show and trial across all states and disciplines, in one place — with a plain answer to the question that matters when you find one: <strong>can I still enter?</strong></p>
+    <div class="meta" id="meta"></div>
+    <div class="legend" id="legend"></div>
+  </header>
+  <div class="controls" id="controls">
+    <div class="faccordion" id="acc-region">
+      <button class="filters-toggle" aria-expanded="false" aria-controls="state-filters">
+        <span class="ft-label">State</span>
+        <span class="ft-summary" id="sum-region"></span>
+        <span class="ft-chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="filter-row facc-body" id="state-filters"><span class="flabel"><span class="all"><button data-g="region" data-a="all">all</button> / <button data-g="region" data-a="none">clear</button></span></span></div>
+    </div>
+    <div class="faccordion" id="acc-disc">
+      <button class="filters-toggle" aria-expanded="false" aria-controls="disc-filters">
+        <span class="ft-label">Discipline</span>
+        <span class="ft-summary" id="sum-disc"></span>
+        <span class="ft-chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="filter-row facc-body" id="disc-filters"><span class="flabel"><span class="all"><button data-g="disc" data-a="all">all</button> / <button data-g="disc" data-a="none">clear</button></span></span></div>
+    </div>
+    <div class="faccordion" id="acc-status">
+      <button class="filters-toggle" aria-expanded="false" aria-controls="status-filters">
+        <span class="ft-label">Entry status</span>
+        <span class="ft-summary" id="sum-status"></span>
+        <span class="ft-chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="filter-row facc-body" id="status-filters"></div>
+    </div>
+    <p class="count" id="count"></p>
+  </div>
+  <div id="list"><div class="state-msg">Loading events…</div></div>
+  <footer>
+    <div>Sourced from ANKC state governing-body calendars and entry systems. Each event shows its <b>entry state</b> (Open, Listed, Entries closed, Approved, or Cancelled) and, separately, whether it is <b>Verified</b> — corroborated by an entry platform or two or more sources. "Past" marks events whose date has passed. Statuses reflect the last update and can change — always confirm with the club before entering.</div>
+    <div class="sources" id="sources"></div>
+  </footer>
+</div>
+<script>
+const PAGE_SIZE = 250;   // cap initial DOM; "show more" reveals the rest
+
+// Map each canonical discipline to a colour family. Unlisted -> "other".
+const DISC_FAMILY = {
+  "Scent Work":"scent", "Bale Seek":"scent",
+  "Tracking":"tracking", "Track & Search":"tracking", "Tracking / Track & Search":"tracking",
+  "Obedience":"obedience", "Rally Obedience":"obedience", "Trick Dog":"obedience",
+  "Agility":"agility", "Dances with Dogs":"agility", "Sprint":"agility", "Weight Pull":"agility", "Canine Disc":"agility",
+  "Field Trial":"field", "Retrieving":"field", "Herding":"field", "Earthdog":"field", "Lure Coursing":"field",
+  "Endurance":"endurance", "Sled Sports":"endurance", "Backpacking":"endurance", "Draft Test":"endurance", "RATG":"endurance",
+  "Conformation":"show",
+};
+function famOf(cat){ return DISC_FAMILY[cat] || "other"; }
+function famVar(fam){ return `var(--fam-${fam})`; }
+function famBg(fam){ return `var(--fam-${fam}-bg)`; }
+
+const RCOL = {ACT:"#1d6fb8",VIC:"#3aa657",TAS:"#c8632a",NSW:"#7a3ea6",SA:"#c9a227",
+              QLD:"#c0392b",WA:"#16887a",NT:"#b8621d"};
+
+// Entry-state, INDEPENDENT of both verified-ness and past-ness (both separate
+// flags now). One of: open, listed, closed, approved, cancelled.
+// "Past" is NOT an entry-state — see isPast(). Per the rules, a past event may
+// be cancelled or closed, but never open (the scraper downgrades open->closed
+// once an event has passed), and open/cancelled are mutually exclusive.
+function statusKind(e){
+  if(e.cancelled || e.status==="cancelled") return "cancelled";
+  if(e.status==="open") return "open";
+  if(e.status==="closed") return "closed";
+  if(e.status==="listed") return "listed";
+  return "approved"; // approved_not_open / unknown
+}
+// Past is temporal and independent. Prefer the scraper's is_past flag; fall
+// back to comparing the end date to today for older data without the flag.
+function isPast(e){
+  if(typeof e.is_past === "boolean") return e.is_past;
+  const end = e.end || e.start;
+  if(!end) return false;
+  const t = new Date(); t.setHours(0,0,0,0);
+  return new Date(end+"T00:00:00") < t;
+}
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+let ALL = [];
+let shownLimit = PAGE_SIZE;
+const active = { region:new Set(), disc:new Set(),
+  status:new Set(["open","listed","closed","approved","cancelled"]),
+  verifiedOnly:false, showPast:false };
+// Entry-state chips select which entry-states show. `showPast` is an INDEPENDENT
+// toggle (past-ness is orthogonal to entry-state): off by default so the page
+// opens on current/upcoming events; when on, past events are also shown.
+// `verifiedOnly`, when on, restricts to verified (corroborated) events.
+const $ = s => document.querySelector(s);
+function escapeHtml(s){return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+function fmtDate(iso){const d=new Date(iso+"T00:00:00"); return {day:d.getDate(),dow:DOW[d.getDay()],mon:d.getMonth(),yr:d.getFullYear()};}
+
+function buildChips(container, items, group){
+  items.forEach(([val,label,swatch,round,count])=>{
+    const b=document.createElement("button"); b.className="chip"; b.type="button";
+    b.setAttribute("aria-pressed", active[group].has(val));
+    b.dataset.val = val; b.dataset.group = group;
+    const sw = swatch ? `<span class="sw ${round?'round':''}" style="background:${swatch}"></span>` : "";
+    const cnt = (count!=null) ? ` <span class="cnt">${count}</span>` : "";
+    b.innerHTML = sw + escapeHtml(label) + cnt;
+    b.addEventListener("click",()=>{
+      if(active[group].has(val)) active[group].delete(val); else active[group].add(val);
+      b.setAttribute("aria-pressed", active[group].has(val)); shownLimit=PAGE_SIZE; render();
+    });
+    container.appendChild(b);
+  });
+}
+function countBy(keyFn){ const m={}; for(const e of ALL){ const k=keyFn(e); if(k) m[k]=(m[k]||0)+1; } return m; }
+
+function clearChips(container){
+  // Remove everything EXCEPT the .flabel label element, so re-running
+  // setupFilters() on a year switch rebuilds chips (and their counts) fresh
+  // instead of stacking the previous year's chips on top.
+  [...container.children].forEach(c=>{ if(!c.classList.contains("flabel")) c.remove(); });
+}
+function setupFilters(){
+  // State and Discipline start UNSELECTED. An empty row means "no constraint"
+  // (match all), so the page still shows everything on load; tapping chips
+  // narrows. State and Discipline intersect; within a row, chips union.
+  clearChips($("#state-filters")); clearChips($("#disc-filters"));
+  clearChips($("#status-filters"));
+  wireFiltersToggle();
+  const regionCounts = countBy(e=>e.region);
+  const discCountsAll = countBy(e=>e.category);
+  // Drop any prior-year filter selections that don't exist in THIS year's data,
+  // so switching years never leaves an invisible selection filtering to nothing.
+  for(const r of [...active.region]) if(!(r in regionCounts)) active.region.delete(r);
+  for(const d of [...active.disc])   if(!(d in discCountsAll)) active.disc.delete(d);
+  const regions = Object.keys(regionCounts).sort((a,b)=>regionCounts[b]-regionCounts[a]);
+  buildChips($("#state-filters"), regions.map(r=>[r,r,RCOL[r]||"#888",true,regionCounts[r]]), "region");
+
+  // Disciplines, ordered by count, coloured by family. Also start unselected.
+  const discs = Object.keys(discCountsAll).sort((a,b)=>discCountsAll[b]-discCountsAll[a]);
+  buildChips($("#disc-filters"), discs.map(d=>[d,d,famVar(famOf(d)),false,discCountsAll[d]]), "disc");
+
+  buildChips($("#status-filters"), [["open","Open","var(--open)",false],["listed","Listed","var(--listed)",false],["closed","Entries closed","var(--closed)",false],["approved","Approved","var(--approved)",false],["cancelled","Cancelled","var(--cancel)",false]], "status");
+
+  // Verified-only toggle (independent axis: corroborated/real).
+  const vc = document.createElement("button");
+  vc.className = "chip"; vc.type = "button";
+  vc.setAttribute("aria-pressed", active.verifiedOnly);
+  vc.innerHTML = `<span class="sw round" style="background:var(--verified)"></span>Verified only`;
+  vc.addEventListener("click", ()=>{
+    active.verifiedOnly = !active.verifiedOnly;
+    vc.setAttribute("aria-pressed", active.verifiedOnly);
+    shownLimit=PAGE_SIZE; render();
+  });
+  $("#status-filters").appendChild(vc);
+
+  // Show-past toggle (independent temporal axis; off by default).
+  const pc = document.createElement("button");
+  pc.className = "chip"; pc.type = "button";
+  pc.setAttribute("aria-pressed", active.showPast);
+  pc.innerHTML = `<span class="sw round" style="background:var(--past)"></span>Show past`;
+  pc.addEventListener("click", ()=>{
+    active.showPast = !active.showPast;
+    pc.setAttribute("aria-pressed", active.showPast);
+    shownLimit=PAGE_SIZE; render();
+  });
+  $("#status-filters").appendChild(pc);
+
+  // "all / none" bulk toggles per group. Attach ONCE (these live inside the
+  // persistent .flabel, so setupFilters() re-runs must not re-bind them).
+  if(!setupFilters._bulkBound){
+    setupFilters._bulkBound = true;
+    document.querySelectorAll(".flabel .all button").forEach(btn=>{
+      btn.addEventListener("click",()=>{
+        const g = btn.dataset.g, a = btn.dataset.a;
+        const container = g==="region" ? $("#state-filters") : $("#disc-filters");
+        active[g].clear();
+        if(a==="all"){ container.querySelectorAll(".chip").forEach(c=>active[g].add(c.dataset.val)); }
+        container.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", active[g].has(c.dataset.val)));
+        shownLimit=PAGE_SIZE; render();
+      });
+    });
+  }
+}
+function renderLegend(){
+  $("#legend").innerHTML =
+    `<span class="li"><span class="sw" style="background:var(--verified)"></span><span style="color:var(--verified);font-weight:600">Verified</span> — corroborated by an entry platform or 2+ sources</span>`+
+    `<span class="li"><span class="sw" style="background:var(--open)"></span><span style="font-weight:600">Open</span> — entries open now on an entry platform</span>`+
+    `<span class="li"><span class="sw" style="background:var(--listed)"></span><span style="font-weight:600">Listed</span> — on an entry platform, entries not open yet</span>`+
+    `<span class="li"><span class="sw" style="background:var(--closed)"></span><span style="font-weight:600">Entries closed</span> — closing date passed or marked closed</span>`+
+    `<span class="li"><span class="sw" style="background:var(--approved)"></span><span style="font-weight:600">Approved</span> — on an ANKC calendar, no entry platform yet</span>`+
+    `<span class="li"><span class="sw" style="background:var(--cancel)"></span><span style="font-weight:600">Cancelled</span> — event withdrawn (kept, struck through)</span>`+
+    `<span class="li"><span class="sw" style="background:var(--past)"></span><span style="font-weight:600">Past</span> — event date has passed</span>`;
+}
+// Individual filter predicates, reusable for both filtering and faceted counts.
+function _rOK(e){ return active.region.size===0 || active.region.has(e.region); }
+function _dOK(e){ return active.disc.size===0   || active.disc.has(e.category); }
+function _sOK(e){ return active.status.has(statusKind(e)); }
+function _vOK(e){ return !active.verifiedOnly || e.verified; }
+function _pOK(e){ return active.showPast || !isPast(e); }
+function filtered(){
+  // State/Discipline: empty row = no constraint. Entry-state chips narrow by
+  // entry-state. Past is an INDEPENDENT gate: unless showPast is on, past events
+  // are hidden regardless of their entry-state. verifiedOnly narrows to verified.
+  return ALL.filter(e=> _rOK(e) && _dOK(e) && _sOK(e) && _vOK(e) && _pOK(e))
+    .sort((a,b)=>(a.start||"").localeCompare(b.start||"") || (a.title||"").localeCompare(b.title||""));
+}
+
+// Faceted chip counts: a chip's count reflects every OTHER active filter but
+// NOT its own group (so selecting one state narrows the discipline counts, and
+// vice versa, without a group zeroing out its own other chips). Recomputed on
+// every render so the numbers track the current selection.
+function updateChipCounts(){
+  // Discipline counts respect selected state(s) + status/past/verified.
+  const discBase = ALL.filter(e=> _rOK(e) && _sOK(e) && _vOK(e) && _pOK(e));
+  const discCounts = {};
+  for(const e of discBase){ const k=e.category; if(k) discCounts[k]=(discCounts[k]||0)+1; }
+  // State counts respect selected discipline(s) + status/past/verified.
+  const regBase = ALL.filter(e=> _dOK(e) && _sOK(e) && _vOK(e) && _pOK(e));
+  const regCounts = {};
+  for(const e of regBase){ const k=e.region; if(k) regCounts[k]=(regCounts[k]||0)+1; }
+
+  const apply = (container, counts) => {
+    container.querySelectorAll(".chip").forEach(chip=>{
+      const val = chip.dataset.val;
+      if(val==null) return;
+      const cntEl = chip.querySelector(".cnt");
+      if(!cntEl) return;
+      const n = counts[val] || 0;
+      cntEl.textContent = n;
+      // Dim a chip whose count is 0 under the current cross-filter, so it reads
+      // as "nothing here right now" rather than looking selectable-but-empty.
+      chip.classList.toggle("empty", n===0);
+    });
+  };
+  apply($("#disc-filters"), discCounts);
+  apply($("#state-filters"), regCounts);
+}
+// Per-group summaries shown in each collapsed accordion bar, so mobile users
+// see what's selected in that group without expanding it.
+function updateFilterSummary(){
+  const rEl = $("#sum-region"), dEl = $("#sum-disc"), sEl = $("#sum-status");
+  if(rEl) rEl.textContent = active.region.size
+    ? [...active.region].sort().join(", ") : "All states";
+  if(dEl){
+    const d = [...active.disc];
+    dEl.textContent = !d.length ? "All disciplines"
+      : (d.length<=2 ? d.join(", ") : `${d.length} disciplines`);
+  }
+  if(sEl){
+    const allStatus = ["open","listed","closed","approved","cancelled"];
+    const bits = [];
+    if(active.status.size < allStatus.length) bits.push(`${active.status.size} of ${allStatus.length}`);
+    if(active.verifiedOnly) bits.push("verified");
+    if(active.showPast) bits.push("incl. past");
+    sEl.textContent = bits.length ? bits.join(" · ") : "All statuses";
+  }
+}
+
+function wireFiltersToggle(){
+  if(wireFiltersToggle._bound) return;
+  wireFiltersToggle._bound = true;
+  document.querySelectorAll(".faccordion").forEach(acc=>{
+    const btn = acc.querySelector(".filters-toggle");
+    if(!btn) return;
+    btn.addEventListener("click", ()=>{
+      const open = acc.classList.toggle("open");
+      btn.setAttribute("aria-expanded", String(open));
+    });
+  });
+}
+
+function render(){
+  const shown = filtered();
+  const total = shown.length;
+  updateChipCounts();
+  updateFilterSummary();
+  $("#count").textContent = `${total} event${total===1?"":"s"} shown`+(total!==ALL.length?` of ${ALL.length}`:"");
+  const list = $("#list");
+  if(!total){ list.innerHTML = `<div class="state-msg">No events match these filters. Turn some back on above.</div>`; return; }
+  const page = shown.slice(0, shownLimit);
+  let html=""; let curKey="";
+  for(const e of page){
+    const f = fmtDate(e.start); const key = `${f.yr}-${f.mon}`;
+    if(key!==curKey){
+      if(curKey!=="") html += `</section>`;
+      curKey=key;
+      const inMonth = shown.filter(x=>{const g=fmtDate(x.start);return g.yr===f.yr&&g.mon===f.mon;}).length;
+      html += `<section class="month"><h2>${MONTHS[f.mon]} ${f.yr}<span class="n">${inMonth}</span></h2>`;
+    }
+    html += cardHtml(e,f);
+  }
+  if(curKey!=="") html += `</section>`;
+  if(total>shownLimit){ html += `<button class="more" id="more">Show more — ${total-shownLimit} remaining</button>`; }
+  list.innerHTML = html;
+  const more = $("#more");
+  if(more) more.addEventListener("click",()=>{ shownLimit+=PAGE_SIZE; render(); });
+}
+function cardHtml(e,f){
+  const fam = famOf(e.category); const sk = statusKind(e); const past = isPast(e);
+  let dateCell;
+  if(e.end && e.end!==e.start){
+    const g = fmtDate(e.end); const sameMon = g.mon===f.mon;
+    dateCell = `<div class="d range">${f.day}–${g.day}</div><div class="dow">${sameMon?MONTHS[f.mon].slice(0,3):DOW[f.dow]}</div>`;
+  }else{ dateCell = `<div class="d">${f.day}</div><div class="dow">${f.dow}</div>`; }
+  const discTag = `<span class="tag disc" style="--disc:${famVar(fam)};--disc-bg:${famBg(fam)}">${escapeHtml(e.category||"Event")}</span>`;
+  const stateTag = e.region ? `<span class="tag state">${escapeHtml(e.region)}</span>` : "";
+  // Club tag: the club name sits on the info line between State and Source.
+  // Use the derived `club` (falls back to location for older data), and skip it
+  // when it merely echoes the title/headline or is a bare state name.
+  const _club = (e.club || e.location || "").trim();
+  const _clubLc = _club.toLowerCase();
+  const _titleLc = (e.title || "").trim().toLowerCase();
+  const _clubRedundant = !_club
+    || _clubLc === _titleLc
+    || ["victoria","queensland","new south wales","western australia","south australia","tasmania","act","northern territory"].indexOf(_clubLc) !== -1;
+  const clubTag = _clubRedundant ? "" : `<span class="tag club">${escapeHtml(_club)}</span>`;
+  // Source tags: show EVERY corroborating source (the dedup merge records all
+  // of them in `sources`), not just one — so a trial confirmed by, say, both
+  // Dogs Victoria and Top Dog shows both. De-duplicate and fall back to the
+  // single `source` field for older data that lacks the array.
+  const _srcList = (Array.isArray(e.sources) && e.sources.length)
+    ? e.sources : (e.source ? [e.source] : []);
+  const _srcSeen = new Set();
+  const srcTag = _srcList.filter(s=>{
+    const k=(s||"").trim(); if(!k||_srcSeen.has(k)) return false; _srcSeen.add(k); return true;
+  }).map(s=>`<span class="tag src">${escapeHtml(s)}</span>`).join("");
+  // Verified mark (corroborated). Not shown on past events.
+  const verifiedMark = (e.verified && !past)
+    ? `<span class="vmark" title="Verified: corroborated by an entry platform or multiple sources">Verified</span>` : "";
+  // Entry-state badge (open / listed / entries closed / approved / cancelled).
+  const label = stripParen(e.status_label || ({open:"Open",listed:"Listed",
+    closed:"Entries closed",cancelled:"Cancelled",approved:"Approved"}[sk] || ""));
+  // On a past event only "cancelled" / "closed" entry-states still carry
+  // meaning; "open/listed/approved" are no longer useful, so we hide them and
+  // just show the Past badge. (The scraper already downgrades past "open"->
+  // "closed", so a live-looking "Open + Past" can't occur.)
+  const showState = !past || sk==="cancelled" || sk==="closed";
+  const statusBadge = showState ? `<span class="status st-${sk}">${escapeHtml(label)}</span>` : "";
+  // Separate, co-occurring "Past" badge.
+  const pastBadge = past ? `<span class="status st-past">Past</span>` : "";
+  let closes = "";
+  if(e.closes && sk!=="cancelled" && !past){ const cf = fmtDate(e.closes); closes = `<span class="closes">Entries close <b>${cf.day} ${MONTHS[cf.mon].slice(0,3)}</b></span>`; }
+  const enter = (e.entry_url && sk!=="cancelled" && !past) ? `<a class="enter" href="${escapeHtml(e.entry_url)}" target="_blank" rel="noopener">Enter / details →</a>` : "";
+  const schedule = (e.schedule_url && !past) ? `<a class="enter sched" href="${escapeHtml(e.schedule_url)}" target="_blank" rel="noopener">Schedule (venue &amp; times) →</a>` : "";
+  // Headline the event title (for scent work this carries the level + elements,
+  // e.g. "Advanced - Interiors and Exteriors"); the club sits on the info line.
+  const headline = e.title || e.club || "Untitled event";
+  return `<article class="card ${sk==="cancelled"?"is-cancelled":""}${past?"is-past":""}" style="--disc:${famVar(fam)}">
+    <div class="date">${dateCell}</div>
+    <div class="body"><p class="title">${escapeHtml(headline)}</p><div class="tags">${discTag}${stateTag}${clubTag}${srcTag}</div></div>
+    <div class="right">${verifiedMark}${statusBadge}${pastBadge}${closes}${enter}${schedule}</div>
+  </article>`;
+}
+function stripParen(s){return (s||"").replace(/\s*\((?:un)?verified\)\s*$/i,"").trim();}
+function renderMeta(data){
+  const gen = data.generated ? new Date(data.generated) : null;
+  const parts = [`${(data.events||[]).length} events`, `Year ${data.year||2026}`];
+  if(gen && !isNaN(gen)){
+    // Show the update time in Australian Eastern time. Using the Australia/
+    // Sydney zone means it auto-switches between AEST (UTC+10) and AEDT
+    // (UTC+11, daylight saving), and we read the actual abbreviation back so
+    // the label is always correct rather than hard-coded.
+    const TZ = "Australia/Sydney";
+    let stamp;
+    try{
+      const d = gen.toLocaleDateString("en-AU",{timeZone:TZ,day:"numeric",month:"short",year:"numeric"});
+      const t = gen.toLocaleTimeString("en-AU",{timeZone:TZ,hour:"2-digit",minute:"2-digit",hour12:false});
+      // Derive the zone abbreviation (AEST/AEDT) for this date.
+      let abbr = "AEST";
+      try{
+        const tzName = new Intl.DateTimeFormat("en-AU",{timeZone:TZ,timeZoneName:"short"})
+          .formatToParts(gen).find(p=>p.type==="timeZoneName");
+        if(tzName && /^A[EC]/.test(tzName.value)) abbr = tzName.value; // e.g. AEST/AEDT
+      }catch(_){}
+      stamp = `Updated ${d}, ${t} ${abbr}`;
+    }catch(_){
+      stamp = `Updated ${gen.toLocaleString()}`;
+    }
+    parts.push(stamp);
+  }
+  $("#meta").innerHTML = parts.map(p=>`<span>${escapeHtml(p)}</span>`).join('<span class="dot"></span>');
+  const srcs = data.sources||[];
+  $("#sources").innerHTML = srcs.map(s=> s.url?`<a href="${escapeHtml(s.url)}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>`:`<span>${escapeHtml(s.name)}</span>`).join("");
+}
+let YEARS_INFO = null;   // {current_year, years:[{year,count}]}
+let CUR_YEAR = null;
+
+function dataUrlForYear(y){ return `events-${y}.json`; }
+
+function renderYearPicker(){
+  const host = $("#year-picker");
+  if(!host) return;
+  // No manifest / single year -> just show the current year as static text.
+  if(!YEARS_INFO || !(YEARS_INFO.years||[]).length){
+    host.textContent = CUR_YEAR || "";
+    return;
+  }
+  const years = YEARS_INFO.years.map(y=>y.year).sort((a,b)=>a-b);
+  host.innerHTML = "";
+  for(const y of years){
+    const b = document.createElement("button");
+    b.type = "button"; b.textContent = y;
+    b.setAttribute("aria-current", String(y===CUR_YEAR));
+    b.addEventListener("click", ()=>{ if(y!==CUR_YEAR) switchYear(y); });
+    host.appendChild(b);
+  }
+}
+
+async function switchYear(y){
+  CUR_YEAR = y;
+  renderYearPicker();
+  $("#list").innerHTML = `<div class="state-msg">Loading ${y}…</div>`;
+  shownLimit = PAGE_SIZE;
+  try{
+    const res = await fetch(dataUrlForYear(y),{cache:"no-store"});
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const data = await res.json();
+    ALL = (data.events||[]).filter(e=>e.start);
+    renderMeta(data); renderLegend(); setupFilters(); render();
+  }catch(err){
+    $("#list").innerHTML = `<div class="state-msg err">No data for ${y} yet (${escapeHtml(err.message)}).<br>Each year fills in as its calendars are published.</div>`;
+  }
+}
+
+async function load(){
+  // Prefer the multi-year manifest; fall back to the single events.json so the
+  // page still works if only the legacy file is present.
+  try{
+    const mres = await fetch("years.json",{cache:"no-store"});
+    if(mres.ok){
+      YEARS_INFO = await mres.json();
+      const avail = (YEARS_INFO.years||[]).map(y=>y.year);
+      // Default to current year if we have it, else the newest available.
+      CUR_YEAR = avail.includes(YEARS_INFO.current_year)
+        ? YEARS_INFO.current_year
+        : (avail.length ? Math.max(...avail) : YEARS_INFO.current_year);
+      renderYearPicker();
+      await switchYear(CUR_YEAR);
+      return;
+    }
+  }catch(_){ /* fall through to legacy single-file mode */ }
+
+  // Legacy fallback: single events.json.
+  try{
+    const res = await fetch("events.json",{cache:"no-store"});
+    if(!res.ok) throw new Error("HTTP "+res.status);
+    const data = await res.json();
+    ALL = (data.events||[]).filter(e=>e.start);
+    CUR_YEAR = data.year || null;
+    renderYearPicker();
+    renderMeta(data); renderLegend(); setupFilters(); render();
+  }catch(err){
+    $("#list").innerHTML = `<div class="state-msg err">Couldn't load the event list (${escapeHtml(err.message)}).<br>It appears here once the daily update publishes the data beside this page.</div>`;
+  }
+}
+load();
+</script>
+</body>
+</html>
