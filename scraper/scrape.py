@@ -1342,8 +1342,11 @@ _GENERIC_LINK_RES = (
     re.compile(r"vicdog\.com/events-?page", re.I),
     re.compile(r"dogsvictoria\.org\.au/events/?$", re.I),
     re.compile(r"dogswest\.com/.*(Yearly_Show_Date_Calendars|Calendar)", re.I),
+    re.compile(r"dogsnsw\.org\.au/events/(show-and-trials-guide|calendar|events)", re.I),
     re.compile(r"dogsnsw\.org\.au/.*(calendar|events)/?$", re.I),
+    re.compile(r"dogsqueensland\.org\.au/events/(showtrial-dates|calendar|events)", re.I),
     re.compile(r"dogsqueensland\.org\.au/.*(calendar|events)/?$", re.I),
+    re.compile(r"dogsact\.org\.au/events/?$", re.I),
     re.compile(r"dogsact\.org\.au/?$", re.I),
     # vicdog.com is a VIC listing/information site, not an entry platform —
     # exclude ALL vicdog links (even real per-event pages) so "Enter / details"
