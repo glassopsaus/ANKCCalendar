@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T08:56:46+00:00",
+  "generated": "2026-07-22T20:11:04+00:00",
   "year": 2026,
   "count": 2865,
   "sources": [
@@ -33651,29 +33651,6 @@
       "club": "Pointer Club of NSW"
     },
     {
-      "title": "\"Course Design * Lure Operation\" - Zoom Lecture with Nic Mather (Qld)",
-      "start": "2026-07-23",
-      "end": "2026-07-23",
-      "location": "Dogs SA Lure Coursing Advisory",
-      "url": "https://www.topdogevents.com.au/trials/1993",
-      "category": "Lure Coursing",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1993",
-      "open_now": true,
-      "is_past": false,
-      "club": "Dogs SA Lure Coursing Advisory"
-    },
-    {
       "title": "Metro Mid Week Dog Training Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-07-23",
       "end": "2026-07-23",
@@ -39330,38 +39307,41 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-08-10",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48517",
+      "open_now": true,
       "is_past": false,
       "club": "Melbourne Lure Dog Club LURE COURSE"
     },
     {
-      "title": "NSW Herding Association Inc \u2013 Herding",
+      "title": "Melinda Bracken Memorial Trial",
       "start": "2026-08-15",
       "end": "2026-08-16",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
+      "location": "NSW Herding Association",
+      "url": "https://www.topdogevents.com.au/trials/2031",
       "category": "Herding",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
       "cancelled": false,
-      "provider": null,
+      "region": "NSW",
+      "color": "#7a3ea6",
+      "topdog_open": true,
+      "source": "Top Dog Events",
       "sources": [
+        "Top Dog Events",
         "Dogs NSW"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2031",
+      "open_now": true,
       "is_past": false,
-      "club": "NSW Herding Association Inc \u2013 Herding"
+      "club": "NSW Herding Association"
     },
     {
       "title": "Newcastle ABDC Agility + Jumping trial",
@@ -40019,13 +39999,15 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-08-07",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49398",
+      "open_now": true,
       "is_past": false,
       "club": "Rhodesian Ridgeback Club of Vic Inc LURE COURSE"
     },
@@ -43119,6 +43101,29 @@
       "is_past": false
     },
     {
+      "title": "Stellar Dogs Training & Education - Spring 2026 Sep-Oct (Introduction to Scentwork L1)",
+      "start": "2026-09-02",
+      "end": "2026-09-02",
+      "location": "Stellar Dogs Training and Education",
+      "url": "https://www.topdogevents.com.au/trials/2049",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2049",
+      "open_now": true,
+      "is_past": false,
+      "club": "Stellar Dogs Training and Education"
+    },
+    {
       "title": "2026 NSW AGILITY STATE TITLES",
       "start": "2026-09-04",
       "end": "2026-09-06",
@@ -46029,13 +46034,15 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-09-12",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49230",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -46051,13 +46058,15 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-09-12",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49232",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -46073,13 +46082,15 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-09-12",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49231",
+      "open_now": true,
       "is_past": false
     },
     {
