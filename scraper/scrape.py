@@ -1133,52 +1133,9 @@ def _topdog_clean_title(raw):
     return title.strip(" -–—·")
 
 
-def _topdog_norm(t):
-    """Normalise a title for matching: lowercase alphanumerics only."""
-    return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
-
-
-def _topdog_link_map(soup):
-    """Build {normalised-title -> /trials/<id> URL} from every per-event anchor
-    on the page. The diagnostic confirmed ~2 such links per trial exist in the
-    rendered HTML (invisible to markdown extraction, which is why they looked
-    absent). Each trial's detail card has a heading with the trial name; we key
-    the link by that heading's text (clean), found by walking up from the anchor
-    to its card container and taking the first heading/bold element there."""
-    link_map = {}
-    for a in soup.find_all("a", href=True):
-        m = re.search(r"/trials/(\d+)(?:\b|/|$)", a["href"])
-        if not m:
-            continue
-        href = a["href"]
-        if href.startswith("/"):
-            href = "https://www.topdogevents.com.au" + href
-        # Walk up to find the card container's heading (the trial title).
-        title_text = ""
-        node = a
-        for _ in range(5):
-            node = getattr(node, "parent", None)
-            if node is None:
-                break
-            head = node.find(["h1", "h2", "h3", "h4", "h5", "h6", "strong", "b"])
-            if head:
-                ht = head.get_text(" ", strip=True)
-                if ht:
-                    title_text = ht
-                    break
-        if not title_text:
-            # fall back to the anchor's own text if no heading found
-            title_text = a.get_text(" ", strip=True)
-        key = _topdog_norm(_topdog_clean_title(title_text))
-        if key and key not in link_map:
-            link_map[key] = href
-    return link_map
-
-
 def _topdog_parse_rows(soup, year):
     """Yield event dicts from every qualifying table row on one page."""
     out = []
-    link_map = _topdog_link_map(soup)
     for tr in soup.select("tr"):
         cells = tr.find_all(["td", "th"])
         if len(cells) < 3:
@@ -1203,22 +1160,17 @@ def _topdog_parse_rows(soup, year):
         if not start or dt.date.fromisoformat(start).year != year:
             continue
 
-        # Link to the specific trial page. The per-event /trials/<id> links DO
-        # exist in the rendered HTML (confirmed by the topdog_browser diagnostic:
-        # ~2 per trial). They aren't in the <tr> rows but in the detail cards, so
-        # we match this row to its link via the title->link map. Fall back to the
-        # bare listing (handled downstream as the Top Dog fallback) if no match.
-        clean = _topdog_clean_title(name_text)
-        key = _topdog_norm(clean)
-        url = link_map.get(key)
-        if not url and key:
-            # prefix-tolerant match (row/card titles may differ by trailing bits)
-            for ck, cv in link_map.items():
-                if ck and (key.startswith(ck) or ck.startswith(key)) \
-                        and abs(len(ck) - len(key)) <= 12:
-                    url = cv
-                    break
-        if not url:
+        # Link to the specific trial page. Top Dog's listing rows carry the
+        # per-event URL in a `data-href="/trials/<id>"` attribute on the <tr>
+        # (a Stimulus "cursor-pointer" click handler navigates using it) rather
+        # than an <a href>, which is why anchor-based harvesting found nothing.
+        # Read it straight off the row; fall back to the bare listing (handled
+        # downstream as the Top Dog fallback) only if it's absent.
+        data_href = tr.get("data-href", "")
+        if re.search(r"/trials/\d+", data_href):
+            url = data_href if data_href.startswith("http") \
+                else "https://www.topdogevents.com.au" + data_href
+        else:
             url = "https://www.topdogevents.com.au/trials"
         cancelled = bool(re.search(r"cancel", row_text, re.I))
 
