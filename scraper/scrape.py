@@ -283,6 +283,12 @@ _RE_STATUS_MAP = {
     "entry by ballot application only": "listed",
 }
 
+# Ready Entries per-event URL format. CONFIRMED against the live site: the
+# public per-event page is /view-event-group/<_id>, where <_id> is the Bubble
+# object _id we capture (e.g. .../view-event-group/1781001701749x417358568994897900).
+_RE_EVENT_URL_FMT = "https://readyentries.com/view-event-group/{id}"
+_RE_LISTING_URL = "https://readyentries.com/view-events"
+
 
 def _re_epoch_to_iso(v):
     """Ready Entries dates are epoch MILLISECONDS (e.g. 1784688076433). Convert
@@ -349,31 +355,36 @@ def parse_readyentries(source):
         cancelled = bool(r.get("event_group_cancelled__boolean"))
         closes = _re_epoch_to_iso(r.get("entries_close_date"))
 
-        # Per-event entry link. Ready Entries is a real entry platform, so a
-        # per-event URL would be a genuine entry link. NOTE: the exact public
-        # per-event URL format is NOT yet confirmed — /view-event?event=<id> is
-        # a plausible Bubble pattern but unverified. We set it provisionally;
-        # the first run's data lets us check whether these resolve. If they
-        # 404, drop to the generic view-events page instead (still an entry
-        # platform destination). TODO: confirm the real per-event URL.
+        # Per-event entry link. Ready Entries is a real entry platform, but the
+        # public per-event URL format is NOT confirmed: the guessed
+        # /view-event?event=<id> returns 404. Until we know the real format we
+        # point at the working /view-events listing (a valid entry-platform
+        # destination) rather than emit broken deep links. The events still
+        # carry their _id in `_re_id` so we can build real links later.
+        # TODO: set _RE_EVENT_URL_FMT once the real per-event URL is known.
         ev_id = r.get("_id") or r.get("id")
-        entry_url = None
-        if ev_id:
-            entry_url = f"https://readyentries.com/view-event?event={ev_id}"
+        per_event_url = None
+        if _RE_EVENT_URL_FMT and ev_id:
+            per_event_url = _RE_EVENT_URL_FMT.format(id=ev_id)
 
         ev = {
             "title": title,
             "start": start,
             "end": end,
             "location": location or (region or ""),
-            "url": entry_url or "https://readyentries.com/view-events",
+            # source reference; the listing page is where these events live
+            "url": per_event_url or _RE_LISTING_URL,
             "category": discipline,
             "region": region,
             "cancelled": cancelled,
             "color": REGION_COLOR.get(region),
         }
-        if entry_url:
-            ev["entry_url"] = entry_url
+        # Only attach an "Enter / details" link when we have a REAL per-event
+        # URL. The bare listing is not a specific entry link, so — consistent
+        # with how we treat governing-body listing pages — we don't put it
+        # behind "Enter / details". (Set _RE_EVENT_URL_FMT to enable links.)
+        if per_event_url:
+            ev["entry_url"] = per_event_url
         if closes:
             ev["closes"] = closes
         if status_key:
@@ -1509,7 +1520,7 @@ def _entry_link_rank(url):
         return 0
     if re.search(r"topdogevents\.com\.au/trials/\d+", url, re.I):
         return 0
-    if re.search(r"readyentries\.com/view-event\b", url, re.I):
+    if re.search(r"readyentries\.com/view-event-group/", url, re.I):
         return 0
     return 1  # some other specific deep link
 
