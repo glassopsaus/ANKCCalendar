@@ -115,7 +115,8 @@
     display:inline-flex; align-items:center; gap:5px; white-space:nowrap;}
   .tag.disc{background:var(--disc-bg,#eee); color:var(--disc,#333);}
   .tag.state{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:600;}
-  .tag.venue{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding-left:0; padding-right:4px;}
+  .tag.venue{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding:0; white-space:normal; font-size:12px; line-height:1.35; display:inline;}
+  .crow-venue{margin-top:-1px;}
   .tag.club{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:500;}
   .tag.loc{background:transparent; color:var(--ink-soft); padding-left:0; font-weight:500;}
   .tag.src{background:transparent;color:var(--ink-soft);border:1px dashed var(--hair);font-weight:500}
@@ -539,7 +540,8 @@ function cardHtml(e,f){
     <div class="body">
       <div class="crow crow-title"><p class="title">${escapeHtml(headline)}</p><span class="crow-r">${enter}${schedule}</span></div>
       <div class="crow crow-status"><span class="crow-l">${row2Left}</span><span class="crow-r crow-src">${srcTag}</span></div>
-      <div class="crow crow-club"><span class="crow-l">${clubTag}${discTag}</span><span class="crow-r">${venueTag}${stateTag}</span></div>
+      ${venueTag ? `<div class="crow crow-venue">${venueTag}</div>` : ""}
+      <div class="crow crow-club"><span class="crow-l">${clubTag}${discTag}</span><span class="crow-r">${stateTag}</span></div>
     </div>
   </article>`;
 }
