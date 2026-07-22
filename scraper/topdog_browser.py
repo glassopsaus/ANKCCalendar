@@ -21,6 +21,7 @@ If Playwright or the browser is unavailable, get_topdog_pages() returns None so
 the caller can fall back to the old plain-HTTP path without crashing.
 """
 
+import re
 import sys
 
 TRIALS_URL = "https://www.topdogevents.com.au/trials"
@@ -115,8 +116,13 @@ def _walk_section(page, section, pages_html, PWTimeout):
             break
         prev_signature = signature
         pages_html.append((section, html))
+        # Diagnostic: how many per-event /trials/<id> links are present in the
+        # captured HTML? This tells us whether per-event links are in the DOM at
+        # all (harvestable) or absent (injected later / require interaction).
+        _nlinks = len(re.findall(r"/trials/\d+", html))
         print(f"[topdog-browser] {section} p{page_num}: captured "
-              f"({len(signature)} rows)", file=sys.stderr)
+              f"({len(signature)} rows, {_nlinks} per-event links in HTML)",
+              file=sys.stderr)
 
 
 def _table_signature(html):
