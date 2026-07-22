@@ -177,6 +177,16 @@ def parse_sa_calendar(year):
     seen = set()
     cur_month = None
     cur_day = None
+    # The page has bare month names (no year) listing UPCOMING events in
+    # chronological order. Infer each event's real year: anchor the first month
+    # seen to the year that makes it upcoming (this year, or next year if that
+    # month has already passed), and roll the year forward whenever the month
+    # sequence wraps (e.g. Dec -> Jan). Then keep only events whose inferred
+    # year matches the requested build `year` — so the same upcoming list is
+    # NOT duplicated across 2025/2026/2027.
+    today = dt.date.today()
+    cur_year = None
+    prev_month = None
 
     # The calendar is a table; walk its rows in order. We find the table that
     # contains month names to avoid nav/layout tables.
@@ -201,6 +211,16 @@ def parse_sa_calendar(year):
         if first.lower() in _MONTHS:
             cur_month = _MONTHS[first.lower()]
             cur_day = None
+            # Infer the year for this month block.
+            if cur_year is None:
+                # First month seen: pick the year that makes it upcoming. If the
+                # month is >= this month, it's this year; if it's already passed
+                # this year, it must be next year.
+                cur_year = today.year if cur_month >= today.month else today.year + 1
+            elif prev_month is not None and cur_month < prev_month:
+                # Month sequence wrapped (e.g. Dec -> Jan): roll into next year.
+                cur_year += 1
+            prev_month = cur_month
             continue
         # Dated row: first cell like "25th (Saturday)".
         dm = _DATE_CELL_RE.match(first)
@@ -212,22 +232,28 @@ def parse_sa_calendar(year):
             if c and not _DATE_CELL_RE.match(c) and c.lower() not in _MONTHS:
                 desc = c
                 break
-        if not desc or cur_month is None or cur_day is None:
+        if not desc or cur_month is None or cur_day is None or cur_year is None:
             continue
 
         discipline = _classify(desc)
         if not discipline:
             continue  # conformation-only show or non-trial social item
 
+        # Only emit events for the requested build year — the upcoming-events
+        # page is a single current view, so without this guard the same events
+        # would be duplicated into every year the multi-year build requests.
+        if cur_year != year:
+            continue
+
         try:
-            start = dt.date(year, cur_month, cur_day).isoformat()
+            start = dt.date(cur_year, cur_month, cur_day).isoformat()
         except ValueError:
             continue
 
         club, venue = _split_club_discipline(desc)
         if not club:
             continue
-        closes = _parse_close(desc, year)
+        closes = _parse_close(desc, cur_year)
         cancelled = bool(re.search(r"cancel", desc, re.I))
 
         key = (club.lower(), start, discipline)
