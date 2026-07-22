@@ -132,16 +132,31 @@ def _walk_section(page, section, pages_html, PWTimeout):
                 _soup = _BS(html, "html.parser")
                 _a = None
                 for _cand in _soup.find_all("a", href=True):
-                    if re.search(r"/trials/\d+", _cand["href"]):
-                        _a = _cand
-                        break
+                    if not re.search(r"/trials/\d+", _cand["href"]):
+                        continue
+                    # Skip the "Running now" rail card — we want a LISTING link,
+                    # which uses a different structure and is what we must match.
+                    _anc = _cand
+                    _in_rail = False
+                    for _ in range(5):
+                        _anc = getattr(_anc, "parent", None)
+                        if _anc is None:
+                            break
+                        _cls = " ".join(_anc.get("class", [])) if hasattr(_anc, "get") else ""
+                        if "trial-rail" in _cls:
+                            _in_rail = True
+                            break
+                    if _in_rail:
+                        continue
+                    _a = _cand
+                    break
                 if _a is not None:
                     _ctx = _a
-                    for _ in range(3):
+                    for _ in range(4):
                         if _ctx.parent is not None:
                             _ctx = _ctx.parent
-                    snippet = str(_ctx)[:1200]
-                    print(f"[topdog-browser] SAMPLE LINK CONTEXT:\n{snippet}\n"
+                    snippet = str(_ctx)[:2000]
+                    print(f"[topdog-browser] SAMPLE LISTING LINK CONTEXT:\n{snippet}\n"
                           f"[topdog-browser] END SAMPLE", file=sys.stderr)
             except Exception as _e:
                 print(f"[topdog-browser] sample dump failed: {_e}",
