@@ -1949,6 +1949,28 @@ def build_year():
     _TITLE_STOP = {"trial", "trials", "test", "tests", "club", "dog", "dogs",
                    "obedience", "tracking", "track", "search", "scent",
                    "inc", "the", "of", "and", "open"}
+    # Discipline / state words that can survive tokenisation but do NOT identify
+    # a club. A single shared token that is one of these (e.g. two different
+    # clubs both running "Conformation" in "vic" on the same day) must NOT be
+    # treated as club identity. Used to gate the distinctive-single-token merge.
+    _NON_CLUB_TOKENS = {
+        # disciplines & discipline fragments
+        "agility", "jumping", "jumpers", "games", "rally", "conformation",
+        "endurance", "herding", "retrieving", "sprint", "sprintdog", "lure",
+        "coursing", "earthdog", "sledding", "sled", "weight", "pull", "dances",
+        "trick", "tricks", "dwd", "nosework", "scentwork", "work", "working",
+        "exterior", "interior", "container", "containers", "vehicle", "novice",
+        "excellent", "masters", "advanced", "community", "companion", "show",
+        "party", "subcommittee", "committee",
+        # state canonical tokens + full state names
+        "vic", "nsw", "qld", "wa", "sa", "tas", "nt", "act", "victoria",
+        "queensland", "tasmania", "australia", "australian",
+        # generic time/label/marketing noise
+        "twilight", "evening", "morning", "double", "triple", "annual",
+        "trial", "trials", "breed", "breeds", "allbreeds", "2026", "2025",
+        "fundraiser", "bbq", "ribbon", "easter", "christmas", "memorial",
+        "shield", "stakes", "ultimate", "spring", "summer", "autumn", "winter",
+    }
 
     def title_tokens(t):
         # Normalise state words first, then keep distinctive tokens. State words
@@ -2112,7 +2134,26 @@ def build_year():
                 k_club = club_id_tokens(k)
                 club_match = bool(e_club and k_club) and (
                     e_club <= k_club or k_club <= e_club)
+                # Distinctive shared-club-token match: same date+region+category
+                # is already a strong gate, so if the two events also share at
+                # least one DISTINCTIVE club token (a place/club name — not a
+                # discipline, state, or seasonal word), they're almost certainly
+                # the same trial described differently by two sources (e.g. Top
+                # Dog's "Ballaarat Dog Obedience Club - Triple Tricks" vs DV's
+                # "Ballaarat Dog Obedience Club Vic Inc" — shared {ballaarat}).
+                # GUARDS: (1) exclude _NON_CLUB_TOKENS so a shared discipline/
+                # state word can't trigger it; (2) require the pair to be
+                # CROSS-SOURCE (different source sets) — two events from the SAME
+                # source sharing one token are more likely genuinely distinct
+                # trials, whereas this fix targets linking an entry-platform
+                # event to its governing-body twin.
+                shared_club = (e_club & k_club) - _NON_CLUB_TOKENS
+                e_srcs = set(e.get("sources") or ([e["source"]] if e.get("source") else []))
+                k_srcs = set(k.get("sources") or ([k["source"]] if k.get("source") else []))
+                cross_source = bool(e_srcs) and bool(k_srcs) and not (e_srcs & k_srcs)
+                distinctive_token_match = len(shared_club) >= 1 and cross_source
                 if (overlap >= 2 or subset_ok or club_match
+                        or distinctive_token_match
                         or same_club_by_acronym(e["title"], k["title"])
                         or name_prefix_match(e["title"], k["title"])):
                     dup = True
