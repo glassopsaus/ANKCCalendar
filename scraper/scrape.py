@@ -1270,34 +1270,44 @@ _GENERIC_LINK_RES = (
     re.compile(r"dogsnsw\.org\.au/.*(calendar|events)/?$", re.I),
     re.compile(r"dogsqueensland\.org\.au/.*(calendar|events)/?$", re.I),
     re.compile(r"dogsact\.org\.au/?$", re.I),
+    # vicdog.com is a VIC listing/information site, not an entry platform —
+    # exclude ALL vicdog links (even real per-event pages) so "Enter / details"
+    # only ever points to a genuine entry platform (or the Top Dog listing
+    # fallback below). Per product decision: no vicdog links at all.
+    re.compile(r"vicdog\.com", re.I),
 )
 
 
 def _entry_link_rank(url):
     """Preference rank for a specific per-event link when several exist for one
     merged event. Lower = preferred. The "Enter / details" button should point
-    where you can actually ENTER, so entry PLATFORMS outrank information
-    listings: Show Manager / Top Dog (enter + pay) > vicdog.com event page
-    (VIC listing/details only) > any other specific deep link."""
+    where you can actually ENTER, so entry platforms (Show Manager, Top Dog
+    per-event) rank first, then any other specific deep link."""
     if not url:
         return 99
     if re.search(r"showmanager\.com\.au", url, re.I):
         return 0
     if re.search(r"topdogevents\.com\.au/trials/\d+", url, re.I):
         return 0
-    if re.search(r"vicdog\.com/events/", url, re.I):
-        return 2  # real per-event page, but a listing site, not an entry platform
-    return 1  # some other specific deep link — prefer over vicdog listing
+    return 1  # some other specific deep link
 
 
-def _best_entry_link(urls):
-    """Pick the most enter-able specific link from candidates (ignores generic
-    listing/calendar pages and Nones). Returns None if there is no specific
-    link at all."""
+# Top Dog's public trial LISTING (bare /trials). Not per-event, but Top Dog's
+# listing rows don't expose per-event URLs in their HTML, so for a Top Dog
+# event with no better link this is the only place a user can go to find and
+# enter the trial — better than a dead end. Used ONLY as a last resort.
+_TOPDOG_LISTING = "https://www.topdogevents.com.au/trials"
+
+
+def _best_entry_link(urls, is_topdog=False):
+    """Pick the most enter-able SPECIFIC per-event link from candidates
+    (ignores generic listing/calendar pages, vicdog, and Nones). If none exists
+    and the event is a Top Dog event, fall back to the Top Dog listing page so
+    open events still have somewhere to go. Otherwise returns None."""
     specific = [u for u in urls if _is_specific_event_link(u)]
-    if not specific:
-        return None
-    return sorted(specific, key=_entry_link_rank)[0]
+    if specific:
+        return sorted(specific, key=_entry_link_rank)[0]
+    return _TOPDOG_LISTING if is_topdog else None
 
 
 def _is_specific_event_link(url):
@@ -2030,15 +2040,17 @@ def build_year():
         closes_passed = _closes_passed(e2)
 
         # Entry link: the "Enter / details" button should point where you can
-        # actually ENTER, so we pick the most enter-able SPECIFIC per-event link
-        # across every source that merged into this event — entry platforms
-        # (Show Manager / Top Dog) rank above information listings (vicdog event
-        # pages), which in turn beat any generic listing/calendar page (never
-        # used). Candidates: a matcher-set entry_url, the pool gathered during
-        # merge, and the event's own url/entry_url.
+        # actually ENTER. Pick the most enter-able SPECIFIC per-event link
+        # across every source that merged into this event (Show Manager / Top
+        # Dog per-event pages). vicdog and generic calendar pages are never
+        # used. If the event is a Top Dog event with no specific link (Top Dog's
+        # listing rows don't expose per-event URLs), fall back to the Top Dog
+        # listing page so it still has somewhere to go.
+        is_topdog = any("Top Dog" in str(s) for s in srcs) or \
+            any("Top Dog" in str(s) for s in (e2.get("sources") or []))
         candidates = list(e2.get("_link_pool") or [])
         candidates += [e2.get("entry_url"), e2.get("url")]
-        e2["entry_url"] = _best_entry_link(candidates)  # None -> no Enter link
+        e2["entry_url"] = _best_entry_link(candidates, is_topdog=is_topdog)
         e2.pop("_link_pool", None)
 
         # ---- verified (real) ----
