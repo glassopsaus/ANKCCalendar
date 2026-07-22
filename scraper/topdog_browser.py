@@ -122,8 +122,30 @@ def _walk_section(page, section, pages_html, PWTimeout):
         # is carried some other way (e.g. a click handler's data-trial-id).
         _nlinks = len(re.findall(r"/trials/\d+", html))
         extra = ""
-        if page_num == 1:
-            # One-off structural probe on the first page of each section.
+        if page_num == 1 and section == "upcoming":
+            # One-off structural probe: dump the HTML context around the FIRST
+            # per-event link so we can see how the trial title relates to the
+            # link (which container, heading, siblings) and build matching that
+            # actually works — rather than inferring the structure.
+            try:
+                from bs4 import BeautifulSoup as _BS
+                _soup = _BS(html, "html.parser")
+                _a = None
+                for _cand in _soup.find_all("a", href=True):
+                    if re.search(r"/trials/\d+", _cand["href"]):
+                        _a = _cand
+                        break
+                if _a is not None:
+                    _ctx = _a
+                    for _ in range(3):
+                        if _ctx.parent is not None:
+                            _ctx = _ctx.parent
+                    snippet = str(_ctx)[:1200]
+                    print(f"[topdog-browser] SAMPLE LINK CONTEXT:\n{snippet}\n"
+                          f"[topdog-browser] END SAMPLE", file=sys.stderr)
+            except Exception as _e:
+                print(f"[topdog-browser] sample dump failed: {_e}",
+                      file=sys.stderr)
             data_attrs = re.findall(r'(data-[a-z0-9\-]*(?:id|trial|event)[a-z0-9\-]*)\s*=\s*"(\d+)"', html, re.I)
             has_json = bool(re.search(r'/trials\.json|/trials\?[^"]*format=json|"trials_url"', html, re.I))
             extra = (f"; data-id-attrs={len(data_attrs)}"
