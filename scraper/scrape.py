@@ -1052,9 +1052,48 @@ def _topdog_clean_title(raw):
     return title.strip(" -–—·")
 
 
+def _topdog_link_map(soup):
+    """Top Dog's listing TABLE ROWS don't carry per-event links, but the page
+    also renders a detail card per trial that DOES contain a /trials/<id> link
+    (e.g. "View trial →"). Build a map from a normalised trial title to that
+    per-event URL by scanning every /trials/<digits> anchor on the page and
+    associating it with the trial title text in its surrounding card."""
+    def norm(t):
+        return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+    link_map = {}
+    for a in soup.find_all("a", href=True):
+        m = re.search(r"/trials/(\d+)", a["href"])
+        if not m:
+            continue
+        href = a["href"]
+        if href.startswith("/"):
+            href = "https://www.topdogevents.com.au" + href
+        # The trial title is the most prominent text in the anchor's card.
+        # Walk up a few ancestors to find a container, then take its heading
+        # text (bold/strong/hN) as the title key.
+        container = a
+        title_text = ""
+        for _ in range(4):
+            container = getattr(container, "parent", None)
+            if container is None:
+                break
+            head = container.find(["strong", "b", "h1", "h2", "h3", "h4", "h5"])
+            if head and head.get_text(strip=True):
+                title_text = head.get_text(" ", strip=True)
+                break
+        if title_text:
+            link_map.setdefault(norm(title_text), href)
+    return link_map
+
+
 def _topdog_parse_rows(soup, year):
     """Yield event dicts from every qualifying table row on one page."""
     out = []
+    link_map = _topdog_link_map(soup)
+
+    def _norm_title(t):
+        return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
+
     for tr in soup.select("tr"):
         cells = tr.find_all(["td", "th"])
         if len(cells) < 3:
@@ -1079,28 +1118,41 @@ def _topdog_parse_rows(soup, year):
         if not start or dt.date.fromisoformat(start).year != year:
             continue
 
-        # Link to the specific trial page. Top Dog per-event pages have URLs of
-        # the form /trials/<id> (e.g. /trials/664). The anchor isn't reliably in
-        # the name cell — the row may link from any cell or wrap the whole row —
-        # so search the ENTIRE row for the first href matching that pattern, and
-        # only fall back to the bare listing page if none is found.
+        # Link to the specific trial page. Top Dog per-event pages are
+        # /trials/<id>, but the TABLE ROWS don't carry them — the links live in
+        # the page's per-trial detail cards. First try the title->link map
+        # harvested from those cards; then any /trials/<id> anchor inside the
+        # row; and only fall back to the bare listing page if neither is found.
         url = "https://www.topdogevents.com.au/trials"
-        row_el = tr if hasattr(tr, "find_all") else None
-        best_href = None
-        anchors = (row_el.find_all("a", href=True) if row_el
-                   else [a for c in cells if hasattr(c, "find_all")
-                         for a in c.find_all("a", href=True)])
-        for a in anchors:
-            href = a["href"]
-            if re.search(r"/trials/\d+", href):
-                best_href = href
-                break
-            # remember a first non-listing link as a weaker fallback
-            if best_href is None and href not in (
-                    "/trials", "https://www.topdogevents.com.au/trials"):
-                best_href = href
-        if best_href:
-            url = best_href
+        clean_name = _topdog_clean_title(name_text)
+        key = _norm_title(clean_name)
+        mapped = link_map.get(key)
+        if not mapped and key:
+            # The row title may carry trailing status/discipline words the card
+            # title lacks; match when the card key is a prefix of the row key
+            # (or vice versa), which is a strong same-trial signal.
+            for ck, cv in link_map.items():
+                if ck and (key.startswith(ck) or ck.startswith(key)):
+                    mapped = cv
+                    break
+        if mapped:
+            url = mapped
+        else:
+            row_el = tr if hasattr(tr, "find_all") else None
+            best_href = None
+            anchors = (row_el.find_all("a", href=True) if row_el
+                       else [a for c in cells if hasattr(c, "find_all")
+                             for a in c.find_all("a", href=True)])
+            for a in anchors:
+                href = a["href"]
+                if re.search(r"/trials/\d+", href):
+                    best_href = href
+                    break
+                if best_href is None and href not in (
+                        "/trials", "https://www.topdogevents.com.au/trials"):
+                    best_href = href
+            if best_href:
+                url = best_href
         if url.startswith("/"):
             url = "https://www.topdogevents.com.au" + url
 
