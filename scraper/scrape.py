@@ -1266,6 +1266,10 @@ _GENERIC_LINK_RES = (
     re.compile(r"dogsvictoria\.org\.au/events/shows-and-trials-calendar", re.I),
     re.compile(r"vicdog\.com/events-?page", re.I),
     re.compile(r"dogsvictoria\.org\.au/events/?$", re.I),
+    re.compile(r"dogswest\.com/.*(Yearly_Show_Date_Calendars|Calendar)", re.I),
+    re.compile(r"dogsnsw\.org\.au/.*(calendar|events)/?$", re.I),
+    re.compile(r"dogsqueensland\.org\.au/.*(calendar|events)/?$", re.I),
+    re.compile(r"dogsact\.org\.au/?$", re.I),
 )
 
 
