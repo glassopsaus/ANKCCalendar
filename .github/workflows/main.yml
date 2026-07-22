@@ -1,4 +1,4 @@
-name: Update ankc calendar
+name: Update tracking calendar
 
 on:
   schedule:
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name  "tracking-calendar-bot"
           git config user.email "actions@github.com"
-          git add docs/events.json docs/events-*.json docs/years.json
+          git add docs/events.json docs/events-*.json docs/years.json scraper/pdf_url_cache.json
           if git diff --staged --quiet; then
             echo "No changes."
           else
