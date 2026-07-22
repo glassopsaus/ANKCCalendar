@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T00:16:55+00:00",
+  "generated": "2026-07-22T00:43:33+00:00",
   "year": 2025,
   "count": 1624,
   "sources": [
@@ -83,6 +83,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -105,6 +106,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -127,6 +129,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -149,6 +152,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -171,6 +175,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -218,6 +223,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Advisory Committee - South Australia"
@@ -240,6 +246,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -262,6 +269,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -284,6 +292,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Scent Work Advisory Committee"
@@ -306,6 +315,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -328,6 +338,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -350,6 +361,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -372,6 +384,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Cloverdale Canine Companions Inc"
@@ -394,6 +407,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -416,6 +430,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Midland Dog Training Club"
@@ -438,6 +453,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Folk"
@@ -460,6 +476,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Albany All Breeds Dog Club"
@@ -482,6 +499,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -504,6 +522,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -526,6 +545,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Association Of WA (Inc)"
@@ -548,6 +568,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -570,6 +591,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Precision Agility Academy"
@@ -592,6 +614,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Classic Weekend Dances With Dogs Obedience Rally"
@@ -614,6 +637,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Ballaarat Dog Obedience Club"
@@ -636,6 +660,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -658,6 +683,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Cessnock Dog Club"
@@ -680,6 +706,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs NSW Agility Committee"
@@ -702,6 +729,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Scent Work Advisory Committee"
@@ -724,6 +752,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Classic Working Party"
@@ -746,6 +775,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -768,6 +798,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -790,6 +821,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Cloverdale Canine Companions Inc"
@@ -812,6 +844,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Shoalhaven Dog Training Club"
@@ -859,6 +892,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -881,6 +915,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Lagotto Romagnolo Club of Victoria"
@@ -903,6 +938,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Melbourne & District Dances with Dogs club"
@@ -925,6 +961,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -947,6 +984,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Coffs Harbour Dog Training Club Inc."
@@ -969,6 +1007,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "DWD Club of WA Inc"
@@ -991,6 +1030,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Bunbury & Districts Dog Club (Inc.)"
@@ -1013,6 +1053,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Bunbury & Districts Dog Club (Inc.)"
@@ -1035,6 +1076,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -1057,6 +1099,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Brisbane Dog Training Club"
@@ -1079,6 +1122,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Denison Dog Training Club INC"
@@ -1101,6 +1145,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club Inc"
@@ -1123,6 +1168,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Border Collie Club of Victoria"
@@ -1145,6 +1191,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West State Championship Retrieving Trial Working Party"
@@ -1167,6 +1214,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -1189,6 +1237,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -1211,6 +1260,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -1233,6 +1283,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club of NSW Inc."
@@ -1255,6 +1306,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -1277,6 +1329,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Newcastle All Breeds Dog Training Club"
@@ -1299,6 +1352,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -1346,6 +1400,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -1368,6 +1423,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -1390,6 +1446,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -1412,6 +1469,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -1434,6 +1492,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Belconnen Dog Obedience Club"
@@ -1456,6 +1515,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Glenreagh Dog Sports INC"
@@ -1501,6 +1561,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gold Coast DOTC"
@@ -1523,6 +1584,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -1545,6 +1607,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Cloverdale Canine Companions Inc"
@@ -1566,6 +1629,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Derwent Kennel Club \u2013 Conformation"
@@ -1587,6 +1651,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tasmania \u2013 Retrieving"
@@ -1609,6 +1674,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Kyeamba Kennel and Training Club Inc"
@@ -1656,6 +1722,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -1678,6 +1745,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West State Championship Retrieving Trial Working Party"
@@ -1699,6 +1767,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn Tasmania \u2013 Herding"
@@ -1721,6 +1790,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gippsland Obedience Dog Club"
@@ -1742,6 +1812,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tasmania \u2013 Retrieving"
@@ -1764,6 +1835,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Bunbury & Districts Dog Club (Inc.)"
@@ -1786,6 +1858,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -1808,6 +1881,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Wollongong Dog Sports Club Inc."
@@ -1830,6 +1904,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club of SA"
@@ -1852,6 +1927,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Belconnen Dog Obedience Club"
@@ -1874,6 +1950,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Advisory Committee - South Australia"
@@ -1920,6 +1997,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Action Dogs Victoria"
@@ -1942,6 +2020,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Advisory Committee - South Australia"
@@ -1964,6 +2043,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West DWD Working Party"
@@ -1985,6 +2065,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Gundog Trial Assn \u2013 Retrieving"
@@ -2006,6 +2087,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Westbury"
@@ -2052,6 +2134,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -2074,6 +2157,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Advisory Committee - South Australia"
@@ -2095,6 +2179,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Gundog Trial Assn \u2013 Retrieving"
@@ -2117,6 +2202,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -2139,6 +2225,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club Inc"
@@ -2161,6 +2248,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -2182,6 +2270,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Huon & Channel Kennel Club \u2013 Conformation"
@@ -2204,6 +2293,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Labrador Club of WA"
@@ -2226,6 +2316,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -2272,6 +2363,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -2294,6 +2386,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -2316,6 +2409,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -2338,6 +2432,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of S.A. Inc"
@@ -2360,6 +2455,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ANRTWP"
@@ -2381,6 +2477,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Combined Breeds Dog Club \u2013 Conformation"
@@ -2403,6 +2500,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Association Of WA (Inc)"
@@ -2425,6 +2523,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -2447,6 +2546,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -2469,6 +2569,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -2490,6 +2591,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -2512,6 +2614,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gawler Dog Training Club Inc."
@@ -2534,6 +2637,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -2555,6 +2659,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -2577,6 +2682,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Scent Work Advisory Committee"
@@ -2599,6 +2705,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -2621,6 +2728,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW Scent Work Working Party"
@@ -2643,6 +2751,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -2665,6 +2774,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -2687,6 +2797,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -2732,6 +2843,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Perth Training & Obedience Dog Club"
@@ -2754,6 +2866,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of S.A. Inc"
@@ -2776,6 +2889,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Shoalhaven Dog Training Club"
@@ -2798,6 +2912,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -2820,6 +2935,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -2841,6 +2957,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn of Tasmania \u2013 Earthdog"
@@ -2862,6 +2979,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
@@ -2884,6 +3002,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -2906,6 +3025,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -2928,6 +3048,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -2950,6 +3071,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -2972,6 +3094,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Hawkesbury District Agricultural Association Agility Trial"
@@ -2994,6 +3117,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -3016,6 +3140,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "The ACT Gundog Society"
@@ -3038,6 +3163,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ANRTWP"
@@ -3060,6 +3186,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Cessnock Dog Club"
@@ -3082,6 +3209,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Midland Dog Training Club"
@@ -3104,6 +3232,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Frankston Dog Obedience Club"
@@ -3126,6 +3255,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Scent Work Advisory Committee"
@@ -3147,6 +3277,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -3168,6 +3299,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Gundog Trial Assn \u2013 Retrieving"
@@ -3189,6 +3321,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Working Dog Club of Tas \u2013 Conformation"
@@ -3211,6 +3344,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of WA Inc"
@@ -3233,6 +3367,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gawler Dog Training Club Inc."
@@ -3254,6 +3389,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc \u2013 Rally Obedience"
@@ -3275,6 +3411,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Gundog Trial Assn \u2013 Retrieving"
@@ -3296,6 +3433,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Welsh Corgi Club of Tasmania \u2013 Herding"
@@ -3318,6 +3456,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Wollongong Dog Sports Club Inc."
@@ -3387,6 +3526,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Kennel Club of Tas \u2013 Conformation"
@@ -3409,6 +3549,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Northern Suburbs Training and Obedience Dog Club (Inc.)"
@@ -3431,6 +3572,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Port Macquarie Dog Club"
@@ -3452,6 +3594,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "TCA Inc Tassie Cup \u2013 Retrieving"
@@ -3474,6 +3617,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -3496,6 +3640,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Agility Group"
@@ -3518,6 +3663,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Rockingham Dog Club Inc"
@@ -3539,6 +3685,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Club of Tas \u2013 Conformation"
@@ -3560,6 +3707,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
@@ -3582,6 +3730,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Labrador Club of WA"
@@ -3604,6 +3753,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Earthdog Advisory Committee"
@@ -3625,6 +3775,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
@@ -3647,6 +3798,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -3669,6 +3821,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Border Collie Club of Victoria"
@@ -3690,6 +3843,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club \u2013 Conformation"
@@ -3712,6 +3866,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "DWD Club of WA Inc"
@@ -3734,6 +3889,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club of SA"
@@ -3756,6 +3912,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs NSW Agility Committee"
@@ -3778,6 +3935,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -3800,6 +3958,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -3822,6 +3981,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Bunbury & Districts Dog Club (Inc.)"
@@ -3844,6 +4004,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Golden Retriever Club of WA (Inc)"
@@ -3866,6 +4027,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -3888,6 +4050,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -3910,6 +4073,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ANRTWP"
@@ -3932,6 +4096,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -3953,6 +4118,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Combined Breeds Dog Club \u2013 Conformation"
@@ -3975,6 +4141,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West Agility Working Party"
@@ -3996,6 +4163,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Gundog Trial Assn \u2013 Retrieving"
@@ -4018,6 +4186,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ANRTWP"
@@ -4039,6 +4208,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Gundog Trial Assn \u2013 Retrieving"
@@ -4061,6 +4231,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Agility Group"
@@ -4083,6 +4254,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -4105,6 +4277,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -4127,6 +4300,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -4149,6 +4323,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club of NSW Inc."
@@ -4171,6 +4346,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -4192,6 +4368,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Association of Tas \u2013 Herding"
@@ -4214,6 +4391,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Agility Advisory Committee"
@@ -4235,6 +4413,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tas \u2013 Retrieving"
@@ -4256,6 +4435,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -4277,6 +4457,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tasmanian Kennel Club Inc \u2013 Conformation"
@@ -4299,6 +4480,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -4321,6 +4503,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Agility Group"
@@ -4343,6 +4526,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Brisbane Dog Training Club"
@@ -4365,6 +4549,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of WA Inc"
@@ -4386,6 +4571,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tas \u2013 Retrieving"
@@ -4408,6 +4594,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -4429,6 +4616,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -4450,6 +4638,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tasmanian Kennel Club Inc \u2013 Conformation"
@@ -4472,6 +4661,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Terrier Club of South Australia Inc."
@@ -4493,6 +4683,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tas \u2013 Retrieving"
@@ -4515,6 +4706,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Obedience Dog Training Club"
@@ -4536,6 +4728,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -4558,6 +4751,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Border Collie Club of NSW Inc"
@@ -4580,6 +4774,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Glenreagh Dog Sports INC"
@@ -4602,6 +4797,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Kyeamba Kennel and Training Club Inc"
@@ -4624,6 +4820,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Midland Dog Training Club"
@@ -4646,6 +4843,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
@@ -4668,6 +4866,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -4689,6 +4888,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -4711,6 +4911,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Sutherland Shire Dog Training Club"
@@ -4733,6 +4934,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -4755,6 +4957,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -4777,6 +4980,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -4799,6 +5003,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -4821,6 +5026,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -4842,6 +5048,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -4863,6 +5070,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Golden Retriever Club \u2013 Retrieving"
@@ -4885,6 +5093,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -4907,6 +5116,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Scent Work Advisory Committee"
@@ -4929,6 +5139,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of WA Inc"
@@ -4951,6 +5162,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Hawkesbury Dog Agility Club"
@@ -4973,6 +5185,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -4994,6 +5207,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Utility & Non Sporting Dog Club \u2013 Conformation"
@@ -5016,6 +5230,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Scent Work Advisory Committee"
@@ -5038,6 +5253,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club"
@@ -5060,6 +5276,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "open_now": false,
       "is_past": true,
       "club": "Wollongong Dog Sports Club"
@@ -5082,6 +5299,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club Inc"
@@ -5104,6 +5322,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Queensland Dog Sports - Agility Sub-Committee"
@@ -5126,6 +5345,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "The German Shorthaired Pointer Club of WA"
@@ -5148,6 +5368,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
@@ -5171,6 +5392,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "ULVERSTONE KENNEL CLUB Inc"
@@ -5192,6 +5414,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Southern Midlands Kennel Club \u2013 Conformation"
@@ -5214,6 +5437,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -5236,6 +5460,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Central Coast Dog Obedience Training Club"
@@ -5283,6 +5508,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -5304,6 +5530,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club"
@@ -5326,6 +5553,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -5348,6 +5576,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -5370,6 +5599,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West Scent Work State Trial Working Party"
@@ -5392,6 +5622,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -5414,6 +5645,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs NSW Agility Committee"
@@ -5436,6 +5668,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Cloverdale Canine Companions Inc"
@@ -5457,6 +5690,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tas"
@@ -5479,6 +5713,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ANRTWP"
@@ -5501,6 +5736,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ANRTWP"
@@ -5523,6 +5759,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ANRTWP"
@@ -5545,6 +5782,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Brisbane Dog Training Club"
@@ -5567,6 +5805,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Cessnock Dog Club"
@@ -5588,6 +5827,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tas"
@@ -5609,6 +5849,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tas"
@@ -5631,6 +5872,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Glenreagh Dog Sports INC"
@@ -5653,6 +5895,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Melbourne & District Dances with Dogs club"
@@ -5675,6 +5918,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -5697,6 +5941,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -5719,6 +5964,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gold Coast DOTC"
@@ -5740,6 +5986,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Club Inc \u2013 Conformation"
@@ -5786,6 +6033,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Melbourne & District Dances with Dogs club"
@@ -5808,6 +6056,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "DWD Club of WA Inc"
@@ -5854,6 +6103,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Melbourne & District Dances with Dogs club"
@@ -5876,6 +6126,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -5898,6 +6149,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Terrier Club of South Australia Inc."
@@ -5920,6 +6172,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -5942,6 +6195,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Coffs Harbour Dog Training Club Inc."
@@ -5964,6 +6218,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Geraldton & Districts Kennel Club Inc"
@@ -5986,6 +6241,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of WA Inc"
@@ -6008,6 +6264,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -6030,6 +6287,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -6051,6 +6309,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club Inc"
@@ -6072,6 +6331,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn"
@@ -6094,6 +6354,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of WA Inc"
@@ -6115,6 +6376,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club Inc"
@@ -6136,6 +6398,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club Inc"
@@ -6158,6 +6421,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -6180,6 +6444,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -6201,6 +6466,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Derwent Kennel Club \u2013 Conformation"
@@ -6223,6 +6489,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Association Of WA (Inc)"
@@ -6245,6 +6512,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -6266,6 +6534,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tasmania \u2013 Conformation"
@@ -6287,6 +6556,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tasmania \u2013 Retrieving"
@@ -6309,6 +6579,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club of SA"
@@ -6356,6 +6627,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -6378,6 +6650,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -6399,6 +6672,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tasmania \u2013 Retrieving"
@@ -6421,6 +6695,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -6443,6 +6718,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -6465,6 +6741,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -6487,6 +6764,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -6509,6 +6787,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -6531,6 +6810,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Perth Training & Obedience Dog Club"
@@ -6553,6 +6833,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ANRTWP"
@@ -6574,6 +6855,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "All Breeds Kennel Assn Inc \u2013 Conformation"
@@ -6596,6 +6878,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -6617,6 +6900,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tasmania"
@@ -6663,6 +6947,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Shoalhaven Dog Training Club"
@@ -6684,6 +6969,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -6705,6 +6991,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Gundog Trial Assn \u2013 Retrieving"
@@ -6727,6 +7014,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -6749,6 +7037,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Golden Retriever Club of South Australia Inc"
@@ -6770,6 +7059,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tasmania"
@@ -6815,6 +7105,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -6836,6 +7127,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Gundog Trial Assn \u2013 Retrieving"
@@ -6858,6 +7150,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Earthdog Advisory Committee"
@@ -6880,6 +7173,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -6902,6 +7196,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -6924,6 +7219,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -6946,6 +7242,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Golden Retriever Club of WA (Inc)"
@@ -6968,6 +7265,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -6990,6 +7288,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Parkes and District Kennel Club"
@@ -7013,6 +7312,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "ULVERSTONE KENNEL CLUB Inc"
@@ -7035,6 +7335,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -7056,6 +7357,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Pontville"
@@ -7078,6 +7380,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -7100,6 +7403,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -7122,6 +7426,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -7144,6 +7449,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Labrador Club of WA"
@@ -7190,6 +7496,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Border Collie Club of NSW Inc"
@@ -7212,6 +7519,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -7233,6 +7541,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club Of Tas"
@@ -7255,6 +7564,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -7277,6 +7587,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -7299,6 +7610,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Midland Dog Training Club"
@@ -7321,6 +7633,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Newcastle All Breeds Dog Training Club"
@@ -7342,6 +7655,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -7364,6 +7678,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -7385,6 +7700,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club \u2013 Conformation"
@@ -7406,6 +7722,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Ass of Tas \u2013 Herding"
@@ -7428,6 +7745,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dobermann Club of Victoria"
@@ -7449,6 +7767,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tas"
@@ -7471,6 +7790,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Earthdog Advisory Committee"
@@ -7492,6 +7812,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club \u2013 Rally Obedience"
@@ -7514,6 +7835,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Labrador Club of WA"
@@ -7536,6 +7858,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Belconnen Dog Obedience Club"
@@ -7558,6 +7881,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club Inc"
@@ -7580,6 +7904,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -7602,6 +7927,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -7624,6 +7950,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of S.A. Inc"
@@ -7646,6 +7973,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West State Championship Retrieving Trial Working Party"
@@ -7668,6 +7996,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dog Chewition"
@@ -7689,6 +8018,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Eastern Shore Dog Club"
@@ -7735,6 +8065,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hound Club of Tasmania \u2013 Conformation"
@@ -7757,6 +8088,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "West Coast Dog Sports"
@@ -7779,6 +8111,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -7801,6 +8134,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "The German Shorthaired Pointer Club of WA"
@@ -7823,6 +8157,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West Agility Working Party"
@@ -7844,6 +8179,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Eastern Shore Dog Club"
@@ -7866,6 +8202,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Frankston Dog Obedience Club"
@@ -7888,6 +8225,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -7910,6 +8248,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Kyeamba Kennel and Training Club Inc"
@@ -7932,6 +8271,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gold Coast DOTC"
@@ -7954,6 +8294,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
@@ -7976,6 +8317,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Geraldton & Districts Kennel Club Inc"
@@ -7998,6 +8340,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -8020,6 +8363,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -8042,6 +8386,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -8063,6 +8408,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tassie Flying Paws Dog Club \u2013 Rally Obedience"
@@ -8085,6 +8431,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -8107,6 +8454,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "West Coast Dog Sports"
@@ -8129,6 +8477,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs NSW Agility Committee"
@@ -8151,6 +8500,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Advisory Committee - South Australia"
@@ -8172,6 +8522,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tassie Flying Paws Dog Club"
@@ -8194,6 +8545,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -8216,6 +8568,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -8238,6 +8591,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs NSW Agility Committee"
@@ -8260,6 +8614,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -8282,6 +8637,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -8303,6 +8659,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Brighton Kennel Club Inc \u2013 Conformation"
@@ -8325,6 +8682,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -8347,6 +8705,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Frankston Dog Obedience Club"
@@ -8393,6 +8752,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
@@ -8415,6 +8775,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -8437,6 +8798,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -8458,6 +8820,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Sporting Terrier Club of Tasmania \u2013 Conformation"
@@ -8479,6 +8842,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -8501,6 +8865,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -8547,6 +8912,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -8568,6 +8934,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -8590,6 +8957,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -8612,6 +8980,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Scent Work Advisory Committee"
@@ -8634,6 +9003,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -8656,6 +9026,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Belconnen Dog Obedience Club"
@@ -8677,6 +9048,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn"
@@ -8698,6 +9070,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Cradle Coast Kennel Club \u2013 Conformation"
@@ -8720,6 +9093,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West Agility Working Party"
@@ -8742,6 +9116,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Kyeamba Kennel and Training Club Inc"
@@ -8764,6 +9139,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Manly & District Kennel & Dog Training Club Inc"
@@ -8786,6 +9162,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "North East Tracking and Scent Club"
@@ -8808,6 +9185,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -8830,6 +9208,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -8851,6 +9230,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -8873,6 +9253,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -8895,6 +9276,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -8917,6 +9299,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "The German Shorthaired Pointer Club of WA"
@@ -8938,6 +9321,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Ass of Tas \u2013 Herding"
@@ -8959,6 +9343,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn"
@@ -8980,6 +9365,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Cradle Coast Kennel Club \u2013 Conformation"
@@ -9002,6 +9388,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Melbourne & District Dances with Dogs club"
@@ -9024,6 +9411,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Shetland Sheepdog Club of WA"
@@ -9046,6 +9434,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Nova Scotia Duck Tolling Retriever Club of Victoria"
@@ -9067,6 +9456,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -9089,6 +9479,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Canine Obedience Club of Townsville Inc"
@@ -9111,6 +9502,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -9133,6 +9525,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "DWD Club of WA Inc"
@@ -9154,6 +9547,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Cavalier King Charles Spaniel Club \u2013 Conformation"
@@ -9176,6 +9570,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Cloverdale Canine Companions Inc"
@@ -9198,6 +9593,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Warragul & District Kennel & Obedience Club"
@@ -9219,6 +9615,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Club of Tas \u2013 Conformation"
@@ -9241,6 +9638,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Wollongong Dog Sports Club Inc."
@@ -9310,6 +9708,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -9332,6 +9731,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club of SA"
@@ -9354,6 +9754,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Advanced Tracking Club of WA (Inc)"
@@ -9376,6 +9777,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Bunbury & Districts Dog Club (Inc.)"
@@ -9398,6 +9800,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club Queensland"
@@ -9420,6 +9823,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club Queensland"
@@ -9442,6 +9846,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gawler Dog Training Club Inc."
@@ -9463,6 +9868,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Club of Tas \u2013 Conformation"
@@ -9485,6 +9891,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gippsland Obedience Dog Club"
@@ -9506,6 +9913,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Canine Obedience Clb Inc"
@@ -9552,6 +9960,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -9574,6 +9983,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -9596,6 +10006,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Glenreagh Dog Sports INC"
@@ -9618,6 +10029,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gold Coast DOTC"
@@ -9640,6 +10052,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club Inc"
@@ -9687,6 +10100,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Royal Agricultural Society of WA"
@@ -9708,6 +10122,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Quercus Park"
@@ -9729,6 +10144,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Eastern Shore Dog Club of Tas"
@@ -9751,6 +10167,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club Inc"
@@ -9773,6 +10190,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -9818,6 +10236,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Eastern Shore Dog Club of Tas \u2013 Rally Obedience"
@@ -9840,6 +10259,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -9861,6 +10281,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club"
@@ -9882,6 +10303,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club"
@@ -9904,6 +10326,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gawler Dog Training Club Inc."
@@ -9925,6 +10348,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn \u2013 Earthdog"
@@ -9947,6 +10371,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club Inc"
@@ -9969,6 +10394,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -10016,6 +10442,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -10037,6 +10464,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club"
@@ -10058,6 +10486,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club"
@@ -10080,6 +10509,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "West Coast Dog Sports"
@@ -10102,6 +10532,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gawler Dog Training Club Inc."
@@ -10123,6 +10554,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn Of Tas \u2013 Herding"
@@ -10144,6 +10576,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club"
@@ -10165,6 +10598,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club"
@@ -10187,6 +10621,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "West Coast Dog Sports"
@@ -10209,6 +10644,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -10231,6 +10667,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -10252,6 +10689,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club"
@@ -10274,6 +10712,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -10296,6 +10735,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -10318,6 +10758,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -10340,6 +10781,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -10361,6 +10803,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "RNAPS \u2013 Conformation"
@@ -10383,6 +10826,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -10404,6 +10848,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of Tasmania \u2013 Conformation"
@@ -10426,6 +10871,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs Victoria Scent Work Committee"
@@ -10447,6 +10893,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn \u2013 Herding"
@@ -10493,6 +10940,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
@@ -10515,6 +10963,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "DogsWest State Obedience, Rally Working Party"
@@ -10536,6 +10985,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club"
@@ -10558,6 +11008,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -10580,6 +11031,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dover Gardens Kennel & Obedience Club Inc"
@@ -10625,6 +11077,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club \u2013 Rally Obedience"
@@ -10646,6 +11099,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tasmanian Kennel Club \u2013 Conformation"
@@ -10668,6 +11122,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Club of WA"
@@ -10690,6 +11145,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Wollongong Dog Sports Club Inc."
@@ -10712,6 +11168,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -10734,6 +11191,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "The Pointer Club of South Australia Inc"
@@ -10756,6 +11214,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Brisbane Dog Training Club"
@@ -10778,6 +11237,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Coffs Harbour Dog Training Club Inc."
@@ -10799,6 +11259,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
@@ -10820,6 +11281,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Longford Ag Society \u2013 Conformation"
@@ -10842,6 +11304,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Canine Obedience Club of Townsville Inc"
@@ -10864,6 +11327,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -10886,6 +11350,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Precision Agility Academy"
@@ -10908,6 +11373,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Port Macquarie Dog Club"
@@ -10954,6 +11420,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "TrackWest Dog Club (Inc)"
@@ -10976,6 +11443,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Association Of WA (Inc)"
@@ -10998,6 +11466,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
@@ -11019,6 +11488,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
@@ -11041,6 +11511,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -11086,6 +11557,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Ladies Kennel Club \u2013 Conformation"
@@ -11107,6 +11579,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Regatta Ground"
@@ -11129,6 +11602,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -11151,6 +11625,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -11173,6 +11648,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club of NSW Inc."
@@ -11195,6 +11671,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -11217,6 +11694,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -11262,6 +11740,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club"
@@ -11283,6 +11762,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Border Collie Club of Tasmania \u2013 Conformation"
@@ -11305,6 +11785,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club Queensland"
@@ -11327,6 +11808,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club Queensland"
@@ -11349,6 +11831,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Rockingham Dog Club Inc"
@@ -11394,6 +11877,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club"
@@ -11416,6 +11900,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -11438,6 +11923,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -11460,6 +11946,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -11482,6 +11969,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Berwick Obedience Dog Club Inc."
@@ -11504,6 +11992,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Manly & District Kennel & Dog Training Club Inc"
@@ -11526,6 +12015,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Retrieving Club of W.A."
@@ -11547,6 +12037,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club \u2013 Conformation"
@@ -11593,6 +12084,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -11615,6 +12107,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -11637,6 +12130,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -11659,6 +12153,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACT Companion Dog Club"
@@ -11681,6 +12176,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -11703,6 +12199,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Warrnambool & District Kennel & Obedience Dog Club Inc"
@@ -11725,6 +12222,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -11747,6 +12245,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Deer Bush Dog Training Club Inc."
@@ -11768,6 +12267,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
@@ -11790,6 +12290,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West DWD Working Party"
@@ -11812,6 +12313,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -11834,6 +12336,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Warrnambool & District Kennel & Obedience Dog Club Inc"
@@ -11855,6 +12358,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Westbury Ag Society \u2013 Conformation"
@@ -11877,6 +12381,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -11898,6 +12403,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
@@ -11920,6 +12426,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -11942,6 +12449,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs West Agility Working Party"
@@ -11963,6 +12471,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Welsh Corgi Club of Tasmania \u2013 Herding"
@@ -11984,6 +12493,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Assn of Tas \u2013 Herding"
@@ -12006,6 +12516,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -12028,6 +12539,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Noarlunga City Obedience Dog Club Inc"
@@ -12050,6 +12562,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Dog Club of NSW Inc."
@@ -12071,6 +12584,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Huon & Channel Kennel Club \u2013 Conformation"
@@ -12093,6 +12607,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Kyeamba Kennel and Training Club Inc"
@@ -12115,6 +12630,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Agility Group"
@@ -12137,6 +12653,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -12159,6 +12676,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Old English Sheepdog Club NSW"
@@ -12181,6 +12699,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -12203,6 +12722,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Belconnen Dog Obedience Club"
@@ -12225,6 +12745,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
@@ -12247,6 +12768,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Albany All Breeds Dog Club"
@@ -12268,6 +12790,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Eastern Shore Dog Club of Tas"
@@ -12290,6 +12813,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of S.A. Inc"
@@ -12312,6 +12836,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Hastings & District Obedience Dog Club"
@@ -12334,6 +12859,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -12355,6 +12881,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Quercus Park"
@@ -12376,6 +12903,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Eastern Shore Dog Club of Tas"
@@ -12398,6 +12926,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -12420,6 +12949,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -12442,6 +12972,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -12464,6 +12995,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Stellar Dogs Training and Education"
@@ -12486,6 +13018,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "The Pointer Club of South Australia Inc"
@@ -12508,6 +13041,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "West Coast Dog Sports"
@@ -12530,6 +13064,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Labrador Retriever Club of Victoria"
@@ -12552,6 +13087,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "K9 Scent Club Inc"
@@ -12574,6 +13110,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -12595,6 +13132,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -12616,6 +13154,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Tas Dog Training Club Inc"
@@ -12638,6 +13177,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -12660,6 +13200,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "West Coast Dog Sports"
@@ -12682,6 +13223,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CASSA Events"
@@ -12704,6 +13246,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "DWD Club of WA Inc"
@@ -12726,6 +13269,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Hawkesbury Dog Agility Club"
@@ -12748,6 +13292,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs SA Scent Work Advisory Committee"
@@ -12769,6 +13314,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "Ulverstone Kennel Club Inc \u2013 Conformation"
@@ -12791,6 +13337,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club Inc"
@@ -12813,6 +13360,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dogs Victoria Scent Work Committee"
@@ -12835,6 +13383,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Redlands Dog Obedience Club Inc"
@@ -12857,6 +13406,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -12879,6 +13429,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -12901,6 +13452,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -12922,6 +13474,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://tasdogs.com/dates/",
       "open_now": false,
       "is_past": true,
       "club": "TCA Inc Christmas Show \u2013 Conformation"
@@ -12944,6 +13497,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -12966,6 +13520,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs Club of SA"
@@ -12988,6 +13543,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern River Agility and Obedience Dog Club"
@@ -13010,6 +13566,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "The Pointer Club of South Australia Inc"
@@ -13032,6 +13589,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -13054,6 +13612,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Poodle Club of Victoria"
@@ -13076,6 +13635,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
@@ -13123,6 +13683,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Gawler Dog Training Club Inc."
@@ -13145,6 +13706,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Queensland Dog Sports - Agility Sub-Committee"
@@ -13193,7 +13755,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-01-10",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -13368,7 +13930,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-01-18",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -13393,7 +13955,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-01-18",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -13418,7 +13980,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -13518,7 +14080,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-01-27",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -13543,7 +14105,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-01-25",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -13968,7 +14530,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-02-16",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -13993,7 +14555,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-01-04",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14018,7 +14580,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-02-14",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14068,7 +14630,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-02-16",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14243,7 +14805,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-02-23",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14418,7 +14980,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-01",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14443,7 +15005,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-01",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14518,7 +15080,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14543,7 +15105,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-02",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14568,7 +15130,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14893,7 +15455,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -14918,7 +15480,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -15343,7 +15905,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-17",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -15693,7 +16255,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-28",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -15893,7 +16455,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -15918,7 +16480,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -15943,7 +16505,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -15968,7 +16530,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -15993,7 +16555,7 @@
       "status_label": "Cancelled",
       "verified": true,
       "closes": "2025-03-30",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -16018,7 +16580,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-31",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -16043,7 +16605,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-31",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -16093,7 +16655,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-31",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -16143,7 +16705,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-21",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -16343,7 +16905,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-03-28",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -16443,7 +17005,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-02-25",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -16468,7 +17030,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-07",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -16493,7 +17055,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-07",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -17118,7 +17680,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-13",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -17143,7 +17705,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-13",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -17293,7 +17855,7 @@
       "status_label": "Cancelled",
       "verified": true,
       "closes": "2025-04-13",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -17593,7 +18155,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -17768,7 +18330,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-20",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -17793,7 +18355,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-15",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -18293,7 +18855,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-26",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -18318,7 +18880,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-26",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -18593,7 +19155,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-27",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -18618,7 +19180,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-27",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -18868,7 +19430,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-24",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -19118,7 +19680,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-03",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -19143,7 +19705,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-31",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -19843,7 +20405,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-11",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -20143,7 +20705,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-14",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -20168,7 +20730,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-03",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -20643,7 +21205,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-11",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -20668,7 +21230,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-03",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -20693,7 +21255,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-18",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -21168,7 +21730,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-24",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -21193,7 +21755,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-05-23",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -21943,7 +22505,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-06-01",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -22143,7 +22705,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-06-06",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -23318,7 +23880,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -23443,7 +24005,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-06-20",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -23868,7 +24430,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-06-21",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -24243,7 +24805,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-06-18",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -24293,7 +24855,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-06-28",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -25443,7 +26005,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-07-05",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -25518,7 +26080,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-07-04",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -26093,7 +26655,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-07-12",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -26918,7 +27480,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -27318,7 +27880,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-08-03",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -28219,7 +28781,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-06-06",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -28770,7 +29332,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-08-15",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -29620,7 +30182,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -29845,7 +30407,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-08-26",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -29870,7 +30432,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-08-26",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -29895,7 +30457,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-07-31",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -30095,7 +30657,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-08-30",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -30270,7 +30832,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -30320,7 +30882,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-01",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -30645,7 +31207,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-08-04",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -30895,7 +31457,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-07",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -30945,7 +31507,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-10",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -31145,7 +31707,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-08",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -31495,7 +32057,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-08-14",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -31920,7 +32482,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-19",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -31945,7 +32507,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-20",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -32120,7 +32682,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-14",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -32170,7 +32732,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-16",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -32445,7 +33007,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-27",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -32620,7 +33182,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-11-15",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -33245,7 +33807,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-19",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -33795,7 +34357,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-10-09",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -34045,7 +34607,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-09-12",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -34795,7 +35357,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-10-26",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -34895,7 +35457,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-10-31",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -35020,7 +35582,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-10-04",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -35220,7 +35782,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-10-24",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -35545,7 +36107,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-10-23",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -35695,7 +36257,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-11-09",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -35720,7 +36282,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-11-11",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -35770,7 +36332,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-01-30",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -35870,7 +36432,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-11-09",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -37320,7 +37882,7 @@
       "status_label": "Cancelled",
       "verified": true,
       "closes": "2025-12-05",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -37345,7 +37907,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-12-07",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -37370,7 +37932,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-12-12",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -37445,7 +38007,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-12-13",
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -37545,7 +38107,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,

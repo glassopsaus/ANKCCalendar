@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T00:25:53+00:00",
+  "generated": "2026-07-22T00:52:39+00:00",
   "year": 2027,
   "count": 564,
   "sources": [
@@ -76,6 +76,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria New Year Committee"
@@ -97,6 +98,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "RCH Fundraiser - Twilight"
@@ -118,6 +120,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cranbourne Dog Club Inc AM"
@@ -139,6 +142,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cranbourne Dog Club Inc"
@@ -160,6 +164,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lady Bay Kennel Club Inc"
@@ -181,6 +186,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Warrnambool & District K & O Club Inc"
@@ -202,6 +208,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lang Lang P A & H Society Inc"
@@ -223,6 +230,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Ballarat Dog Club Inc"
@@ -244,6 +252,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Southern Obedience Dog Training Club Inc"
@@ -266,6 +275,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -286,6 +296,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Australia Day International Dog Club Inc"
@@ -308,6 +319,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -329,6 +341,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -350,6 +363,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -371,6 +385,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -392,6 +407,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -413,6 +429,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -434,6 +451,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -454,6 +472,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "South Eastern Kennel Club Inc AM"
@@ -475,6 +494,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "South Eastern Kennel Club Inc"
@@ -496,6 +516,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Border Collie Club of Victoria \u2013 RTG5 Twilight RTG"
@@ -517,6 +538,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Classic Dog Show"
@@ -539,6 +561,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -560,6 +583,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -580,6 +604,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lyndhurst Canine Country Club Inc"
@@ -602,6 +627,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -622,6 +648,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lyndhurst Canine Country Club Inc AM"
@@ -644,6 +671,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -665,6 +693,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -685,6 +714,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Warragul & District Kennel & Obedience Dog Club Inc"
@@ -707,6 +737,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -728,6 +759,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -748,6 +780,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lyndhurst Canine Country Club Inc"
@@ -770,6 +803,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -791,6 +825,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -812,6 +847,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -832,6 +868,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria Sprintdog Committee"
@@ -854,6 +891,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -875,6 +913,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -896,6 +935,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -916,6 +956,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Sunshine Kennel Club (AM)"
@@ -937,6 +978,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Canine Amenities"
@@ -958,6 +1000,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rottweiler Club of Victoria Inc"
@@ -979,6 +1022,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rochester"
@@ -1000,6 +1044,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Berwick Agrictlural"
@@ -1021,6 +1066,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Hound Club of Vic Inc"
@@ -1042,6 +1088,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Samoyed Club of Vic Inc"
@@ -1063,6 +1110,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Staffordshire Bull Terrier Club of Victoria RTB"
@@ -1084,6 +1132,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Basenji Club of Victoria (Outdoors Only)"
@@ -1105,6 +1154,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Geelong Obedience Dog Club"
@@ -1126,6 +1176,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "German Shepherd Dog Club of Victoria"
@@ -1147,6 +1198,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "German Shepherd Dog Club of Victoria RTB"
@@ -1168,6 +1220,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Southern Obedience Dog Training Club"
@@ -1190,6 +1243,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1210,6 +1264,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Staffordshire Bull Terrier Club of Vic Inc"
@@ -1231,6 +1286,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Yarram and District Canine Club Inc AM"
@@ -1252,6 +1308,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Warragul & District Kennel & Obedience Club Inc PM"
@@ -1273,6 +1330,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Yarram and District Canine Club In"
@@ -1294,6 +1352,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Warragul & District Kennel & Obedience Club Inc"
@@ -1315,6 +1374,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "German Shorthaired Pointer Club of Vic Inc"
@@ -1336,6 +1396,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cohuna & District Kennel Club AM"
@@ -1357,6 +1418,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Chihuahua Club of Vic"
@@ -1379,6 +1441,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1399,6 +1462,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Hungarian Vizsla Club of Victoria Inc"
@@ -1420,6 +1484,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Kerang & District Kennel Club Inc AM"
@@ -1442,6 +1507,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1462,6 +1528,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Southern Obedience Dog Training Club Inc"
@@ -1483,6 +1550,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "K9 Scent Club"
@@ -1504,6 +1572,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Pakenham Agricultural Society"
@@ -1526,6 +1595,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1547,6 +1617,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1568,6 +1639,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1589,6 +1661,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1609,6 +1682,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Twilight Canine Country Club Inc"
@@ -1630,6 +1704,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Schnauzer Club of Victoria"
@@ -1651,6 +1726,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
@@ -1672,6 +1748,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria Easter Festival"
@@ -1693,6 +1770,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dobermann Club of Victoria Inc"
@@ -1714,6 +1792,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria OTEC"
@@ -1736,6 +1815,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1756,6 +1836,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria OTEC"
@@ -1778,6 +1859,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1799,6 +1881,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1820,6 +1903,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1840,6 +1924,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Club L'Epagneul Breton"
@@ -1861,6 +1946,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Sovereign City Kennel Club Inc"
@@ -1882,6 +1968,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bunyip Agricultural Society"
@@ -1904,6 +1991,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1925,6 +2013,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1946,6 +2035,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1967,6 +2057,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -1987,6 +2078,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Shetland Sheepdog Club of Victoria"
@@ -2008,6 +2100,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Australian Shepherd Club Vic"
@@ -2029,6 +2122,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bearded Collie Club of Vic"
@@ -2051,6 +2145,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2071,6 +2166,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Ballarat Obedience Dog Club"
@@ -2092,6 +2188,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Chihuahua Club of Vic Inc"
@@ -2113,6 +2210,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Kilmore Kennel Club Inc AM"
@@ -2134,6 +2232,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Warragul & District Kennel & Obedience Dog Club Inc"
@@ -2155,6 +2254,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bulla Amenities Show Committee"
@@ -2176,6 +2276,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Gippsland Obedience Dog Club"
@@ -2197,6 +2298,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Greensborough and District Kennel Club - AM Show"
@@ -2219,6 +2321,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2240,6 +2343,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2260,6 +2364,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Wangaratta Kennel & Obedience Dog Club Inc"
@@ -2281,6 +2386,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Wodonga Kennel Club Inc"
@@ -2302,6 +2408,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bendigo Obedience Dog Club"
@@ -2324,6 +2431,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2345,6 +2453,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2366,6 +2475,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2387,6 +2497,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2408,6 +2519,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2429,6 +2541,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2449,6 +2562,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Wangaratta Kennel & Obedience Dog Club Inc"
@@ -2470,6 +2584,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Wodonga Kennel Club Inc"
@@ -2491,6 +2606,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "White Swiss Shepherd Dog Association of Victoria Inc"
@@ -2512,6 +2628,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "German Shorthaired Pointer Club of Vic Inc"
@@ -2533,6 +2650,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Mildura & District Kennel Club Inc AM"
@@ -2555,6 +2673,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2575,6 +2694,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Colac Kennel Club Inc"
@@ -2596,6 +2716,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Geelong Obedience Dog Club Inc"
@@ -2617,6 +2738,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Merbein Kennel Club AM"
@@ -2639,6 +2761,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2660,6 +2783,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2681,6 +2805,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2702,6 +2827,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2723,6 +2849,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2744,6 +2871,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2765,6 +2893,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2786,6 +2915,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2807,6 +2937,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2827,6 +2958,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Victorian Gundog Club Inc"
@@ -2848,6 +2980,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bulla Amenities Show"
@@ -2869,6 +3002,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Tracking Club of Victoria"
@@ -2891,6 +3025,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2912,6 +3047,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -2932,6 +3068,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Hound Club of Vic Inc"
@@ -2953,6 +3090,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "K9 Scent Club"
@@ -2974,6 +3112,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Murray Valley Obedience Dog Club Inc"
@@ -2996,6 +3135,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3017,6 +3157,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3038,6 +3179,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3059,6 +3201,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3079,6 +3222,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Croydon & District Obedience Dog Club"
@@ -3101,6 +3245,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3122,6 +3267,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3143,6 +3289,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3164,6 +3311,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3184,6 +3332,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Toy Poodle Society of Victoria Inc"
@@ -3205,6 +3354,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Shepparton & District Kennel Club Inc"
@@ -3226,6 +3376,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Borzoi Club of Vic Inc"
@@ -3248,6 +3399,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3268,6 +3420,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Northern Obedience Dog Club Inc"
@@ -3290,6 +3443,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3311,6 +3465,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3331,6 +3486,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Papillon Club of Vic Inc"
@@ -3353,6 +3509,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3373,6 +3530,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rhodesian Ridgeback Club of Vic Inc"
@@ -3395,6 +3553,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3415,6 +3574,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Shepparton & District Kennel Club Inc AM"
@@ -3436,6 +3596,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "The Hungarian Vizsla Club of Victoria"
@@ -3457,6 +3618,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Wangaratta Kennel & Obedience Dog Club Inc"
@@ -3478,6 +3640,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Welsh Corgi Club of Vic"
@@ -3500,6 +3663,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3520,6 +3684,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Collie Club of Victoria"
@@ -3541,6 +3706,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Euroa Kennel Club Inc AM"
@@ -3563,6 +3729,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3584,6 +3751,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3604,6 +3772,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
@@ -3626,6 +3795,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3647,6 +3817,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3667,6 +3838,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Eltham & District Kennel Club Inc"
@@ -3688,6 +3860,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Labrador Retriever Club of Vic"
@@ -3709,6 +3882,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Labrador Retriever Club of Vic RTB"
@@ -3731,6 +3905,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3752,6 +3927,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3773,6 +3949,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3793,6 +3970,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Berwick Obedience Dog Club"
@@ -3815,6 +3993,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3836,6 +4015,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3856,6 +4036,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Nova Scotia Duck Tolling Retriever Club of Victoria RTB"
@@ -3878,6 +4059,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3899,6 +4081,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3919,6 +4102,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "British Bulldog Club of Vic"
@@ -3940,6 +4124,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Canine Museum Foundation Inc AM"
@@ -3962,6 +4147,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -3983,6 +4169,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4003,6 +4190,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "North East Tracking & Scent Club"
@@ -4025,6 +4213,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4046,6 +4235,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4066,6 +4256,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Working Dog Club of Victoria - RTG5 RTG"
@@ -4088,6 +4279,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4108,6 +4300,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Boston Terrier Club of Vic Inc AM"
@@ -4130,6 +4323,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4150,6 +4344,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Gorden Setter Club of Victoria - RTG3 RTG"
@@ -4172,6 +4367,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4193,6 +4389,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4213,6 +4410,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Toy Poodle Society of Vic"
@@ -4234,6 +4432,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Victorian Gundog Club"
@@ -4256,6 +4455,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4276,6 +4476,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dandenong Poultry & Kennel Club Inc"
@@ -4298,6 +4499,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4319,6 +4521,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4340,6 +4543,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4361,6 +4565,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4382,6 +4587,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4403,6 +4609,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4424,6 +4631,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4445,6 +4653,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4465,6 +4674,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Finnish Lapphund Club of Vic Inc"
@@ -4487,6 +4697,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4508,6 +4719,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4529,6 +4741,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4550,6 +4763,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4571,6 +4785,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4592,6 +4807,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4613,6 +4829,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4633,6 +4850,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "West Gippsland Kennel Club"
@@ -4654,6 +4872,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Airedale Terrier Club of Victoria"
@@ -4675,6 +4894,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bairnsdale & District Obedience Dog Club Inc"
@@ -4697,6 +4917,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4717,6 +4938,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Japanese Chin Club of Vic Inc"
@@ -4738,6 +4960,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Newfoundland Club of Vic Inc"
@@ -4760,6 +4983,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4781,6 +5005,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4801,6 +5026,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Soft Coated Wheaten Terrier Club Inc"
@@ -4822,6 +5048,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Toy Dog Club of Vic Inc"
@@ -4844,6 +5071,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4864,6 +5092,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bernese Mountain Dog Club of Vic Inc"
@@ -4885,6 +5114,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cavalier King Charles Spaniel Club of Vic"
@@ -4907,6 +5137,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -4927,6 +5158,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "East Gippsland Obedience Dog Club Inc"
@@ -4948,6 +5180,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Italian Greyhound Club of Vic Inc"
@@ -4969,6 +5202,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "K9 Scent Club"
@@ -4991,6 +5225,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5011,6 +5246,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Sporting Terrier Club of Vic Inc"
@@ -5033,6 +5269,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5053,6 +5290,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dalmatian Club of Vic Inc"
@@ -5074,6 +5312,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Gippsland Obedience Dog Club Inc"
@@ -5095,6 +5334,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Southern Obedience Dog Club"
@@ -5116,6 +5356,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Victorian Spitz Breeds Club Inc"
@@ -5137,6 +5378,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Frankston & Peninsula Kennel Club Inc AM"
@@ -5158,6 +5400,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Hastings & District Obedience Dog Club"
@@ -5179,6 +5422,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Ladies Kennel Association Inc"
@@ -5201,6 +5445,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5222,6 +5467,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5243,6 +5489,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5264,6 +5511,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5285,6 +5533,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5306,6 +5555,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5326,6 +5576,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Frankston & Peninsula Kennel Club Inc PM"
@@ -5348,6 +5599,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5369,6 +5621,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5390,6 +5643,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5411,6 +5665,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5431,6 +5686,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "White Swiss Shepherd Dog Association of Victoria Inc"
@@ -5452,6 +5708,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Red Cliffs & District Kennel Club Inc AM"
@@ -5473,6 +5730,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dog Stewards Association Inc AM"
@@ -5495,6 +5753,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5516,6 +5775,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5536,6 +5796,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Red Cliffs Ladies Kennel & Obedience Club Inc PM"
@@ -5557,6 +5818,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rottweiler Club of Victoria"
@@ -5579,6 +5841,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5600,6 +5863,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5621,6 +5885,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5642,6 +5907,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5663,6 +5929,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5683,6 +5950,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Sunraysia Kennel Club Inc. AM"
@@ -5704,6 +5972,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Tracking Club of Vic Inc"
@@ -5726,6 +5995,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5747,6 +6017,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5768,6 +6039,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5788,6 +6060,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Geelong Obedience Dog Club"
@@ -5810,6 +6083,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5831,6 +6105,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5852,6 +6127,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5872,6 +6148,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Victorian Poultry & Kennel Club Inc AM"
@@ -5893,6 +6170,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Box Hill & District Kennel Club Inc"
@@ -5915,6 +6193,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5936,6 +6215,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5957,6 +6237,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5978,6 +6259,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -5999,6 +6281,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6020,6 +6303,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6041,6 +6325,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6061,6 +6346,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Junior Kennel Club of Vic Inc"
@@ -6082,6 +6368,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "K9 Scent Club"
@@ -6104,6 +6391,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6125,6 +6413,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6146,6 +6435,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6167,6 +6457,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6188,6 +6479,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6208,6 +6500,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
@@ -6230,6 +6523,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6250,6 +6544,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Ballaarat Dog Obedience Club Inc"
@@ -6272,6 +6567,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6293,6 +6589,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6313,6 +6610,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Metropolitan Canine Association Inc"
@@ -6335,6 +6633,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6356,6 +6655,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6377,6 +6677,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6398,6 +6699,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6419,6 +6721,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6440,6 +6743,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6461,6 +6765,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6481,6 +6786,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria Sprintdog Committee"
@@ -6503,6 +6809,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6524,6 +6831,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6545,6 +6853,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6566,6 +6875,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6586,6 +6896,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "White Swiss Shepherd Dog Association of Victoria Inc"
@@ -6607,6 +6918,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "KCC Park Friends of the Park Show AM"
@@ -6628,6 +6940,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Casey All Breeds Kennel Club Inc PM"
@@ -6649,6 +6962,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Caufield & District Kennel Club Inc AM"
@@ -6671,6 +6985,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6692,6 +7007,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6713,6 +7029,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6734,6 +7051,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6755,6 +7073,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6775,6 +7094,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "K9 Scent Club"
@@ -6797,6 +7117,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6818,6 +7139,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6839,6 +7161,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6860,6 +7183,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6881,6 +7205,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6901,6 +7226,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Heidelberg & District Kennel Club Inc PM"
@@ -6923,6 +7249,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -6943,6 +7270,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Town and Country Kennel Club AM"
@@ -6964,6 +7292,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Australian Terrier Club AM"
@@ -6986,6 +7315,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7007,6 +7337,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7028,6 +7359,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7049,6 +7381,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7069,6 +7402,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Non Sporting Dog Club of Vic Inc"
@@ -7091,6 +7425,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7111,6 +7446,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Utility Dog Club of Vic Inc"
@@ -7133,6 +7469,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7153,6 +7490,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bendigo Kennel Club Inc AM"
@@ -7174,6 +7512,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Australian Kelpie Club of Vic Inc AM"
@@ -7195,6 +7534,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria - OTEC State Trial"
@@ -7216,6 +7556,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Eaglehawk & District Kennel Club Inc AM"
@@ -7238,6 +7579,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7259,6 +7601,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7280,6 +7623,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7301,6 +7645,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7321,6 +7666,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Castlemaine & District Kennel Club Inc"
@@ -7342,6 +7688,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria - OTEC State Trial"
@@ -7364,6 +7711,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7385,6 +7733,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7406,6 +7755,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7426,6 +7776,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "White Swiss Shepherd Dog Association of Victoria Inc"
@@ -7447,6 +7798,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lilydale Kennel Club Inc"
@@ -7468,6 +7820,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "North East Tracking & Scent Club"
@@ -7490,6 +7843,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7510,6 +7864,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "K9 Scent Club"
@@ -7531,6 +7886,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lilydale Kennel Club Inc AM"
@@ -7553,6 +7909,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7574,6 +7931,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7595,6 +7953,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7615,6 +7974,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Schipperke Club of Victoria"
@@ -7636,6 +7996,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Westernport Obedience Dog Club"
@@ -7657,6 +8018,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bendigo Obedience Dog Club"
@@ -7679,6 +8041,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7699,6 +8062,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lilydale Kennel Club Inc"
@@ -7721,6 +8085,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7741,6 +8106,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Shih Tzu Club of Victoria Inc."
@@ -7762,6 +8128,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Australian Shepherd Club of Victoria Inc RTB"
@@ -7783,6 +8150,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Australian Shepherd Club of Victoria Inc RTB AGILITY &"
@@ -7804,6 +8172,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bulla Agility Dogs Inc"
@@ -7826,6 +8195,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7847,6 +8217,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7868,6 +8239,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7889,6 +8261,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7910,6 +8283,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7931,6 +8305,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7951,6 +8326,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Victorian Gundog Club"
@@ -7973,6 +8349,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -7994,6 +8371,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8014,6 +8392,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Chihuahua Club of Vic Inc"
@@ -8036,6 +8415,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8056,6 +8436,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Samoyed Club of Vic Inc"
@@ -8078,6 +8459,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8099,6 +8481,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8119,6 +8502,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Macalister Kennel & Obedience Club Inc"
@@ -8141,6 +8525,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8161,6 +8546,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Geelong Kennel Club AM"
@@ -8183,6 +8569,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8204,6 +8591,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8225,6 +8613,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8245,6 +8634,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Sale/Maffra Kennel Club Inc"
@@ -8267,6 +8657,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8288,6 +8679,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8309,6 +8701,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8329,6 +8722,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Geelong Kennel Club"
@@ -8350,6 +8744,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Moorabbin & District Obedience Dog Club"
@@ -8372,6 +8767,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8393,6 +8789,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8413,6 +8810,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "K9 Scent Club"
@@ -8435,6 +8833,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8455,6 +8854,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Yea & District Kennel Club Inc"
@@ -8477,6 +8877,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8498,6 +8899,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8519,6 +8921,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8539,6 +8942,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Seymour Kennel Club Inc"
@@ -8561,6 +8965,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8581,6 +8986,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Belgrave & District Kennel Club Inc"
@@ -8603,6 +9009,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8624,6 +9031,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8644,6 +9052,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "North East Tracking & Scent Club"
@@ -8665,6 +9074,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Shepparton & District Obedience Dog Club"
@@ -8687,6 +9097,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8708,6 +9119,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8728,6 +9140,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Northern Obedience Dog Club"
@@ -8749,6 +9162,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
@@ -8770,6 +9184,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bairnsdale & District Kennel Club Inc"
@@ -8792,6 +9207,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8812,6 +9228,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Tracking Club of Vic Inc"
@@ -8834,6 +9251,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8854,6 +9272,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "East Gippsland Kennel Club Inc"
@@ -8875,6 +9294,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Geelong Obedience Dog Club Inc"
@@ -8896,6 +9316,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Kyneton & District Kennel Club Inc AM"
@@ -8918,6 +9339,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -8938,6 +9360,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Warragul & District Kennel & Obedience Dog Club Inc"
@@ -8959,6 +9382,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Ballarat Dog Club Inc"
@@ -8981,6 +9405,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9001,6 +9426,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Gippsland Obedience Dog Club"
@@ -9023,6 +9449,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9044,6 +9471,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9065,6 +9493,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9086,6 +9515,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9106,6 +9536,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "German Shorthaired Pointer Club of Vic."
@@ -9127,6 +9558,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "German Shorthaired Pointer Club of Vic."
@@ -9148,6 +9580,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Royal Agricultural Society of Vic - Melbourne Royal Show"
@@ -9170,6 +9603,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9190,6 +9624,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Ballaarat Dog Obedience Club Inc"
@@ -9211,6 +9646,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Murray Valley Obedience Dog Club Inc"
@@ -9233,6 +9669,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9253,6 +9690,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Eastern Suburbs Obedience Dog Club"
@@ -9275,6 +9713,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9295,6 +9734,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Kerang Agricultural Society Inc."
@@ -9317,6 +9757,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9337,6 +9778,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria Scent Work Committee - State Scent Work Trial"
@@ -9359,6 +9801,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9379,6 +9822,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "East Gippsland Dog Obedience Club (Sale or Morwell)"
@@ -9400,6 +9844,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Golden Retriever Club of Vic Inc"
@@ -9421,6 +9866,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Shepparton Agricultural Society"
@@ -9443,6 +9889,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9464,6 +9911,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9485,6 +9933,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9505,6 +9954,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Croydon & District Obedience Dog Club"
@@ -9526,6 +9976,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Gippsland Obedience Dog Club"
@@ -9547,6 +9998,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Romsey Kennel Club Inc AM"
@@ -9569,6 +10021,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9590,6 +10043,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9611,6 +10065,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9631,6 +10086,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "White Swiss Shepherd Dog Association of Victoria Inc"
@@ -9652,6 +10108,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Benalla A & P Society Inc AM"
@@ -9673,6 +10130,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Royal Geelong Agricultural Society"
@@ -9695,6 +10153,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9715,6 +10174,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Kyabram A & P Society Inc AM"
@@ -9737,6 +10197,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9758,6 +10219,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9779,6 +10241,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9800,6 +10263,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9820,6 +10284,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Werribee Obedience Dog Club"
@@ -9841,6 +10306,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Echuca & District Kennel Club Inc AM"
@@ -9863,6 +10329,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9884,6 +10351,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9904,6 +10372,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Numurkah A & P Societ"
@@ -9925,6 +10394,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bendigo Agricultural Show Society Inc AM"
@@ -9947,6 +10417,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9968,6 +10439,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -9989,6 +10461,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -10010,6 +10483,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -10030,6 +10504,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Warragul & District Kennel & Obedience Club Inc"
@@ -10052,6 +10527,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -10072,6 +10548,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Basset Hound Club of Vic Inc"
@@ -10093,6 +10570,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bearded Collie Club of Vic Inc"
@@ -10114,6 +10592,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "French Bulldog Club of Vic Inc"
@@ -10135,6 +10614,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Afghan Hound Club of Vic Inc"
@@ -10156,6 +10636,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Australian Shepherd Club of Vic Inc"
@@ -10177,6 +10658,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Beagle Club of Vic Inc"
@@ -10198,6 +10680,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Berwick Obedience Dog Club"
@@ -10219,6 +10702,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Border Collie Club of Vic"
@@ -10240,6 +10724,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Club L'Epagneul Breton Victoria"
@@ -10261,6 +10746,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Curly Coated Retriever Club of Vic Inc"
@@ -10282,6 +10768,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dachshund Club of Vic Inc"
@@ -10303,6 +10790,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dalmatian Club of Victoria"
@@ -10324,6 +10812,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Finnish Lapphund Club of Vic Inc"
@@ -10345,6 +10834,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "German Shepherd Dog Club of Vic Inc RTG5"
@@ -10366,6 +10856,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Great Dane Club of Vic Inc"
@@ -10387,6 +10878,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Japanese Spitz Club of Vic Inc 2PM"
@@ -10408,6 +10900,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Papillon Club of Vic Inc"
@@ -10429,6 +10922,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Pekingese Club of Vic Inc AM"
@@ -10450,6 +10944,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rarer Gundog Spaniel Club of Vic Inc"
@@ -10471,6 +10966,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rhodesian Ridgeback Club of Vic Inc AM"
@@ -10492,6 +10988,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rottweiler Club of Vic Inc"
@@ -10513,6 +11010,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Saluki Club of Vic Inc"
@@ -10534,6 +11032,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Schipperke Club of Vic Inc"
@@ -10555,6 +11054,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Siberian Husky Club of Vic Inc"
@@ -10576,6 +11076,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Varieties of Bichon Related Breeds of Vic Inc"
@@ -10597,6 +11098,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Victorian Gundog Club Inc"
@@ -10618,6 +11120,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Welsh Corgi Club of Vic Inc"
@@ -10639,6 +11142,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Working Dog Club of Vic Inc - must be 4pm start"
@@ -10661,6 +11165,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -10681,6 +11186,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Cocker Spaniel Club of Victoria"
@@ -10702,6 +11208,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Hound Club of Vic Inc"
@@ -10723,6 +11230,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "K9 Scent Club"
@@ -10744,6 +11252,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Little Lion Dogs of Victoria Inc"
@@ -10765,6 +11274,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Miniature Pinscher Club of Vic Inc"
@@ -10786,6 +11296,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Working Dog Club of Vic Inc"
@@ -10807,6 +11318,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Victorian Women\u2019s Dog Club Inc"
@@ -10828,6 +11340,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "German Shorthaired Pointer Club of Vic."
@@ -10849,6 +11362,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Central Gippsland Kennel Club Inc"
@@ -10870,6 +11384,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Portland & District Kennel Club Inc"
@@ -10891,6 +11406,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bairnsdale & District Dog Obedience Club Inc"
@@ -10912,6 +11428,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bull Terrier Club of Vic In"
@@ -10933,6 +11450,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Central Gippsland Kennel Club Inc - AM"
@@ -10955,6 +11473,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -10975,6 +11494,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Geelong Obedience Dog Club Inc"
@@ -10996,6 +11516,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Morwell/Traralgon Kennel Club Inc - PM"
@@ -11018,6 +11539,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11038,6 +11560,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Gippsland Obedience Dog Club Inc"
@@ -11059,6 +11582,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Morwell/Traralgon Kennel Club Inc - AM"
@@ -11080,6 +11604,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Warrnambool & District K & O Club Inc"
@@ -11101,6 +11626,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bass Valley Kennel Club AM"
@@ -11123,6 +11649,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11143,6 +11670,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Southern Obedience Dog Training Club Inc"
@@ -11165,6 +11693,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11185,6 +11714,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Bass Valley Kennel Club"
@@ -11207,6 +11737,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11228,6 +11759,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11248,6 +11780,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Knox Obedience Dog Club"
@@ -11269,6 +11802,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Kyneton Agricultural Society"
@@ -11291,6 +11825,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11312,6 +11847,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11333,6 +11869,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11354,6 +11891,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11374,6 +11912,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Western Districts Kennel Club AM"
@@ -11396,6 +11935,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11416,6 +11956,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Daylesford & District Ag Society Inc"
@@ -11437,6 +11978,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Portland Obedience Dog Club"
@@ -11459,6 +12001,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11479,6 +12022,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Melbourne Dog Club Inc AM"
@@ -11500,6 +12044,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria Royal Canin Summer Spectacular"
@@ -11521,6 +12066,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dobermann Club of Vic"
@@ -11542,6 +12088,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Old English Sheepdog Club of Vic Inc"
@@ -11564,6 +12111,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11584,6 +12132,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Toy Poodle Society of Victoria Inc"
@@ -11605,6 +12154,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Victorian Gundog Club"
@@ -11626,6 +12176,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "White Swiss Shepherd Dog Association of Vic Inc"
@@ -11648,6 +12199,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11669,6 +12221,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11689,6 +12242,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Maldon & District Kennel Club AM"
@@ -11711,6 +12265,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "open_now": false,
       "is_past": false
     },
@@ -11731,6 +12286,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Yarra Valley Kennel Club"
@@ -11752,6 +12308,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Collie Club of Victoria"
@@ -11773,6 +12330,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Yarra Valley Kennel Club AM"
@@ -11794,6 +12352,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Sovereign City Kennel Club Inc"
@@ -11815,6 +12374,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Lancefield Kennel Club Inc AM"
@@ -11836,6 +12396,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Central Highlands Kennel Club Inc AM"
@@ -11857,6 +12418,7 @@
       "status": "approved_not_open",
       "status_label": "Approved; not open (unverified)",
       "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria New Year Committee AM"
