@@ -1564,6 +1564,23 @@ def _is_specific_event_link(url):
     return bool(m and m.group(1) and len(m.group(1).strip("/")) > 0)
 
 
+def _is_bare_state_location(loc):
+    """True if `loc` is empty or merely a state/region name rather than a real
+    venue address. Governing-body sources set location to the bare state (e.g.
+    "New South Wales"), which shouldn't block an entry platform's real address
+    from cross-filling during merge."""
+    if not loc:
+        return True
+    t = re.sub(r"[^a-z ]", "", loc.strip().lower()).strip()
+    _BARE = {
+        "", "act", "nsw", "qld", "vic", "wa", "sa", "tas", "nt",
+        "victoria", "queensland", "new south wales", "western australia",
+        "south australia", "tasmania", "australian capital territory",
+        "northern territory",
+    }
+    return t in _BARE
+
+
 def _looks_like_club(text):
     """Does this text look like a club/organisation name (vs a trial-type
     descriptor or marketing name)?"""
@@ -2117,6 +2134,15 @@ def build_year():
                                 "closes", "address"):
                         if not k.get(fld) and e.get(fld):
                             k[fld] = e[fld]
+                    # Address cross-fill: governing-body sources set location to
+                    # a bare state name, while entry platforms (Ready Entries,
+                    # Top Dog) carry a real venue address. If the survivor's
+                    # location is only a bare state but the duplicate has a real
+                    # address, adopt the real address. Accurate (comes from a
+                    # real source for THIS event) and invents nothing.
+                    if _is_bare_state_location(k.get("location")) \
+                            and not _is_bare_state_location(e.get("location")):
+                        k["location"] = e["location"]
                     # Collect every candidate per-event link from BOTH copies
                     # into a pool; the best (most enter-able) one is chosen when
                     # entry_url is assigned. This lets an entry-platform link
