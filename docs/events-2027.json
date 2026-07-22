@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T05:16:34+00:00",
+  "generated": "2026-07-22T06:49:01+00:00",
   "year": 2027,
   "count": 573,
   "sources": [
@@ -20,6 +20,12 @@
       "region": null,
       "color": "#8a8172",
       "url": "https://www.topdogevents.com.au/trials"
+    },
+    {
+      "name": "Ready Entries",
+      "region": null,
+      "color": "#8a8172",
+      "url": "https://readyentries.com/view-events"
     },
     {
       "name": "Dogs NSW",
@@ -230,7 +236,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/rally-trial-double-evening-actcdc-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rally Trial (Double Evening) \u2013 ACTCDC"
@@ -1440,7 +1446,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-shows-dogs-act-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Championship Shows \u2013 Dogs ACT"
@@ -1550,7 +1556,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/rally-trial-double-evening-actcdc-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rally Trial (Double Evening) \u2013 ACTCDC"
@@ -4938,7 +4944,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/6-championship-shows-act-ladies-canberra-all-breeds-kennel-clubs-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "6 Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"
@@ -5818,7 +5824,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/2027-national-obedience-and-national-rally-trials/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "2027 National Obedience and National Rally Trials"
@@ -6192,7 +6198,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/rally-trial-double-day-trial-actcdc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rally Trial (Double Day Trial) \u2013 ACTCDC"
@@ -8942,7 +8948,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-shows-babkc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Championship Shows \u2013 BABKC"
@@ -10020,7 +10026,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/rally-trial-double-day-trial-actcdc-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Rally Trial (Double Day Trial) \u2013 ACTCDC"
@@ -12418,7 +12424,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-shows-act-ladies-canberra-all-breeds-kennel-clubs-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"

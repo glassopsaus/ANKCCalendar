@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-22T05:05:47+00:00",
+  "generated": "2026-07-22T06:39:23+00:00",
   "year": 2025,
   "count": 1680,
   "sources": [
@@ -20,6 +20,12 @@
       "region": null,
       "color": "#8a8172",
       "url": "https://www.topdogevents.com.au/trials"
+    },
+    {
+      "name": "Ready Entries",
+      "region": null,
+      "color": "#8a8172",
+      "url": "https://readyentries.com/view-events"
     },
     {
       "name": "Dogs NSW",
@@ -197,7 +203,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/dances-with-dogs-bdoc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs \u2013 BDOC"
@@ -290,7 +296,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/lure-coursing-judges-information-session/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Lure Coursing Judges Information Session"
@@ -336,7 +342,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/sprint-dog-stewards-training/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Sprint Dog Stewards Training"
@@ -519,7 +525,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-evening-jumping-trial-tdtc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility \u2013 Evening Jumping Trial \u2013 TDTC"
@@ -587,7 +593,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-7/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
@@ -609,7 +615,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-jumping-and-snooker-trial-afternoon-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility & Jumping \u2013 Afternoon \u2013 ACTCDC"
@@ -954,7 +960,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-jumping-trial-evening-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility \u2013 Jumping Trial (Evening) \u2013 ACTCDC"
@@ -1022,7 +1028,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-actgsda-evening/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 ACTGSDA (Evening)"
@@ -1278,7 +1284,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-and-jumping-trial-bdoc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CANCELLED \u2013 Agility and Jumping Trial \u2013 BDOC"
@@ -1346,7 +1352,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-single-evening-trial-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial (Single Evening Trial) \u2013 ACTCDC"
@@ -1575,7 +1581,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/trick-trial-bdoc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Trick Trial \u2013 ACTCDC"
@@ -1597,7 +1603,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/dances-with-dogs-bdoc-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs \u2013 BDOC"
@@ -1711,7 +1717,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-bdoc-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial \u2013 BDOC"
@@ -1873,7 +1879,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-trial-evening-bdoc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Trial \u2013 Evening \u2013 BDOC"
@@ -2100,7 +2106,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-double-bdoc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial \u2013 Double \u2013 BDOC"
@@ -2329,7 +2335,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-and-jumping-trial-bdoc-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility and Jumping Trial \u2013 BDOC"
@@ -2672,7 +2678,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-evening-tdtc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial (evening) \u2013 TDTC"
@@ -2717,7 +2723,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-evening-tdtc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial (evening) \u2013 TDTC"
@@ -2787,7 +2793,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-and-jumping-easter-trial-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility and Jumping \u2013 Easter Trial \u2013 ACTCDC"
@@ -2993,7 +2999,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/2025-national-obedience-trials-orchard-hills-nsw/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "2025 National Obedience \u2013 Orchard Hills NSW"
@@ -3015,7 +3021,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/2025-national-trick-dog-test-orchard-hills-nsw/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "2025 National Rally & Trick Trial \u2013 Orchard Hills NSW"
@@ -3060,7 +3066,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-shows-national-capital-kennel-club/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CANCELLED \u2013 Championship Shows \u2013 National Capital Kennel Club"
@@ -3082,7 +3088,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-8/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
@@ -3128,7 +3134,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/2025-national-trick-dog-test-orchard-hills-nsw/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "2025 National Rally & Trick Trial \u2013 Orchard Hills NSW"
@@ -3309,7 +3315,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/2025-national-obedience-trials-orchard-hills-nsw/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "2025 National Obedience \u2013 Orchard Hills NSW"
@@ -3742,7 +3748,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-jumping-trial-evening-actcdc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility \u2013 Jumping Trial \u2013 Evening \u2013 ACTCDC"
@@ -4335,7 +4341,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/rally-trial-bdoc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Rally Trial \u2013 BDOC"
@@ -4402,7 +4408,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/trick-trial-bdoc-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Trick Trial \u2013 BDOC"
@@ -4904,7 +4910,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-9/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CANCELLED \u2013 Tracking and Search Trial \u2013 Canberra Scent Sport Club"
@@ -4994,7 +5000,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-bdoc-6/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 BDOC"
@@ -5247,7 +5253,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/6-championship-shows-act-ladies-canberra-all-breeds-kennel-clubs/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "6 Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"
@@ -5360,7 +5366,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-and-jumping-triple-trial-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Double Trial \u2013 Agility & Jumping-ACTCDC"
@@ -5404,7 +5410,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-bdoc-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial \u2013 BDOC"
@@ -5493,7 +5499,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/tracking-trial-actcdc-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Tracking Trial \u2013 ACTCDC"
@@ -5673,7 +5679,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/tracking-trial-actcdc-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Tracking Trial \u2013 ACTCDC"
@@ -5740,7 +5746,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-bdoc-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial \u2013 BDOC"
@@ -7279,7 +7285,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/sprint-dog-trial-bdoc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CANCELLED \u2013 Sprint Dog Trial \u2013 BDOC"
@@ -7371,7 +7377,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-double-day-trial-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial (Double Day Trial) \u2013 ACTCDC"
@@ -7735,7 +7741,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-jumping-and-games-trial-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility \u2013 Jumping and Games Trial- ACTCDC"
@@ -8171,7 +8177,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-and-jumping-trial-tdtc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility and Jumping Trial \u2013 TDTC"
@@ -8718,7 +8724,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-tdtc-15/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 TDTC"
@@ -8854,7 +8860,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-dogs-act-9/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 Dogs ACT"
@@ -9286,7 +9292,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-jumping-trial-evening-bdoc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility \u2013 Jumping Trial (Evening) \u2013 BDOC"
@@ -9538,7 +9544,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-bdoc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial \u2013 BDOC"
@@ -9697,7 +9703,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/trick-dog-test-bdoc-5/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Trick Dog Test \u2013 BDOC"
@@ -9834,7 +9840,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/dances-with-dogs-bdoc-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs \u2013 ACTCDC"
@@ -10107,7 +10113,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-open-shows-act-gundogs/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Championship + Open Shows \u2013 ACT Gundogs"
@@ -10220,7 +10226,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/track-and-search-trial-canberra-scent-sport-club-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CANCELLED \u2013 Track and Search Trial \u2013 Canberra Scent Sport Club"
@@ -10265,7 +10271,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-shows-belconnen-all-breeds-kc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Championship Shows \u2013 Belconnen All Breeds KC"
@@ -10404,7 +10410,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-single-afternoon-trial-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial (Single Afternoon Trial) \u2013 ACTCDC"
@@ -10516,7 +10522,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/track-and-search-trial-canberra-scent-sport-club-4/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "CANCELLED \u2013 Track and Search Trial \u2013 Canberra Scent Sport Club"
@@ -10607,7 +10613,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-trial-evening-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Trial (Evening) ACTCDC"
@@ -10722,7 +10728,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-and-jumping-trial-bdoc-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility and Jumping Trial \u2013 BDOC"
@@ -11887,7 +11893,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-shows-junior-handler-finals-dogs-act/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Championship Shows + Junior Handler Finals \u2013 Dogs ACT"
@@ -11954,7 +11960,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/rally-trial-double-bdoc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Rally Trial \u2013 Triple- BDOC"
@@ -11976,7 +11982,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/track-and-search-trial-canberra-scent-sport-club-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Track and Search Trial \u2013 Canberra Scent Sport Club"
@@ -12090,7 +12096,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/track-and-search-trial-canberra-scent-sport-club-3/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Track and Search Trial \u2013 Canberra Scent Sport Club"
@@ -12156,7 +12162,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-evening-bdoc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial (Evening) \u2013 BDOC"
@@ -12201,7 +12207,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/state-agility-titles-dogs-act/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility & Jumping Trial \u2013 ACTCDC"
@@ -12700,7 +12706,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-evening-actcdc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 Evening \u2013 ACTCDC"
@@ -12904,7 +12910,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/trick-trial-bdoc-6/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Trick Trial \u2013 BDOC"
@@ -12949,7 +12955,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/dances-with-dogs-bdoc-6/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Dances with Dogs \u2013 ACTCDC"
@@ -13062,7 +13068,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-trial-evening-tdtc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility Trial (Evening) TDTC"
@@ -13153,7 +13159,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-actgsda-evening-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 ACTGSDA (Evening)"
@@ -13634,7 +13640,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/actcdc-agility-trial-pm-trial/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "ACTCDC \u2013 Agility Games (PM Trial)"
@@ -13725,7 +13731,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-jumping-snooker-trial-afternoon-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility, Jumping & Snooker Trial (Afternoon) \u2013 ACTCDC"
@@ -14277,7 +14283,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-gamblers-trial-evening-actcdc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility \u2013 Gamblers Trial (Evening) \u2013 ACTCDC"
@@ -14436,7 +14442,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/obedience-trial-single-evening-trial-actcdc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial (Single Evening Trial) \u2013 ACTCDC"
@@ -14825,7 +14831,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-group-shows-dogs-act/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Championship + Group Shows + A2O \u2013 Dogs ACT"
@@ -14892,7 +14898,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/sprintdog-trial-bdoc/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Sprintdog Trial \u2013 BDOC"
@@ -15006,7 +15012,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/agility-jumping-trial-evening-bdoc-2/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Agility \u2013 Jumping Trial (Evening) \u2013 BDOC"
@@ -15759,7 +15765,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/championship-shows-act-ladies-canberra-all-breeds-kennel-clubs/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"
@@ -15895,7 +15901,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-actgsda-6/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 ACTGSDA"
@@ -15917,7 +15923,7 @@
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
-      "entry_url": "https://dogsact.org.au/event/scent-work-trial-canberra-scent-sport-club-12/",
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
