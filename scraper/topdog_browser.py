@@ -128,30 +128,36 @@ def _walk_section(page, section, pages_html, PWTimeout):
             # link (which container, heading, siblings) and build matching that
             # actually works — rather than inferring the structure.
             try:
-                from bs4 import BeautifulSoup as _BS
-                _soup = _BS(html, "html.parser")
-                _dumped = 0
-                _seen_hrefs = set()
-                for _cand in _soup.find_all("a", href=True):
-                    if not re.search(r"/trials/\d+", _cand["href"]):
+                # The regex counts ~2x rows of /trials/<id> occurrences, but
+                # BeautifulSoup finds only ONE anchor href (the running-now
+                # card). So most /trials/<id> references are NOT <a href> links —
+                # they live elsewhere (a JSON/script data blob or a non-anchor
+                # attribute). Dump raw-text windows around the first few
+                # occurrences to see exactly where and how the IDs are stored.
+                _occs = list(re.finditer(r"/trials/\d+", html))
+                _shown = 0
+                _seen = set()
+                for _mo in _occs:
+                    _id = _mo.group(0)
+                    # window of chars around the occurrence
+                    _s = max(0, _mo.start() - 200)
+                    _e = min(len(html), _mo.end() + 120)
+                    _window = html[_s:_e]
+                    # skip windows that are the running-now anchor we already saw
+                    if "trial-rail-card__link" in _window:
                         continue
-                    if _cand["href"] in _seen_hrefs:
+                    _key = _window[:60]
+                    if _key in _seen:
                         continue
-                    _seen_hrefs.add(_cand["href"])
-                    _ctx = _cand
-                    for _ in range(4):
-                        if _ctx.parent is not None:
-                            _ctx = _ctx.parent
-                    snippet = str(_ctx)[:1500]
-                    print(f"[topdog-browser] SAMPLE LINK #{_dumped+1} "
-                          f"({_cand['href']}):\n{snippet}\n"
-                          f"[topdog-browser] END SAMPLE #{_dumped+1}",
+                    _seen.add(_key)
+                    print(f"[topdog-browser] RAW OCC #{_shown+1} ({_id}):\n"
+                          f"...{_window}...\n[topdog-browser] END OCC #{_shown+1}",
                           file=sys.stderr)
-                    _dumped += 1
-                    if _dumped >= 3:
+                    _shown += 1
+                    if _shown >= 3:
                         break
             except Exception as _e:
-                print(f"[topdog-browser] sample dump failed: {_e}",
+                print(f"[topdog-browser] raw-occ dump failed: {_e}",
                       file=sys.stderr)
             data_attrs = re.findall(r'(data-[a-z0-9\-]*(?:id|trial|event)[a-z0-9\-]*)\s*=\s*"(\d+)"', html, re.I)
             has_json = bool(re.search(r'/trials\.json|/trials\?[^"]*format=json|"trials_url"', html, re.I))
