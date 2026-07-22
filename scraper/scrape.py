@@ -1258,6 +1258,38 @@ _CLUB_WORD_RE = re.compile(
     r"\bk9\b|academy|centre|center|group|committee", re.I)
 
 
+# Generic listing/calendar pages that are NOT per-event entry links — an
+# "Enter / details" link pointing here is useless, so we never treat these as
+# an entry_url and always prefer a specific per-event link over them.
+_GENERIC_LINK_RES = (
+    re.compile(r"topdogevents\.com\.au/trials/?$", re.I),
+    re.compile(r"dogsvictoria\.org\.au/events/shows-and-trials-calendar", re.I),
+    re.compile(r"vicdog\.com/events-?page", re.I),
+    re.compile(r"dogsvictoria\.org\.au/events/?$", re.I),
+)
+
+
+def _is_specific_event_link(url):
+    """True if `url` is a specific per-event page (e.g. Top Dog /trials/<id> or
+    a Show Manager event Details page), as opposed to a generic listing or
+    governing-body calendar page."""
+    if not url or not isinstance(url, str):
+        return False
+    if any(rx.search(url) for rx in _GENERIC_LINK_RES):
+        return False
+    # Positive signals of a per-event page.
+    if re.search(r"topdogevents\.com\.au/trials/\d+", url, re.I):
+        return True
+    if re.search(r"showmanager\.com\.au/.*(Details|events/PublicEvents)", url, re.I):
+        return True
+    if re.search(r"vicdog\.com/events/\d", url, re.I):
+        return True
+    # A non-generic http(s) link with a path deeper than the site root is
+    # probably event-specific; accept it rather than lose a usable link.
+    m = re.match(r"https?://[^/]+(/.*)?$", url)
+    return bool(m and m.group(1) and len(m.group(1).strip("/")) > 0)
+
+
 def _looks_like_club(text):
     """Does this text look like a club/organisation name (vs a trial-type
     descriptor or marketing name)?"""
@@ -1795,6 +1827,15 @@ def build_year():
                                 "closes", "address"):
                         if not k.get(fld) and e.get(fld):
                             k[fld] = e[fld]
+                    # A SPECIFIC per-event link (Top Dog /trials/<id> or a Show
+                    # Manager detail page) from EITHER copy should win over a
+                    # generic listing/calendar page — otherwise a DV survivor
+                    # keeps its generic calendar URL and the real Top Dog entry
+                    # link is lost. Stash the best specific link seen.
+                    for cand in (e.get("url"), e.get("entry_url")):
+                        if _is_specific_event_link(cand):
+                            k["_best_link"] = cand
+                            break
                     # Stash the duplicate's title/location text so the later
                     # club/detail derivation can draw the club name from one
                     # source and the trial-type descriptor from the other.
@@ -1940,17 +1981,20 @@ def build_year():
         topdog_open = bool(e2.get("topdog_open"))
         closes_passed = _closes_passed(e2)
 
-        # Top Dog events carry a per-event trial link in `url`. Surface it as the
-        # "Enter / details" link the same way Show Manager's detail URL is used —
-        # but DON'T overwrite an entry_url the matcher already set from Show
-        # Manager (SM's entry page is the more authoritative place to enter).
-        if not e2.get("entry_url"):
-            srcset = srcs | ({e2["source"]} if e2.get("source") else set())
-            from_topdog = any(str(s).startswith("Top Dog") for s in srcset)
-            u = e2.get("url")
-            if from_topdog and u and "topdogevents.com.au/trials" not in u:
-                # Use the specific trial link, not the bare listing page.
-                e2["entry_url"] = u
+        # Entry link: prefer a SPECIFIC per-event page over any generic
+        # listing/calendar page, drawing from (a) a per-event link stashed
+        # during merge (e.g. Top Dog's /trials/<id> when a DV copy was the
+        # survivor), then (b) the event's own url/entry_url if specific.
+        # A generic page (DV calendar, bare Top Dog /trials) is never used —
+        # better no "Enter" link than one that dumps the user on an index.
+        # Don't overwrite a Show Manager entry_url the matcher already set.
+        sm_entry = e2.get("entry_url")
+        if not _is_specific_event_link(sm_entry):
+            best = e2.get("_best_link")
+            if not _is_specific_event_link(best):
+                best = e2.get("url") if _is_specific_event_link(e2.get("url")) else None
+            e2["entry_url"] = best  # may be None -> no Enter link shown
+        e2.pop("_best_link", None)
 
         # ---- verified (real) ----
         e2["verified"] = (len(srcs) >= 2) or on_entry_platform
@@ -2080,9 +2124,12 @@ def build_year():
 
     # Derive the club/organisation name over EVERY event (for the info-line tag
     # between State and Source). Sources place the club in different fields; this
-    # picks it out. The event title is left as-is for the headline.
+    # picks it out. The event title is left as-is for the headline. Also strip
+    # any internal scratch fields so they never ship in the JSON.
     for e in unique:
         _derive_club(e)
+        e.pop("_best_link", None)
+        e.pop("_alt_text", None)
 
     payload = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
