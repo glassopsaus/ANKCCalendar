@@ -1079,9 +1079,28 @@ def _topdog_parse_rows(soup, year):
         if not start or dt.date.fromisoformat(start).year != year:
             continue
 
-        # link to the trial if present
-        a = cells[1].find("a", href=True)
-        url = a["href"] if a else "https://www.topdogevents.com.au/trials"
+        # Link to the specific trial page. Top Dog per-event pages have URLs of
+        # the form /trials/<id> (e.g. /trials/664). The anchor isn't reliably in
+        # the name cell — the row may link from any cell or wrap the whole row —
+        # so search the ENTIRE row for the first href matching that pattern, and
+        # only fall back to the bare listing page if none is found.
+        url = "https://www.topdogevents.com.au/trials"
+        row_el = tr if hasattr(tr, "find_all") else None
+        best_href = None
+        anchors = (row_el.find_all("a", href=True) if row_el
+                   else [a for c in cells if hasattr(c, "find_all")
+                         for a in c.find_all("a", href=True)])
+        for a in anchors:
+            href = a["href"]
+            if re.search(r"/trials/\d+", href):
+                best_href = href
+                break
+            # remember a first non-listing link as a weaker fallback
+            if best_href is None and href not in (
+                    "/trials", "https://www.topdogevents.com.au/trials"):
+                best_href = href
+        if best_href:
+            url = best_href
         if url.startswith("/"):
             url = "https://www.topdogevents.com.au" + url
 
@@ -1232,6 +1251,54 @@ def scrape_source(source):
             e.setdefault("region", None)
             e.setdefault("color", REGION_COLOR.get(e.get("region")))
     return events
+
+
+_CLUB_WORD_RE = re.compile(
+    r"club|association|societ|kennel|canine|obedience|training|dog\s*sports?|"
+    r"\bk9\b|academy|centre|center|group|committee", re.I)
+
+
+def _looks_like_club(text):
+    """Does this text look like a club/organisation name (vs a trial-type
+    descriptor or marketing name)?"""
+    return bool(text and _CLUB_WORD_RE.search(text))
+
+
+def _derive_club(e):
+    """Set e['club'] — the club/organisation name — for display on the card's
+    info line (between State and Source). Sources put the club in different
+    fields: Top Dog often in `location` with a trial-type descriptor as the
+    `title`; DV/NSW in the `title`. We pick whichever field holds an
+    org-looking name, preferring location, then title, then any merged
+    alternate text. The event `title` is left untouched as the headline."""
+    title = (e.get("title") or "").strip()
+    loc = (e.get("location") or "").strip()
+    alts = [t for t in (e.get("_alt_text") or []) if t]
+    _STATES = ("victoria", "queensland", "new south wales", "western australia",
+               "south australia", "tasmania", "act", "northern territory")
+
+    club = ""
+    # Prefer location (Top Dog's club field), then title, then merged alternates.
+    for c in [loc, title] + alts:
+        cl = c.strip().lower() if c else ""
+        if c and cl not in _STATES and _looks_like_club(c):
+            club = c.strip()
+            break
+    # Fallback: a non-empty location that isn't a bare state name; else title.
+    if not club:
+        if loc and loc.lower() not in _STATES:
+            club = loc
+        else:
+            club = title
+
+    # Strip a trailing discipline suffix from the club name
+    # (e.g. "Oxley Dog Training Club Inc – Scent Work" -> "...Club Inc").
+    club = re.sub(r"\s*[\u2013-]\s*(scent\s*work|scentwork|tracking|"
+                  r"track\s*&?\s*search|obedience|rally|agility)\s*$", "",
+                  club, flags=re.I).strip()
+
+    e["club"] = club or title or "Event"
+    e.pop("_alt_text", None)  # internal scratch, don't ship it
 
 
 def canonical_category(cat):
@@ -1728,6 +1795,14 @@ def build_year():
                                 "closes", "address"):
                         if not k.get(fld) and e.get(fld):
                             k[fld] = e[fld]
+                    # Stash the duplicate's title/location text so the later
+                    # club/detail derivation can draw the club name from one
+                    # source and the trial-type descriptor from the other.
+                    alt = k.setdefault("_alt_text", [])
+                    if e.get("title"):
+                        alt.append(e["title"])
+                    if e.get("location"):
+                        alt.append(e["location"])
                     break
         if not dup:
             unique.append(e)
@@ -2002,6 +2077,12 @@ def build_year():
             "color": "#3aa657",
             "url": "https://vicdog.com/events-page/",
         })
+
+    # Derive the club/organisation name over EVERY event (for the info-line tag
+    # between State and Source). Sources place the club in different fields; this
+    # picks it out. The event title is left as-is for the headline.
+    for e in unique:
+        _derive_club(e)
 
     payload = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
