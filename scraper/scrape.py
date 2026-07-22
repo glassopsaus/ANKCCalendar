@@ -321,6 +321,87 @@ def parse_ical(source):
 # ---------------------------------------------------------------------------
 # HTML fallback parsing (The Events Calendar list markup + generic WP archive)
 # ---------------------------------------------------------------------------
+def parse_dogsact_months(source, year):
+    """Dogs ACT's ?ical=1 feed is truncated to a small forward window (it
+    returned only ~12 events for a whole year), so it misses most trials — past
+    ones and those beyond the window. The Events Calendar exposes a COMPLETE,
+    addressable month view at /events/month/YYYY-MM/, so we walk all 12 months
+    of the target year and parse the per-event links from each. This is the
+    reliable full-calendar source for ACT.
+    """
+    base = "https://dogsact.org.au/events/month/"
+    seen = {}  # (slug, start) -> event, to dedupe the grid/list repetition
+    for month in range(1, 13):
+        url = f"{base}{year}-{month:02d}/"
+        try:
+            resp = fetch(url)
+        except Exception as e:
+            print(f"[dogsact] month {year}-{month:02d} fetch failed: {e}",
+                  file=sys.stderr)
+            continue
+        soup = BeautifulSoup(resp.text, "html.parser")
+        # Each event links to /event/<slug>/ ; the visible date sits in a
+        # nearby <time datetime> or in the link's container text.
+        for a in soup.select('a[href*="/event/"]'):
+            href = a.get("href", "")
+            m = re.search(r"/event/([^/?#]+)", href)
+            if not m:
+                continue
+            slug = m.group(1)
+            title = a.get_text(" ", strip=True)
+            if not title:
+                continue
+            # Find a date for this event: prefer a <time datetime> in an
+            # ancestor cell/article; else a YYYY-MM-DD in the href or nearby.
+            start = None
+            container = a
+            for _ in range(4):
+                container = getattr(container, "parent", None)
+                if container is None:
+                    break
+                t = container.find("time", attrs={"datetime": True})
+                if t:
+                    dm = re.match(r"(\d{4}-\d{2}-\d{2})", t["datetime"])
+                    if dm:
+                        start = dm.group(1)
+                        break
+            if not start:
+                dm = re.search(r"(\d{4}-\d{2}-\d{2})", href)
+                if dm:
+                    start = dm.group(1)
+            if not start:
+                continue
+            # Only keep events whose date falls in the month we're fetching
+            # (the grid shows a few adjacent-month days too) and target year.
+            try:
+                d = dt.date.fromisoformat(start)
+            except ValueError:
+                continue
+            if d.year != year:
+                continue
+            discipline = classify_feed_discipline(title, "")
+            if not discipline:
+                continue
+            key = (slug, start)
+            if key in seen:
+                continue
+            seen[key] = {
+                "title": title,
+                "start": start,
+                "end": start,
+                "location": "",
+                "url": href if href.startswith("http")
+                       else "https://dogsact.org.au" + href,
+                "category": discipline,
+            }
+    events = list(seen.values())
+    from collections import Counter
+    _bd = Counter(e["category"] for e in events)
+    print(f"[dogsact] month-walk parsed {len(events)} events across disciplines "
+          f"{dict(_bd)}", file=sys.stderr)
+    return events
+
+
 def parse_html(source):
     try:
         resp = fetch(source["html"])
@@ -1221,6 +1302,13 @@ def scrape_source(source):
         events = parse_topdog(source)
     elif parser == "tasdogs":
         events = parse_tasdogs(source)
+    elif source.get("id") == "dogsact":
+        # Dogs ACT's ical feed is truncated; the month view is the complete
+        # calendar. Walk months first, fall back to ical/html only if that
+        # yields nothing (e.g. site markup changed).
+        events = parse_dogsact_months(source, YEAR)
+        if not events:
+            events = parse_ical(source) or parse_html(source)
     else:
         events = parse_ical(source) or []
         if not events:
