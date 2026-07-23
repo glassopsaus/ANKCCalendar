@@ -92,6 +92,14 @@ if DOGZ_ENABLED:
         print(f"[init] dogz_online import failed: {_e}", file=sys.stderr)
 else:
     HAVE_DZ = False
+# vicdog.com ("Dogs Victoria (Vic Dog Trials)") is RETIRED as a source
+# (2026-07, on request): most of what it added were single-source, unverified
+# events that turned out to be un-merged duplicates of events already covered
+# by the Dogs Victoria official calendar / Top Dog Events / Show Manager, so
+# its net verification value was low relative to the noise. The parser and its
+# cross-check/source wiring below are left intact but dormant. To revive it,
+# set VICDOG_ENABLED = True.
+VICDOG_ENABLED = False
 try:
     import national_events
     HAVE_NE = True
@@ -2312,32 +2320,34 @@ def build_year():
                           file=sys.stderr)
 
             # --- vicdog.com: VIC verify + gap-fill source --------------------
-            # vicdog listings (all disciplines) are layered additively onto the
-            # DV-PDF events: match_events corroborates/annotates existing VIC
-            # events (raising them to verified and adding cancellation/detail),
-            # and events_from_unmatched_listings adds any vicdog-only VIC events
-            # the DV PDF missed. Additive mode means it never downgrades an
-            # already-verified event.
-            try:
-                vicdog_listings = scrape_vicdog_listings(YEAR)
-                if vicdog_listings:
-                    matcher.match_events(unique, vicdog_listings, additive=True,
-                                         source_label="Dogs Victoria (Vic Dog Trials)")
-                    vd_matched = getattr(matcher.match_events,
-                                         "last_matched_ids", set())
-                    vd_gap = matcher.events_from_unmatched_listings(
-                        vicdog_listings, vd_matched, region_color=REGION_COLOR,
-                        existing_events=unique,
-                        source_name="Dogs Victoria (Vic Dog Trials)",
-                        default_url="https://vicdog.com/events-page/")
-                    for ge in vd_gap:
-                        ge["category"] = canonical_category(ge.get("category"))
-                    unique.extend(vd_gap)
-                    print(f"[vicdog] added {len(vd_gap)} vicdog-only events "
-                          f"(after dedup)", file=sys.stderr)
-            except Exception as e:
-                print(f"[vicdog] cross-check FAILED (skipping): {e}",
-                      file=sys.stderr)
+            # RETIRED (see VICDOG_ENABLED above) — skipped entirely unless
+            # re-enabled. vicdog listings, when enabled, are layered additively
+            # onto the DV-PDF events: match_events corroborates/annotates
+            # existing VIC events (raising them to verified and adding
+            # cancellation/detail), and events_from_unmatched_listings adds any
+            # vicdog-only VIC events the DV PDF missed. Additive mode means it
+            # never downgrades an already-verified event.
+            if VICDOG_ENABLED:
+                try:
+                    vicdog_listings = scrape_vicdog_listings(YEAR)
+                    if vicdog_listings:
+                        matcher.match_events(unique, vicdog_listings, additive=True,
+                                             source_label="Dogs Victoria (Vic Dog Trials)")
+                        vd_matched = getattr(matcher.match_events,
+                                             "last_matched_ids", set())
+                        vd_gap = matcher.events_from_unmatched_listings(
+                            vicdog_listings, vd_matched, region_color=REGION_COLOR,
+                            existing_events=unique,
+                            source_name="Dogs Victoria (Vic Dog Trials)",
+                            default_url="https://vicdog.com/events-page/")
+                        for ge in vd_gap:
+                            ge["category"] = canonical_category(ge.get("category"))
+                        unique.extend(vd_gap)
+                        print(f"[vicdog] added {len(vd_gap)} vicdog-only events "
+                              f"(after dedup)", file=sys.stderr)
+                except Exception as e:
+                    print(f"[vicdog] cross-check FAILED (skipping): {e}",
+                          file=sys.stderr)
         except Exception as e:
             print(f"[crosscheck] FAILED: {e}", file=sys.stderr)
             # Fall back to provider-only labels so the page still renders.
