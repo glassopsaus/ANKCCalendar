@@ -1052,6 +1052,13 @@ TASDOGS_BASE = "https://tasdogs.com/category/events"
 TASDOGS_MAX_PAGES = 6
 # Permalink date: /YYYY/MM/DD/slug/
 _TASDOGS_DATE_RE = re.compile(r"/(\d{4})/(\d{2})/(\d{2})/")
+# Boilerplate anchor text that WordPress archive themes attach to a post's
+# permalink IN ADDITION TO the real title link — e.g. a "posted on" date-stamp
+# link (just "23 July") and a "Read More"/"Continue reading" link. Used to
+# pick the best of several same-permalink anchors, not to skip a post outright.
+_TASDOGS_BORING_LINK_RE = re.compile(
+    r"^(read\s*more\.*|continue\s*reading\.*|more\.*|permalink|"
+    r"\d{1,2}(st|nd|rd|th)?(\s+[A-Za-z]+){0,2}(\s+20\d{2})?)$", re.I)
 # Admin/non-event posts to skip (title-based).
 _TASDOGS_SKIP_RE = re.compile(
     r"change of judge|survey|premise|proposed champion|minutes|meeting|"
@@ -1077,12 +1084,36 @@ def _parse_tasdogs_categories(source):
             except Exception:
                 break  # 404 => past last page / no such sub-category
             soup = BeautifulSoup(resp.text, "html.parser")
-            # Post title links point at dated permalinks.
-            links = []
+            # Post title links point at dated permalinks. IMPORTANT: a single
+            # WordPress archive post typically renders SEVERAL anchors at the
+            # SAME permalink — a "posted on" date-stamp link (text "23 July"),
+            # the actual post-title link, and a "Read More"/"Continue reading"
+            # link. Collected naively that's 3 rows for one real post, none of
+            # which collide later (the dedup key includes the differing anchor
+            # text). So dedupe by href FIRST, keeping the most informative
+            # anchor text seen for each permalink (skip boilerplate text like
+            # "Read More" or a bare date when a better title is available).
+            by_href = {}
             for a in soup.find_all("a", href=True):
                 href = a["href"]
-                if _TASDOGS_DATE_RE.search(href) and a.get_text(strip=True):
-                    links.append((href, a.get_text(" ", strip=True)))
+                if not _TASDOGS_DATE_RE.search(href):
+                    continue
+                text = a.get_text(" ", strip=True)
+                if not text:
+                    continue
+                prev = by_href.get(href)
+                if prev is None:
+                    by_href[href] = text
+                elif _TASDOGS_BORING_LINK_RE.match(prev.strip()):
+                    # existing text is boilerplate/bare-date; prefer this one
+                    # unless it's ALSO boilerplate and no better than prev.
+                    if not _TASDOGS_BORING_LINK_RE.match(text.strip()) or len(text) > len(prev):
+                        by_href[href] = text
+                elif _TASDOGS_BORING_LINK_RE.match(text.strip()):
+                    continue  # keep the existing, better text
+                elif len(text) > len(prev):
+                    by_href[href] = text
+            links = list(by_href.items())
             if not links:
                 break
             sig = tuple(sorted({h for h, _ in links}))
