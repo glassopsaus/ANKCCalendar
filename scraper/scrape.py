@@ -92,14 +92,6 @@ if DOGZ_ENABLED:
         print(f"[init] dogz_online import failed: {_e}", file=sys.stderr)
 else:
     HAVE_DZ = False
-# vicdog.com ("Dogs Victoria (Vic Dog Trials)") is RETIRED as a source
-# (2026-07, on request): most of what it added were single-source, unverified
-# events that turned out to be un-merged duplicates of events already covered
-# by the Dogs Victoria official calendar / Top Dog Events / Show Manager, so
-# its net verification value was low relative to the noise. The parser and its
-# cross-check/source wiring below are left intact but dormant. To revive it,
-# set VICDOG_ENABLED = True.
-VICDOG_ENABLED = False
 try:
     import national_events
     HAVE_NE = True
@@ -1060,13 +1052,6 @@ TASDOGS_BASE = "https://tasdogs.com/category/events"
 TASDOGS_MAX_PAGES = 6
 # Permalink date: /YYYY/MM/DD/slug/
 _TASDOGS_DATE_RE = re.compile(r"/(\d{4})/(\d{2})/(\d{2})/")
-# Boilerplate anchor text that WordPress archive themes attach to a post's
-# permalink IN ADDITION TO the real title link — e.g. a "posted on" date-stamp
-# link (just "23 July") and a "Read More"/"Continue reading" link. Used to
-# pick the best of several same-permalink anchors, not to skip a post outright.
-_TASDOGS_BORING_LINK_RE = re.compile(
-    r"^(read\s*more\.*|continue\s*reading\.*|more\.*|permalink|"
-    r"\d{1,2}(st|nd|rd|th)?(\s+[A-Za-z]+){0,2}(\s+20\d{2})?)$", re.I)
 # Admin/non-event posts to skip (title-based).
 _TASDOGS_SKIP_RE = re.compile(
     r"change of judge|survey|premise|proposed champion|minutes|meeting|"
@@ -1092,36 +1077,12 @@ def _parse_tasdogs_categories(source):
             except Exception:
                 break  # 404 => past last page / no such sub-category
             soup = BeautifulSoup(resp.text, "html.parser")
-            # Post title links point at dated permalinks. IMPORTANT: a single
-            # WordPress archive post typically renders SEVERAL anchors at the
-            # SAME permalink — a "posted on" date-stamp link (text "23 July"),
-            # the actual post-title link, and a "Read More"/"Continue reading"
-            # link. Collected naively that's 3 rows for one real post, none of
-            # which collide later (the dedup key includes the differing anchor
-            # text). So dedupe by href FIRST, keeping the most informative
-            # anchor text seen for each permalink (skip boilerplate text like
-            # "Read More" or a bare date when a better title is available).
-            by_href = {}
+            # Post title links point at dated permalinks.
+            links = []
             for a in soup.find_all("a", href=True):
                 href = a["href"]
-                if not _TASDOGS_DATE_RE.search(href):
-                    continue
-                text = a.get_text(" ", strip=True)
-                if not text:
-                    continue
-                prev = by_href.get(href)
-                if prev is None:
-                    by_href[href] = text
-                elif _TASDOGS_BORING_LINK_RE.match(prev.strip()):
-                    # existing text is boilerplate/bare-date; prefer this one
-                    # unless it's ALSO boilerplate and no better than prev.
-                    if not _TASDOGS_BORING_LINK_RE.match(text.strip()) or len(text) > len(prev):
-                        by_href[href] = text
-                elif _TASDOGS_BORING_LINK_RE.match(text.strip()):
-                    continue  # keep the existing, better text
-                elif len(text) > len(prev):
-                    by_href[href] = text
-            links = list(by_href.items())
+                if _TASDOGS_DATE_RE.search(href) and a.get_text(strip=True):
+                    links.append((href, a.get_text(" ", strip=True)))
             if not links:
                 break
             sig = tuple(sorted({h for h, _ in links}))
@@ -2320,34 +2281,32 @@ def build_year():
                           file=sys.stderr)
 
             # --- vicdog.com: VIC verify + gap-fill source --------------------
-            # RETIRED (see VICDOG_ENABLED above) — skipped entirely unless
-            # re-enabled. vicdog listings, when enabled, are layered additively
-            # onto the DV-PDF events: match_events corroborates/annotates
-            # existing VIC events (raising them to verified and adding
-            # cancellation/detail), and events_from_unmatched_listings adds any
-            # vicdog-only VIC events the DV PDF missed. Additive mode means it
-            # never downgrades an already-verified event.
-            if VICDOG_ENABLED:
-                try:
-                    vicdog_listings = scrape_vicdog_listings(YEAR)
-                    if vicdog_listings:
-                        matcher.match_events(unique, vicdog_listings, additive=True,
-                                             source_label="Dogs Victoria (Vic Dog Trials)")
-                        vd_matched = getattr(matcher.match_events,
-                                             "last_matched_ids", set())
-                        vd_gap = matcher.events_from_unmatched_listings(
-                            vicdog_listings, vd_matched, region_color=REGION_COLOR,
-                            existing_events=unique,
-                            source_name="Dogs Victoria (Vic Dog Trials)",
-                            default_url="https://vicdog.com/events-page/")
-                        for ge in vd_gap:
-                            ge["category"] = canonical_category(ge.get("category"))
-                        unique.extend(vd_gap)
-                        print(f"[vicdog] added {len(vd_gap)} vicdog-only events "
-                              f"(after dedup)", file=sys.stderr)
-                except Exception as e:
-                    print(f"[vicdog] cross-check FAILED (skipping): {e}",
-                          file=sys.stderr)
+            # vicdog listings (all disciplines) are layered additively onto the
+            # DV-PDF events: match_events corroborates/annotates existing VIC
+            # events (raising them to verified and adding cancellation/detail),
+            # and events_from_unmatched_listings adds any vicdog-only VIC events
+            # the DV PDF missed. Additive mode means it never downgrades an
+            # already-verified event.
+            try:
+                vicdog_listings = scrape_vicdog_listings(YEAR)
+                if vicdog_listings:
+                    matcher.match_events(unique, vicdog_listings, additive=True,
+                                         source_label="Dogs Victoria (Vic Dog Trials)")
+                    vd_matched = getattr(matcher.match_events,
+                                         "last_matched_ids", set())
+                    vd_gap = matcher.events_from_unmatched_listings(
+                        vicdog_listings, vd_matched, region_color=REGION_COLOR,
+                        existing_events=unique,
+                        source_name="Dogs Victoria (Vic Dog Trials)",
+                        default_url="https://vicdog.com/events-page/")
+                    for ge in vd_gap:
+                        ge["category"] = canonical_category(ge.get("category"))
+                    unique.extend(vd_gap)
+                    print(f"[vicdog] added {len(vd_gap)} vicdog-only events "
+                          f"(after dedup)", file=sys.stderr)
+            except Exception as e:
+                print(f"[vicdog] cross-check FAILED (skipping): {e}",
+                      file=sys.stderr)
         except Exception as e:
             print(f"[crosscheck] FAILED: {e}", file=sys.stderr)
             # Fall back to provider-only labels so the page still renders.
