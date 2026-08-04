@@ -100,6 +100,30 @@ _NOT_SINGLE_BREED = re.compile(
 # Longest keys first so "staffordshire bull terrier" beats "terrier", etc.
 _KEYS_BY_LEN = sorted(_BREED_GROUP.keys(), key=len, reverse=True)
 
+# "Open" as an ENTRY-ELIGIBILITY marker: a breed club can host an event that is
+# open to ALL breeds, signalled by "Open" directly before a discipline/trial
+# word (e.g. "Open Scent Work Trial", "Open Agility Trial", a leading
+# "Open Trial"). When present, the event is NOT breed-restricted even though a
+# breed club runs it, so we must NOT tag it. This is DELIBERATELY narrow so it
+# does not fire on:
+#   * "Championship & Open Show" / "Open Show"  -> conformation SHOW CLASS
+#   * "Open Stakes" / "All Age" / "Novice"      -> retrieving/obedience LEVEL
+# both of which remain breed-restricted.
+_OPEN_ALL_BREEDS = re.compile(
+    r"\bopen\b(?!\s+(?:show|stake|stakes))\s+"
+    r"(?:scent\s*work|agility|jumping|tracking|track|obedience|rally|trick|"
+    r"dances|herding|endurance|lure|sprint|sled|trial|trials|test|tests)",
+    re.I)
+_OPEN_LEADING = re.compile(r"^\s*open\s+(?:trial|test)\b", re.I)
+
+
+def is_open_all_breeds(title):
+    """True if a title marks the event as open to ALL breeds via a bare "Open
+    <discipline>" (not "Open Show" class, not "Open Stakes" level)."""
+    if not title:
+        return False
+    return bool(_OPEN_ALL_BREEDS.search(title) or _OPEN_LEADING.search(title))
+
 
 # Disciplines that are INHERENTLY restricted to a breed group by their nature,
 # regardless of the club. Retrieving trials, Retrieving Ability Tests for
@@ -120,13 +144,21 @@ def group_for_discipline(category):
     return GROUP_LABELS[g] if g else None
 
 
-def infer_breed_group(text):
-    """Infer (group_label, breed_keyword) from a CONFORMATION event's club/title.
-    Returns (None, None) when the club isn't a recognisable single breed or is a
-    known all-breeds/multi-breed body. The caller must only invoke this for
-    Conformation events.
+def infer_breed_group(text, title=None):
+    """Infer (group_label, breed_keyword) from an event's club/title for a
+    SINGLE-BREED club (applies to shows AND trials — a breed club's trial is
+    restricted to that breed's group). Returns (None, None) when:
+      * the club isn't a recognisable single breed, or is a known
+        all-breeds/multi-breed/regional body (via _NOT_SINGLE_BREED), or
+      * the event title marks it OPEN to all breeds (bare "Open <discipline>"),
+        even though a breed club runs it.
+    `title` defaults to `text`; pass the event title explicitly when the club
+    name and title differ so the open-to-all-breeds check sees the full title.
     """
     if not text:
+        return None, None
+    # A breed club's event can be explicitly open to all breeds -> not tagged.
+    if is_open_all_breeds(title if title is not None else text):
         return None, None
     low = text.lower()
     # Never infer for all-breeds / multi-breed / regional bodies.
