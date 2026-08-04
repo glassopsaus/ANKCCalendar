@@ -86,8 +86,8 @@ SM_DISCIPLINES = {
     "sprintdog": "Sprint",
     "weight pull": "Weight Pull",
     "trick dog": "Trick Dog",
-    "ratg": "RATG",
-    "draft test": "Draft Test",
+    "ratg": "Retrieving",
+    "draft test": "Herding",
     "backpacking": "Backpacking",
 }
 
