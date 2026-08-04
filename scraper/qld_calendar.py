@@ -113,7 +113,7 @@ def find_current_qld_pdf_url(year):
     try:
         from bs4 import BeautifulSoup
         resp = requests.get(QLD_DATES_PAGE, timeout=20,
-                            headers={"User-Agent": "TrackingCalendarBot/1.0"})
+                            headers={"User-Agent": "ANKCEventCheck/1.0"})
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
         best = None
@@ -335,7 +335,7 @@ def parse_qld_calendar(year, pdf_url=None, pdf_bytes=None):
             else:
                 print(f"[qld] using PDF: {url}", file=sys.stderr)
             resp = requests.get(url, timeout=40,
-                                headers={"User-Agent": "TrackingCalendarBot/1.0"})
+                                headers={"User-Agent": "ANKCEventCheck/1.0"})
             resp.raise_for_status()
             pdf_bytes = resp.content
         text_parts = []
