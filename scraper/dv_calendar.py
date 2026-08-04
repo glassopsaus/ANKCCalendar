@@ -142,7 +142,7 @@ def find_current_dv_pdf_url(year):
     try:
         from bs4 import BeautifulSoup
         resp = requests.get(DV_CALENDAR_PAGE, timeout=20,
-                            headers={"User-Agent": "TrackingCalendarBot/1.0"})
+                            headers={"User-Agent": "ANKCEventCheck/1.0"})
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "html.parser")
         pat = re.compile(
@@ -308,7 +308,7 @@ def parse_dv_calendar(year, pdf_url=None, pdf_bytes=None):
             else:
                 print(f"[dv] using PDF: {url}", file=sys.stderr)
             resp = requests.get(url, timeout=40,
-                                headers={"User-Agent": "TrackingCalendarBot/1.0"})
+                                headers={"User-Agent": "ANKCEventCheck/1.0"})
             resp.raise_for_status()
             pdf_bytes = resp.content
         text_parts = []
