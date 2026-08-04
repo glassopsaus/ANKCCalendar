@@ -59,7 +59,7 @@ TIMEOUT = 60
 # The page that always links to the current PDF (stable URL).
 NSW_CALENDAR_PAGE = "https://www.dogsnsw.org.au/events/show-and-trials-guide/"
 # Fallback if discovery fails: the known 2026 PDF (may go stale on amendment).
-NSW_PDF_FALLBACK = ("https://dogsnsw.org.au/media/7610/"
+NSW_PDF_FALLBACK = ("https://dogsnsw.org.au/media/8008/"
                     "2026-show-trial-calendar-website-with-entry-system.pdf")
 
 # Full discipline-code -> canonical category map (ALL ANKC sports, aligned with
@@ -71,8 +71,7 @@ NSW_DISCIPLINE_MAP = {
     "T&S": "Track & Search",
     "SW": "Scent Work",
     "OT": "Obedience",
-    "RT": "Rally Obedience",
-    "R-OT": "Obedience",
+    "R-OT": "Rally Obedience",   # legend: "Rally Obedience Trial R-OT"
     "AT": "Agility", "JT": "Agility", "GT": "Agility", "GAMES": "Agility",
     "TD": "Trick Dog",
     "DWD": "Dances with Dogs",
@@ -83,6 +82,11 @@ NSW_DISCIPLINE_MAP = {
     "RATG": "Retrieving", "RET": "Retrieving",
     "EDT": "Earthdog",
     "SD": "Sled Sports", "SS": "Sprint",
+    "DT": "Herding",          # Drafting Test (herding-family working test)
+    "FTUG": "Field Trial",    # Field Trial (Utility Gundog)
+    "WPD": "Sled Sports",     # Working Pack Dog (endurance/pack working)
+    "RT": "Retrieving",       # Retrieving Trial (RT); Rally is R-OT/ROT below
+    "ROT": "Rally Obedience",  # alt spelling of R-OT
     # Newly ANKC-sanctioned disciplines (Bale Seek from 2026, Canine Disc from
     # 2025). NOTE: the exact NSW PDF codes for these are not yet confirmed from a
     # live calendar that includes them; these are the plausible/observed tokens.
@@ -147,6 +151,13 @@ NSW_CODE_VOCAB = {
     "FT", "SS", "TD", "TT", "SW",
     # composite/rare tokens seen in real data:
     "RTG5", "GAMES",
+    # additional codes/modifiers observed in the "with entry system" PDF. These
+    # include show modifiers (A2O, CACIB, NAT, NEUTER) that attach to CH, and
+    # extra disciplines (DT drafting, FTUG field trial, WPD working pack dog,
+    # ROT rally). Adding them lets composite Type tokens like "CH/A2O" or
+    # "OT/ROT/RATG/NAT" be recognised as a type field rather than mistaken for
+    # club words.
+    "A2O", "CACIB", "NAT", "NEUTER", "DT", "FTUG", "WPD", "ROT", "RETG",
 }
 
 
