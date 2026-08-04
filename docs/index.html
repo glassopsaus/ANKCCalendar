@@ -534,7 +534,7 @@ function cardHtml(e,f){
   //  • "Schedule" — ONLY a schedule document (a PDF / schedule page), e.g. the
   //    Ozentries schedule PDF or a Show Manager schedule blob.
   // If a URL is neither, it produces no link (better than a misleading one).
-  const isEntryPlatform = (u) => !!u && /(\/\/(www\.)?showmanager\.com\.au\/|topdogevents\.com\.au\/trials\/\d+|readyentries\.com\/view-event-group)/i.test(u);
+  const isEntryPlatform = (u) => !!u && /(\/\/(www\.)?showmanager\.com\.au\/events\/publicevents\/details\/\d+|topdogevents\.com\.au\/trials\/\d+|readyentries\.com\/view-event-group)/i.test(u);
   const isScheduleDoc = (u) => !!u && !isEntryPlatform(u) && (/\.pdf(\?|$)/i.test(u) || /ozentries\.com\.au\/schedule\//i.test(u) || /showmanagerservice\.|cloudfront\.net|cdn\.showmanager\.com\.au/i.test(u));
   // Pick the entry link from whichever field holds a genuine entry-platform URL.
   const entryHref = [e.entry_url, e.schedule_url].find(isEntryPlatform) || "";
