@@ -1,17 +1,17 @@
 {
-  "generated": "2026-08-04T13:18:25+00:00",
+  "generated": "2026-08-04T14:49:03+00:00",
   "current_year": 2026,
   "years": [
     {
       "year": 2025,
-      "count": 1681,
-      "signature": "f920ba308e7cfe56d0a155c949cd6e643f34491d1f68e72ae602b3996723eb03",
+      "count": 1625,
+      "signature": "eaa4f112527933112b26013e524faa0effa3d6c914005ef117aee2edfa62ea79",
       "stable_runs": 1,
       "frozen": false
     },
     {
       "year": 2026,
-      "count": 2897
+      "count": 2818
     },
     {
       "year": 2027,

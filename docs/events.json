@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04T13:29:28+00:00",
+  "generated": "2026-08-04T14:58:12+00:00",
   "year": 2026,
-  "count": 2897,
+  "count": 2818,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -370,29 +370,6 @@
       "club": "Agility Folk"
     },
     {
-      "title": "Create your first DWD routine workshop",
-      "start": "2026-01-10",
-      "end": "2026-01-10",
-      "location": "Dances with Dogs Advisory Committee - South Australia",
-      "url": "https://www.topdogevents.com.au/trials/1246",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1246",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Advisory Committee - South Australia"
-    },
-    {
       "title": "Geelong Novice Trial",
       "start": "2026-01-10",
       "end": "2026-01-25",
@@ -475,13 +452,16 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-01-08",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45830",
       "open_now": false,
       "is_past": true,
       "club": "Northern Suburbs Dog Training Club Inc \u2013 Retrieving"
@@ -984,6 +964,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "toy",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -1301,6 +1283,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -1778,14 +1761,12 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)",
-        "Show Manager"
+        "Dogs Queensland (trial calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-27",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45973",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": true
     },
@@ -1935,6 +1916,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "kelpie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -1957,6 +1940,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "cocker spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -2338,11 +2323,11 @@
       "is_past": true
     },
     {
-      "title": "ACWA 25th Bithday BBQ Fundraiser",
+      "title": "ACWA's 25th Anniversary Agility and Games Trial",
       "start": "2026-02-08",
       "end": "2026-02-08",
       "location": "Agility Club of WA",
-      "url": "https://www.topdogevents.com.au/trials/1438",
+      "url": "https://www.topdogevents.com.au/trials/1350",
       "category": "Agility",
       "cancelled": false,
       "region": "WA",
@@ -2356,7 +2341,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1438",
+      "entry_url": "https://www.topdogevents.com.au/trials/1350",
       "open_now": false,
       "is_past": true,
       "club": "Agility Club of WA"
@@ -2445,6 +2430,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "beagle",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -2747,13 +2734,11 @@
       "cancelled": false,
       "provider": "Show Manager",
       "sources": [
-        "Dogs NSW",
-        "Show Manager"
+        "Dogs NSW"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-10",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
       "entry_url": null,
       "open_now": false,
       "is_past": true,
@@ -3473,29 +3458,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Tasmanian Dog Training Club Inc."
-    },
-    {
-      "title": "Fundraiser for 2026 Agility Nationals - Training Day - Agility, Jumping, Games",
-      "start": "2026-02-21",
-      "end": "2026-02-21",
-      "location": "2026 QLD Nationals Committee",
-      "url": "https://www.topdogevents.com.au/trials/1182",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "QLD",
-      "color": "#c0392b",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1182",
-      "open_now": false,
-      "is_past": true,
-      "club": "2026 QLD Nationals Committee"
     },
     {
       "title": "GSDAWA Obedience & Rally Trial Obedience",
@@ -4276,13 +4238,16 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-02-14",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45982",
       "open_now": false,
       "is_past": true
     },
@@ -4439,6 +4404,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "samoyed",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -4703,29 +4670,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
-    },
-    {
-      "title": "Stellar Dogs Training & Education - Scentwork Workshop Boyanup (March 2026)",
-      "start": "2026-03-05",
-      "end": "2026-03-05",
-      "location": "Stellar Dogs Training and Education",
-      "url": "https://www.topdogevents.com.au/trials/1363",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1363",
-      "open_now": false,
-      "is_past": true,
-      "club": "Stellar Dogs Training and Education"
     },
     {
       "title": "Agility & Double Jumpers FR Trial",
@@ -5039,6 +4983,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "basenji",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -5599,13 +5545,16 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-03-02",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45910",
       "open_now": false,
       "is_past": true,
       "club": "Working Gundog Club of NSW \u2013 Retrieving"
@@ -6143,29 +6092,6 @@
       "club": "Rarer Gundog Spaniel Club of Vic"
     },
     {
-      "title": "Stellar Dogs Training & Education - Scentwork Workshop Bridgetown (March 2026)",
-      "start": "2026-03-13",
-      "end": "2026-03-13",
-      "location": "Stellar Dogs Training and Education",
-      "url": "https://www.topdogevents.com.au/trials/1364",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1364",
-      "open_now": false,
-      "is_past": true,
-      "club": "Stellar Dogs Training and Education"
-    },
-    {
       "title": "Adelong P & A Society Inc \u2013 Conformation",
       "start": "2026-03-14",
       "end": "2026-03-14",
@@ -6269,6 +6195,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "chihuahua",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -6293,13 +6221,11 @@
       "cancelled": false,
       "provider": "Top Dog Events",
       "sources": [
-        "Dogs NSW",
-        "Show Manager"
+        "Dogs NSW"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-14",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
       "entry_url": null,
       "open_now": false,
       "is_past": true,
@@ -6455,6 +6381,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -6728,14 +6655,12 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Dogs Victoria (official calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-09",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45928",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "club": "Southern Obedience Dog Training Club Inc"
@@ -6878,29 +6803,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Melbourne & District Dances with Dogs club"
-    },
-    {
-      "title": "NCODC Agility - Distance Handling Seminar",
-      "start": "2026-03-15",
-      "end": "2026-03-15",
-      "location": "Noarlunga City Obedience Dog Club Inc",
-      "url": "https://www.topdogevents.com.au/trials/1552",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1552",
-      "open_now": false,
-      "is_past": true,
-      "club": "Noarlunga City Obedience Dog Club Inc"
     },
     {
       "title": "Pakenham & District A & H Society Inc",
@@ -7542,6 +7444,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -7590,6 +7493,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -7637,6 +7541,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "hound",
       "sources": [
         "Dogs NSW"
       ],
@@ -8613,6 +8519,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "afghan",
       "sources": [
         "Dogs NSW"
       ],
@@ -9061,6 +8969,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -9177,6 +9086,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -9295,6 +9205,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "boston terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -9366,6 +9278,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "bichon",
       "sources": [
         "Dogs NSW"
       ],
@@ -9412,6 +9326,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "cocker spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -9492,29 +9408,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Canine Obedience Club of Townsville Inc"
-    },
-    {
-      "title": "PDODC Members Only - Egg-cellent Funday",
-      "start": "2026-04-03",
-      "end": "2026-04-03",
-      "location": "Para District Obedience Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/1540",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1540",
-      "open_now": false,
-      "is_past": true,
-      "club": "Para District Obedience Dog Club"
     },
     {
       "title": "Shetland Sheepdog Club \u2013 Scent Work",
@@ -9667,6 +9560,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "kelpie",
       "sources": [
         "Dogs NSW"
       ],
@@ -9872,6 +9767,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "tibetan spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -9939,6 +9836,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -10032,6 +9930,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Top Dog Events"
@@ -10055,6 +9954,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -10167,6 +10067,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "wheaten",
       "sources": [
         "Dogs NSW"
       ],
@@ -10236,6 +10138,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs NSW"
       ],
@@ -10259,6 +10163,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -10422,6 +10327,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "springer spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -10493,6 +10400,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -10585,6 +10493,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "scottish terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -10908,6 +10818,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "german shorthaired pointer",
       "sources": [
         "Dogs NSW"
       ],
@@ -10978,6 +10890,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "american staffordshire terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -11609,6 +11523,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -11680,6 +11595,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -11967,29 +11883,6 @@
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW, Amenities Building"
-    },
-    {
-      "title": "Dances with Dogs Advisory committee - Tricks and DWD National 2027 fundraising raffle",
-      "start": "2026-04-12",
-      "end": "2026-04-12",
-      "location": "Dances with Dogs Advisory Committee - South Australia",
-      "url": "https://www.topdogevents.com.au/trials/1569",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1569",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Advisory Committee - South Australia"
     },
     {
       "title": "GDTC Double Agility/Jumping Trial",
@@ -12883,6 +12776,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -13326,6 +13221,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -13334,7 +13230,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-04-12",
-      "entry_url": null,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46707",
       "open_now": false,
       "is_past": true,
       "club": "Gippsland Dog Obedience Club"
@@ -13351,6 +13247,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -13885,6 +13782,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -13908,6 +13806,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -13931,6 +13830,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "bearded collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -14164,6 +14065,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -14282,6 +14184,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -14393,6 +14296,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -14717,6 +14621,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -15008,13 +14913,16 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-03-30",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45469",
       "open_now": false,
       "is_past": true,
       "club": "Weimaraner Club of Victoria Inc"
@@ -15700,6 +15608,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "hound",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -15862,6 +15772,7 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -15955,6 +15866,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -15976,6 +15888,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "weimaraner",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -16263,6 +16177,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "beagle",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -16381,6 +16297,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -16952,29 +16869,6 @@
       "club": "The ACT Gundog Society"
     },
     {
-      "title": "ANRTWP FUNDRAISING EVENT",
-      "start": "2026-05-09",
-      "end": "2026-05-09",
-      "location": "ANRTWP",
-      "url": "https://www.topdogevents.com.au/trials/1388",
-      "category": "Retrieving",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1388",
-      "open_now": false,
-      "is_past": true,
-      "club": "ANRTWP"
-    },
-    {
       "title": "Agility x 1 and Jumping x 2 Trial",
       "start": "2026-05-09",
       "end": "2026-05-09",
@@ -17109,6 +17003,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "borzoi",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -17225,6 +17121,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -17593,6 +17491,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "papillon",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -17638,6 +17538,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -17755,6 +17656,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "welsh corgi",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -17778,6 +17681,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -17916,6 +17820,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -18066,29 +17971,6 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1490",
-      "open_now": false,
-      "is_past": true,
-      "club": "Top End Dog Club"
-    },
-    {
-      "title": "Scent Workshop - Audit",
-      "start": "2026-05-10",
-      "end": "2026-05-10",
-      "location": "Top End Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/1545",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "NT",
-      "color": "#b8621d",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1545",
       "open_now": false,
       "is_past": true,
       "club": "Top End Dog Club"
@@ -18525,13 +18407,11 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs NSW",
-        "Show Manager"
+        "Dogs NSW"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "closes": null,
       "entry_url": "https://www.topdogevents.com.au/trials/1360",
       "open_now": false,
       "is_past": true,
@@ -18820,29 +18700,6 @@
       "is_past": true
     },
     {
-      "title": "Dances with Dogs Advisory committee - Tricks and DWD National 2027 fundraising raffle",
-      "start": "2026-05-16",
-      "end": "2026-05-17",
-      "location": "Dances with Dogs Advisory Committee - South Australia",
-      "url": "https://www.topdogevents.com.au/trials/1711",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1711",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Advisory Committee - South Australia"
-    },
-    {
       "title": "Double Obedience & Double Rally Trial Obedience",
       "start": "2026-05-16",
       "end": "2026-05-16",
@@ -18900,6 +18757,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs NSW"
       ],
@@ -19016,6 +18875,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -19156,6 +19017,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -19212,6 +19074,29 @@
       "open_now": false,
       "is_past": true,
       "club": "Rockhampton Dog Obedience Club"
+    },
+    {
+      "title": "South Australia State Dances With Dogs Championships",
+      "start": "2026-05-16",
+      "end": "2026-05-17",
+      "location": "Dances with Dogs Advisory Committee - South Australia",
+      "url": "https://www.topdogevents.com.au/trials/1526",
+      "category": "Dances with Dogs",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1526",
+      "open_now": false,
+      "is_past": true,
+      "club": "Dances with Dogs Advisory Committee - South Australia"
     },
     {
       "title": "Townsville \u2013 Agility",
@@ -19502,13 +19387,16 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-05-10",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47022",
       "open_now": false,
       "is_past": true,
       "club": "Hungarian Vizsla Club of NSW Inc \u2013 Retrieving"
@@ -19549,6 +19437,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -19571,13 +19461,16 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-05-10",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47109",
       "open_now": false,
       "is_past": true,
       "club": "Nova Scotia Duck Tolling Retriever Club of Vic. Inc RTB RTB"
@@ -19618,6 +19511,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -20200,6 +20094,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -20294,6 +20189,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -20340,6 +20236,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -20883,6 +20780,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "boston terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -20930,6 +20829,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -21114,6 +21015,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -21365,6 +21267,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -21767,6 +21670,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -21859,6 +21763,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -22022,6 +21927,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador retriever",
       "sources": [
         "Dogs NSW"
       ],
@@ -22137,39 +22044,19 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-05-17",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47608",
       "open_now": false,
       "is_past": true,
       "club": "Newcastle All Breeds Dog Training Club Inc \u2013 Retrieving"
-    },
-    {
-      "title": "PDODC Members Only - Confident Containers Workshop",
-      "start": "2026-05-31",
-      "end": "2026-05-31",
-      "location": "Para District Obedience Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/1819",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1819",
-      "open_now": false,
-      "is_past": true,
-      "club": "Para District Obedience Dog Club"
     },
     {
       "title": "Retrieving Trial - All Age Stakes (Natl Fundraiser) CAWA Events Ctee",
@@ -22183,6 +22070,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -22192,29 +22080,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true
-    },
-    {
-      "title": "SWCWA - Dog Driven Handling Workshop",
-      "start": "2026-05-31",
-      "end": "2026-05-31",
-      "location": "Scent Work Club of WA",
-      "url": "https://www.topdogevents.com.au/trials/1603",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1603",
-      "open_now": false,
-      "is_past": true,
-      "club": "Scent Work Club of WA"
     },
     {
       "title": "State Trials S\u2019Cttee \u2013 Rally Obedience",
@@ -22598,6 +22463,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "bullmastiff",
       "sources": [
         "Dogs NSW"
       ],
@@ -22941,6 +22808,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "airedale",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -23175,6 +23044,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs NSW"
       ],
@@ -23197,6 +23068,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "japanese chin",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -23337,6 +23210,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "newfoundland",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -23453,6 +23328,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "wheaten",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -23618,6 +23495,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -23802,6 +23680,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -23940,6 +23820,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -23985,6 +23866,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "japanese chin",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -24079,6 +23962,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -24126,6 +24011,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -24148,6 +24035,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -24231,29 +24120,6 @@
       "club": "Southern Obedience Dog Training Club"
     },
     {
-      "title": "PAA Course Fundraiser",
-      "start": "2026-06-08",
-      "end": "2026-06-08",
-      "location": "Precision Agility Academy",
-      "url": "https://www.topdogevents.com.au/trials/1249",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1249",
-      "open_now": false,
-      "is_past": true,
-      "club": "Precision Agility Academy"
-    },
-    {
       "title": "Southern Obedience Dog Club",
       "start": "2026-06-08",
       "end": "2026-06-08",
@@ -24309,6 +24175,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "spitz",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -24957,6 +24825,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -25168,6 +25037,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -25446,6 +25316,7 @@
       "color": "#c8632a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -25634,6 +25505,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -25796,6 +25668,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -26225,6 +26098,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "cocker spaniel",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -26577,6 +26452,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -26878,6 +26754,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -26990,13 +26867,16 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-06-08",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46264",
       "open_now": false,
       "is_past": true,
       "club": "Pointer Club of NSW \u2013 Retrieving"
@@ -27345,13 +27225,16 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-06-15",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47821",
       "open_now": false,
       "is_past": true,
       "club": "Blacktown Kennel & Training Club Inc \u2013 Retrieving"
@@ -27459,6 +27342,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -27482,6 +27366,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "setter",
       "sources": [
         "Dogs NSW"
       ],
@@ -27600,6 +27486,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -27727,11 +27614,11 @@
       "club": "Welsh Corgi Club of NSW Inc \u2013 Sled Sports"
     },
     {
-      "title": "2026  Agility Nationals Qld ***MAJOR RAFFLE*** - Drawn 23/6/2026",
+      "title": "2026 Agility Nationals Queensland - Entries",
       "start": "2026-06-23",
       "end": "2026-06-28",
       "location": "2026 QLD Nationals Committee",
-      "url": "https://www.topdogevents.com.au/trials/1575",
+      "url": "https://www.topdogevents.com.au/trials/1307",
       "category": "Agility",
       "cancelled": false,
       "region": "QLD",
@@ -27739,14 +27626,12 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Show Manager"
+        "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
-      "closes": "2026-06-19",
-      "entry_url": "https://www.topdogevents.com.au/trials/1575",
+      "entry_url": "https://www.topdogevents.com.au/trials/1307",
       "open_now": false,
       "is_past": true,
       "club": "2026 QLD Nationals Committee"
@@ -28448,6 +28333,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -28517,6 +28403,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -29021,13 +28908,16 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-06-22",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47157",
       "open_now": false,
       "is_past": true,
       "club": "Labrador Retriever Club of NSW Inc \u2013 Retrieving"
@@ -29067,6 +28957,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -29377,29 +29268,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club \u2013 Trick Dog"
-    },
-    {
-      "title": "Gundog Club of SA SprintDog Raffle",
-      "start": "2026-07-03",
-      "end": "2026-07-03",
-      "location": "Gundog Club of S.A. Inc",
-      "url": "https://www.topdogevents.com.au/trials/1836",
-      "category": "Sprint",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1836",
-      "open_now": false,
-      "is_past": true,
-      "club": "Gundog Club of S.A. Inc"
     },
     {
       "title": "Labrador Club \u2013 Scent Work",
@@ -29883,13 +29751,16 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-06-28",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48274",
       "open_now": false,
       "is_past": true
     },
@@ -29952,6 +29823,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -29975,6 +29847,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -30090,6 +29963,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -30136,6 +30010,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -30297,6 +30172,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -30435,6 +30311,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -30732,6 +30609,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -30963,12 +30842,14 @@
       "cancelled": false,
       "provider": "Show Manager",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2026-07-06",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47822",
       "open_now": false,
       "is_past": true,
       "club": "Blacktown Kennel & Training Club Inc \u2013 Herding"
@@ -31307,6 +31188,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -31857,6 +31739,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -32536,6 +32419,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -32718,6 +32603,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -32740,6 +32626,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -32787,6 +32674,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -33046,6 +32934,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -33508,6 +33397,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -33651,6 +33541,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -33673,6 +33564,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -33772,7 +33664,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-07-12",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48553",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48171",
       "open_now": false,
       "is_past": true
     },
@@ -34301,6 +34193,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -34463,14 +34357,17 @@
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
-      "cancelled": false,
+      "cancelled": true,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "cancelled",
+      "status_label": "Cancelled",
+      "verified": true,
+      "closes": "2026-07-17",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48168",
       "open_now": false,
       "is_past": true
     },
@@ -34532,6 +34429,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -34622,6 +34520,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "pug",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -35051,6 +34951,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -35353,6 +35255,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)",
         "Top Dog Events"
@@ -35841,6 +35744,7 @@
       "color": "#16887a",
       "topdog_open": true,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -35886,6 +35790,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "kelpie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -36352,6 +36258,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -36507,6 +36414,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -36553,6 +36461,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -36575,6 +36484,7 @@
       "color": "#16887a",
       "topdog_open": true,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -36808,6 +36718,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -36816,7 +36727,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-07-26",
-      "entry_url": null,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46708",
       "open_now": false,
       "is_past": true,
       "club": "Gippsland Obedience Dog Club Inc"
@@ -36973,6 +36884,7 @@
       "color": "#c9a227",
       "topdog_open": true,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Show Manager"
@@ -37494,11 +37406,11 @@
         "Dogs NSW",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
-      "closes": null,
-      "entry_url": null,
+      "closes": "2026-07-28",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49144",
       "open_now": false,
       "is_past": false,
       "club": "All Star Dog Sports \u2013 Lure Coursing"
@@ -37726,6 +37638,7 @@
       "color": "#c9a227",
       "cancelled": false,
       "closes": "2026-08-22",
+      "breed_group": "Group 3 (Gundogs)",
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
       "verified": false,
@@ -38001,6 +37914,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -38189,6 +38103,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -38471,6 +38386,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -38750,6 +38666,7 @@
       "color": "#16887a",
       "topdog_open": true,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events",
         "Dogs West (WA calendar)"
@@ -38778,11 +38695,11 @@
         "Dogs NSW",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
-      "closes": null,
-      "entry_url": null,
+      "closes": "2026-07-28",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49144",
       "open_now": false,
       "is_past": false,
       "club": "One Pack Dog Training Club \u2013 Lure Coursing"
@@ -38822,6 +38739,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -38914,6 +38832,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "schipperke",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -38936,6 +38856,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "shih tzu",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -38946,29 +38868,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Shih Tzu Club of Victoria Inc"
-    },
-    {
-      "title": "UKC Agility Workshop with Tammy Beattie - 9 August 2026",
-      "start": "2026-08-09",
-      "end": "2026-08-09",
-      "location": "ULVERSTONE KENNEL CLUB Inc",
-      "url": "https://www.topdogevents.com.au/trials/2016",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "TAS",
-      "color": "#c8632a",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2016",
-      "open_now": true,
-      "is_past": false,
-      "club": "ULVERSTONE KENNEL CLUB Inc"
     },
     {
       "title": "Victorian Herding Association Inc",
@@ -39256,6 +39155,7 @@
       "color": "#16887a",
       "topdog_open": true,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -39443,6 +39343,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -39656,6 +39557,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -40187,6 +40089,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "chihuahua",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -40258,6 +40162,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs NSW"
       ],
@@ -40308,6 +40214,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)",
         "Top Dog Events"
@@ -40378,6 +40285,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "samoyed",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -41237,6 +41146,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -41349,14 +41259,17 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-08-17",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49273",
+      "open_now": true,
       "is_past": false,
       "club": "Labrador Retriever Club of NSW Inc \u2013 Retrieving"
     },
@@ -41571,29 +41484,6 @@
       "is_past": false
     },
     {
-      "title": "PDODC MEMBERS ONLY - Come and Try Bale Seek",
-      "start": "2026-08-22",
-      "end": "2026-08-22",
-      "location": "Para District Obedience Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/2061",
-      "category": "Obedience",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2061",
-      "open_now": true,
-      "is_past": false,
-      "club": "Para District Obedience Dog Club"
-    },
-    {
       "title": "Port Stephens Dog Sports Club Inc \u2013 Conformation",
       "start": "2026-08-22",
       "end": "2026-08-23",
@@ -41672,6 +41562,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)",
         "Top Dog Events"
@@ -41696,6 +41587,7 @@
       "color": "#c8632a",
       "topdog_open": true,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -41981,29 +41873,6 @@
       "club": "Deer Bush Dog Training Club Inc."
     },
     {
-      "title": "Dogs West August Agility Fundraiser",
-      "start": "2026-08-23",
-      "end": "2026-08-23",
-      "location": "Dogs West Agility Working Party",
-      "url": "https://www.topdogevents.com.au/trials/1973",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1973",
-      "open_now": true,
-      "is_past": false,
-      "club": "Dogs West Agility Working Party"
-    },
-    {
       "title": "Dwd Subcommittee \u2013 Dances with Dogs",
       "club": "Dwd Subcommittee \u2013 Dances with Dogs",
       "start": "2026-08-23",
@@ -42177,6 +42046,7 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -42191,21 +42061,26 @@
       "title": "The L\u2019Epagneul Breton Club Victoria",
       "start": "2026-08-23",
       "end": "2026-08-23",
-      "location": "Victoria",
+      "location": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Retrieving",
       "region": "VIC",
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-08-18",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49527",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49527/ClubLEpagneulBretonInc_23-Aug-2026_RATG_49527_Schedule_20260803_y59270GliECRU-T-gGP2ew.pdf",
+      "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
+      "open_now": true,
       "is_past": false,
       "club": "The L\u2019Epagneul Breton Club Victoria"
     },
@@ -42221,6 +42096,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "cocker spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -42246,6 +42123,8 @@
       "cancelled": false,
       "closes": "2026-08-23",
       "status": "approved_not_open",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "bernese",
       "sources": [
         "Ozentries"
       ],
@@ -42755,6 +42634,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -43145,6 +43025,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -44068,6 +43949,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -44091,6 +43973,7 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -44393,6 +44276,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -45102,6 +44986,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "bull terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -45186,10 +45072,10 @@
     },
     {
       "title": "Agility Trial (State fundraiser) CAWA Events Ctee",
-      "club": "Dogs West Agility Working Party",
+      "club": "Agility Trial (State fundraiser) CAWA Events Ctee",
       "start": "2026-09-12",
       "end": "2026-09-12",
-      "location": "Dogs West Agility Working Party",
+      "location": "Western Australia",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Agility",
       "region": "WA",
@@ -45197,15 +45083,13 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)",
-        "Top Dog Events"
+        "Dogs West (WA calendar)"
       ],
-      "topdog_open": true,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1974",
-      "open_now": true,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -45242,6 +45126,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -45356,6 +45242,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -45480,29 +45368,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Kyeamba Kennel & Training Club Inc \u2013 Rally Obedience"
-    },
-    {
-      "title": "NCODC SprintDogTM raffle fundraiser",
-      "start": "2026-09-12",
-      "end": "2026-09-12",
-      "location": "Noarlunga City Obedience Dog Club Inc",
-      "url": "https://www.topdogevents.com.au/trials/1762",
-      "category": "Sprint",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1762",
-      "open_now": true,
-      "is_past": false,
-      "club": "Noarlunga City Obedience Dog Club Inc"
     },
     {
       "title": "NETSC OPEN SCENT WORK TRIAL",
@@ -45769,6 +45634,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "cattle dog",
       "sources": [
         "Dogs NSW"
       ],
@@ -45840,6 +45707,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -46724,6 +46593,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -47504,6 +47374,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "cocker spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -47597,6 +47469,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -47754,6 +47627,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -47821,6 +47696,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "bullmastiff",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48005,6 +47882,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48120,6 +47999,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48277,6 +48158,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "mastiff",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48500,6 +48383,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "keeshond",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48590,6 +48475,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "scottish terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48634,6 +48521,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "weimaraner",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48678,6 +48567,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "keeshond",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48723,6 +48614,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "american staffordshire terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48745,6 +48638,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "boston terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -48790,6 +48685,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -49155,6 +49052,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "wolfhound",
       "sources": [
         "Dogs NSW"
       ],
@@ -49292,14 +49191,17 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-09-18",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49468",
+      "open_now": true,
       "is_past": false,
       "club": "United Retriever Club of NSW \u2013 Retrieving"
     },
@@ -49337,6 +49239,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -49360,6 +49264,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -49537,6 +49443,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -49652,6 +49560,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -49675,6 +49585,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -49698,6 +49610,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW",
         "Ozentries"
@@ -50063,6 +49977,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "boxer",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -50177,6 +50093,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -50494,6 +50412,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "kelpie",
       "sources": [
         "Dogs NSW"
       ],
@@ -50654,6 +50574,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "springer spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -50819,6 +50741,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "scottish terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -50841,6 +50765,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -51675,6 +51601,7 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs NSW"
       ],
@@ -51945,6 +51872,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -52330,6 +52259,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -52443,6 +52373,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "beagle",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -52531,6 +52463,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "bearded collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -52734,6 +52668,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "rottweiler",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -52756,6 +52692,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -52778,6 +52716,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "afghan",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -52915,6 +52855,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "beagle",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -52981,6 +52923,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53025,6 +52969,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53047,6 +52993,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53069,6 +53017,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53114,6 +53064,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "lapphund",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53203,6 +53155,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "great dane",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53293,6 +53247,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "spitz",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53404,6 +53360,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "papillon",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53492,6 +53450,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53514,6 +53474,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "ridgeback",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53536,6 +53498,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53558,6 +53522,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "schipperke",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53580,6 +53546,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "siberian husky",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53602,6 +53570,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "bichon",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53646,6 +53616,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "welsh corgi",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53738,6 +53710,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "cocker spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53760,6 +53734,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "boston terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53827,6 +53803,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53871,6 +53849,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "setter",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53893,6 +53873,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "hound",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53915,6 +53897,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53959,6 +53943,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "pinscher",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -54203,6 +54189,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -54336,6 +54324,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "bull terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -54671,6 +54661,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "bull terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -54694,6 +54686,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "cocker spaniel",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -55328,6 +55322,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -55373,6 +55369,7 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -55711,6 +55708,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "shetland sheepdog",
       "sources": [
         "Dogs NSW"
       ],
@@ -56155,6 +56154,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -56422,6 +56423,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "wolfhound",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -56666,6 +56669,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -56710,6 +56715,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "german shorthaired pointer",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -56732,6 +56739,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "setter",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -56777,6 +56786,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -56980,6 +56991,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -57137,6 +57150,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "samoyed",
       "sources": [
         "Dogs NSW"
       ],
@@ -57438,31 +57453,6 @@
       "club": "Newcastle Toy & All Breeds Kennel Club \u2013 Conformation"
     },
     {
-      "title": "2026 Agility Nationals Qld Photo Fundraiser (Dogs Queensland Agility Committee)",
-      "club": "2026 Agility Nationals Qld Photo Fundraiser (Dogs Queensland Agility Committee)",
-      "start": "2026-01-01",
-      "end": "2026-01-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-09",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "American Staffordshire Terrier Club Of QLD Inc \u2013 Lure Coursing",
       "club": "American Staffordshire Terrier Club Of QLD Inc \u2013 Lure Coursing",
       "start": "2026-01-02",
@@ -57482,156 +57472,6 @@
       "verified": true,
       "closes": "2026-12-24",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45952",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Northern Suburbs Dog Training Club RATG",
-      "club": "Northern Suburbs Dog Training Club RATG",
-      "start": "2026-01-11",
-      "end": "2026-01-11",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45830",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-08",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45830",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Agility Sub Committee Fundraising Trivia Night (Agility Sub-Committee)",
-      "club": "Agility Sub Committee Fundraising Trivia Night (Agility Sub-Committee)",
-      "start": "2026-01-17",
-      "end": "2026-01-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-17",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Agility Sub Committee Trivia Night QUIZLETS (Agility Sub-Committee)",
-      "club": "Agility Sub Committee Trivia Night QUIZLETS (Agility Sub-Committee)",
-      "start": "2026-01-17",
-      "end": "2026-01-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Agility Sub Committee Trivia Night RAFFLE (Agility Sub-Committee)",
-      "club": "Agility Sub Committee Trivia Night RAFFLE (Agility Sub-Committee)",
-      "start": "2026-01-17",
-      "end": "2026-01-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "GRAZING PLATTERS - AGILITY TRIVIA (Wagz Cafe) \u2013 Agility",
-      "club": "GRAZING PLATTERS - AGILITY TRIVIA (Wagz Cafe)",
-      "start": "2026-01-17",
-      "end": "2026-01-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-17",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sniff & Go Fundraiser (Dogs Queensland Agility Committee)",
-      "club": "Sniff & Go Fundraiser (Dogs Queensland Agility Committee)",
-      "start": "2026-01-17",
-      "end": "2026-01-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-09",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -57738,31 +57578,6 @@
       "is_past": true
     },
     {
-      "title": "Dances with Dogs Workshop (All Star Dog Sports)",
-      "club": "Dances with Dogs Workshop (All Star Dog Sports)",
-      "start": "2026-01-24",
-      "end": "2026-01-24",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Dances with Dogs",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-24",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "German Shorthaired Pointer Club Vic Inc January Retrieving Trial",
       "club": "German Shorthaired Pointer Club Vic Inc January Retrieving Trial",
       "start": "2026-01-25",
@@ -57807,31 +57622,6 @@
       "verified": true,
       "closes": "2026-01-16",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45858",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Agility Games Workshop (All Star Dog Sports)",
-      "club": "Agility Games Workshop (All Star Dog Sports)",
-      "start": "2026-02-01",
-      "end": "2026-02-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-26",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -58138,56 +57928,6 @@
       "is_past": true
     },
     {
-      "title": "Dalmatian club of Vic Sprintdog RAFFLE #1 (FULL) (Dalmatian Club of Vic Inc)",
-      "club": "Dalmatian club of Vic Sprintdog RAFFLE #1 (FULL) (Dalmatian Club of Vic Inc)",
-      "start": "2026-02-24",
-      "end": "2026-02-24",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-23",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dalmatian club of Vic Sprintdog RAFFLE #2 (FULL (Dalmatian Club of Vic Inc)",
-      "club": "Dalmatian club of Vic Sprintdog RAFFLE #2 (FULL (Dalmatian Club of Vic Inc)",
-      "start": "2026-02-24",
-      "end": "2026-02-24",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-23",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
       "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
       "start": "2026-02-26",
@@ -58238,81 +57978,6 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of Qld Inc (Trial 1) \u2013 RATG",
-      "club": "Labrador Retriever Club of Qld Inc (Trial 1) \u2013 RATG",
-      "start": "2026-02-28",
-      "end": "2026-02-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45982",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-14",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45982",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Labrador Retriever Club of Qld Inc (Trial 2) \u2013 RATG",
-      "club": "Labrador Retriever Club of Qld Inc (Trial 2) \u2013 RATG",
-      "start": "2026-02-28",
-      "end": "2026-02-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45983",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-14",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45983",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "** It's Raffle Time! HUGE Prizes Up For Grabs! ** (DogsQLD Sled Sports Subcommittee)",
-      "club": "** It's Raffle Time! HUGE Prizes Up For Grabs! ** (DogsQLD Sled Sports Subcommittee)",
-      "start": "2026-02-28",
-      "end": "2026-02-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sled Sports",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-28",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Earthdog Training  (Dogs QLD Earthdog Sub Committee)",
       "club": "Earthdog Training  (Dogs QLD Earthdog Sub Committee)",
       "start": "2026-02-28",
@@ -58331,31 +57996,6 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Real Life Obedience Seminar with Meg Ryan (Warragul & Dist  Kennel & Obedience Club Inc)",
-      "club": "Real Life Obedience Seminar with Meg Ryan (Warragul & Dist  Kennel & Obedience Club Inc)",
-      "start": "2026-02-28",
-      "end": "2026-02-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-28",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
@@ -58413,31 +58053,6 @@
       "is_past": true
     },
     {
-      "title": "Fun Day- Sprint Dog (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "club": "Fun Day- Sprint Dog (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "start": "2026-03-07",
-      "end": "2026-03-07",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-06",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Dogs NSW Public Relations Committee \u2013 Sprint",
       "club": "Dogs NSW Public Relations Committee \u2013 Sprint",
       "start": "2026-03-08",
@@ -58457,56 +58072,6 @@
       "verified": true,
       "closes": "2026-02-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46549",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Working Gundog Club Inc. (RATG 2)",
-      "club": "Working Gundog Club Inc. (RATG 2)",
-      "start": "2026-03-08",
-      "end": "2026-03-08",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45910",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-02",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45910",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Working Gundog Club Inc. (RATG1)",
-      "club": "Working Gundog Club Inc. (RATG1)",
-      "start": "2026-03-08",
-      "end": "2026-03-08",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45905",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-02",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45905",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -58582,81 +58147,6 @@
       "verified": true,
       "closes": "2026-03-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46306",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Newcastle All Breeds Dog Training Club Inc Fun Day \u2013 Sprint",
-      "club": "Newcastle All Breeds Dog Training Club Inc Fun Day \u2013 Sprint",
-      "start": "2026-03-14",
-      "end": "2026-03-14",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46395",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-25",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46395",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 1)",
-      "club": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 1)",
-      "start": "2026-03-14",
-      "end": "2026-03-14",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46293",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-02",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46293",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 2)",
-      "club": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 2)",
-      "start": "2026-03-14",
-      "end": "2026-03-14",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46294",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-02",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46294",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -58757,31 +58247,6 @@
       "verified": true,
       "closes": "2026-03-17",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Field & Retrieving Association For Gundogs \u2013 RATG",
-      "club": "Field & Retrieving Association For Gundogs \u2013 RATG",
-      "start": "2026-03-21",
-      "end": "2026-03-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46023",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-11",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46023",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -59138,31 +58603,6 @@
       "is_past": true
     },
     {
-      "title": "Bull Terrier Club Inc NSW Sprint Dog Raffle (Bull Terrier Club Inc (NSW))",
-      "club": "Bull Terrier Club Inc NSW Sprint Dog Raffle (Bull Terrier Club Inc (NSW))",
-      "start": "2026-04-05",
-      "end": "2026-04-05",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-02",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Gordon Setter Club of NSW SprintDogTM Trial",
       "club": "Gordon Setter Club of NSW SprintDogTM Trial",
       "start": "2026-04-06",
@@ -59438,13 +58878,13 @@
       "is_past": true
     },
     {
-      "title": "GUNDOG CLUB OF TASMANIA \u2013 RATG",
-      "club": "GUNDOG CLUB OF TASMANIA \u2013 RATG",
+      "title": "GUNDOG CLUB OF TASMANIA \u2013 Retrieving",
+      "club": "GUNDOG CLUB OF TASMANIA \u2013 Retrieving",
       "start": "2026-04-12",
       "end": "2026-04-12",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46870",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "TAS",
       "source": "Show Manager",
       "sources": [
@@ -59588,13 +59028,13 @@
       "is_past": true
     },
     {
-      "title": "Retrieving Ability Test for Gundogs (AM Trial) \u2013 RATG",
-      "club": "Retrieving Ability Test for Gundogs (AM Trial) \u2013 RATG",
+      "title": "Retrieving Ability Test for Gundogs (AM Trial)",
+      "club": "Retrieving Ability Test for Gundogs (AM Trial)",
       "start": "2026-04-18",
       "end": "2026-04-18",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46337",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "SA",
       "source": "Show Manager",
       "sources": [
@@ -59613,13 +59053,13 @@
       "is_past": true
     },
     {
-      "title": "Retrieving Ability Test for Gundogs (PM Trial) \u2013 RATG",
-      "club": "Retrieving Ability Test for Gundogs (PM Trial) \u2013 RATG",
+      "title": "Retrieving Ability Test for Gundogs (PM Trial)",
+      "club": "Retrieving Ability Test for Gundogs (PM Trial)",
       "start": "2026-04-18",
       "end": "2026-04-18",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46348",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "SA",
       "source": "Show Manager",
       "sources": [
@@ -59707,31 +59147,6 @@
       "verified": true,
       "closes": "2026-04-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46910",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Gippsland Obedience Dog Club Inc \u2013 RATG",
-      "club": "Gippsland Obedience Dog Club Inc \u2013 RATG",
-      "start": "2026-04-19",
-      "end": "2026-04-19",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46707",
-      "category": "RATG",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-12",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46707",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -60088,31 +59503,6 @@
       "is_past": true
     },
     {
-      "title": "2026 Tracking Workshop Weekend (Tracking Club of Victoria)",
-      "club": "2026 Tracking Workshop Weekend (Tracking Club of Victoria)",
-      "start": "2026-04-25",
-      "end": "2026-04-25",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Tracking",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-10",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Cocker Spaniel Club of Victoria \u2013 Field Trial",
       "club": "Cocker Spaniel Club of Victoria \u2013 Field Trial",
       "start": "2026-04-26",
@@ -60163,31 +59553,6 @@
       "is_past": true
     },
     {
-      "title": "Weimaraner Club of Victoria Inc - 8th National \u2013 RATG",
-      "club": "Weimaraner Club of Victoria Inc - 8th National \u2013 RATG",
-      "start": "2026-04-30",
-      "end": "2026-04-30",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45469",
-      "category": "RATG",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-30",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45469",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Weimaraner Club of Victoria Inc - 8th National \u2013 Obedience",
       "club": "Weimaraner Club of Victoria Inc - 8th National",
       "start": "2026-04-30",
@@ -60231,56 +59596,6 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "2026 National RATG Trophy Donations (Weimaraner Club of Victoria Inc)",
-      "club": "2026 National RATG Trophy Donations (Weimaraner Club of Victoria Inc)",
-      "start": "2026-04-30",
-      "end": "2026-04-30",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "RATG",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Raffle for State  Retrieving Trials (Dogs QLD RAFT Committee)",
-      "club": "Raffle for State  Retrieving Trials (Dogs QLD RAFT Committee)",
-      "start": "2026-04-30",
-      "end": "2026-04-30",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Retrieving",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-29",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
@@ -60388,31 +59703,6 @@
       "is_past": true
     },
     {
-      "title": "Fun Day-Sprint Run (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "club": "Fun Day-Sprint Run (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "start": "2026-05-02",
-      "end": "2026-05-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-26",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Central Highlands Working Gundog Club \u2013 Field Trial",
       "club": "Central Highlands Working Gundog Club \u2013 Field Trial",
       "start": "2026-05-03",
@@ -60488,13 +59778,13 @@
       "is_past": true
     },
     {
-      "title": "The Golden Retriever Club of NSW Inc. RATG Trial 1",
-      "club": "The Golden Retriever Club of NSW Inc. RATG Trial 1",
+      "title": "The Golden Retriever Club of NSW Inc. RATG Trial 1 \u2013 Retrieving",
+      "club": "The Golden Retriever Club of NSW Inc. RATG Trial 1 \u2013 Retrieving",
       "start": "2026-05-03",
       "end": "2026-05-03",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46588",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -60513,13 +59803,13 @@
       "is_past": true
     },
     {
-      "title": "The Golden Retriever Club of NSW Inc. RATG Trial 2",
-      "club": "The Golden Retriever Club of NSW Inc. RATG Trial 2",
+      "title": "The Golden Retriever Club of NSW Inc. RATG Trial 2 \u2013 Retrieving",
+      "club": "The Golden Retriever Club of NSW Inc. RATG Trial 2 \u2013 Retrieving",
       "start": "2026-05-03",
       "end": "2026-05-03",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46589",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -60813,31 +60103,6 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of VIC Inc \u2013 RATG",
-      "club": "Labrador Retriever Club of VIC Inc \u2013 RATG",
-      "start": "2026-05-16",
-      "end": "2026-05-16",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47093",
-      "category": "RATG",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-11",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47093",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Retrieving And Field Trials Club Of SA Inc.",
       "club": "Retrieving And Field Trials Club Of SA Inc.",
       "start": "2026-05-16",
@@ -60982,81 +60247,6 @@
       "verified": true,
       "closes": "2026-05-11",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47268",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Hungarian Vizsla Club of NSW  Inc (Trial 1) \u2013 RATG",
-      "club": "Hungarian Vizsla Club of NSW  Inc (Trial 1) \u2013 RATG",
-      "start": "2026-05-17",
-      "end": "2026-05-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47022",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-10",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47022",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Hungarian Vizsla Club of NSW  Inc (Trial 2) \u2013 RATG",
-      "club": "Hungarian Vizsla Club of NSW  Inc (Trial 2) \u2013 RATG",
-      "start": "2026-05-17",
-      "end": "2026-05-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47059",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-10",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47059",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Nova Scotia Duck Tolling Retriever Club of Vic. \u2013 RATG",
-      "club": "Nova Scotia Duck Tolling Retriever Club of Vic. \u2013 RATG",
-      "start": "2026-05-17",
-      "end": "2026-05-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47109",
-      "category": "RATG",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-10",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47109",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -61307,31 +60497,6 @@
       "verified": true,
       "closes": "2026-05-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47770",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Labrador Retriever Club of Qld Inc \u2013 RATG",
-      "club": "Labrador Retriever Club of Qld Inc \u2013 RATG",
-      "start": "2026-05-23",
-      "end": "2026-05-23",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47290",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-17",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47290",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -61638,31 +60803,6 @@
       "is_past": true
     },
     {
-      "title": "14th Labrador Retriever National 2026 \u2013 RATG",
-      "club": "14th Labrador Retriever National 2026 \u2013 RATG",
-      "start": "2026-05-30",
-      "end": "2026-05-30",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46190",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-15",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46190",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Backpacking - Track & Trek",
       "club": "Backpacking - Track & Trek",
       "start": "2026-05-30",
@@ -61738,31 +60878,6 @@
       "is_past": true
     },
     {
-      "title": "Fun Day (Sprint Dog Committee of DV)",
-      "club": "Fun Day (Sprint Dog Committee of DV)",
-      "start": "2026-05-30",
-      "end": "2026-05-30",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-25",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Backpacking - Track & Trek",
       "club": "Backpacking - Track & Trek",
       "start": "2026-05-31",
@@ -61788,31 +60903,6 @@
       "is_past": true
     },
     {
-      "title": "Newcastle All Breeds Dog Training Club Inc \u2013 RATG",
-      "club": "Newcastle All Breeds Dog Training Club Inc \u2013 RATG",
-      "start": "2026-05-31",
-      "end": "2026-05-31",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47608",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-17",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47608",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Wide Bay Working Gundog Club Inc \u2013 Retrieving",
       "club": "Wide Bay Working Gundog Club Inc \u2013 Retrieving",
       "start": "2026-05-31",
@@ -61832,31 +60922,6 @@
       "verified": true,
       "closes": "2026-05-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47305",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "SprintDog Raffle 2 free entries (Wodonga Kennel Club)",
-      "club": "SprintDog Raffle 2 free entries (Wodonga Kennel Club)",
-      "start": "2026-05-31",
-      "end": "2026-05-31",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-31",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -62163,31 +61228,6 @@
       "is_past": true
     },
     {
-      "title": "Draft Test - ASDS",
-      "club": "Draft Test - ASDS",
-      "start": "2026-06-07",
-      "end": "2026-06-07",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48454",
-      "category": "Draft Test",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-03",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48454",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Gundog Club of Tasmania Inc \u2013 Field Trial",
       "club": "Gundog Club of Tasmania Inc \u2013 Field Trial",
       "start": "2026-06-07",
@@ -62282,31 +61322,6 @@
       "verified": true,
       "closes": "2026-05-31",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48455",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Monthly Training Day (The Continental Herding Club Inc)",
-      "club": "Monthly Training Day (The Continental Herding Club Inc)",
-      "start": "2026-06-07",
-      "end": "2026-06-07",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Herding",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -62638,56 +61653,6 @@
       "is_past": true
     },
     {
-      "title": "The Pointer Club of NSW (Trial A) \u2013 RATG",
-      "club": "The Pointer Club of NSW (Trial A) \u2013 RATG",
-      "start": "2026-06-20",
-      "end": "2026-06-20",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46264",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-08",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46264",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "The Pointer Club of NSW (Trial B) \u2013 RATG",
-      "club": "The Pointer Club of NSW (Trial B) \u2013 RATG",
-      "start": "2026-06-20",
-      "end": "2026-06-20",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46265",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-08",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46265",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Albury & Border Kennel Club Inc SprintDogTM",
       "club": "Albury & Border Kennel Club Inc SprintDogTM",
       "start": "2026-06-21",
@@ -62738,31 +61703,6 @@
       "is_past": true
     },
     {
-      "title": "Blacktown Kennel & Training Club Inc \u2013 RATG",
-      "club": "Blacktown Kennel & Training Club Inc \u2013 RATG",
-      "start": "2026-06-21",
-      "end": "2026-06-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47821",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-15",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47821",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Gepps Crossing Dog Training Centre Inc \u2013 Obedience",
       "club": "Gepps Crossing Dog Training Centre Inc",
       "start": "2026-06-21",
@@ -62788,13 +61728,13 @@
       "is_past": true
     },
     {
-      "title": "Retrieving And Field Trials Club Of SA Inc. AM trial \u2013 RATG",
-      "club": "Retrieving And Field Trials Club Of SA Inc. AM trial \u2013 RATG",
+      "title": "Retrieving And Field Trials Club Of SA Inc. AM trial",
+      "club": "Retrieving And Field Trials Club Of SA Inc. AM trial",
       "start": "2026-06-21",
       "end": "2026-06-21",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47101",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "SA",
       "source": "Show Manager",
       "sources": [
@@ -62813,13 +61753,13 @@
       "is_past": true
     },
     {
-      "title": "Retrieving And Field Trials Club Of SA Inc. PM trial \u2013 RATG",
-      "club": "Retrieving And Field Trials Club Of SA Inc. PM trial \u2013 RATG",
+      "title": "Retrieving And Field Trials Club Of SA Inc. PM trial",
+      "club": "Retrieving And Field Trials Club Of SA Inc. PM trial",
       "start": "2026-06-21",
       "end": "2026-06-21",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47102",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "SA",
       "source": "Show Manager",
       "sources": [
@@ -62988,31 +61928,6 @@
       "is_past": true
     },
     {
-      "title": "Fun Day-Sprint Run (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "club": "Fun Day-Sprint Run (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "start": "2026-06-27",
-      "end": "2026-06-27",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-25",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "All Star Dog Sports - Back in the pack - Backpacking event",
       "club": "All Star Dog Sports - Back in the pack - Backpacking event",
       "start": "2026-06-28",
@@ -63032,56 +61947,6 @@
       "verified": true,
       "closes": "2026-06-22",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48857",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Labrador Retriever Club of NSW Inc Trial 1 \u2013 RATG",
-      "club": "Labrador Retriever Club of NSW Inc Trial 1 \u2013 RATG",
-      "start": "2026-06-28",
-      "end": "2026-06-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47157",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-22",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47157",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Labrador Retriever Club of NSW Inc Trial 2 \u2013 RATG",
-      "club": "Labrador Retriever Club of NSW Inc Trial 2 \u2013 RATG",
-      "start": "2026-06-28",
-      "end": "2026-06-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47158",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-22",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47158",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -63213,31 +62078,6 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of Qld Inc \u2013 RATG",
-      "club": "Labrador Retriever Club of Qld Inc \u2013 RATG",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48274",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-28",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48274",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Labrador Retriever Club of VIC Inc \u2013 Retrieving",
       "club": "Labrador Retriever Club of VIC Inc \u2013 Retrieving",
       "start": "2026-07-04",
@@ -63338,81 +62178,6 @@
       "is_past": true
     },
     {
-      "title": "WGC JULY RATG Training Day (Working Gundog Club Inc.)",
-      "club": "WGC JULY RATG Training Day (Working Gundog Club Inc.)",
-      "start": "2026-07-04",
-      "end": "2026-07-04",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-01",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "German Shorthaired Pointer Club of Qld (Trial 1) \u2013 RATG",
-      "club": "German Shorthaired Pointer Club of Qld (Trial 1) \u2013 RATG",
-      "start": "2026-07-05",
-      "end": "2026-07-05",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48290",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-30",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48290",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "German Shorthaired Pointer Club of Qld (Trial 2) \u2013 RATG",
-      "club": "German Shorthaired Pointer Club of Qld (Trial 2) \u2013 RATG",
-      "start": "2026-07-05",
-      "end": "2026-07-05",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48294",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-30",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48294",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Labrador Retriever Club of VIC Inc \u2013 Retrieving",
       "club": "Labrador Retriever Club of VIC Inc \u2013 Retrieving",
       "start": "2026-07-05",
@@ -63488,13 +62253,13 @@
       "is_past": true
     },
     {
-      "title": "Working Gundog Club Inc. RATG (Trial 1)",
-      "club": "Working Gundog Club Inc. RATG (Trial 1)",
+      "title": "Working Gundog Club Inc. RATG (Trial 1) \u2013 Retrieving",
+      "club": "Working Gundog Club Inc. RATG (Trial 1) \u2013 Retrieving",
       "start": "2026-07-05",
       "end": "2026-07-05",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48641",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -63513,13 +62278,13 @@
       "is_past": true
     },
     {
-      "title": "Working Gundog Club Inc. RATG (Trial 2)",
-      "club": "Working Gundog Club Inc. RATG (Trial 2)",
+      "title": "Working Gundog Club Inc. RATG (Trial 2) \u2013 Retrieving",
+      "club": "Working Gundog Club Inc. RATG (Trial 2) \u2013 Retrieving",
       "start": "2026-07-05",
       "end": "2026-07-05",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48642",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -63557,56 +62322,6 @@
       "verified": true,
       "closes": "2026-06-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48295",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "July Sprint Dog Raffle (The Country Griffon Bruxellois Club of NSW)",
-      "club": "July Sprint Dog Raffle (The Country Griffon Bruxellois Club of NSW)",
-      "start": "2026-07-10",
-      "end": "2026-07-10",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-10",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Blacktown Kennel & Training Club Inc \u2013 Draft Test",
-      "club": "Blacktown Kennel & Training Club Inc \u2013 Draft Test",
-      "start": "2026-07-11",
-      "end": "2026-07-11",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/47822",
-      "category": "Draft Test",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-06",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47822",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -63757,31 +62472,6 @@
       "verified": true,
       "closes": "2026-07-15",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs Qld RAFT Sub Committee \u2013 RATG",
-      "club": "Dogs Qld RAFT Sub Committee \u2013 RATG",
-      "start": "2026-07-17",
-      "end": "2026-07-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48366",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-30",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48366",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -64213,31 +62903,6 @@
       "is_past": true
     },
     {
-      "title": "Ipswich Dog Obedience Club Inc \u2013 RATG",
-      "club": "Ipswich Dog Obedience Club Inc \u2013 RATG",
-      "start": "2026-07-25",
-      "end": "2026-07-25",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48168",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": true,
-      "status": "cancelled",
-      "status_label": "Cancelled",
-      "verified": true,
-      "closes": "2026-07-17",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48168",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Jarrahwood Jaunt 2026 \u2013 Sled Sports",
       "club": "Jarrahwood Jaunt 2026 \u2013 Sled Sports",
       "start": "2026-07-25",
@@ -64357,31 +63022,6 @@
       "verified": true,
       "closes": "2026-07-08",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47952",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Fun Day-Sprint Run (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "club": "Fun Day-Sprint Run (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "start": "2026-07-25",
-      "end": "2026-07-25",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-24",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -64813,31 +63453,6 @@
       "is_past": true
     },
     {
-      "title": "Gippsland Obedience Dog Club Inc \u2013 RATG",
-      "club": "Gippsland Obedience Dog Club Inc \u2013 RATG",
-      "start": "2026-08-02",
-      "end": "2026-08-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/46708",
-      "category": "RATG",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-26",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46708",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Lure Coursers Anonymous Inc (Non ANKC) \u2013 Lure Coursing",
       "club": "Lure Coursers Anonymous Inc (Non ANKC) \u2013 Lure Coursing",
       "start": "2026-08-02",
@@ -64961,56 +63576,6 @@
       "address": null,
       "open_now": false,
       "is_past": true
-    },
-    {
-      "title": "SprintDog\u2122 Raffle (Dutch Shepherd Dog Club of Victoria)",
-      "club": "SprintDog\u2122 Raffle (Dutch Shepherd Dog Club of Victoria)",
-      "start": "2026-08-04",
-      "end": "2026-08-04",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-08-04",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Puppy Pen Raffle! (Atherton Tableland Kennel Club Inc) \u2013 Obedience",
-      "club": "Puppy Pen Raffle! (Atherton Tableland Kennel Club Inc)",
-      "start": "2026-08-05",
-      "end": "2026-08-05",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": false
     },
     {
       "title": "Dogs NSW SprintDog (TM) Working Party",
@@ -65577,86 +64142,36 @@
       ],
       "color": "#c9a227",
       "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-08-05",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48464",
       "schedule_url": null,
       "address": null,
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
-      "title": "Club LEpagneul Breton Inc \u2013 RATG",
-      "club": "Club LEpagneul Breton Inc \u2013 RATG",
-      "start": "2026-08-23",
-      "end": "2026-08-23",
-      "location": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49527",
-      "category": "RATG",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-08-18",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49527",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49527/ClubLEpagneulBretonInc_23-Aug-2026_RATG_49527_Schedule_20260803_y59270GliECRU-T-gGP2ew.pdf",
-      "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
-      "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 RATG",
-      "club": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 RATG",
+      "title": "Port Adelaide Obedience Dog Club Inc",
+      "club": "Port Adelaide Obedience Dog Club Inc",
       "start": "2026-08-23",
       "end": "2026-08-23",
       "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49273",
-      "category": "RATG",
-      "region": "NSW",
+      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/48570",
+      "category": "Obedience",
+      "region": "SA",
       "source": "Show Manager",
       "sources": [
         "Show Manager"
       ],
-      "color": "#7a3ea6",
+      "color": "#c9a227",
       "cancelled": false,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
-      "closes": "2026-08-17",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49273",
-      "schedule_url": null,
-      "address": null,
-      "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 RATG",
-      "club": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 RATG",
-      "start": "2026-08-23",
-      "end": "2026-08-23",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49274",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-08-17",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49274",
+      "closes": "2026-08-14",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48570",
       "schedule_url": null,
       "address": null,
       "open_now": true,
@@ -66463,31 +64978,6 @@
       "is_past": false
     },
     {
-      "title": "Vera Drummond Workshop - 2 Day Obedience Workshop (Dogs QLD)",
-      "club": "Vera Drummond Workshop - 2 Day Obedience Workshop (Dogs QLD)",
-      "start": "2026-09-29",
-      "end": "2026-09-29",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-09-15",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Eastern Suburbs Dog Training Club Inc \u2013 Trick Dog",
       "club": "Eastern Suburbs Dog Training Club Inc \u2013 Trick Dog",
       "start": "2026-10-03",
@@ -66607,31 +65097,6 @@
       "verified": true,
       "closes": "2026-09-14",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49479",
-      "schedule_url": null,
-      "address": null,
-      "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "NSW Obedience State Titles \u2013 RATG",
-      "club": "NSW Obedience State Titles \u2013 RATG",
-      "start": "2026-10-05",
-      "end": "2026-10-05",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49468",
-      "category": "RATG",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-09-18",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49468",
       "schedule_url": null,
       "address": null,
       "open_now": true,

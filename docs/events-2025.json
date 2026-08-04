@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04T13:23:30+00:00",
+  "generated": "2026-08-04T14:53:15+00:00",
   "year": 2025,
-  "count": 1681,
+  "count": 1625,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -234,29 +234,6 @@
       "club": "Hastings & District Obedience Dog Club"
     },
     {
-      "title": "Judy Gamet Dances with Dogs workshop",
-      "start": "2025-01-12",
-      "end": "2025-01-12",
-      "location": "Dances with Dogs Advisory Committee - South Australia",
-      "url": "https://www.topdogevents.com.au/trials/668",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/668",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Advisory Committee - South Australia"
-    },
-    {
       "title": "WSSW Summer Sizzler",
       "start": "2025-01-17",
       "end": "2025-01-17",
@@ -369,29 +346,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
-    },
-    {
-      "title": "'All About Odour' Scent Work Training Workshop",
-      "start": "2025-01-25",
-      "end": "2025-01-25",
-      "location": "Dogs SA Scent Work Advisory Committee",
-      "url": "https://www.topdogevents.com.au/trials/715",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/715",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dogs SA Scent Work Advisory Committee"
     },
     {
       "title": "Stellar Dogs Training & Education - Scentwork Term 1 - Workshops",
@@ -1507,6 +1461,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -1655,29 +1610,6 @@
       "club": "Agility Dog Club of NSW Inc."
     },
     {
-      "title": "Hide or Seek Workshop",
-      "start": "2025-03-29",
-      "end": "2025-03-29",
-      "location": "Para District Obedience Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/790",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/790",
-      "open_now": false,
-      "is_past": true,
-      "club": "Para District Obedience Dog Club"
-    },
-    {
       "title": "Newcastle ABDTC Agility + Jumping trial March 2025",
       "start": "2025-03-29",
       "end": "2025-03-30",
@@ -1769,29 +1701,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Western Sydney Scent Work Club"
-    },
-    {
-      "title": "Ring Time Practice (C&C Workshop participants only)",
-      "start": "2025-03-30",
-      "end": "2025-03-30",
-      "location": "Dances with Dogs Club of SA",
-      "url": "https://www.topdogevents.com.au/trials/826",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/826",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Club of SA"
     },
     {
       "title": "SDK&ODC March SW Trial",
@@ -2055,6 +1964,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -2171,6 +2081,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -2238,6 +2149,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -2365,29 +2277,6 @@
       "club": "Agility Dog Club of SA"
     },
     {
-      "title": "DWD choreography workshop",
-      "start": "2025-04-12",
-      "end": "2025-04-12",
-      "location": "Dances with Dogs Advisory Committee - South Australia",
-      "url": "https://www.topdogevents.com.au/trials/765",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/765",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Advisory Committee - South Australia"
-    },
-    {
       "title": "Hobart Dog Training Club Inc \u2013 Obedience",
       "start": "2025-04-12",
       "end": "2025-04-12",
@@ -2491,6 +2380,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -2605,6 +2495,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -2833,6 +2724,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -2903,6 +2795,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -3129,6 +3022,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -3564,6 +3458,7 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -3700,6 +3595,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -3884,6 +3780,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -4020,6 +3917,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -4065,6 +3963,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -4132,6 +4031,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -4337,6 +4237,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -4519,6 +4420,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -4632,6 +4534,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -4793,6 +4697,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -4862,6 +4767,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -4996,6 +4902,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -5019,6 +4926,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -5065,6 +4973,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -5362,6 +5271,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -5542,6 +5452,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -5564,6 +5475,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -5698,6 +5610,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -5903,6 +5816,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -5983,29 +5897,6 @@
       "club": "Agility Club of WA"
     },
     {
-      "title": "ACWA Raffle 15th June",
-      "start": "2025-06-15",
-      "end": "2025-06-15",
-      "location": "Agility Club of WA",
-      "url": "https://www.topdogevents.com.au/trials/959",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/959",
-      "open_now": false,
-      "is_past": true,
-      "club": "Agility Club of WA"
-    },
-    {
       "title": "ATC Tracking and Track & Search (1-4 only) Trial Sunday 15 June 2025",
       "start": "2025-06-15",
       "end": "2025-06-15",
@@ -6040,6 +5931,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -6107,13 +5999,16 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Tasmania"
+        "Dogs Tasmania",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/dates/",
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2025-05-31",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43370",
       "open_now": false,
       "is_past": true,
       "club": "Tas Golden Retriever Club \u2013 Retrieving"
@@ -6698,29 +6593,6 @@
       "club": "Para District Obedience Dog Club"
     },
     {
-      "title": "Stellar Dogs Training & Education - Scentwork Boyanup Workshop (July 2025)",
-      "start": "2025-07-02",
-      "end": "2025-07-02",
-      "location": "Stellar Dogs Training and Education",
-      "url": "https://www.topdogevents.com.au/trials/979",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/979",
-      "open_now": false,
-      "is_past": true,
-      "club": "Stellar Dogs Training and Education"
-    },
-    {
       "title": "2025 State Scent Work Trial",
       "start": "2025-07-05",
       "end": "2025-07-07",
@@ -6767,11 +6639,11 @@
       "club": "Advanced Tracking Club of WA (Inc)"
     },
     {
-      "title": "CHRISTMAS IN JULY SECRET SANTA RAFFLE",
+      "title": "Christmas in July Agility & Jumping Trial",
       "start": "2025-07-05",
       "end": "2025-07-06",
       "location": "Dogs NSW Agility Committee",
-      "url": "https://www.topdogevents.com.au/trials/1004",
+      "url": "https://www.topdogevents.com.au/trials/918",
       "category": "Agility",
       "cancelled": false,
       "region": "NSW",
@@ -6784,7 +6656,7 @@
       "status": "listed",
       "status_label": "Listed (verified)",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1004",
+      "entry_url": "https://www.topdogevents.com.au/trials/918",
       "open_now": false,
       "is_past": true,
       "club": "Dogs NSW Agility Committee"
@@ -6846,6 +6718,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -6893,6 +6766,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -6916,6 +6790,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -7063,29 +6938,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Glenreagh Dog Sports INC"
-    },
-    {
-      "title": "Lis Brady Workshop -  \"FOCUS, ENGAGEMENT and MOTIVATION\"",
-      "start": "2025-07-11",
-      "end": "2025-07-11",
-      "location": "Melbourne & District Dances with Dogs club",
-      "url": "https://www.topdogevents.com.au/trials/759",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/759",
-      "open_now": false,
-      "is_past": true,
-      "club": "Melbourne & District Dances with Dogs club"
     },
     {
       "title": "SDK&ODC July Scent Work Trial",
@@ -7329,6 +7181,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -7466,6 +7319,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -7476,29 +7330,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Gundog Club of WA Inc"
-    },
-    {
-      "title": "PDODC Members Only \"Christmas in July\" Scent Work Fun Day",
-      "start": "2025-07-19",
-      "end": "2025-07-19",
-      "location": "Para District Obedience Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/997",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/997",
-      "open_now": false,
-      "is_past": true,
-      "club": "Para District Obedience Dog Club"
     },
     {
       "title": "Sprint Dog Trial \u2013 Dogs ACT",
@@ -7603,6 +7434,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -7827,6 +7659,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -7967,6 +7800,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -8013,6 +7847,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -8174,6 +8009,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -8332,6 +8168,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -8355,6 +8192,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -8468,6 +8306,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -8583,6 +8422,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -8778,29 +8618,6 @@
       "club": "Advanced Tracking Club of WA (Inc)"
     },
     {
-      "title": "DWD Single Comp & Afternoon Workshop FOCUS & FLOW : Lis Brady",
-      "start": "2025-08-10",
-      "end": "2025-08-10",
-      "location": "Dances with Dogs Club of SA",
-      "url": "https://www.topdogevents.com.au/trials/961",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/961",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Club of SA"
-    },
-    {
       "title": "Novice & Restricted (Jagarian)",
       "start": "2025-08-10",
       "end": "2025-08-10",
@@ -8812,6 +8629,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -8949,6 +8767,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -9244,6 +9063,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -9382,6 +9202,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -9474,6 +9295,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "hound",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -10430,6 +10253,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -11225,6 +11050,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -11669,29 +11496,6 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1124",
-      "open_now": false,
-      "is_past": true,
-      "club": "Para District Obedience Dog Club"
-    },
-    {
-      "title": "PDODC Members Only Small Group Training Sessions and 'Perfecting the Dance' Workshop",
-      "start": "2025-09-24",
-      "end": "2025-09-28",
-      "location": "Para District Obedience Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/998",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/998",
       "open_now": false,
       "is_past": true,
       "club": "Para District Obedience Dog Club"
@@ -12769,6 +12573,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania",
         "Show Manager"
@@ -12873,29 +12678,6 @@
       "club": "Trick Trial \u2013 BDOC"
     },
     {
-      "title": "DWD Single Comp &  Workshop \"HEELWORK TO MUSIC, THE ELEGANT DANCE \": Janette Wilson\"",
-      "start": "2025-10-12",
-      "end": "2025-10-12",
-      "location": "Dances with Dogs Club of SA",
-      "url": "https://www.topdogevents.com.au/trials/1027",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1027",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Club of SA"
-    },
-    {
       "title": "Dances with Dogs \u2013 ACTCDC",
       "start": "2025-10-12",
       "end": "2025-10-12",
@@ -12951,6 +12733,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania",
         "Show Manager"
@@ -13361,6 +13144,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania",
         "Show Manager"
@@ -13523,6 +13307,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania",
         "Show Manager"
@@ -13750,6 +13535,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania",
         "Show Manager"
@@ -13796,6 +13582,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -13911,6 +13699,7 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Tasmania",
         "Show Manager"
@@ -14073,6 +13862,7 @@
       "color": "#16887a",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
@@ -14517,29 +14307,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Hobart Dog Training Club Inc"
-    },
-    {
-      "title": "Para Strollers Flyball Nationals Fundraising Raffle",
-      "start": "2025-11-09",
-      "end": "2025-11-09",
-      "location": "Para District Obedience Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/1167",
-      "category": "Obedience",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1167",
-      "open_now": false,
-      "is_past": true,
-      "club": "Para District Obedience Dog Club"
     },
     {
       "title": "Weather Schmeather Catch Up Agility Trial",
@@ -15319,29 +15086,6 @@
       "club": "Labrador Retriever Club of Victoria"
     },
     {
-      "title": "MEMBERS ONLY - K9 Scent Club Fun day",
-      "start": "2025-11-29",
-      "end": "2025-11-29",
-      "location": "K9 Scent Club Inc",
-      "url": "https://www.topdogevents.com.au/trials/1176",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1176",
-      "open_now": false,
-      "is_past": true,
-      "club": "K9 Scent Club Inc"
-    },
-    {
       "title": "PDODC Vehicles Element Trial",
       "start": "2025-11-29",
       "end": "2025-11-29",
@@ -15661,29 +15405,6 @@
       "club": "Agility Club of WA"
     },
     {
-      "title": "ACWA Fundraiser BBQ",
-      "start": "2025-12-13",
-      "end": "2025-12-13",
-      "location": "Agility Club of WA",
-      "url": "https://www.topdogevents.com.au/trials/1231",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1231",
-      "open_now": false,
-      "is_past": true,
-      "club": "Agility Club of WA"
-    },
-    {
       "title": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs",
       "start": "2025-12-13",
       "end": "2025-12-13",
@@ -15749,29 +15470,6 @@
       "open_now": false,
       "is_past": true,
       "club": "TCA Inc Christmas Show \u2013 Conformation"
-    },
-    {
-      "title": "DWD Club of SA Xmas Break Up Dances With Dogs",
-      "start": "2025-12-14",
-      "end": "2025-12-14",
-      "location": "Dances with Dogs Club of SA",
-      "url": "https://www.topdogevents.com.au/trials/1213",
-      "category": "Trick Dog",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1213",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dances with Dogs Club of SA"
     },
     {
       "title": "Dances with Dogs Single a.m. Comp",
@@ -16052,31 +15750,6 @@
       "is_past": true
     },
     {
-      "title": "Newbie Night Toy Raffle (SprintDog Club of QLD Inc.)",
-      "club": "Newbie Night Toy Raffle (SprintDog Club of QLD Inc.)",
-      "start": "2025-01-09",
-      "end": "2025-01-09",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-01-10",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "SDCQ Rescheduled Dec All Dogs Trial \u2013 Sprint",
       "club": "SDCQ Rescheduled Dec All Dogs Trial \u2013 Sprint",
       "start": "2025-01-11",
@@ -16171,81 +15844,6 @@
       "verified": true,
       "closes": "2025-01-14",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/41869",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Agility Sub Committee Fundraising Trivia Night (Agility Sub-Committee)",
-      "club": "Agility Sub Committee Fundraising Trivia Night (Agility Sub-Committee)",
-      "start": "2025-01-18",
-      "end": "2025-01-18",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-01-18",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "GRAZING PLATTERS - AGILITY TRIVIA (Wagz Cafe) \u2013 Agility",
-      "club": "GRAZING PLATTERS - AGILITY TRIVIA (Wagz Cafe)",
-      "start": "2025-01-18",
-      "end": "2025-01-18",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-01-18",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sat 18th Raffle  (SprintDog Club of QLD Inc.)",
-      "club": "Sat 18th Raffle  (SprintDog Club of QLD Inc.)",
-      "start": "2025-01-18",
-      "end": "2025-01-18",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -17102,13 +16700,13 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of Qld Inc \u2013 RATG",
-      "club": "Labrador Retriever Club of Qld Inc \u2013 RATG",
+      "title": "Labrador Retriever Club of Qld Inc \u2013 Retrieving",
+      "club": "Labrador Retriever Club of Qld Inc \u2013 Retrieving",
       "start": "2025-03-01",
       "end": "2025-03-01",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42347",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -17146,56 +16744,6 @@
       "verified": true,
       "closes": "2025-02-16",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/41948",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Newcastle All Breeds Dog Training Club Inc Fun Day Group A  AM  Experienced \u2013 Sprint",
-      "club": "Newcastle All Breeds Dog Training Club Inc Fun Day Group A  AM  Experienced \u2013 Sprint",
-      "start": "2025-03-01",
-      "end": "2025-03-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42604",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-02-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/42604",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Newcastle All Breeds Dog Training Club Inc Fun Day Group B PM  Newbies \u2013 Sprint",
-      "club": "Newcastle All Breeds Dog Training Club Inc Fun Day Group B PM  Newbies \u2013 Sprint",
-      "start": "2025-03-01",
-      "end": "2025-03-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42605",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-02-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/42605",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -17602,31 +17150,6 @@
       "is_past": true
     },
     {
-      "title": "GRCQ RATG Training Day (Golden Retriever Club of Qld)",
-      "club": "GRCQ RATG Training Day (Golden Retriever Club of Qld)",
-      "start": "2025-03-08",
-      "end": "2025-03-08",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "RATG",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Sash sponsorship - 2 x shows - 9/10 March 2025 (Warragul & Dist  Kennel & Obedience Club Inc)",
       "club": "Sash sponsorship - 2 x shows - 9/10 March 2025 (Warragul & Dist  Kennel & Obedience Club Inc)",
       "start": "2025-03-09",
@@ -17802,13 +17325,13 @@
       "is_past": true
     },
     {
-      "title": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 1)",
-      "club": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 1)",
+      "title": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 1) \u2013 Retrieving",
+      "club": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 1) \u2013 Retrieving",
       "start": "2025-03-15",
       "end": "2025-03-15",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42257",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -17827,13 +17350,13 @@
       "is_past": true
     },
     {
-      "title": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 2)",
-      "club": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 2)",
+      "title": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 2) \u2013 Retrieving",
+      "club": "Northern Suburbs Dog Training Club Inc Double RATG Trial (Trial 2) \u2013 Retrieving",
       "start": "2025-03-15",
       "end": "2025-03-15",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42258",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -18552,56 +18075,6 @@
       "is_past": true
     },
     {
-      "title": "Fun Day for Dogs that have NOT done ANY Sprint Dog (Fast Paws Sydney Inc)",
-      "club": "Fun Day for Dogs that have NOT done ANY Sprint Dog (Fast Paws Sydney Inc)",
-      "start": "2025-03-29",
-      "end": "2025-03-29",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Fun Day for dogs who\u2019ve COMPLETED Sprint Dog\u2122 run (Fast Paws Sydney Inc)",
-      "club": "Fun Day for dogs who\u2019ve COMPLETED Sprint Dog\u2122 run (Fast Paws Sydney Inc)",
-      "start": "2025-03-29",
-      "end": "2025-03-29",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "ALCRC Trial Set Up Raffle (ADELAIDE LURE COURSING & RACING CLUB INC) \u2013 Lure Coursing",
       "club": "ALCRC Trial Set Up Raffle (ADELAIDE LURE COURSING & RACING CLUB INC) \u2013 Lure Coursing",
       "start": "2025-03-30",
@@ -18659,31 +18132,6 @@
       "location": "",
       "url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-03-31",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "2026 Agility Nationals Qld Photo Fundraiser (Dogs Queensland Agility Committee)",
-      "club": "2026 Agility Nationals Qld Photo Fundraiser (Dogs Queensland Agility Committee)",
-      "start": "2025-03-31",
-      "end": "2025-03-31",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -18971,31 +18419,6 @@
       "verified": true,
       "closes": "2025-03-29",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43082",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "2025 Tracking Workshop Weekend (Tracking Club of Victoria)",
-      "club": "2025 Tracking Workshop Weekend (Tracking Club of Victoria)",
-      "start": "2025-04-05",
-      "end": "2025-04-05",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Tracking",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-03-28",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -19502,13 +18925,13 @@
       "is_past": true
     },
     {
-      "title": "Weimaraner Club of Victoria Inc \u2013 RATG",
-      "club": "Weimaraner Club of Victoria Inc \u2013 RATG",
+      "title": "Weimaraner Club of Victoria Inc \u2013 Retrieving",
+      "club": "Weimaraner Club of Victoria Inc \u2013 Retrieving",
       "start": "2025-04-12",
       "end": "2025-04-12",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42593",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
@@ -19727,13 +19150,13 @@
       "is_past": true
     },
     {
-      "title": "Weimaraner Club of Victoria Inc \u2013 RATG",
-      "club": "Weimaraner Club of Victoria Inc \u2013 RATG",
+      "title": "Weimaraner Club of Victoria Inc \u2013 Retrieving",
+      "club": "Weimaraner Club of Victoria Inc \u2013 Retrieving",
       "start": "2025-04-13",
       "end": "2025-04-13",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42594",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
@@ -19827,13 +19250,13 @@
       "is_past": true
     },
     {
-      "title": "13th German Shorthaired Pointer National NSW 2025 - Dog Sports Extravaganza \u2013 RATG",
-      "club": "13th German Shorthaired Pointer National NSW 2025 - Dog Sports Extravaganza \u2013 RATG",
+      "title": "13th German Shorthaired Pointer National NSW 2025 - Dog Sports Extravaganza \u2013 Retrieving",
+      "club": "13th German Shorthaired Pointer National NSW 2025 - Dog Sports Extravaganza \u2013 Retrieving",
       "start": "2025-04-15",
       "end": "2025-04-15",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42469",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -19902,38 +19325,13 @@
       "is_past": true
     },
     {
-      "title": "CANCELLED SW Subcommittee Fundraiser Trivia Night (Dogs QLD Scent Work Sub Committee)",
-      "club": "CANCELLED SW Subcommittee Fundraiser Trivia Night (Dogs QLD Scent Work Sub Committee)",
-      "start": "2025-04-17",
-      "end": "2025-04-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Scent Work",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": true,
-      "status": "cancelled",
-      "status_label": "Cancelled",
-      "verified": true,
-      "closes": "2025-04-13",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Bundaberg Canine Club Inc \u2013 RATG",
-      "club": "Bundaberg Canine Club Inc \u2013 RATG",
+      "title": "Bundaberg Canine Club Inc \u2013 Retrieving",
+      "club": "Bundaberg Canine Club Inc \u2013 Retrieving",
       "start": "2025-04-18",
       "end": "2025-04-18",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42438",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -20146,31 +19544,6 @@
       "verified": true,
       "closes": "2025-03-28",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/42981",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "GSDL Games & Trivia Night (German Shepherd Dog League Inc) \u2013 Agility",
-      "club": "GSDL Games & Trivia Night (German Shepherd Dog League Inc)",
-      "start": "2025-04-19",
-      "end": "2025-04-19",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -21377,13 +20750,13 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of QLD Inc \u2013 RATG",
-      "club": "Labrador Retriever Club of QLD Inc \u2013 RATG",
+      "title": "Labrador Retriever Club of QLD Inc \u2013 Retrieving",
+      "club": "Labrador Retriever Club of QLD Inc \u2013 Retrieving",
       "start": "2025-05-03",
       "end": "2025-05-03",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43250",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -21602,13 +20975,13 @@
       "is_past": true
     },
     {
-      "title": "The Golden Retriever Club of NSW Inc. RATG TRIAL 1",
-      "club": "The Golden Retriever Club of NSW Inc. RATG TRIAL 1",
+      "title": "The Golden Retriever Club of NSW Inc. RATG TRIAL 1 \u2013 Retrieving",
+      "club": "The Golden Retriever Club of NSW Inc. RATG TRIAL 1 \u2013 Retrieving",
       "start": "2025-05-04",
       "end": "2025-05-04",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42769",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -21627,13 +21000,13 @@
       "is_past": true
     },
     {
-      "title": "The Golden Retriever Club of NSW Inc. RATG TRIAL 2",
-      "club": "The Golden Retriever Club of NSW Inc. RATG TRIAL 2",
+      "title": "The Golden Retriever Club of NSW Inc. RATG TRIAL 2 \u2013 Retrieving",
+      "club": "The Golden Retriever Club of NSW Inc. RATG TRIAL 2 \u2013 Retrieving",
       "start": "2025-05-04",
       "end": "2025-05-04",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42770",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -21646,31 +21019,6 @@
       "verified": true,
       "closes": "2025-04-28",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/42770",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Introduction to Tracking Workshop (Dobermann Club of NSW Inc)",
-      "club": "Introduction to Tracking Workshop (Dobermann Club of NSW Inc)",
-      "start": "2025-05-04",
-      "end": "2025-05-04",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Tracking",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-05-03",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -22427,31 +21775,6 @@
       "is_past": true
     },
     {
-      "title": "Beaudesert Kennel Club **FUN DAY*** \u2013 Sprint",
-      "club": "Beaudesert Kennel Club **FUN DAY*** \u2013 Sprint",
-      "start": "2025-05-17",
-      "end": "2025-05-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43486",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-05-11",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43486",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Beaudesert Kennel Club Weight Pull Event",
       "club": "Beaudesert Kennel Club Weight Pull Event",
       "start": "2025-05-17",
@@ -22727,31 +22050,6 @@
       "is_past": true
     },
     {
-      "title": "Sprint Fun Day (Albury & Border Kennel Club Inc)",
-      "club": "Sprint Fun Day (Albury & Border Kennel Club Inc)",
-      "start": "2025-05-17",
-      "end": "2025-05-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-05-03",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "ADELAIDE LURE COURSING & RACING CLUB INC (Coursing Ability) \u2013 Lure Coursing",
       "club": "ADELAIDE LURE COURSING & RACING CLUB INC (Coursing Ability) \u2013 Lure Coursing",
       "start": "2025-05-18",
@@ -22927,13 +22225,13 @@
       "is_past": true
     },
     {
-      "title": "Nova Scotia Duck Tolling Retriever Club of Vic. RTB RATG",
-      "club": "Nova Scotia Duck Tolling Retriever Club of Vic. RTB RATG",
+      "title": "Nova Scotia Duck Tolling Retriever Club of Vic. RTB RATG \u2013 Retrieving",
+      "club": "Nova Scotia Duck Tolling Retriever Club of Vic. RTB RATG \u2013 Retrieving",
       "start": "2025-05-18",
       "end": "2025-05-18",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42579",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
@@ -23195,31 +22493,6 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-04-11",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sprint Fun Day (Albury & Border Kennel Club Inc)",
-      "club": "Sprint Fun Day (Albury & Border Kennel Club Inc)",
-      "start": "2025-05-18",
-      "end": "2025-05-18",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-05-03",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
@@ -23696,31 +22969,6 @@
       "verified": true,
       "closes": "2025-05-21",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/42975",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "RDOC May Scent Work Raffle  (Redlands Dog Obedience Club Inc)",
-      "club": "RDOC May Scent Work Raffle  (Redlands Dog Obedience Club Inc)",
-      "start": "2025-05-25",
-      "end": "2025-05-25",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Scent Work",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-05-24",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -25202,31 +24450,6 @@
       "is_past": true
     },
     {
-      "title": "Dogs QLD State and National Trials Sub-Committee Fund Raiser \u2013 Obedience",
-      "club": "Dogs QLD State and National Trials Sub-Committee Fund Raiser",
-      "start": "2025-06-10",
-      "end": "2025-06-10",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43309",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-06-05",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43309",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Yuggera Canine Club \u2013 Trick Dog",
       "club": "Yuggera Canine Club \u2013 Trick Dog",
       "start": "2025-06-10",
@@ -25671,56 +24894,6 @@
       "verified": true,
       "closes": "2025-06-08",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43911",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Tasmanian Golden Retriever Club (AM Trial) \u2013 RATG",
-      "club": "Tasmanian Golden Retriever Club (AM Trial) \u2013 RATG",
-      "start": "2025-06-15",
-      "end": "2025-06-15",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43370",
-      "category": "RATG",
-      "region": "TAS",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c8632a",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-05-31",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43370",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Tasmanian Golden Retriever Club (PM Trial) \u2013 RATG",
-      "club": "Tasmanian Golden Retriever Club (PM Trial) \u2013 RATG",
-      "start": "2025-06-15",
-      "end": "2025-06-15",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43374",
-      "category": "RATG",
-      "region": "TAS",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c8632a",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-05-31",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43374",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -26202,13 +25375,13 @@
       "is_past": true
     },
     {
-      "title": "The Pointer Club of NSW \u2013 RATG",
-      "club": "The Pointer Club of NSW \u2013 RATG",
+      "title": "The Pointer Club of NSW \u2013 Retrieving",
+      "club": "The Pointer Club of NSW \u2013 Retrieving",
       "start": "2025-06-21",
       "end": "2025-06-21",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/42533",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -26302,13 +25475,13 @@
       "is_past": true
     },
     {
-      "title": "Blacktown Kennel & Training Club Inc \u2013 RATG",
-      "club": "Blacktown Kennel & Training Club Inc \u2013 RATG",
+      "title": "Blacktown Kennel & Training Club Inc \u2013 Retrieving",
+      "club": "Blacktown Kennel & Training Club Inc \u2013 Retrieving",
       "start": "2025-06-22",
       "end": "2025-06-22",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43118",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -26627,56 +25800,6 @@
       "is_past": true
     },
     {
-      "title": "Dogs QLD State and National Trials Sub-Committee Fundraiser \u2013 Obedience",
-      "club": "Dogs QLD State and National Trials Sub-Committee Fundraiser",
-      "start": "2025-06-25",
-      "end": "2025-06-25",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43331",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-06-18",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43331",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Track and Search State Championships Raffle (Dogs Qld Tracking and Track & Search Club)",
-      "club": "Track and Search State Championships Raffle (Dogs Qld Tracking and Track & Search Club)",
-      "start": "2025-06-25",
-      "end": "2025-06-25",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Track & Search",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-06-28",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Dogs QLD Obedience Scent Work Sub Committee",
       "club": "Dogs QLD Obedience Scent Work Sub Committee",
       "start": "2025-06-26",
@@ -26877,13 +26000,13 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 RATG",
-      "club": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 RATG",
+      "title": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 Retrieving",
+      "club": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 Retrieving",
       "start": "2025-06-29",
       "end": "2025-06-29",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43110",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -26902,13 +26025,13 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 RATG",
-      "club": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 RATG",
+      "title": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 Retrieving",
+      "club": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 Retrieving",
       "start": "2025-06-29",
       "end": "2025-06-29",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43111",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -27352,13 +26475,13 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of Qld Inc \u2013 RATG",
-      "club": "Labrador Retriever Club of Qld Inc \u2013 RATG",
+      "title": "Labrador Retriever Club of Qld Inc \u2013 Retrieving",
+      "club": "Labrador Retriever Club of Qld Inc \u2013 Retrieving",
       "start": "2025-07-05",
       "end": "2025-07-05",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43799",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -27527,13 +26650,13 @@
       "is_past": true
     },
     {
-      "title": "German Shorthaired Pointer Club of Qld (Trial 1) \u2013 RATG",
-      "club": "German Shorthaired Pointer Club of Qld (Trial 1) \u2013 RATG",
+      "title": "German Shorthaired Pointer Club of Qld (Trial 1) \u2013 Retrieving",
+      "club": "German Shorthaired Pointer Club of Qld (Trial 1) \u2013 Retrieving",
       "start": "2025-07-06",
       "end": "2025-07-06",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43800",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -27552,13 +26675,13 @@
       "is_past": true
     },
     {
-      "title": "German Shorthaired Pointer Club of Qld (Trial 2) \u2013 RATG",
-      "club": "German Shorthaired Pointer Club of Qld (Trial 2) \u2013 RATG",
+      "title": "German Shorthaired Pointer Club of Qld (Trial 2) \u2013 Retrieving",
+      "club": "German Shorthaired Pointer Club of Qld (Trial 2) \u2013 Retrieving",
       "start": "2025-07-06",
       "end": "2025-07-06",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43835",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -27702,31 +26825,6 @@
       "is_past": true
     },
     {
-      "title": "\"Pick a Prize\" Raffle (Atherton Tableland Kennel Club Inc) \u2013 Obedience",
-      "club": "\"Pick a Prize\" Raffle (Atherton Tableland Kennel Club Inc)",
-      "start": "2025-07-06",
-      "end": "2025-07-06",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-07-05",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Yuggera Canine Club \u2013 Scent Work",
       "club": "Yuggera Canine Club",
       "start": "2025-07-08",
@@ -27771,31 +26869,6 @@
       "verified": true,
       "closes": "2025-07-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43856",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Renae Foss Scent Work Workshops (Pomeranian Club of NSW)",
-      "club": "Renae Foss Scent Work Workshops (Pomeranian Club of NSW)",
-      "start": "2025-07-11",
-      "end": "2025-07-11",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-07-04",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -28302,31 +27375,6 @@
       "is_past": true
     },
     {
-      "title": "Wheelbarrow & Dog Food Raffle (Atherton Tableland Kennel Club Inc) \u2013 Obedience",
-      "club": "Wheelbarrow & Dog Food Raffle (Atherton Tableland Kennel Club Inc)",
-      "start": "2025-07-13",
-      "end": "2025-07-13",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-07-12",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "ALBURY & BORDER KENNEL CLUB INC (Obedience Trial 1)",
       "club": "ALBURY & BORDER KENNEL CLUB INC (Obedience Trial 1)",
       "start": "2025-07-19",
@@ -28527,13 +27575,13 @@
       "is_past": true
     },
     {
-      "title": "IDOC RATG",
-      "club": "IDOC RATG",
+      "title": "IDOC RATG \u2013 Retrieving",
+      "club": "IDOC RATG \u2013 Retrieving",
       "start": "2025-07-19",
       "end": "2025-07-19",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/43575",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -29352,13 +28400,13 @@
       "is_past": true
     },
     {
-      "title": "Gippsland Obedience Dog Club Inc \u2013 RATG",
-      "club": "Gippsland Obedience Dog Club Inc \u2013 RATG",
+      "title": "Gippsland Obedience Dog Club Inc \u2013 Retrieving",
+      "club": "Gippsland Obedience Dog Club Inc \u2013 Retrieving",
       "start": "2025-08-03",
       "end": "2025-08-03",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/44475",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
@@ -30729,13 +29777,13 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 RATG",
-      "club": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 RATG",
+      "title": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 Retrieving",
+      "club": "Labrador Retriever Club of NSW Inc (Trial 1) \u2013 Retrieving",
       "start": "2025-08-16",
       "end": "2025-08-16",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/44377",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -30754,13 +29802,13 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 RATG",
-      "club": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 RATG",
+      "title": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 Retrieving",
+      "club": "Labrador Retriever Club of NSW Inc (Trial 2) \u2013 Retrieving",
       "start": "2025-08-16",
       "end": "2025-08-16",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/44381",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -31429,13 +30477,13 @@
       "is_past": true
     },
     {
-      "title": "Club LEpagneul Breton Inc \u2013 RATG",
-      "club": "Club LEpagneul Breton Inc \u2013 RATG",
+      "title": "Club LEpagneul Breton Inc \u2013 Retrieving",
+      "club": "Club LEpagneul Breton Inc \u2013 Retrieving",
       "start": "2025-08-23",
       "end": "2025-08-23",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/44761",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
@@ -31948,81 +30996,6 @@
       "verified": true,
       "closes": "2025-08-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/44933",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Lure Coursing Seminar- Meals (Wagz Cafe)",
-      "club": "Lure Coursing Seminar- Meals (Wagz Cafe)",
-      "start": "2025-08-26",
-      "end": "2025-08-26",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-08-26",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sami Rhyner Hirko - Lure Coursing Seminar (DogsQLD Lure Coursing Subcommittee)",
-      "club": "Sami Rhyner Hirko - Lure Coursing Seminar (DogsQLD Lure Coursing Subcommittee)",
-      "start": "2025-08-26",
-      "end": "2025-08-26",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-08-26",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Vera Drummond Workshop - 2 Day Obedience Workshop (Dogs QLD)",
-      "club": "Vera Drummond Workshop - 2 Day Obedience Workshop (Dogs QLD)",
-      "start": "2025-08-26",
-      "end": "2025-08-26",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-07-31",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -33004,31 +31977,6 @@
       "is_past": true
     },
     {
-      "title": "Dogs ACT Sprint Dog Fundraising Raffle (Dogs ACT - Sprint Dog)",
-      "club": "Dogs ACT Sprint Dog Fundraising Raffle (Dogs ACT - Sprint Dog)",
-      "start": "2025-09-10",
-      "end": "2025-09-10",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-09-10",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "2025 National Retrieving Championship",
       "club": "2025 National Retrieving Championship",
       "start": "2025-09-12",
@@ -33223,31 +32171,6 @@
       "verified": true,
       "closes": "2025-08-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/44769",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sprint Fun Day (Dogs NSW SprintDog (TM) Working Party)",
-      "club": "Sprint Fun Day (Dogs NSW SprintDog (TM) Working Party)",
-      "start": "2025-09-13",
-      "end": "2025-09-13",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-09-08",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -33829,13 +32752,13 @@
       "is_past": true
     },
     {
-      "title": "Labrador Retriever Club of Qld Inc \u2013 RATG",
-      "club": "Labrador Retriever Club of Qld Inc \u2013 RATG",
+      "title": "Labrador Retriever Club of Qld Inc \u2013 Retrieving",
+      "club": "Labrador Retriever Club of Qld Inc \u2013 Retrieving",
       "start": "2025-09-20",
       "end": "2025-09-20",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/44961",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
@@ -33973,31 +32896,6 @@
       "verified": true,
       "closes": "2025-09-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/43673",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Fun Day- Sprint Dog (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "club": "Fun Day- Sprint Dog (Afghan Hound Club of Vic Inc. (Other Activities))",
-      "start": "2025-09-20",
-      "end": "2025-09-20",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-09-19",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -34179,31 +33077,6 @@
       "is_past": true
     },
     {
-      "title": "DOGS NSW Introduction to Tracking Workshop (DOGS NSW Obedience Tracking Performance Discipline Committee)",
-      "club": "DOGS NSW Introduction to Tracking Workshop (DOGS NSW Obedience Tracking Performance Discipline Committee)",
-      "start": "2025-09-21",
-      "end": "2025-09-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-09-14",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Redlands Dog Obedience Club Inc \u2013 Scent Work",
       "club": "Redlands Dog Obedience Club Inc",
       "start": "2025-09-22",
@@ -34223,31 +33096,6 @@
       "verified": true,
       "closes": "2025-09-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/44904",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scentwork workshop  (Fast Paws Sydney Inc) \u2013 Scent Work",
-      "club": "Scentwork workshop  (Fast Paws Sydney Inc)",
-      "start": "2025-09-22",
-      "end": "2025-09-22",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-09-16",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -34629,13 +33477,13 @@
       "is_past": true
     },
     {
-      "title": "German Shorthaired Pointer Club Vic Inc \u2013 RATG",
-      "club": "German Shorthaired Pointer Club Vic Inc \u2013 RATG",
+      "title": "German Shorthaired Pointer Club Vic Inc \u2013 Retrieving",
+      "club": "German Shorthaired Pointer Club Vic Inc \u2013 Retrieving",
       "start": "2025-09-28",
       "end": "2025-09-28",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/44008",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
@@ -34673,31 +33521,6 @@
       "verified": true,
       "closes": "2025-09-19",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/44615",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Agility Nationals T-shirt & Sticker Fundraiser (Dogs Queensland Agility Committee)",
-      "club": "Agility Nationals T-shirt & Sticker Fundraiser (Dogs Queensland Agility Committee)",
-      "start": "2025-10-01",
-      "end": "2025-10-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-11-15",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -35254,13 +34077,13 @@
       "is_past": true
     },
     {
-      "title": "Dogs NSW Obedience and Tracking Committee (RATG)",
-      "club": "Dogs NSW Obedience and Tracking Committee (RATG)",
+      "title": "Dogs NSW Obedience and Tracking Committee (RATG) \u2013 Retrieving",
+      "club": "Dogs NSW Obedience and Tracking Committee (RATG) \u2013 Retrieving",
       "start": "2025-10-06",
       "end": "2025-10-06",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/44746",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -35779,13 +34602,13 @@
       "is_past": true
     },
     {
-      "title": "United Retriever Club of NSW AM Open & Novice \u2013 RATG",
-      "club": "United Retriever Club of NSW AM Open & Novice \u2013 RATG",
+      "title": "United Retriever Club of NSW AM Open & Novice \u2013 Retrieving",
+      "club": "United Retriever Club of NSW AM Open & Novice \u2013 Retrieving",
       "start": "2025-10-11",
       "end": "2025-10-11",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45163",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
@@ -36754,31 +35577,6 @@
       "is_past": true
     },
     {
-      "title": "2025 State Titles Multi-Draw Raffle (Dogs QLD Scent Work Sub Committee)",
-      "club": "2025 State Titles Multi-Draw Raffle (Dogs QLD Scent Work Sub Committee)",
-      "start": "2025-10-26",
-      "end": "2025-10-26",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Scent Work",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-10-26",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "DOGS NSW Grounds Development Committee SprintDogTM Trial",
       "club": "DOGS NSW Grounds Development Committee SprintDogTM Trial",
       "start": "2025-10-31",
@@ -36973,31 +35771,6 @@
       "verified": true,
       "closes": "2025-10-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/44849",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Fundraiser 2026 Agility Nats Qld -Story Book Cakes (Dogs Queensland Agility Committee)",
-      "club": "Fundraiser 2026 Agility Nats Qld -Story Book Cakes (Dogs Queensland Agility Committee)",
-      "start": "2025-11-01",
-      "end": "2025-11-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Agility",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-10-04",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
@@ -37379,31 +36152,6 @@
       "is_past": true
     },
     {
-      "title": "2025 Celebration Dinner AGM & Awards (Western Australian Sleddog Sports Association) \u2013 Sled Sports",
-      "club": "2025 Celebration Dinner AGM & Awards (Western Australian Sleddog Sports Association) \u2013 Sled Sports",
-      "start": "2025-11-08",
-      "end": "2025-11-08",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sled Sports",
-      "region": "WA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#16887a",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-10-23",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "ACT Companion Dog Club Track & Search Dog Trial",
       "club": "ACT Companion Dog Club Track & Search Dog Trial",
       "start": "2025-11-09",
@@ -37547,31 +36295,6 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2025-11-09",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Raffle (Dogs ACT - Sprint Dog)",
-      "club": "Raffle (Dogs ACT - Sprint Dog)",
-      "start": "2025-11-11",
-      "end": "2025-11-11",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "ACT",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#1d6fb8",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2025-11-11",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
@@ -37829,13 +36552,13 @@
       "is_past": true
     },
     {
-      "title": "The Golden Retriever Club of VIC Inc  (Novice) \u2013 RATG",
-      "club": "The Golden Retriever Club of VIC Inc  (Novice) \u2013 RATG",
+      "title": "The Golden Retriever Club of VIC Inc  (Novice) \u2013 Retrieving",
+      "club": "The Golden Retriever Club of VIC Inc  (Novice) \u2013 Retrieving",
       "start": "2025-11-16",
       "end": "2025-11-16",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45625",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
@@ -37854,13 +36577,13 @@
       "is_past": true
     },
     {
-      "title": "The Golden Retriever Club of VIC Inc  (Open) \u2013 RATG",
-      "club": "The Golden Retriever Club of VIC Inc  (Open) \u2013 RATG",
+      "title": "The Golden Retriever Club of VIC Inc  (Open) \u2013 Retrieving",
+      "club": "The Golden Retriever Club of VIC Inc  (Open) \u2013 Retrieving",
       "start": "2025-11-16",
       "end": "2025-11-16",
       "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45623",
-      "category": "RATG",
+      "category": "Retrieving",
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
@@ -39273,31 +37996,6 @@
       "verified": true,
       "closes": "2025-11-11",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45537",
-      "schedule_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Win A Big $500 For Christmas Raffle (NSW Lure Coursing Association)",
-      "club": "Win A Big $500 For Christmas Raffle (NSW Lure Coursing Association)",
-      "start": "2025-12-24",
-      "end": "2025-12-24",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "address": null,
       "open_now": false,
