@@ -57,7 +57,7 @@ def get_topdog_pages(sections=("upcoming", "past")):
                 return None
 
             ctx = browser.new_context(
-                user_agent="TrackingCalendarBot/1.0 (+combined tracking events)")
+                user_agent="ANKCEventCheck/1.0 (+https://github.com/glassopsaus/ANKCCalendar)")
             page = ctx.new_page()
             page.set_default_timeout(NAV_TIMEOUT_MS)
 
