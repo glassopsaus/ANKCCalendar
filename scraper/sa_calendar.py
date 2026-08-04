@@ -48,7 +48,7 @@ except Exception:
 SA_EVENTS_URL = "https://dogssa.com.au/events/upcoming-events/"
 SA_SOURCE_NAME = "Dogs SA"
 SA_COLOR = "#c9a227"   # SA's region colour (matches REGION_COLOR in scrape.py)
-HEADERS = {"User-Agent": "TrackingCalendarBot/1.0 (+combined tracking events)"}
+HEADERS = {"User-Agent": "ANKCEventCheck/1.0 (+https://github.com/glassopsaus/ANKCCalendar)"}
 TIMEOUT = 30
 
 _MONTHS = {m.lower(): i for i, m in enumerate(
