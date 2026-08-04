@@ -65,6 +65,12 @@ except Exception as _e:
     HAVE_SA = False
     print(f"[init] sa_calendar import failed: {_e}", file=sys.stderr)
 try:
+    import ozentries
+    HAVE_OZENTRIES = True
+except Exception as _e:
+    HAVE_OZENTRIES = False
+    print(f"[init] ozentries import failed: {_e}", file=sys.stderr)
+try:
     import show_manager
     HAVE_SM = True
 except Exception as _e:
@@ -1672,6 +1678,8 @@ def _entry_link_rank(url):
         return 0
     if re.search(r"readyentries\.com/view-event-group/", url, re.I):
         return 0
+    if re.search(r"ozentries\.com\.au/schedule/", url, re.I):
+        return 0  # OZentries per-event schedule PDF (its canonical event link)
     return 1  # some other specific deep link
 
 
@@ -1707,6 +1715,8 @@ def _is_specific_event_link(url):
     if re.search(r"showmanager\.com\.au/.*(Details|events/PublicEvents)", url, re.I):
         return True
     if re.search(r"vicdog\.com/events/\d", url, re.I):
+        return True
+    if re.search(r"ozentries\.com\.au/schedule/", url, re.I):
         return True
     # A non-generic http(s) link with a path deeper than the site root is
     # probably event-specific; accept it rather than lose a usable link.
@@ -2053,6 +2063,25 @@ def build_year():
             all_events.extend(sa_events)
         except Exception as e:
             print(f"[sa] FAILED: {e}", file=sys.stderr)
+
+    # --- OZentries (entry platform) ------------------------------------------
+    # OZentries is an entry platform (like Top Dog / Show Manager / Ready
+    # Entries) named in the Dogs NSW calendar but previously uncovered (~32 NSW
+    # events). Its public shows.php list is plain server-rendered HTML (no JS),
+    # split into "Approved Events" (open) and "Closed Shows" (closed) — giving
+    # entry status directly — with a schedule-PDF link per event. Like the other
+    # entry platforms it contributes real entry links/status and cross-checks
+    # governing-body events on dedup. Fails safe.
+    if HAVE_OZENTRIES:
+        try:
+            oz_events = ozentries.parse_ozentries(YEAR)
+            for e in oz_events:
+                e.setdefault("source", "Ozentries")
+                if e.get("region"):
+                    e["color"] = REGION_COLOR.get(e["region"])
+            all_events.extend(oz_events)
+        except Exception as e:
+            print(f"[ozentries] FAILED: {e}", file=sys.stderr)
 
     # National Events (Dogs Australia): supplementary feed of national-title and
     # major breed championship events. Adds events; verifies nothing; dedups
@@ -2685,7 +2714,7 @@ def build_year():
     # year-inference assigns them correctly). A 0 from these in an off-year is
     # EXPECTED, not a failure, so the guard must not flag or carry-forward them.
     _current_year = dt.datetime.now(dt.timezone.utc).year
-    _CURRENT_YEAR_ONLY_SOURCES = {"Dogs SA", "Ready Entries"}
+    _CURRENT_YEAR_ONLY_SOURCES = {"Dogs SA", "Ready Entries", "Ozentries"}
     try:
         if OUTPUT.exists():
             from collections import Counter
