@@ -45,7 +45,7 @@ try:
 except Exception:
     HAVE_BS4 = False
 
-HEADERS = {"User-Agent": "TrackingCalendarBot/1.0 (+combined tracking events)"}
+HEADERS = {"User-Agent": "ANKCEventCheck/1.0 (+https://github.com/glassopsaus/ANKCCalendar)"}
 TIMEOUT = 60
 
 SM_BASE = "https://www.showmanager.com.au/events"
