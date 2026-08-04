@@ -1,4 +1,4 @@
-name: Update tracking calendar
+name: Update ANKC event calendar
 
 on:
   schedule:
@@ -39,7 +39,7 @@ jobs:
 
       - name: Commit updated event data
         run: |
-          git config user.name  "tracking-calendar-bot"
+          git config user.name  "ankc-calendar-bot"
           git config user.email "actions@github.com"
           # Collect the generated files by glob so this stays correct as the
           # scraper's year window rolls over (2025/2026/2027 -> 2026/2027/2028).
@@ -66,7 +66,7 @@ jobs:
               push_ok=1
               break
             fi
-            git commit -m "Auto-update tracking events ($(date -u +%Y-%m-%d))"
+            git commit -m "Auto-update ANKC events ($(date -u +%Y-%m-%d))"
             if git push; then
               push_ok=1
               break
