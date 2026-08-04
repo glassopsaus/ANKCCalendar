@@ -51,41 +51,63 @@
   .meta .dot{width:4px;height:4px;border-radius:50%;background:var(--hair);display:inline-block}
   .controls{position:sticky; top:0; z-index:5; background:var(--paper);
     padding:14px 0 12px; margin-bottom:6px; border-bottom:1px solid var(--hair);}
-  /* Per-group accordion toggle: hidden on desktop (bodies always visible);
-     shown on mobile where each group collapses independently. */
-  .filters-toggle{display:none; width:100%; align-items:center; gap:8px;
+  /* Filters render as a row of DROPDOWN menus. Each .faccordion is a menu:
+     a toggle button + a floating panel of colour-coded checkbox rows. */
+  .fmenus{display:flex; flex-wrap:wrap; gap:8px; align-items:flex-start;}
+  .faccordion{position:relative;}
+  .filters-toggle{display:flex; align-items:center; gap:8px;
     background:var(--card); border:1px solid var(--hair); border-radius:9px;
     padding:9px 12px; cursor:pointer; font:inherit; color:var(--ink);
-    text-align:left;}
-  .filters-toggle .ft-label{font-size:12px; letter-spacing:.08em;
-    text-transform:uppercase; font-weight:600; color:var(--ink-soft);
-    min-width:78px;}
-  .filters-toggle .ft-summary{flex:1; font-size:13px; color:var(--ink-soft);
-    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
-  .filters-toggle .ft-chev{transition:transform .15s; color:var(--ink-soft);}
-  .faccordion + .faccordion{margin-top:9px;}
-  .filter-row{display:flex; flex-wrap:wrap; gap:8px; align-items:baseline;}
-  .filter-row + .filter-row{margin-top:9px}
-  .flabel{font-size:11px; letter-spacing:.1em; text-transform:uppercase;
-    color:var(--ink-soft); font-weight:600; margin-right:2px; min-width:74px;}
-  .flabel .fnote{display:block; font-size:9.5px; letter-spacing:.02em; text-transform:none;
-    font-weight:400; color:var(--ink-soft); opacity:.75; margin-top:2px; max-width:120px; line-height:1.25;}
-  .flabel .all{display:block; font-size:10px; letter-spacing:.04em; text-transform:none;
-    font-weight:500; margin-top:2px;}
+    text-align:left; min-width:150px;}
+  .filters-toggle:hover{border-color:var(--ink-soft);}
+  .faccordion.open .filters-toggle{border-color:var(--ink-soft);}
+  .filters-toggle .ft-label{font-size:11px; letter-spacing:.08em;
+    text-transform:uppercase; font-weight:600; color:var(--ink-soft);}
+  .filters-toggle .ft-summary{flex:1; font-size:13px; color:var(--ink);
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:150px;}
+  .filters-toggle .ft-chev{transition:transform .15s; color:var(--ink-soft); font-size:11px;}
+  .faccordion.open .filters-toggle .ft-chev{transform:rotate(180deg);}
+  /* The dropdown panel: hidden until the menu is open, then floats below. */
+  .facc-body{display:none; position:absolute; top:calc(100% + 5px); left:0;
+    z-index:20; min-width:230px; max-width:320px; max-height:60vh; overflow-y:auto;
+    background:var(--card); border:1px solid var(--hair); border-radius:10px;
+    box-shadow:0 8px 28px rgba(0,0,0,.14); padding:10px; flex-direction:column; gap:2px;}
+  .faccordion.open .facc-body{display:flex;}
+  .flabel{display:flex; align-items:center; justify-content:space-between; gap:8px;
+    font-size:10px; letter-spacing:.1em; text-transform:uppercase;
+    color:var(--ink-soft); font-weight:600; padding:2px 4px 8px;
+    border-bottom:1px solid var(--hair); margin-bottom:6px;}
+  .flabel .fnote{flex-basis:100%; font-size:9.5px; letter-spacing:.02em; text-transform:none;
+    font-weight:400; color:var(--ink-soft); opacity:.75; margin-top:5px; line-height:1.25; order:3;}
+  .flabel .all{display:inline-flex; gap:4px; text-transform:none; letter-spacing:.02em;}
   .flabel .all button{background:none;border:none;color:var(--ink-soft);cursor:pointer;
     text-decoration:underline; padding:0; font:inherit; font-size:10px;}
   .flabel .all button:hover{color:var(--ink)}
-  .chip{border:1px solid var(--hair); background:var(--card); color:var(--ink);
-    padding:5px 11px; border-radius:999px; font-size:13px; cursor:pointer;
-    display:inline-flex; align-items:center; gap:6px; user-select:none;
-    transition:border-color .12s, background .12s, opacity .12s;}
-  .chip:hover{border-color:var(--ink-soft)}
-  .chip[aria-pressed="false"]{opacity:.4}
-  .chip.empty{opacity:.22; text-decoration:line-through; text-decoration-color:var(--hair);}
-  .chip[aria-pressed="true"].empty{opacity:.5; text-decoration:none;}
-  .chip .sw{width:9px;height:9px;border-radius:2px;display:inline-block; flex:none}
+  /* Checkbox-style rows inside a dropdown (multi-select toggles). */
+  .chip{border:none; background:none; color:var(--ink); width:100%;
+    padding:7px 8px; border-radius:7px; font-size:13.5px; cursor:pointer;
+    display:flex; align-items:center; gap:9px; user-select:none; text-align:left;
+    transition:background .12s;}
+  .chip:hover{background:var(--paper);}
+  .chip .box{width:16px; height:16px; border-radius:4px; flex:none; position:relative;
+    border:1.5px solid var(--hair); display:inline-flex; align-items:center; justify-content:center;}
+  .chip[aria-pressed="true"] .box{border-color:var(--chipc,var(--ink-soft)); background:var(--chipc,var(--ink-soft));}
+  .chip[aria-pressed="true"] .box::after{content:"✓"; color:#fff; font-size:11px; line-height:1; font-weight:700;}
+  .chip .sw{width:10px;height:10px;border-radius:2px;display:inline-block; flex:none}
   .chip .sw.round{border-radius:50%}
+  .chip .clabel{flex:1;}
   .chip .cnt{font-size:11px; color:var(--ink-soft); font-variant-numeric:tabular-nums;}
+  .chip.empty{opacity:.4;}
+  .chip.empty .clabel{text-decoration:line-through; text-decoration-color:var(--hair);}
+  .chip[aria-pressed="true"].empty{opacity:.6;}
+  .chip[aria-pressed="true"].empty .clabel{text-decoration:none;}
+  /* Standalone toggles (Verified only / Show past) sit outside the dropdowns. */
+  .toggle-strip{display:flex; flex-wrap:wrap; gap:8px; margin-top:9px;}
+  .chip.standalone{width:auto; border:1px solid var(--hair); border-radius:999px;
+    padding:6px 12px 6px 9px; background:var(--card);}
+  .chip.standalone:hover{border-color:var(--ink-soft); background:var(--card);}
+  .chip.standalone[aria-pressed="false"]{opacity:.55;}
+  .chip.standalone .box{width:14px; height:14px;}
   .month{margin-top:26px;}
   .month > h2{font-size:13px; letter-spacing:.08em; text-transform:uppercase;
     color:var(--ink-soft); font-weight:700; margin:0 0 10px; padding-bottom:6px;
@@ -164,14 +186,11 @@
     .card{grid-template-columns:52px 1fr; gap:6px 12px;}
     .date{grid-row:auto;}
     .crow-src{max-width:55%;}
-    .flabel{min-width:100%;}
-    /* Collapsible filters on mobile: each group's toggle shown, its body
-       hidden unless that group is open. */
-    .filters-toggle{display:flex;}
-    .facc-body{display:none; margin-top:10px;}
-    .faccordion.open .facc-body{display:flex;}
-    .faccordion.open .filters-toggle .ft-chev{transform:rotate(180deg);}
-    .filter-row + .filter-row{margin-top:12px;}
+    /* Dropdowns stack full-width on mobile; panels stay within the viewport. */
+    .fmenus{flex-direction:column;}
+    .faccordion{width:100%;}
+    .filters-toggle{width:100%;}
+    .facc-body{width:100%; min-width:0; max-width:none; left:0; right:0;}
   }
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -186,6 +205,7 @@
     <div class="legend" id="legend"></div>
   </header>
   <div class="controls" id="controls">
+    <div class="fmenus">
     <div class="faccordion" id="acc-region">
       <button class="filters-toggle" aria-expanded="false" aria-controls="state-filters">
         <span class="ft-label">State</span>
@@ -218,6 +238,8 @@
       </button>
       <div class="filter-row facc-body" id="status-filters"></div>
     </div>
+    </div>
+    <div class="toggle-strip" id="toggle-strip"></div>
     <p class="count" id="count"></p>
   </div>
   <div id="list"><div class="state-msg">Loading events…</div></div>
@@ -287,9 +309,11 @@ function buildChips(container, items, group){
     const b=document.createElement("button"); b.className="chip"; b.type="button";
     b.setAttribute("aria-pressed", active[group].has(val));
     b.dataset.val = val; b.dataset.group = group;
+    // Colour the checkbox tick with the item's colour; keep the swatch too.
+    if(swatch) b.style.setProperty("--chipc", swatch);
     const sw = swatch ? `<span class="sw ${round?'round':''}" style="background:${swatch}"></span>` : "";
-    const cnt = (count!=null) ? ` <span class="cnt">${count}</span>` : "";
-    b.innerHTML = sw + escapeHtml(label) + cnt;
+    const cnt = (count!=null) ? `<span class="cnt">${count}</span>` : "";
+    b.innerHTML = `<span class="box"></span>${sw}<span class="clabel">${escapeHtml(label)}</span>${cnt}`;
     b.addEventListener("click",()=>{
       if(active[group].has(val)) active[group].delete(val); else active[group].add(val);
       b.setAttribute("aria-pressed", active[group].has(val)); shownLimit=PAGE_SIZE; render();
@@ -337,29 +361,23 @@ function setupFilters(){
 
   buildChips($("#status-filters"), [["open","Open","var(--open)",false],["listed","Listed","var(--listed)",false],["closed","Entries closed","var(--closed)",false],["approved","Approved","var(--approved)",false],["cancelled","Cancelled","var(--cancel)",false]], "status");
 
-  // Verified-only toggle (independent axis: corroborated/real).
-  const vc = document.createElement("button");
-  vc.className = "chip"; vc.type = "button";
-  vc.setAttribute("aria-pressed", active.verifiedOnly);
-  vc.innerHTML = `<span class="sw round" style="background:var(--verified)"></span>Verified only`;
-  vc.addEventListener("click", ()=>{
-    active.verifiedOnly = !active.verifiedOnly;
-    vc.setAttribute("aria-pressed", active.verifiedOnly);
-    shownLimit=PAGE_SIZE; render();
-  });
-  $("#status-filters").appendChild(vc);
-
-  // Show-past toggle (independent temporal axis; off by default).
-  const pc = document.createElement("button");
-  pc.className = "chip"; pc.type = "button";
-  pc.setAttribute("aria-pressed", active.showPast);
-  pc.innerHTML = `<span class="sw round" style="background:var(--past)"></span>Show past`;
-  pc.addEventListener("click", ()=>{
-    active.showPast = !active.showPast;
-    pc.setAttribute("aria-pressed", active.showPast);
-    shownLimit=PAGE_SIZE; render();
-  });
-  $("#status-filters").appendChild(pc);
+  // Verified-only and Show-past are INDEPENDENT axes (not entry-states), so they
+  // sit as standalone toggles beside the dropdowns rather than inside one.
+  const toggleStrip = $("#toggle-strip");
+  if(toggleStrip && !toggleStrip._built){
+    toggleStrip._built = true;
+    const mkToggle = (getter, setter, colour, text)=>{
+      const t = document.createElement("button");
+      t.className = "chip standalone"; t.type = "button";
+      t.setAttribute("aria-pressed", getter());
+      t.style.setProperty("--chipc", colour);
+      t.innerHTML = `<span class="box"></span><span class="sw round" style="background:${colour}"></span><span class="clabel">${text}</span>`;
+      t.addEventListener("click", ()=>{ setter(!getter()); t.setAttribute("aria-pressed", getter()); shownLimit=PAGE_SIZE; render(); });
+      return t;
+    };
+    toggleStrip.appendChild(mkToggle(()=>active.verifiedOnly, v=>active.verifiedOnly=v, "var(--verified)", "Verified only"));
+    toggleStrip.appendChild(mkToggle(()=>active.showPast, v=>active.showPast=v, "var(--past)", "Show past"));
+  }
 
   // "all / none" bulk toggles per group. Attach ONCE (these live inside the
   // persistent .flabel, so setupFilters() re-runs must not re-bind them).
@@ -385,7 +403,7 @@ function renderLegend(){
     `<span class="li"><span class="sw" style="background:var(--listed)"></span><span style="font-weight:600">Listed</span> — on an entry platform, entries not open yet</span>`+
     `<span class="li"><span class="sw" style="background:var(--closed)"></span><span style="font-weight:600">Entries closed</span> — closing date passed or marked closed</span>`+
     `<span class="li"><span class="sw" style="background:var(--approved)"></span><span style="font-weight:600">Approved</span> — on an ANKC calendar, no entry platform yet</span>`+
-    `<span class="li"><span class="sw" style="background:var(--cancel)"></span><span style="font-weight:600">Cancelled</span> — event withdrawn (kept, struck through)</span>`+
+    `<span class="li"><span class="sw" style="background:var(--cancel)"></span><span style="font-weight:600">Cancelled</span> — event withdrawn</span>`+
     `<span class="li"><span class="sw" style="background:var(--past)"></span><span style="font-weight:600">Past</span> — event date has passed</span>`;
 }
 // Individual filter predicates, reusable for both filtering and faceted counts.
@@ -468,14 +486,28 @@ function updateFilterSummary(){
 function wireFiltersToggle(){
   if(wireFiltersToggle._bound) return;
   wireFiltersToggle._bound = true;
-  document.querySelectorAll(".faccordion").forEach(acc=>{
+  const accs = [...document.querySelectorAll(".faccordion")];
+  const closeAll = (except)=>{
+    accs.forEach(a=>{ if(a!==except){ a.classList.remove("open");
+      const b=a.querySelector(".filters-toggle"); if(b) b.setAttribute("aria-expanded","false"); } });
+  };
+  accs.forEach(acc=>{
     const btn = acc.querySelector(".filters-toggle");
     if(!btn) return;
-    btn.addEventListener("click", ()=>{
-      const open = acc.classList.toggle("open");
-      btn.setAttribute("aria-expanded", String(open));
+    btn.addEventListener("click", (ev)=>{
+      ev.stopPropagation();
+      const willOpen = !acc.classList.contains("open");
+      closeAll(acc);
+      acc.classList.toggle("open", willOpen);
+      btn.setAttribute("aria-expanded", String(willOpen));
     });
+    // Clicks inside the panel (toggling chips) must not close the menu.
+    const body = acc.querySelector(".facc-body");
+    if(body) body.addEventListener("click", e=>e.stopPropagation());
   });
+  // Click anywhere outside an open menu closes it; Escape closes all.
+  document.addEventListener("click", ()=>closeAll(null));
+  document.addEventListener("keydown", e=>{ if(e.key==="Escape") closeAll(null); });
 }
 
 function render(){
