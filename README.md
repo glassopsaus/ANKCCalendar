@@ -215,3 +215,28 @@ docs/
   GoDaddy-builder site with unstable markup. *Trigger to build:* the schedule
   page actually lists events — then assess the real markup before writing a
   parser. The discipline is already recognised if it reaches us via any source.
+
+## Bale Seek & Canine Disc: mapped but not yet seen
+
+Both are newly ANKC-sanctioned disciplines (Bale Seek effective 1 Jan 2026,
+renamed from "Bale Hunt"; Canine Disc effective 1 Jan 2025). They are fully
+mapped in every parser (dv/nsw/qld/wa + the ACT/TAS feed classifier) and the
+front-end colour map — but as of the 2026 calendars there are **zero events**
+for either, so no category tag/filter appears (the front-end builds discipline
+chips only from disciplines actually present in the data — an absent tag is
+correct, not a bug).
+
+Verified 21 Jul 2026 by reading the full Dogs Victoria 2026 calendar PDF end to
+end: **no Bale Seek / Bale Hunt fixture appears anywhere in it.** So the absence
+is real (no club has scheduled one yet), not a parser miss. Canine Disc is not
+expected from our sources at all (it runs under CDA).
+
+**When the first real event appears, verify the source wording matches the
+regex.** The DV parser classifies on the TRAILING fixture tag (e.g.
+"K9 Scent Club SCENT", "Tracking Club of Vic Inc TRACKING"). The DV/WA rules
+match `bale\s*(seek|hunt)` in that tag, which catches "…BALE SEEK"/"…BALE HUNT".
+But if a body abbreviates it to a short trailing code (e.g. "…BS"), the
+prose-based DV/WA rules would miss it — only the NSW/QLD *code* maps carry
+"BS"/"BSK". If Bale Seek events show up in the data with the wrong (or no)
+category, that trailing-code mismatch is the first thing to check, against the
+real fixture text.
