@@ -2137,20 +2137,23 @@ def build_year():
         e["category"] = canonical_category(e.get("category"))
         # Infer an ANKC breed-group RESTRICTION where the data supports it:
         #   (1) DISCIPLINE-inherent: Retrieving / Field Trial / RATG are
-        #       gundog-only by nature -> Group 3, regardless of category being a
-        #       trial or the club. Most reliable signal.
-        #   (2) CONFORMATION club-name: a single-breed club's show is that
-        #       breed's group (e.g. "Labrador Retriever Club" -> Gundogs).
-        # (1) takes precedence. Trials that AREN'T inherently breed-restricted
-        # stay untagged (they're open to all breeds). This is an inference,
-        # surfaced in the UI as such.
+        #       gundog-only by nature -> Group 3, regardless of the club.
+        #   (2) SINGLE-BREED CLUB: a single-breed club's events are restricted
+        #       to that breed's group ACROSS ALL DISCIPLINES — a Golden
+        #       Retriever Club Tracking/Scent Work/Obedience trial is for
+        #       goldens (Group 3), not just its conformation show. Only genuine
+        #       single-breed clubs match; all-breeds/kennel/training clubs and
+        #       regional bodies stay untagged (their trials ARE open to all).
+        # (1) takes precedence (a broad-club retrieving trial is still gundog).
+        # This is an inference, surfaced in the UI as such.
         if HAVE_BREED_GROUPS:
             _grp = breed_groups.group_for_discipline(e.get("category"))
             if _grp:
                 e["breed_group"] = _grp
-            elif e.get("category") == "Conformation":
+            else:
                 _src = e.get("club") or e.get("title") or ""
-                _g2, _breed = breed_groups.infer_breed_group(_src)
+                _g2, _breed = breed_groups.infer_breed_group(
+                    _src, title=e.get("title") or "")
                 if _g2:
                     e["breed_group"] = _g2
                     if _breed:
