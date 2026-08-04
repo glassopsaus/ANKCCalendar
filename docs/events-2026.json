@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04T14:58:12+00:00",
+  "generated": "2026-08-04T16:19:44+00:00",
   "year": 2026,
-  "count": 2818,
+  "count": 2820,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -83,6 +83,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -2125,6 +2127,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -2310,6 +2314,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -2664,6 +2670,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "field spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -3170,6 +3178,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -3286,6 +3296,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -3658,6 +3670,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -4796,6 +4810,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW"
       ],
@@ -4910,6 +4926,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "staffordshire bull terrier",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -4935,6 +4953,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -5499,6 +5519,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -5942,6 +5964,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -6078,6 +6102,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -6404,6 +6430,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -6838,6 +6866,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -7090,6 +7120,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -7612,6 +7644,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -8056,6 +8090,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -8173,6 +8209,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "retriever",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -8544,6 +8582,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -8590,6 +8630,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Top Dog Events"
@@ -8873,6 +8915,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -9744,6 +9788,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "field spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -10187,6 +10233,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -10212,6 +10260,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "bull terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -10423,6 +10473,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -10588,6 +10640,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "setter",
       "sources": [
         "Dogs NSW"
       ],
@@ -10704,6 +10758,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "staffordshire bull terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -11431,6 +11487,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "chihuahua",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -12382,6 +12440,8 @@
       "color": "#3aa657",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "bearded collie",
       "sources": [
         "Top Dog Events",
         "Dogs Victoria (official calendar)",
@@ -12498,6 +12558,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -12988,6 +13050,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -13082,6 +13146,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -13386,6 +13452,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -13757,6 +13825,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "boxer",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -15913,6 +15983,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -16152,6 +16224,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "bearded collie",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -16461,6 +16535,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs NSW"
       ],
@@ -16693,6 +16769,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -16809,6 +16887,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -16856,6 +16936,8 @@
       "color": "#1d6fb8",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "gundog",
       "sources": [
         "Top Dog Events",
         "Dogs ACT"
@@ -16903,6 +16985,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -17283,6 +17367,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -17560,6 +17646,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "samoyed",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -17707,6 +17795,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "german shorthaired pointer",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -17751,6 +17841,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -17915,6 +18007,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -18173,6 +18267,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs NSW"
       ],
@@ -18496,6 +18592,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "boxer",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -18520,6 +18618,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -18617,6 +18717,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -18806,6 +18908,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -18899,6 +19003,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador retriever",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -19486,6 +19592,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "retriever",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -19747,6 +19855,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -20373,6 +20483,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -20420,6 +20532,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "siberian husky",
       "sources": [
         "Dogs NSW"
       ],
@@ -20536,6 +20650,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -20737,6 +20853,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -20923,6 +21041,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -21081,6 +21201,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -21244,6 +21366,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs NSW"
       ],
@@ -21738,6 +21862,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -22579,6 +22705,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -22833,6 +22961,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -22996,6 +23126,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -23727,6 +23859,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -24362,6 +24496,8 @@
       "color": "#7a3ea6",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Top Dog Events",
         "Dogs NSW"
@@ -24522,6 +24658,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -24573,6 +24711,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW",
         "Top Dog Events"
@@ -24690,6 +24830,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
       "sources": [
         "Dogs NSW"
       ],
@@ -24801,6 +24943,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -24944,6 +25088,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -25172,6 +25318,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -25221,6 +25369,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "siberian husky",
       "sources": [
         "Dogs NSW"
       ],
@@ -25552,6 +25702,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -26636,6 +26788,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -26960,6 +27114,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "rottweiler",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -27175,6 +27331,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "american staffordshire terrier",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -27439,6 +27597,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -27602,6 +27762,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "welsh corgi",
       "sources": [
         "Dogs NSW"
       ],
@@ -27988,6 +28150,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -28147,6 +28311,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -28657,6 +28823,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -28679,6 +28847,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -28884,6 +29054,8 @@
       "color": "#3aa657",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador",
       "sources": [
         "Top Dog Events",
         "Dogs Victoria (official calendar)"
@@ -29142,6 +29314,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "rottweiler",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -29164,6 +29338,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "bearded collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -29281,6 +29457,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -29305,6 +29483,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -29400,6 +29580,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -29447,6 +29629,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "basenji",
       "sources": [
         "Dogs NSW"
       ],
@@ -29609,6 +29793,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -29658,6 +29844,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -29916,6 +30104,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -30033,6 +30223,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Top Dog Events"
@@ -30103,6 +30295,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -30149,6 +30343,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs NSW"
       ],
@@ -30770,6 +30966,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -30795,6 +30993,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -30957,6 +31157,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -30981,6 +31183,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -31279,6 +31483,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "rottweiler",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -31303,6 +31509,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -31532,6 +31740,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -31556,6 +31766,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs NSW"
       ],
@@ -31952,6 +32164,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -32139,6 +32353,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -32186,6 +32402,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "field spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -33212,6 +33430,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "american staffordshire terrier",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -33283,6 +33503,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Ozentries",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -33775,6 +33997,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -34007,6 +34231,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -34498,6 +34724,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
       "sources": [
         "Top Dog Events"
       ],
@@ -35116,6 +35344,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -35303,6 +35533,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -35442,6 +35674,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "field spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -35603,14 +35837,14 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
         "Dogs Queensland (trial calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1786",
       "open_now": false,
@@ -35742,14 +35976,14 @@
       "cancelled": false,
       "region": "WA",
       "color": "#16887a",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1394",
       "open_now": false,
@@ -35977,13 +36211,13 @@
       "cancelled": false,
       "region": "SA",
       "color": "#c9a227",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1571",
       "open_now": false,
@@ -36324,6 +36558,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "siberian husky",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -36673,6 +36909,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "field spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -36902,7 +37140,7 @@
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
       "start": "2026-08-04",
       "end": "2026-08-04",
-      "location": "",
+      "location": "Oxley Dog Training Club Inc",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Scent Work",
       "region": "NSW",
@@ -36911,15 +37149,63 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2003",
+      "open_now": true,
       "is_past": false,
       "club": "Oxley Dog Training Club Inc"
+    },
+    {
+      "title": "Redlands Double Rally - Judy Holt Park 6.30pm",
+      "start": "2026-08-04",
+      "end": "2026-08-04",
+      "location": "Redlands Dog Obedience Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/1917",
+      "category": "Rally Obedience",
+      "cancelled": false,
+      "region": "QLD",
+      "color": "#c0392b",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1917",
+      "open_now": true,
+      "is_past": false,
+      "club": "Redlands Dog Obedience Club Inc"
+    },
+    {
+      "title": "Vintage Gold - The 13th Golden Retriever National 2026 -Obedience and Rally trials -  Golden Retriever Club of SA Inc (Entry restricted to Main, Limited or with Overseas Control Golden Retrievers) Obedience",
+      "start": "2026-08-04",
+      "end": "2026-08-04",
+      "location": "Golden Retriever Club of South Australia Inc",
+      "url": "https://www.topdogevents.com.au/trials/1527",
+      "category": "Rally Obedience",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1527",
+      "open_now": true,
+      "is_past": false,
+      "club": "Golden Retriever Club of South Australia Inc"
     },
     {
       "title": "Yuggera \u2013 Trick Dog",
@@ -37091,6 +37377,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -37115,6 +37403,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -37141,6 +37431,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -37380,6 +37672,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -37455,6 +37749,8 @@
       "color": "#c9a227",
       "cancelled": false,
       "closes": "2026-08-03",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "topdog_open": true,
       "status": "closed",
       "status_label": "Entries closed",
@@ -38171,6 +38467,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -38225,6 +38523,8 @@
       "color": "#c9a227",
       "cancelled": false,
       "closes": "2026-07-12",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "staffordshire bull terrier",
       "topdog_open": true,
       "status": "closed",
       "status_label": "Entries closed",
@@ -38480,6 +38780,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -38596,6 +38898,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -38785,6 +39089,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "ridgeback",
       "sources": [
         "Dogs Queensland (trial calendar)",
         "Show Manager"
@@ -39064,6 +39370,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -39905,6 +40213,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "american staffordshire terrier",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -39980,6 +40290,8 @@
       "cancelled": false,
       "closes": "2026-08-10",
       "status": "approved_not_open",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Ozentries",
         "Dogs NSW"
@@ -40137,6 +40449,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "field spaniel",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -40238,6 +40552,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "ridgeback",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -40402,6 +40718,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
       "sources": [
         "Dogs NSW"
       ],
@@ -40913,6 +41231,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs NSW"
       ],
@@ -41308,6 +41628,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -41952,6 +42274,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)",
         "Show Manager"
@@ -42468,6 +42792,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -43211,6 +43537,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs NSW"
       ],
@@ -43627,6 +43955,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -43745,6 +44075,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -44460,6 +44792,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -44894,6 +45228,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW"
       ],
@@ -45104,6 +45440,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -45473,6 +45811,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -45496,6 +45836,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "siberian husky",
       "sources": [
         "Dogs NSW"
       ],
@@ -45609,6 +45951,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "american staffordshire terrier",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -46098,6 +46442,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "chihuahua",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -46145,6 +46491,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW"
       ],
@@ -46190,6 +46538,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -46687,6 +47037,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "papillon",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -46939,6 +47291,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs NSW"
       ],
@@ -46985,6 +47339,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW"
       ],
@@ -47030,6 +47386,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -47399,6 +47757,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "kelpie",
       "sources": [
         "Dogs NSW"
       ],
@@ -47447,6 +47807,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "lapphund",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -47791,6 +48153,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "german shorthaired pointer",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -47836,6 +48200,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs NSW"
       ],
@@ -48732,6 +49098,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "shetland sheepdog",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -48912,6 +49280,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -49217,6 +49587,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "welsh corgi",
       "sources": [
         "Dogs NSW"
       ],
@@ -49333,6 +49705,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -49817,6 +50191,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW"
       ],
@@ -49862,6 +50238,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "field spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -49951,6 +50329,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -50117,6 +50497,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs Victoria (official calendar)",
         "Show Manager"
@@ -50211,6 +50593,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -50460,6 +50844,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "basenji",
       "sources": [
         "Dogs NSW"
       ],
@@ -51105,6 +51491,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -51467,6 +51855,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -51511,6 +51901,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -51736,6 +52128,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "boxer",
       "sources": [
         "Dogs NSW"
       ],
@@ -51919,6 +52313,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs NSW"
       ],
@@ -52397,6 +52793,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -52441,6 +52839,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "saluki",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -53089,6 +53489,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -53828,6 +54230,8 @@
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs Queensland (trial calendar)"
       ],
@@ -54934,6 +55338,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW"
       ],
@@ -55255,6 +55661,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -55527,6 +55935,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -55572,6 +55982,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": "Show Manager",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "field spaniel",
       "sources": [
         "Dogs NSW"
       ],
@@ -55618,6 +56030,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "boxer",
       "sources": [
         "Dogs NSW"
       ],
@@ -56086,6 +56500,8 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "provider": null,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs NSW"
       ],
@@ -56268,6 +56684,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "golden retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -56290,6 +56708,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -56625,6 +57045,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -57351,6 +57773,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T15:03:01+00:00",
+  "generated": "2026-08-04T16:25:22+00:00",
   "year": 2027,
   "count": 573,
   "sources": [
@@ -363,6 +363,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -538,6 +540,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -583,6 +587,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -957,6 +963,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -1022,6 +1030,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "rottweiler",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -1088,6 +1098,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "hound",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -1134,6 +1146,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "staffordshire bull terrier",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -1402,6 +1416,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "german shorthaired pointer",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -1514,6 +1530,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -1735,6 +1753,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -1800,6 +1820,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -1844,6 +1866,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -2198,6 +2222,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "bearded collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -2264,6 +2290,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "chihuahua",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -2707,6 +2735,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "german shorthaired pointer",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -3691,6 +3721,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "vizsla",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -3872,6 +3904,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -3984,6 +4018,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -4140,6 +4176,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "retriever",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -4274,6 +4312,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -4452,6 +4492,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "setter",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -4788,6 +4830,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "lapphund",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -4880,6 +4924,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -5604,6 +5650,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -5759,6 +5807,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -6002,6 +6052,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "rottweiler",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -6226,6 +6278,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "german shepherd",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -6713,6 +6767,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -8473,6 +8529,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -8652,6 +8710,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -9428,6 +9488,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -9826,6 +9888,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "german shorthaired pointer",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -10491,6 +10555,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -10623,6 +10689,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -11682,6 +11750,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "german shorthaired pointer",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -12041,6 +12111,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -12682,6 +12754,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],

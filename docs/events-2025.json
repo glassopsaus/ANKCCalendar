@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T14:53:15+00:00",
+  "generated": "2026-08-04T16:14:09+00:00",
   "year": 2025,
   "count": 1625,
   "sources": [
@@ -4054,6 +4054,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "welsh corgi",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -5701,6 +5703,8 @@
       "color": "#7a3ea6",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Top Dog Events"
       ],
@@ -6511,6 +6515,8 @@
       "color": "#3aa657",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "labrador",
       "sources": [
         "Top Dog Events",
         "Dogs Victoria (Vic Dog Trials)"
@@ -8699,6 +8705,8 @@
       "color": "#7a3ea6",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
       "sources": [
         "Top Dog Events"
       ],
@@ -8973,6 +8981,8 @@
       "color": "#3aa657",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Top Dog Events"
       ],
@@ -12916,6 +12926,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -14342,6 +14354,8 @@
       "source": "Dogs Tasmania",
       "color": "#c8632a",
       "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "welsh corgi",
       "sources": [
         "Dogs Tasmania"
       ],
@@ -15028,6 +15042,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -15573,6 +15589,8 @@
       "color": "#c9a227",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
       "sources": [
         "Top Dog Events"
       ],
@@ -15619,6 +15637,8 @@
       "color": "#3aa657",
       "topdog_open": false,
       "source": "Top Dog Events",
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
       "sources": [
         "Top Dog Events"
       ],
