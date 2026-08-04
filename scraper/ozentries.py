@@ -58,7 +58,7 @@ except Exception:
 
 OZ_SHOWS_URL = "https://dogs.ozentries.com.au/shows.php"
 OZ_SOURCE_NAME = "Ozentries"
-HEADERS = {"User-Agent": "TrackingCalendarBot/1.0 (+combined tracking events)"}
+HEADERS = {"User-Agent": "ANKCEventCheck/1.0 (+https://github.com/glassopsaus/ANKCCalendar)"}
 TIMEOUT = 30
 
 # State header -> region code. Headers on the page read "NSW Shows", "VIC Shows",
