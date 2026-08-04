@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-04T16:25:22+00:00",
+  "generated": "2026-08-04T23:46:01+00:00",
   "year": 2027,
-  "count": 573,
+  "count": 564,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -218,28 +218,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Lang Lang P A & H Society Inc"
-    },
-    {
-      "title": "Rally Trial (Double Evening) \u2013 ACTCDC",
-      "start": "2027-01-16",
-      "end": "2027-01-16",
-      "location": "",
-      "url": "https://dogsact.org.au/event/rally-trial-double-evening-actcdc-3/",
-      "category": "Rally Obedience",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Rally Trial (Double Evening) \u2013 ACTCDC"
     },
     {
       "title": "Ballarat Dog Club Inc",
@@ -1452,28 +1430,6 @@
       "club": "Cohuna & District Kennel Club AM"
     },
     {
-      "title": "Championship Shows \u2013 Dogs ACT",
-      "start": "2027-03-13",
-      "end": "2027-03-13",
-      "location": "",
-      "url": "https://dogsact.org.au/event/championship-shows-dogs-act-3/",
-      "category": "Conformation",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Championship Shows \u2013 Dogs ACT"
-    },
-    {
       "title": "Chihuahua Club of Vic",
       "start": "2027-03-13",
       "end": "2027-03-13",
@@ -1564,28 +1520,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Kerang & District Kennel Club Inc AM"
-    },
-    {
-      "title": "Rally Trial (Double Evening) \u2013 ACTCDC",
-      "start": "2027-03-13",
-      "end": "2027-03-13",
-      "location": "",
-      "url": "https://dogsact.org.au/event/rally-trial-double-evening-actcdc-4/",
-      "category": "Rally Obedience",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Rally Trial (Double Evening) \u2013 ACTCDC"
     },
     {
       "title": "Scentwork Trial Bunbury & Districts \u2013 Scent Work",
@@ -5025,28 +4959,6 @@
       "club": "West Gippsland Kennel Club"
     },
     {
-      "title": "6 Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs",
-      "start": "2027-06-12",
-      "end": "2027-06-12",
-      "location": "",
-      "url": "https://dogsact.org.au/event/6-championship-shows-act-ladies-canberra-all-breeds-kennel-clubs-3/",
-      "category": "Conformation",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "6 Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"
-    },
-    {
       "title": "Airedale Terrier Club of Victoria",
       "start": "2027-06-12",
       "end": "2027-06-13",
@@ -5931,28 +5843,6 @@
       "club": "Red Cliffs & District Kennel Club Inc AM"
     },
     {
-      "title": "2027 National Obedience and National Rally Trials",
-      "start": "2027-06-26",
-      "end": "2027-06-26",
-      "location": "",
-      "url": "https://dogsact.org.au/event/2027-national-obedience-and-national-rally-trials/",
-      "category": "Rally Obedience",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "2027 National Obedience and National Rally Trials"
-    },
-    {
       "title": "Dog Stewards Association Inc AM",
       "start": "2027-06-26",
       "end": "2027-06-26",
@@ -6311,28 +6201,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Geelong Obedience Dog Club"
-    },
-    {
-      "title": "Rally Trial (Double Day Trial) \u2013 ACTCDC",
-      "start": "2027-07-03",
-      "end": "2027-07-03",
-      "location": "",
-      "url": "https://dogsact.org.au/event/rally-trial-double-day-trial-actcdc-2/",
-      "category": "Rally Obedience",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Rally Trial (Double Day Trial) \u2013 ACTCDC"
     },
     {
       "title": "Retrieving Trial - Nov & Rest Stakes (National Fundraiser) CAWA Events Ctee",
@@ -9100,28 +8968,6 @@
       "is_past": false
     },
     {
-      "title": "Championship Shows \u2013 BABKC",
-      "start": "2027-09-04",
-      "end": "2027-09-04",
-      "location": "",
-      "url": "https://dogsact.org.au/event/championship-shows-babkc-2/",
-      "category": "Conformation",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Championship Shows \u2013 BABKC"
-    },
-    {
       "title": "K9 Scent Club",
       "start": "2027-09-04",
       "end": "2027-09-04",
@@ -10190,28 +10036,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Golden Retriever Club of Vic Inc"
-    },
-    {
-      "title": "Rally Trial (Double Day Trial) \u2013 ACTCDC",
-      "start": "2027-10-09",
-      "end": "2027-10-09",
-      "location": "",
-      "url": "https://dogsact.org.au/event/rally-trial-double-day-trial-actcdc-3/",
-      "category": "Rally Obedience",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Rally Trial (Double Day Trial) \u2013 ACTCDC"
     },
     {
       "title": "Shepparton Agricultural Society",
@@ -12654,28 +12478,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs",
-      "start": "2027-12-11",
-      "end": "2027-12-11",
-      "location": "",
-      "url": "https://dogsact.org.au/event/championship-shows-act-ladies-canberra-all-breeds-kennel-clubs-3/",
-      "category": "Conformation",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"
     },
     {
       "title": "Maldon & District Kennel Club AM",
