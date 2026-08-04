@@ -111,8 +111,11 @@ NSW_PROVIDERS = [
 NSW_TYPE_RE = re.compile(r"\b([A-Z][A-Z0-9\-]*(?:/[A-Z0-9\-]+)*)\b")
 
 
-def find_current_nsw_pdf_url():
-    """Scrape the calendar page for the current PDF link; fall back if needed."""
+def find_current_nsw_pdf_url(year=None):
+    """Discover the current show/trial-calendar PDF link from the calendar page.
+    Returns (url, discovered_bool). On discovery failure, prefer the last-known-
+    good discovered URL from the auto-updating cache over the hardcoded pin
+    (which may be older), mirroring the DV/QLD/WA parsers."""
     try:
         r = requests.get(NSW_CALENDAR_PAGE, headers=HEADERS, timeout=TIMEOUT)
         r.raise_for_status()
@@ -125,11 +128,25 @@ def find_current_nsw_pdf_url():
                 if href.startswith("/"):
                     href = "https://www.dogsnsw.org.au" + href
                 print(f"[nsw] discovered PDF: {href}", file=sys.stderr)
-                return href
+                return href, True
+        print("[nsw] no show/trial calendar link found on page; using fallback",
+              file=sys.stderr)
     except Exception as e:
         print(f"[nsw] PDF discovery failed ({e}); using fallback", file=sys.stderr)
-    print(f"[nsw] using fallback PDF url", file=sys.stderr)
-    return NSW_PDF_FALLBACK
+    # Discovery failed: prefer the last-known-good discovered URL (auto-updated
+    # cache) over the hardcoded pin, which may be older.
+    if year is not None:
+        try:
+            import pdf_cache
+            cached = pdf_cache.get_cached_url("nsw", year)
+        except Exception:
+            cached = None
+        if cached:
+            print(f"[nsw] using cached last-known-good URL: {cached}",
+                  file=sys.stderr)
+            return cached, False
+    print("[nsw] using fallback PDF url", file=sys.stderr)
+    return NSW_PDF_FALLBACK, False
 
 
 def _type_codes(type_field):
@@ -213,10 +230,15 @@ def parse_nsw_pdf(year, pdf_url=None, pdf_bytes=None):
         print("[nsw] pdfplumber not installed; skipping NSW", file=sys.stderr)
         return []
 
+    resolved_url = None
+    was_discovered = False
     if pdf_bytes is None:
-        pdf_url = pdf_url or find_current_nsw_pdf_url()
+        if pdf_url:
+            resolved_url = pdf_url
+        else:
+            resolved_url, was_discovered = find_current_nsw_pdf_url(year)
         try:
-            r = requests.get(pdf_url, headers=HEADERS, timeout=TIMEOUT)
+            r = requests.get(resolved_url, headers=HEADERS, timeout=TIMEOUT)
             r.raise_for_status()
             pdf_bytes = r.content
         except Exception as e:
@@ -297,6 +319,15 @@ def parse_nsw_pdf(year, pdf_url=None, pdf_bytes=None):
     if not events:
         print("[nsw] WARNING: parsed 0 events - PDF format may have changed or "
               "wrong file fetched", file=sys.stderr)
+    elif was_discovered and resolved_url:
+        # Discovery produced a working, event-yielding URL — record it as the
+        # last-known-good fallback so a future run where discovery fails uses it
+        # instead of the older hardcoded pin (mirrors DV/QLD/WA).
+        try:
+            import pdf_cache
+            pdf_cache.save_url("nsw", year, resolved_url)
+        except Exception:
+            pass
 
     from collections import Counter
     by_disc = Counter(e["category"] for e in events)
