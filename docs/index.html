@@ -89,7 +89,7 @@
     color:var(--ink-soft); font-weight:700; margin:0 0 10px; padding-bottom:6px;
     border-bottom:1px solid var(--hair); display:flex; justify-content:space-between; align-items:baseline;}
   .month > h2 .n{font-weight:500; letter-spacing:0; text-transform:none;}
-  .card{background:var(--card); border:1px solid var(--hair);
+  .card{background:var(--disc-bg,var(--card)); border:1px solid var(--hair);
     border-left:4px solid var(--disc,var(--hair)); border-radius:var(--radius);
     box-shadow:var(--shadow); padding:13px 15px; margin-bottom:9px;
     display:grid; grid-template-columns:64px 1fr; gap:4px 15px; align-items:start;}
@@ -113,7 +113,7 @@
   .tags{display:flex; flex-wrap:wrap; gap:6px; align-items:center;}
   .tag{font-size:11.5px; font-weight:600; padding:2px 8px; border-radius:5px;
     display:inline-flex; align-items:center; gap:5px; white-space:nowrap;}
-  .tag.disc{background:var(--disc-bg,#eee); color:var(--disc,#333);}
+  .tag.disc{background:var(--disc-bg,#eee); color:var(--disc,#333); border:1px solid var(--disc,#ccc);}
   .tag.state{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:600;}
   .tag.venue{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding:0; white-space:normal; font-size:12px; line-height:1.35; display:inline;}
   .crow-venue{margin-top:-1px;}
@@ -535,7 +535,7 @@ function cardHtml(e,f){
   // the club on row 3. Past/cancelled/closing info rides along on row 2 with
   // the verified mark so those states remain visible.
   const row2Left = `${verifiedMark}${statusBadge}${pastBadge}${closes}`;
-  return `<article class="card ${sk==="cancelled"?"is-cancelled":""}${past?"is-past":""}" style="--disc:${famVar(fam)}">
+  return `<article class="card ${sk==="cancelled"?"is-cancelled":""}${past?"is-past":""}" style="--disc:${famVar(fam)};--disc-bg:${famBg(fam)}">
     <div class="date">${dateCell}</div>
     <div class="body">
       <div class="crow crow-title"><p class="title">${escapeHtml(headline)}</p><span class="crow-r">${enter}${schedule}</span></div>
