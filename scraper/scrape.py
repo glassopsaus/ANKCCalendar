@@ -1,19 +1,27 @@
 #!/usr/bin/env python3
 """
-Combine 2027 Tracking (and Track & Search) events from:
-  - Dogs ACT        (dogsact.org.au)      -> The Events Calendar (WordPress)
-  - Dogs Victoria   (vicdog.com)          -> The Events Calendar (WordPress), Tracking category
-  - Dogs Tasmania   (tasdogs.com)         -> WordPress, Tracking events category
+Aggregate ALL Australian ANKC show and trial events into one calendar, across
+every state/territory (NSW, VIC, QLD, WA, SA, TAS, ACT, NT) and every discipline
+(conformation, obedience, rally, agility, scent work, tracking, track & search,
+retrieving, herding, endurance, lure coursing, sprint, sled sports, and more).
 
-Strategy: prefer iCal (.ics) feeds exposed by "The Events Calendar" plugin,
-fall back to HTML list parsing. Filter to events whose title/category looks
-like Tracking or Track & Search, and to the target year (default 2027).
+Sources fall into two tiers:
+  - Governing-body calendars (authoritative "what's on"): Dogs NSW / DV / Dogs
+    Queensland / Dogs West PDFs, Dogs SA, Dogs ACT, Dogs Tasmania, National
+    Events.
+  - Entry platforms (real entry links + live open/closed status, used to verify
+    and gap-fill): Show Manager, Top Dog Events, Ready Entries, Ozentries.
 
-Output: events.json  (a flat list the front-end reads)
+Events are de-duplicated and merged across sources so each surviving event
+records every source that listed it (which drives the "verified" flag), with
+entry links, addresses and status cross-filled from the entry platforms.
+
+Output: per-year docs/events-<year>.json (+ a current-year mirror events.json
+and a years.json manifest) — a flat list the front-end reads to answer, for any
+event, the question that matters: "can I still enter?".
 
 This script is deliberately defensive: each source is wrapped in try/except so
-one site being down or changing markup never kills the whole run. Selectors are
-centralised in SOURCES so they're easy to fix when a site changes.
+one site being down or changing markup never kills the whole run.
 """
 
 import json
@@ -116,7 +124,7 @@ YEAR = int(os.environ.get("YEAR", "2026"))
 OUTPUT = Path(__file__).resolve().parent.parent / "docs" / "events.json"
 
 HEADERS = {
-    "User-Agent": "TrackingCalendarBot/1.0 (+combined tracking events; contact: you@example.com)"
+    "User-Agent": "ANKCEventCheck/1.0 (+https://github.com/glassopsaus/ANKCCalendar)"
 }
 TIMEOUT = 30
 
@@ -699,8 +707,8 @@ VICDOG_SLUG_RE = re.compile(r"/events/(\d{8})(?:-(\d{1,2}))?-", re.I)
 
 # Static listing pages to crawl for event links (paginated; we follow /page/N/).
 #
-# We crawl BOTH the tracking-specific feeds AND the site-wide "latest updates"
-# feed. The site-wide feed matters because some clubs' tracking events are
+# We crawl BOTH the discipline-specific feeds AND the site-wide "latest
+# updates" feed. The site-wide feed matters because some clubs' events are
 # categorised elsewhere: e.g. "North East Tracking & Scent Club" also runs scent
 # work, and its Track & Search post can be filed under Scent Work, so it never
 # appears in the tracking category feeds. Discovery must not depend on how a post
@@ -1550,13 +1558,13 @@ def parse_topdog(source):
                 # entry link -> entries are open. Past-section events do not.
                 ev["topdog_open"] = enterable
                 events.append(ev)
-        print(f"[topdog] browser path kept {len(events)} tracking events "
+        print(f"[topdog] browser path kept {len(events)} events "
               f"across {sorted(TOPDOG_REGIONS)} "
               f"({sum(e['cancelled'] for e in events)} cancelled)",
               file=sys.stderr)
         if events:
             return events
-        # If the browser returned pages but zero in-region tracking events,
+        # If the browser returned pages but zero in-region events,
         # fall through to HTTP as a sanity backstop.
         print("[topdog] browser path found 0 events; trying HTTP fallback",
               file=sys.stderr)
@@ -1620,7 +1628,7 @@ def parse_topdog_http(source):
             # Upcoming list is oldest-first: once the whole page is beyond YEAR, stop.
             if section == "upcoming" and min(page_years) > YEAR:
                 break
-    print(f"[topdog] kept {len(events)} tracking events across VIC/ACT/TAS "
+    print(f"[topdog] kept {len(events)} events across VIC/ACT/TAS "
           f"({sum(e['cancelled'] for e in events)} cancelled)", file=sys.stderr)
     return events
 
@@ -2043,7 +2051,7 @@ def build_year():
     # --- Dogs Victoria official calendar (PDF, VIC cross-check / gap-fill) ----
     # The governing body's authoritative master calendar. Added to the pool so
     # the cross-source dedup below merges entries we already have from vicdog /
-    # Top Dog, while DV-only tracking trials (e.g. events never published to the
+    # Top Dog, while DV-only events (e.g. events never published to the
     # website) are kept. Failures return [] and never break the run.
     if HAVE_DV:
         try:
