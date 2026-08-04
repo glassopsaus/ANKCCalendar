@@ -2569,6 +2569,25 @@ def build_year():
                         f"total {old_count} -> {new_count} "
                         f"({(1-ratio)*100:.0f}% drop)")
 
+            # Regions whose off-year emptiness is EXPECTED: if a region's old
+            # events came predominantly (>=60%) from current-year-only sources,
+            # then in a non-current year that region legitimately drops toward
+            # zero — not a failure. Derived from data, not hardcoded.
+            _expected_empty_regions = set()
+            if YEAR != _current_year:
+                _old_region_src = {}
+                for e in old_events:
+                    r = e.get("region"); s = e.get("source")
+                    if not r:
+                        continue
+                    d = _old_region_src.setdefault(r, [0, 0])
+                    d[0] += 1
+                    if s in _CURRENT_YEAR_ONLY_SOURCES:
+                        d[1] += 1
+                for r, (tot, cyo) in _old_region_src.items():
+                    if tot >= 15 and cyo >= 0.6 * tot:
+                        _expected_empty_regions.add(r)
+
             def check_axis(old_counts, new_counts, label, min_base):
                 for key, oc in old_counts.items():
                     if not key or oc < min_base:
@@ -2577,6 +2596,9 @@ def build_year():
                     # off-year is not a failure — skip it entirely.
                     if (label == "source" and key in _CURRENT_YEAR_ONLY_SOURCES
                             and YEAR != _current_year):
+                        continue
+                    # Same for a region whose off-year emptiness is expected.
+                    if label == "region" and key in _expected_empty_regions:
                         continue
                     nc = new_counts.get(key, 0)
                     if nc < 0.2 * oc:
