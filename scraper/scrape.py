@@ -1423,6 +1423,21 @@ def _topdog_disciplines_from_tags(name_text):
     return out
 
 
+# Event NAMES that are clearly not a competition entry, even when filed under a
+# discipline (raffles, fundraisers, trivia, socials, workshops, fun days, admin
+# items). Applied to Top Dog rows (and mirrored in show_manager.py) so these
+# never appear as trials. A name that ALSO contains an explicit trial/test word
+# is kept (safety valve applied at each call site).
+_NON_TRIAL_NAME_RE = re.compile(
+    r"raffle|fundrais|fund\s*rais|puppy\s*pen|trivia|quiz\s*night|"
+    r"\bagm\b|annual\s+general|working\s*bee|christmas\s+party|"
+    r"break\s*up|\bbreakup\b|\bsocial\b|catch[\s-]*up|\bbbq\b|barbecue|"
+    r"presentation\s+(night|day)|awards?\s+(night|day)|garage\s+sale|"
+    r"open\s+day|fun\s*day|come\s*(and\s*)?try|information\s+(day|night)|"
+    r"\bseminar\b|\bworkshop\b|photo\s+fundrais|grazing\s+platter|sniff\s*&\s*go",
+    re.I)
+
+
 def _topdog_parse_rows(soup, year):
     """Yield event dicts from every qualifying table row on one page."""
     out = []
@@ -1433,6 +1448,14 @@ def _topdog_parse_rows(soup, year):
         date_text = cells[0].get_text(" ", strip=True)
         name_text = cells[1].get_text(" ", strip=True)
         club_text = cells[2].get_text(" ", strip=True)
+
+        # Drop non-competition items (raffles, fundraisers, trivia, workshops,
+        # fun days, socials) even if Top Dog files them under a discipline —
+        # unless the name also names a real trial/test. Mirrors the Show Manager
+        # non-trial filter so a multi-source raffle is caught on both sides.
+        if _NON_TRIAL_NAME_RE.search(name_text) and not re.search(
+                r"\b(trial|test|championship|champ\s+show)\b", name_text, re.I):
+            continue
 
         row_text = " ".join([date_text, name_text, club_text])
         # Discipline(s): PREFER Top Dog's OWN canonical discipline tag(s), which
