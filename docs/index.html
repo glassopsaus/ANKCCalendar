@@ -171,6 +171,14 @@
   .state-msg{padding:48px 16px; text-align:center; color:var(--ink-soft);}
   .state-msg.err{color:var(--cancel);}
   .count{font-size:12.5px;color:var(--ink-soft);margin:8px 0 0}
+  .countbar{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;}
+  .export-btn{margin-top:8px; display:inline-flex; align-items:center; gap:6px;
+    background:var(--card); border:1px solid var(--hair); border-radius:8px;
+    padding:6px 12px; font:inherit; font-size:12.5px; font-weight:600;
+    color:var(--ink); cursor:pointer; transition:border-color .12s, background .12s;}
+  .export-btn:hover{border-color:var(--ink-soft);}
+  .export-btn:disabled{opacity:.4; cursor:default;}
+  .export-btn .ics-ico{font-size:11px; color:var(--ink-soft);}
   .legend{margin-top:8px; font-size:11.5px; color:var(--ink-soft);
     display:flex; flex-wrap:wrap; gap:4px 14px; align-items:center;}
   .legend .li{display:inline-flex;align-items:center;gap:5px}
@@ -240,7 +248,12 @@
     </div>
     </div>
     <div class="toggle-strip" id="toggle-strip"></div>
-    <p class="count" id="count"></p>
+    <div class="countbar">
+      <p class="count" id="count"></p>
+      <button type="button" class="export-btn" id="export-ics" title="Download the events shown as a calendar (.ics) file">
+        <span class="ics-ico" aria-hidden="true">▽</span> Export to calendar
+      </button>
+    </div>
   </div>
   <div id="list"><div class="state-msg">Loading events…</div></div>
   <footer>
@@ -394,6 +407,8 @@ function setupFilters(){
         shownLimit=PAGE_SIZE; render();
       });
     });
+    const exp = $("#export-ics");
+    if(exp) exp.addEventListener("click", exportICS);
   }
 }
 function renderLegend(){
@@ -413,6 +428,18 @@ function _bOK(e){ return active.breed.size===0  || active.breed.has(e.breed_grou
 function _sOK(e){ return active.status.has(statusKind(e)); }
 function _vOK(e){ return !active.verifiedOnly || e.verified; }
 function _pOK(e){ return active.showPast || !isPast(e); }
+// Entry-vs-schedule link classification, shared by the card render and the .ics
+// export so both treat links identically:
+//  • Entry  = a real entry-platform page where you can submit an entry
+//             (Show Manager Details/<id>, Top Dog /trials/<id>, Ready Entries).
+//  • Schedule = a schedule DOCUMENT (a PDF / schedule page), e.g. an Ozentries
+//               schedule PDF or a Show Manager schedule blob/cdn.
+// Governing-body calendar pages (Dogs Tasmania, Dogs SA) are neither.
+function isEntryPlatform(u){ return !!u && /(\/\/(www\.)?showmanager\.com\.au\/events\/publicevents\/details\/\d+|topdogevents\.com\.au\/trials\/\d+|readyentries\.com\/view-event-group)/i.test(u); }
+function isScheduleDoc(u){ return !!u && !isEntryPlatform(u) && (/\.pdf(\?|$)/i.test(u) || /ozentries\.com\.au\/schedule\//i.test(u) || /showmanagerservice\.|cloudfront\.net|cdn\.showmanager\.com\.au/i.test(u)); }
+function eventEntryHref(e){ return [e.entry_url, e.schedule_url].find(isEntryPlatform) || ""; }
+function eventSchedHref(e){ return [e.schedule_url, e.entry_url].find(isScheduleDoc) || ""; }
+
 function filtered(){
   // State/Discipline/Breed group: empty row = no constraint. Entry-state chips
   // narrow by entry-state. Past is an INDEPENDENT gate: unless showPast is on,
@@ -420,6 +447,96 @@ function filtered(){
   // to verified.
   return ALL.filter(e=> _rOK(e) && _dOK(e) && _bOK(e) && _sOK(e) && _vOK(e) && _pOK(e))
     .sort((a,b)=>(a.start||"").localeCompare(b.start||"") || (a.title||"").localeCompare(b.title||""));
+}
+
+// --- Calendar (.ics) export of the currently filtered events ---------------
+// Builds a standards-compliant iCalendar file client-side (no server) with one
+// all-day VEVENT per filtered event, and triggers a download. All-day because
+// the data carries dates, not start times. DTEND on an all-day VEVENT is
+// EXCLUSIVE, so it must be the day AFTER the last event day.
+function _icsEsc(s){
+  // Escape per RFC 5545: backslash, semicolon, comma, and newlines.
+  return String(s||"").replace(/\\/g,"\\\\").replace(/;/g,"\\;")
+    .replace(/,/g,"\\,").replace(/\r?\n/g,"\\n");
+}
+function _icsDate(iso){ return (iso||"").replace(/-/g,""); }         // YYYYMMDD
+function _icsDatePlus1(iso){
+  const d=new Date((iso||"")+"T00:00:00"); d.setDate(d.getDate()+1);
+  const y=d.getFullYear(), m=String(d.getMonth()+1).padStart(2,"0"), day=String(d.getDate()).padStart(2,"0");
+  return `${y}${m}${day}`;
+}
+function _icsFold(line){
+  // RFC 5545: lines SHOULD be <=75 octets; fold long ones with CRLF + space.
+  if(line.length<=74) return line;
+  let out="", i=0;
+  while(i<line.length){ const chunk=line.slice(i,i+ (i===0?74:73)); out+=(i===0?"":"\r\n ")+chunk; i+=(i===0?74:73); }
+  return out;
+}
+function buildICS(events){
+  const now = new Date();
+  const stamp = now.toISOString().replace(/[-:]/g,"").replace(/\.\d+Z$/,"Z");
+  const host = (location && location.hostname) || "ankccalendar";
+  const lines = [
+    "BEGIN:VCALENDAR","VERSION:2.0",
+    "PRODID:-//ANKC Calendar//Dog Events Export//EN",
+    "CALSCALE:GREGORIAN","METHOD:PUBLISH",
+    "X-WR-CALNAME:Australian Dog Events",
+  ];
+  events.forEach((e,i)=>{
+    if(!e.start) return;
+    const disc = e.category ? ` [${e.category}]` : "";
+    const summary = `${e.title||e.club||"Dog event"}${disc}`;
+    // Description: club, status, breed restriction, and any links.
+    const descBits = [];
+    if(e.club && e.club!==e.title) descBits.push(e.club);
+    if(e.status_label) descBits.push(`Status: ${e.status_label}`);
+    if(e.breed_group) descBits.push(`Restricted: ${e.breed_group}`);
+    if(e.region) descBits.push(`State: ${e.region}`);
+    // Separate Enter (real entry platform) and Schedule (document) links, the
+    // same distinction the cards draw — never conflate them, and never present
+    // a governing-body calendar page as an entry link.
+    const entryHref = eventEntryHref(e);
+    const schedHref = eventSchedHref(e);
+    if(entryHref) descBits.push(`Enter: ${entryHref}`);
+    if(schedHref) descBits.push(`Schedule: ${schedHref}`);
+    descBits.push("Confirm details with the club before entering.");
+    const loc = (e.address && String(e.address).trim()) ? e.address
+              : (e.location && !/^[A-Za-z .'&-]+(Inc|Club|Association|Society)?\.?$/.test(e.location) ? e.location : "");
+    const uid = `${_icsDate(e.start)}-${i}-${(e.title||"").replace(/[^a-z0-9]/gi,"").slice(0,20)}@${host}`;
+    lines.push("BEGIN:VEVENT");
+    lines.push(`UID:${uid}`);
+    lines.push(`DTSTAMP:${stamp}`);
+    lines.push(`DTSTART;VALUE=DATE:${_icsDate(e.start)}`);
+    lines.push(`DTEND;VALUE=DATE:${_icsDatePlus1(e.end||e.start)}`);
+    lines.push(_icsFold(`SUMMARY:${_icsEsc(summary)}`));
+    lines.push(_icsFold(`DESCRIPTION:${_icsEsc(descBits.join("\n"))}`));
+    if(loc) lines.push(_icsFold(`LOCATION:${_icsEsc(loc)}`));
+    // The calendar entry's canonical URL prefers a real entry page, then a
+    // schedule document; a governing-body listing is never used here.
+    const canonUrl = entryHref || schedHref;
+    if(canonUrl) lines.push(_icsFold(`URL:${_icsEsc(canonUrl)}`));
+    if(e.cancelled) lines.push("STATUS:CANCELLED");
+    lines.push("END:VEVENT");
+  });
+  lines.push("END:VCALENDAR");
+  return lines.join("\r\n");
+}
+function exportICS(){
+  const events = filtered();
+  if(!events.length){ return; }
+  // Filename reflects the active filters so multiple exports don't collide.
+  const parts = [];
+  if(active.region.size) parts.push([...active.region].sort().join("-"));
+  if(active.disc.size)   parts.push([...active.disc].sort().join("-").replace(/[^a-z0-9-]/gi,""));
+  if(active.breed.size)  parts.push("restricted");
+  const yr = (typeof YEAR!=="undefined" && YEAR) ? YEAR : new Date().getFullYear();
+  const name = `dog-events-${yr}${parts.length?"-"+parts.join("-"):""}.ics`.replace(/\s+/g,"_");
+  const blob = new Blob([buildICS(events)], {type:"text/calendar;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url), 1000);
 }
 
 // Faceted chip counts: a chip's count reflects every OTHER active filter but
@@ -516,6 +633,7 @@ function render(){
   updateChipCounts();
   updateFilterSummary();
   $("#count").textContent = `${total} event${total===1?"":"s"} shown`+(total!==ALL.length?` of ${ALL.length}`:"");
+  const _exp = $("#export-ics"); if(_exp) _exp.disabled = (total===0);
   const list = $("#list");
   if(!total){ list.innerHTML = `<div class="state-msg">No events match these filters. Turn some back on above.</div>`; return; }
   const page = shown.slice(0, shownLimit);
@@ -599,12 +717,9 @@ function cardHtml(e,f){
   //  • "Schedule" — ONLY a schedule document (a PDF / schedule page), e.g. the
   //    Ozentries schedule PDF or a Show Manager schedule blob.
   // If a URL is neither, it produces no link (better than a misleading one).
-  const isEntryPlatform = (u) => !!u && /(\/\/(www\.)?showmanager\.com\.au\/events\/publicevents\/details\/\d+|topdogevents\.com\.au\/trials\/\d+|readyentries\.com\/view-event-group)/i.test(u);
-  const isScheduleDoc = (u) => !!u && !isEntryPlatform(u) && (/\.pdf(\?|$)/i.test(u) || /ozentries\.com\.au\/schedule\//i.test(u) || /showmanagerservice\.|cloudfront\.net|cdn\.showmanager\.com\.au/i.test(u));
-  // Pick the entry link from whichever field holds a genuine entry-platform URL.
-  const entryHref = [e.entry_url, e.schedule_url].find(isEntryPlatform) || "";
-  // Pick the schedule link from whichever field holds a schedule document.
-  const schedHref = [e.schedule_url, e.entry_url].find(isScheduleDoc) || "";
+  // (Classifiers isEntryPlatform/isScheduleDoc are shared top-level helpers.)
+  const entryHref = eventEntryHref(e);
+  const schedHref = eventSchedHref(e);
   const enter = (entryHref && sk!=="cancelled" && !past) ? `<a class="enter" href="${escapeHtml(entryHref)}" target="_blank" rel="noopener">Enter →</a>` : "";
   const schedule = (schedHref && !past) ? `<a class="enter sched" href="${escapeHtml(schedHref)}" target="_blank" rel="noopener">Schedule →</a>` : "";
   // Headline the event title (for scent work this carries the level + elements,
