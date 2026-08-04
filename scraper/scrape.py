@@ -235,7 +235,15 @@ def classify_feed_discipline(*texts):
     """Classify an ical/HTML feed event (Dogs ACT / Dogs Tasmania) into a
     canonical discipline across ALL ANKC sports, or return None if it looks like
     a non-competition entry (meeting/training/etc.). Reuses the DV parser's
-    discipline rules and skip patterns so classification is consistent."""
+    discipline rules and skip patterns so classification is consistent.
+
+    IMPORTANT: a club NAME can contain a discipline word that isn't the event's
+    discipline (e.g. "North East Tracking and Scent Club" running a SCENT WORK
+    trial). To avoid mis-tagging, we FIRST look for the discipline expressed as
+    an explicit trial-type phrase ("... Scent Work Trial", "... Tracking Test"),
+    which reflects the actual event, and only fall back to bare-word matching if
+    no explicit trial-type phrase is present.
+    """
     hay = " ".join(t for t in texts if t)
     if not hay.strip():
         return None
@@ -245,7 +253,21 @@ def classify_feed_discipline(*texts):
         if dv_calendar._DV_SKIP_RE.search(hay) and not any(
                 rx.search(hay) for rx, _ in dv_calendar._DV_DISCIPLINE_RULES):
             return None
-        for rx, canon in dv_calendar._DV_DISCIPLINE_RULES:
+        rules = dv_calendar._DV_DISCIPLINE_RULES
+        # Pass 1: the discipline named right before "Trial(s)"/"Test(s)" — the
+        # explicit event type, which beats a stray word in the club name. Bound
+        # the capture to the FEW words immediately before Trial/Test so an
+        # earlier club-name word (e.g. "...Tracking... Club Scent Work Trial")
+        # can't leak in.
+        m = re.search(r"((?:[A-Za-z&/'-]+\s+){0,3}[A-Za-z&/'-]+)\s+(?:trial|test)s?\b",
+                      hay, re.I)
+        if m:
+            phrase = m.group(1)
+            for rx, canon in rules:
+                if rx.search(phrase):
+                    return canon
+        # Pass 2: fall back to matching anywhere in the text.
+        for rx, canon in rules:
             if rx.search(hay):
                 return canon
     except Exception:
@@ -1214,10 +1236,47 @@ TOPDOG_DISCIPLINE_RULES = [
 
 def _topdog_disciplines(row_text):
     """Return the list of canonical disciplines named in a Top Dog row (a row
-    can list more than one). Empty if none recognised."""
+    can list more than one). Empty if none recognised.
+
+    A row's NAME often repeats the club, whose name can contain a discipline
+    word that isn't the event's discipline (e.g. "Belconnen Dog OBEDIENCE Club
+    Agility Trial" is an Agility trial; "North East TRACKING and Scent Club
+    Scent Work Trial" is Scent Work). To stop the club name driving the result:
+      (1) drop the club-name portion up to its final Club/Inc/Assoc/etc. token,
+          since the real trial type is named AFTER the club; then
+      (2) prefer disciplines in explicit "<discipline> Trial/Test" phrases,
+          falling back to a whole-text scan only if none are present.
+    """
+    # (1) Strip a leading club name ending in a club-ish suffix word. Keep the
+    # text AFTER the last such token (that's where the trial type lives).
+    m = re.search(r"\b(?:club|inc|incorporated|association|assoc|society|"
+                  r"kennel|academy|committee|cttee|ctee)\b[\.\s]*", row_text, re.I)
+    scan = row_text
+    if m:
+        tail = row_text[m.end():].strip()
+        # only use the tail if it still names a discipline/trial (else the club
+        # suffix was at the very end and the discipline is before it)
+        if re.search(r"trial|test|agility|scent|track|obedience|rally|trick|"
+                     r"herd|endurance|sprint|retriev|dances|jumping|games",
+                     tail, re.I):
+            scan = tail
+
+    # (2) Pass 1: disciplines named in explicit trial/test phrases.
+    phrases = re.findall(
+        r"((?:[A-Za-z&/'-]+\s+){0,4}[A-Za-z&/'-]+)\s+(?:trial|test)s?\b",
+        scan, re.I)
+    if phrases:
+        out = []
+        for ph in phrases:
+            for rx, canon in TOPDOG_DISCIPLINE_RULES:
+                if rx.search(ph) and canon not in out:
+                    out.append(canon)
+        if out:
+            return out
+    # Pass 2: no explicit trial-type phrase — scan (post-club-strip) text.
     out = []
     for rx, canon in TOPDOG_DISCIPLINE_RULES:
-        if rx.search(row_text) and canon not in out:
+        if rx.search(scan) and canon not in out:
             out.append(canon)
     return out
 
@@ -1283,6 +1342,81 @@ def _topdog_clean_title(raw):
     return title.strip(" -–—·")
 
 
+# Top Dog's OWN canonical discipline labels (the tags that power its filter and
+# are appended to each row after the status word) -> our canonical categories.
+# Using the site's own classification is authoritative and avoids inferring a
+# discipline from free-text titles/club names. Ordered longest-first so
+# multi-word labels match before their prefixes (e.g. "Track and Search" before
+# "Tracking"; "CASSA Scent Work" before "Scent Work").
+_TOPDOG_TAG_MAP = [
+    ("CASSA Scent Work", "Scent Work"),
+    ("Track and Search", "Track & Search"),
+    ("Track & Search", "Track & Search"),
+    ("Dances With Dogs", "Dances with Dogs"),
+    ("Sled Sport Events", "Sled Sports"),
+    ("Sled Sport Event", "Sled Sports"),
+    ("Retrieving Mock Trial", "Retrieving"),
+    ("Endurance Test", "Endurance"),
+    ("Canine Hoopers", "Agility"),
+    ("Lure Coursing", "Lure Coursing"),
+    ("Scent Work", "Scent Work"),
+    ("Trick Dog", "Trick Dog"),
+    ("SprintDog\u2122", "Sprint"),
+    ("SprintDog", "Sprint"),
+    ("Mondioring", "Obedience"),
+    ("Retrieving", "Retrieving"),
+    ("Obedience", "Obedience"),
+    ("Tracking", "Tracking"),
+    ("Agility", "Agility"),
+    ("Herding", "Herding"),
+    ("Earthdog", "Earthdog"),
+    ("Rally", "Rally Obedience"),
+    # "Products" and "Miscellaneous" are intentionally NOT mapped: Products =
+    # workshops/classes (not a trial), Miscellaneous = unclassified. Rows whose
+    # ONLY tag is one of those fall through to the free-text classifier / skip.
+]
+
+
+def _topdog_disciplines_from_tags(name_text):
+    """Extract Top Dog's OWN canonical discipline tag(s) from the tail of a
+    row's trial cell (they trail after the status word, e.g. "... Closed  Scent
+    Work" or "... Closed  Track and Search Tracking"). Returns the list of our
+    canonical disciplines, or [] if no recognisable tag is present.
+    """
+    # The tags follow the status word; take everything after the last status.
+    m = list(re.finditer(r"\b(?:Open|Closed(?:\s+can\s+edit)?|Live|Running now)\b",
+                          name_text, re.I))
+    tail = name_text[m[-1].end():] if m else name_text
+    tail = tail.strip(" -–—·")
+    if not tail:
+        return []
+    # Greedily consume known labels from the START of the tail. The tail should
+    # be ONLY discipline labels; if we hit unrecognised text, stop (avoids
+    # misreading a title fragment as a tag).
+    out = []
+    cursor = tail
+    while cursor:
+        cursor = cursor.strip(" -–—·")
+        matched = False
+        for label, canon in _TOPDOG_TAG_MAP:
+            if re.match(re.escape(label) + r"\b", cursor, re.I):
+                if canon not in out:
+                    out.append(canon)
+                cursor = cursor[len(label):]
+                matched = True
+                break
+        # Also consume the deliberately-unmapped labels so they don't block.
+        if not matched:
+            for skip in ("Products", "Miscellaneous"):
+                if re.match(re.escape(skip) + r"\b", cursor, re.I):
+                    cursor = cursor[len(skip):]
+                    matched = True
+                    break
+        if not matched:
+            break
+    return out
+
+
 def _topdog_parse_rows(soup, year):
     """Yield event dicts from every qualifying table row on one page."""
     out = []
@@ -1295,8 +1429,18 @@ def _topdog_parse_rows(soup, year):
         club_text = cells[2].get_text(" ", strip=True)
 
         row_text = " ".join([date_text, name_text, club_text])
-        # discipline(s): map from the row's free-text trial name
-        disciplines = _topdog_disciplines(row_text)
+        # Discipline(s): PREFER Top Dog's OWN canonical discipline tag(s), which
+        # trail each row after the status word and are the authoritative labels
+        # powering the site's discipline filter. This avoids inferring the
+        # discipline from the free-text title/club (the source of club-name-leak
+        # mis-tags like a Scent Work trial by "...Tracking...Club" reading as
+        # Tracking). Only if the row carries no recognisable tag do we fall back
+        # to classifying the trial NAME, then the whole row.
+        disciplines = _topdog_disciplines_from_tags(name_text)
+        if not disciplines:
+            disciplines = _topdog_disciplines(name_text)
+        if not disciplines:
+            disciplines = _topdog_disciplines(row_text)
         if not disciplines:
             continue
 
