@@ -68,6 +68,8 @@
   .filter-row + .filter-row{margin-top:9px}
   .flabel{font-size:11px; letter-spacing:.1em; text-transform:uppercase;
     color:var(--ink-soft); font-weight:600; margin-right:2px; min-width:74px;}
+  .flabel .fnote{display:block; font-size:9.5px; letter-spacing:.02em; text-transform:none;
+    font-weight:400; color:var(--ink-soft); opacity:.75; margin-top:2px; max-width:120px; line-height:1.25;}
   .flabel .all{display:block; font-size:10px; letter-spacing:.04em; text-transform:none;
     font-weight:500; margin-top:2px;}
   .flabel .all button{background:none;border:none;color:var(--ink-soft);cursor:pointer;
@@ -200,6 +202,14 @@
       </button>
       <div class="filter-row facc-body" id="disc-filters"><span class="flabel"><span class="all"><button data-g="disc" data-a="all">all</button> / <button data-g="disc" data-a="none">clear</button></span></span></div>
     </div>
+    <div class="faccordion" id="acc-breed">
+      <button class="filters-toggle" aria-expanded="false" aria-controls="breed-filters">
+        <span class="ft-label">Breed group</span>
+        <span class="ft-summary" id="sum-breed"></span>
+        <span class="ft-chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="filter-row facc-body" id="breed-filters"><span class="flabel"><span class="all"><button data-g="breed" data-a="all">all</button> / <button data-g="breed" data-a="none">clear</button></span> <span class="fnote">restricted events only (inferred)</span></span></div>
+    </div>
     <div class="faccordion" id="acc-status">
       <button class="filters-toggle" aria-expanded="false" aria-controls="status-filters">
         <span class="ft-label">Entry status</span>
@@ -261,7 +271,7 @@ const MONTHS = ["January","February","March","April","May","June","July","August
 const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 let ALL = [];
 let shownLimit = PAGE_SIZE;
-const active = { region:new Set(), disc:new Set(),
+const active = { region:new Set(), disc:new Set(), breed:new Set(),
   status:new Set(["open","listed","closed","approved","cancelled"]),
   verifiedOnly:false, showPast:false };
 // Entry-state chips select which entry-states show. `showPast` is an INDEPENDENT
@@ -301,19 +311,29 @@ function setupFilters(){
   // narrows. State and Discipline intersect; within a row, chips union.
   clearChips($("#state-filters")); clearChips($("#disc-filters"));
   clearChips($("#status-filters"));
+  const _bf = $("#breed-filters"); if(_bf) clearChips(_bf);
   wireFiltersToggle();
   const regionCounts = countBy(e=>e.region);
   const discCountsAll = countBy(e=>e.category);
+  const breedCountsAll = countBy(e=>e.breed_group);
   // Drop any prior-year filter selections that don't exist in THIS year's data,
   // so switching years never leaves an invisible selection filtering to nothing.
   for(const r of [...active.region]) if(!(r in regionCounts)) active.region.delete(r);
   for(const d of [...active.disc])   if(!(d in discCountsAll)) active.disc.delete(d);
+  for(const b of [...active.breed])  if(!(b in breedCountsAll)) active.breed.delete(b);
   const regions = Object.keys(regionCounts).sort((a,b)=>regionCounts[b]-regionCounts[a]);
   buildChips($("#state-filters"), regions.map(r=>[r,r,RCOL[r]||"#888",true,regionCounts[r]]), "region");
 
   // Disciplines, ordered by count, coloured by family. Also start unselected.
   const discs = Object.keys(discCountsAll).sort((a,b)=>discCountsAll[b]-discCountsAll[a]);
   buildChips($("#disc-filters"), discs.map(d=>[d,d,famVar(famOf(d)),false,discCountsAll[d]]), "disc");
+
+  // Breed groups (ANKC Group 1-7), where the data supports a restriction.
+  // Ordered by group number (labels sort naturally). Only groups present show.
+  if(_bf){
+    const breeds = Object.keys(breedCountsAll).sort();
+    buildChips(_bf, breeds.map(b=>[b, b, "var(--fam-other)", false, breedCountsAll[b]]), "breed");
+  }
 
   buildChips($("#status-filters"), [["open","Open","var(--open)",false],["listed","Listed","var(--listed)",false],["closed","Entries closed","var(--closed)",false],["approved","Approved","var(--approved)",false],["cancelled","Cancelled","var(--cancel)",false]], "status");
 
@@ -348,7 +368,8 @@ function setupFilters(){
     document.querySelectorAll(".flabel .all button").forEach(btn=>{
       btn.addEventListener("click",()=>{
         const g = btn.dataset.g, a = btn.dataset.a;
-        const container = g==="region" ? $("#state-filters") : $("#disc-filters");
+        const containerById = {region:"#state-filters", disc:"#disc-filters", breed:"#breed-filters"};
+        const container = $(containerById[g] || "#disc-filters");
         active[g].clear();
         if(a==="all"){ container.querySelectorAll(".chip").forEach(c=>active[g].add(c.dataset.val)); }
         container.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed", active[g].has(c.dataset.val)));
@@ -370,14 +391,16 @@ function renderLegend(){
 // Individual filter predicates, reusable for both filtering and faceted counts.
 function _rOK(e){ return active.region.size===0 || active.region.has(e.region); }
 function _dOK(e){ return active.disc.size===0   || active.disc.has(e.category); }
+function _bOK(e){ return active.breed.size===0  || active.breed.has(e.breed_group); }
 function _sOK(e){ return active.status.has(statusKind(e)); }
 function _vOK(e){ return !active.verifiedOnly || e.verified; }
 function _pOK(e){ return active.showPast || !isPast(e); }
 function filtered(){
-  // State/Discipline: empty row = no constraint. Entry-state chips narrow by
-  // entry-state. Past is an INDEPENDENT gate: unless showPast is on, past events
-  // are hidden regardless of their entry-state. verifiedOnly narrows to verified.
-  return ALL.filter(e=> _rOK(e) && _dOK(e) && _sOK(e) && _vOK(e) && _pOK(e))
+  // State/Discipline/Breed group: empty row = no constraint. Entry-state chips
+  // narrow by entry-state. Past is an INDEPENDENT gate: unless showPast is on,
+  // past events are hidden regardless of their entry-state. verifiedOnly narrows
+  // to verified.
+  return ALL.filter(e=> _rOK(e) && _dOK(e) && _bOK(e) && _sOK(e) && _vOK(e) && _pOK(e))
     .sort((a,b)=>(a.start||"").localeCompare(b.start||"") || (a.title||"").localeCompare(b.title||""));
 }
 
@@ -410,13 +433,23 @@ function updateChipCounts(){
   };
   apply($("#disc-filters"), discCounts);
   apply($("#state-filters"), regCounts);
+  // Breed-group counts respect selected state/discipline/status/past/verified.
+  const breedBase = ALL.filter(e=> _rOK(e) && _dOK(e) && _sOK(e) && _vOK(e) && _pOK(e));
+  const breedCounts = {};
+  for(const e of breedBase){ const k=e.breed_group; if(k) breedCounts[k]=(breedCounts[k]||0)+1; }
+  const bf = $("#breed-filters"); if(bf) apply(bf, breedCounts);
 }
 // Per-group summaries shown in each collapsed accordion bar, so mobile users
 // see what's selected in that group without expanding it.
 function updateFilterSummary(){
-  const rEl = $("#sum-region"), dEl = $("#sum-disc"), sEl = $("#sum-status");
+  const rEl = $("#sum-region"), dEl = $("#sum-disc"), sEl = $("#sum-status"), bEl = $("#sum-breed");
   if(rEl) rEl.textContent = active.region.size
     ? [...active.region].sort().join(", ") : "All states";
+  if(bEl){
+    const b = [...active.breed];
+    bEl.textContent = !b.length ? "All (no restriction filter)"
+      : (b.length<=2 ? b.join(", ") : `${b.length} groups`);
+  }
   if(dEl){
     const d = [...active.disc];
     dEl.textContent = !d.length ? "All disciplines"
