@@ -155,6 +155,21 @@ _STATE_ALIASES = {
 _DISC_KEYS_BY_LEN = None
 
 
+# Event NAMES that are clearly not a competition entry, even when the club
+# files them under a discipline's Event Type (e.g. a club that runs obedience
+# lists its "Puppy Pen Raffle!" under Obedience). These are fundraisers, socials
+# and admin items — drop them regardless of the discipline column.
+_SM_NON_TRIAL_RE = re.compile(
+    r"raffle|fundrais|fund\s*rais|puppy\s*pen|trivia|quiz\s*night|"
+    r"\bagm\b|annual\s+general|working\s*bee|\bbump\s*in\b|christmas\s+party|"
+    r"break\s*up|\bbreakup\b|social\b|catch[\s-]*up|\bbbq\b|barbecue|"
+    r"presentation\s+(night|day)|awards?\s+(night|day)|garage\s+sale|"
+    r"membership|working\s+party\s+meeting|committee\s+meeting|\bmeeting\b|"
+    r"open\s+day|fun\s*day|come\s*(and\s*)?try|information\s+(day|night)|"
+    r"seminar|workshop|training\s+(day|session|night)|\bclass(es)?\b",
+    re.I)
+
+
 def _match_discipline(cell_texts):
     """Find the canonical discipline for a row from its cells.
     1) exact cell match (most reliable);
@@ -360,6 +375,14 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
             if not name:
                 # fall back to the 2nd cell text
                 name = cell_texts[1] if len(cell_texts) > 1 else ""
+
+            # Drop non-competition items (raffles, socials, AGMs, workshops,
+            # etc.) even when filed under a discipline's Event Type — UNLESS the
+            # name also names an actual trial/test (so a real "... Trial" that
+            # merely mentions e.g. "presentation" is kept).
+            if _SM_NON_TRIAL_RE.search(name) and not re.search(
+                    r"\b(trial|test|championship|champ\s+show)\b", name, re.I):
+                continue
 
             # closing date: the cell that looks like a weekday+date
             closes = None
