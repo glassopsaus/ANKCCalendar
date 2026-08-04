@@ -2536,6 +2536,12 @@ def build_year():
     #       * any source/region with >=8 events drops by >50% (but not to ~0).
     # Override refusal with ALLOW_SHRINK=1 for a legitimate large reduction.
     allow_shrink = os.environ.get("ALLOW_SHRINK") == "1"
+    # Sources that LEGITIMATELY produce 0 events outside the current calendar
+    # year (their upstream pages only ever list current/near events, and our
+    # year-inference assigns them correctly). A 0 from these in an off-year is
+    # EXPECTED, not a failure, so the guard must not flag or carry-forward them.
+    _current_year = dt.datetime.now(dt.timezone.utc).year
+    _CURRENT_YEAR_ONLY_SOURCES = {"Dogs SA", "Ready Entries"}
     try:
         if OUTPUT.exists():
             from collections import Counter
@@ -2567,6 +2573,11 @@ def build_year():
                 for key, oc in old_counts.items():
                     if not key or oc < min_base:
                         continue
+                    # An expected zero from a current-year-only source in an
+                    # off-year is not a failure — skip it entirely.
+                    if (label == "source" and key in _CURRENT_YEAR_ONLY_SOURCES
+                            and YEAR != _current_year):
+                        continue
                     nc = new_counts.get(key, 0)
                     if nc < 0.2 * oc:
                         catastrophic.append(f"{label} '{key}' {oc} -> {nc} "
@@ -2584,23 +2595,74 @@ def build_year():
                 for p in notable:
                     print(f"[guard]   {p}", file=sys.stderr)
 
-            if catastrophic and not allow_shrink:
-                print(f"[guard] REFUSING to overwrite {OUTPUT.name} - result "
-                      "looks like a source failure, not a real change:",
-                      file=sys.stderr)
-                for p in catastrophic:
-                    print(f"[guard]   {p}", file=sys.stderr)
-                if notable:
-                    for p in notable:
-                        print(f"[guard]   (also) {p}", file=sys.stderr)
-                print(f"[guard] Keeping existing {OUTPUT.name}. If this reduction "
-                      "is real, re-run with ALLOW_SHRINK=1.", file=sys.stderr)
-                return None  # skip THIS year; multi-year loop continues
-            elif catastrophic and allow_shrink:
+            # Identify which SOURCES catastrophically dropped (as opposed to a
+            # region/total line). Those are the transient-failure candidates we
+            # carry forward rather than refusing the whole file.
+            failed_sources = set()
+            for key, oc in old_by_source.items():
+                if not key or oc < 15:
+                    continue
+                if (key in _CURRENT_YEAR_ONLY_SOURCES
+                        and YEAR != _current_year):
+                    continue
+                if new_by_source.get(key, 0) < 0.2 * oc:
+                    failed_sources.add(key)
+
+            # Is the OVERALL total collapsed (a broad failure carry-forward
+            # can't sensibly rescue)?
+            overall_collapse = (old_count >= 40
+                                and new_count < 0.6 * old_count)
+
+            if catastrophic and allow_shrink:
                 print("[guard] ALLOW_SHRINK set - publishing despite "
                       "catastrophic drop:", file=sys.stderr)
                 for p in catastrophic:
                     print(f"[guard]   {p}", file=sys.stderr)
+            elif failed_sources and not overall_collapse:
+                # CARRY FORWARD: one or more individual sources failed (likely
+                # transient - a network blip, a page rollover). Rather than
+                # freeze the whole site, keep this run's fresh events for every
+                # healthy source and splice in the FAILED sources' events from
+                # yesterday's file, so the site stays current and no source's
+                # data is lost. Carried events are filtered to YEAR so a stale
+                # or mis-dated old record can never leak into the wrong year.
+                print("[guard] CARRY-FORWARD: source(s) look failed this run; "
+                      "keeping their previous events and publishing the rest "
+                      "fresh:", file=sys.stderr)
+                carried = 0
+                for ev in old_events:
+                    if ev.get("source") not in failed_sources:
+                        continue
+                    st = ev.get("start")
+                    try:
+                        if not st or dt.date.fromisoformat(st[:10]).year != YEAR:
+                            continue
+                    except (ValueError, TypeError):
+                        continue
+                    ev = dict(ev)
+                    ev["_carried_forward"] = True
+                    unique.append(ev)
+                    carried += 1
+                for s in sorted(failed_sources):
+                    print(f"[guard]   {s}: {new_by_source.get(s,0)} fresh + "
+                          f"carried prior", file=sys.stderr)
+                print(f"[guard] carried {carried} event(s) from prior file; "
+                      f"total now {len(unique)}", file=sys.stderr)
+                # Rebuild the payload with the merged event list.
+                payload["events"] = unique
+                payload["count"] = len(unique)
+            elif catastrophic and not allow_shrink:
+                # Either the overall total collapsed, or the catastrophic drop
+                # is on the total/region axis with no single source to carry -
+                # a genuinely broad failure. Refuse, keep yesterday's file.
+                print(f"[guard] REFUSING to overwrite {OUTPUT.name} - result "
+                      "looks like a broad failure, not a real change:",
+                      file=sys.stderr)
+                for p in catastrophic:
+                    print(f"[guard]   {p}", file=sys.stderr)
+                print(f"[guard] Keeping existing {OUTPUT.name}. If this reduction "
+                      "is real, re-run with ALLOW_SHRINK=1.", file=sys.stderr)
+                return None  # skip THIS year; multi-year loop continues
     except SystemExit:
         raise
     except Exception as e:
@@ -2624,6 +2686,10 @@ def build_year():
         print(f"  {_v:4}  {_k}", file=sys.stderr)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    for _e in unique:
+        _e.pop("_carried_forward", None)
+    payload["events"] = unique
+    payload["count"] = len(unique)
     OUTPUT.write_text(json.dumps(payload, indent=2))
     print(f"Wrote {len(unique)} events -> {OUTPUT}", file=sys.stderr)
     return len(unique)
