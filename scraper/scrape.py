@@ -71,6 +71,12 @@ except Exception as _e:
     HAVE_OZENTRIES = False
     print(f"[init] ozentries import failed: {_e}", file=sys.stderr)
 try:
+    import breed_groups
+    HAVE_BREED_GROUPS = True
+except Exception as _e:
+    HAVE_BREED_GROUPS = False
+    print(f"[init] breed_groups import failed: {_e}", file=sys.stderr)
+try:
     import show_manager
     HAVE_SM = True
 except Exception as _e:
@@ -2129,6 +2135,26 @@ def build_year():
     # canonical set BEFORE dedup/collapse/matching depend on them.
     for e in all_events:
         e["category"] = canonical_category(e.get("category"))
+        # Infer an ANKC breed-group RESTRICTION where the data supports it:
+        #   (1) DISCIPLINE-inherent: Retrieving / Field Trial / RATG are
+        #       gundog-only by nature -> Group 3, regardless of category being a
+        #       trial or the club. Most reliable signal.
+        #   (2) CONFORMATION club-name: a single-breed club's show is that
+        #       breed's group (e.g. "Labrador Retriever Club" -> Gundogs).
+        # (1) takes precedence. Trials that AREN'T inherently breed-restricted
+        # stay untagged (they're open to all breeds). This is an inference,
+        # surfaced in the UI as such.
+        if HAVE_BREED_GROUPS:
+            _grp = breed_groups.group_for_discipline(e.get("category"))
+            if _grp:
+                e["breed_group"] = _grp
+            elif e.get("category") == "Conformation":
+                _src = e.get("club") or e.get("title") or ""
+                _g2, _breed = breed_groups.infer_breed_group(_src)
+                if _g2:
+                    e["breed_group"] = _g2
+                    if _breed:
+                        e["breed"] = _breed
         # Seed each event's `sources` list from its origin source. Dedup will
         # merge these so a surviving event records EVERY source that listed it,
         # which drives the "verified = corroborated by 2+ sources" rule.
