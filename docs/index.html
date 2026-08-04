@@ -526,8 +526,22 @@ function cardHtml(e,f){
   const pastBadge = past ? `<span class="status st-past">Past</span>` : "";
   let closes = "";
   if(e.closes && sk!=="cancelled" && !past){ const cf = fmtDate(e.closes); closes = `<span class="closes">Entries close <b>${cf.day} ${MONTHS[cf.mon].slice(0,3)}</b></span>`; }
-  const enter = (e.entry_url && sk!=="cancelled" && !past) ? `<a class="enter" href="${escapeHtml(e.entry_url)}" target="_blank" rel="noopener">Enter / details →</a>` : "";
-  const schedule = (e.schedule_url && !past) ? `<a class="enter sched" href="${escapeHtml(e.schedule_url)}" target="_blank" rel="noopener">Schedule (venue &amp; times) →</a>` : "";
+  // Two DISTINCT links, never combined:
+  //  • "Enter" — ONLY a real entry-platform page where you can actually submit
+  //    an entry (Show Manager, Top Dog, Ready Entries). Governing-body pages
+  //    (Dogs Tasmania, Dogs SA) are NOT entry pages, and a schedule PDF is not
+  //    an entry page, so those never show "Enter".
+  //  • "Schedule" — ONLY a schedule document (a PDF / schedule page), e.g. the
+  //    Ozentries schedule PDF or a Show Manager schedule blob.
+  // If a URL is neither, it produces no link (better than a misleading one).
+  const isEntryPlatform = (u) => !!u && /(\/\/(www\.)?showmanager\.com\.au\/|topdogevents\.com\.au\/trials\/\d+|readyentries\.com\/view-event-group)/i.test(u);
+  const isScheduleDoc = (u) => !!u && !isEntryPlatform(u) && (/\.pdf(\?|$)/i.test(u) || /ozentries\.com\.au\/schedule\//i.test(u) || /showmanagerservice\.|cloudfront\.net|cdn\.showmanager\.com\.au/i.test(u));
+  // Pick the entry link from whichever field holds a genuine entry-platform URL.
+  const entryHref = [e.entry_url, e.schedule_url].find(isEntryPlatform) || "";
+  // Pick the schedule link from whichever field holds a schedule document.
+  const schedHref = [e.schedule_url, e.entry_url].find(isScheduleDoc) || "";
+  const enter = (entryHref && sk!=="cancelled" && !past) ? `<a class="enter" href="${escapeHtml(entryHref)}" target="_blank" rel="noopener">Enter →</a>` : "";
+  const schedule = (schedHref && !past) ? `<a class="enter sched" href="${escapeHtml(schedHref)}" target="_blank" rel="noopener">Schedule →</a>` : "";
   // Headline the event title (for scent work this carries the level + elements,
   // e.g. "Advanced - Interiors and Exteriors"); the club sits on the info line.
   const headline = e.title || e.club || "Untitled event";
