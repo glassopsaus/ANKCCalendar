@@ -1799,6 +1799,11 @@ def canonical_category(cat):
     c = (cat or "").strip().lower()
     if "scent" in c:
         return "Scent Work"
+    # Retrieving-family codes that occasionally leak raw from a source's own
+    # discipline field (e.g. Show Manager "RATG" = Retrieving Ability Test for
+    # Gundogs). Map them so a raw code never ships as a category.
+    if c in ("ratg", "retg"):
+        return "Retrieving"
     # Explicit combined label FIRST (Dogs NSW "TT", or "Tracking / Track &
     # Search") — it contains "track & search" as a substring, so it must be
     # caught before the Track & Search test below.
