@@ -1,0 +1,80 @@
+name: Update tracking calendar
+
+on:
+  schedule:
+    # 15:30 UTC daily = 01:30 AEST (UTC+10). Cron is always UTC and does not
+    # follow daylight saving, so during AEDT (UTC+11) this runs at 02:30 local.
+    - cron: "0 16 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Chromium for Playwright (renders Top Dog JS pagination)
+        run: python -m playwright install --with-deps chromium
+
+      - name: Scrape events
+        env:
+          YEAR: "2026"
+          # Fetch venue addresses from Show Manager event Details pages, spread
+          # over a week (1/7 of events per day) with a delay between requests so
+          # we never surge traffic on Show Manager. See scrape_show_manager().
+          SM_FETCH_DETAILS: "1"
+          SM_DETAIL_CYCLE_DAYS: "7"
+          SM_DETAIL_DELAY_SEC: "0.7"
+        run: python scraper/scrape.py
+
+      - name: Commit updated event data
+        run: |
+          git config user.name  "tracking-calendar-bot"
+          git config user.email "actions@github.com"
+          # Collect the generated files by glob so this stays correct as the
+          # scraper's year window rolls over (2025/2026/2027 -> 2026/2027/2028).
+          FILES=$(ls docs/events.json docs/events-*.json docs/years.json scraper/pdf_url_cache.json 2>/dev/null)
+          # Save the freshly-generated files aside so we can re-apply them on top
+          # of whatever main currently looks like, even if a manual web-UI commit
+          # (or another run) landed after checkout. This avoids the
+          # "! [rejected] (fetch first)" push failure that fails the whole job.
+          mkdir -p /tmp/fresh
+          for f in $FILES; do [ -f "$f" ] && install -D "$f" "/tmp/fresh/$f"; done
+
+          push_ok=0
+          for attempt in 1 2 3 4 5; do
+            # Re-sync to the latest remote main, then lay our generated files on
+            # top. Generated data is fully regenerated each run, so "ours wins"
+            # for these files is always correct and never loses source edits
+            # (the scraper never touches source, so nothing else is staged).
+            git fetch origin main
+            git reset --hard origin/main
+            for f in $FILES; do [ -f "/tmp/fresh/$f" ] && install -D "/tmp/fresh/$f" "$f"; done
+            git add $FILES
+            if git diff --staged --quiet; then
+              echo "No changes to publish."
+              push_ok=1
+              break
+            fi
+            git commit -m "Auto-update tracking events ($(date -u +%Y-%m-%d))"
+            if git push; then
+              push_ok=1
+              break
+            fi
+            echo "Push rejected (remote moved); re-syncing and retrying ($attempt)…" >&2
+            sleep 3
+          done
+          if [ "$push_ok" -ne 1 ]; then
+            echo "Could not publish after 5 attempts (remote kept moving)." >&2
+            exit 1
+          fi
