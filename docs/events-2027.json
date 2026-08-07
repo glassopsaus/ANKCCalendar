@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-05T21:05:05+00:00",
+  "generated": "2026-08-07T01:59:10+00:00",
   "year": 2027,
-  "count": 573,
+  "count": 613,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -108,6 +108,30 @@
       "open_now": false,
       "is_past": false,
       "club": "RCH Fundraiser - Twilight"
+    },
+    {
+      "title": "Poodle Club of Victoria Inc",
+      "start": "2027-01-03",
+      "end": "2027-01-03",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Trick Dog",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "poodle",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Poodle Club of Victoria Inc"
     },
     {
       "title": "Cranbourne Dog Club Inc AM",
@@ -952,6 +976,28 @@
       "is_past": false
     },
     {
+      "title": "Precision Agility Acadamey (Twilight)",
+      "start": "2027-02-20",
+      "end": "2027-02-20",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Precision Agility Acadamey (Twilight)"
+    },
+    {
       "title": "Sprintdog\u2122 Trial Whippet Club",
       "club": "Sprintdog\u2122 Trial Whippet Club",
       "start": "2027-02-20",
@@ -1134,6 +1180,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Samoyed Club of Vic Inc"
+    },
+    {
+      "title": "German Shepherd Dog Club of Vic Inc RTB",
+      "start": "2027-03-05",
+      "end": "2027-03-05",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Scent Work",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Vic Inc RTB"
     },
     {
       "title": "Staffordshire Bull Terrier Club of Victoria RTB",
@@ -1520,6 +1588,52 @@
       "is_past": false
     },
     {
+      "title": "Dalmatian Club of Vic",
+      "start": "2027-03-13",
+      "end": "2027-03-13",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dalmatian Club of Vic"
+    },
+    {
+      "title": "Dogs Victoria State Games Trial",
+      "start": "2027-03-13",
+      "end": "2027-03-13",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dogs Victoria State Games Trial"
+    },
+    {
       "title": "Hungarian Vizsla Club of Victoria Inc",
       "start": "2027-03-13",
       "end": "2027-03-14",
@@ -1654,6 +1768,28 @@
       "club": "K9 Scent Club"
     },
     {
+      "title": "Melbourne & District DWD Club Inc",
+      "start": "2027-03-14",
+      "end": "2027-03-14",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Dances with Dogs",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Melbourne & District DWD Club Inc"
+    },
+    {
       "title": "Pakenham Agricultural Society",
       "start": "2027-03-14",
       "end": "2027-03-14",
@@ -1740,6 +1876,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "K9 Agility Club",
+      "start": "2027-03-20",
+      "end": "2027-03-20",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "K9 Agility Club"
     },
     {
       "title": "Sprintdog\u2122 Trial Whippet Club",
@@ -1854,6 +2012,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria Easter Festival"
+    },
+    {
+      "title": "Agility Dog Club of Victoria",
+      "start": "2027-03-27",
+      "end": "2027-03-27",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility Dog Club of Victoria"
     },
     {
       "title": "Dobermann Club of Victoria Inc",
@@ -1990,6 +2170,30 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Border Collie Club of Victoria",
+      "start": "2027-04-03",
+      "end": "2027-04-03",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Border Collie Club of Victoria"
     },
     {
       "title": "Championship Shows x 2 (All Breeds) All Breeds Dog Club \u2013 Conformation",
@@ -2414,6 +2618,28 @@
       "club": "Greensborough and District Kennel Club - AM Show"
     },
     {
+      "title": "Moorabbin & Districts Obedience Dog Training Club",
+      "start": "2027-04-11",
+      "end": "2027-04-11",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Moorabbin & Districts Obedience Dog Training Club"
+    },
+    {
       "title": "Obedience & Rally Trials Southern River A&ODC",
       "club": "Obedience & Rally Trials Southern River A&ODC",
       "start": "2027-04-11",
@@ -2460,7 +2686,7 @@
     {
       "title": "Wangaratta Kennel & Obedience Dog Club Inc",
       "start": "2027-04-16",
-      "end": "2027-04-16",
+      "end": "2027-04-18",
       "location": "Victoria",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Conformation",
@@ -2482,7 +2708,7 @@
     {
       "title": "Wodonga Kennel Club Inc",
       "start": "2027-04-16",
-      "end": "2027-04-16",
+      "end": "2027-04-18",
       "location": "Victoria",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Conformation",
@@ -2659,50 +2885,6 @@
       "is_past": false
     },
     {
-      "title": "Wangaratta Kennel & Obedience Dog Club Inc",
-      "start": "2027-04-18",
-      "end": "2027-04-18",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Wangaratta Kennel & Obedience Dog Club Inc"
-    },
-    {
-      "title": "Wodonga Kennel Club Inc",
-      "start": "2027-04-18",
-      "end": "2027-04-18",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Wodonga Kennel Club Inc"
-    },
-    {
       "title": "White Swiss Shepherd Dog Association of Victoria Inc",
       "start": "2027-04-21",
       "end": "2027-04-21",
@@ -2769,6 +2951,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Mildura & District Kennel Club Inc AM"
+    },
+    {
+      "title": "Action Dogs Victoria",
+      "start": "2027-04-24",
+      "end": "2027-04-24",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Action Dogs Victoria"
     },
     {
       "title": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
@@ -3305,6 +3509,28 @@
       "is_past": false
     },
     {
+      "title": "Ballaarat Dog Obedience Club",
+      "start": "2027-05-02",
+      "end": "2027-05-02",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Ballaarat Dog Obedience Club"
+    },
+    {
       "title": "Championship & Open Show Shetland Sheepdog Club \u2013 Conformation",
       "club": "Championship & Open Show Shetland Sheepdog Club \u2013 Conformation",
       "start": "2027-05-02",
@@ -3528,6 +3754,52 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Collie Club of Victoria",
+      "start": "2027-05-08",
+      "end": "2027-05-08",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "collie",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Collie Club of Victoria"
+    },
+    {
+      "title": "Frankston Dog Obedience Club Inc",
+      "start": "2027-05-08",
+      "end": "2027-05-08",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Frankston Dog Obedience Club Inc"
     },
     {
       "title": "Northern Obedience Dog Club Inc",
@@ -3781,6 +4053,30 @@
       "club": "Welsh Corgi Club of Vic"
     },
     {
+      "title": "Cairn Terrier Club of Vic Inc",
+      "start": "2027-05-09",
+      "end": "2027-05-09",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "terrier",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Cairn Terrier Club of Vic Inc"
+    },
+    {
       "title": "Championship Show & Open Show (All Breeds) Canine Stewards Assoc \u2013 Conformation",
       "club": "Championship Show & Open Show (All Breeds) Canine Stewards Assoc \u2013 Conformation",
       "start": "2027-05-09",
@@ -3801,30 +4097,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Collie Club of Victoria",
-      "start": "2027-05-09",
-      "end": "2027-05-09",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "breed_group": "Group 5 (Working Dogs)",
-      "breed": "collie",
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Collie Club of Victoria"
     },
     {
       "title": "Euroa Kennel Club Inc AM",
@@ -4100,6 +4372,28 @@
       "is_past": false
     },
     {
+      "title": "Western Agility Group",
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Western Agility Group"
+    },
+    {
       "title": "Berwick Obedience Dog Club",
       "start": "2027-05-16",
       "end": "2027-05-16",
@@ -4368,6 +4662,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Stratford Dog Agility",
+      "start": "2027-05-22",
+      "end": "2027-05-23",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Stratford Dog Agility"
     },
     {
       "title": "Tracking Search Dog Trial Trackwest",
@@ -4708,6 +5024,52 @@
       "is_past": false
     },
     {
+      "title": "Dogs Victoria Fundraising event for Pets of the Homeless",
+      "start": "2027-06-05",
+      "end": "2027-06-05",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dogs Victoria Fundraising event for Pets of the Homeless"
+    },
+    {
+      "title": "Finnish Lapphund Club of Vic Inc",
+      "start": "2027-06-05",
+      "end": "2027-06-06",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Sprint",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "lapphund",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Finnish Lapphund Club of Vic Inc"
+    },
+    {
       "title": "Open All Pointing Breeds C/S United Field Trial Club of WA",
       "club": "Open All Pointing Breeds C/S United Field Trial Club of WA",
       "start": "2027-06-05",
@@ -4820,18 +5182,18 @@
       "is_past": false
     },
     {
-      "title": "Finnish Lapphund Club of Vic Inc",
+      "title": "Dobermann Club of Vic Inc OPEN OB &",
       "start": "2027-06-06",
       "end": "2027-06-06",
       "location": "Victoria",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Sprint",
+      "category": "Rally Obedience",
       "region": "VIC",
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
-      "breed_group": "Group 5 (Working Dogs)",
-      "breed": "lapphund",
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -4841,7 +5203,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Finnish Lapphund Club of Vic Inc"
+      "club": "Dobermann Club of Vic Inc OPEN OB &"
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
@@ -5003,6 +5365,28 @@
       "is_past": false
     },
     {
+      "title": "German Shepherd Dog Club of Vic Inc",
+      "start": "2027-06-11",
+      "end": "2027-06-13",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Track & Search",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Vic Inc"
+    },
+    {
       "title": "West Gippsland Kennel Club",
       "start": "2027-06-11",
       "end": "2027-06-11",
@@ -5139,6 +5523,28 @@
       "club": "Japanese Chin Club of Vic Inc"
     },
     {
+      "title": "Knox Obedience Dog Club Inc",
+      "start": "2027-06-12",
+      "end": "2027-06-12",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Trick Dog",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Knox Obedience Dog Club Inc"
+    },
+    {
       "title": "Newfoundland Club of Vic Inc",
       "start": "2027-06-12",
       "end": "2027-06-12",
@@ -5252,6 +5658,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Toy Dog Club of Vic Inc"
+    },
+    {
+      "title": "Western Agility Group",
+      "start": "2027-06-12",
+      "end": "2027-06-13",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Western Agility Group"
     },
     {
       "title": "Agility Trial x 2 Agility Club of WA",
@@ -5481,30 +5909,6 @@
       "is_past": false
     },
     {
-      "title": "Dalmatian Club of Vic Inc",
-      "start": "2027-06-14",
-      "end": "2027-06-14",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "breed_group": "Group 7 (Non-Sporting)",
-      "breed": "dalmatian",
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Dalmatian Club of Vic Inc"
-    },
-    {
       "title": "Gippsland Obedience Dog Club Inc",
       "start": "2027-06-14",
       "end": "2027-06-14",
@@ -5573,6 +5977,28 @@
       "club": "Victorian Spitz Breeds Club Inc"
     },
     {
+      "title": "Ballaarat Dog Obedience Club Inc",
+      "start": "2027-06-18",
+      "end": "2027-06-20",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Track & Search",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Ballaarat Dog Obedience Club Inc"
+    },
+    {
       "title": "Frankston & Peninsula Kennel Club Inc AM",
       "start": "2027-06-19",
       "end": "2027-06-19",
@@ -5593,6 +6019,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Frankston & Peninsula Kennel Club Inc AM"
+    },
+    {
+      "title": "German Shepherd Dog Club of Vic Inc",
+      "start": "2027-06-19",
+      "end": "2027-06-19",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Endurance",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Vic Inc"
     },
     {
       "title": "Hastings & District Obedience Dog Club",
@@ -6018,28 +6466,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Red Cliffs Ladies Kennel & Obedience Club Inc PM",
-      "start": "2027-06-26",
-      "end": "2027-06-26",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Red Cliffs Ladies Kennel & Obedience Club Inc PM"
     },
     {
       "title": "Rottweiler Club of Victoria",
@@ -6645,6 +7071,28 @@
       "club": "K9 Scent Club"
     },
     {
+      "title": "Melbourne & District DWD Club Inc",
+      "start": "2027-07-10",
+      "end": "2027-07-10",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Dances with Dogs",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Melbourne & District DWD Club Inc"
+    },
+    {
       "title": "Open All Pointing Breeds C/S United Field Trial Club of WA",
       "club": "Open All Pointing Breeds C/S United Field Trial Club of WA",
       "start": "2027-07-10",
@@ -6732,6 +7180,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Melbourne & District DWD Club Inc",
+      "start": "2027-07-11",
+      "end": "2027-07-11",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Trick Dog",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Melbourne & District DWD Club Inc"
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
@@ -7313,6 +7783,30 @@
       "is_past": false
     },
     {
+      "title": "Pug Club of Victoria",
+      "start": "2027-07-24",
+      "end": "2027-07-24",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "pug",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Pug Club of Victoria"
+    },
+    {
       "title": "Track & Search Dog Trial Trackwest",
       "club": "Track & Search Dog Trial Trackwest",
       "start": "2027-07-24",
@@ -7355,6 +7849,30 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Chihuahua Club of Victoria",
+      "start": "2027-07-25",
+      "end": "2027-07-25",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "chihuahua",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Chihuahua Club of Victoria"
     },
     {
       "title": "K9 Scent Club",
@@ -7466,6 +7984,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Bairnsdale & District Dog Obedience Club Inc",
+      "start": "2027-07-31",
+      "end": "2027-08-01",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Bairnsdale & District Dog Obedience Club Inc"
     },
     {
       "title": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
@@ -7938,6 +8478,28 @@
       "is_past": false
     },
     {
+      "title": "Wangaratta Kennel & Obedience Dog Club Inc",
+      "start": "2027-08-07",
+      "end": "2027-08-08",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Wangaratta Kennel & Obedience Dog Club Inc"
+    },
+    {
       "title": "Castlemaine & District Kennel Club Inc",
       "start": "2027-08-08",
       "end": "2027-08-08",
@@ -8114,6 +8676,28 @@
       "open_now": false,
       "is_past": false,
       "club": "North East Tracking & Scent Club"
+    },
+    {
+      "title": "Bulla Agility Dogs Inc",
+      "start": "2027-08-14",
+      "end": "2027-08-14",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Bulla Agility Dogs Inc"
     },
     {
       "title": "Championship Show (All Breeds) Bunbury & Dist KC \u2013 Conformation",
@@ -8408,6 +8992,28 @@
       "club": "Shih Tzu Club of Victoria Inc."
     },
     {
+      "title": "Australian Shepherd Club of Victoria Inc",
+      "start": "2027-08-21",
+      "end": "2027-08-21",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Australian Shepherd Club of Victoria Inc"
+    },
+    {
       "title": "Australian Shepherd Club of Victoria Inc RTB",
       "start": "2027-08-21",
       "end": "2027-08-21",
@@ -8428,28 +9034,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Australian Shepherd Club of Victoria Inc RTB"
-    },
-    {
-      "title": "Australian Shepherd Club of Victoria Inc RTB AGILITY &",
-      "start": "2027-08-21",
-      "end": "2027-08-21",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Agility",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Australian Shepherd Club of Victoria Inc RTB AGILITY &"
     },
     {
       "title": "Bulla Agility Dogs Inc",
@@ -9122,6 +9706,28 @@
       "club": "Championship Shows \u2013 BABKC"
     },
     {
+      "title": "Frankston Dog Obedience Club Inc",
+      "start": "2027-09-04",
+      "end": "2027-09-04",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Frankston Dog Obedience Club Inc"
+    },
+    {
       "title": "K9 Scent Club",
       "start": "2027-09-04",
       "end": "2027-09-04",
@@ -9276,6 +9882,28 @@
       "club": "Seymour Kennel Club Inc"
     },
     {
+      "title": "Agility Dog Club of Victoria",
+      "start": "2027-09-11",
+      "end": "2027-09-11",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility Dog Club of Victoria"
+    },
+    {
       "title": "Agility Trial (State fundraiser) CAWA Events Ctee",
       "club": "Agility Trial (State fundraiser) CAWA Events Ctee",
       "start": "2027-09-11",
@@ -9342,6 +9970,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "German Shepherd Dog Club of Vic Inc",
+      "start": "2027-09-11",
+      "end": "2027-09-13",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Track & Search",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Vic Inc"
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
@@ -9656,6 +10306,28 @@
       "club": "Kyneton & District Kennel Club Inc AM"
     },
     {
+      "title": "Melbourne Royal Show",
+      "start": "2027-09-18",
+      "end": "2027-09-19",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Melbourne Royal Show"
+    },
+    {
       "title": "Scentwork Trial Scent Work Club",
       "club": "Scentwork Trial Scent Work Club",
       "start": "2027-09-18",
@@ -9968,6 +10640,50 @@
       "club": "Ballaarat Dog Obedience Club Inc"
     },
     {
+      "title": "Dogs Victoria State Agility Trial",
+      "start": "2027-10-01",
+      "end": "2027-10-01",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dogs Victoria State Agility Trial"
+    },
+    {
+      "title": "Dogs Victoria State Agility Trial & Top Dog",
+      "start": "2027-10-02",
+      "end": "2027-10-02",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dogs Victoria State Agility Trial & Top Dog"
+    },
+    {
       "title": "Murray Valley Obedience Dog Club Inc",
       "start": "2027-10-02",
       "end": "2027-10-03",
@@ -10012,6 +10728,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Dogs Victoria State Agility Trial",
+      "start": "2027-10-03",
+      "end": "2027-10-03",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dogs Victoria State Agility Trial"
     },
     {
       "title": "Eastern Suburbs Obedience Dog Club",
@@ -10146,7 +10884,7 @@
       "is_past": false
     },
     {
-      "title": "East Gippsland Dog Obedience Club (Sale or Morwell)",
+      "title": "East Gippsland Dog Obedience Club (Sale)",
       "start": "2027-10-09",
       "end": "2027-10-09",
       "location": "Victoria",
@@ -10165,7 +10903,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "East Gippsland Dog Obedience Club (Sale or Morwell)"
+      "club": "East Gippsland Dog Obedience Club (Sale)"
     },
     {
       "title": "Golden Retriever Club of Vic Inc",
@@ -10324,7 +11062,7 @@
       "club": "Croydon & District Obedience Dog Club"
     },
     {
-      "title": "Gippsland Obedience Dog Club",
+      "title": "Gippsland Obedience Dog Club (Morwell)",
       "start": "2027-10-10",
       "end": "2027-10-10",
       "location": "Victoria",
@@ -10343,7 +11081,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Gippsland Obedience Dog Club"
+      "club": "Gippsland Obedience Dog Club (Morwell)"
     },
     {
       "title": "Romsey Kennel Club Inc AM",
@@ -10612,6 +11350,28 @@
       "is_past": false
     },
     {
+      "title": "Precision Agility Academy",
+      "start": "2027-10-16",
+      "end": "2027-10-16",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Precision Agility Academy"
+    },
+    {
       "title": "Track & Search Dog Trials Trackwest",
       "club": "Track & Search Dog Trials Trackwest",
       "start": "2027-10-16",
@@ -10632,6 +11392,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Victorian Women's Dog Club Inc",
+      "start": "2027-10-16",
+      "end": "2027-10-16",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Sprint",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Victorian Women's Dog Club Inc"
     },
     {
       "title": "Werribee Obedience Dog Club",
@@ -10814,6 +11596,28 @@
       "is_past": false
     },
     {
+      "title": "Knox Obedience Dog Club",
+      "start": "2027-10-23",
+      "end": "2027-10-23",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Knox Obedience Dog Club"
+    },
+    {
       "title": "Scentwork Trial Scent Work Club",
       "club": "Scentwork Trial Scent Work Club",
       "start": "2027-10-23",
@@ -10902,7 +11706,7 @@
       "is_past": false
     },
     {
-      "title": "Basset Hound Club of Vic Inc",
+      "title": "Basset Hound Club of Vic Inc - Must be Outdoors",
       "start": "2027-10-29",
       "end": "2027-10-29",
       "location": "Victoria",
@@ -10923,31 +11727,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Basset Hound Club of Vic Inc"
-    },
-    {
-      "title": "Bearded Collie Club of Vic Inc",
-      "start": "2027-10-29",
-      "end": "2027-10-29",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "breed_group": "Group 5 (Working Dogs)",
-      "breed": "bearded collie",
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Bearded Collie Club of Vic Inc"
+      "club": "Basset Hound Club of Vic Inc - Must be Outdoors"
     },
     {
       "title": "French Bulldog Club of Vic Inc",
@@ -10970,6 +11750,28 @@
       "open_now": false,
       "is_past": false,
       "club": "French Bulldog Club of Vic Inc"
+    },
+    {
+      "title": "German Shepherd Dog Club of Vic Inc RTB",
+      "start": "2027-10-29",
+      "end": "2027-10-29",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Scent Work",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Vic Inc RTB"
     },
     {
       "title": "Afghan Hound Club of Vic Inc",
@@ -11604,6 +12406,30 @@
       "club": "Cocker Spaniel Club of Victoria"
     },
     {
+      "title": "Dobermann Club of Victoria AM",
+      "start": "2027-10-31",
+      "end": "2027-10-31",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dobermann Club of Victoria AM"
+    },
+    {
       "title": "Hound Club of Vic Inc",
       "start": "2027-10-31",
       "end": "2027-10-31",
@@ -11716,6 +12542,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Working Dog Club of Vic Inc"
+    },
+    {
+      "title": "Dobermann Club of Victoria",
+      "start": "2027-11-01",
+      "end": "2027-11-01",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Scent Work",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "dobermann",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dobermann Club of Victoria"
     },
     {
       "title": "Victorian Women\u2019s Dog Club Inc",
@@ -12076,6 +12926,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "K9 Agility Club",
+      "start": "2027-11-13",
+      "end": "2027-11-14",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Agility",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "K9 Agility Club"
     },
     {
       "title": "Southern Obedience Dog Training Club Inc",
@@ -12612,6 +13484,29 @@
       "club": "White Swiss Shepherd Dog Association of Vic Inc"
     },
     {
+      "title": "German Shepherd Dog Club of Vic Inc - RTB OPEN",
+      "start": "2027-12-05",
+      "end": "2027-12-05",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Retrieving",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "German Shepherd Dog Club of Vic Inc - RTB OPEN"
+    },
+    {
       "title": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
       "club": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
       "start": "2027-12-10",
@@ -12882,7 +13777,7 @@
       "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
       "start": "2027-06-12",
       "end": "2027-06-12",
-      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "category": "Obedience",
       "region": "NSW",
@@ -12897,8 +13792,8 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
-      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "schedule_url": null,
+      "address": null,
       "open_now": true,
       "is_past": false
     },
