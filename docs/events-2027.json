@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-20T16:36:31+00:00",
+  "generated": "2026-08-21T16:35:07+00:00",
   "year": 2027,
-  "count": 625,
+  "count": 628,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -2975,6 +2975,28 @@
       "club": "German Shorthaired Pointer Club of Vic Inc"
     },
     {
+      "title": "Sunraysia Kennel Club Inc",
+      "start": "2027-04-22",
+      "end": "2027-04-22",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Sunraysia Kennel Club Inc"
+    },
+    {
       "title": "Mildura & District Kennel Club Inc AM",
       "start": "2027-04-23",
       "end": "2027-04-23",
@@ -3061,6 +3083,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Colac Kennel Club Inc"
+    },
+    {
+      "title": "Dalmatian Club of Victoria Inc",
+      "start": "2027-04-24",
+      "end": "2027-04-24",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Sprint",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 7 (Non-Sporting)",
+      "breed": "dalmatian",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dalmatian Club of Victoria Inc"
     },
     {
       "title": "Geelong Obedience Dog Club Inc",
@@ -4119,28 +4165,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Cairn Terrier Club of Vic Inc"
-    },
-    {
-      "title": "Championship Show & Open Show (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "club": "Championship Show & Open Show (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "start": "2027-05-09",
-      "end": "2027-05-09",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Conformation",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
     },
     {
       "title": "Euroa Kennel Club Inc AM",
@@ -6115,6 +6139,50 @@
       "club": "Ballaarat Dog Obedience Club Inc"
     },
     {
+      "title": "Championship & Open Shows (All Breeds) Canine Stewards Assoc \u2013 Conformation",
+      "club": "Championship & Open Shows (All Breeds) Canine Stewards Assoc \u2013 Conformation",
+      "start": "2027-06-18",
+      "end": "2027-06-18",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Conformation",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Championship Shows x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
+      "club": "Championship Shows x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
+      "start": "2027-06-19",
+      "end": "2027-06-19",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Conformation",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Dances with Dogs Club of Victoria Inc",
       "start": "2027-06-19",
       "end": "2027-06-19",
@@ -6345,6 +6413,28 @@
       "location": "Western Australia",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Track & Search",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Championship Shows x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
+      "club": "Championship Shows x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
+      "start": "2027-06-20",
+      "end": "2027-06-20",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Conformation",
       "region": "WA",
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
@@ -6628,6 +6718,28 @@
       "is_past": false
     },
     {
+      "title": "Red Cliffs Ladies Kennel & Obedience Club Inc AM",
+      "start": "2027-06-26",
+      "end": "2027-06-26",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Red Cliffs Ladies Kennel & Obedience Club Inc AM"
+    },
+    {
       "title": "Rottweiler Club of Victoria",
       "start": "2027-06-26",
       "end": "2027-06-26",
@@ -6765,7 +6877,7 @@
       "is_past": false
     },
     {
-      "title": "Sunraysia Kennel Club Inc. AM",
+      "title": "Sunraysia Kennel Club Inc",
       "start": "2027-06-27",
       "end": "2027-06-27",
       "location": "Victoria",
@@ -6784,7 +6896,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Sunraysia Kennel Club Inc. AM"
+      "club": "Sunraysia Kennel Club Inc"
     },
     {
       "title": "Tracking Club of Vic Inc",
@@ -7455,28 +7567,6 @@
       "club": "Ballaarat Dog Obedience Club Inc"
     },
     {
-      "title": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "club": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "start": "2027-07-17",
-      "end": "2027-07-17",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Conformation",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Lure Coursing Trial West Coast Dog Sports",
       "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2027-07-17",
@@ -7640,28 +7730,6 @@
       "location": "Western Australia",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Agility",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "club": "Championship Show x 2 (All Breeds) Canine Stewards Assoc \u2013 Conformation",
-      "start": "2027-07-18",
-      "end": "2027-07-18",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Conformation",
       "region": "WA",
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
