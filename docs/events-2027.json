@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-25T16:39:24+00:00",
+  "generated": "2026-08-26T16:53:50+00:00",
   "year": 2027,
-  "count": 628,
+  "count": 629,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -10890,6 +10890,28 @@
       "club": "Ballaarat Dog Obedience Club Inc"
     },
     {
+      "title": "Griffon Bruxellois Club of Vic Inc",
+      "start": "2027-09-26",
+      "end": "2027-09-26",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Griffon Bruxellois Club of Vic Inc"
+    },
+    {
       "title": "Dogs Victoria State Agility Trial",
       "start": "2027-10-01",
       "end": "2027-10-01",
@@ -11646,7 +11668,7 @@
     {
       "title": "Precision Agility Academy",
       "start": "2027-10-16",
-      "end": "2027-10-16",
+      "end": "2027-10-17",
       "location": "Victoria",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Agility",
@@ -11978,7 +12000,7 @@
       "is_past": false
     },
     {
-      "title": "Basset Hound Club of Vic Inc - Must be Outdoors",
+      "title": "Bearded Collie Club of Vic Inc - Must be Outdoors",
       "start": "2027-10-29",
       "end": "2027-10-29",
       "location": "Victoria",
@@ -11988,8 +12010,8 @@
       "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
       "cancelled": false,
-      "breed_group": "Group 4 (Hounds)",
-      "breed": "basset",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "bearded collie",
       "sources": [
         "Dogs Victoria (official calendar)"
       ],
@@ -11999,7 +12021,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Basset Hound Club of Vic Inc - Must be Outdoors"
+      "club": "Bearded Collie Club of Vic Inc - Must be Outdoors"
     },
     {
       "title": "French Bulldog Club of Vic Inc",
@@ -14117,7 +14139,7 @@
       "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
       "start": "2027-06-12",
       "end": "2027-06-12",
-      "location": "",
+      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "category": "Obedience",
       "region": "NSW",
@@ -14132,8 +14154,8 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "schedule_url": null,
-      "address": null,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
       "is_past": false
     },
