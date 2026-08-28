@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-26T16:53:50+00:00",
+  "generated": "2026-08-28T00:53:17+00:00",
   "year": 2027,
-  "count": 629,
+  "count": 628,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -2807,28 +2807,6 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "breed": "pointer",
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "DWD Competition DWD Club of WA \u2013 Dances with Dogs",
-      "club": "DWD Competition DWD Club of WA \u2013 Dances with Dogs",
-      "start": "2027-04-17",
-      "end": "2027-04-17",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Dances with Dogs",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -14139,7 +14117,7 @@
       "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
       "start": "2027-06-12",
       "end": "2027-06-12",
-      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "category": "Obedience",
       "region": "NSW",
@@ -14154,8 +14132,8 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
-      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "schedule_url": null,
+      "address": null,
       "open_now": true,
       "is_past": false
     },
