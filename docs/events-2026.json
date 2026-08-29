@@ -1,7 +1,7 @@
 {
-  "generated": "2026-08-29T00:25:28+00:00",
+  "generated": "2026-08-29T10:02:01+00:00",
   "year": 2026,
-  "count": 2891,
+  "count": 2898,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -3263,6 +3263,28 @@
       "club": "Oxley Dog Training Club Inc"
     },
     {
+      "title": "Dogs ACT Track and Search Stewards Course",
+      "start": "2026-02-18",
+      "end": "2026-02-18",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-track-and-search-stewards-course/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT Track and Search Stewards Course"
+    },
+    {
       "title": "Championship Shows x 2 (All Breeds) Hills Kennel Club \u2013 Conformation",
       "club": "Championship Shows x 2 (All Breeds) Hills Kennel Club \u2013 Conformation",
       "start": "2026-02-20",
@@ -4639,6 +4661,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true
+    },
+    {
+      "title": "Dogs ACT Track and Search Stewards Course",
+      "start": "2026-03-04",
+      "end": "2026-03-04",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-track-and-search-stewards-course-2/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT Track and Search Stewards Course"
     },
     {
       "title": "Dogs ACT Tracking Stewards Course",
@@ -8666,6 +8710,28 @@
       "open_now": false,
       "is_past": true,
       "club": "Canine Performance Association of Tasmania"
+    },
+    {
+      "title": "Dogs ACT Track and Search Stewards Course",
+      "start": "2026-03-28",
+      "end": "2026-03-28",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dogs-act-track-and-search-stewards-course-3/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": true,
+      "club": "Dogs ACT Track and Search Stewards Course"
     },
     {
       "title": "Gawler Dog Training Club Inc Scent Work Trial - Advanced Interior & Vehicles",
@@ -44993,6 +45059,28 @@
       "club": "Northern Districts Bull Terrier Club of NSW \u2013 Conformation"
     },
     {
+      "title": "Track and Search Trial \u2013 ACTCDC",
+      "start": "2026-09-11",
+      "end": "2026-09-11",
+      "location": "",
+      "url": "https://dogsact.org.au/event/track-and-search-trial-actcdc-2/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Track and Search Trial \u2013 ACTCDC"
+    },
+    {
       "title": "Wagga Wagga Show Society Ltd \u2013 Conformation",
       "start": "2026-09-11",
       "end": "2026-09-11",
@@ -45907,6 +45995,28 @@
       "open_now": true,
       "is_past": false,
       "club": "Rockhampton Dog Obedience Club"
+    },
+    {
+      "title": "Track and Search Trial \u2013 ACTCDC",
+      "start": "2026-09-13",
+      "end": "2026-09-13",
+      "location": "",
+      "url": "https://dogsact.org.au/event/track-and-search-trial-actcdc-2/",
+      "category": "Track & Search",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Track and Search Trial \u2013 ACTCDC"
     },
     {
       "title": "Oxley Dog Training Club Inc \u2013 Rally Obedience",
@@ -47777,6 +47887,29 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Track and Search Trial",
+      "start": "2026-09-25",
+      "end": "2026-09-26",
+      "location": "Canberra, ACT",
+      "url": "https://readyentries.com/view-event-group/1785461928178x695851194040451100",
+      "category": "Track & Search",
+      "region": "ACT",
+      "cancelled": false,
+      "color": "#1d6fb8",
+      "entry_url": "https://readyentries.com/view-event-group/1785461928178x695851194040451100",
+      "closes": "2026-09-15",
+      "status": "approved_not_open",
+      "source": "Ready Entries",
+      "sources": [
+        "Ready Entries"
+      ],
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "open_now": false,
+      "is_past": false,
+      "club": "Canberra, ACT"
     },
     {
       "title": "Whippet Association of Vic Inc",
@@ -50740,6 +50873,29 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49600",
       "open_now": true,
       "is_past": false
+    },
+    {
+      "title": "Noarlunga Agility Trial 10/10/26",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "location": "Noarlunga City Obedience Dog Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2170",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2170",
+      "open_now": true,
+      "is_past": false,
+      "club": "Noarlunga City Obedience Dog Club Inc"
     },
     {
       "title": "October 2026 Obedience Trials",
@@ -65791,14 +65947,14 @@
       ],
       "color": "#c0392b",
       "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-08-29",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48781",
       "schedule_url": null,
       "address": null,
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -65816,14 +65972,14 @@
       ],
       "color": "#c0392b",
       "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-08-29",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48782",
       "schedule_url": null,
       "address": null,
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
