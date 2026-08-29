@@ -1,0 +1,62 @@
+name: Discover club sources
+
+# MANUAL-ONLY. This never runs on a schedule and is completely separate from the
+# daily calendar workflow. It runs the one-off club-source discovery tool and
+# uploads the CSV/JSON report as a downloadable artifact for you to review.
+on:
+  workflow_dispatch:
+    inputs:
+      state:
+        description: "State to scan (VIC, NSW, QLD, SA, WA, TAS, ACT, NT). Leave blank for ALL states."
+        required: false
+        default: "VIC"
+      limit:
+        description: "Max clubs per state to probe (blank = no limit). Use a small number like 20 for a quick trial."
+        required: false
+        default: "20"
+      delay:
+        description: "Seconds to wait between external requests (be polite)."
+        required: false
+        default: "1.0"
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run discovery
+        run: |
+          # Build the argument list from the manual inputs.
+          ARGS="--out club_sources_report --delay ${{ inputs.delay }}"
+          if [ -n "${{ inputs.state }}" ]; then
+            ARGS="$ARGS --state ${{ inputs.state }}"
+          fi
+          if [ -n "${{ inputs.limit }}" ]; then
+            ARGS="$ARGS --limit ${{ inputs.limit }}"
+          fi
+          echo "Running: python discover_club_sources.py $ARGS"
+          # Adjust the path if you place the script somewhere other than the repo
+          # root (e.g. scraper/discover_club_sources.py).
+          python discover_club_sources.py $ARGS
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: club-sources-report
+          path: |
+            club_sources_report.json
+            club_sources_report.csv
+          if-no-files-found: warn
+          retention-days: 30
