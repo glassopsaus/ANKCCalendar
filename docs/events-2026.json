@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T10:31:30+00:00",
+  "generated": "2026-08-29T11:02:12+00:00",
   "year": 2026,
   "count": 2892,
   "sources": [
@@ -924,6 +924,7 @@
         "Dogs ACT",
         "Ready Entries"
       ],
+      "ep_status": "closed",
       "entry_url": "https://readyentries.com/view-event-group/1766563701257x538657811717947400",
       "closes": "2026-01-16",
       "status": "closed",
@@ -2082,6 +2083,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1759979406664x177603174925860860",
       "closes": "2026-01-23",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -2530,6 +2532,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1759980633378x169637848824938500",
       "closes": "2026-01-23",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -2554,6 +2557,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1759981075569x818628402091917300",
       "closes": "2026-01-23",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -2578,12 +2582,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1761349954398x508724407065378800",
       "closes": "2026-01-30",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "2026 Rally and Obedience Trials"
@@ -5239,6 +5244,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1769566333134x586954682049757200",
       "closes": "2026-02-28",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -7475,6 +7481,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1771408642811x164029934448148480",
       "closes": "2026-03-14",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -8120,6 +8127,7 @@
         "Dogs ACT",
         "Ready Entries"
       ],
+      "ep_status": "closed",
       "entry_url": "https://readyentries.com/view-event-group/1772098750822x999464744455503900",
       "closes": "2026-03-13",
       "status": "closed",
@@ -10072,6 +10080,7 @@
         "Dogs Victoria (official calendar)",
         "Ready Entries"
       ],
+      "ep_status": "closed",
       "entry_url": "https://readyentries.com/view-event-group/1770190535210x783146378151854000",
       "closes": "2026-03-25",
       "status": "closed",
@@ -10763,6 +10772,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46422",
       "closes": "2026-03-30",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -11518,12 +11528,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1764726752615x209283419607924740",
       "closes": "2026-04-04",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Club Grounds, 1 Morisset Road, Mitchell"
@@ -11935,12 +11946,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1767994218710x625606092574687200",
       "closes": "2026-03-29",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW, Amenities Building"
@@ -12238,12 +12250,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1764726850198x945393360559145000",
       "closes": "2026-04-04",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Club Grounds, 1 Morisset Road, Mitchell"
@@ -12888,12 +12901,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1774502838860x503045152697221100",
       "closes": "2026-04-11",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "ACT CDC Grounds, Narrabundah Lane, Symonston"
@@ -14258,12 +14272,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1771453913831x598683673627459600",
       "closes": "2026-04-13",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Yass Showgrounds, Grand Junction Road, Yass NSW"
@@ -15153,6 +15168,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46480",
       "closes": "2026-04-25",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -15432,12 +15448,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1774251575051x815307377159962600",
       "closes": "2026-04-24",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Jimboomba Dog Obedience Club Grounds, Jimboomba QLD"
@@ -15455,12 +15472,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1776647030321x656007165460611100",
       "closes": "2026-04-29",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Flynn Community Hub, Hedland Cct, Flynn"
@@ -19626,6 +19644,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1769996487590x316507556145266700",
       "closes": "2026-05-04",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -19853,12 +19872,12 @@
       "club": "Dobermann Club of NSW Inc"
     },
     {
-      "title": "Grafton Dog Obedience Club \u2013 Tracking",
+      "title": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search",
       "start": "2026-05-22",
       "end": "2026-05-24",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -19873,7 +19892,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Grafton Dog Obedience Club"
+      "club": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search"
     },
     {
       "title": "Tableland May Trial Agility Obedience Rally",
@@ -20072,6 +20091,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1776900387785x899775216634560500",
       "closes": "2026-05-16",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -20724,12 +20744,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1777528683837x961770041336397800",
       "closes": "2026-05-18",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Club Grounds, 1 Morisset Road, Mitchell"
@@ -21280,6 +21301,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1777884834607x161767701824143360",
       "closes": "2026-05-23",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -22072,12 +22094,12 @@
       "is_past": true
     },
     {
-      "title": "Maitland & Kurri District Kennel Club \u2013 Tracking",
+      "title": "Maitland & Kurri District Kennel Club \u2013 Tracking / Track & Search",
       "start": "2026-05-31",
       "end": "2026-05-31",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -22094,7 +22116,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47936",
       "open_now": false,
       "is_past": true,
-      "club": "Maitland & Kurri District Kennel Club"
+      "club": "Maitland & Kurri District Kennel Club \u2013 Tracking / Track & Search"
     },
     {
       "title": "My Dog Can Do MOCK TRIAL",
@@ -22230,6 +22252,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47525",
       "closes": "2026-05-24",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -25862,12 +25885,12 @@
       "is_past": true
     },
     {
-      "title": "Tracking & Rescue Dog Club Inc \u2013 Tracking",
+      "title": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-06-14",
       "end": "2026-06-14",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -25882,7 +25905,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Tracking & Rescue Dog Club Inc"
+      "club": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search"
     },
     {
       "title": "Tracking Trial",
@@ -25897,12 +25920,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1777530179069x399490891492884500",
       "closes": "2026-06-04",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Braidwood Area"
@@ -26728,12 +26752,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1775630626923x363621818492256260",
       "closes": "2026-06-05",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW, Amenities Building"
@@ -27574,12 +27599,12 @@
       "is_past": true
     },
     {
-      "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Tracking",
+      "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-06-21",
       "end": "2026-06-21",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -27594,7 +27619,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Newcastle All Breeds Dog Training Club Inc"
+      "club": "Newcastle All Breeds Dog Training Club Inc \u2013 Tracking / Track & Search"
     },
     {
       "title": "Open APB Field Trial United Field Trial Club of WA",
@@ -28128,12 +28153,12 @@
       "club": "Dobermann Club of NSW Inc"
     },
     {
-      "title": "Grafton Dog Obedience Club \u2013 Tracking",
+      "title": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search",
       "start": "2026-06-26",
       "end": "2026-06-28",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -28148,7 +28173,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Grafton Dog Obedience Club"
+      "club": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search"
     },
     {
       "title": "RDOC Track & Search Trial",
@@ -28346,6 +28371,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1776985075989x279899446118973440",
       "closes": "2026-06-11",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -28834,12 +28860,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1779837065184x226920944078684160",
       "closes": "2026-06-16",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "East Kowan Forest, Block 115, ACT"
@@ -30435,12 +30462,12 @@
       "is_past": true
     },
     {
-      "title": "Maitland & Kurri District Kennel Club \u2013 Tracking",
+      "title": "Maitland & Kurri District Kennel Club \u2013 Tracking / Track & Search",
       "start": "2026-07-05",
       "end": "2026-07-05",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -30455,7 +30482,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Maitland & Kurri District Kennel Club"
+      "club": "Maitland & Kurri District Kennel Club \u2013 Tracking / Track & Search"
     },
     {
       "title": "Retrieving Trial - All Age Stakes (Natl Fundraiser) CAWA Events Ctee",
@@ -30503,12 +30530,12 @@
       "club": "Scent Work Trial \u2013 ACTGSDA"
     },
     {
-      "title": "Tracking & Rescue Dog Club Inc \u2013 Tracking",
+      "title": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-07-05",
       "end": "2026-07-05",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -30523,7 +30550,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Tracking & Rescue Dog Club Inc"
+      "club": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search"
     },
     {
       "title": "Gsp \u2013 Scent Work",
@@ -32626,6 +32653,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1778128532316x538532037587894300",
       "closes": "2026-07-17",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -32833,12 +32861,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1777330989571x858639553266188300",
       "closes": "2026-07-06",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Jimboomba Dog Obedience Club, Tully Memorial Park, Beryl Parade, North Maclean QLD"
@@ -33655,6 +33684,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48501",
       "closes": "2026-07-11",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -33667,12 +33697,12 @@
       "club": "Club Grounds, 1 Morisset Road, Mitchell"
     },
     {
-      "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Tracking",
+      "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-07-19",
       "end": "2026-07-19",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -33687,7 +33717,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Newcastle All Breeds Dog Training Club Inc"
+      "club": "Newcastle All Breeds Dog Training Club Inc \u2013 Tracking / Track & Search"
     },
     {
       "title": "Northern Suburbs Dog Training Club Inc \u2013 Scent Work",
@@ -34187,12 +34217,12 @@
       "club": "Dobermann Club of NSW Inc"
     },
     {
-      "title": "Grafton Dog Obedience Club \u2013 Tracking",
+      "title": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search",
       "start": "2026-07-24",
       "end": "2026-07-26",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -34207,7 +34237,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Grafton Dog Obedience Club"
+      "club": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search"
     },
     {
       "title": "Hervey Bay Double Tricks and Rally Trial Rally",
@@ -34338,12 +34368,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1781001701749x417358568994897900",
       "closes": "2026-07-12",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "East Kowen Forest, Block 115"
@@ -35488,12 +35519,12 @@
       "club": "The Pointer Club of South Australia Inc"
     },
     {
-      "title": "Tracking & Rescue Dog Club Inc \u2013 Tracking",
+      "title": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-07-26",
       "end": "2026-07-26",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -35508,7 +35539,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Tracking & Rescue Dog Club Inc"
+      "club": "Tracking & Rescue Dog Club Inc \u2013 Tracking / Track & Search"
     },
     {
       "title": "Utility Dog Club of Vic Inc",
@@ -35745,12 +35776,12 @@
       "club": "Dogs Victoria OTEC - STATE TRIAL OBEDIENCE BUMP IN/OUT"
     },
     {
-      "title": "Grafton Dog Obedience Club \u2013 Tracking",
+      "title": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search",
       "start": "2026-07-31",
       "end": "2026-08-02",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -35765,7 +35796,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Grafton Dog Obedience Club"
+      "club": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search"
     },
     {
       "title": "Lake George & Wamboin District Kennel \u2013 Scent Work",
@@ -38676,12 +38707,12 @@
       "is_past": true
     },
     {
-      "title": "Port Stephens Dog Sports Club Inc \u2013 Tracking",
+      "title": "Port Stephens Dog Sports Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-08-09",
       "end": "2026-08-09",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -38696,7 +38727,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Port Stephens Dog Sports Club Inc"
+      "club": "Port Stephens Dog Sports Club Inc \u2013 Tracking / Track & Search"
     },
     {
       "title": "Rhodesian Ridgeback \u2013 Lure Coursing",
@@ -39156,12 +39187,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1782687964839x451552911431041000",
       "closes": "2026-08-08",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Club Grounds, 1 Morisset Road, Mitchell"
@@ -40045,12 +40077,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1784081276712x614065969389895700",
       "closes": "2026-08-09",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Cooma Cottage, 756 Yass Valley Way, Marchmont"
@@ -40534,12 +40567,12 @@
       "club": "DOGS NSW Scent Work Working Party"
     },
     {
-      "title": "Clarence Dog Sports Inc \u2013 Tracking",
+      "title": "Clarence Dog Sports Inc \u2013 Tracking / Track & Search",
       "start": "2026-08-21",
       "end": "2026-08-21",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -40554,7 +40587,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Clarence Dog Sports Inc"
+      "club": "Clarence Dog Sports Inc \u2013 Tracking / Track & Search"
     },
     {
       "title": "Coolamon-Ganmain Kennel Club \u2013 Conformation",
@@ -41638,12 +41671,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1781136744189x784962248118108200",
       "closes": "2026-08-16",
       "status": "closed",
+      "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Dogs Queensland Sports Grounds, 247 King Ave, Durack"
@@ -41883,12 +41917,12 @@
       "club": "Melbourne Lure Dog Club"
     },
     {
-      "title": "Port Stephens Dog Sports Club Inc \u2013 Tracking",
+      "title": "Port Stephens Dog Sports Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-08-23",
       "end": "2026-08-23",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -41903,7 +41937,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Port Stephens Dog Sports Club Inc"
+      "club": "Port Stephens Dog Sports Club Inc \u2013 Tracking / Track & Search"
     },
     {
       "title": "Silver City Kennel Club \u2013 Sled Sports",
@@ -42087,7 +42121,7 @@
         "Ozentries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": true,
       "club": "Cavalier King Charles Club NSW Champ Show"
@@ -42257,12 +42291,12 @@
       "club": "Gippsland Obedience Dog Club Inc OPEN T&S TRIAL"
     },
     {
-      "title": "Grafton Dog Obedience Club \u2013 Tracking",
+      "title": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search",
       "start": "2026-08-28",
       "end": "2026-08-30",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -42277,7 +42311,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Grafton Dog Obedience Club"
+      "club": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search"
     },
     {
       "title": "Townsville \u2013 Obedience",
@@ -42504,6 +42538,7 @@
       "entry_url": "https://readyentries.com/view-event-group/1784770002744x370986871110500350",
       "closes": "2026-08-22",
       "status": "closed",
+      "ep_status": "open",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -42870,12 +42905,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1785903605383x918987041421131800",
       "closes": "2026-08-20",
       "status": "closed",
+      "ep_status": "open",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": false,
       "club": "Block 115, Kings Highway, East Kowen Forest"
@@ -42946,12 +42982,13 @@
       "entry_url": "https://readyentries.com/view-event-group/1784770525618x151134089549971460",
       "closes": "2026-08-21",
       "status": "closed",
+      "ep_status": "open",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
       "status_label": "Entries closed",
-      "verified": false,
+      "verified": true,
       "open_now": false,
       "is_past": false,
       "club": "Flynn Community Hub, 21 Bingle St, Flynn"
@@ -43302,12 +43339,12 @@
       "is_past": false
     },
     {
-      "title": "Grafton Dog Obedience Club \u2013 Tracking",
+      "title": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search",
       "start": "2026-09-04",
       "end": "2026-09-06",
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Tracking",
+      "category": "Tracking / Track & Search",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -43322,7 +43359,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Grafton Dog Obedience Club"
+      "club": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search"
     },
     {
       "title": "Maryborough \u2013 Trick Dog",
@@ -46836,6 +46873,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49038",
       "closes": "2026-09-11",
       "status": "open",
+      "ep_status": "listed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
@@ -47893,13 +47931,14 @@
       "color": "#1d6fb8",
       "entry_url": "https://readyentries.com/view-event-group/1783387232220x669432956421668900",
       "closes": "2026-09-19",
-      "status": "approved_not_open",
+      "status": "listed",
+      "ep_status": "listed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
         "Dogs ACT"
       ],
-      "status_label": "Approved (unverified)",
+      "status_label": "Listed (verified)",
       "verified": true,
       "open_now": false,
       "is_past": false,
@@ -48063,12 +48102,12 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "closes": "2026-09-24",
-      "status": "approved_not_open",
+      "status": "listed",
       "sources": [
         "Ozentries",
         "Dogs NSW"
       ],
-      "status_label": "Approved (unverified)",
+      "status_label": "Listed (verified)",
       "verified": true,
       "open_now": false,
       "is_past": false,
@@ -48297,12 +48336,13 @@
         "Dogs ACT",
         "Ready Entries"
       ],
+      "ep_status": "open",
       "entry_url": "https://readyentries.com/view-event-group/1785461928178x695851194040451100",
       "closes": "2026-09-15",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
+      "status": "open",
+      "status_label": "Open (verified)",
       "verified": true,
-      "open_now": false,
+      "open_now": true,
       "is_past": false,
       "club": "Track & Search Trial \u2013 Canberra Scent Sport Club"
     },
@@ -48617,12 +48657,12 @@
       "color": "#7a3ea6",
       "cancelled": false,
       "closes": "2026-09-24",
-      "status": "approved_not_open",
+      "status": "listed",
       "sources": [
         "Ozentries"
       ],
-      "status_label": "Approved (unverified)",
-      "verified": false,
+      "status_label": "Listed (verified)",
+      "verified": true,
       "open_now": false,
       "is_past": false,
       "club": "Hills Dog Club All Breeds AM Champ Show"
@@ -48805,13 +48845,14 @@
       "color": "#7a3ea6",
       "entry_url": "https://readyentries.com/view-event-group/1782352598449x677380602010271700",
       "closes": "2026-09-10",
-      "status": "approved_not_open",
+      "status": "listed",
+      "ep_status": "listed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
-      "status_label": "Approved (unverified)",
-      "verified": false,
+      "status_label": "Listed (verified)",
+      "verified": true,
       "open_now": false,
       "is_past": false,
       "club": "St Ives Showground, Mona Vale Rd, St Ives"
@@ -50088,8 +50129,8 @@
       ],
       "entry_url": "https://dogs.ozentries.com.au/../schedule/1026ck.pdf",
       "closes": "2026-10-01",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "open_now": false,
       "is_past": false,
@@ -51114,12 +51155,13 @@
         "Dogs ACT",
         "Ready Entries"
       ],
+      "ep_status": "open",
       "entry_url": "https://readyentries.com/view-event-group/1784771511735x555257115102674940",
       "closes": "2026-10-02",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
+      "status": "open",
+      "status_label": "Open (verified)",
       "verified": true,
-      "open_now": false,
+      "open_now": true,
       "is_past": false,
       "club": "Flynn Community Hub, 21 Bingle St, Flynn"
     },
@@ -51278,14 +51320,15 @@
       "color": "#c0392b",
       "entry_url": "https://readyentries.com/view-event-group/1787725025711x304435306089676800",
       "closes": "2026-09-27",
+      "status": "open",
+      "ep_status": "open",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "open_now": false,
+      "status_label": "Open (verified)",
+      "verified": true,
+      "open_now": true,
       "is_past": false,
       "club": "Mt Maria College, Armstrong Street Petrie QLD"
     },
@@ -51356,8 +51399,8 @@
       ],
       "entry_url": "https://dogs.ozentries.com.au/../schedule/1026st.pdf",
       "closes": "2026-10-03",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "open_now": false,
       "is_past": false,
@@ -52152,13 +52195,14 @@
       "color": "#7a3ea6",
       "entry_url": "https://readyentries.com/view-event-group/1785462795723x817484373790294000",
       "closes": "2026-10-18",
-      "status": "approved_not_open",
+      "status": "listed",
+      "ep_status": "listed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
-      "status_label": "Approved (unverified)",
-      "verified": false,
+      "status_label": "Listed (verified)",
+      "verified": true,
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW, Amenities Building"
@@ -53032,8 +53076,8 @@
       ],
       "entry_url": "https://dogs.ozentries.com.au/../schedule/1026gd.pdf",
       "closes": "2026-10-22",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "open_now": false,
       "is_past": false,
@@ -53980,13 +54024,14 @@
       "color": "#1d6fb8",
       "entry_url": "https://readyentries.com/view-event-group/1784023281025x759337558512762900",
       "closes": "2026-10-21",
-      "status": "approved_not_open",
+      "status": "listed",
+      "ep_status": "listed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
-      "status_label": "Approved (unverified)",
-      "verified": false,
+      "status_label": "Listed (verified)",
+      "verified": true,
       "open_now": false,
       "is_past": false,
       "club": "ACT CDC Grounds, Narrabundah Lane, Symonston"
@@ -54027,6 +54072,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49794",
       "closes": "2026-10-18",
       "status": "open",
+      "ep_status": "listed",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
