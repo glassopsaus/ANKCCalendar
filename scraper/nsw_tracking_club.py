@@ -14,15 +14,20 @@ signal:
 Columns 3 and 4 ("TRDC Tracking Trials", "Other Tracking Trials") are the
 tracking family; column 5 ("Other Trials") is everything else (SW/OT/ET/etc.)
 and is ignored here. Within the tracking columns, a cell that says
-"Track & Search" marks a T&S event; an unlabelled cell is a plain Tracking
-event. We emit one signal per tracking-family cell:
+"Track & Search" marks a T&S event.
 
-    {"date": ISO, "club": <cell text>, "discipline": "Tracking"|"Track & Search"}
+CONSERVATIVE POLICY (important): TRDC does NOT reliably annotate every Track &
+Search event — some genuine T&S trials appear with no "Track & Search" marker
+(e.g. Grafton Dog Obedience Club's trials). An unlabelled cell is therefore NOT
+proof that the event is plain Tracking. To avoid confidently-wrong labels we
+emit a signal ONLY for cells EXPLICITLY marked "Track & Search":
 
-scrape.py's _disambiguate_nsw_tracking() matches these to the combined Dogs NSW
-"TT" events by (date, club-token overlap) and refines the label. Matching is
-conservative and fuzzy on the club name (TRDC uses informal names like "Grafton"
-or "Sutherland"); non-matches are simply left combined.
+    {"date": ISO, "club": <cell text>, "discipline": "Track & Search"}
+
+Unlabelled tracking rows produce no signal, so the corresponding Dogs NSW "TT"
+event is LEFT COMBINED ("Tracking / Track & Search") rather than asserted as
+plain Tracking. We only ever refine toward a specific label when a source
+positively confirms it.
 
 FAIL-SAFE: any problem (no pdfplumber, network down, layout changed) returns []
 so the run is never broken. This is a refinement source, not a primary one.
@@ -332,8 +337,17 @@ def parse_trdc_calendar(target_year=2026, pdf_bytes=None, pdf_url=None):
                             club = _clean_cell(raw)
                             if not club:
                                 continue
-                            disc = "Track & Search" if _TS_RE.search(raw) \
-                                else "Tracking"
+                            # CONSERVATIVE POLICY: TRDC does NOT reliably mark
+                            # every Track & Search event (e.g. Grafton's T&S
+                            # trials appear unlabelled), so an unlabelled cell is
+                            # NOT proof of plain Tracking. We therefore emit a
+                            # signal ONLY for cells explicitly marked
+                            # "Track & Search"; unlabelled tracking rows are left
+                            # to the disambiguator as no-signal, so the event
+                            # stays combined ("Tracking / Track & Search") rather
+                            # than being wrongly asserted as plain Tracking.
+                            if not _TS_RE.search(raw):
+                                continue
                             # strip the T&S marker words from the club text so
                             # club-token matching keys on the real club name
                             club_clean = _TS_RE.sub("", club).strip(" -|")
@@ -341,7 +355,7 @@ def parse_trdc_calendar(target_year=2026, pdf_bytes=None, pdf_url=None):
                             signals.append({
                                 "date": date_iso,
                                 "club": club_clean or club,
-                                "discipline": disc,
+                                "discipline": "Track & Search",
                             })
     except Exception as e:
         print(f"[trdc] parse error ({e}); returning what we have",
