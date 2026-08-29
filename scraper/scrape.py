@@ -118,6 +118,12 @@ try:
 except Exception as _e:
     HAVE_NE = False
     print(f"[init] national_events import failed: {_e}", file=sys.stderr)
+try:
+    import nsw_tracking_club
+    HAVE_TRDC = True
+except Exception as _e:
+    HAVE_TRDC = False
+    print(f"[init] nsw_tracking_club import failed: {_e}", file=sys.stderr)
 
 # This calendar covers a single calendar year. Override with the YEAR env var.
 YEAR = int(os.environ.get("YEAR", "2026"))
@@ -1855,16 +1861,19 @@ def canonical_category(cat):
     return cat or "Tracking / Track & Search"
 
 
-def _disambiguate_nsw_tracking(events, sm_listings, _sm_module=None):
+def _disambiguate_nsw_tracking(events, sm_listings, _sm_module=None,
+                               trdc_signals=None):
     """Split NSW's combined "Tracking / Track & Search" events into their
     specific discipline where a distinguishing source confirms which one it is.
 
     Sources that DO separate the two: Show Manager listings (`discipline` is
     "Tracking" or "Track & Search"), Top Dog events (already in `events`, with
-    those specific categories), and — for events still unresolved — the Show
-    Manager DETAIL page's full event name (via `_sm_module.fetch_event_detail`).
-    Events with no confirmation are LEFT combined — we never guess. Mutates
-    `events` in place; returns the count reclassified.
+    those specific categories), the TRDC NSW tracking-club calendar
+    (`trdc_signals`, whose columns/labels distinguish the two), and — for events
+    still unresolved — the Show Manager DETAIL page's full event name (via
+    `_sm_module.fetch_event_detail`). Events with no confirmation are LEFT
+    combined — we never guess. Mutates `events` in place; returns the count
+    reclassified.
     """
     COMBINED = "Tracking / Track & Search"
     SPECIFIC = {"Tracking", "Track & Search"}
@@ -1890,6 +1899,13 @@ def _disambiguate_nsw_tracking(events, sm_listings, _sm_module=None):
             signals.append(("NSW", e.get("start"),
                             norm_club(e.get("club") or e.get("title")),
                             e["category"]))
+    # TRDC NSW tracking-club calendar: its columns/labels distinguish Tracking
+    # from Track & Search. Each signal is (date, club, discipline). All are NSW.
+    for s in trdc_signals or []:
+        disc = s.get("discipline")
+        if disc in SPECIFIC:
+            signals.append(("NSW", s.get("date"),
+                            norm_club(s.get("club")), disc))
 
     def find_signal(region, date_iso, club_tokens):
         best = None
@@ -2467,6 +2483,17 @@ def build_year():
             unique.append(e)
 
     # --- Entry-status cross-check --------------------------------------------
+    # Load the TRDC NSW tracking-club calendar once (fail-safe []); it
+    # distinguishes Tracking from Track & Search and feeds the NSW disambiguation
+    # below regardless of whether Show Manager is available this run.
+    trdc_signals = []
+    if HAVE_TRDC:
+        try:
+            trdc_signals = nsw_tracking_club.parse_trdc_calendar(YEAR)
+        except Exception as e:
+            print(f"[trdc] load failed (skipping): {e}", file=sys.stderr)
+            trdc_signals = []
+
     # Scrape Show Manager (reliable, verifiable) and annotate each event with a
     # status + verification level. Never claims open/closed unless confirmed.
     if HAVE_SM and HAVE_MATCHER:
@@ -2474,9 +2501,11 @@ def build_year():
             sm_listings = show_manager.scrape_show_manager(YEAR)
             # Disambiguate NSW's combined "Tracking / Track & Search" events into
             # their specific discipline where a distinguishing source (Show
-            # Manager listing or Top Dog event) confirms which one it is. Events
-            # with no such confirmation stay combined (we don't guess).
-            _disambiguate_nsw_tracking(unique, sm_listings, _sm_module=show_manager)
+            # Manager listing, Top Dog event, or the TRDC club calendar) confirms
+            # which one it is. Events with no such confirmation stay combined.
+            _disambiguate_nsw_tracking(unique, sm_listings,
+                                       _sm_module=show_manager,
+                                       trdc_signals=trdc_signals)
             matcher.match_events(unique, sm_listings)
             # Fill gaps: any Show Manager listing in our regions that no
             # governing-body event matched becomes its own event (per the
@@ -2559,6 +2588,12 @@ def build_year():
                         e2["status_label"] = "Approved (unverified)"
                     e2["verified"] = False
     else:
+        # No Show Manager this run, but TRDC can still split NSW Tracking/T&S.
+        try:
+            _disambiguate_nsw_tracking(unique, [], _sm_module=None,
+                                       trdc_signals=trdc_signals)
+        except Exception as e:
+            print(f"[nsw-disambig] TRDC-only pass failed: {e}", file=sys.stderr)
         for e2 in unique:
             e2.setdefault("status", "unknown")
             e2.setdefault("status_label", "")
