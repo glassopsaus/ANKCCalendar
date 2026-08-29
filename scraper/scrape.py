@@ -337,6 +337,27 @@ _RE_STATUS_MAP = {
     "entry by ballot application only": "listed",
 }
 
+
+def _re_status_from_text(text):
+    """Map a Ready Entries status string to our internal key, robust to wording
+    variants. Exact map first, then substring heuristics so 'Open for Entry',
+    'Entries Open', 'OPEN' all -> open; 'Closed'/'entries closed' -> closed;
+    'not yet open'/'coming soon'/'ballot' -> listed. Returns None if unknown."""
+    low = (text or "").strip().lower()
+    if not low:
+        return None
+    if low in _RE_STATUS_MAP:
+        return _RE_STATUS_MAP[low]
+    # Order matters: check "not yet open" / "closed" before bare "open".
+    if "not yet open" in low or "coming soon" in low or "ballot" in low \
+            or "not open" in low:
+        return "listed"
+    if "closed" in low or "entries close" in low:
+        return "closed"
+    if "open" in low:
+        return "open"
+    return None
+
 # Ready Entries per-event URL format. CONFIRMED against the live site: the
 # public per-event page is /view-event-group/<_id>, where <_id> is the Bubble
 # object _id we capture (e.g. .../view-event-group/1781001701749x417358568994897900).
@@ -416,9 +437,13 @@ def parse_readyentries(source):
         if not discipline:
             continue
 
-        # Entry status from Ready Entries' own field.
-        status_key = _RE_STATUS_MAP.get(
-            str(r.get("entry_status_text") or "").strip().lower())
+        # Entry status from Ready Entries' own field(s). Two fields can carry it
+        # ("entry_status_text" and "group_entry_status_option_event_entry_status");
+        # read whichever is populated and match by substring so wording variants
+        # ("Open for Entry", "Entries Open", "OPEN") all resolve.
+        _raw_status = (str(r.get("entry_status_text") or "").strip()
+                       or str(r.get("group_entry_status_option_event_entry_status") or "").strip())
+        status_key = _re_status_from_text(_raw_status)
         cancelled = bool(r.get("event_group_cancelled__boolean"))
         closes = _re_epoch_to_iso(r.get("entries_close_date"))
 
@@ -456,6 +481,11 @@ def parse_readyentries(source):
             ev["closes"] = closes
         if status_key:
             ev["status"] = status_key
+            # Preserve Ready Entries' own entry-state verdict in a dedicated
+            # field so the trust model can honor it (the generic `status` gets
+            # recomputed later, and merges may move it around). Ready Entries is
+            # a real entry platform, so its open/closed is authoritative.
+            ev["ep_status"] = status_key
         events.append(ev)
 
     from collections import Counter
@@ -2454,6 +2484,11 @@ def build_year():
                     # Preserve a Top Dog "enterable" flag from either copy.
                     if e.get("topdog_open"):
                         k["topdog_open"] = True
+                    # Preserve an entry-platform's own status verdict (Ready
+                    # Entries / Ozentries) from either copy, so the trust model
+                    # can honor it. Prefer a concrete open/closed over nothing.
+                    if e.get("ep_status") and not k.get("ep_status"):
+                        k["ep_status"] = e["ep_status"]
                     # Keep the fuller date span (sources may disagree on whether
                     # a weekend trial is 1 or 2 days; show the longer end).
                     if (e.get("end") or "") > (k.get("end") or ""):
@@ -2622,7 +2657,8 @@ def build_year():
     #                      Dog's UPCOMING section (topdog_open=True).
     # "Approved" now strictly means: on a governing (ANKC) source only, no
     # entry platform, not otherwise corroborated.
-    ENTRY_PLATFORMS = {"Show Manager", "Dogz Online", "Top Dog Events"}
+    ENTRY_PLATFORMS = {"Show Manager", "Dogz Online", "Top Dog Events",
+                       "Ready Entries", "Ozentries"}
     today = dt.date.today()
 
     def _closes_passed(ev):
@@ -2645,6 +2681,11 @@ def build_year():
         sm_closed = (e2.get("status") == "closed")
         sm_cancelled = (e2.get("status") == "cancelled") or e2.get("cancelled")
         topdog_open = bool(e2.get("topdog_open"))
+        # An entry platform's own captured verdict (Ready Entries / Ozentries),
+        # which the generic recompute below would otherwise ignore.
+        ep_status = e2.get("ep_status")
+        ep_open = (ep_status == "open")
+        ep_closed = (ep_status == "closed")
         closes_passed = _closes_passed(e2)
 
         # Entry link: the "Enter / details" button should point where you can
@@ -2667,7 +2708,7 @@ def build_year():
         # ---- open (enterable) ----  distinct from verified
         # A source may be slow to flip open->closed, so if we KNOW the closing
         # date has passed, the event is not open regardless of the source verdict.
-        e2["open_now"] = (sm_open or topdog_open) and not sm_cancelled \
+        e2["open_now"] = (sm_open or topdog_open or ep_open) and not sm_cancelled \
             and not closes_passed
 
         # ---- headline status + label ----
@@ -2677,8 +2718,8 @@ def build_year():
         elif e2["open_now"]:
             e2["status"] = "open"
             e2["status_label"] = "Open" + (" (verified)" if e2["verified"] else "")
-        elif sm_closed or closes_passed:
-            # Either the source said closed, OR we know the closing date passed.
+        elif sm_closed or ep_closed or closes_passed:
+            # Either a source said closed, OR we know the closing date passed.
             e2["status"] = "closed"
             e2["status_label"] = "Entries closed"
         elif on_entry_platform:
