@@ -58,6 +58,12 @@ try:
 except Exception:
     HAVE_BS4 = False
 
+try:
+    from playwright.sync_api import sync_playwright
+    HAVE_PLAYWRIGHT = True
+except Exception:
+    HAVE_PLAYWRIGHT = False
+
 HEADERS = {"User-Agent": "ANKCEventCheck/1.0 (+https://github.com/glassopsaus/ANKCCalendar)"}
 TIMEOUT = 20
 POLITE_DELAY_SEC = 1.0  # be a good citizen between external requests
@@ -82,19 +88,35 @@ _EMAIL_RE = re.compile(r'[A-Za-z0-9._%+-]+@([A-Za-z0-9.-]+\.[A-Za-z]{2,})')
 #   name, directory_url, (optional) link_pattern to keep only club links.
 # ---------------------------------------------------------------------------
 DIRECTORIES = [
+    # VIC: CONFIRMED — Name/Phone/Email table, sites derived from own-domain emails.
     {"state": "VIC", "url": "https://dogsvictoria.org.au/clubs/find-a-club/"},
-    {"state": "NSW", "url": "https://www.dogsnsw.org.au/clubs/"},
-    {"state": "QLD", "url": "https://dogsqueensland.org.au/clubs/"},
-    {"state": "SA",  "url": "https://www.dogssa.com.au/clubs.html"},
-    {"state": "WA",  "url": "https://www.dogswest.com/"},
+    # QLD: real affiliated-club listing pages (contact + some website/email).
+    # The "all affiliated" page aggregates conformation + dog-sports clubs.
+    {"state": "QLD", "url": "https://dogsqueensland.org.au/clubs/all-affiliated-clubs/"},
+    # QLD dog-sports clubs specifically (obedience/agility/tracking) — richer in
+    # own-domain sites; scanned as a second QLD entry (reported as QLD).
+    {"state": "QLD", "url": "https://dogsqueensland.org.au/clubs/all-affiliated-clubs/affiliated-dog-sports-clubs/"},
+    # SA: correct URL (user-confirmed). Dogs SA runs the same "Famous Digital"
+    # CMS as VIC, so the find-a-club format MAY be a VIC-like Name/Phone/Email
+    # table — but this page has NOT been fetched/confirmed. If the run shows a
+    # low/zero SA club count, the format differs and needs per-state tuning.
+    {"state": "SA",  "url": "https://www.dogssa.com.au/Clubs/find-a-club"},
+    # WA: DogsWest old ASP site — the clubs index links to one detail page per
+    # club, and the club's real website/email is on that detail page. So WA needs
+    # a two-level crawl (index → each detail page). Flagged two_level below.
+    {"state": "WA",  "url": "https://www.dogswest.com/dogswest/Clubs-Agility_Obedience__Training_Clubs.htm", "two_level": "wa"},
+    # NSW: the find-a-club list is JavaScript-rendered ("Loading clubs..."), so
+    # it needs a headless browser. We capture the club-list JSON the page fetches.
+    {"state": "NSW", "url": "https://www.dogsnsw.org.au/clubs/find-a-club/", "js": True},
+    # TAS / ACT / NT: small bodies; best-available landing pages. Likely thin.
     {"state": "TAS", "url": "https://tasdogs.com/clubs/"},
     {"state": "ACT", "url": "https://dogsact.org.au/clubs/"},
-    {"state": "NT",  "url": "https://www.dogsnt.com.au/"},
+    {"state": "NT",  "url": "https://www.dogsnt.com.au/clubs/affiliated-clubs/"},
 ]
-# NOTE: only VIC's directory shape is confirmed (a Name/Phone/Email table with
-# NO website links — sites are derived from own-domain emails). Other states'
-# URLs are best-guess; a first run will show which return a club list vs which
-# are JS-driven (logged as "unreachable/empty"). Fix per state as needed.
+# Confidence: VIC confirmed; QLD pages are real listings; SA/WA are the correct
+# pages but their markup is unconfirmed (extraction may need tuning); NSW/TAS/
+# ACT/NT have no clean state-body club list, so expect little. A run will show
+# per-state club counts; refine any that come back low/empty.
 
 # ---- Feed-signal detectors -------------------------------------------------
 _ICS_RE = re.compile(r'(webcal://[^\s"\'<>]+|https?://[^\s"\'<>]+\.ics(?:\?[^\s"\'<>]*)?)', re.I)
@@ -118,6 +140,175 @@ def _get(url):
     except Exception:
         return None
     return None
+
+
+def _get_js(url, wait_seconds=12):
+    """For JavaScript-rendered directories (e.g. Dogs NSW 'Loading clubs...'),
+    load the page in a headless browser and BOTH (a) capture any JSON responses
+    the page fetches (the club list usually arrives via XHR) and (b) return the
+    fully rendered HTML. Returns (rendered_html|None, [json_objects]).
+    Never raises; returns (None, []) if Playwright is unavailable."""
+    if not HAVE_PLAYWRIGHT:
+        print("[discover]   (JS page needs Playwright — not installed; skipping)",
+              file=sys.stderr)
+        return None, []
+    captured = []
+
+    def _on_response(resp):
+        try:
+            ct = (resp.headers or {}).get("content-type", "")
+            if "json" not in ct.lower():
+                return
+            body = resp.json()
+            captured.append(body)
+        except Exception:
+            return
+
+    html = None
+    try:
+        with sync_playwright() as p:
+            try:
+                browser = p.chromium.launch(headless=True)
+            except Exception as e:
+                print(f"[discover]   Chromium launch failed: {e}", file=sys.stderr)
+                return None, []
+            ctx = browser.new_context(user_agent=HEADERS["User-Agent"])
+            page = ctx.new_page()
+            page.on("response", _on_response)
+            try:
+                page.goto(url, wait_until="networkidle", timeout=45000)
+            except Exception:
+                pass
+            page.wait_for_timeout(wait_seconds * 1000)
+            try:
+                html = page.content()
+            except Exception:
+                html = None
+            browser.close()
+    except Exception as e:
+        print(f"[discover]   JS fetch error: {e}", file=sys.stderr)
+        return html, captured
+    return html, captured
+
+
+def _clubs_from_json(objs):
+    """Scan captured JSON structures for club records and pull (name, website,
+    email). Very tolerant: walks any nested dict/list, treating a dict as a club
+    if it has a name-like key plus a website/email-like key. Returns a list of
+    {name, url|None, email_domain|None, candidate_sites[]}."""
+    out = []
+    seen = set()
+    NAME_KEYS = ("name", "clubname", "club_name", "title", "clubtitle")
+    WEB_KEYS = ("website", "web", "url", "weburl", "website_url", "homepage")
+    EMAIL_KEYS = ("email", "emailaddress", "email_address", "contactemail")
+
+    def _first(d, keys):
+        for k in d:
+            if k.lower() in keys and d[k]:
+                return str(d[k]).strip()
+        return None
+
+    def _walk(node):
+        if isinstance(node, dict):
+            name = _first(node, NAME_KEYS)
+            web = _first(node, WEB_KEYS)
+            email = _first(node, EMAIL_KEYS)
+            if name and (web or email) and len(name) >= 4:
+                dom = None
+                if email:
+                    mm = _EMAIL_RE.search(email)
+                    if mm:
+                        dom = mm.group(1).lower()
+                cands = []
+                if web:
+                    w = web if web.startswith("http") else "https://" + web
+                    host = urlparse(w).netloc.lower()
+                    if host and "facebook" not in host and "instagram" not in host:
+                        cands.append(w)
+                cands += _candidate_site_from_email(dom)
+                key = name.lower()
+                if cands and key not in seen:
+                    seen.add(key)
+                    out.append({"name": name, "url": (cands[0] if cands else None),
+                                "email_domain": dom, "candidate_sites": cands})
+            for v in node.values():
+                _walk(v)
+        elif isinstance(node, list):
+            for v in node:
+                _walk(v)
+
+    for o in objs:
+        _walk(o)
+    return out
+
+
+def _wa_detail_links(index_html, base_url):
+    """WA (DogsWest) lists clubs on an index page that links to one detail page
+    per club: '...Clubs-Agility_Obedience__Training_Clubs-<Club_Name>.htm'.
+    Return [(club_name, detail_url)] for those child links only."""
+    if not (HAVE_BS4 and index_html):
+        return []
+    soup = BeautifulSoup(index_html, "html.parser")
+    out = []
+    seen = set()
+    # The index URL's own filename, e.g. 'Clubs-Agility_Obedience__Training_Clubs'
+    idx_stem = urlparse(base_url).path.rsplit("/", 1)[-1].replace(".htm", "")
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        full = urljoin(base_url, href)
+        path = urlparse(full).path.rsplit("/", 1)[-1]
+        # A club detail page extends the index stem with '-<ClubName>.htm'
+        if path.startswith(idx_stem + "-") and path.endswith(".htm"):
+            name = a.get_text(" ", strip=True)
+            if not name or len(name) < 4:
+                # derive a name from the slug if link text is empty
+                name = path[len(idx_stem) + 1:-4].replace("_", " ").strip()
+            key = full.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            out.append((name, full))
+    return out
+
+
+def _wa_club_from_detail(name, detail_html, detail_url):
+    """Extract a club's real website/email from a DogsWest detail page. The page
+    is mostly DogsWest nav; the club's own site is the surviving non-dogswest,
+    non-social external link. Returns a club dict or None."""
+    if not (HAVE_BS4 and detail_html):
+        return None
+    soup = BeautifulSoup(detail_html, "html.parser")
+    website = None
+    email_dom = None
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if href.startswith("mailto:"):
+            mm = _EMAIL_RE.search(href)
+            if mm and not email_dom:
+                email_dom = mm.group(1).lower()
+            continue
+        h = urlparse(urljoin(detail_url, href)).netloc.lower()
+        if not h:
+            continue
+        # Skip DogsWest itself, socials, google, sponsors.
+        if any(s in h for s in ("dogswest", "facebook", "instagram", "google",
+                                "youtube", "twitter", "royalcanin")):
+            continue
+        if not website:
+            website = urljoin(detail_url, href)
+    # email may be plain text
+    if not email_dom:
+        mm = _EMAIL_RE.search(soup.get_text(" ", strip=True))
+        if mm:
+            email_dom = mm.group(1).lower()
+    cands = []
+    if website:
+        cands.append(website)
+    cands += _candidate_site_from_email(email_dom)
+    if not cands:
+        return None
+    return {"name": name, "url": website, "email_domain": email_dom,
+            "candidate_sites": cands}
 
 
 def _candidate_site_from_email(email_host):
@@ -151,6 +342,74 @@ def extract_clubs(directory_html, base_url):
                           r"canine|dog|training|breed|retriev|terrier|spaniel|"
                           r"shepherd|hound|gundog|herding|scent", re.I)
 
+    # --- Shape (c): club NAME anchors (bold headings OR h2/h3/h4) followed by
+    # "Website:"/"Email:" links, within the same block. Covers Dogs Queensland
+    # (<strong> names) and Dogs NT (<h2> names). We take the club name and prefer
+    # its explicit Website link; else derive from its email domain. Handled
+    # BEFORE the generic-link shape so the real club name wins.
+    for tag in soup.find_all(["strong", "b", "h2", "h3", "h4"]):
+        name = tag.get_text(" ", strip=True)
+        # strip a trailing "(Obedience/Agility Club)" descriptor from the name
+        name_clean = re.sub(r"\s*\([^)]*\)\s*$", "", name).strip()
+        if not name_clean or len(name_clean) < 5 or not CLUBWORD.search(name_clean):
+            continue
+        # Collect the links + email that belong to this club. Two layouts:
+        #   (i) name is a heading (NT: <h2>) → scan ONLY following siblings until
+        #       the next heading (that's this club's detail block); do NOT fall
+        #       back to the parent, which holds every club and would leak links.
+        #   (ii) name inside a block (QLD: <strong> in a <p>) → scan the parent.
+        links = []
+        texts = []
+        if tag.name in ("h2", "h3", "h4"):
+            for sib in tag.find_next_siblings():
+                if getattr(sib, "name", None) in ("h2", "h3", "h4"):
+                    break
+                if hasattr(sib, "find_all"):
+                    links.extend(sib.find_all("a", href=True))
+                    texts.append(sib.get_text(" ", strip=True))
+        else:
+            # inline name (strong/b): scan its immediate block only
+            block = tag.find_parent(["p", "li", "div", "td"])
+            if block is not None:
+                links.extend(block.find_all("a", href=True))
+                texts.append(block.get_text(" ", strip=True))
+
+        website = None
+        email_dom = None
+        for a in links:
+            href = a["href"].strip()
+            if href.startswith("mailto:"):
+                mm = _EMAIL_RE.search(href)
+                if mm and not email_dom:
+                    email_dom = mm.group(1).lower()
+                continue
+            h = urlparse(urljoin(base_url, href)).netloc.lower()
+            if h and not any(s in h for s in SKIP_HOSTS) and not website:
+                website = urljoin(base_url, href)
+        if not email_dom:
+            mm = _EMAIL_RE.search(" ".join(texts))
+            if mm:
+                email_dom = mm.group(1).lower()
+        cands = []
+        if website:
+            cands.append(website)
+        cands += _candidate_site_from_email(email_dom)
+        if not cands:
+            continue
+        key = ("blk", name_clean.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append({"name": name_clean, "url": website,
+                    "email_domain": email_dom, "candidate_sites": cands})
+
+    # Candidate sites already captured by shape (c), so shape (a) doesn't
+    # re-add them under a URL-as-name.
+    captured_sites = set()
+    for rec in out:
+        for s in rec["candidate_sites"]:
+            captured_sites.add(urlparse(s).netloc.lower().replace("www.", ""))
+
     # --- Shape (a): explicit external links that look like club sites --------
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
@@ -161,8 +420,14 @@ def extract_clubs(directory_html, base_url):
         host = urlparse(full).netloc.lower()
         if not host or any(s in host for s in SKIP_HOSTS):
             continue
+        # Skip if a club block (shape c) already captured this site.
+        if host.replace("www.", "") in captured_sites:
+            continue
+        # Require the LINK TEXT to look like a club name — not a bare URL/"Website".
         if not text or len(text) < 4 or not CLUBWORD.search(text):
             continue
+        if re.match(r"^\s*(https?://|www\.)", text, re.I) or "." in text.split()[0]:
+            continue  # link text is a URL, not a club name
         key = ("link", text.lower())
         if key in seen:
             continue
@@ -243,24 +508,72 @@ def probe_club_site(url):
 def discover(directories, limit_per_state=None, delay=POLITE_DELAY_SEC):
     """Run the full discovery pass. Returns a list of club findings."""
     findings = []
+    probed_sites = set()  # candidate URLs already probed (cross-directory dedup)
     for d in directories:
         state, dir_url = d["state"], d["url"]
-        print(f"[discover] {state}: fetching directory {dir_url}", file=sys.stderr)
-        dir_html = _get(dir_url)
-        if not dir_html:
-            print(f"[discover] {state}: directory unreachable/empty "
-                  f"(may be JS-driven — needs manual URL)", file=sys.stderr)
-            continue
-        clubs = extract_clubs(dir_html, dir_url)
+        is_js = bool(d.get("js"))
+        two_level = d.get("two_level")
+        print(f"[discover] {state}: fetching directory {dir_url}"
+              f"{' (JS/headless)' if is_js else ''}"
+              f"{' (two-level)' if two_level else ''}", file=sys.stderr)
+        if two_level == "wa":
+            idx_html = _get(dir_url)
+            if not idx_html:
+                print(f"[discover] {state}: index unreachable/empty",
+                      file=sys.stderr)
+                continue
+            detail_links = _wa_detail_links(idx_html, dir_url)
+            print(f"[discover] {state}: {len(detail_links)} club detail pages; "
+                  f"fetching each…", file=sys.stderr)
+            clubs = []
+            cap = limit_per_state or len(detail_links)
+            for cname, curl in detail_links[:cap]:
+                time.sleep(delay)
+                dhtml = _get(curl)
+                rec = _wa_club_from_detail(cname, dhtml, curl) if dhtml else None
+                if rec:
+                    clubs.append(rec)
+            if not clubs:
+                print(f"[discover] {state}: no club sites found on detail pages",
+                      file=sys.stderr)
+                continue
+        elif is_js:
+            dir_html, json_objs = _get_js(dir_url)
+            clubs = _clubs_from_json(json_objs)
+            # If JSON gave nothing, fall back to the rendered DOM.
+            if not clubs and dir_html:
+                clubs = extract_clubs(dir_html, dir_url)
+            if not clubs:
+                print(f"[discover] {state}: no clubs captured from JS page "
+                      f"(no JSON club list found; may need endpoint tuning)",
+                      file=sys.stderr)
+                continue
+        else:
+            dir_html = _get(dir_url)
+            if not dir_html:
+                print(f"[discover] {state}: directory unreachable/empty "
+                      f"(may be JS-driven — needs manual URL)", file=sys.stderr)
+                continue
+            clubs = extract_clubs(dir_html, dir_url)
         n_with_site = sum(1 for c in clubs if c["candidate_sites"])
         print(f"[discover] {state}: {len(clubs)} clubs "
               f"({n_with_site} with a derivable website; the rest use free-host "
               f"email and can't be probed)", file=sys.stderr)
-        # Only probe clubs we can actually reach (have candidate sites).
-        probeable = [c for c in clubs if c["candidate_sites"]]
+        # Only probe clubs we can actually reach (have candidate sites), and
+        # skip any whose candidate site we've already probed in another entry
+        # (e.g. a club listed on both QLD pages).
+        probeable = []
+        for c in clubs:
+            if not c["candidate_sites"]:
+                continue
+            if any(s in probed_sites for s in c["candidate_sites"]):
+                continue
+            probeable.append(c)
         if limit_per_state:
             probeable = probeable[:limit_per_state]
         for c in probeable:
+            for s in c["candidate_sites"]:
+                probed_sites.add(s)
             probe = {"reachable": False, "ics": [], "gcal": [],
                      "the_events_calendar": False, "schedule_pdfs": [], "score": 0}
             resolved = None
