@@ -28,14 +28,21 @@ jobs:
 
       - name: Scrape events
         env:
-          YEAR: "2026"
           # Fetch venue addresses from Show Manager event Details pages, spread
           # over a week (1/7 of events per day) with a delay between requests so
           # we never surge traffic on Show Manager. See scrape_show_manager().
           SM_FETCH_DETAILS: "1"
           SM_DETAIL_CYCLE_DAYS: "7"
           SM_DETAIL_DELAY_SEC: "0.7"
-        run: python scraper/scrape.py
+        run: |
+          # Derive the year at runtime so the calendar's year window rolls over
+          # automatically (no annual manual edit). This is an Australian calendar
+          # and the daily cron (16:00 UTC) fires in Australian early morning, so
+          # at the New-Year boundary Australian local time is already the new
+          # year while UTC may still be the old one — use the Australian date.
+          export YEAR="$(TZ='Australia/Sydney' date +%Y)"
+          echo "Scraping for YEAR=$YEAR (Australian local)"
+          python scraper/scrape.py
 
       - name: Commit updated event data
         run: |
