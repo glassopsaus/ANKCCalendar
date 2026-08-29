@@ -32,7 +32,10 @@ import time
 VIEW_EVENTS_URL = "https://readyentries.com/view-events"
 NAV_TIMEOUT_MS = 45000
 # How long to wait (seconds) after load for the event data calls to arrive.
-COLLECT_SECONDS = 12
+# Generous, because Bubble loads the list in chunks with pauses; the loop stops
+# early once the captured count is stable, so this is an upper bound, not a fixed
+# wait.
+COLLECT_SECONDS = 30
 # Bubble returns event objects with _type like "custom.event".
 EVENT_TYPE_HINT = "event"
 
@@ -134,20 +137,44 @@ def get_readyentries_events():
             except PWTimeout:
                 pass  # data calls may still have landed; fall through
 
-            # Give lazy/secondary data calls time to arrive, and nudge the page
-            # (scroll) in case the list lazy-loads more on scroll.
+            # Give lazy/secondary data calls time to arrive. Bubble loads the
+            # list in chunks and may pause between them, so we do NOT stop at the
+            # first plateau (that was cutting capture short and missing events).
+            # We keep scrolling and only stop once the count has been stable for
+            # several consecutive cycles, or the (generous) deadline passes.
             deadline = time.time() + COLLECT_SECONDS
             last_count = -1
+            stable_cycles = 0
             while time.time() < deadline:
                 page.wait_for_timeout(1500)
+                # Scroll the window AND any inner scroll container to trigger
+                # lazy loading of further list pages.
                 try:
-                    page.mouse.wheel(0, 4000)
+                    page.mouse.wheel(0, 6000)
+                    page.keyboard.press("End")
+                except Exception:
+                    pass
+                # Try to click a "load more" / "next" / pagination control if one
+                # is present (Bubble repeating groups sometimes paginate).
+                try:
+                    for sel in ("text=/load more/i", "text=/show more/i",
+                                "text=/next/i", "[aria-label*='next' i]"):
+                        el = page.query_selector(sel)
+                        if el and el.is_visible():
+                            el.click(timeout=1000)
+                            page.wait_for_timeout(800)
+                            break
                 except Exception:
                     pass
                 if len(collected) == last_count:
-                    # no growth for a cycle after we've got something → stop early
-                    if collected:
+                    stable_cycles += 1
+                    # Require the count to hold steady for 3 cycles (~4.5s+) and
+                    # only after we've actually collected something, so a mid-load
+                    # pause never ends capture early.
+                    if collected and stable_cycles >= 3:
                         break
+                else:
+                    stable_cycles = 0
                 last_count = len(collected)
 
             browser.close()
