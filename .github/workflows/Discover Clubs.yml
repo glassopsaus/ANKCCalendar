@@ -7,13 +7,13 @@ on:
   workflow_dispatch:
     inputs:
       state:
-        description: "State to scan (VIC, NSW, QLD, SA, WA, TAS, ACT, NT). Leave blank for ALL states."
+        description: "State to scan (VIC, NSW, QLD, SA, WA, TAS, ACT, NT). LEAVE BLANK to scan ALL states (default)."
         required: false
-        default: "VIC"
+        default: ""
       limit:
-        description: "Max clubs per state to probe (blank = no limit). Use a small number like 20 for a quick trial."
+        description: "Max clubs per state. LEAVE BLANK for no limit / full scan (default). Type e.g. 20 only for a quick trial."
         required: false
-        default: "20"
+        default: ""
       delay:
         description: "Seconds to wait between external requests (be polite)."
         required: false
