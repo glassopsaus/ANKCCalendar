@@ -345,12 +345,25 @@ _RE_LISTING_URL = "https://readyentries.com/view-events"
 
 
 def _re_epoch_to_iso(v):
-    """Ready Entries dates are epoch MILLISECONDS (e.g. 1784688076433). Convert
-    to an ISO date, or None."""
+    """Ready Entries dates are epoch MILLISECONDS (e.g. 1784688076433). Bubble
+    stores an event's date as midnight AUSTRALIAN LOCAL time, so that instant is
+    the PREVIOUS day in UTC (e.g. 26 Sep 00:00 AEST = 25 Sep 14:00 UTC). Reading
+    it back with utcfromtimestamp() therefore lands a day EARLY. Convert in the
+    Australia/Sydney zone (AEST/AEDT) so we recover the intended calendar date.
+    Falls back to a +10h nudge if tz data is unavailable."""
     if not isinstance(v, (int, float)):
         return None
     try:
-        return dt.datetime.utcfromtimestamp(v / 1000.0).date().isoformat()
+        ts = v / 1000.0
+        try:
+            from zoneinfo import ZoneInfo
+            return dt.datetime.fromtimestamp(
+                ts, ZoneInfo("Australia/Sydney")).date().isoformat()
+        except Exception:
+            # No tz database: approximate AEST (UTC+10). This recovers the local
+            # calendar date for the midnight-local timestamps Bubble stores.
+            return (dt.datetime.utcfromtimestamp(ts)
+                    + dt.timedelta(hours=10)).date().isoformat()
     except (ValueError, OverflowError, OSError):
         return None
 
