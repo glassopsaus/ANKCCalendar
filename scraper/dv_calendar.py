@@ -68,7 +68,7 @@ _DATE_RE = re.compile(
     r"(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})", re.I)
 
 # Track & Search must be checked BEFORE plain tracking.
-_TS_RE = re.compile(r"(track\s*&\s*search|t\s*&\s*search|t&search)", re.I)
+_TS_RE = re.compile(r"(track\s*(?:&|and)\s*search|t\s*(?:&|and)\s*search|t&search)", re.I)
 _TRACK_RE = re.compile(r"TRACKING\b")            # uppercase discipline tag
 _TRACK_TRAIL_RE = re.compile(r"tracking\s*$", re.I)  # or trailing word
 
@@ -78,7 +78,7 @@ _TRACK_TRAIL_RE = re.compile(r"tracking\s*$", re.I)  # or trailing word
 # DV calendar is full of non-event rows (TRAINING/MEETING/EVENT/BREED SURVEY/
 # BUMP IN/NO BOOKINGS/Private Event/exams) which must NOT become events.
 _DV_DISCIPLINE_RULES = [
-    (re.compile(r"track\s*&?\s*search|t\s*&\s*search|t&search|\bt\s*&\s*s\b", re.I), "Track & Search"),
+    (re.compile(r"track\s*(?:&|and)?\s*search|t\s*(?:&|and)\s*search|t&search|\bt\s*&\s*s\b", re.I), "Track & Search"),
     (re.compile(r"\btracking\b", re.I), "Tracking"),
     (re.compile(r"scent", re.I), "Scent Work"),
     (re.compile(r"rally|o&r|o\s*&\s*r", re.I), "Rally Obedience"),
