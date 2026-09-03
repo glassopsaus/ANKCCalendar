@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-02T19:20:21+00:00",
+  "generated": "2026-09-03T19:11:43+00:00",
   "year": 2027,
-  "count": 628,
+  "count": 633,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -108,6 +108,28 @@
       "open_now": false,
       "is_past": false,
       "club": "RCH Fundraiser - Twilight"
+    },
+    {
+      "title": "RCH Fundraising - DV SprintDog Committee",
+      "start": "2027-01-02",
+      "end": "2027-01-02",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Sprint",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "RCH Fundraising - DV SprintDog Committee"
     },
     {
       "title": "Poodle Club of Victoria Inc",
@@ -1110,6 +1132,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Rochester"
+    },
+    {
+      "title": "Ballaarat Dog Obedience Club Vic Inc",
+      "start": "2027-02-27",
+      "end": "2027-02-27",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Trick Dog",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Ballaarat Dog Obedience Club Vic Inc"
     },
     {
       "title": "Berwick Agrictlural",
@@ -3754,6 +3798,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Toy Poodle Society of Victoria Inc"
+    },
+    {
+      "title": "Championship Show (All Breeds) Canine Stewards Assoc \u2013 Conformation",
+      "club": "Championship Show (All Breeds) Canine Stewards Assoc \u2013 Conformation",
+      "start": "2027-05-07",
+      "end": "2027-05-07",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Conformation",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Shepparton & District Kennel Club Inc",
@@ -9535,6 +9601,30 @@
       "is_past": false
     },
     {
+      "title": "Rottweiler Club of Vic Inc",
+      "start": "2027-08-22",
+      "end": "2027-08-22",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Sprint",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "rottweiler",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Rottweiler Club of Vic Inc"
+    },
+    {
       "title": "Samoyed Club of Vic Inc",
       "start": "2027-08-22",
       "end": "2027-08-22",
@@ -13290,6 +13380,28 @@
       "club": "Bass Valley Kennel Club"
     },
     {
+      "title": "Frankston & Penninsula Kennel Club",
+      "start": "2027-11-19",
+      "end": "2027-11-20",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Sprint",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Frankston & Penninsula Kennel Club"
+    },
+    {
       "title": "Agility Trials x 2 Albany All Breeds DC",
       "club": "Agility Trials x 2 Albany All Breeds DC",
       "start": "2027-11-20",
@@ -14048,8 +14160,8 @@
     },
     {
       "title": "Lancefield Kennel Club Inc AM",
-      "start": "2027-12-28",
-      "end": "2027-12-28",
+      "start": "2027-12-27",
+      "end": "2027-12-27",
       "location": "Victoria",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Conformation",
@@ -14070,8 +14182,8 @@
     },
     {
       "title": "Central Highlands Kennel Club Inc AM",
-      "start": "2027-12-29",
-      "end": "2027-12-29",
+      "start": "2027-12-28",
+      "end": "2027-12-28",
       "location": "Victoria",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Conformation",
@@ -14117,7 +14229,7 @@
       "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
       "start": "2027-06-12",
       "end": "2027-06-12",
-      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "category": "Obedience",
       "region": "NSW",
@@ -14132,8 +14244,8 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
-      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "schedule_url": null,
+      "address": null,
       "open_now": true,
       "is_past": false
     },
