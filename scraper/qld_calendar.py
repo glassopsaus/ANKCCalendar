@@ -46,7 +46,13 @@ except Exception:
     HAVE_PDFPLUMBER = False
 
 QLD_DATES_PAGE = "https://dogsqueensland.org.au/events/showtrial-dates/"
-QLD_FALLBACK_PDF = ("https://dogsqueensland.org.au/media/55093/"
+# Hardcoded last-resort fallback. Points at a version VERIFIED to parse cleanly
+# with no wrong-year evidence (media/54908, "Updated 4/9/2025"). The site
+# sometimes re-uploads the calendar under a NEW media number that references
+# other years (draft/multi-year re-uploads), which the year-guard rejects; when
+# that happens we fall back through the cache to this known-good file rather than
+# yielding 0 events. Update this only to a version confirmed to parse cleanly.
+QLD_FALLBACK_PDF = ("https://dogsqueensland.org.au/media/54908/"
                     "trial-calendar-2026-master-dogs-qld.pdf")
 QLD_SOURCE_NAME = "Dogs Queensland (trial calendar)"
 QLD_COLOR = "#c0392b"
@@ -367,6 +373,32 @@ def parse_qld_calendar(year, pdf_url=None, pdf_bytes=None):
             print(f"[qld] WARNING: PDF body references other year(s) "
                   f"{sorted(wrong_year_evidence)} - possible wrong file; "
                   f"skipping to avoid mis-dated events", file=sys.stderr)
+            # A DISCOVERED URL that fails this check may be a newer draft/multi-
+            # year re-upload the site now links, while a good calendar still
+            # exists elsewhere. Rather than yield 0 events (which forces a stale
+            # carry-forward), retry with known-good fallbacks: the cached
+            # last-known-good URL first, then the hardcoded verified-clean pin.
+            # Only when we auto-discovered (caller didn't pin pdf_url/pdf_bytes),
+            # to avoid loops.
+            if was_discovered and pdf_url is None:
+                fallbacks = []
+                try:
+                    import pdf_cache
+                    cached = pdf_cache.get_cached_url("qld", year)
+                    if cached:
+                        fallbacks.append(cached)
+                except Exception:
+                    pass
+                fallbacks.append(QLD_FALLBACK_PDF)
+                for fb in fallbacks:
+                    # Skip the URL that just failed, and only try target-year files.
+                    if fb == resolved_url or str(year) not in fb:
+                        continue
+                    print(f"[qld] retrying with known-good fallback: {fb}",
+                          file=sys.stderr)
+                    evs = parse_qld_calendar(year, pdf_url=fb)
+                    if evs:
+                        return evs
             return []
         events = parse_qld_text(text, year)
         if not events:
