@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-16T16:47:04+00:00",
+  "generated": "2026-09-16T19:21:27+00:00",
   "year": 2026,
-  "count": 2842,
+  "count": 2844,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -67036,6 +67036,53 @@
       "address": null,
       "open_now": false,
       "is_past": true
+    },
+    {
+      "title": "Para District \u2013 Scent Work",
+      "club": "Kapunda Harness Racing, Kapunda",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "location": "Kapunda Harness Racing, Kapunda",
+      "url": "https://dogssa.com.au/events/upcoming-events/",
+      "category": "Scent Work",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-14",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "The Pointer Club of SA Inc \u2013 Sprint",
+      "club": "The Pointer Club of SA Inc \u2013 Sprint",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "location": "Williamstown Oval",
+      "url": "https://dogssa.com.au/events/upcoming-events/",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Para District \u2013 Scent Work",
