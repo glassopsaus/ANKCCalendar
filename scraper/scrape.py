@@ -1501,6 +1501,57 @@ _NON_TRIAL_NAME_RE = re.compile(
     re.I)
 
 
+def _topdog_close_date(row_text):
+    """Extract the entry closing date from a Top Dog listing row. Rows carry an
+    explicit 'Entries close <Wed 5th Sep 2026>' string. Returns ISO yyyy-mm-dd
+    or None. This is the authoritative closing signal — far better than assuming
+    every 'Upcoming' event is still enterable (entries usually close days before
+    the event date)."""
+    if not row_text:
+        return None
+    m = re.search(
+        r"entries?\s+close[sd]?\s+(?:on\s+)?"
+        r"(?:mon|tue|wed|thu|fri|sat|sun)?\.?,?\s*"
+        r"(\d{1,2})\s*(?:st|nd|rd|th)?\s+"
+        r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+"
+        r"(\d{4})",
+        row_text, re.I)
+    if not m:
+        return None
+    try:
+        return dt.date(int(m.group(3)), MONTHS[m.group(2).lower()[:3]],
+                       int(m.group(1))).isoformat()
+    except (ValueError, KeyError):
+        return None
+
+
+def _topdog_status_word(row_text, name_text=None):
+    """Top Dog listing rows include an explicit status word ('Open' / 'Closed')
+    positioned right after the date and BEFORE the trial name. Return 'open',
+    'closed', or None.
+
+    IMPORTANT: 'Open' also appears inside trial names (e.g. 'Open Obedience'),
+    so scanning the whole row is unsafe. We therefore look for the status word
+    only in the row text that PRECEDES the trial name. The closing date (parsed
+    separately) is the unambiguous signal; this word is a secondary hint used
+    mainly when no closing date is present."""
+    if not row_text:
+        return None
+    head = row_text
+    if name_text:
+        # Restrict to the segment before the trial name so class words like
+        # "Open Obedience" in the title can't be misread as the status.
+        idx = row_text.find(name_text[:20]) if len(name_text) >= 20 else \
+            row_text.find(name_text)
+        if idx > 0:
+            head = row_text[:idx]
+    if re.search(r"\bclosed\b", head, re.I):
+        return "closed"
+    if re.search(r"\bopen\b", head, re.I):
+        return "open"
+    return None
+
+
 def _topdog_parse_rows(soup, year):
     """Yield event dicts from every qualifying table row on one page."""
     out = []
@@ -1511,6 +1562,10 @@ def _topdog_parse_rows(soup, year):
         date_text = cells[0].get_text(" ", strip=True)
         name_text = cells[1].get_text(" ", strip=True)
         club_text = cells[2].get_text(" ", strip=True)
+        # The WHOLE row also carries the explicit status word ("Open"/"Closed")
+        # and an "Entries close <date>" string, which the first three cells may
+        # not include. Read the full row so we can capture the real entry state.
+        full_row_text = tr.get_text(" ", strip=True)
 
         # Drop non-competition items (raffles, fundraisers, trivia, workshops,
         # fun days, socials) even if Top Dog files them under a discipline —
@@ -1559,6 +1614,9 @@ def _topdog_parse_rows(soup, year):
         else:
             url = "https://www.topdogevents.com.au/trials"
         cancelled = bool(re.search(r"cancel", row_text, re.I))
+        # Authoritative entry-state signals from the row itself.
+        td_closes = _topdog_close_date(full_row_text)
+        td_status = _topdog_status_word(full_row_text, name_text)
 
         for category in disciplines:
             out.append({
@@ -1571,6 +1629,8 @@ def _topdog_parse_rows(soup, year):
                 "cancelled": cancelled,
                 "region": region,
                 "color": REGION_COLOR.get(region),
+                "closes": td_closes,           # entry closing date if the row gave one
+                "td_status_word": td_status,   # 'open'/'closed' from the row, or None
             })
     return out
 
@@ -1603,9 +1663,28 @@ def parse_topdog(source):
                 if key in seen:
                     continue
                 seen.add(key)
-                # An event listed in Top Dog's UPCOMING section has an active
-                # entry link -> entries are open. Past-section events do not.
-                ev["topdog_open"] = enterable
+                # Entry state for a Top Dog event. The UPCOMING tab means the
+                # EVENT is upcoming — NOT that entries are still open (entries
+                # usually close days before). Prefer the row's OWN signals:
+                #   - explicit "Closed" word, or a closing date already passed
+                #     -> entries closed;
+                #   - explicit "Open" word -> open;
+                #   - otherwise fall back to the tab (upcoming ~ open) but only
+                #     if the closing date (when known) hasn't passed.
+                td_word = ev.get("td_status_word")
+                td_closes = ev.get("closes")
+                closes_passed = False
+                if td_closes:
+                    try:
+                        closes_passed = dt.date.fromisoformat(td_closes[:10]) < dt.date.today()
+                    except (ValueError, TypeError):
+                        closes_passed = False
+                if td_word == "closed" or closes_passed:
+                    ev["topdog_open"] = False
+                elif td_word == "open":
+                    ev["topdog_open"] = True
+                else:
+                    ev["topdog_open"] = enterable and not closes_passed
                 events.append(ev)
         print(f"[topdog] browser path kept {len(events)} events "
               f"across {sorted(TOPDOG_REGIONS)} "
@@ -1659,11 +1738,28 @@ def parse_topdog_http(source):
                 page_years.add(int(m.group(3)))
 
             new_here = 0
+            enterable = (section == "upcoming")
             for ev in rows:
                 key = (ev["title"].lower(), ev["start"], ev["region"])
                 if key in seen:
                     continue
                 seen.add(key)
+                # Same entry-state logic as the browser path: prefer the row's
+                # own "Closed"/"Open" word and closing date over the tab.
+                td_word = ev.get("td_status_word")
+                td_closes = ev.get("closes")
+                closes_passed = False
+                if td_closes:
+                    try:
+                        closes_passed = dt.date.fromisoformat(td_closes[:10]) < dt.date.today()
+                    except (ValueError, TypeError):
+                        closes_passed = False
+                if td_word == "closed" or closes_passed:
+                    ev["topdog_open"] = False
+                elif td_word == "open":
+                    ev["topdog_open"] = True
+                else:
+                    ev["topdog_open"] = enterable and not closes_passed
                 events.append(ev)
                 new_here += 1
             print(f"[topdog] {section} p{page}: +{new_here} in-region {YEAR} "
@@ -2681,6 +2777,10 @@ def build_year():
         sm_closed = (e2.get("status") == "closed")
         sm_cancelled = (e2.get("status") == "cancelled") or e2.get("cancelled")
         topdog_open = bool(e2.get("topdog_open"))
+        # Top Dog's own explicit "Closed" verdict from the listing row. Like
+        # Show Manager's sm_closed, this should produce an "Entries closed"
+        # status rather than falling through to "listed".
+        td_closed = (e2.get("td_status_word") == "closed")
         # An entry platform's own captured verdict (Ready Entries / Ozentries),
         # which the generic recompute below would otherwise ignore.
         ep_status = e2.get("ep_status")
@@ -2718,7 +2818,7 @@ def build_year():
         elif e2["open_now"]:
             e2["status"] = "open"
             e2["status_label"] = "Open" + (" (verified)" if e2["verified"] else "")
-        elif sm_closed or ep_closed or closes_passed:
+        elif sm_closed or ep_closed or td_closed or closes_passed:
             # Either a source said closed, OR we know the closing date passed.
             e2["status"] = "closed"
             e2["status_label"] = "Entries closed"
@@ -2836,6 +2936,7 @@ def build_year():
         _derive_club(e)
         e.pop("_link_pool", None)
         e.pop("_alt_text", None)
+        e.pop("td_status_word", None)  # internal Top Dog signal, don't ship it
 
     payload = {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
