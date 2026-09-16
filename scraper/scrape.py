@@ -764,14 +764,28 @@ VICDOG_SLUG_RE = re.compile(r"/events/(\d{8})(?:-(\d{1,2}))?-", re.I)
 # was categorised — we collect every /events/ URL here and let the per-event
 # Labels check (in _vicdog_parse_event_page) decide what's actually tracking.
 VICDOG_LISTING_PAGES = [
-    # The all-discipline "latest updates" feed is the widest net. The former
-    # tracking-only category URLs were leftovers from when vicdog was a
-    # tracking source and are removed — they over-weighted tracking and wasted
-    # fetches. NOTE: this feed does not paginate over plain HTTP (it serves the
-    # same first page for every /page/N/), so vicdog only sees its most recent
-    # page of posts. It therefore acts as a RECENT-events verify/gap-fill layer
-    # for VIC, not a full-year source; the DV PDF remains VIC's comprehensive
-    # feed.
+    # FULL-YEAR (verified): Agility is the ONLY discipline with a dedicated
+    # "Events Calendar" page, and it renders the whole year of events in static
+    # HTML (every event an /events/<YYYYMMDD>-... link, plus a closing-date
+    # table). Confirmed by fetching the page and its parent /agility/ submenu.
+    "https://vicdog.com/events-page-agility/",
+    # PER-DISCIPLINE recent-event feeds (verified to exist and to carry real
+    # /events/<date>-... links). The other disciplines have NO full-year
+    # calendar page — their home pages list recent schedule/catalogue posts,
+    # each linking to the event. Crawling these broadens the recent-event net
+    # per discipline beyond the single all-discipline "latest updates" feed.
+    # (Confirmed /events/ links present on obedience-rally, scent-work, and
+    # tracking; the rest share the identical template.)
+    "https://vicdog.com/obedience-rally-o/",
+    "https://vicdog.com/scent-work/",
+    "https://vicdog.com/tracking-and-track-search/",
+    "https://vicdog.com/trick-dog/",
+    "https://vicdog.com/dances-with-dogs/",
+    "https://vicdog.com/herding/",
+    "https://vicdog.com/lure-coursing-racing/",
+    # BACKSTOP: the all-discipline "latest updates" feed. Catches anything filed
+    # under an unexpected category. The per-event Labels check decides the real
+    # discipline regardless of which feed surfaced the link.
     "https://vicdog.com/latest-update-posts/",
 ]
 VICDOG_MAX_PAGES = 25  # safety cap (the signature guard stops earlier anyway)
@@ -1501,21 +1515,26 @@ _NON_TRIAL_NAME_RE = re.compile(
     re.I)
 
 
-def _topdog_close_date(row_text):
-    """Extract the entry closing date from a Top Dog listing row. Rows carry an
-    explicit 'Entries close <Wed 5th Sep 2026>' string. Returns ISO yyyy-mm-dd
-    or None. This is the authoritative closing signal — far better than assuming
-    every 'Upcoming' event is still enterable (entries usually close days before
-    the event date)."""
-    if not row_text:
+def _topdog_close_date(text, bare_ok=False):
+    """Extract an entry closing date. Two shapes:
+      - the dedicated <td class="tl-col-close"> cell holds a BARE date, e.g.
+        "Fri 21st Aug 2026" (bare_ok=True to accept it);
+      - some renderings inline it as "Entries close <date>" in the row text.
+    Returns ISO yyyy-mm-dd or None. The closing date is the authoritative
+    entry-state signal — far better than assuming every 'Upcoming' event is
+    still enterable (entries usually close days before the event)."""
+    if not text:
         return None
-    m = re.search(
-        r"entries?\s+close[sd]?\s+(?:on\s+)?"
+    date_core = (
         r"(?:mon|tue|wed|thu|fri|sat|sun)?\.?,?\s*"
         r"(\d{1,2})\s*(?:st|nd|rd|th)?\s+"
         r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+"
-        r"(\d{4})",
-        row_text, re.I)
+        r"(\d{4})"
+    )
+    m = re.search(r"entries?\s+close[sd]?\s+(?:on\s+)?" + date_core, text, re.I)
+    if not m and bare_ok:
+        # The cell is just the date on its own — match it directly.
+        m = re.search(r"^\s*" + date_core + r"\s*$", text, re.I)
     if not m:
         return None
     try:
@@ -1525,31 +1544,41 @@ def _topdog_close_date(row_text):
         return None
 
 
-def _topdog_status_word(row_text, name_text=None):
-    """Top Dog listing rows include an explicit status word ('Open' / 'Closed')
-    positioned right after the date and BEFORE the trial name. Return 'open',
-    'closed', or None.
+def _topdog_status_word(trial_cell_text, name_text=None):
+    """Top Dog's listing 'Trial' cell reads:
+        "<trial name>  <Open|Closed[ can edit]>  <discipline tags>"
+    i.e. the status word sits AFTER the trial name and BEFORE the discipline
+    tags. Return 'open', 'closed', or None.
 
-    IMPORTANT: 'Open' also appears inside trial names (e.g. 'Open Obedience'),
-    so scanning the whole row is unsafe. We therefore look for the status word
-    only in the row text that PRECEDES the trial name. The closing date (parsed
-    separately) is the unambiguous signal; this word is a secondary hint used
-    mainly when no closing date is present."""
-    if not row_text:
+    This is a REAL entry-state signal that reflects capacity/manual closes too:
+    Top Dog shows 'Closed' once a club closes entries, whether that's the
+    scheduled closing date OR an early close because the trial filled. So it
+    catches cases the closing-date alone would miss.
+
+    Trial NAMES frequently contain the word 'Open' (e.g. 'Open Agility Trial',
+    'Double Open Ultimate ... Trial'), so we can't just take the first Open/
+    Closed token, nor rely on stripping the (fuzzy) cleaned title. Instead we
+    match the status by its STRUCTURAL position: the Open/Closed token that is
+    immediately followed by 'can edit' and/or the discipline-tag list (or the
+    end of the cell). Any earlier 'Open' inside the name is followed by more
+    title words, not tags, so it won't match."""
+    if not trial_cell_text:
         return None
-    head = row_text
-    if name_text:
-        # Restrict to the segment before the trial name so class words like
-        # "Open Obedience" in the title can't be misread as the status.
-        idx = row_text.find(name_text[:20]) if len(name_text) >= 20 else \
-            row_text.find(name_text)
-        if idx > 0:
-            head = row_text[:idx]
-    if re.search(r"\bclosed\b", head, re.I):
-        return "closed"
-    if re.search(r"\bopen\b", head, re.I):
-        return "open"
-    return None
+    tags = (r"Tracking|Track\s*(?:and|&)\s*Search|Scent\s*Work|Agility|"
+            r"Obedience|Rally|Trick\s*Dog|Dances\s*With\s*Dogs|Herding|"
+            r"Lure\s*Coursing|Sled\s*Sport\s*Events?|Retrieving(?:\s*Mock\s*Trial)?|"
+            r"Earthdog|Endurance\s*Test|Mondioring|Canine\s*Hoopers|"
+            r"Miscellaneous|Products|SprintDog\u2122?|CASSA\s*Scent\s*Work")
+    # Status token = Open/Closed, optional "can edit", then a discipline tag or
+    # end-of-string. Take the LAST such match so the status (adjacent to the
+    # tags) wins over any 'Open' embedded earlier in the trial name.
+    matches = list(re.finditer(
+        rf"\b(open|closed)\b(?:\s+can\s+edit)?\s*(?:(?:{tags})\b|$)",
+        trial_cell_text, re.I))
+    if matches:
+        return matches[-1].group(1).lower()
+    m = re.search(r"\b(open|closed)\b(?:\s+can\s+edit)?\s*$", trial_cell_text, re.I)
+    return m.group(1).lower() if m else None
 
 
 def _topdog_parse_rows(soup, year):
@@ -1562,10 +1591,14 @@ def _topdog_parse_rows(soup, year):
         date_text = cells[0].get_text(" ", strip=True)
         name_text = cells[1].get_text(" ", strip=True)
         club_text = cells[2].get_text(" ", strip=True)
-        # The WHOLE row also carries the explicit status word ("Open"/"Closed")
-        # and an "Entries close <date>" string, which the first three cells may
-        # not include. Read the full row so we can capture the real entry state.
         full_row_text = tr.get_text(" ", strip=True)
+        # The closing date lives in its OWN cell, <td class="tl-col-close">, with
+        # a bare date like "Fri 21st Aug 2026" (the words "Entries Close" are only
+        # in the column header, not the row). Read that cell directly — it is the
+        # authoritative entry-close signal. Fall back to phrase-based parsing of
+        # the row text for any alternate rendering that inlines "Entries close".
+        close_cell = tr.find(["td", "th"], class_=lambda c: c and "tl-col-close" in c)
+        close_cell_text = close_cell.get_text(" ", strip=True) if close_cell else ""
 
         # Drop non-competition items (raffles, fundraisers, trivia, workshops,
         # fun days, socials) even if Top Dog files them under a discipline —
@@ -1615,8 +1648,14 @@ def _topdog_parse_rows(soup, year):
             url = "https://www.topdogevents.com.au/trials"
         cancelled = bool(re.search(r"cancel", row_text, re.I))
         # Authoritative entry-state signals from the row itself.
-        td_closes = _topdog_close_date(full_row_text)
-        td_status = _topdog_status_word(full_row_text, name_text)
+        # Prefer the dedicated close cell (bare date); fall back to any inline
+        # "Entries close <date>" phrase in the row text.
+        td_closes = _topdog_close_date(close_cell_text, bare_ok=True) \
+            or _topdog_close_date(full_row_text)
+        # The status word ("Open"/"Closed") lives in the Trial cell (col 2),
+        # between the trial name and the discipline tags. Read it structurally
+        # (adjacent to the tags) so a name containing "Open" isn't misread.
+        td_status = _topdog_status_word(name_text)
 
         for category in disciplines:
             out.append({
