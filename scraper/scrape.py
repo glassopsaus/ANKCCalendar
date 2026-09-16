@@ -3130,6 +3130,23 @@ def build_year():
                         continue
                     ev = dict(ev)
                     ev["_carried_forward"] = True
+                    # Carried-forward events keep their dates but were last
+                    # is_past-scored in an EARLIER run; "today" has since moved,
+                    # so an event that was upcoming then may be past now. Refresh
+                    # is_past (and the past->closed downgrade) against today so a
+                    # carried event whose date has passed isn't shown as current.
+                    _today = dt.date.today()
+                    _end = ev.get("end") or ev.get("start")
+                    try:
+                        _past = dt.date.fromisoformat(_end[:10]) < _today
+                    except (ValueError, TypeError):
+                        _past = False
+                    ev["is_past"] = _past
+                    if _past and ev.get("status") == "open" and not (
+                            ev.get("status") == "cancelled" or ev.get("cancelled")):
+                        ev["status"] = "closed"
+                        ev["status_label"] = "Entries closed"
+                        ev["open_now"] = False
                     unique.append(ev)
                     carried += 1
                 for s in sorted(failed_sources):
@@ -3353,3 +3370,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+  
