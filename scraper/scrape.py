@@ -2218,6 +2218,66 @@ def _merge_run(run):
     return first
 
 
+def _seed_addresses_from_prior(events):
+    """Show Manager venue addresses are fetched in daily 1/7 slices, so any one
+    run only fetches ~1/7 of events' addresses. Without persistence, coverage
+    would reset each run instead of accumulating over a week. This reads the
+    PREVIOUS published file and copies a known real venue location (and
+    schedule_url) onto the freshly-scraped event it matches, so addresses build
+    up and stick.
+
+    Matching is conservative to avoid attaching an address to the wrong event.
+    NOTE: a Show Manager event_id identifies a Details PAGE that can host several
+    distinct trials (different clubs/dates/venues under one id), so event_id is
+    NOT a unique per-event key and is deliberately NOT used here. We key strictly
+    on a (normalized-title, start, region) fingerprint, which is unique per event
+    and can't smear one page's address across its sub-events.
+    We only carry a location that is a REAL venue (not a bare state name) onto an
+    event that currently lacks one, and never overwrite a fresh real address."""
+    try:
+        prior = json.loads(OUTPUT.read_text())
+        prior_events = prior.get("events", [])
+    except Exception:
+        return 0  # no prior file (first run) — nothing to seed
+
+    def _norm_title(t):
+        return re.sub(r"\s+", " ", (t or "").strip().lower())
+
+    def _key(e):
+        t, s, r = e.get("title"), e.get("start"), e.get("region")
+        return ("fp", _norm_title(t), s, r) if (t and s) else None
+
+    # Index prior events that have a REAL venue location by their fingerprint.
+    prior_by_key = {}
+    for pe in prior_events:
+        loc = pe.get("location")
+        if not loc or _is_bare_state_location(loc):
+            continue
+        k = _key(pe)
+        if k:
+            prior_by_key.setdefault(k, pe)
+
+    seeded = 0
+    for e in events:
+        # Only fill when THIS event lacks a real venue (don't overwrite a fresh
+        # address just fetched this run).
+        if e.get("location") and not _is_bare_state_location(e.get("location")):
+            continue
+        k = _key(e)
+        match = prior_by_key.get(k) if k else None
+        if not match:
+            continue
+        e["location"] = match["location"]
+        if not e.get("schedule_url") and match.get("schedule_url"):
+            e["schedule_url"] = match["schedule_url"]
+        seeded += 1
+    if seeded:
+        print(f"[sm-detail] seeded {seeded} venue address(es) carried forward "
+              f"from the prior file (accumulated over the daily cycle)",
+              file=sys.stderr)
+    return seeded
+
+
 def build_year():
     """Build and write ONE year's calendar. Reads the module globals YEAR and
     OUTPUT (the multi-year main() reassigns them before each call), so all the
@@ -2967,6 +3027,12 @@ def build_year():
             "url": "https://vicdog.com/events-page/",
         })
 
+    # Carry forward known venue addresses from the prior published file so the
+    # daily 1/7 Show Manager detail slices ACCUMULATE coverage over the cycle
+    # rather than resetting each run. Runs on the deduped set, before club
+    # derivation (which reads location).
+    _seed_addresses_from_prior(unique)
+
     # Derive the club/organisation name over EVERY event (for the info-line tag
     # between State and Source). Sources place the club in different fields; this
     # picks it out. The event title is left as-is for the headline. Also strip
@@ -3370,4 +3436,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-  
