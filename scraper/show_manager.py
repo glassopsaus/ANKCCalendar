@@ -255,7 +255,7 @@ def fetch_event_detail(event_id):
         return {}
 
     out = {"address": None, "schedule_url": None, "catalogue_url": None,
-           "event_name": None}
+           "event_name": None, "club": None}
 
     # Event name: the main <h1> heading on the details page (full event title).
     h1 = soup.find("h1")
@@ -264,6 +264,17 @@ def fetch_event_detail(event_id):
     if not out["event_name"] and soup.title:
         out["event_name"] = re.sub(r"\s*[-\u2013]\s*Show Manager.*$", "",
                                    soup.title.get_text(strip=True))
+
+    # Club name: the "Event Details -> Club" field is a link to the club's page
+    # (/events/Clubs/Details/<id>) with the canonical club name as its text, e.g.
+    # "Caboolture Sports Dog Obedience Club". This is far cleaner than the club
+    # abbreviation some governing calendars use, so we capture it to display.
+    for a in soup.find_all("a", href=True):
+        if re.search(r"/events/Clubs/Details/\d+", a["href"], re.I):
+            name = a.get_text(" ", strip=True)
+            if name and len(name) >= 4:
+                out["club"] = name
+                break
 
     # Document links. Schedule PDF (pre-close): href contains "schedule" (not
     # "marked"). Catalogue PDF (post-close, lists entrants): href contains
@@ -542,6 +553,8 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
                 x["schedule_url"] = info["schedule_url"]
             if info.get("catalogue_url"):
                 x["catalogue_url"] = info["catalogue_url"]
+            if info.get("club"):
+                x["club"] = info["club"]
             if req_delay and i < len(todays_targets):
                 time.sleep(req_delay)
             if i % 100 == 0:
