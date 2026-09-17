@@ -40,6 +40,7 @@ jobs:
           SM_FETCH_DETAILS: "1"       # enables the Top Dog docs enrichment pass
           SM_DETAIL_FETCH_ALL: "1"    # fetch EVERY Top Dog event, not one slice
           SM_SKIP_DETAILS: "1"        # but SKIP the Show Manager detail fetch
+          TOPDOG_ADDR_DIAG: "1"       # log real maps-link hrefs (address format check)
           SM_DETAIL_DELAY_SEC: ${{ inputs.delay_sec }}
         run: |
           export YEAR="$(TZ='Australia/Sydney' date +%Y)"
