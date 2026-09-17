@@ -254,7 +254,8 @@ def fetch_event_detail(event_id):
         print(f"[sm-detail] {event_id} fetch failed: {e}", file=sys.stderr)
         return {}
 
-    out = {"address": None, "schedule_url": None, "event_name": None}
+    out = {"address": None, "schedule_url": None, "catalogue_url": None,
+           "event_name": None}
 
     # Event name: the main <h1> heading on the details page (full event title).
     h1 = soup.find("h1")
@@ -264,14 +265,25 @@ def fetch_event_detail(event_id):
         out["event_name"] = re.sub(r"\s*[-\u2013]\s*Show Manager.*$", "",
                                    soup.title.get_text(strip=True))
 
-    # Schedule PDF link: an <a> whose href contains "_Schedule_" (not catalogue,
-    # breed numbers, ring plan).
+    # Document links. Schedule PDF (pre-close): href contains "schedule" (not
+    # "marked"). Catalogue PDF (post-close, lists entrants): href contains
+    # "catalogue" — prefer the plain catalogue over a "marked" one (the marked
+    # catalogue is the results-annotated version published after the event).
+    _cat_plain = None
+    _cat_marked = None
     for a in soup.find_all("a", href=True):
         href = a["href"]
         low = href.lower()
-        if "schedule" in low and ".pdf" in low and "marked" not in low:
+        if ".pdf" not in low:
+            continue
+        if "schedule" in low and "marked" not in low and not out["schedule_url"]:
             out["schedule_url"] = href
-            break
+        elif "catalogue" in low or "catalog" in low:
+            if "marked" in low:
+                _cat_marked = _cat_marked or href
+            else:
+                _cat_plain = _cat_plain or href
+    out["catalogue_url"] = _cat_plain or _cat_marked
 
     # Address: the "Location Details" block renders as label/value pairs. Parse
     # them by walking the text for the known labels and taking the following
@@ -420,6 +432,7 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
                 "event_id": event_id,
                 "address": None,
                 "schedule_url": None,
+                "catalogue_url": None,
             })
             month_count += 1
 
@@ -490,6 +503,8 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
                 n_addr += 1
             if info.get("schedule_url"):
                 x["schedule_url"] = info["schedule_url"]
+            if info.get("catalogue_url"):
+                x["catalogue_url"] = info["catalogue_url"]
             if req_delay and i < len(todays_targets):
                 time.sleep(req_delay)
             if i % 100 == 0:
