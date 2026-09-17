@@ -2327,17 +2327,29 @@ def _fetch_topdog_docs(trial_id):
                 "download catalogue" in txt
                 or re.search(r"/trials/\d+/catalogue/get", href, re.I)):
             out["catalogue_url"] = full
-        elif out["address"] is None and "google.com/maps" in href.lower():
-            # "Get Directions" link: destination=<url-encoded address>.
-            m = re.search(r"[?&](?:destination|q|query)=([^&]+)", href, re.I)
+        # Address: check EVERY anchor independently (not in the elif chain) so a
+        # maps link isn't skipped just because the same tag wasn't a schedule.
+        if out["address"] is None and (
+                "google.com/maps" in href.lower()
+                or "maps.google" in href.lower()
+                or "google.com/maps/dir" in href.lower()
+                or "maps.apple.com" in href.lower()
+                or "get directions" in txt):
+            # Address may be in destination= / daddr= / q= / query= params, or
+            # in the /maps/place/<addr>/ path segment.
+            from urllib.parse import unquote_plus
+            addr = None
+            m = re.search(r"[?&](?:destination|daddr|q|query|address)=([^&]+)",
+                          href, re.I)
             if m:
-                from urllib.parse import unquote_plus
                 addr = unquote_plus(m.group(1)).strip()
-                # Sanity: a real address has a comma and some length; skip a bare
-                # lat/long or a stray maps link.
-                if len(addr) >= 8 and "," in addr and not re.match(
-                        r"^-?\d+\.\d+,\s*-?\d+\.\d+$", addr):
-                    out["address"] = addr
+            if not addr:
+                m = re.search(r"/maps/place/([^/@?]+)", href, re.I)
+                if m:
+                    addr = unquote_plus(m.group(1)).replace("+", " ").strip()
+            if addr and len(addr) >= 8 and "," in addr and not re.match(
+                    r"^-?\d+\.\d+,\s*-?\d+\.\d+$", addr):
+                out["address"] = addr
     return out
 
 
@@ -2364,12 +2376,17 @@ def _enrich_topdog_schedules(events):
         u = str(e.get("entry_url") or e.get("url") or "")
         return bool(_TOPDOG_ID_RE.search(u))
 
-    # Target Top Dog events missing a schedule, a catalogue, OR a real venue
-    # address (all three come from the same event-page fetch).
+    # Target Top Dog events missing a schedule, a catalogue, OR a real street
+    # address (all three come from the same event-page fetch). A club-name or
+    # bare-state location does not count as a street address.
+    def _has_street_address(e):
+        loc = (e.get("location") or "")
+        return bool(re.search(r"\d", loc)) and "," in loc
+
     targets = []
     for e in events:
         if (e.get("schedule_url") and e.get("catalogue_url")
-                and not _is_bare_state_location(e.get("location"))):
+                and _has_street_address(e)):
             continue
         if not _is_topdog(e):
             continue
@@ -2436,19 +2453,42 @@ def _enrich_topdog_schedules(events):
           f"schedule/catalogue ({n_window} in catalogue window, checked daily; "
           f"~{req_delay:.1f}s apart)...", file=sys.stderr)
     n_sched = n_cat = n_addr = 0
+    _diag_shown = 0
     for i, (e, tid) in enumerate(todays, 1):
         docs = _fetch_topdog_docs(tid)
+        # One-off diagnostic: on the first few fetches, log any maps/directions
+        # link found on the page so we can confirm the real address format.
+        if _diag_shown < 3 and os.environ.get("TOPDOG_ADDR_DIAG") == "1":
+            try:
+                r = fetch(f"https://www.topdogevents.com.au/trials/{tid}")
+                h = r.text if hasattr(r, "text") else r
+                sp = BeautifulSoup(h, "html.parser")
+                maps = [a["href"] for a in sp.find_all("a", href=True)
+                        if "map" in a["href"].lower()
+                        or "direction" in a.get_text(" ", strip=True).lower()]
+                print(f"[topdog-addr-diag] trial {tid}: maps links = "
+                      f"{maps[:3]}", file=sys.stderr)
+                _diag_shown += 1
+            except Exception:
+                pass
         if docs["schedule_url"] and not e.get("schedule_url"):
             e["schedule_url"] = docs["schedule_url"]
             n_sched += 1
         if docs["catalogue_url"] and not e.get("catalogue_url"):
             e["catalogue_url"] = docs["catalogue_url"]
             n_cat += 1
-        # Upgrade the displayed location to the real venue address when the event
-        # only has a bare state / club name (mirrors the Show Manager cross-fill).
-        if docs["address"] and _is_bare_state_location(e.get("location")):
-            e["location"] = docs["address"]
-            n_addr += 1
+        # Upgrade the displayed location to the real venue address. Top Dog
+        # events usually carry the CLUB NAME as location (not a bare state), and
+        # a street address is strictly more useful for "where do I go", so we
+        # replace a club-name/bare-state location with the fetched address. We
+        # only overwrite when the address looks like a real street address (has a
+        # digit and a comma), never with something vaguer than what's there.
+        addr = docs.get("address")
+        if addr and re.search(r"\d", addr) and "," in addr:
+            cur = (e.get("location") or "").strip()
+            if cur.lower() != addr.lower():
+                e["location"] = addr
+                n_addr += 1
         if req_delay and i < len(todays):
             time.sleep(req_delay)
     print(f"[topdog-docs] captured {n_sched} schedule(s), {n_cat} catalogue(s), "
