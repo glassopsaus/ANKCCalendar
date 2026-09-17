@@ -1933,7 +1933,7 @@ def _is_specific_event_link(url):
     # Positive signals of a per-event page.
     if re.search(r"topdogevents\.com\.au/trials/\d+", url, re.I):
         return True
-    if re.search(r"showmanager\.com\.au/.*(Details|events/PublicEvents)", url, re.I):
+    if re.search(r"showmanager\.com\.au/.*(Details|events/PublicEvents|activity/\d)", url, re.I):
         return True
     if re.search(r"vicdog\.com/events/\d", url, re.I):
         return True
