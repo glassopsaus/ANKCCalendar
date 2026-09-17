@@ -326,6 +326,12 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
     if fetch_details is None:
         import os
         fetch_details = os.environ.get("SM_FETCH_DETAILS") == "1"
+    # Allow a Top-Dog-only backfill to skip the Show Manager detail pass entirely
+    # (SM_SKIP_DETAILS=1), so a one-off run can target just Top Dog without
+    # re-fetching Show Manager's ~200 detail pages.
+    import os as _os
+    if _os.environ.get("SM_SKIP_DETAILS") == "1":
+        fetch_details = False
 
     listings = []
     seen_ids = set()
@@ -482,16 +488,37 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
             h = hashlib.md5(str(event_id).encode("utf-8")).hexdigest()
             return int(h, 16) % cycle_days
         today_slice = today.timetuple().tm_yday % cycle_days
+        # CATALOGUE WATCH: a catalogue is published in the short window before the
+        # event. SM listings don't carry the closing date pre-fetch, so we use
+        # "within CATALOGUE_WINDOW_DAYS before the event date" as the window, and
+        # check those events EVERY run (not just their 1/N slice) so a catalogue
+        # that appears mid-week isn't missed until after the event. An event that
+        # already has a catalogue is excluded (nothing left to fetch for it).
+        try:
+            cat_window_days = max(1, int(os.environ.get("CATALOGUE_WINDOW_DAYS", "14")))
+        except ValueError:
+            cat_window_days = 14
+
+        def _in_catalogue_window(x):
+            if x.get("catalogue_url"):
+                return False
+            try:
+                d = dt.date.fromisoformat(x["date"])
+            except (ValueError, TypeError):
+                return False
+            return 0 <= (d - today).days <= cat_window_days
+
         # One-off backfill: SM_DETAIL_FETCH_ALL=1 ignores the daily slice and
         # fetches EVERY target this run (throttled), so a single manual run gives
         # complete coverage instead of waiting a full cycle. Normal runs leave it
-        # unset and process just today's 1/N slice.
+        # unset and process today's 1/N slice PLUS the catalogue-window events.
         fetch_all = os.environ.get("SM_DETAIL_FETCH_ALL") == "1"
         if fetch_all:
             todays_targets = list(targets)
         else:
             todays_targets = [x for x in targets
-                              if _slice_of(x["event_id"]) == today_slice]
+                              if _slice_of(x["event_id"]) == today_slice
+                              or _in_catalogue_window(x)]
         # Delay between requests (seconds) to smooth out the load. Small but
         # enough to avoid a tight burst; ~0.7s over e.g. 140 events ≈ 100s.
         try:
@@ -500,9 +527,11 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
             req_delay = 0.7
         req_delay = max(0.0, req_delay)
 
+        n_window = sum(1 for x in todays_targets if _in_catalogue_window(x))
         print(f"[sm-detail] {'BACKFILL (all)' if fetch_all else f'slice {today_slice+1}/{cycle_days}'} today: "
               f"{len(todays_targets)} of {len(targets)} upcoming events "
-              f"(~{req_delay:.1f}s apart)...", file=sys.stderr)
+              f"({n_window} in catalogue window, checked daily; "
+              f"~{req_delay:.1f}s apart)...", file=sys.stderr)
         n_addr = 0
         for i, x in enumerate(todays_targets, 1):
             info = fetch_event_detail(x["event_id"])
