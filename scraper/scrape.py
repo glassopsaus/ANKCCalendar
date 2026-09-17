@@ -998,16 +998,21 @@ def _vicdog_parse_event_page(url):
     # Schedule PDF: the event page has a "Schedule" anchor linking straight to
     # the PDF (e.g. .../wp-content/uploads/.../<event>-Schedule.pdf). Prefer an
     # anchor whose text is "Schedule"; else any vicdog-hosted *Schedule*.pdf.
+    # Catalogue is the sibling post-close document ("Catalogue" anchor).
     schedule_url = None
+    catalogue_url = None
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         atxt = a.get_text(" ", strip=True).lower()
-        if not href.lower().endswith(".pdf") and ".pdf" not in href.lower():
+        if ".pdf" not in href.lower():
             continue
-        if atxt == "schedule" or re.search(r"schedule", href, re.I):
-            schedule_url = href if href.startswith("http") \
-                else "https://vicdog.com" + href
-            break
+        full = href if href.startswith("http") else "https://vicdog.com" + href
+        if schedule_url is None and (atxt == "schedule"
+                                     or re.search(r"schedule", href, re.I)):
+            schedule_url = full
+        elif catalogue_url is None and (atxt.startswith("catalogue")
+                                        or re.search(r"catalogue", href, re.I)):
+            catalogue_url = full
     # Closing date: the event page lists "Closing Date: 18 October 2026".
     closes = None
     cm = re.search(r"closing\s+date\s*:?\s*(\d{1,2})\s+"
@@ -1033,6 +1038,8 @@ def _vicdog_parse_event_page(url):
     }
     if schedule_url:
         listing["schedule_url"] = schedule_url
+    if catalogue_url:
+        listing["catalogue_url"] = catalogue_url
     return listing
 
 
@@ -2285,39 +2292,47 @@ def _merge_run(run):
 _TOPDOG_ID_RE = re.compile(r"topdogevents\.com\.au/trials/(\d+)", re.I)
 
 
-def _fetch_topdog_schedule(trial_id):
-    """Fetch a Top Dog event page and return its 'Download Schedule' link, or
-    None. The link is canonical: /trials/<id>/schedule/get, shown as a
-    'Download Schedule' anchor. Top Dog EVENT pages (unlike its JS listing) are
-    plain HTML, so a normal fetch works — no browser needed. Best-effort; never
-    raises."""
+def _fetch_topdog_docs(trial_id):
+    """Fetch a Top Dog event page and return {schedule_url, catalogue_url} (each
+    may be None). Both are canonical anchors: 'Download Schedule' ->
+    /trials/<id>/schedule/get and 'Download Catalogue' -> /trials/<id>/catalogue/get.
+    Top Dog EVENT pages (unlike its JS listing) are plain HTML, so a normal fetch
+    works — no browser needed. Best-effort; never raises."""
+    out = {"schedule_url": None, "catalogue_url": None}
     url = f"https://www.topdogevents.com.au/trials/{trial_id}"
     try:
         html = fetch(url)
     except Exception:
-        return None
+        return out
     if not html:
-        return None
+        return out
     try:
         soup = BeautifulSoup(html, "html.parser")
     except Exception:
-        return None
-    # Prefer an explicit "Download Schedule" anchor.
+        return out
     for a in soup.find_all("a", href=True):
         txt = a.get_text(" ", strip=True).lower()
         href = a["href"]
-        if "download schedule" in txt or re.search(r"/trials/\d+/schedule/get", href, re.I):
-            return href if href.startswith("http") \
-                else "https://www.topdogevents.com.au" + href
-    return None
+        full = href if href.startswith("http") \
+            else "https://www.topdogevents.com.au" + href
+        if out["schedule_url"] is None and (
+                "download schedule" in txt
+                or re.search(r"/trials/\d+/schedule/get", href, re.I)):
+            out["schedule_url"] = full
+        elif out["catalogue_url"] is None and (
+                "download catalogue" in txt
+                or re.search(r"/trials/\d+/catalogue/get", href, re.I)):
+            out["catalogue_url"] = full
+    return out
 
 
 def _enrich_topdog_schedules(events):
-    """Fetch 'Download Schedule' links for Top Dog events, spread over a daily
-    1/N cycle (same approach as Show Manager detail fetches) so any one run makes
-    only a fraction of the requests and a full pass completes within the cycle.
-    Schedules persist run-to-run via _seed_addresses_from_prior, so coverage
-    accumulates. Gated by SM_FETCH_DETAILS (shares the detail-fetch toggle)."""
+    """Fetch 'Download Schedule' AND 'Download Catalogue' links for Top Dog
+    events, spread over a daily 1/N cycle (same approach as Show Manager detail
+    fetches) so any one run makes only a fraction of the requests and a full pass
+    completes within the cycle. Both persist run-to-run via
+    _seed_addresses_from_prior, so coverage accumulates. Gated by
+    SM_FETCH_DETAILS (shares the detail-fetch toggle)."""
     import os
     import time
     import hashlib
@@ -2325,22 +2340,21 @@ def _enrich_topdog_schedules(events):
         return 0
     today = dt.date.today()
 
-    def _is_topdog_upcoming(e):
+    def _is_topdog(e):
+        # Catalogues appear AFTER entries close, so (unlike schedules) we don't
+        # restrict to upcoming events — a recently-past event may just have got
+        # its catalogue. Only skip clearly-cancelled events.
         if e.get("cancelled"):
             return False
-        end = e.get("end") or e.get("start")
-        try:
-            if end and dt.date.fromisoformat(end[:10]) < today:
-                return False
-        except (ValueError, TypeError):
-            pass
         u = str(e.get("entry_url") or e.get("url") or "")
         return bool(_TOPDOG_ID_RE.search(u))
 
-    # Target upcoming Top Dog events that don't already have a schedule link.
+    # Target Top Dog events missing EITHER a schedule or a catalogue link.
     targets = []
     for e in events:
-        if e.get("schedule_url") or not _is_topdog_upcoming(e):
+        if e.get("schedule_url") and e.get("catalogue_url"):
+            continue
+        if not _is_topdog(e):
             continue
         m = _TOPDOG_ID_RE.search(str(e.get("entry_url") or e.get("url") or ""))
         if m:
@@ -2362,19 +2376,23 @@ def _enrich_topdog_schedules(events):
         return int(hashlib.md5(str(tid).encode()).hexdigest(), 16) % cycle_days
 
     todays = [(e, tid) for (e, tid) in targets if _slice_of(tid) == today_slice]
-    print(f"[topdog-sched] slice {today_slice+1}/{cycle_days} today: "
-          f"{len(todays)} of {len(targets)} upcoming Top Dog events without a "
-          f"schedule (~{req_delay:.1f}s apart)...", file=sys.stderr)
-    n = 0
+    print(f"[topdog-docs] slice {today_slice+1}/{cycle_days} today: "
+          f"{len(todays)} of {len(targets)} Top Dog events missing a "
+          f"schedule/catalogue (~{req_delay:.1f}s apart)...", file=sys.stderr)
+    n_sched = n_cat = 0
     for i, (e, tid) in enumerate(todays, 1):
-        sched = _fetch_topdog_schedule(tid)
-        if sched:
-            e["schedule_url"] = sched
-            n += 1
+        docs = _fetch_topdog_docs(tid)
+        if docs["schedule_url"] and not e.get("schedule_url"):
+            e["schedule_url"] = docs["schedule_url"]
+            n_sched += 1
+        if docs["catalogue_url"] and not e.get("catalogue_url"):
+            e["catalogue_url"] = docs["catalogue_url"]
+            n_cat += 1
         if req_delay and i < len(todays):
             time.sleep(req_delay)
-    print(f"[topdog-sched] captured {n} schedule link(s)", file=sys.stderr)
-    return n
+    print(f"[topdog-docs] captured {n_sched} schedule(s), {n_cat} catalogue(s)",
+          file=sys.stderr)
+    return n_sched + n_cat
 
 
 def _seed_addresses_from_prior(events):
@@ -2413,11 +2431,12 @@ def _seed_addresses_from_prior(events):
         loc = e.get("location")
         return bool(loc) and not _is_bare_state_location(loc)
 
-    # Index prior events that carry a REAL location OR a schedule_url, by their
-    # fingerprint — so either field can be seeded independently.
+    # Index prior events that carry a REAL location OR a schedule_url OR a
+    # catalogue_url, by their fingerprint — so each field seeds independently.
     prior_by_key = {}
     for pe in prior_events:
-        if not (_has_real_loc(pe) or pe.get("schedule_url")):
+        if not (_has_real_loc(pe) or pe.get("schedule_url")
+                or pe.get("catalogue_url")):
             continue
         k = _key(pe)
         if k:
@@ -2425,6 +2444,7 @@ def _seed_addresses_from_prior(events):
 
     seeded_loc = 0
     seeded_sched = 0
+    seeded_cat = 0
     for e in events:
         k = _key(e)
         match = prior_by_key.get(k) if k else None
@@ -2435,16 +2455,20 @@ def _seed_addresses_from_prior(events):
         if not _has_real_loc(e) and _has_real_loc(match):
             e["location"] = match["location"]
             seeded_loc += 1
-        # Independently, carry the schedule PDF link if this event lacks one.
+        # Independently, carry the schedule + catalogue links if missing.
         if not e.get("schedule_url") and match.get("schedule_url"):
             e["schedule_url"] = match["schedule_url"]
             seeded_sched += 1
-    if seeded_loc or seeded_sched:
+        if not e.get("catalogue_url") and match.get("catalogue_url"):
+            e["catalogue_url"] = match["catalogue_url"]
+            seeded_cat += 1
+    if seeded_loc or seeded_sched or seeded_cat:
         print(f"[sm-detail] carried forward from prior file: "
-              f"{seeded_loc} venue address(es), {seeded_sched} schedule link(s) "
+              f"{seeded_loc} venue address(es), {seeded_sched} schedule link(s), "
+              f"{seeded_cat} catalogue link(s) "
               f"(accumulated over the daily detail-fetch cycle)",
               file=sys.stderr)
-    return seeded_loc + seeded_sched
+    return seeded_loc + seeded_sched + seeded_cat
 
 
 def build_year():
@@ -2860,7 +2884,7 @@ def build_year():
                     # Fill any field the survivor lacks from the duplicate, so
                     # merging keeps the best available info (location, links...).
                     for fld in ("location", "entry_url", "schedule_url",
-                                "closes", "address"):
+                                "catalogue_url", "closes", "address"):
                         if not k.get(fld) and e.get(fld):
                             k[fld] = e[fld]
                     # Address cross-fill: governing-body sources set location to
