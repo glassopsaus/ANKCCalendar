@@ -2060,23 +2060,37 @@ def _derive_club(e):
                "south australia", "tasmania", "act", "northern territory")
 
     club = ""
-    # Prefer location (Top Dog's club field), then title, then merged alternates.
-    for c in [loc, title] + alts:
+    # A location that looks like a STREET ADDRESS (has a digit and a comma) is a
+    # venue, not a club name — don't pick it as the club. This happens for Show
+    # Manager/Top Dog events where `location` holds the address while the real
+    # club name is in the `title`.
+    def _is_street_address(s):
+        return bool(s) and bool(re.search(r"\d", s)) and "," in s
+
+    loc_is_addr = _is_street_address(loc)
+    # Prefer location (many sources put the club there), then title, then merged
+    # alternates — but SKIP location when it's actually a street address.
+    for c in [("" if loc_is_addr else loc), title] + alts:
         cl = c.strip().lower() if c else ""
         if c and cl not in _STATES and _looks_like_club(c):
             club = c.strip()
             break
-    # Fallback: a non-empty location that isn't a bare state name; else title.
+    # Fallback: a non-empty, non-address location that isn't a bare state; else title.
     if not club:
-        if loc and loc.lower() not in _STATES:
+        if loc and not loc_is_addr and loc.lower() not in _STATES:
             club = loc
         else:
             club = title
 
     # Strip a trailing discipline suffix from the club name
-    # (e.g. "Oxley Dog Training Club Inc – Scent Work" -> "...Club Inc").
-    club = re.sub(r"\s*[\u2013-]\s*(scent\s*work|scentwork|tracking|"
-                  r"track\s*&?\s*search|obedience|rally|agility)\s*$", "",
+    # (e.g. "Oxley Dog Training Club Inc – Scent Work" -> "...Club Inc",
+    #  "Blacktown ... Club Inc – Rally Obedience" -> "...Club Inc").
+    club = re.sub(r"\s*[\u2013\u2014-]\s*(?:"
+                  r"rally\s*obedience|rally\s*o|scent\s*work|scentwork|"
+                  r"track\s*&?\s*search|tracking|obedience|rally|agility|"
+                  r"jumping|trick\s*dog|dances\s*with\s*dogs|herding|"
+                  r"lure\s*coursing|endurance|sprintdog|earthdog|"
+                  r"retrieving|mondioring)\s*$", "",
                   club, flags=re.I).strip()
 
     e["club"] = club or title or "Event"
@@ -2308,7 +2322,8 @@ def _fetch_topdog_docs(trial_id):
     URL-encoded street address (more reliable than parsing the free-text venue
     block). Top Dog EVENT pages (unlike its JS listing) are plain HTML, so a
     normal fetch works — no browser needed. Best-effort; never raises."""
-    out = {"schedule_url": None, "catalogue_url": None, "address": None}
+    out = {"schedule_url": None, "catalogue_url": None, "address": None,
+           "club": None}
     url = f"https://www.topdogevents.com.au/trials/{trial_id}"
     try:
         resp = fetch(url)
@@ -2321,6 +2336,18 @@ def _fetch_topdog_docs(trial_id):
         soup = BeautifulSoup(html, "html.parser")
     except Exception:
         return out
+    # Club: Top Dog event pages carry a clean "Hosted by <Club>" field, reliably
+    # terminated by "Trial Secretary" / "Entries close" / "Venue". Capture it —
+    # it's the canonical club name (e.g. "Frankston Dog Obedience Club"), better
+    # than parsing the title.
+    page_text = soup.get_text(" ", strip=True)
+    cm = re.search(
+        r"Hosted by\s+(.+?)\s*(?:Trial Secretary|Entries close|Venue|Vetting|"
+        r"Judging starts|$)", page_text, re.I)
+    if cm:
+        club = cm.group(1).strip(" -\u2013\u2014·,")
+        if club and 4 <= len(club) <= 90:
+            out["club"] = club
     for a in soup.find_all("a", href=True):
         txt = a.get_text(" ", strip=True).lower()
         href = a["href"]
@@ -2480,6 +2507,12 @@ def _enrich_topdog_schedules(events):
         # replace a club-name/bare-state location with the fetched address. We
         # only overwrite when the address looks like a real street address (has a
         # digit and a comma), never with something vaguer than what's there.
+        # Canonical club name from the Top Dog "Hosted by" field — prefer it over
+        # a parsed/abbreviated club, and lock so _derive_club won't overwrite.
+        tdclub = docs.get("club")
+        if tdclub and not (re.search(r"\d", tdclub) and "," in tdclub):
+            e["club"] = tdclub
+            e["_club_locked"] = True
         addr = docs.get("address")
         if addr and re.search(r"\d", addr) and "," in addr:
             cur = (e.get("location") or "").strip()
