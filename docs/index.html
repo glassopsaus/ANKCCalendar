@@ -675,7 +675,13 @@ function cardHtml(e,f){
   const _club = (e.club || e.location || "").trim();
   const _clubLc = _club.toLowerCase();
   const _titleLc = (e.title || "").trim().toLowerCase();
+  // If `club` is actually a street address (digits + comma) — which happens for
+  // some Top Dog events where the address was written into the club field — it's
+  // not a club name. Suppress it as the club tag; the venue logic below shows it
+  // in the correct place (bottom-right).
+  const _clubIsAddress = /\d/.test(_club) && _club.indexOf(",") !== -1;
   const _clubRedundant = !_club
+    || _clubIsAddress
     || _clubLc === _titleLc
     || ["victoria","queensland","new south wales","western australia","south australia","tasmania","act","northern territory"].indexOf(_clubLc) !== -1;
   const clubTag = _clubRedundant ? "" : `<span class="tag club">${escapeHtml(_club)}</span>`;
@@ -685,8 +691,9 @@ function cardHtml(e,f){
   // the club — i.e. only show something that's genuinely a venue.
   const _venue = (e.location || "").trim();
   const _venueLc = _venue.toLowerCase();
+  const _venueIsAddress = /\d/.test(_venue) && _venue.indexOf(",") !== -1;
   const _venueBare = !_venue
-    || _venueLc === _clubLc
+    || (_venueLc === _clubLc && !_venueIsAddress)
     || ["victoria","queensland","new south wales","western australia","south australia","tasmania","act","northern territory","nsw","vic","qld","wa","sa","tas","nt"].indexOf(_venueLc) !== -1;
   const venueTag = _venueBare ? "" : `<span class="tag venue" title="Venue">${escapeHtml(_venue)}</span>`;
   // Source tags: show EVERY corroborating source (the dedup merge records all
