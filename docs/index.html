@@ -168,6 +168,8 @@
   .enter:hover{color:var(--ink)}
   .enter.sched{font-weight:500; color:var(--ink-soft);}
   .enter.sched:hover{color:var(--ink)}
+  .enter.cat{font-weight:500; color:var(--ink-soft); font-style:italic;}
+  .enter.cat:hover{color:var(--ink)}
   .state-msg{padding:48px 16px; text-align:center; color:var(--ink-soft);}
   .state-msg.err{color:var(--cancel);}
   .count{font-size:12.5px;color:var(--ink-soft);margin:8px 0 0}
@@ -439,6 +441,9 @@ function isEntryPlatform(u){ return !!u && /(\/\/(www\.)?showmanager\.com\.au\/(
 function isScheduleDoc(u){ return !!u && !isEntryPlatform(u) && (/\.pdf(\?|$)/i.test(u) || /ozentries\.com\.au\/schedule\//i.test(u) || /topdogevents\.com\.au\/trials\/\d+\/schedule\/get/i.test(u) || /showmanagerservice\.|cloudfront\.net|cdn\.showmanager\.com\.au/i.test(u)); }
 function eventEntryHref(e){ return [e.entry_url, e.schedule_url].find(isEntryPlatform) || ""; }
 function eventSchedHref(e){ return [e.schedule_url, e.entry_url].find(isScheduleDoc) || ""; }
+// Catalogue = the post-close entrant list (a distinct document from the
+// schedule). It's carried in its own catalogue_url field, so we just use that.
+function eventCatHref(e){ return e.catalogue_url || ""; }
 
 function filtered(){
   // State/Discipline/Breed group: empty row = no constraint. Entry-state chips
@@ -499,6 +504,7 @@ function buildICS(events){
     const schedHref = eventSchedHref(e);
     if(entryHref) descBits.push(`Enter: ${entryHref}`);
     if(schedHref) descBits.push(`Schedule: ${schedHref}`);
+    if(e.catalogue_url) descBits.push(`Catalogue: ${e.catalogue_url}`);
     descBits.push("Confirm details with the club before entering.");
     const loc = (e.address && String(e.address).trim()) ? e.address
               : (e.location && !/^[A-Za-z .'&-]+(Inc|Club|Association|Society)?\.?$/.test(e.location) ? e.location : "");
@@ -720,8 +726,12 @@ function cardHtml(e,f){
   // (Classifiers isEntryPlatform/isScheduleDoc are shared top-level helpers.)
   const entryHref = eventEntryHref(e);
   const schedHref = eventSchedHref(e);
+  const catHref = eventCatHref(e);
   const enter = (entryHref && sk!=="cancelled" && !past) ? `<a class="enter" href="${escapeHtml(entryHref)}" target="_blank" rel="noopener">Enter →</a>` : "";
   const schedule = (schedHref && !past) ? `<a class="enter sched" href="${escapeHtml(schedHref)}" target="_blank" rel="noopener">Schedule →</a>` : "";
+  // Catalogue (entrant list) is a post-close document, so — unlike Schedule —
+  // it's shown even on past/imminent events (that's exactly when it's useful).
+  const catalogue = catHref ? `<a class="enter cat" href="${escapeHtml(catHref)}" target="_blank" rel="noopener">Catalogue →</a>` : "";
   // Headline the event title (for scent work this carries the level + elements,
   // e.g. "Advanced - Interiors and Exteriors"); the club sits on the info line.
   const headline = e.title || e.club || "Untitled event";
@@ -736,7 +746,7 @@ function cardHtml(e,f){
   return `<article class="card ${sk==="cancelled"?"is-cancelled":""}${past?"is-past":""}" style="--disc:${famVar(fam)};--disc-bg:${famBg(fam)}">
     <div class="date">${dateCell}</div>
     <div class="body">
-      <div class="crow crow-title"><p class="title">${escapeHtml(headline)}</p><span class="crow-r">${enter}${schedule}</span></div>
+      <div class="crow crow-title"><p class="title">${escapeHtml(headline)}</p><span class="crow-r">${enter}${schedule}${catalogue}</span></div>
       <div class="crow crow-status"><span class="crow-l">${row2Left}</span><span class="crow-r crow-src">${srcTag}</span></div>
       ${clubTag ? `<div class="crow crow-club"><span class="crow-l">${clubTag}</span></div>` : ""}
       <div class="crow crow-bottom"><span class="crow-l">${discTag}${stateTag}</span><span class="crow-r">${venueTag}</span></div>
