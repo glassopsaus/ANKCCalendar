@@ -2375,8 +2375,13 @@ def _enrich_topdog_schedules(events):
     def _slice_of(tid):
         return int(hashlib.md5(str(tid).encode()).hexdigest(), 16) % cycle_days
 
-    todays = [(e, tid) for (e, tid) in targets if _slice_of(tid) == today_slice]
-    print(f"[topdog-docs] slice {today_slice+1}/{cycle_days} today: "
+    # One-off backfill: SM_DETAIL_FETCH_ALL=1 fetches EVERY target this run.
+    fetch_all = os.environ.get("SM_DETAIL_FETCH_ALL") == "1"
+    if fetch_all:
+        todays = list(targets)
+    else:
+        todays = [(e, tid) for (e, tid) in targets if _slice_of(tid) == today_slice]
+    print(f"[topdog-docs] {'BACKFILL (all)' if fetch_all else f'slice {today_slice+1}/{cycle_days}'} today: "
           f"{len(todays)} of {len(targets)} Top Dog events missing a "
           f"schedule/catalogue (~{req_delay:.1f}s apart)...", file=sys.stderr)
     n_sched = n_cat = 0
