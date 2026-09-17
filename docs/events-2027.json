@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T12:29:58+00:00",
+  "generated": "2026-09-17T13:54:26+00:00",
   "year": 2027,
   "count": 633,
   "sources": [
@@ -329,10 +329,9 @@
       "verified": true,
       "closes": "2027-01-17",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50081",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf",
-      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "open_now": true,
       "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf",
       "club": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC"
     },
     {
@@ -14250,7 +14249,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
       "catalogue_url": null,
-      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
@@ -14276,7 +14275,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45686",
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45686/BoxerClubofNSWGroup6RallyTrial_12-Jun-2027_RO_45686_Schedule_20260611.pdf",
       "catalogue_url": null,
-      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "address": null,
       "open_now": true,
       "is_past": false
     }
