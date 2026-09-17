@@ -2219,21 +2219,24 @@ def _merge_run(run):
 
 
 def _seed_addresses_from_prior(events):
-    """Show Manager venue addresses are fetched in daily 1/7 slices, so any one
-    run only fetches ~1/7 of events' addresses. Without persistence, coverage
-    would reset each run instead of accumulating over a week. This reads the
-    PREVIOUS published file and copies a known real venue location (and
-    schedule_url) onto the freshly-scraped event it matches, so addresses build
-    up and stick.
+    """Show Manager venue addresses AND schedule PDFs are fetched from event
+    detail pages in daily 1/7 slices, so any one run only fetches ~1/7 of them.
+    Without persistence, coverage would reset each run instead of accumulating
+    over a week. This reads the PREVIOUS published file and copies known real
+    venue locations and schedule_urls onto the freshly-scraped events they match,
+    so both build up and stick across the cycle.
 
-    Matching is conservative to avoid attaching an address to the wrong event.
-    NOTE: a Show Manager event_id identifies a Details PAGE that can host several
-    distinct trials (different clubs/dates/venues under one id), so event_id is
-    NOT a unique per-event key and is deliberately NOT used here. We key strictly
-    on a (normalized-title, start, region) fingerprint, which is unique per event
-    and can't smear one page's address across its sub-events.
-    We only carry a location that is a REAL venue (not a bare state name) onto an
-    event that currently lacks one, and never overwrite a fresh real address."""
+    location and schedule_url are carried INDEPENDENTLY: an event that already
+    has its address but is missing its schedule (or vice versa) still gets the
+    missing field filled. (They come from the same detail fetch, but a given run
+    may have fetched one for an event on an earlier day and not re-fetched it.)
+
+    Matching is conservative to avoid attaching data to the wrong event. NOTE: a
+    Show Manager event_id identifies a Details PAGE that can host several distinct
+    trials (different clubs/dates/venues under one id), so event_id is NOT a
+    unique per-event key and is deliberately NOT used. We key strictly on a
+    (normalized-title, start, region) fingerprint, unique per event.
+    We never overwrite a value the fresh scrape already has."""
     try:
         prior = json.loads(OUTPUT.read_text())
         prior_events = prior.get("events", [])
@@ -2247,35 +2250,42 @@ def _seed_addresses_from_prior(events):
         t, s, r = e.get("title"), e.get("start"), e.get("region")
         return ("fp", _norm_title(t), s, r) if (t and s) else None
 
-    # Index prior events that have a REAL venue location by their fingerprint.
+    def _has_real_loc(e):
+        loc = e.get("location")
+        return bool(loc) and not _is_bare_state_location(loc)
+
+    # Index prior events that carry a REAL location OR a schedule_url, by their
+    # fingerprint — so either field can be seeded independently.
     prior_by_key = {}
     for pe in prior_events:
-        loc = pe.get("location")
-        if not loc or _is_bare_state_location(loc):
+        if not (_has_real_loc(pe) or pe.get("schedule_url")):
             continue
         k = _key(pe)
         if k:
             prior_by_key.setdefault(k, pe)
 
-    seeded = 0
+    seeded_loc = 0
+    seeded_sched = 0
     for e in events:
-        # Only fill when THIS event lacks a real venue (don't overwrite a fresh
-        # address just fetched this run).
-        if e.get("location") and not _is_bare_state_location(e.get("location")):
-            continue
         k = _key(e)
         match = prior_by_key.get(k) if k else None
         if not match:
             continue
-        e["location"] = match["location"]
+        # Carry a real venue location if this event lacks one (don't overwrite a
+        # fresh address just fetched this run).
+        if not _has_real_loc(e) and _has_real_loc(match):
+            e["location"] = match["location"]
+            seeded_loc += 1
+        # Independently, carry the schedule PDF link if this event lacks one.
         if not e.get("schedule_url") and match.get("schedule_url"):
             e["schedule_url"] = match["schedule_url"]
-        seeded += 1
-    if seeded:
-        print(f"[sm-detail] seeded {seeded} venue address(es) carried forward "
-              f"from the prior file (accumulated over the daily cycle)",
+            seeded_sched += 1
+    if seeded_loc or seeded_sched:
+        print(f"[sm-detail] carried forward from prior file: "
+              f"{seeded_loc} venue address(es), {seeded_sched} schedule link(s) "
+              f"(accumulated over the daily detail-fetch cycle)",
               file=sys.stderr)
-    return seeded
+    return seeded_loc + seeded_sched
 
 
 def build_year():
