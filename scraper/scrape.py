@@ -389,6 +389,29 @@ def _re_epoch_to_iso(v):
         return None
 
 
+def _re_schedule_from_record(r):
+    """Best-effort: find a schedule/premium-list PDF link in a Ready Entries
+    Bubble event record. The field name isn't confirmed (Bubble exposes opaque
+    keys), so we scan values for a URL that looks like a schedule document:
+    a .pdf, or a field whose KEY mentions schedule/premium/document. Returns a
+    URL or None. Conservative — only accepts http(s) URLs, never guesses."""
+    if not isinstance(r, dict):
+        return None
+    best = None
+    for k, v in r.items():
+        if not isinstance(v, str) or not v.startswith("http"):
+            continue
+        kl = k.lower()
+        vl = v.lower()
+        key_hints = any(h in kl for h in
+                        ("schedule", "premium", "document", "file", "pdf", "attachment"))
+        if ".pdf" in vl:
+            return v  # strongest signal — take immediately
+        if key_hints and best is None:
+            best = v
+    return best
+
+
 def parse_readyentries(source):
     """Fetch Ready Entries events via the headless browser (it renders the
     Bubble SPA and we intercept the decrypted JSON), then normalise the raw
@@ -405,10 +428,18 @@ def parse_readyentries(source):
         print("[readyentries] no events captured", file=sys.stderr)
         return []
 
-    # One-off field diagnostic so we can confirm the per-event link field.
+    # One-off field diagnostic so we can confirm the per-event link + schedule
+    # fields. Also list any URL-valued fields (candidate schedule/premium links)
+    # so we can tune _re_schedule_from_record from a real run.
     try:
         _sample_keys = sorted(raw[0].keys())
         print(f"[readyentries] sample fields: {_sample_keys}", file=sys.stderr)
+        _url_fields = sorted({k for r in raw[:20] if isinstance(r, dict)
+                              for k, v in r.items()
+                              if isinstance(v, str) and v.startswith("http")})
+        if _url_fields:
+            print(f"[readyentries] URL-valued fields (schedule candidates): "
+                  f"{_url_fields}", file=sys.stderr)
     except Exception:
         pass
 
@@ -486,6 +517,11 @@ def parse_readyentries(source):
             # recomputed later, and merges may move it around). Ready Entries is
             # a real entry platform, so its open/closed is authoritative.
             ev["ep_status"] = status_key
+        # Best-effort schedule PDF from the Bubble record (field name unconfirmed;
+        # scans for a .pdf / schedule-like URL). Harmless if absent.
+        _re_sched = _re_schedule_from_record(r)
+        if _re_sched:
+            ev["schedule_url"] = _re_sched
         events.append(ev)
 
     from collections import Counter
@@ -959,17 +995,45 @@ def _vicdog_parse_event_page(url):
 
     cancelled = bool(re.search(r"\bcancel", haystack, re.I))
 
+    # Schedule PDF: the event page has a "Schedule" anchor linking straight to
+    # the PDF (e.g. .../wp-content/uploads/.../<event>-Schedule.pdf). Prefer an
+    # anchor whose text is "Schedule"; else any vicdog-hosted *Schedule*.pdf.
+    schedule_url = None
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        atxt = a.get_text(" ", strip=True).lower()
+        if not href.lower().endswith(".pdf") and ".pdf" not in href.lower():
+            continue
+        if atxt == "schedule" or re.search(r"schedule", href, re.I):
+            schedule_url = href if href.startswith("http") \
+                else "https://vicdog.com" + href
+            break
+    # Closing date: the event page lists "Closing Date: 18 October 2026".
+    closes = None
+    cm = re.search(r"closing\s+date\s*:?\s*(\d{1,2})\s+"
+                   r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\s+"
+                   r"(\d{4})", text, re.I)
+    if cm:
+        try:
+            closes = dt.date(int(cm.group(3)), MONTHS[cm.group(2).lower()[:3]],
+                             int(cm.group(1))).isoformat()
+        except (ValueError, KeyError):
+            closes = None
+
     # Listing shape consumed by matcher.match_events / gap-fill.
-    return {
+    listing = {
         "club": title,
         "date": start,
         "discipline": discipline,
         "region": "VIC",
         "status": "cancelled" if cancelled else "listed",
-        "closes": None,
+        "closes": closes,
         "detail_url": url,
         "event_id": None,
     }
+    if schedule_url:
+        listing["schedule_url"] = schedule_url
+    return listing
 
 
 TASDOGS_DATES_URL = "https://tasdogs.com/dates/"
@@ -1895,7 +1959,7 @@ def _entry_link_rank(url):
         return 99
     if re.search(r"showmanager\.com\.au", url, re.I):
         return 0
-    if re.search(r"topdogevents\.com\.au/trials/\d+", url, re.I):
+    if re.search(r"topdogevents\.com\.au/trials/\d+(?!\d)(?!/schedule)", url, re.I):
         return 0
     if re.search(r"readyentries\.com/view-event-group/", url, re.I):
         return 0
@@ -1931,7 +1995,7 @@ def _is_specific_event_link(url):
     if any(rx.search(url) for rx in _GENERIC_LINK_RES):
         return False
     # Positive signals of a per-event page.
-    if re.search(r"topdogevents\.com\.au/trials/\d+", url, re.I):
+    if re.search(r"topdogevents\.com\.au/trials/\d+(?!\d)(?!/schedule)", url, re.I):
         return True
     if re.search(r"showmanager\.com\.au/.*(Details|events/PublicEvents|activity/\d)", url, re.I):
         return True
@@ -2216,6 +2280,101 @@ def _merge_run(run):
         if e.get("provider") and not first.get("provider"):
             first["provider"] = e["provider"]
     return first
+
+
+_TOPDOG_ID_RE = re.compile(r"topdogevents\.com\.au/trials/(\d+)", re.I)
+
+
+def _fetch_topdog_schedule(trial_id):
+    """Fetch a Top Dog event page and return its 'Download Schedule' link, or
+    None. The link is canonical: /trials/<id>/schedule/get, shown as a
+    'Download Schedule' anchor. Top Dog EVENT pages (unlike its JS listing) are
+    plain HTML, so a normal fetch works — no browser needed. Best-effort; never
+    raises."""
+    url = f"https://www.topdogevents.com.au/trials/{trial_id}"
+    try:
+        html = fetch(url)
+    except Exception:
+        return None
+    if not html:
+        return None
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+    except Exception:
+        return None
+    # Prefer an explicit "Download Schedule" anchor.
+    for a in soup.find_all("a", href=True):
+        txt = a.get_text(" ", strip=True).lower()
+        href = a["href"]
+        if "download schedule" in txt or re.search(r"/trials/\d+/schedule/get", href, re.I):
+            return href if href.startswith("http") \
+                else "https://www.topdogevents.com.au" + href
+    return None
+
+
+def _enrich_topdog_schedules(events):
+    """Fetch 'Download Schedule' links for Top Dog events, spread over a daily
+    1/N cycle (same approach as Show Manager detail fetches) so any one run makes
+    only a fraction of the requests and a full pass completes within the cycle.
+    Schedules persist run-to-run via _seed_addresses_from_prior, so coverage
+    accumulates. Gated by SM_FETCH_DETAILS (shares the detail-fetch toggle)."""
+    import os
+    import time
+    import hashlib
+    if os.environ.get("SM_FETCH_DETAILS") != "1":
+        return 0
+    today = dt.date.today()
+
+    def _is_topdog_upcoming(e):
+        if e.get("cancelled"):
+            return False
+        end = e.get("end") or e.get("start")
+        try:
+            if end and dt.date.fromisoformat(end[:10]) < today:
+                return False
+        except (ValueError, TypeError):
+            pass
+        u = str(e.get("entry_url") or e.get("url") or "")
+        return bool(_TOPDOG_ID_RE.search(u))
+
+    # Target upcoming Top Dog events that don't already have a schedule link.
+    targets = []
+    for e in events:
+        if e.get("schedule_url") or not _is_topdog_upcoming(e):
+            continue
+        m = _TOPDOG_ID_RE.search(str(e.get("entry_url") or e.get("url") or ""))
+        if m:
+            targets.append((e, m.group(1)))
+    if not targets:
+        return 0
+
+    try:
+        cycle_days = max(1, int(os.environ.get("SM_DETAIL_CYCLE_DAYS", "7")))
+    except ValueError:
+        cycle_days = 7
+    try:
+        req_delay = max(0.0, float(os.environ.get("SM_DETAIL_DELAY_SEC", "0.7")))
+    except ValueError:
+        req_delay = 0.7
+    today_slice = today.timetuple().tm_yday % cycle_days
+
+    def _slice_of(tid):
+        return int(hashlib.md5(str(tid).encode()).hexdigest(), 16) % cycle_days
+
+    todays = [(e, tid) for (e, tid) in targets if _slice_of(tid) == today_slice]
+    print(f"[topdog-sched] slice {today_slice+1}/{cycle_days} today: "
+          f"{len(todays)} of {len(targets)} upcoming Top Dog events without a "
+          f"schedule (~{req_delay:.1f}s apart)...", file=sys.stderr)
+    n = 0
+    for i, (e, tid) in enumerate(todays, 1):
+        sched = _fetch_topdog_schedule(tid)
+        if sched:
+            e["schedule_url"] = sched
+            n += 1
+        if req_delay and i < len(todays):
+            time.sleep(req_delay)
+    print(f"[topdog-sched] captured {n} schedule link(s)", file=sys.stderr)
+    return n
 
 
 def _seed_addresses_from_prior(events):
@@ -3037,10 +3196,10 @@ def build_year():
             "url": "https://vicdog.com/events-page/",
         })
 
-    # Carry forward known venue addresses from the prior published file so the
-    # daily 1/7 Show Manager detail slices ACCUMULATE coverage over the cycle
-    # rather than resetting each run. Runs on the deduped set, before club
-    # derivation (which reads location).
+    # Fetch Top Dog "Download Schedule" links (daily 1/N slice), then carry
+    # forward known addresses AND schedule links from the prior file so both
+    # accumulate over the cycle rather than resetting each run.
+    _enrich_topdog_schedules(unique)
     _seed_addresses_from_prior(unique)
 
     # Derive the club/organisation name over EVERY event (for the info-line tag
