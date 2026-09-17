@@ -435,7 +435,7 @@ function _pOK(e){ return active.showPast || !isPast(e); }
 //  • Schedule = a schedule DOCUMENT (a PDF / schedule page), e.g. an Ozentries
 //               schedule PDF or a Show Manager schedule blob/cdn.
 // Governing-body calendar pages (Dogs Tasmania, Dogs SA) are neither.
-function isEntryPlatform(u){ return !!u && /(\/\/(www\.)?showmanager\.com\.au\/events\/publicevents\/details\/\d+|topdogevents\.com\.au\/trials\/\d+|readyentries\.com\/view-event-group)/i.test(u); }
+function isEntryPlatform(u){ return !!u && /(\/\/(www\.)?showmanager\.com\.au\/(events\/publicevents\/details\/\d+|activity\/\d+)|topdogevents\.com\.au\/trials\/\d+|readyentries\.com\/view-event-group)/i.test(u); }
 function isScheduleDoc(u){ return !!u && !isEntryPlatform(u) && (/\.pdf(\?|$)/i.test(u) || /ozentries\.com\.au\/schedule\//i.test(u) || /showmanagerservice\.|cloudfront\.net|cdn\.showmanager\.com\.au/i.test(u)); }
 function eventEntryHref(e){ return [e.entry_url, e.schedule_url].find(isEntryPlatform) || ""; }
 function eventSchedHref(e){ return [e.schedule_url, e.entry_url].find(isScheduleDoc) || ""; }
