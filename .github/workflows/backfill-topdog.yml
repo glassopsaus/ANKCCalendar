@@ -1,0 +1,79 @@
+name: Backfill Top Dog docs (one-off)
+
+# MANUAL-ONLY. A one-off backfill that fetches schedule + catalogue links for
+# EVERY Top Dog event in a single pass, WITHOUT re-running the Show Manager
+# detail fetch (SM_SKIP_DETAILS=1). Use this to catch Top Dog up on its own —
+# e.g. after the fix that made Top Dog document capture actually work — without
+# repeating Show Manager's ~200 address fetches that a full backfill would do.
+#
+# After it finishes, the regular daily workflow keeps everything fresh. Run once.
+on:
+  workflow_dispatch:
+    inputs:
+      delay_sec:
+        description: "Seconds between Top Dog requests. ~4.5 spreads ~670 events over ~50 min."
+        required: false
+        default: "4.5"
+
+permissions:
+  contents: write
+
+jobs:
+  backfill-topdog:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Chromium for Playwright (renders Top Dog JS pagination)
+        run: python -m playwright install --with-deps chromium
+
+      - name: Scrape events (Top Dog docs backfill only)
+        env:
+          SM_FETCH_DETAILS: "1"       # enables the Top Dog docs enrichment pass
+          SM_DETAIL_FETCH_ALL: "1"    # fetch EVERY Top Dog event, not one slice
+          SM_SKIP_DETAILS: "1"        # but SKIP the Show Manager detail fetch
+          SM_DETAIL_DELAY_SEC: ${{ inputs.delay_sec }}
+        run: |
+          export YEAR="$(TZ='Australia/Sydney' date +%Y)"
+          echo "TOP DOG DOCS BACKFILL for YEAR=$YEAR (all Top Dog events, delay=${SM_DETAIL_DELAY_SEC}s, SM detail skipped)"
+          python scraper/scrape.py
+
+      - name: Commit updated event data
+        run: |
+          git config user.name  "ankc-calendar-bot"
+          git config user.email "actions@github.com"
+          FILES=$(ls docs/events.json docs/events-*.json docs/years.json scraper/pdf_url_cache.json 2>/dev/null)
+          mkdir -p /tmp/fresh
+          for f in $FILES; do [ -f "$f" ] && install -D "$f" "/tmp/fresh/$f"; done
+
+          push_ok=0
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            for f in $FILES; do [ -f "/tmp/fresh/$f" ] && install -D "/tmp/fresh/$f" "$f"; done
+            git add $FILES
+            if git diff --staged --quiet; then
+              echo "No changes to publish."
+              push_ok=1
+              break
+            fi
+            git commit -m "Backfill Top Dog docs ($(date -u +%Y-%m-%d))"
+            if git push; then
+              push_ok=1
+              break
+            fi
+            echo "Push rejected (remote moved); re-syncing and retrying ($attempt)…" >&2
+            sleep 3
+          done
+          if [ "$push_ok" -ne 1 ]; then
+            echo "Could not publish after 5 attempts (remote kept moving)." >&2
+            exit 1
+          fi
