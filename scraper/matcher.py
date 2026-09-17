@@ -187,6 +187,16 @@ def match_events(governing_events, sm_listings, additive=False,
                              "australian capital territory", "northern territory"}
                 if _bare in _BARE_SET:
                     ev["location"] = L["address"]
+            # Prefer Show Manager's canonical club name (from its "Event Details
+            # -> Club" field, e.g. "Caboolture Sports Dog Obedience Club") over a
+            # governing calendar's abbreviation (e.g. "Caboolture"). Only when SM
+            # gave us one that isn't itself an address, and lock it so
+            # _derive_club won't overwrite it.
+            _smclub = (L.get("club") or "").strip()
+            _smclub_is_addr = bool(re.search(r"\d", _smclub)) and "," in _smclub
+            if _smclub and len(_smclub) >= 4 and not _smclub_is_addr:
+                ev["club"] = _smclub
+                ev["_club_locked"] = True
             # Record that this source corroborated the event, so the two-badge
             # "verified = 2+ sources / entry platform" rule counts the match.
             if source_label:
