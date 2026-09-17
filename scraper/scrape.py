@@ -2301,7 +2301,8 @@ def _fetch_topdog_docs(trial_id):
     out = {"schedule_url": None, "catalogue_url": None}
     url = f"https://www.topdogevents.com.au/trials/{trial_id}"
     try:
-        html = fetch(url)
+        resp = fetch(url)
+        html = resp.text if hasattr(resp, "text") else resp
     except Exception:
         return out
     if not html:
@@ -2375,15 +2376,49 @@ def _enrich_topdog_schedules(events):
     def _slice_of(tid):
         return int(hashlib.md5(str(tid).encode()).hexdigest(), 16) % cycle_days
 
+    # CATALOGUE WATCH: an event's catalogue is published in the short window
+    # between entries closing and the event date. Events in that window (and
+    # still missing a catalogue) are time-sensitive, so we check them EVERY run
+    # rather than once per 1/N cycle — the catalogue may appear any day and we
+    # don't want to miss it before the event. Outside the window, normal slicing.
+    try:
+        cat_window_days = max(1, int(os.environ.get("CATALOGUE_WINDOW_DAYS", "14")))
+    except ValueError:
+        cat_window_days = 14
+
+    def _in_catalogue_window(e):
+        if e.get("catalogue_url"):
+            return False
+        end = e.get("end") or e.get("start")
+        if not end:
+            return False
+        try:
+            end_d = dt.date.fromisoformat(end[:10])
+        except (ValueError, TypeError):
+            return False
+        if end_d < today:
+            return False  # event already passed
+        c = e.get("closes")
+        if c:
+            try:
+                return dt.date.fromisoformat(c[:10]) <= today <= end_d
+            except (ValueError, TypeError):
+                pass
+        # No closing date known: treat the N days before the event as the window.
+        return 0 <= (end_d - today).days <= cat_window_days
+
     # One-off backfill: SM_DETAIL_FETCH_ALL=1 fetches EVERY target this run.
     fetch_all = os.environ.get("SM_DETAIL_FETCH_ALL") == "1"
     if fetch_all:
         todays = list(targets)
     else:
-        todays = [(e, tid) for (e, tid) in targets if _slice_of(tid) == today_slice]
+        todays = [(e, tid) for (e, tid) in targets
+                  if _slice_of(tid) == today_slice or _in_catalogue_window(e)]
+    n_window = sum(1 for (e, _t) in todays if _in_catalogue_window(e))
     print(f"[topdog-docs] {'BACKFILL (all)' if fetch_all else f'slice {today_slice+1}/{cycle_days}'} today: "
           f"{len(todays)} of {len(targets)} Top Dog events missing a "
-          f"schedule/catalogue (~{req_delay:.1f}s apart)...", file=sys.stderr)
+          f"schedule/catalogue ({n_window} in catalogue window, checked daily; "
+          f"~{req_delay:.1f}s apart)...", file=sys.stderr)
     n_sched = n_cat = 0
     for i, (e, tid) in enumerate(todays, 1):
         docs = _fetch_topdog_docs(tid)
