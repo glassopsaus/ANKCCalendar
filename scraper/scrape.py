@@ -2048,6 +2048,13 @@ def _derive_club(e):
     alternate text. The event `title` is left untouched as the headline."""
     title = (e.get("title") or "").strip()
     loc = (e.get("location") or "").strip()
+    # If the club was deliberately preserved before an address overwrote
+    # `location` (Top Dog venue capture), keep it — don't re-derive from the
+    # now-address-valued location.
+    if e.get("_club_locked") and e.get("club"):
+        e.pop("_club_locked", None)
+        e.pop("_alt_text", None)
+        return
     alts = [t for t in (e.get("_alt_text") or []) if t]
     _STATES = ("victoria", "queensland", "new south wales", "western australia",
                "south australia", "tasmania", "act", "northern territory")
@@ -2477,6 +2484,14 @@ def _enrich_topdog_schedules(events):
         if addr and re.search(r"\d", addr) and "," in addr:
             cur = (e.get("location") or "").strip()
             if cur.lower() != addr.lower():
+                # Top Dog stores the CLUB NAME in `location`, and _derive_club
+                # reads it from there. Before we replace location with the street
+                # address, preserve the club name in `club` so the card still
+                # shows the club (left) AND the address (bottom-right) — not the
+                # address in both places.
+                if cur and not e.get("club") and _looks_like_club(cur):
+                    e["club"] = cur
+                    e["_club_locked"] = True
                 e["location"] = addr
                 n_addr += 1
         if req_delay and i < len(todays):
