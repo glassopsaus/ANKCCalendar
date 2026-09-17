@@ -440,12 +440,6 @@ def parse_readyentries(source):
         if _url_fields:
             print(f"[readyentries] URL-valued fields (schedule candidates): "
                   f"{_url_fields}", file=sys.stderr)
-        # Confirm whether club_custom_club holds the club NAME or an opaque id.
-        _club_vals = [r.get("club_custom_club") for r in raw[:5]
-                      if isinstance(r, dict) and r.get("club_custom_club")]
-        if _club_vals:
-            print(f"[readyentries] sample club_custom_club values: {_club_vals}",
-                  file=sys.stderr)
     except Exception:
         pass
 
@@ -528,20 +522,10 @@ def parse_readyentries(source):
         _re_sched = _re_schedule_from_record(r)
         if _re_sched:
             ev["schedule_url"] = _re_sched
-        # Club name: Ready Entries exposes a `club_custom_club` field. Bubble
-        # "custom" fields are often opaque record IDs rather than the name, so we
-        # only use it when it looks like a real club NAME (has letters + a club
-        # word, not a bare id/hash). A diagnostic logs the first few raw values so
-        # we can confirm the format.
-        _re_club = r.get("club_custom_club")
-        if isinstance(_re_club, str):
-            _rc = _re_club.strip()
-            if (_rc and re.search(r"[A-Za-z]", _rc)
-                    and re.search(r"club|kennel|association|society|dog|canine|"
-                                  r"training|obedience|agility", _rc, re.I)
-                    and not re.fullmatch(r"[0-9a-fx]{12,}", _rc, re.I)):
-                ev["club"] = _rc
-                ev["_club_locked"] = True
+        # NOTE: Ready Entries' `club_custom_club` field holds an opaque Bubble
+        # LOOKUP id (e.g. "..._LOOKUP_...x..."), not the club name — confirmed by
+        # runtime diagnostic — so there's no usable club name in the RE feed. The
+        # club is derived from the title/location like Ozentries/vicdog.
         events.append(ev)
 
     from collections import Counter
