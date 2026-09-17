@@ -105,7 +105,7 @@ MONTHS3 = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun",
      "jul", "aug", "sep", "oct", "nov", "dec"], start=1)}
 
-DETAIL_ID_RE = re.compile(r"/(?:PublicEvents/Details|AttendEvent)/(\d+)")
+DETAIL_ID_RE = re.compile(r"/(?:PublicEvents/Details|AttendEvent|activity)/(\d+)")
 
 
 def _sm_url(year, month, state="ALL"):
@@ -365,7 +365,12 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
             for c in cells:
                 a = c.find("a", href=True)
                 if a and ("/events/PublicEvents/Details/" in a["href"]
-                          or "/AttendEvent/" in a["href"]):
+                          or "/AttendEvent/" in a["href"]
+                          or "/activity/" in a["href"]):
+                    # Some events (e.g. Earthdog sub-committee days run by the
+                    # Dachshund Club) link via /activity/<id> instead of the
+                    # usual /events/PublicEvents/Details/<id>. Both are valid
+                    # per-event Show Manager links; capture either.
                     name = a.get_text(" ", strip=True)
                     detail_url = a["href"]
                     idm = DETAIL_ID_RE.search(a["href"])
