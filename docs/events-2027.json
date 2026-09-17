@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T16:01:06+00:00",
+  "generated": "2026-09-17T16:59:59+00:00",
   "year": 2027,
   "count": 633,
   "sources": [
@@ -14229,8 +14229,8 @@
       "club": "Dogs Victoria New Year Committee AM"
     },
     {
-      "title": "Boxer Club of NSW - (Group 6 Obedience Trial)",
-      "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
+      "title": "Boxer Club of NSW \u2013 Obedience",
+      "club": "Boxer Club of NSW",
       "start": "2027-06-12",
       "end": "2027-06-12",
       "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -14250,13 +14250,13 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
       "catalogue_url": null,
-      "address": null,
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
       "is_past": false
     },
     {
-      "title": "Boxer Club of NSW - (Group 6 Rally Trial) \u2013 Rally Obedience",
-      "club": "Boxer Club of NSW - (Group 6 Rally Trial)",
+      "title": "Boxer Club of NSW \u2013 Rally Obedience",
+      "club": "Boxer Club of NSW",
       "start": "2027-06-12",
       "end": "2027-06-12",
       "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -14276,7 +14276,7 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45686",
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45686/BoxerClubofNSWGroup6RallyTrial_12-Jun-2027_RO_45686_Schedule_20260611.pdf",
       "catalogue_url": null,
-      "address": null,
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
       "is_past": false
     }
