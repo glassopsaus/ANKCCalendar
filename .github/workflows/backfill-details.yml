@@ -1,0 +1,84 @@
+name: Backfill event details (one-off)
+
+# MANUAL-ONLY. A one-off "catch up now" run that fetches schedule/catalogue/
+# address details for EVERY event in a single pass, instead of the normal daily
+# 1/7 slice. Use it once (e.g. after adding a new detail source) to get complete
+# coverage immediately rather than waiting a full week for the slices to
+# accumulate. After it finishes, the regular daily workflow keeps everything
+# fresh — you do NOT need to run this repeatedly.
+#
+# It sets SM_DETAIL_FETCH_ALL=1 (bypass the daily slice) and a larger delay
+# between requests so the full pass is spread out politely over roughly an hour.
+on:
+  workflow_dispatch:
+    inputs:
+      delay_sec:
+        description: "Seconds between detail requests. Higher = gentler/slower. ~4.5 spreads ~800 events over ~1 hour."
+        required: false
+        default: "4.5"
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    # The full backfill fetches every event's detail page; allow generous time.
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Chromium for Playwright (renders Top Dog JS pagination)
+        run: python -m playwright install --with-deps chromium
+
+      - name: Scrape events (backfill ALL details)
+        env:
+          SM_FETCH_DETAILS: "1"
+          # Fetch EVERY target this run, not just today's 1/7 slice.
+          SM_DETAIL_FETCH_ALL: "1"
+          # Delay between detail requests (from the manual input), tuned to
+          # spread the full pass over ~1 hour rather than bursting.
+          SM_DETAIL_DELAY_SEC: ${{ inputs.delay_sec }}
+        run: |
+          export YEAR="$(TZ='Australia/Sydney' date +%Y)"
+          echo "BACKFILL scrape for YEAR=$YEAR (all detail slices, delay=${SM_DETAIL_DELAY_SEC}s)"
+          python scraper/scrape.py
+
+      - name: Commit updated event data
+        run: |
+          git config user.name  "ankc-calendar-bot"
+          git config user.email "actions@github.com"
+          FILES=$(ls docs/events.json docs/events-*.json docs/years.json scraper/pdf_url_cache.json 2>/dev/null)
+          mkdir -p /tmp/fresh
+          for f in $FILES; do [ -f "$f" ] && install -D "$f" "/tmp/fresh/$f"; done
+
+          push_ok=0
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            for f in $FILES; do [ -f "/tmp/fresh/$f" ] && install -D "/tmp/fresh/$f" "$f"; done
+            git add $FILES
+            if git diff --staged --quiet; then
+              echo "No changes to publish."
+              push_ok=1
+              break
+            fi
+            git commit -m "Backfill ANKC event details ($(date -u +%Y-%m-%d))"
+            if git push; then
+              push_ok=1
+              break
+            fi
+            echo "Push rejected (remote moved); re-syncing and retrying ($attempt)…" >&2
+            sleep 3
+          done
+          if [ "$push_ok" -ne 1 ]; then
+            echo "Could not publish after 5 attempts (remote kept moving)." >&2
+            exit 1
+          fi
