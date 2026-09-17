@@ -2347,6 +2347,12 @@ def _fetch_topdog_docs(trial_id):
                 m = re.search(r"/maps/place/([^/@?]+)", href, re.I)
                 if m:
                     addr = unquote_plus(m.group(1)).replace("+", " ").strip()
+            if addr:
+                # Tidy: some pages append GPS instructions after a newline, or
+                # extra notes. Keep just the address line, strip trailing junk.
+                addr = addr.split("\n")[0].split("\r")[0].strip().rstrip(".")
+                if len(addr) > 90:
+                    addr = addr[:90].rsplit(",", 1)[0].strip()
             if addr and len(addr) >= 8 and "," in addr and not re.match(
                     r"^-?\d+\.\d+,\s*-?\d+\.\d+$", addr):
                 out["address"] = addr
@@ -2453,24 +2459,8 @@ def _enrich_topdog_schedules(events):
           f"schedule/catalogue ({n_window} in catalogue window, checked daily; "
           f"~{req_delay:.1f}s apart)...", file=sys.stderr)
     n_sched = n_cat = n_addr = 0
-    _diag_shown = 0
     for i, (e, tid) in enumerate(todays, 1):
         docs = _fetch_topdog_docs(tid)
-        # One-off diagnostic: on the first few fetches, log any maps/directions
-        # link found on the page so we can confirm the real address format.
-        if _diag_shown < 3 and os.environ.get("TOPDOG_ADDR_DIAG") == "1":
-            try:
-                r = fetch(f"https://www.topdogevents.com.au/trials/{tid}")
-                h = r.text if hasattr(r, "text") else r
-                sp = BeautifulSoup(h, "html.parser")
-                maps = [a["href"] for a in sp.find_all("a", href=True)
-                        if "map" in a["href"].lower()
-                        or "direction" in a.get_text(" ", strip=True).lower()]
-                print(f"[topdog-addr-diag] trial {tid}: maps links = "
-                      f"{maps[:3]}", file=sys.stderr)
-                _diag_shown += 1
-            except Exception:
-                pass
         if docs["schedule_url"] and not e.get("schedule_url"):
             e["schedule_url"] = docs["schedule_url"]
             n_sched += 1
