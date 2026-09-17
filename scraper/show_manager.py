@@ -482,8 +482,16 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
             h = hashlib.md5(str(event_id).encode("utf-8")).hexdigest()
             return int(h, 16) % cycle_days
         today_slice = today.timetuple().tm_yday % cycle_days
-        todays_targets = [x for x in targets
-                          if _slice_of(x["event_id"]) == today_slice]
+        # One-off backfill: SM_DETAIL_FETCH_ALL=1 ignores the daily slice and
+        # fetches EVERY target this run (throttled), so a single manual run gives
+        # complete coverage instead of waiting a full cycle. Normal runs leave it
+        # unset and process just today's 1/N slice.
+        fetch_all = os.environ.get("SM_DETAIL_FETCH_ALL") == "1"
+        if fetch_all:
+            todays_targets = list(targets)
+        else:
+            todays_targets = [x for x in targets
+                              if _slice_of(x["event_id"]) == today_slice]
         # Delay between requests (seconds) to smooth out the load. Small but
         # enough to avoid a tight burst; ~0.7s over e.g. 140 events ≈ 100s.
         try:
@@ -492,7 +500,7 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
             req_delay = 0.7
         req_delay = max(0.0, req_delay)
 
-        print(f"[sm-detail] slice {today_slice+1}/{cycle_days} today: "
+        print(f"[sm-detail] {'BACKFILL (all)' if fetch_all else f'slice {today_slice+1}/{cycle_days}'} today: "
               f"{len(todays_targets)} of {len(targets)} upcoming events "
               f"(~{req_delay:.1f}s apart)...", file=sys.stderr)
         n_addr = 0
