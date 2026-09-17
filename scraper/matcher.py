@@ -172,6 +172,8 @@ def match_events(governing_events, sm_listings, additive=False,
             # provides them; don't clobber existing values with None.
             if L.get("schedule_url"):
                 ev["schedule_url"] = L["schedule_url"]
+            if L.get("catalogue_url"):
+                ev["catalogue_url"] = L["catalogue_url"]
             if L.get("address"):
                 ev["address"] = L["address"]
                 # If the event's displayed location is only a bare state (as
@@ -301,6 +303,7 @@ def events_from_unmatched_listings(sm_listings, matched_ids, region_color=None,
             "closes": L.get("closes"),
             "entry_url": L.get("detail_url"),
             "schedule_url": L.get("schedule_url"),
+            "catalogue_url": L.get("catalogue_url"),
             "address": L.get("address"),
         }
         out.append(ev)
