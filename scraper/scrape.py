@@ -2293,12 +2293,15 @@ _TOPDOG_ID_RE = re.compile(r"topdogevents\.com\.au/trials/(\d+)", re.I)
 
 
 def _fetch_topdog_docs(trial_id):
-    """Fetch a Top Dog event page and return {schedule_url, catalogue_url} (each
-    may be None). Both are canonical anchors: 'Download Schedule' ->
-    /trials/<id>/schedule/get and 'Download Catalogue' -> /trials/<id>/catalogue/get.
-    Top Dog EVENT pages (unlike its JS listing) are plain HTML, so a normal fetch
-    works — no browser needed. Best-effort; never raises."""
-    out = {"schedule_url": None, "catalogue_url": None}
+    """Fetch a Top Dog event page and return {schedule_url, catalogue_url,
+    address} (each may be None). The schedule/catalogue are canonical anchors:
+    'Download Schedule' -> /trials/<id>/schedule/get and 'Download Catalogue' ->
+    /trials/<id>/catalogue/get. The venue address is read from the "Get
+    Directions" Google Maps link, whose destination= parameter holds the exact
+    URL-encoded street address (more reliable than parsing the free-text venue
+    block). Top Dog EVENT pages (unlike its JS listing) are plain HTML, so a
+    normal fetch works — no browser needed. Best-effort; never raises."""
+    out = {"schedule_url": None, "catalogue_url": None, "address": None}
     url = f"https://www.topdogevents.com.au/trials/{trial_id}"
     try:
         resp = fetch(url)
@@ -2324,6 +2327,17 @@ def _fetch_topdog_docs(trial_id):
                 "download catalogue" in txt
                 or re.search(r"/trials/\d+/catalogue/get", href, re.I)):
             out["catalogue_url"] = full
+        elif out["address"] is None and "google.com/maps" in href.lower():
+            # "Get Directions" link: destination=<url-encoded address>.
+            m = re.search(r"[?&](?:destination|q|query)=([^&]+)", href, re.I)
+            if m:
+                from urllib.parse import unquote_plus
+                addr = unquote_plus(m.group(1)).strip()
+                # Sanity: a real address has a comma and some length; skip a bare
+                # lat/long or a stray maps link.
+                if len(addr) >= 8 and "," in addr and not re.match(
+                        r"^-?\d+\.\d+,\s*-?\d+\.\d+$", addr):
+                    out["address"] = addr
     return out
 
 
@@ -2350,10 +2364,12 @@ def _enrich_topdog_schedules(events):
         u = str(e.get("entry_url") or e.get("url") or "")
         return bool(_TOPDOG_ID_RE.search(u))
 
-    # Target Top Dog events missing EITHER a schedule or a catalogue link.
+    # Target Top Dog events missing a schedule, a catalogue, OR a real venue
+    # address (all three come from the same event-page fetch).
     targets = []
     for e in events:
-        if e.get("schedule_url") and e.get("catalogue_url"):
+        if (e.get("schedule_url") and e.get("catalogue_url")
+                and not _is_bare_state_location(e.get("location"))):
             continue
         if not _is_topdog(e):
             continue
@@ -2419,7 +2435,7 @@ def _enrich_topdog_schedules(events):
           f"{len(todays)} of {len(targets)} Top Dog events missing a "
           f"schedule/catalogue ({n_window} in catalogue window, checked daily; "
           f"~{req_delay:.1f}s apart)...", file=sys.stderr)
-    n_sched = n_cat = 0
+    n_sched = n_cat = n_addr = 0
     for i, (e, tid) in enumerate(todays, 1):
         docs = _fetch_topdog_docs(tid)
         if docs["schedule_url"] and not e.get("schedule_url"):
@@ -2428,11 +2444,16 @@ def _enrich_topdog_schedules(events):
         if docs["catalogue_url"] and not e.get("catalogue_url"):
             e["catalogue_url"] = docs["catalogue_url"]
             n_cat += 1
+        # Upgrade the displayed location to the real venue address when the event
+        # only has a bare state / club name (mirrors the Show Manager cross-fill).
+        if docs["address"] and _is_bare_state_location(e.get("location")):
+            e["location"] = docs["address"]
+            n_addr += 1
         if req_delay and i < len(todays):
             time.sleep(req_delay)
-    print(f"[topdog-docs] captured {n_sched} schedule(s), {n_cat} catalogue(s)",
-          file=sys.stderr)
-    return n_sched + n_cat
+    print(f"[topdog-docs] captured {n_sched} schedule(s), {n_cat} catalogue(s), "
+          f"{n_addr} address(es)", file=sys.stderr)
+    return n_sched + n_cat + n_addr
 
 
 def _seed_addresses_from_prior(events):
