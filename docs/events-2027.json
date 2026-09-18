@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T19:42:59+00:00",
+  "generated": "2026-09-18T19:01:41+00:00",
   "year": 2027,
   "count": 633,
   "sources": [
@@ -329,11 +329,10 @@
       "verified": true,
       "closes": "2027-01-17",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50081",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf",
-      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
-      "club": "Southern Obedience Dog Training Club",
+      "club": "Southern Obedience Dog Training Club Obedience & Rally Twilight Trial",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf"
     },
     {
       "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
