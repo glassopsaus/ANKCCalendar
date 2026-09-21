@@ -1595,8 +1595,9 @@ _NON_TRIAL_NAME_RE = re.compile(
 # the name also contains "Trial" (e.g. "2026 Scent Work State Trial Merchandise"
 # is merchandise FOR a trial series, not a trial).
 _PRODUCT_NAME_RE = re.compile(
-    r"\bcamping\b|\bcamp\s*site|\bvoucher\b|\bmerch(andise)?\b|title\s+ribbon|"
-    r"\bribbons?\b|\bdonation\b|sponsor(ship)?|\bpolo\b|\bt-?shirt|\bhoodie\b|"
+    r"\bcamping\b|\bcamp\s*site|\bvoucher\b|\bmerch(andise)?\b|"
+    r"title\s+ribbons?|ribbon\s+(order|collection|pack|bundle|purchase)|"
+    r"\bdonation\b|sponsor(ship)?|\bpolo\b|\bt-?shirt|\bhoodie\b|"
     r"\bmug\b|meal\s+deal|\bmeals?\b|dinner\s+ticket|pickup\s+only",
     re.I)
 
