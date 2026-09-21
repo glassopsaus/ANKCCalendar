@@ -172,8 +172,9 @@ _SM_NON_TRIAL_RE = re.compile(
 # Product / add-on listings that are NEVER events — drop UNCONDITIONALLY, even
 # when the name also contains "Trial" (e.g. "... State Trial Merchandise").
 _SM_PRODUCT_RE = re.compile(
-    r"\bcamping\b|\bcamp\s*site|\bvoucher\b|\bmerch(andise)?\b|title\s+ribbon|"
-    r"\bribbons?\b|\bdonation\b|sponsor(ship)?|\bpolo\b|\bt-?shirt|"
+    r"\bcamping\b|\bcamp\s*site|\bvoucher\b|\bmerch(andise)?\b|"
+    r"title\s+ribbons?|ribbon\s+(order|collection|pack|bundle|purchase)|"
+    r"\bdonation\b|sponsor(ship)?|\bpolo\b|\bt-?shirt|"
     r"\bhoodie\b|\bcap\b|\bmug\b|meal\s+deal|\bmeals?\b|dinner\s+ticket|"
     r"pickup\s+only",
     re.I)
