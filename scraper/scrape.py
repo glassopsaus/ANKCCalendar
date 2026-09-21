@@ -2053,6 +2053,18 @@ def _clean_club_name(club):
     suffix that rode along in a source's own club field is cleaned uniformly."""
     if not club:
         return club
+    # Show Manager product/add-on rows read "<product> (<Real Club Name>)", e.g.
+    # "NSWLCA CAMPING MARCHMONT (NSW Lure Coursing Association)". When the prefix
+    # before the parentheses is a non-event product term, use the parenthesized
+    # real club name instead.
+    m = re.match(r"^(.*?)\s*\(([^)]+)\)\s*$", club)
+    if m:
+        prefix, paren = m.group(1), m.group(2).strip()
+        if re.search(r"\bcamping\b|\bcamp\s*site|\bvoucher\b|merch|title\s+ribbon|"
+                     r"\bribbons?\b|\bdonation\b|sponsor|\bpolo\b|\bt-?shirt|"
+                     r"\bhoodie\b|\bmeals?\b|meal\s+deal", prefix, re.I) \
+                and re.search(r"club|kennel|association|society|inc\b", paren, re.I):
+            club = paren
     club = re.sub(r"\s*[\u2013\u2014-]\s*(?:"
                   r"rally\s*obedience|rally\s*o|scent\s*work|scentwork|"
                   r"track\s*&?\s*search|tracking|obedience|rally|agility|"
