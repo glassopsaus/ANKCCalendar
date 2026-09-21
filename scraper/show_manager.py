@@ -166,13 +166,16 @@ _SM_NON_TRIAL_RE = re.compile(
     r"presentation\s+(night|day)|awards?\s+(night|day)|garage\s+sale|"
     r"membership|working\s+party\s+meeting|committee\s+meeting|\bmeeting\b|"
     r"open\s+day|fun\s*day|come\s*(and\s*)?try|information\s+(day|night)|"
-    r"seminar|workshop|training\s+(day|session|night)|\bclass(es)?\b|"
-    # Show Manager 'products' / add-ons that are filed under a discipline's
-    # Event Type but are NOT events: camping passes, food/meal vouchers,
-    # merchandise, title ribbons, donations, sponsorship, catalogues-for-sale.
+    r"seminar|workshop|training\s+(day|session|night)|\bclass(es)?\b",
+    re.I)
+
+# Product / add-on listings that are NEVER events — drop UNCONDITIONALLY, even
+# when the name also contains "Trial" (e.g. "... State Trial Merchandise").
+_SM_PRODUCT_RE = re.compile(
     r"\bcamping\b|\bcamp\s*site|\bvoucher\b|\bmerch(andise)?\b|title\s+ribbon|"
     r"\bribbons?\b|\bdonation\b|sponsor(ship)?|\bpolo\b|\bt-?shirt|"
-    r"\bhoodie\b|\bcap\b|\bmug\b|meal\s+deal|\bmeals?\b|dinner\s+ticket",
+    r"\bhoodie\b|\bcap\b|\bmug\b|meal\s+deal|\bmeals?\b|dinner\s+ticket|"
+    r"pickup\s+only",
     re.I)
 
 
@@ -421,6 +424,10 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
                 # fall back to the 2nd cell text
                 name = cell_texts[1] if len(cell_texts) > 1 else ""
 
+            # Products/add-ons (merchandise, camping, vouchers, ribbons) are
+            # never events — drop unconditionally, even if the name says "Trial".
+            if _SM_PRODUCT_RE.search(name):
+                continue
             # Drop non-competition items (raffles, socials, AGMs, workshops,
             # etc.) even when filed under a discipline's Event Type — UNLESS the
             # name also names an actual trial/test (so a real "... Trial" that
