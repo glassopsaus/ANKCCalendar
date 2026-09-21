@@ -45,9 +45,11 @@ try:
 except Exception:
     HAVE_BS4 = False
 
-# The site serves the full events table on the www. host. It also serves a
-# stripped page to unusual User-Agents, so we send a browser-like UA to get the
-# complete content (a custom UA returned only a couple of rows).
+# The Dogs SA "upcoming events" page injects its event table client-side (a
+# plain HTTP GET returns only the page shell). So we render it with a headless
+# browser (Playwright) to get the full table HTML, then parse that. If Playwright
+# isn't available we fall back to a plain fetch (which yields little, but never
+# errors).
 SA_EVENTS_URL = "https://www.dogssa.com.au/events/upcoming-events"
 SA_SOURCE_NAME = "Dogs SA"
 SA_COLOR = "#c9a227"   # SA's region colour (matches REGION_COLOR in scrape.py)
@@ -164,20 +166,69 @@ def _split_club_discipline(cell):
     return club, venue
 
 
+def _render_sa_html():
+    """Render the JS-injected SA upcoming-events page with a headless browser and
+    return its full HTML, or None if Playwright can't run. We wait for the event
+    table (rows containing "Entries Close") to appear before capturing."""
+    try:
+        from playwright.sync_api import sync_playwright
+    except Exception as e:
+        print(f"[sa] Playwright unavailable ({e}); falling back to plain fetch",
+              file=sys.stderr)
+        return None
+    html = None
+    try:
+        with sync_playwright() as p:
+            try:
+                browser = p.chromium.launch(headless=True)
+            except Exception as e:
+                print(f"[sa] Chromium launch failed: {e}", file=sys.stderr)
+                return None
+            ctx = browser.new_context(user_agent=HEADERS["User-Agent"])
+            page = ctx.new_page()
+            try:
+                page.goto(SA_EVENTS_URL, wait_until="networkidle", timeout=45000)
+            except Exception:
+                pass
+            # Give the client-side table a moment to populate; wait for a cell
+            # that only exists once events have loaded.
+            try:
+                page.wait_for_function(
+                    "document.body && document.body.innerText."
+                    "toLowerCase().includes('entries close')",
+                    timeout=15000)
+            except Exception:
+                pass
+            try:
+                html = page.content()
+            except Exception:
+                html = None
+            browser.close()
+    except Exception as e:
+        print(f"[sa] render error: {e}", file=sys.stderr)
+        return html
+    return html
+
+
 def parse_sa_calendar(year):
     """Return Dogs SA sport-trial events for `year` from the upcoming-events
     HTML table. Region always 'SA'. Fail-safe: [] on any problem."""
     if not HAVE_BS4:
         print("[sa] bs4 not installed; skipping Dogs SA", file=sys.stderr)
         return []
-    try:
-        r = requests.get(SA_EVENTS_URL, headers=HEADERS, timeout=TIMEOUT)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"[sa] fetch failed: {e}", file=sys.stderr)
-        return []
+    # The event table is injected client-side, so render the page with a headless
+    # browser first. Fall back to a plain fetch only if rendering is unavailable.
+    html = _render_sa_html()
+    if not html:
+        try:
+            r = requests.get(SA_EVENTS_URL, headers=HEADERS, timeout=TIMEOUT)
+            r.raise_for_status()
+            html = r.text
+        except Exception as e:
+            print(f"[sa] fetch failed: {e}", file=sys.stderr)
+            return []
 
-    soup = BeautifulSoup(r.text, "html.parser")
+    soup = BeautifulSoup(html, "html.parser")
     events = []
     seen = set()
     cur_month = None
