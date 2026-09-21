@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-21T13:04:38+00:00",
+  "generated": "2026-09-21T13:34:36+00:00",
   "year": 2026,
-  "count": 2829,
+  "count": 2858,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -46550,7 +46550,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -46810,6 +46811,29 @@
       "club": "Munno Para Dog Obedience Club"
     },
     {
+      "title": "Munno Para Dog \u2013 Rally Obedience",
+      "club": "Munno Para Dog",
+      "start": "2026-09-26",
+      "end": "2026-09-26",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Rally Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-18",
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Murrumbidgee Kennel Club \u2013 Conformation",
       "start": "2026-09-26",
       "end": "2026-09-27",
@@ -46846,7 +46870,8 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -47426,6 +47451,29 @@
       "is_past": false
     },
     {
+      "title": "Southern Districts Kennel & \u2013 Rally Obedience",
+      "club": "Southern Districts Kennel &",
+      "start": "2026-09-27",
+      "end": "2026-09-27",
+      "location": "Morphett Vale",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Rally Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-16",
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "SprintDog Trial",
       "start": "2026-09-27",
       "end": "2026-09-27",
@@ -47452,6 +47500,29 @@
       "open_now": false,
       "is_past": false,
       "club": "St Ives Showground, Mona Vale Rd, St Ives"
+    },
+    {
+      "title": "The Adelaide Hills Kennel Club Inc \u2013 Sprint",
+      "club": "The Adelaide Hills Kennel Club Inc \u2013 Sprint",
+      "start": "2026-09-27",
+      "end": "2026-09-27",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-18",
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "CCKC 28th September SW Container Trial",
@@ -47861,7 +47932,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -47871,6 +47943,29 @@
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/1750/schedule/get",
       "club": "Gawler Dog Training Club Inc."
+    },
+    {
+      "title": "Agility Dog Club of SA Inc \u2013 Agility",
+      "club": "Agility Dog Club of SA Inc",
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "location": "Golflands Reserve, Glenelg",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Agility",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-21",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Border Collie Club of NSW Inc \u2013 Obedience",
@@ -48226,7 +48321,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -48286,6 +48382,29 @@
       "open_now": true,
       "is_past": false,
       "club": "Lure Coursing Tasmania"
+    },
+    {
+      "title": "The Adelaide Hills Kennel Club Inc \u2013 Conformation",
+      "club": "The Adelaide Hills Kennel Club Inc \u2013 Conformation",
+      "start": "2026-10-03",
+      "end": "2026-10-03",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-28",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Track & Search Trial October 2026",
@@ -48692,6 +48811,29 @@
       "club": "Penrith Kennel & Obedience Club Inc"
     },
     {
+      "title": "SA Obedience Dog Club Inc \u2013 Rally Obedience",
+      "club": "SA Obedience Dog Club Inc",
+      "start": "2026-10-04",
+      "end": "2026-10-04",
+      "location": "Beaumont Road, South Parklands",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Rally Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-21",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "SAODC Obedience, Rally and Double Trick Test Trial",
       "start": "2026-10-04",
       "end": "2026-10-04",
@@ -48760,6 +48902,29 @@
       "open_now": true,
       "is_past": false,
       "club": "Lure Coursing Tasmania"
+    },
+    {
+      "title": "The Adelaide Hills Kennel Club Inc \u2013 Conformation",
+      "club": "The Adelaide Hills Kennel Club Inc \u2013 Conformation",
+      "start": "2026-10-04",
+      "end": "2026-10-04",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-28",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Cairn Terrier Club of NSW Inc \u2013 Conformation",
@@ -48876,7 +49041,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -48885,6 +49051,29 @@
       "open_now": true,
       "is_past": false,
       "club": "Para District Obedience Dog Club"
+    },
+    {
+      "title": "The Adelaide Hills Kennel Club Inc \u2013 Conformation",
+      "club": "The Adelaide Hills Kennel Club Inc \u2013 Conformation",
+      "start": "2026-10-05",
+      "end": "2026-10-05",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-28",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Walbundrie Show Society Inc \u2013 Conformation",
@@ -49456,6 +49645,29 @@
       "club": "Noarlunga City Obedience Dog Club Inc"
     },
     {
+      "title": "Noarlunga City \u2013 Obedience",
+      "club": "Noarlunga City",
+      "start": "2026-10-10",
+      "end": "2026-10-10",
+      "location": "Pimpala Primary School",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-28",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "October 2026 Obedience Trials",
       "start": "2026-10-10",
       "end": "2026-10-10",
@@ -49722,6 +49934,31 @@
       "is_past": false
     },
     {
+      "title": "Adelaide Lure Coursing & Racing Club Inc \u2013 Lure Coursing",
+      "club": "ADELAIDE LURE COURSING & RACING CLUB INC",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "location": "Kapunda Harness Racing Club",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Lure Coursing",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA",
+        "Show Manager"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-02",
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49907",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49907/ADELAIDELURECOURSINGRACINGCLUBINC_11-Oct-2026_LURE_49907_Schedule_20260901_cUUPUomxIECcOu5_6e-r6A.pdf"
+    },
+    {
       "title": "Australian Kelpie Club of NSW Inc \u2013 Conformation",
       "start": "2026-10-11",
       "end": "2026-10-11",
@@ -49865,6 +50102,29 @@
       "open_now": true,
       "is_past": false,
       "club": "Dances with Dogs Trial (Double) \u2013 ACTCDC"
+    },
+    {
+      "title": "Dover Garden Kennel & \u2013 Rally Obedience",
+      "club": "Dover Garden Kennel &",
+      "start": "2026-10-11",
+      "end": "2026-10-11",
+      "location": "Bradley Grove Mitchell Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Rally Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-23",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Dover Gardens October Obedience and Rally Trials",
@@ -50145,29 +50405,29 @@
       "club": "Redlands Dog Obedience Club Inc"
     },
     {
-      "title": "Marion Kennel Club of SA Scent Work Trial - Advanced Vehicles",
+      "title": "Marion Kennel Club Inc \u2013 Scent Work",
+      "club": "Marion Kennel Club Inc",
       "start": "2026-10-13",
       "end": "2026-10-13",
-      "location": "Marion Kennel Club Inc.",
-      "url": "https://www.topdogevents.com.au/trials/2093",
+      "location": "Jenkins Reserve, Saints Road, Salisbury",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
       "category": "Scent Work",
-      "cancelled": false,
       "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-10-05",
-      "topdog_open": true,
-      "source": "Top Dog Events",
+      "source": "Dogs SA",
       "sources": [
+        "Dogs SA",
         "Top Dog Events"
       ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-05",
+      "topdog_open": true,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2093",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2093/schedule/get",
-      "club": "Marion Kennel Club Inc."
+      "is_past": false
     },
     {
       "title": "Agility Trial (Ribbon) \u2013 TDTC",
@@ -50383,6 +50643,31 @@
       "club": "Scent Work Trial \u2013 TDTC"
     },
     {
+      "title": "Staffordshire Bull Terrier Club of SA Inc \u2013 Conformation",
+      "club": "Staffordshire Bull Terrier Club of SA Inc \u2013 Conformation",
+      "start": "2026-10-16",
+      "end": "2026-10-16",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-07",
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "staffordshire bull terrier",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "All Star Dog Sports \u2013 Agility",
       "start": "2026-10-17",
       "end": "2026-10-17",
@@ -50477,6 +50762,31 @@
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW SprintDog\u2122\ufe0fWorking Party \u2013 Sled Sports"
+    },
+    {
+      "title": "Hound Club of SA Inc \u2013 Conformation",
+      "club": "Hound Club of SA Inc \u2013 Conformation",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "location": "Schedule September Magazine",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-13",
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "hound",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Kyabram A & P Society Inc AM",
@@ -50706,7 +51016,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -50785,6 +51096,30 @@
       "is_past": false
     },
     {
+      "title": "The Pointer Club of SA Inc \u2013 Sprint",
+      "club": "The Pointer Club of SA Inc \u2013 Sprint",
+      "start": "2026-10-17",
+      "end": "2026-10-17",
+      "location": "Williamstown Oval",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Townsville \u2013 Scent Work",
       "club": "Townsville",
       "start": "2026-10-17",
@@ -50858,6 +51193,58 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/48989/WERRIBEEOBEDIENCEDOGCLUBINCRallyObedienceTrial1_17-Oct-2026_OB_48989_Schedule_20260912_OWXe9HCvsEKeVVhjVeZ5RA.pdf"
     },
     {
+      "title": "Border Collie Club of SA Inc \u2013 Agility",
+      "club": "Border Collie Club of SA Inc",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "location": "Elliott Goodger Memorial Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Agility",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA",
+        "Top Dog Events"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-13",
+      "breed_group": "Group 5 (Working Dogs)",
+      "breed": "border collie",
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1921",
+      "open_now": true,
+      "is_past": false
+    },
+    {
+      "title": "Chihuahua Club of SA Inc \u2013 Conformation",
+      "club": "Chihuahua Club of SA Inc \u2013 Conformation",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-15",
+      "breed_group": "Group 1 (Toys)",
+      "breed": "chihuahua",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "DOGS NSW SprintDog\u2122\ufe0f Working Party \u2013 Sled Sports",
       "start": "2026-10-18",
       "end": "2026-10-18",
@@ -50925,30 +51312,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Echuca & District Kennel Club Inc AM"
-    },
-    {
-      "title": "Group 5 Agility/Jumping/Games",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "location": "Border Collie Club of South Australia Inc.",
-      "url": "https://www.topdogevents.com.au/trials/1921",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-10-13",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1921",
-      "open_now": true,
-      "is_past": false,
-      "club": "Border Collie Club of South Australia Inc."
     },
     {
       "title": "Lure Coursing Trial Whippet Club",
@@ -51036,7 +51399,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -51094,6 +51458,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Sutherland Shire Dog Training Club Inc"
+    },
+    {
+      "title": "The Pointer Club of SA Inc \u2013 Sprint",
+      "club": "The Pointer Club of SA Inc \u2013 Sprint",
+      "start": "2026-10-18",
+      "end": "2026-10-18",
+      "location": "Williamstown Oval",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Working Gundog Club of NSW \u2013 Retrieving",
@@ -51254,6 +51642,29 @@
       "club": "Oxley Dog Training Club Inc \u2013 Sled Sports"
     },
     {
+      "title": "Port Pirie Kennel Club Inc \u2013 Conformation",
+      "club": "Port Pirie Kennel Club Inc \u2013 Conformation",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "location": "Bowman Park, Crystal Brook",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-21",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Western Districts Boxer Club of NSW Inc \u2013 Scent Work",
       "start": "2026-10-23",
       "end": "2026-10-23",
@@ -51356,6 +51767,29 @@
       "is_past": false
     },
     {
+      "title": "Blue Lake \u2013 Rally Obedience",
+      "club": "Blue Lake",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "location": "Mount Gambier",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Rally Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-14",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Bundaberg \u2013 Obedience",
       "club": "Bundaberg",
       "start": "2026-10-24",
@@ -51448,6 +51882,33 @@
       "club": "Fairfield & District All Breeds Kennel Club \u2013 Conformation"
     },
     {
+      "title": "Gundog Club of SA Inc \u2013 Sprint",
+      "club": "Gundog Club of S.A. Inc",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "location": "Saints Road, Salisbury, SA, 5108",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA",
+        "Top Dog Events",
+        "Show Manager"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-03",
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1920",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1920/schedule/get"
+    },
+    {
       "title": "Hungarian Vizsla Club of NSW Inc \u2013 Scent Work",
       "start": "2026-10-24",
       "end": "2026-10-24",
@@ -51524,6 +51985,30 @@
       "club": "Knox Obedience Dog Club Inc."
     },
     {
+      "title": "Mount City & Districts Kennel Club \u2013 Sprint",
+      "club": "Sprintdog Camping  (Mount City & District Kennel Club Inc)",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "location": "South Gambier Football Club, Mount Gambier",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA",
+        "Show Manager"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/activity/5112",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "October 2026",
       "start": "2026-10-24",
       "end": "2026-10-25",
@@ -51549,6 +52034,29 @@
       "club": "Tasmanian Dog Training Club Inc."
     },
     {
+      "title": "Port Pirie Kennel Club Inc \u2013 Conformation",
+      "club": "Port Pirie Kennel Club Inc \u2013 Conformation",
+      "start": "2026-10-24",
+      "end": "2026-10-24",
+      "location": "Bowman Park, Crystal Brook",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-21",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Scentwork Trial Scentwork Club \u2013 Scent Work",
       "club": "Scentwork Trial Scentwork Club",
       "start": "2026-10-24",
@@ -51569,32 +52077,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "SprintDog",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "location": "Gundog Club of S.A. Inc",
-      "url": "https://www.topdogevents.com.au/trials/1920",
-      "category": "Sprint",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-10-09",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events",
-        "Show Manager"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.showmanager.com.au/activity/5112",
-      "club": "Sprintdog Camping  (Mount City & District Kennel Club Inc)",
-      "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1920/schedule/get"
     },
     {
       "title": "Sw Sub C\u2019Tee (State Trials) \u2013 Scent Work",
@@ -51664,6 +52146,29 @@
       "open_now": false,
       "is_past": false,
       "club": "Victorian Herding Association"
+    },
+    {
+      "title": "Blue Lake \u2013 Rally Obedience",
+      "club": "Blue Lake",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "location": "Mount Gambier",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Rally Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-14",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Brush Farm Dog Training Club Inc \u2013 Rally Obedience",
@@ -51903,29 +52408,29 @@
       "is_past": false
     },
     {
-      "title": "Gundog Club of SA NX, AX, AV, EX, EV, MX Scent Work Trial",
+      "title": "Gundog Club of SA Inc \u2013 Scent Work",
+      "club": "Gundog Club of SA Inc",
       "start": "2026-10-25",
       "end": "2026-10-25",
-      "location": "Gundog Club of S.A. Inc",
-      "url": "https://www.topdogevents.com.au/trials/1858",
+      "location": "Henley Beach High School",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
       "category": "Scent Work",
-      "cancelled": false,
       "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-10-19",
-      "topdog_open": true,
-      "source": "Top Dog Events",
+      "source": "Dogs SA",
       "sources": [
+        "Dogs SA",
         "Top Dog Events"
       ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-13",
+      "topdog_open": true,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1858",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1858/schedule/get",
-      "club": "Gundog Club of S.A. Inc"
+      "is_past": false
     },
     {
       "title": "Hoopers Trial - Brunswick Show",
@@ -51950,6 +52455,53 @@
       "open_now": true,
       "is_past": false,
       "club": "Diverse Sport Dogs"
+    },
+    {
+      "title": "Mount City & Districts Kennel Club \u2013 Sprint",
+      "club": "Mount City & District Kennel Club Sprintdog",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "location": "South Gambier Football Club, Mount Gambier",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA",
+        "Show Manager"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-09",
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49828",
+      "open_now": true,
+      "is_past": false
+    },
+    {
+      "title": "Port Pirie Kennel Club Inc \u2013 Conformation",
+      "club": "Port Pirie Kennel Club Inc \u2013 Conformation",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "location": "Bowman Park, Crystal Brook",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-21",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Warragul & District Kennel & Obedience Club Inc",
@@ -52021,29 +52573,53 @@
       "is_past": false
     },
     {
-      "title": "Marion Kennel Club of SA Scent Trial - Advanced Exterior",
+      "title": "Marion Kennel Club Inc \u2013 Scent Work",
+      "club": "Marion Kennel Club Inc",
       "start": "2026-10-27",
       "end": "2026-10-27",
-      "location": "Marion Kennel Club Inc.",
-      "url": "https://www.topdogevents.com.au/trials/2134",
+      "location": "Jenkins Reserve, Saints Road, Salisbury",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
       "category": "Scent Work",
-      "cancelled": false,
       "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-10-19",
-      "topdog_open": true,
-      "source": "Top Dog Events",
+      "source": "Dogs SA",
       "sources": [
+        "Dogs SA",
         "Top Dog Events"
       ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-19",
+      "topdog_open": true,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2134",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2134/schedule/get",
-      "club": "Marion Kennel Club Inc."
+      "is_past": false
+    },
+    {
+      "title": "Beagle Club of Victoria Inc 2026 National \u2013 Conformation",
+      "club": "Beagle Club of Victoria Inc 2026 National \u2013 Conformation",
+      "start": "2026-10-28",
+      "end": "2026-10-28",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "beagle",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Poodle Club of Victoria Inc",
@@ -52088,6 +52664,30 @@
       "status_label": "Approved (unverified)",
       "verified": false,
       "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Beagle Club of Victoria Inc 2026 National \u2013 Conformation",
+      "club": "Beagle Club of Victoria Inc 2026 National \u2013 Conformation",
+      "start": "2026-10-29",
+      "end": "2026-10-29",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "beagle",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
       "open_now": false,
       "is_past": false
     },
@@ -52488,7 +53088,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -52847,7 +53448,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -53175,7 +53777,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -53254,6 +53857,52 @@
       "status_label": "Approved (unverified)",
       "verified": false,
       "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Murray Valley Kennel Club Inc \u2013 Conformation",
+      "club": "Murray Valley Kennel Club Inc \u2013 Conformation",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "location": "David Roche Park, Kilburn",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-23",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Southern Districts Kennel & \u2013 Scent Work",
+      "club": "Southern Districts Kennel &",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "location": "Elizabeth House, Christies Downs",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Scent Work",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-10-24",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
       "open_now": false,
       "is_past": false
     },
@@ -53446,6 +54095,30 @@
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50966-SCHEDULE-Yuggera-Canine-Club-(QLD)-V1.pdf"
     },
     {
+      "title": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla \u2013 Conformation",
+      "club": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla \u2013 Conformation",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Obedience Trial (PM) \u2013 ACTCDC",
       "start": "2026-11-05",
       "end": "2026-11-05",
@@ -53513,6 +54186,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Central Gippsland Kennel Club Inc"
+    },
+    {
+      "title": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla \u2013 Conformation",
+      "club": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla \u2013 Conformation",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Far South East Kennel Club \u2013 Conformation",
@@ -53746,6 +54443,30 @@
       "club": "Coffs Harbour Dog Training Club Inc"
     },
     {
+      "title": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla \u2013 Conformation",
+      "club": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla \u2013 Conformation",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Dogs Victoria Top Dog State Event",
       "start": "2026-11-07",
       "end": "2026-11-07",
@@ -53789,6 +54510,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Fast Paws Sydney Inc \u2013 Sled Sports"
+    },
+    {
+      "title": "Gawler Kennel Club Inc \u2013 Conformation",
+      "club": "Gawler Kennel Club Inc \u2013 Conformation",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Geelong Obedience Dog Club",
@@ -53926,6 +54669,29 @@
       "open_now": true,
       "is_past": false,
       "club": "Redlands Dog Obedience Club Inc"
+    },
+    {
+      "title": "SA Obedience Dog Club Inc \u2013 Obedience",
+      "club": "SA Obedience Dog Club Inc",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "Beaumont Road",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-09-29",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "SAODC Obedience and Trick Dog Test Trial",
@@ -54071,6 +54837,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Far South East Kennel Club \u2013 Conformation"
+    },
+    {
+      "title": "Gawler Kennel Club Inc \u2013 Conformation",
+      "club": "Gawler Kennel Club Inc \u2013 Conformation",
+      "start": "2026-11-08",
+      "end": "2026-11-08",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Gippsland Obedience Dog Club Inc",
@@ -54349,6 +55137,29 @@
       "club": "Tweed River Canine Club \u2013 Conformation"
     },
     {
+      "title": "Adelaide Districts Working Dog Club Inc and Welsh Corgi Club of SA Inc \u2013 Conformation",
+      "club": "Adelaide Districts Working Dog Club Inc and Welsh Corgi Club of SA Inc \u2013 Conformation",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-12",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Agility Dog Club of NSW Inc \u2013 Agility",
       "start": "2026-11-14",
       "end": "2026-11-14",
@@ -54538,6 +55349,29 @@
       "is_past": false
     },
     {
+      "title": "Southern Districts Kennel & \u2013 Obedience",
+      "club": "Southern Districts Kennel &",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "Morphett Vale",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-06",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Southern Obedience Dog Training Club Inc",
       "start": "2026-11-14",
       "end": "2026-11-14",
@@ -54658,6 +55492,29 @@
       "open_now": false,
       "is_past": false,
       "club": "Australian Silky Terrier Association of NSW \u2013 Conformation"
+    },
+    {
+      "title": "German Shepherd Dog Club of SA Inc \u2013 Conformation",
+      "club": "German Shepherd Dog Club of SA Inc \u2013 Conformation",
+      "start": "2026-11-15",
+      "end": "2026-11-15",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-06",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Golden Retriever Club of Victoria",
@@ -54842,6 +55699,29 @@
       "open_now": false,
       "is_past": false,
       "club": "Field Spaniel Club of NSW Inc \u2013 Sled Sports"
+    },
+    {
+      "title": "Millicent Kennel Club Inc \u2013 Conformation",
+      "club": "Millicent Kennel Club Inc \u2013 Conformation",
+      "start": "2026-11-20",
+      "end": "2026-11-20",
+      "location": "Millicent Soccer Grounds Park Terrace, Millicent",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-13",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Obedience",
@@ -55036,6 +55916,28 @@
       "club": "Dalwood Childrens Home Charity AM Show"
     },
     {
+      "title": "Gawler Dog Training Club Inc \u2013 Scent Work",
+      "club": "Gawler Dog Training Club Inc",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "location": "Elliott Goodger Memorial Park, Williston",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Scent Work",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Hastings & District Obedience Dog Club",
       "start": "2026-11-21",
       "end": "2026-11-21",
@@ -55105,6 +56007,29 @@
       "open_now": false,
       "is_past": false,
       "club": "Kyneton Agricultural Society"
+    },
+    {
+      "title": "Millicent Kennel Club Inc \u2013 Conformation",
+      "club": "Millicent Kennel Club Inc \u2013 Conformation",
+      "start": "2026-11-21",
+      "end": "2026-11-21",
+      "location": "Millicent Soccer Grounds Park Terrace, Millicent",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-13",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Obedience & Rally Trials Albany All Breeds DC",
@@ -55287,6 +56212,29 @@
       "club": "Gundog Society Inc \u2013 Conformation"
     },
     {
+      "title": "Millicent Kennel Club Inc \u2013 Conformation",
+      "club": "Millicent Kennel Club Inc \u2013 Conformation",
+      "start": "2026-11-22",
+      "end": "2026-11-22",
+      "location": "Millicent Soccer Grounds Park Terrace, Millicent",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-13",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Trick Dog Test Albany All Breeds DC",
       "club": "Trick Dog Test Albany All Breeds DC",
       "start": "2026-11-22",
@@ -55353,29 +56301,29 @@
       "is_past": false
     },
     {
-      "title": "Marion Kennel Club of SA Scent Work Trial - Advanced Vehicle",
+      "title": "Marion Kennel Club Inc \u2013 Scent Work",
+      "club": "Marion Kennel Club Inc",
       "start": "2026-11-24",
       "end": "2026-11-24",
-      "location": "Marion Kennel Club Inc.",
-      "url": "https://www.topdogevents.com.au/trials/2206",
+      "location": "Jenkins Reserve, Saints Road, Salisbury",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
       "category": "Scent Work",
-      "cancelled": false,
       "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-11-16",
-      "topdog_open": true,
-      "source": "Top Dog Events",
+      "source": "Dogs SA",
       "sources": [
+        "Dogs SA",
         "Top Dog Events"
       ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-16",
+      "topdog_open": true,
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2206",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2206/schedule/get",
-      "club": "Marion Kennel Club Inc."
+      "is_past": false
     },
     {
       "title": "DOGS NSW Spring Fair SprintDog\u2122\ufe0f \u2013 Sled Sports",
@@ -55449,6 +56397,29 @@
       "club": "Gosford City Canine Club \u2013 Conformation"
     },
     {
+      "title": "Southern Districts Kennel & \u2013 Scent Work",
+      "club": "Southern Districts Kennel &",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "location": "Wheatsheaf Road Morphett Vale",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Scent Work",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-11-10",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "State DWD Competition CAWA Events Ctee \u2013 Dances with Dogs",
       "club": "State DWD Competition CAWA Events Ctee",
       "start": "2026-11-27",
@@ -55494,6 +56465,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Tenterfield Terrier Club of NSW Inc \u2013 Conformation"
+    },
+    {
+      "title": "The Pointer Club of SA Inc \u2013 Sprint",
+      "club": "The Pointer Club of SA Inc \u2013 Sprint",
+      "start": "2026-11-27",
+      "end": "2026-11-27",
+      "location": "Williamstown Oval",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Championship Show (All Breeds) Collie & Shetland Sheepdog Club \u2013 Conformation",
@@ -55933,6 +56928,28 @@
       "club": "Hawkesbury Dog Agility Club Inc"
     },
     {
+      "title": "Noarlunga City \u2013 Obedience",
+      "club": "Onkaparinga Rugby Club, Morphett Vale",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "location": "Onkaparinga Rugby Club, Morphett Vale",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Wollondilly All Breeds Kennel Club Inc \u2013 Obedience",
       "start": "2026-12-05",
       "end": "2026-12-05",
@@ -56142,6 +57159,30 @@
       "is_past": false
     },
     {
+      "title": "The Pointer Club of SA Inc \u2013 Lure Coursing",
+      "club": "The Pointer Club of SA Inc",
+      "start": "2026-12-11",
+      "end": "2026-12-11",
+      "location": "Mount Pleasant",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Lure Coursing",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Agility Trial ACWA",
       "club": "Agility Trial ACWA",
       "start": "2026-12-12",
@@ -56278,6 +57319,30 @@
       "club": "NSW Samoyed Club \u2013 Conformation"
     },
     {
+      "title": "The Pointer Club of SA Inc \u2013 Lure Coursing",
+      "club": "The Pointer Club of SA Inc",
+      "start": "2026-12-12",
+      "end": "2026-12-12",
+      "location": "Mount Pleasant",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Lure Coursing",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Championship Show (All Breeds ) NSDC \u2013 Conformation",
       "club": "Championship Show (All Breeds ) NSDC \u2013 Conformation",
       "start": "2026-12-13",
@@ -56296,6 +57361,28 @@
       "status_label": "Approved (unverified)",
       "verified": false,
       "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Canine Fanciers Kennel Club Inc \u2013 Conformation",
+      "club": "Canine Fanciers Kennel Club Inc \u2013 Conformation",
+      "start": "2026-12-18",
+      "end": "2026-12-18",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
       "open_now": false,
       "is_past": false
     },
@@ -56320,6 +57407,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
+    },
+    {
+      "title": "Canine Fanciers Kennel Club Inc. \u2013 Conformation",
+      "club": "Canine Fanciers Kennel Club Inc. \u2013 Conformation",
+      "start": "2026-12-19",
+      "end": "2026-12-19",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "DOGS NSW Events Committee \u2013 Conformation",
@@ -56389,6 +57498,30 @@
       "club": "Lancefield Kennel Club Inc AM"
     },
     {
+      "title": "The Pointer Club of SA Inc \u2013 Sprint",
+      "club": "The Pointer Club of SA Inc \u2013 Sprint",
+      "start": "2026-12-27",
+      "end": "2026-12-27",
+      "location": "Mount Pleasant",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Bay City All Breeds Kennel Club \u2013 Conformation",
       "start": "2026-12-28",
       "end": "2026-12-29",
@@ -56434,6 +57567,30 @@
       "club": "Central Highland Kennel Club Inc AM"
     },
     {
+      "title": "The Pointer Club of SA Inc \u2013 Sprint",
+      "club": "The Pointer Club of SA Inc \u2013 Sprint",
+      "start": "2026-12-28",
+      "end": "2026-12-28",
+      "location": "Mount Pleasant",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Medowie & District All Breeds Kennel Club \u2013 Conformation",
       "start": "2026-12-29",
       "end": "2026-12-30",
@@ -56477,6 +57634,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria New Years Committee AM"
+    },
+    {
+      "title": "Gawler Dog Training Club Inc \u2013 Rally Obedience",
+      "club": "Gawler Dog Training Club Inc",
+      "start": "2026-12-31",
+      "end": "2026-12-31",
+      "location": "South Australia",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Rally Obedience",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Newcastle Toy & All Breeds Kennel Club \u2013 Conformation",
@@ -67011,32 +68190,6 @@
       "is_past": false
     },
     {
-      "title": "ADELAIDE LURE COURSING & RACING CLUB INC \u2013 Lure Coursing",
-      "club": "ADELAIDE LURE COURSING & RACING CLUB INC",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "location": "Other, 0, SA",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49907",
-      "category": "Lure Coursing",
-      "region": "SA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-10-02",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49907",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49907/ADELAIDELURECOURSINGRACINGCLUBINC_11-Oct-2026_LURE_49907_Schedule_20260901_cUUPUomxIECcOu5_6e-r6A.pdf",
-      "catalogue_url": null,
-      "address": null,
-      "open_now": true,
-      "is_past": false
-    },
-    {
       "title": "Basenji Club of NSW Inc \u2013 Sprint",
       "club": "Basenji Club of NSW Inc \u2013 Sprint",
       "start": "2026-10-11",
@@ -67086,32 +68239,6 @@
       "catalogue_url": null,
       "address": "LCA Lure Coursing, South Western Highway, Waterloo, 6228, WA",
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Rosette & Sash Sponsorship ALCRC OCT Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC) \u2013 Lure Coursing",
-      "club": "Rosette & Sash Sponsorship ALCRC OCT Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC)",
-      "start": "2026-10-11",
-      "end": "2026-10-11",
-      "location": "",
-      "url": "https://www.showmanager.com.au/activity/4405",
-      "category": "Lure Coursing",
-      "region": "SA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-09-20",
-      "entry_url": "https://www.showmanager.com.au/activity/4405",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "address": null,
-      "open_now": false,
       "is_past": false
     },
     {
@@ -68725,452 +69852,6 @@
       "schedule_url": "https://vicdog.com/wp-content/uploads/2026/01/20260124-Southern-Obedience-Schedule.pdf",
       "catalogue_url": null,
       "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Adelaide Lure Coursing & Racing Club Inc \u2013 Lure Coursing",
-      "club": "Adelaide Lure Coursing & Racing Club Inc \u2013 Lure Coursing",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Roseworthy Campus",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Lure Coursing",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA",
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-07-26",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49314",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Agility Dog Club of SA Inc \u2013 Agility",
-      "club": "Agility Dog Club of SA Inc",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Golflands Reserve, Glenelg",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Agility",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-17",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Border Collie Club of SA Inc \u2013 Herding",
-      "club": "Border Collie Club of SA Inc \u2013 Herding",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Murray Bridge",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Herding",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA",
-        "Top Dog Events"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-03",
-      "breed_group": "Group 5 (Working Dogs)",
-      "breed": "border collie",
-      "topdog_open": true,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1831",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Canine Fanciers Kennel Club Inc. \u2013 Conformation",
-      "club": "Canine Fanciers Kennel Club Inc. \u2013 Conformation",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "David Roche Park",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Conformation",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-27",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "DOGS SA \u2013 Earthdog",
-      "club": "David Roche Park",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "David Roche Park",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Earthdog",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-07",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dalmatian Association of Queensland Inc- 2026 National- Restricted Agility Trial, Obedience Trial, and \u2013 Rally Obedience",
-      "club": "Dalmatian Association of Queensland Inc- 2026 National- Restricted Agility Trial, Obedience Trial, and \u2013 Rally Obedience",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "South Australia",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Rally Obedience",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dances with Dogs Club of SA Inc \u2013 Dances with Dogs",
-      "club": "Virginia Community Centre",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Virginia Community Centre",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Dances with Dogs",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-07-26",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs SA RAFT Advisory Committee \u2013 Retrieving",
-      "club": "Dogs SA RAFT Advisory Committee \u2013 Retrieving",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "South Australia",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Retrieving",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-22",
-      "breed_group": "Group 3 (Gundogs)",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Gawler Dog Training Club Inc \u2013 Scent Work",
-      "club": "Two Wells Community Centre, Two Wells",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Two Wells Community Centre, Two Wells",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Scent Work",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-17",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Herding Dog Club \u2013 Herding",
-      "club": "Herding Dog Club \u2013 Herding",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Piggery Road, Mannum",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Herding",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-13",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Munno Para Dog \u2013 Obedience",
-      "club": "Munno Para Dog",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Smithfield",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Obedience",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-14",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Noarlunga City \u2013 Scent Work",
-      "club": "Pimpala Primary School, Morphett Vale",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Pimpala Primary School, Morphett Vale",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Scent Work",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-21",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Para District \u2013 Obedience",
-      "club": "Para District",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Saints Road, Salisbury",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Obedience",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-07-31",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Port Adelaide \u2013 Obedience",
-      "club": "Port Adelaide",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Peter Cousins Reserve, Osborne",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Obedience",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-14",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Riverland Dog Training & Kennel Club Inc \u2013 Rally Obedience",
-      "club": "Riverland Dog Training & Kennel Club Inc \u2013 Rally Obedience",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Riverland Events",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Rally Obedience",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-10",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Riverland Dog Training & Kennel Club Inc \u2013 Trick Dog",
-      "club": "Riverland Events Centre",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Riverland Events Centre",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Trick Dog",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-09",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Staffordshire Bull Terrier Club of SA Inc \u2013 Sprint",
-      "club": "Staffordshire Bull Terrier Club of SA Inc \u2013 Sprint",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Williamstown",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Sprint",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA",
-        "Top Dog Events"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-07-12",
-      "breed_group": "Group 2 (Terriers)",
-      "breed": "staffordshire bull terrier",
-      "topdog_open": true,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1860",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Tracking Dog Club of SA Inc \u2013 Track & Search",
-      "club": "Tracking Dog Club of SA Inc",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Adelaide metropolitan area",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Track & Search",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-08-04",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Tracking Dog Club of SA Inc \u2013 Tracking",
-      "club": "Tracking Dog Club of SA Inc",
-      "start": "2026-08-08",
-      "end": "2026-08-08",
-      "location": "Monarto",
-      "url": "https://dogssa.com.au/events/upcoming-events/",
-      "category": "Tracking",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-07-28",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": false,
-      "entry_url": "https://dogssa.com.au/events/upcoming-events/",
       "open_now": false,
       "is_past": true
     }
