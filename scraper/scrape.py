@@ -1589,6 +1589,17 @@ _NON_TRIAL_NAME_RE = re.compile(
     r"\bseminar\b|\bworkshop\b|photo\s+fundrais|grazing\s+platter|sniff\s*&\s*go",
     re.I)
 
+# Product / add-on listings (camping passes, food/meal vouchers, merchandise,
+# title ribbons, donations, sponsorship, apparel). These are NEVER events — so
+# unlike the softer non-trial terms above, they drop UNCONDITIONALLY, even when
+# the name also contains "Trial" (e.g. "2026 Scent Work State Trial Merchandise"
+# is merchandise FOR a trial series, not a trial).
+_PRODUCT_NAME_RE = re.compile(
+    r"\bcamping\b|\bcamp\s*site|\bvoucher\b|\bmerch(andise)?\b|title\s+ribbon|"
+    r"\bribbons?\b|\bdonation\b|sponsor(ship)?|\bpolo\b|\bt-?shirt|\bhoodie\b|"
+    r"\bmug\b|meal\s+deal|\bmeals?\b|dinner\s+ticket|pickup\s+only",
+    re.I)
+
 
 def _topdog_close_date(text, bare_ok=False):
     """Extract an entry closing date. Two shapes:
@@ -1675,6 +1686,10 @@ def _topdog_parse_rows(soup, year):
         close_cell = tr.find(["td", "th"], class_=lambda c: c and "tl-col-close" in c)
         close_cell_text = close_cell.get_text(" ", strip=True) if close_cell else ""
 
+        # Products/add-ons (merchandise, camping, vouchers) are never events —
+        # drop unconditionally, even if the name also says "Trial".
+        if _PRODUCT_NAME_RE.search(name_text):
+            continue
         # Drop non-competition items (raffles, fundraisers, trivia, workshops,
         # fun days, socials) even if Top Dog files them under a discipline —
         # unless the name also names a real trial/test. Mirrors the Show Manager
