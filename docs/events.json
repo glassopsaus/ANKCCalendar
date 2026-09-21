@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-21T17:13:31+00:00",
+  "generated": "2026-09-21T17:44:40+00:00",
   "year": 2026,
-  "count": 2835,
+  "count": 2837,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -1852,12 +1852,13 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1290",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1290/schedule/get",
@@ -4386,12 +4387,13 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1280",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1280/schedule/get",
@@ -7911,6 +7913,30 @@
       "open_now": false,
       "is_past": true,
       "club": "Jumping Ribbon Trail \u2013 ACTCDC"
+    },
+    {
+      "title": "March 24th Ribbon",
+      "start": "2026-03-24",
+      "end": "2026-03-24",
+      "location": "ACT Companion Dog Club",
+      "url": "https://www.topdogevents.com.au/trials/1604",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "closes": null,
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1604",
+      "open_now": false,
+      "is_past": true,
+      "club": "ACT Companion Dog Club"
     },
     {
       "title": "26/03/2026",
@@ -11820,12 +11846,13 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1680",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1680/schedule/get",
@@ -16062,6 +16089,30 @@
       "open_now": false,
       "is_past": true,
       "club": "Jumping Ribbon Trial \u2013 ACTCDC"
+    },
+    {
+      "title": "May 5th Ribbon",
+      "start": "2026-05-05",
+      "end": "2026-05-05",
+      "location": "ACT Companion Dog Club",
+      "url": "https://www.topdogevents.com.au/trials/1656",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "closes": null,
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1656",
+      "open_now": false,
+      "is_past": true,
+      "club": "ACT Companion Dog Club"
     },
     {
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
@@ -39085,12 +39136,13 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2030",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/2030/schedule/get",
@@ -43231,26 +43283,29 @@
       "club": "Track & Search Trial \u2013 Canberra Scent Sport Club"
     },
     {
-      "title": "Agility Ribbon Trial \u2013 ACTCDC",
+      "title": "ACTCDC September Agility Ribbon Trial",
       "start": "2026-09-08",
       "end": "2026-09-08",
-      "location": "",
-      "url": "https://dogsact.org.au/event/agility-ribbon-trial-actcdc/",
+      "location": "ACT Companion Dog Club",
+      "url": "https://www.topdogevents.com.au/trials/2100",
       "category": "Agility",
-      "source": "Dogs ACT",
       "cancelled": false,
       "region": "ACT",
       "color": "#1d6fb8",
+      "closes": null,
+      "topdog_open": false,
+      "source": "Top Dog Events",
       "sources": [
+        "Top Dog Events",
         "Dogs ACT"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2100",
       "open_now": false,
       "is_past": true,
-      "club": "Agility Ribbon Trial \u2013 ACTCDC"
+      "club": "ACT Companion Dog Club"
     },
     {
       "title": "Metro Mid Week Dog Training Club Inc \u2013 Tracking / Track & Search",
@@ -50295,13 +50350,16 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "topdog_open": true,
+      "closes": "2026-10-07",
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2107",
+      "open_now": true,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2107/schedule/get",
       "club": "Tuggeranong Dog Training Club"
