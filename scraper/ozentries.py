@@ -230,12 +230,11 @@ def parse_ozentries(year, html=None):
             a = name_cell.find("a", href=True)
             schedule_url = None
             if a and a["href"]:
-                href = a["href"]
-                if href.startswith("/"):
-                    href = "https://dogs.ozentries.com.au" + href
-                elif not href.startswith("http"):
-                    href = "https://dogs.ozentries.com.au/" + href
-                schedule_url = href
+                from urllib.parse import urljoin
+                # Resolve relative hrefs (including "../schedule/x.pdf") against
+                # the shows page so we don't emit a broken ".../../schedule/..."
+                # URL. urljoin collapses the ".." correctly.
+                schedule_url = urljoin(OZ_SHOWS_URL, a["href"].strip())
 
             # col 2: published entries-close date (optional).
             closes = None
@@ -255,13 +254,12 @@ def parse_ozentries(year, html=None):
                 continue
             seen.add(key)
 
-            events.append({
+            ev = {
                 "title": title,
                 "start": edate.isoformat(),
                 "end": edate.isoformat(),
                 "location": "",
                 "url": OZ_SHOWS_URL,
-                "entry_url": schedule_url or OZ_SHOWS_URL,
                 "category": category,
                 "region": region,          # may be None if no header seen yet
                 "source": OZ_SOURCE_NAME,
@@ -269,7 +267,17 @@ def parse_ozentries(year, html=None):
                 "cancelled": False,
                 "closes": closes,
                 "status": status or "open",
-            })
+            }
+            # The Ozentries per-event link IS the schedule PDF (the "Enter"
+            # action itself is login-walled). Expose it as BOTH the schedule doc
+            # (so the Schedule button shows) and the entry link (a valid
+            # entry-platform destination). Only when we actually have a PDF —
+            # otherwise leave entry_url unset rather than point at the generic
+            # shows.php listing, which isn't a per-event link.
+            if schedule_url and ".pdf" in schedule_url.lower():
+                ev["schedule_url"] = schedule_url
+                ev["entry_url"] = schedule_url
+            events.append(ev)
     except Exception as e:
         print(f"[ozentries] parse error: {e}", file=sys.stderr)
         return events
