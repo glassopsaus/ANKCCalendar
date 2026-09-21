@@ -45,10 +45,15 @@ try:
 except Exception:
     HAVE_BS4 = False
 
-SA_EVENTS_URL = "https://dogssa.com.au/events/upcoming-events/"
+# The site serves the full events table on the www. host. It also serves a
+# stripped page to unusual User-Agents, so we send a browser-like UA to get the
+# complete content (a custom UA returned only a couple of rows).
+SA_EVENTS_URL = "https://www.dogssa.com.au/events/upcoming-events"
 SA_SOURCE_NAME = "Dogs SA"
 SA_COLOR = "#c9a227"   # SA's region colour (matches REGION_COLOR in scrape.py)
-HEADERS = {"User-Agent": "ANKCEventCheck/1.0 (+https://github.com/glassopsaus/ANKCCalendar)"}
+HEADERS = {"User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                          "AppleWebKit/537.36 (KHTML, like Gecko) "
+                          "Chrome/125.0 Safari/537.36")}
 TIMEOUT = 30
 
 _MONTHS = {m.lower(): i for i, m in enumerate(
