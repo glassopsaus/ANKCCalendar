@@ -219,6 +219,7 @@ def parse_sa_calendar(year):
     # The event table is injected client-side, so render the page with a headless
     # browser first. Fall back to a plain fetch only if rendering is unavailable.
     html = _render_sa_html()
+    used_render = bool(html)
     if not html:
         try:
             r = requests.get(SA_EVENTS_URL, headers=HEADERS, timeout=TIMEOUT)
@@ -229,6 +230,14 @@ def parse_sa_calendar(year):
             return []
 
     soup = BeautifulSoup(html, "html.parser")
+    # Diagnostic: confirm what we actually received, so we can see whether the
+    # render worked and how the events are structured in the real DOM.
+    _all_tables = soup.find_all("table")
+    _txt = soup.get_text(" ", strip=True).lower()
+    print(f"[sa] source={'render' if used_render else 'plain-fetch'}; "
+          f"html_len={len(html)}; tables={len(_all_tables)}; "
+          f"has_entries_close={'entries close' in _txt}; "
+          f"has_kapunda={'kapunda' in _txt}", file=sys.stderr)
     events = []
     seen = set()
     cur_month = None
@@ -244,20 +253,25 @@ def parse_sa_calendar(year):
     cur_year = None
     prev_month = None
 
-    # The calendar is a table; walk its rows in order. We find the table that
-    # contains month names to avoid nav/layout tables.
-    tables = soup.find_all("table")
-    cal = None
-    for t in tables:
+    # The calendar is rendered as one or more tables. Some layouts split it into
+    # several tables (e.g. one block per month), so we walk rows across EVERY
+    # calendar-like table (one containing month names or "entries close"),
+    # in document order, not just the first — otherwise we'd miss most events.
+    _MONTH_WORDS = set(_MONTHS.keys())
+    cal_tables = []
+    for t in soup.find_all("table"):
         txt = t.get_text(" ", strip=True).lower()
-        if "entries close" in txt or ("july" in txt and "august" in txt):
-            cal = t
-            break
-    if cal is None:
+        if "entries close" in txt or any(m in txt for m in _MONTH_WORDS):
+            cal_tables.append(t)
+    if not cal_tables:
         print("[sa] no calendar table found", file=sys.stderr)
         return []
 
-    for tr in cal.find_all("tr"):
+    all_rows = []
+    for t in cal_tables:
+        all_rows.extend(t.find_all("tr"))
+
+    for tr in all_rows:
         cells = [_clean_cell(td.get_text(" ", strip=True))
                  for td in tr.find_all(["td", "th"])]
         if not cells:
