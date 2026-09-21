@@ -96,7 +96,7 @@ _PLATFORM_RE = re.compile(r"via\s+(show\s*manager|top\s*dog[^.\n]*)", re.I)
 # Entries-close date, e.g. "Entries Close 07.07.26" / "Entries close 07.07.2026".
 _CLOSE_RE = re.compile(r"entries?\s*close[sd]?\s*[:\-]?\s*(?:paper\s*)?(\d{1,2})[./](\d{1,2})[./](\d{2,4})", re.I)
 # A dated row's first cell: "25th (Saturday)".
-_DATE_CELL_RE = re.compile(r"^\s*(\d{1,2})(?:st|nd|rd|th)?\s*\(", re.I)
+_DATE_CELL_RE = re.compile(r"^\s*(\d{1,2})\s*(?:st|nd|rd|th)?\s*\(", re.I)
 
 
 def _classify(text):
