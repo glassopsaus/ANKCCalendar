@@ -105,7 +105,7 @@ MONTHS3 = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun",
      "jul", "aug", "sep", "oct", "nov", "dec"], start=1)}
 
-DETAIL_ID_RE = re.compile(r"/(?:PublicEvents/Details|AttendEvent|activity)/(\d+)")
+DETAIL_ID_RE = re.compile(r"/(?:PublicEvents/Details|AttendEvent)/(\d+)")
 
 
 def _sm_url(year, month, state="ALL"):
@@ -396,22 +396,16 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
                 if not (a and a.get("href")):
                     continue
                 href = a["href"]
-                is_std = ("/events/PublicEvents/Details/" in href
-                          or "/AttendEvent/" in href)
-                is_activity = "/activity/" in href
-                if not (is_std or is_activity):
+                # Only /events/PublicEvents/Details/ and /AttendEvent/ are real
+                # event-entry links. /activity/<id> is Show Manager's Club
+                # Activities module (raffles, merchandise, meetings, title
+                # ribbons) — NOT events — and reusing one activity id across
+                # several rows was smearing a wrong link onto unrelated trials,
+                # so we no longer treat /activity/ as an event link at all.
+                if not ("/events/PublicEvents/Details/" in href
+                        or "/AttendEvent/" in href):
                     continue
-                atext = a.get_text(" ", strip=True)
-                # /activity/<id> is used by BOTH real sub-committee events (e.g.
-                # Earthdog days) AND non-event club activities (merchandise,
-                # title ribbons, raffles). Accept an /activity/ link ONLY when
-                # its name actually names a trial/test/show — otherwise it's a
-                # club activity and must not become a (wrongly-matchable) event.
-                if is_activity and not is_std and not re.search(
-                        r"\b(trial|test|tests|trials|championship|"
-                        r"champ\s+show|open\s+show|\bshow\b)\b", atext, re.I):
-                    continue
-                name = atext
+                name = a.get_text(" ", strip=True)
                 detail_url = href
                 idm = DETAIL_ID_RE.search(href)
                 if idm:
