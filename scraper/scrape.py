@@ -2088,14 +2088,30 @@ def _derive_club(e):
 
     # Strip a trailing discipline suffix from the club name
     # (e.g. "Oxley Dog Training Club Inc – Scent Work" -> "...Club Inc",
-    #  "Blacktown ... Club Inc – Rally Obedience" -> "...Club Inc").
+    #  "Blacktown ... Club Inc – Rally Obedience" -> "...Club Inc",
+    #  "Siberian Husky Club of NSW – Sprint" -> "...of NSW").
     club = re.sub(r"\s*[\u2013\u2014-]\s*(?:"
                   r"rally\s*obedience|rally\s*o|scent\s*work|scentwork|"
                   r"track\s*&?\s*search|tracking|obedience|rally|agility|"
-                  r"jumping|trick\s*dog|dances\s*with\s*dogs|herding|"
-                  r"lure\s*coursing|endurance|sprintdog|earthdog|"
-                  r"retrieving|mondioring)\s*$", "",
+                  r"jumping|games|trick\s*dog|tricks?|dances\s*with\s*dogs|"
+                  r"herding|lure\s*coursing|endurance|sprint\s*dog|sprintdog|"
+                  r"sprint|earthdog|retrieving|mondioring)\s*$", "",
                   club, flags=re.I).strip()
+    # Strip a trailing "(Trial 1)" / "(Trial 2)" designation and any discipline
+    # word left in front of it (e.g. "Albury & Border Kennel Club Inc Obedience
+    # (Trial 1)" -> "Albury & Border Kennel Club Inc"). These come from Show
+    # Manager event titles where the per-trial designation rode along.
+    club = re.sub(r"\s*(?:rally\s*obedience|scent\s*work|obedience|rally|"
+                  r"agility|tracking|trick\s*dog|sprint|retrieving|herding)?"
+                  r"\s*\(\s*trial\s*\d+\s*\)\s*$", "", club, flags=re.I).strip()
+
+    # WA calendar quirk: the fixture description sometimes PREFIXES the club,
+    # e.g. "Agility Trials x 2 Geraldton & Dist. KC" or "Obedience Trial x 2 &
+    # Rally O Trial Bunbury & Dist.DC" — the real club is the tail. Strip a
+    # leading "<disc...> Trial(s) x N ..." descriptor up to the club.
+    club = re.sub(r"^(?:[A-Za-z&/ ]*?\btrials?\s*x\s*\d+[A-Za-z0-9&/() .]*?\s+)"
+                  r"(?=[A-Z][a-z].*\b(?:club|kc|dc|society|association|"
+                  r"kennel|inc)\b)", "", club, flags=re.I).strip()
 
     e["club"] = club or title or "Event"
     e.pop("_alt_text", None)  # internal scratch, don't ship it
@@ -3060,6 +3076,31 @@ def build_year():
                     break
         if not dup:
             unique.append(e)
+
+    # Final exact-duplicate pass: the main dedup keys on club-name relationships,
+    # so it can miss two byte-identical cards from the SAME source (e.g. a Show
+    # Manager listing that appeared twice). Collapse events identical on title +
+    # dates + region + category + source + entry_url. Keying on entry_url means
+    # two same-titled events with DIFFERENT per-event links (genuinely separate
+    # sessions) are preserved, while true duplicates (same link, or no link) are
+    # removed.
+    _exact_seen = {}
+    _deduped = []
+    _removed = 0
+    for e in unique:
+        k = ((e.get("title") or "").strip().lower(),
+             e.get("start"), e.get("end"), e.get("region"),
+             e.get("category"), e.get("source"),
+             (e.get("entry_url") or "").strip())
+        if k in _exact_seen:
+            _removed += 1
+            continue
+        _exact_seen[k] = True
+        _deduped.append(e)
+    if _removed:
+        print(f"[dedup] removed {_removed} exact-duplicate card(s)",
+              file=sys.stderr)
+    unique = _deduped
 
     # --- Entry-status cross-check --------------------------------------------
     # Load the TRDC NSW tracking-club calendar once (fail-safe []); it
