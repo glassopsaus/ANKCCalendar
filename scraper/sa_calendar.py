@@ -271,35 +271,51 @@ def parse_sa_calendar(year):
     for t in cal_tables:
         all_rows.extend(t.find_all("tr"))
 
+    # Diagnostic: dump the first rows' cell structure so we can see exactly how
+    # months/dates/descriptions are laid out in the rendered DOM (the parser is
+    # extracting far fewer events than the page contains).
+    import os as _os
+    if _os.environ.get("SA_ROW_DIAG") == "1":
+        for _i, _tr in enumerate(all_rows[:20]):
+            _c = [_clean_cell(td.get_text(" ", strip=True))
+                  for td in _tr.find_all(["td", "th"])]
+            print(f"[sa-rowdiag] row {_i}: {len(_c)} cells: "
+                  f"{[c[:40] for c in _c]}", file=sys.stderr)
+
     for tr in all_rows:
         cells = [_clean_cell(td.get_text(" ", strip=True))
                  for td in tr.find_all(["td", "th"])]
         if not cells:
             continue
         first = cells[0]
-        # Month header row: first cell is just a month name.
+        # Month header row: the first cell IS (or starts with) a month name.
+        # Tolerant match — the rendered cell may carry trailing whitespace/markup,
+        # so check the leading word rather than requiring an exact whole-cell
+        # match.
+        _first_word = re.split(r"[\s(]", first.strip().lower(), 1)[0] if first else ""
+        _month_hit = None
         if first.lower() in _MONTHS:
-            cur_month = _MONTHS[first.lower()]
+            _month_hit = _MONTHS[first.lower()]
+        elif _first_word in _MONTHS and not _DATE_CELL_RE.match(first):
+            _month_hit = _MONTHS[_first_word]
+        if _month_hit is not None:
+            cur_month = _month_hit
             cur_day = None
-            # Infer the year for this month block.
             if cur_year is None:
-                # First month seen: pick the year that makes it upcoming. If the
-                # month is >= this month, it's this year; if it's already passed
-                # this year, it must be next year.
                 cur_year = today.year if cur_month >= today.month else today.year + 1
             elif prev_month is not None and cur_month < prev_month:
-                # Month sequence wrapped (e.g. Dec -> Jan): roll into next year.
                 cur_year += 1
             prev_month = cur_month
             continue
-        # Dated row: first cell like "25th (Saturday)".
-        dm = _DATE_CELL_RE.match(first)
+        # Dated row: first cell like "25th (Saturday)" (allow leading space).
+        dm = _DATE_CELL_RE.search(first) if first else None
         if dm:
             cur_day = int(dm.group(1))
-        # The event description is the last non-empty cell.
+        # The event description is the last non-empty cell that isn't a date/month.
         desc = ""
         for c in reversed(cells):
-            if c and not _DATE_CELL_RE.match(c) and c.lower() not in _MONTHS:
+            _cw = re.split(r"[\s(]", c.strip().lower(), 1)[0] if c else ""
+            if c and not _DATE_CELL_RE.search(c) and _cw not in _MONTHS:
                 desc = c
                 break
         if not desc or cur_month is None or cur_day is None or cur_year is None:
