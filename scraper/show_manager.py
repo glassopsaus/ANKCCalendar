@@ -166,7 +166,13 @@ _SM_NON_TRIAL_RE = re.compile(
     r"presentation\s+(night|day)|awards?\s+(night|day)|garage\s+sale|"
     r"membership|working\s+party\s+meeting|committee\s+meeting|\bmeeting\b|"
     r"open\s+day|fun\s*day|come\s*(and\s*)?try|information\s+(day|night)|"
-    r"seminar|workshop|training\s+(day|session|night)|\bclass(es)?\b",
+    r"seminar|workshop|training\s+(day|session|night)|\bclass(es)?\b|"
+    # Show Manager 'products' / add-ons that are filed under a discipline's
+    # Event Type but are NOT events: camping passes, food/meal vouchers,
+    # merchandise, title ribbons, donations, sponsorship, catalogues-for-sale.
+    r"\bcamping\b|\bcamp\s*site|\bvoucher\b|\bmerch(andise)?\b|title\s+ribbon|"
+    r"\bribbons?\b|\bdonation\b|sponsor(ship)?|\bpolo\b|\bt-?shirt|"
+    r"\bhoodie\b|\bcap\b|\bmug\b|meal\s+deal|\bmeals?\b|dinner\s+ticket",
     re.I)
 
 
