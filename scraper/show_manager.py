@@ -393,19 +393,30 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
             event_id = None
             for c in cells:
                 a = c.find("a", href=True)
-                if a and ("/events/PublicEvents/Details/" in a["href"]
-                          or "/AttendEvent/" in a["href"]
-                          or "/activity/" in a["href"]):
-                    # Some events (e.g. Earthdog sub-committee days run by the
-                    # Dachshund Club) link via /activity/<id> instead of the
-                    # usual /events/PublicEvents/Details/<id>. Both are valid
-                    # per-event Show Manager links; capture either.
-                    name = a.get_text(" ", strip=True)
-                    detail_url = a["href"]
-                    idm = DETAIL_ID_RE.search(a["href"])
-                    if idm:
-                        event_id = idm.group(1)
-                    break
+                if not (a and a.get("href")):
+                    continue
+                href = a["href"]
+                is_std = ("/events/PublicEvents/Details/" in href
+                          or "/AttendEvent/" in href)
+                is_activity = "/activity/" in href
+                if not (is_std or is_activity):
+                    continue
+                atext = a.get_text(" ", strip=True)
+                # /activity/<id> is used by BOTH real sub-committee events (e.g.
+                # Earthdog days) AND non-event club activities (merchandise,
+                # title ribbons, raffles). Accept an /activity/ link ONLY when
+                # its name actually names a trial/test/show — otherwise it's a
+                # club activity and must not become a (wrongly-matchable) event.
+                if is_activity and not is_std and not re.search(
+                        r"\b(trial|test|tests|trials|championship|"
+                        r"champ\s+show|open\s+show|\bshow\b)\b", atext, re.I):
+                    continue
+                name = atext
+                detail_url = href
+                idm = DETAIL_ID_RE.search(href)
+                if idm:
+                    event_id = idm.group(1)
+                break
             if not name:
                 # fall back to the 2nd cell text
                 name = cell_texts[1] if len(cell_texts) > 1 else ""
