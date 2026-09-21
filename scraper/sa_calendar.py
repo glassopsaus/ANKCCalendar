@@ -146,8 +146,15 @@ def _split_club_discipline(cell):
     for rx, _ in _SA_DISCIPLINE_RULES:
         m = rx.search(club)
         if m and m.start() > 0:
-            # keep everything up to the discipline word only if what remains
-            # still looks like a club name (has a club-ish word or 2+ words).
+            # Only trim if the discipline word begins a TRAILING trial-type
+            # descriptor (e.g. "...Club Inc Games Trial" -> "...Club Inc"). A
+            # discipline word that's part of the club's OWN name (e.g. "Para
+            # District Obedience Dog Club Inc", "Tracking Dog Club of SA") is
+            # followed by more club words, not by "Trial/Test/Show", so we must
+            # NOT trim there.
+            tail = club[m.start():]
+            if not re.search(r"\b(trial|test|show|trials|tests)\b", tail, re.I):
+                break  # discipline word is inside the club name — leave it
             head = club[:m.start()].strip(" -–—")
             if head and (len(head.split()) >= 2 or re.search(
                     r"club|kennel|society|association|committee", head, re.I)):
