@@ -260,7 +260,9 @@ def events_from_unmatched_listings(sm_listings, matched_ids, region_color=None,
     region_color = region_color or {}
     existing_events = existing_events or []
 
-    # Build a quick lookup of occupied (region, family) -> list of date spans.
+    # Build a lookup of (region, family) -> [(start, end, event)], keeping the
+    # event object so a collision can ENRICH it (add source + links), not just
+    # cause a skip.
     occupied = {}
     for ev in existing_events:
         key = (ev.get("region"), _family(ev.get("category", "")))
@@ -269,25 +271,92 @@ def events_from_unmatched_listings(sm_listings, matched_ids, region_color=None,
             e = dt.date.fromisoformat(ev.get("end", ev.get("start")))
         except (ValueError, TypeError):
             continue
-        occupied.setdefault(key, []).append((s, e))
+        occupied.setdefault(key, []).append((s, e, ev))
 
-    def collides(region, fam, date_iso):
+    def colliding_event(region, fam, date_iso):
+        """Return an existing event this listing collides with (same region +
+        discipline family + overlapping/adjacent date), or None. Loose — decides
+        'don't add a duplicate card'."""
         try:
             d = dt.date.fromisoformat(date_iso)
         except (ValueError, TypeError):
-            return False
-        for (s, e) in occupied.get((region, fam), []):
+            return None
+        for (s, e, ev) in occupied.get((region, fam), []):
             if (s - dt.timedelta(days=1)) <= d <= (e + dt.timedelta(days=1)):
-                return True
-        return False
+                return ev
+        return None
+
+    def strict_match(region, fam, date_iso, discipline):
+        """Return an existing event that STRICTLY matches this listing — same
+        region, EXACT discipline (not just family), same date (±1 day) — suitable
+        for merging links onto. Stricter than colliding_event so a merge can't
+        attach a link to a different trial sharing the family on a nearby day."""
+        try:
+            d = dt.date.fromisoformat(date_iso)
+        except (ValueError, TypeError):
+            return None
+        for (s, e, ev) in occupied.get((region, fam), []):
+            if ev.get("category") != discipline:
+                continue
+            if (s - dt.timedelta(days=1)) <= d <= (e + dt.timedelta(days=1)):
+                return ev
+        return None
+
+    def _merge_listing_into(ev, L):
+        """Enrich an existing event with a Show Manager listing's source label,
+        entry/schedule/catalogue links, address, closing date and (verified)
+        status. Mirrors the matcher's merge; applied only on a STRICT collision
+        so a link never attaches to the wrong event. Returns True if changed."""
+        changed = False
+        if source_name:
+            srcs = ev.setdefault("sources", [])
+            if source_name not in srcs:
+                srcs.append(source_name)
+                changed = True
+        st = L.get("status")
+        if st in ("open", "closed", "cancelled") and not ev.get("verified"):
+            ev["status"] = st
+            ev["status_label"] = {"open": "Open (verified)",
+                                  "closed": "Closed (verified)",
+                                  "cancelled": "Cancelled (verified)"}[st]
+            ev["verified"] = True
+            if st == "cancelled":
+                ev["cancelled"] = True
+            changed = True
+        for fld in ("entry_url", "schedule_url", "catalogue_url", "closes",
+                    "address"):
+            val = L.get("detail_url") if fld == "entry_url" else L.get(fld)
+            if val and not ev.get(fld):
+                ev[fld] = val
+                changed = True
+        if L.get("address"):
+            _loc = (ev.get("location") or "").strip()
+            _bare = re.sub(r"[^a-z ]", "", _loc.lower()).strip()
+            if _bare in {"", "act", "nsw", "qld", "vic", "wa", "sa", "tas", "nt",
+                         "victoria", "queensland", "new south wales",
+                         "western australia", "south australia", "tasmania",
+                         "australian capital territory", "northern territory"}:
+                ev["location"] = L["address"]
+                changed = True
+        return changed
 
     out = []
     n_skip = 0
+    n_enrich = 0
     for L in sm_listings:
         if id(L) in matched_ids:
             continue
-        if collides(L["region"], _family(L["discipline"]), L["date"]):
-            n_skip += 1
+        fam = _family(L["discipline"])
+        if colliding_event(L["region"], fam, L["date"]) is not None:
+            # Already have a card for this trial — don't add a duplicate. But try
+            # to ENRICH it with this listing's source + links first, on a STRICT
+            # match only (exact discipline + tight date) so a link can't attach
+            # to the wrong event. A loose-only collision is still just skipped.
+            strict_ev = strict_match(L["region"], fam, L["date"], L["discipline"])
+            if strict_ev is not None and _merge_listing_into(strict_ev, L):
+                n_enrich += 1
+            else:
+                n_skip += 1
             continue
         status, label, verified = _status_label_for(L, source_name)
         title = L["club"]
@@ -318,7 +387,8 @@ def events_from_unmatched_listings(sm_listings, matched_ids, region_color=None,
         }
         out.append(ev)
     print(f"[gapfill] added {len(out)} {source_name}-sourced events "
-          f"(skipped {n_skip} that collided with an existing event)",
+          f"(enriched {n_enrich} existing card(s) with source+links; "
+          f"skipped {n_skip} that collided with an existing event)",
           file=sys.stderr)
     return out
 
