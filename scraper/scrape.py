@@ -2043,6 +2043,31 @@ def _looks_like_club(text):
     return bool(text and _CLUB_WORD_RE.search(text))
 
 
+def _clean_club_name(club):
+    """Strip trailing discipline suffixes and '(Trial N)' designations, and a
+    leading WA 'Trials x N' fixture descriptor, from a club name. Applied on BOTH
+    the derived path and the locked (Show Manager/Top Dog canonical) path so a
+    suffix that rode along in a source's own club field is cleaned uniformly."""
+    if not club:
+        return club
+    club = re.sub(r"\s*[\u2013\u2014-]\s*(?:"
+                  r"rally\s*obedience|rally\s*o|scent\s*work|scentwork|"
+                  r"track\s*&?\s*search|tracking|obedience|rally|agility|"
+                  r"jumping|games|trick\s*dog|tricks?|dances\s*with\s*dogs|"
+                  r"herding|lure\s*coursing|endurance|sprint\s*dog|sprintdog|"
+                  r"sprint|earthdog|retrieving|mondioring)\s*$", "",
+                  club, flags=re.I).strip()
+    # Trailing "(Trial 1)" / "(Trial 2)" and any discipline word before it.
+    club = re.sub(r"\s*(?:rally\s*obedience|scent\s*work|obedience|rally|"
+                  r"agility|tracking|trick\s*dog|sprint|retrieving|herding)?"
+                  r"\s*\(\s*trial\s*\d+\s*\)\s*$", "", club, flags=re.I).strip()
+    # Leading WA fixture descriptor: "Agility Trials x 2 <Club>" -> "<Club>".
+    club = re.sub(r"^(?:[A-Za-z&/ ]*?\btrials?\s*x\s*\d+[A-Za-z0-9&/() .,]*?\s+)"
+                  r"(?=[A-Z][a-z].*\b(?:club|kc|dc|society|association|"
+                  r"kennel|inc)\b)", "", club, flags=re.I).strip()
+    return club
+
+
 def _derive_club(e):
     """Set e['club'] — the club/organisation name — for display on the card's
     info line (between State and Source). Sources put the club in different
@@ -2056,6 +2081,7 @@ def _derive_club(e):
     # `location` (Top Dog venue capture), keep it — don't re-derive from the
     # now-address-valued location.
     if e.get("_club_locked") and e.get("club"):
+        e["club"] = _clean_club_name(e["club"]) or e["club"]
         e.pop("_club_locked", None)
         e.pop("_alt_text", None)
         return
@@ -2086,32 +2112,9 @@ def _derive_club(e):
         else:
             club = title
 
-    # Strip a trailing discipline suffix from the club name
-    # (e.g. "Oxley Dog Training Club Inc – Scent Work" -> "...Club Inc",
-    #  "Blacktown ... Club Inc – Rally Obedience" -> "...Club Inc",
-    #  "Siberian Husky Club of NSW – Sprint" -> "...of NSW").
-    club = re.sub(r"\s*[\u2013\u2014-]\s*(?:"
-                  r"rally\s*obedience|rally\s*o|scent\s*work|scentwork|"
-                  r"track\s*&?\s*search|tracking|obedience|rally|agility|"
-                  r"jumping|games|trick\s*dog|tricks?|dances\s*with\s*dogs|"
-                  r"herding|lure\s*coursing|endurance|sprint\s*dog|sprintdog|"
-                  r"sprint|earthdog|retrieving|mondioring)\s*$", "",
-                  club, flags=re.I).strip()
-    # Strip a trailing "(Trial 1)" / "(Trial 2)" designation and any discipline
-    # word left in front of it (e.g. "Albury & Border Kennel Club Inc Obedience
-    # (Trial 1)" -> "Albury & Border Kennel Club Inc"). These come from Show
-    # Manager event titles where the per-trial designation rode along.
-    club = re.sub(r"\s*(?:rally\s*obedience|scent\s*work|obedience|rally|"
-                  r"agility|tracking|trick\s*dog|sprint|retrieving|herding)?"
-                  r"\s*\(\s*trial\s*\d+\s*\)\s*$", "", club, flags=re.I).strip()
-
-    # WA calendar quirk: the fixture description sometimes PREFIXES the club,
-    # e.g. "Agility Trials x 2 Geraldton & Dist. KC" or "Obedience Trial x 2 &
-    # Rally O Trial Bunbury & Dist.DC" — the real club is the tail. Strip a
-    # leading "<disc...> Trial(s) x N ..." descriptor up to the club.
-    club = re.sub(r"^(?:[A-Za-z&/ ]*?\btrials?\s*x\s*\d+[A-Za-z0-9&/() .]*?\s+)"
-                  r"(?=[A-Z][a-z].*\b(?:club|kc|dc|society|association|"
-                  r"kennel|inc)\b)", "", club, flags=re.I).strip()
+    # Clean trailing discipline suffixes, "(Trial N)" designations, and the WA
+    # leading fixture descriptor — same cleaner used on the locked path.
+    club = _clean_club_name(club)
 
     e["club"] = club or title or "Event"
     e.pop("_alt_text", None)  # internal scratch, don't ship it
