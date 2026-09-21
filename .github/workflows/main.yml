@@ -34,6 +34,9 @@ jobs:
           SM_FETCH_DETAILS: "1"
           SM_DETAIL_CYCLE_DAYS: "7"
           SM_DETAIL_DELAY_SEC: "0.7"
+          # Temporary: dump the Dogs SA table row structure so we can finish
+          # tuning the parser. Remove once SA parses its full event list.
+          SA_ROW_DIAG: "1"
         run: |
           # Derive the year at runtime so the calendar's year window rolls over
           # automatically (no annual manual edit). This is an Australian calendar
