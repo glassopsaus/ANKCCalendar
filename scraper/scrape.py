@@ -3521,6 +3521,19 @@ def build_year():
                       "keeping their previous events and publishing the rest "
                       "fresh:", file=sys.stderr)
                 carried = 0
+                # Build a set of keys already present (this run's fresh events)
+                # so a carried event that also parsed fresh isn't duplicated —
+                # and, critically, so carried copies can't COMPOUND run over run
+                # (the prior file may itself contain carried events; without this
+                # they'd double every run: 1->2->4->8...).
+                def _cf_key(ev):
+                    return (
+                        (ev.get("title") or ev.get("club") or "").strip().lower(),
+                        ev.get("start"),
+                        ev.get("category"),
+                        ev.get("region"),
+                    )
+                present = {_cf_key(ev) for ev in unique}
                 for ev in old_events:
                     if ev.get("source") not in failed_sources:
                         continue
@@ -3530,6 +3543,10 @@ def build_year():
                             continue
                     except (ValueError, TypeError):
                         continue
+                    k = _cf_key(ev)
+                    if k in present:
+                        continue  # already have it (fresh or already carried)
+                    present.add(k)
                     ev = dict(ev)
                     ev["_carried_forward"] = True
                     # Carried-forward events keep their dates but were last
