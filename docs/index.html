@@ -437,7 +437,7 @@ function _pOK(e){ return active.showPast || !isPast(e); }
 //  • Schedule = a schedule DOCUMENT (a PDF / schedule page), e.g. an Ozentries
 //               schedule PDF or a Show Manager schedule blob/cdn.
 // Governing-body calendar pages (Dogs Tasmania, Dogs SA) are neither.
-function isEntryPlatform(u){ return !!u && /(\/\/(www\.)?showmanager\.com\.au\/(events\/publicevents\/details\/\d+|activity\/\d+)|topdogevents\.com\.au\/trials\/\d+(?!\d)(?!\/schedule)|readyentries\.com\/view-event-group)/i.test(u); }
+function isEntryPlatform(u){ return !!u && /(\/\/(www\.)?showmanager\.com\.au\/events\/publicevents\/details\/\d+|topdogevents\.com\.au\/trials\/\d+(?!\d)(?!\/schedule)|readyentries\.com\/view-event-group)/i.test(u); }
 function isScheduleDoc(u){ return !!u && !isEntryPlatform(u) && (/\.pdf(\?|$)/i.test(u) || /ozentries\.com\.au\/schedule\//i.test(u) || /topdogevents\.com\.au\/trials\/\d+\/schedule\/get/i.test(u) || /showmanagerservice\.|cloudfront\.net|cdn\.showmanager\.com\.au/i.test(u)); }
 function eventEntryHref(e){ return [e.entry_url, e.schedule_url].find(isEntryPlatform) || ""; }
 function eventSchedHref(e){ return [e.schedule_url, e.entry_url].find(isScheduleDoc) || ""; }
@@ -672,13 +672,31 @@ function cardHtml(e,f){
   // Club tag: the club name sits on the info line between State and Source.
   // Use the derived `club` (falls back to location for older data), and skip it
   // when it merely echoes the title/headline or is a bare state name.
-  const _club = (e.club || e.location || "").trim();
+  let _club = (e.club || e.location || "").trim();
+  // If `club` is actually a street address (digits + comma) — which happens for
+  // some events where the address was written into the club field — it's not a
+  // club name. Recover the real club from the title (many titles read
+  // "Club Name – Discipline"); strip the trailing discipline suffix.
+  const _clubLooksAddr = /\d/.test(_club) && _club.indexOf(",") !== -1;
+  if (_clubLooksAddr) {
+    const fromTitle = (e.title || "").trim()
+      .replace(/\s*[\u2013\u2014-]\s*(?:rally\s*obedience|rally\s*o|scent\s*work|scentwork|track\s*&?\s*search|tracking|obedience|rally|agility|jumping|trick\s*dog|dances\s*with\s*dogs|herding|lure\s*coursing|endurance|sprintdog|earthdog|retrieving|mondioring)\s*$/i, "")
+      .trim();
+    // Use the title-derived club only if it looks like a club and isn't itself
+    // an address.
+    if (fromTitle && !(/\d/.test(fromTitle) && fromTitle.indexOf(",") !== -1)
+        && /club|kennel|association|society|centre|obedience|agility|canine|dog|training/i.test(fromTitle)) {
+      _club = fromTitle;
+    } else {
+      _club = "";  // no recoverable club name
+    }
+  }
+  // Strip a trailing discipline suffix from the club (e.g.
+  // "Caboolture – Rally Obedience" -> "Caboolture") so existing data where the
+  // suffix was baked into the club field still displays a clean club name.
+  _club = _club.replace(/\s*[\u2013\u2014-]\s*(?:rally\s*obedience|rally\s*o|scent\s*work|scentwork|track\s*&?\s*search|tracking|obedience|rally|agility|jumping|trick\s*dog|dances\s*with\s*dogs|herding|lure\s*coursing|endurance|sprintdog|earthdog|retrieving|mondioring)\s*$/i, "").trim();
   const _clubLc = _club.toLowerCase();
   const _titleLc = (e.title || "").trim().toLowerCase();
-  // If `club` is actually a street address (digits + comma) — which happens for
-  // some Top Dog events where the address was written into the club field — it's
-  // not a club name. Suppress it as the club tag; the venue logic below shows it
-  // in the correct place (bottom-right).
   const _clubIsAddress = /\d/.test(_club) && _club.indexOf(",") !== -1;
   const _clubRedundant = !_club
     || _clubIsAddress
