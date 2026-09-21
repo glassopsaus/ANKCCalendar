@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T11:34:33+00:00",
+  "generated": "2026-09-21T11:58:27+00:00",
   "year": 2026,
   "count": 2829,
   "sources": [
@@ -1945,12 +1945,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46371",
+      "closes": "2026-01-31",
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial (PM) \u2013 TDTC"
@@ -2996,20 +2998,21 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-02-09",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1285",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/01/20260214-Warragul-Scent-Work-Schedule.pdf",
       "open_now": false,
       "is_past": true,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1285/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1285/catalogue/get",
       "club": "Warragul & District Kennel & Obedience Club"
     },
@@ -4484,12 +4487,14 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)"
+        "Dogs West (WA calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46243",
+      "closes": "2026-03-01",
       "open_now": false,
       "is_past": true
     },
@@ -4764,12 +4769,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46402",
+      "closes": "2026-03-02",
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial (PM) \u2013 TDTC"
@@ -4787,12 +4794,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46439",
+      "closes": "2026-02-22",
       "open_now": false,
       "is_past": true
     },
@@ -5107,16 +5116,17 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-02-26",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1300",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46574",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1300/schedule/get",
@@ -5922,15 +5932,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-03-11",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1432",
       "open_now": false,
@@ -6145,12 +6156,14 @@
       "provider": null,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46293",
+      "closes": "2026-03-02",
       "open_now": false,
       "is_past": true,
       "club": "Hornsby Dog Training Club"
@@ -6290,12 +6303,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46844",
+      "closes": "2026-03-07",
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial (PM) \u2013 ACTCDC"
@@ -7200,12 +7215,14 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46023",
+      "closes": "2026-03-11",
       "open_now": false,
       "is_past": true
     },
@@ -7251,12 +7268,14 @@
       "provider": "Show Manager",
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46894",
+      "closes": "2026-03-18",
       "open_now": false,
       "is_past": true,
       "club": "Gundog Society Inc"
@@ -7469,12 +7488,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46701",
+      "closes": "2026-03-09",
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 BDOC"
@@ -8143,12 +8164,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46403",
+      "closes": "2026-03-24",
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial (PM) \u2013 TDTC"
@@ -9421,12 +9444,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46628",
+      "closes": "2026-03-30",
       "open_now": false,
       "is_past": true
     },
@@ -9443,12 +9468,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46629",
+      "closes": "2026-03-30",
       "open_now": false,
       "is_past": true
     },
@@ -9538,12 +9565,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46657",
+      "closes": "2026-03-30",
       "open_now": false,
       "is_past": true
     },
@@ -10606,12 +10635,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46661",
+      "closes": "2026-03-27",
       "open_now": false,
       "is_past": true
     },
@@ -11091,12 +11122,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46571",
+      "closes": "2026-03-28",
       "open_now": false,
       "is_past": true
     },
@@ -11278,12 +11311,13 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-03-30",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
         "Dogs Victoria (official calendar)",
+        "Show Manager",
         "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
@@ -11291,10 +11325,10 @@
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1511",
       "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/04/20260411-Warragul-Scent-Work-Catalogue.pdf",
-      "club": "Warragul & District KOC \u2013 Scent Work Trial",
       "open_now": false,
       "is_past": true,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1511/schedule/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/1511/schedule/get",
+      "club": "Warragul & District Kennel & Obedience Club"
     },
     {
       "title": "Para District Obedience Dog Club Inc Obedience Trial",
@@ -11580,10 +11614,10 @@
         "Dogs NSW",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
-      "closes": null,
+      "closes": "2026-04-05",
       "entry_url": "https://www.showmanager.com.au/activity/4105",
       "club": "NSWLCA CAMPING MARCHMONT (NSW Lure Coursing Association)",
       "open_now": false,
@@ -11863,12 +11897,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47575",
+      "closes": "2026-04-12",
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial (PM) \u2013 TDTC"
@@ -11883,21 +11919,22 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-04-10",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1371",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/01/20260416-Australian-Shepherd-Club-Scent-Work-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/04/20260416-Australian-Shepherd-Scent-Work-Catalogue.pdf",
       "open_now": false,
       "is_past": true,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1371/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1371/catalogue/get",
       "club": "Australian Shepherd Club of Victoria"
     },
     {
@@ -12006,15 +12043,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-04-13",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1479",
       "open_now": false,
@@ -12056,14 +12094,16 @@
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
-      "cancelled": false,
+      "cancelled": true,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "cancelled",
+      "status_label": "Cancelled",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47208",
+      "closes": "2026-04-11",
       "open_now": false,
       "is_past": true
     },
@@ -12684,7 +12724,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -12692,6 +12733,7 @@
       "closes": "2026-04-05",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46531",
       "club": "Tracking Club of Victoria Test 1 only",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260418-19-Tracking-CV-Schedule-Tracking-Test-1-Schedule.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -13844,16 +13886,17 @@
       "cancelled": false,
       "region": "NSW",
       "color": "#7a3ea6",
-      "closes": null,
+      "closes": "2026-04-12",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1369",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46706",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1369/schedule/get",
@@ -14009,12 +14052,14 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)"
+        "Dogs West (WA calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47336",
+      "closes": "2026-04-22",
       "open_now": false,
       "is_past": true
     },
@@ -14648,12 +14693,14 @@
       "cancelled": false,
       "provider": "Show Manager",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47859",
+      "closes": "2026-04-21",
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW Scent Work Working Party"
@@ -14938,7 +14985,8 @@
       "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
-        "Ready Entries"
+        "Ready Entries",
+        "Show Manager"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -15028,15 +15076,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-04-26",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1445",
       "open_now": false,
@@ -15268,7 +15317,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -15276,6 +15326,8 @@
       "closes": "2026-04-19",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46818",
       "club": "Murray Valley Obedience Dog Club - Rally Saturday",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/02/20260503-Ballaarat-DOC-Agility-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/05/20260503-Ballaarat-DOC-Agility-Catalogue.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -15438,12 +15490,14 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47228",
+      "closes": "2026-04-28",
       "open_now": false,
       "is_past": true
     },
@@ -16217,14 +16271,15 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-04-24",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1697",
       "open_now": false,
@@ -16499,16 +16554,17 @@
       "sources": [
         "Top Dog Events",
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1277",
       "club": "Bendigo Obedience Dog Club",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/02/20260509-10-Bendigo-ODC-Scent-Work-Schedule.pdf",
       "open_now": false,
-      "is_past": true,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1277/schedule/get"
+      "is_past": true
     },
     {
       "title": "Borzoi Club of Vic Inc",
@@ -16810,7 +16866,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -16818,6 +16875,7 @@
       "closes": "2026-04-17",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46583",
       "club": "KNOX OBEDIENCE DOG CLUB INC",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/02/20260509-10-Knox-ODC-Tracking-Schedule.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -17005,12 +17063,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47241",
+      "closes": "2026-05-04",
       "open_now": false,
       "is_past": true
     },
@@ -17100,7 +17160,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -17108,6 +17169,7 @@
       "closes": "2026-05-03",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46856",
       "club": "WANGARATTA KENNEL & OBEDIENCE CLUB INC (Ring 4)",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/02/20260509-Frankston-Agility-Schedule.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -17341,16 +17403,17 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-04-29",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1752",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47836",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1752/schedule/get",
@@ -17398,10 +17461,10 @@
         "Dogs NSW",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
-      "closes": null,
+      "closes": "2026-05-03",
       "entry_url": "https://www.showmanager.com.au/activity/4108",
       "club": "NSWLCA CAMPING - Marchmont Racecourse 9  MAY 2026 (NSW Lure Coursing Association)",
       "open_now": false,
@@ -18641,7 +18704,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -18649,6 +18713,7 @@
       "closes": "2026-05-14",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46947",
       "club": "Berwick Obedience Dog Club",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/05/20260516-17-Western-Agility-Group-Agility-Catalogue.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -19231,12 +19296,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47291",
+      "closes": "2026-05-18",
       "open_now": false,
       "is_past": true
     },
@@ -19496,12 +19563,14 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47290",
+      "closes": "2026-05-17",
       "open_now": false,
       "is_past": true
     },
@@ -20214,10 +20283,10 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
-      "closes": null,
+      "closes": "2026-05-23",
       "entry_url": "https://www.showmanager.com.au/activity/4646",
       "open_now": false,
       "is_past": true
@@ -20449,12 +20518,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47285",
+      "closes": "2026-05-13",
       "open_now": false,
       "is_past": true
     },
@@ -20546,12 +20617,14 @@
       "breed_group": "Group 6 (Utility)",
       "breed": "malamute",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47149",
+      "closes": "2026-05-18",
       "open_now": false,
       "is_past": true,
       "club": "Alaskan Malamute Club of NSW \u2013 Sprint"
@@ -21742,15 +21815,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-05-31",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1678",
       "open_now": false,
@@ -21772,12 +21846,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47699",
+      "closes": "2026-05-31",
       "open_now": false,
       "is_past": true
     },
@@ -21913,12 +21989,14 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47435",
+      "closes": "2026-05-25",
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Club of Vic Inc"
@@ -22222,12 +22300,14 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48454",
+      "closes": "2026-06-03",
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW Herding Working Party State"
@@ -22759,12 +22839,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47695",
+      "closes": "2026-06-02",
       "open_now": false,
       "is_past": true
     },
@@ -22939,21 +23021,23 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-05-23",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1718",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/04/20260606-07-Western-Agility-Group-Agility-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/06/20260606-07-Western-Agility-Group-Agility-Catalogue.pdf",
       "open_now": false,
       "is_past": true,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1718/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1718/catalogue/get",
       "club": "East Gippsland Dog Obedience Club"
     },
     {
@@ -23450,12 +23534,14 @@
       "cancelled": false,
       "provider": "Show Manager",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48473",
+      "closes": "2026-06-02",
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW Scent Work Working Party"
@@ -23594,12 +23680,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47706",
+      "closes": "2026-06-06",
       "open_now": false,
       "is_past": true
     },
@@ -23886,12 +23974,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47703",
+      "closes": "2026-06-06",
       "open_now": false,
       "is_past": true
     },
@@ -23979,12 +24069,14 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48249",
+      "closes": "2026-06-09",
       "open_now": false,
       "is_past": true
     },
@@ -24246,12 +24338,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47709",
+      "closes": "2026-06-07",
       "open_now": false,
       "is_past": true
     },
@@ -24393,12 +24487,14 @@
       "breed_group": "Group 6 (Utility)",
       "breed": "siberian husky",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48360",
+      "closes": "2026-05-30",
       "open_now": false,
       "is_past": true,
       "club": "Siberian Husky Club of NSW \u2013 Sprint"
@@ -25202,7 +25298,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -25210,6 +25307,7 @@
       "closes": "2026-06-10",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47485",
       "club": "Ballaarat Dog Obedience Club",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260619-21-Ballaarat-DOC-Track-Search-Schedule.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -25407,15 +25505,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-06-12",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1457",
       "open_now": false,
@@ -25679,12 +25778,14 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47434",
+      "closes": "2026-06-05",
       "open_now": false,
       "is_past": true,
       "club": "German Shepherd Dog Club of Vic Inc"
@@ -25961,16 +26062,17 @@
       "cancelled": false,
       "region": "SA",
       "color": "#c9a227",
-      "closes": null,
+      "closes": "2026-06-08",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1793",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47537",
       "open_now": false,
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/1793/event_files/392/get",
@@ -25990,12 +26092,14 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)",
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1589",
+      "closes": "2026-06-12",
       "open_now": false,
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/1589/catalogue/get"
@@ -27271,12 +27375,14 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47577",
+      "closes": "2026-06-08",
       "open_now": false,
       "is_past": true,
       "club": "All Star Dog Sports \u2013 Sprint"
@@ -27411,12 +27517,14 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48253",
+      "closes": "2026-06-17",
       "open_now": false,
       "is_past": true
     },
@@ -27577,12 +27685,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/activity/4208",
+      "closes": "2026-06-26",
       "open_now": false,
       "is_past": true
     },
@@ -27622,7 +27732,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -27630,6 +27741,8 @@
       "closes": "2026-06-12",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46545",
       "club": "Tracking Club of Victoria",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260627-29-Tracking-CV-Tracking-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/06/20260627-29-Tracking-Club-Tracking-Catalogue.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -28297,12 +28410,14 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48011",
+      "closes": "2026-06-22",
       "open_now": false,
       "is_past": true,
       "club": "Grafton Dog Obedience Club"
@@ -28524,12 +28639,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48285",
+      "closes": "2026-06-30",
       "open_now": false,
       "is_past": true
     },
@@ -28959,12 +29076,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48170",
+      "closes": "2026-06-26",
       "open_now": false,
       "is_past": true,
       "club": "Scent Work Trial \u2013 BDOC"
@@ -29485,12 +29604,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48687",
+      "closes": "2026-07-01",
       "open_now": false,
       "is_past": true
     },
@@ -29920,12 +30041,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48688",
+      "closes": "2026-07-08",
       "open_now": false,
       "is_past": true
     },
@@ -30108,7 +30231,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -30116,6 +30240,7 @@
       "closes": "2026-06-30",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46846",
       "club": "Gippsland Obedience Dog Club Inc",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/02/20260711-13-Gippsland-Tracking-Schedule.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -30521,12 +30646,14 @@
       "cancelled": false,
       "provider": "Show Manager",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49021",
+      "closes": "2026-07-07",
       "open_now": false,
       "is_past": true,
       "club": "All Star Dog Sports"
@@ -30853,12 +30980,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48616",
+      "closes": "2026-07-04",
       "open_now": false,
       "is_past": true,
       "club": "Obedience Trial (Double) \u2013 ACTCDC"
@@ -31459,7 +31588,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -31467,6 +31597,8 @@
       "closes": "2026-07-06",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47486",
       "club": "Ballaarat Dog Obedience Club",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260718-20-Ballaarat-DOC-Tracking-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/07/20260718-20-Ballaarat-Tracking-Catalogue.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -31626,12 +31758,14 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48318",
+      "closes": "2026-07-03",
       "open_now": false,
       "is_past": true
     },
@@ -31703,7 +31837,8 @@
       "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
-        "Ready Entries"
+        "Ready Entries",
+        "Show Manager"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -32035,12 +32170,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48317",
+      "closes": "2026-07-12",
       "open_now": false,
       "is_past": true
     },
@@ -33598,12 +33735,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48990",
+      "closes": "2026-07-17",
       "open_now": false,
       "is_past": true
     },
@@ -33617,16 +33756,17 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-07-20",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1804",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48343",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1804/schedule/get",
@@ -34486,15 +34626,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-07-24",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1786",
       "open_now": false,
@@ -34658,12 +34799,14 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48893",
+      "closes": "2026-07-10",
       "open_now": false,
       "is_past": true,
       "club": "All Star Dog Sports \u2013 Sprint"
@@ -36043,12 +36186,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48742",
+      "closes": "2026-08-04",
       "open_now": false,
       "is_past": true
     },
@@ -36341,12 +36486,14 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49134",
+      "closes": "2026-07-20",
       "open_now": false,
       "is_past": true,
       "club": "All Star Dog Sports \u2013 Sprint"
@@ -36593,15 +36740,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-07-26",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1770",
       "open_now": false,
@@ -36744,15 +36892,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-07-31",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2008",
       "open_now": false,
@@ -36875,7 +37024,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -36883,6 +37033,7 @@
       "closes": "2026-07-27",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48855",
       "club": "Tracking Club of Victoria",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260808-10-Tracking-CV-Tracking-Schedule.pdf",
       "open_now": false,
       "is_past": true
     },
@@ -37217,12 +37368,16 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
       "entry_url": null,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/05/20260808-09-Wangaratta-Agility-Schedule.pdf",
+      "closes": "2026-08-02",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/08/20260808-Dances-with-Dogs-CV-DWD-Catalogue.pdf",
       "open_now": false,
       "is_past": true,
       "club": "East Gippsland Dog Obedience Club Inc. RALLY TRIAL"
@@ -37315,12 +37470,14 @@
       "cancelled": false,
       "provider": "Show Manager",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49280",
+      "closes": "2026-07-31",
       "open_now": false,
       "is_past": true,
       "club": "One Pack Dog Training Club"
@@ -37718,12 +37875,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/activity/4876",
+      "closes": "2026-08-13",
       "open_now": false,
       "is_past": true
     },
@@ -37911,15 +38070,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-08-18",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1851",
       "open_now": false,
@@ -38981,12 +39141,14 @@
       "cancelled": false,
       "provider": "Show Manager",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48500",
+      "closes": "2026-08-11",
       "open_now": false,
       "is_past": true,
       "club": "Northern Suburbs Dog Training Club Inc"
@@ -39072,15 +39234,16 @@
       "cancelled": false,
       "region": "NSW",
       "color": "#7a3ea6",
-      "closes": null,
+      "closes": "2026-08-14",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1768",
       "open_now": false,
@@ -39317,12 +39480,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48759",
+      "closes": "2026-08-15",
       "open_now": false,
       "is_past": true
     },
@@ -39604,12 +39769,14 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48760",
+      "closes": "2026-08-12",
       "open_now": false,
       "is_past": true
     },
@@ -39646,16 +39813,17 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-08-16",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1862",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46950",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1862/schedule/get",
@@ -39675,12 +39843,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48764",
+      "closes": "2026-08-09",
       "open_now": false,
       "is_past": true
     },
@@ -39985,12 +40155,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48753",
+      "closes": "2026-08-16",
       "open_now": false,
       "is_past": true
     },
@@ -40905,12 +41077,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48780",
+      "closes": "2026-08-21",
       "open_now": false,
       "is_past": true
     },
@@ -41530,12 +41704,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48778",
+      "closes": "2026-08-25",
       "open_now": false,
       "is_past": true
     },
@@ -41767,12 +41943,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48661",
+      "closes": "2026-08-08",
       "open_now": false,
       "is_past": true
     },
@@ -41860,12 +42038,13 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/activity/4940",
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
@@ -41983,12 +42162,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49188",
+      "closes": "2026-08-23",
       "open_now": false,
       "is_past": true
     },
@@ -42005,12 +42186,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/activity/4931",
+      "closes": "2026-09-05",
       "open_now": false,
       "is_past": true
     },
@@ -42267,18 +42450,19 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": null,
+      "closes": "2026-08-19",
       "topdog_open": true,
       "source": "Top Dog Events",
       "breed_group": "Group 5 (Working Dogs)",
       "breed": "collie",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2118",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49746",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/2118/schedule/get",
@@ -42489,12 +42673,14 @@
       "cancelled": false,
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49760",
+      "closes": "2026-09-01",
       "open_now": false,
       "is_past": true
     },
@@ -42751,12 +42937,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49189",
+      "closes": "2026-08-31",
       "open_now": false,
       "is_past": true
     },
@@ -43370,15 +43558,16 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-08-30",
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1949",
       "open_now": false,
@@ -43422,12 +43611,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49215",
+      "closes": "2026-09-04",
       "open_now": false,
       "is_past": true
     },
@@ -44047,12 +44238,14 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)",
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2073",
+      "closes": "2026-09-06",
       "open_now": false,
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/2073/catalogue/get"
@@ -44197,12 +44390,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49211",
+      "closes": "2026-09-09",
       "open_now": false,
       "is_past": true
     },
@@ -44896,12 +45091,13 @@
       "cancelled": false,
       "region": "QLD",
       "color": "#c0392b",
-      "closes": null,
+      "closes": "2026-09-14",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -44926,12 +45122,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49241",
+      "closes": "2026-09-14",
       "open_now": false,
       "is_past": true
     },
@@ -45504,12 +45702,14 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49233",
+      "closes": "2026-09-15",
       "open_now": false,
       "is_past": true
     },
@@ -46257,12 +46457,13 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/activity/5120",
       "open_now": false,
       "is_past": false
     },
@@ -46904,11 +47105,12 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
-      "verified": false,
+      "verified": true,
       "entry_url": null,
       "open_now": false,
       "is_past": false,
@@ -47239,10 +47441,14 @@
       "ep_status": "listed",
       "source": "Ready Entries",
       "sources": [
-        "Ready Entries"
+        "Ready Entries",
+        "Show Manager"
       ],
       "status_label": "Entries closed",
       "verified": true,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49283/SouthernHighlandsKennelObedienceClubInc_26-Sep-2026_SPRINT_49283_Schedule_20260707.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49283/SouthernHighlandsKennelObedienceClubInc_26-Sep-2026_SPRINT_49283_Catalogue_KMCjKsxFf0C1H-eceu5OAQ.pdf",
+      "address": "Bong Bong Race Course, 460 Kangaloon Rd, Bowral, 2576, NSW",
       "open_now": false,
       "is_past": false,
       "club": "St Ives Showground, Mona Vale Rd, St Ives"
@@ -47262,15 +47468,17 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2002",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50228-SCHEDULE-Caboolture-Sports-Dog-Obedience-Club-(QLD)-V1.pdf",
+      "address": "Morayfield, 34 Devine Crt, Morayfield, 4506, QLD",
       "open_now": false,
       "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2002/schedule/get",
       "club": "Cairns City Kennel Club"
     },
     {
@@ -47453,12 +47661,14 @@
       "breed_group": "Group 5 (Working Dogs)",
       "breed": "shetland sheepdog",
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/activity/5034",
+      "closes": "2026-09-30",
       "open_now": false,
       "is_past": false
     },
@@ -47564,7 +47774,7 @@
       "club": "Cairns",
       "start": "2026-10-02",
       "end": "2026-10-03",
-      "location": "Queensland",
+      "location": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
       "region": "QLD",
@@ -47572,13 +47782,17 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49584",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50578-SCHEDULE-German-Shepherd-Dog-Club-of-Queensland-Inc-(RTB)-(QLD)-V1.pdf",
+      "closes": "2026-09-27",
+      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -47586,7 +47800,7 @@
       "club": "Cairns",
       "start": "2026-10-02",
       "end": "2026-10-03",
-      "location": "Queensland",
+      "location": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Rally Obedience",
       "region": "QLD",
@@ -47594,13 +47808,17 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49593",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50587-SCHEDULE-Logan-All-Breeds-Dog-Obedience-Club-Inc-(Trial-2)-(QLD)-V1.pdf",
+      "closes": "2026-09-25",
+      "address": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -47608,7 +47826,7 @@
       "club": "Cairns",
       "start": "2026-10-02",
       "end": "2026-10-02",
-      "location": "Queensland",
+      "location": "Abbott Park, Abbott Park, Casey Ave, Mackay, 4740, QLD",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Trick Dog",
       "region": "QLD",
@@ -47616,13 +47834,17 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49587",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49586/MagpiesMackayDogObedienceClubIncTrial1_03-Oct-2026_TRICK_49586_Schedule_20260826_2FLBFcJx2UyfMzHuIrp91w.pdf",
+      "closes": "2026-09-25",
+      "address": "Abbott Park, Abbott Park, Casey Ave, Mackay, 4740, QLD",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -48392,7 +48614,7 @@
       "title": "North Queensland (COCT Inc) Scentwork Trial",
       "start": "2026-10-04",
       "end": "2026-10-05",
-      "location": "59 Canterbury Road, KIRWAN",
+      "location": "Canine Obedience Club of Townsville Inc",
       "url": "https://www.topdogevents.com.au/trials/2113",
       "category": "Scent Work",
       "cancelled": false,
@@ -48402,12 +48624,15 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2113",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49596",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50590-SCHEDULE-Mackay-Magpies-and-District-Obedience-Club-(QLD)-V1.pdf",
+      "address": "Other, 0, QLD",
       "open_now": false,
       "is_past": false,
       "club": "Canine Obedience Club of Townsville Inc"
@@ -48443,7 +48668,7 @@
       "title": "Penrith Kennel & Obedience Club Inc \u2013 Rally Obedience",
       "start": "2026-10-04",
       "end": "2026-10-04",
-      "location": "",
+      "location": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Rally Obedience",
       "region": "NSW",
@@ -48452,12 +48677,16 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49467",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50464-SCHEDULE-NSW-Obedience-State-Titles-(NSW)-V1.pdf",
+      "closes": "2026-09-18",
+      "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
       "is_past": false,
       "club": "Penrith Kennel & Obedience Club Inc"
@@ -48792,13 +49021,15 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50012",
+      "closes": "2026-10-02",
+      "open_now": true,
       "is_past": false,
       "club": "Scent Work Trial \u2013 ACTCDC"
     },
@@ -48973,9 +49204,10 @@
       "verified": true,
       "closes": "2026-09-27",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49597",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49598/SprintdogClubofQLDInc_10-Oct-2026_SPRINT_49598_Schedule_20260831_I34TxMf9LUymoQcvE0LGVw.pdf",
+      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49597/SprintdogClubofQLDInc_09-Oct-2026_SPRINT_49597_Schedule_20260902_Qb4eBnn41kScrtF7yRe4Xw.pdf"
+      "is_past": false
     },
     {
       "title": "4p\u2019s All Toy Dog Club of NSW \u2013 Conformation",
@@ -49194,9 +49426,10 @@
       "verified": true,
       "closes": "2026-09-28",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49600",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50596-SCHEDULE-Nanango-Kennel-Club-(QLD)-V1.pdf",
+      "address": "Alan Downie Sports Fields, Burnett St, Nanango, 4615, QLD",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50594-SCHEDULE-Nanango-Kennel-Club-(QLD)-V1.pdf"
+      "is_past": false
     },
     {
       "title": "Noarlunga Agility Trial 10/10/26",
@@ -49483,9 +49716,10 @@
       "closes": "2026-10-03",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48841",
       "club": "VICTORIAN HERDING ASSOCIATION Inc (Judge 1)",
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/48841/VICTORIANHERDINGASSOCIATIONInc_10-Oct-2026_HERD_48841_Schedule_20260606.pdf",
+      "address": "Nyora, 960 Mt Lyall Rd, Nyora, 3987, VIC",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/48841/VICTORIANHERDINGASSOCIATIONInc_10-Oct-2026_HERD_48841_Schedule_20260606.pdf"
+      "is_past": false
     },
     {
       "title": "Australian Kelpie Club of NSW Inc \u2013 Conformation",
@@ -49686,7 +49920,7 @@
       "title": "German Shepherd Dog League NSW Inc \u2013 Rally Obedience",
       "start": "2026-10-11",
       "end": "2026-10-11",
-      "location": "Blacktown City Canine Centre (Owen St), Owen St, Glendenning, 2761, NSW",
+      "location": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Rally Obedience",
       "region": "NSW",
@@ -49704,9 +49938,10 @@
       "closes": "2026-09-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49461",
       "club": "United Retriever Club of NSW",
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49413/PoodleClubofNSWInc_10-Oct-2026_CH_49413_Schedule_20260723.pdf",
+      "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50457-SCHEDULE-United-Retriever-Club-of-NSW--(NSW)-V1.pdf"
+      "is_past": false
     },
     {
       "title": "Gippsland Obedience Dog Club",
@@ -50125,7 +50360,7 @@
       "title": "Scent Work Trial \u2013 TDTC",
       "start": "2026-10-16",
       "end": "2026-10-16",
-      "location": "",
+      "location": "TDTC Grounds, Cnr of Athllon Drive & Rowland Rees, Crescent Greenway, 2906, ACT",
       "url": "https://dogsact.org.au/event/scent-work-trial-tdtc-19/",
       "category": "Scent Work",
       "source": "Dogs ACT",
@@ -50133,13 +50368,17 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT"
+        "Dogs ACT",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49894",
+      "closes": "2026-10-12",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49894/TuggeranongDogTrainingClub_16-Oct-2026_SW_49894_Schedule_20260831_bFs6q_xhfUG27RRJWWf5DA.pdf",
+      "address": "TDTC Grounds, Cnr of Athllon Drive & Rowland Rees, Crescent Greenway, 2906, ACT",
+      "open_now": true,
       "is_past": false,
       "club": "Scent Work Trial \u2013 TDTC"
     },
@@ -51341,7 +51580,7 @@
       "cancelled": false,
       "region": "SA",
       "color": "#c9a227",
-      "closes": null,
+      "closes": "2026-10-09",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
@@ -51448,9 +51687,10 @@
       "closes": "2026-10-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49476",
       "club": "Brush Farm 11th Double Rally (Trial A)",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49476/BrushFarm11thDoubleRallyTrialA_25-Oct-2026_RO_49476_Schedule_20260730_8Ykh08-dEkaRLB2HnurU6Q.pdf",
+      "address": "Brush Farm Park, Cnr Marsden Rd & Lawson St, Eastwood, 2079, NSW",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49476/BrushFarm11thDoubleRallyTrialA_25-Oct-2026_RO_49476_Schedule_20260730_8Ykh08-dEkaRLB2HnurU6Q.pdf"
+      "is_past": false
     },
     {
       "title": "Bundaberg \u2013 Rally Obedience",
@@ -52127,7 +52367,8 @@
       "cancelled": false,
       "sources": [
         "Dogs Victoria (official calendar)",
-        "Top Dog Events"
+        "Top Dog Events",
+        "Show Manager"
       ],
       "topdog_open": true,
       "closes": "2026-10-23",
@@ -52412,13 +52653,15 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49380",
+      "closes": "2026-10-23",
+      "open_now": true,
       "is_past": false,
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49380/GSDCVRTBGp5ObedienceRallyTrial_31-Oct-2026_OB_49380_Schedule_20260720.pdf",
       "club": "German Shepherd Dog Club of Vic Inc RTG5"
@@ -54622,9 +54865,10 @@
       "closes": "2026-11-08",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49848",
       "club": "Newcastle All Breeds Dog Training Club Inc",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50858-SCHEDULE-Newcastle-All-Breeds-Dog-Training-Club-Inc-(PM-Trial)-(NSW)-V1.pdf",
+      "address": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50855-SCHEDULE-Newcastle-All-Breeds-Dog-Training-Club-Inc-(NSW)-V1.pdf"
+      "is_past": false
     },
     {
       "title": "Western Districts Boxer Club of NSW Inc \u2013 Trick Dog",
@@ -54641,13 +54885,15 @@
       "breed_group": "Group 6 (Utility)",
       "breed": "boxer",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49850",
+      "closes": "2026-11-08",
+      "open_now": true,
       "is_past": false,
       "club": "Western Districts Boxer Club of NSW Inc"
     },
@@ -54827,11 +55073,12 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
-      "verified": false,
+      "verified": true,
       "entry_url": null,
       "open_now": false,
       "is_past": false,
@@ -57825,7 +58072,8 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -57834,8 +58082,8 @@
       "verified": true,
       "closes": "2026-03-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46884",
-      "schedule_url": null,
-      "catalogue_url": null,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260404-05-Dogs-Victoria-Obedience-Rally-Easter-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/04/20260404-05-Agility-Dog-CV-Agility-Catalogue.pdf",
       "address": null,
       "open_now": false,
       "is_past": true
@@ -60607,7 +60855,8 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60616,8 +60865,8 @@
       "verified": true,
       "closes": "2026-04-21",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46805",
-      "schedule_url": null,
-      "catalogue_url": null,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260523-Working-Dog-Club-Obedience-Rally-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/05/20260523-Working-Dog-Club-RTG5-Obedience-Rally-Catalogue.pdf",
       "address": null,
       "open_now": false,
       "is_past": true
@@ -63753,7 +64002,8 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -63762,8 +64012,8 @@
       "verified": true,
       "closes": "2026-07-18",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47345",
-      "schedule_url": null,
-      "catalogue_url": null,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/05/20260801-02-Bairnsdale-Agility-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/07/2026060801-02-Bairnsdale-Agility-Catalogue.pdf",
       "address": null,
       "open_now": false,
       "is_past": true
@@ -66405,7 +66655,8 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -66613,7 +66864,8 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -66622,7 +66874,7 @@
       "verified": true,
       "closes": "2026-10-03",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49268",
-      "schedule_url": null,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/08/20261010-East-Gippsland-Agility-Schedule.pdf",
       "catalogue_url": null,
       "address": null,
       "open_now": true,
@@ -66925,7 +67177,8 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -66934,7 +67187,7 @@
       "verified": true,
       "closes": "2026-10-10",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50091",
-      "schedule_url": null,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/07/20261017-Precision-Agility-Schedule.pdf",
       "catalogue_url": null,
       "address": null,
       "open_now": true,
@@ -67107,7 +67360,8 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager"
+        "Show Manager",
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -67116,7 +67370,7 @@
       "verified": true,
       "closes": "2026-10-18",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49385",
-      "schedule_url": null,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/07/20261024-Knox-ODC-Agility-Schedule.pdf",
       "catalogue_url": null,
       "address": null,
       "open_now": true,
