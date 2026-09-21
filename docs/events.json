@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-21T16:46:44+00:00",
+  "generated": "2026-09-21T17:13:31+00:00",
   "year": 2026,
-  "count": 2844,
+  "count": 2835,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -1852,13 +1852,12 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT",
-        "Top Dog Events"
+        "Dogs ACT"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1290",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1290/schedule/get",
@@ -4387,13 +4386,12 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT",
-        "Top Dog Events"
+        "Dogs ACT"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1280",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1280/schedule/get",
@@ -7913,32 +7911,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Jumping Ribbon Trail \u2013 ACTCDC"
-    },
-    {
-      "title": "March 24th Ribbon",
-      "start": "2026-03-24",
-      "end": "2026-03-24",
-      "location": "ACT Companion Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/1604",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "closes": null,
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1604",
-      "open_now": false,
-      "is_past": true,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1604/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1604/catalogue/get",
-      "club": "ACT Companion Dog Club"
     },
     {
       "title": "26/03/2026",
@@ -11848,13 +11820,12 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT",
-        "Top Dog Events"
+        "Dogs ACT"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1680",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1680/schedule/get",
@@ -14585,30 +14556,6 @@
       "club": "Read More"
     },
     {
-      "title": "2026 Scent Work State Trial Merchandise",
-      "start": "2026-05-01",
-      "end": "2026-05-01",
-      "location": "Dogs SA Scent Work Advisory Committee",
-      "url": "https://www.topdogevents.com.au/trials/1532",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": null,
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1532",
-      "open_now": false,
-      "is_past": true,
-      "club": "Dogs SA Scent Work Advisory Committee"
-    },
-    {
       "title": "Bathurst A H & P Association Inc \u2013 Obedience",
       "start": "2026-05-01",
       "end": "2026-05-01",
@@ -14800,30 +14747,6 @@
       "open_now": false,
       "is_past": true,
       "club": "SprintDog Trial \u2013 BDOC"
-    },
-    {
-      "title": "2026 Agility Nationals Queensland - In Memory of\u2026class sponsorships",
-      "start": "2026-05-02",
-      "end": "2026-05-02",
-      "location": "2026 QLD Nationals Committee",
-      "url": "https://www.topdogevents.com.au/trials/1458",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "QLD",
-      "color": "#c0392b",
-      "closes": null,
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1458",
-      "open_now": false,
-      "is_past": true,
-      "club": "2026 QLD Nationals Committee"
     },
     {
       "title": "Agility and Jumping Trial",
@@ -16139,31 +16062,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Jumping Ribbon Trial \u2013 ACTCDC"
-    },
-    {
-      "title": "May 5th Ribbon",
-      "start": "2026-05-05",
-      "end": "2026-05-05",
-      "location": "ACT Companion Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/1656",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "closes": null,
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1656",
-      "open_now": false,
-      "is_past": true,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1656/catalogue/get",
-      "club": "ACT Companion Dog Club"
     },
     {
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
@@ -23545,30 +23443,6 @@
       "open_now": false,
       "is_past": true,
       "club": "DOGS NSW Scent Work Working Party"
-    },
-    {
-      "title": "2026 Agility Nationals Queensland - Misc Merchandise - Pickup only 23/6/26 @  Durack",
-      "start": "2026-06-12",
-      "end": "2026-06-12",
-      "location": "2026 QLD Nationals Committee",
-      "url": "https://www.topdogevents.com.au/trials/1435",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "QLD",
-      "color": "#c0392b",
-      "closes": null,
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1435",
-      "open_now": false,
-      "is_past": true,
-      "club": "2026 QLD Nationals Committee"
     },
     {
       "title": "All Breeds Tracking \u2013 Tracking",
@@ -39211,13 +39085,12 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT",
-        "Top Dog Events"
+        "Dogs ACT"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2030",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/2030/schedule/get",
@@ -42037,12 +41910,11 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW",
-        "Show Manager"
+        "Dogs NSW"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
       "entry_url": null,
       "open_now": false,
       "is_past": true,
@@ -43359,31 +43231,26 @@
       "club": "Track & Search Trial \u2013 Canberra Scent Sport Club"
     },
     {
-      "title": "ACTCDC September Agility Ribbon Trial",
+      "title": "Agility Ribbon Trial \u2013 ACTCDC",
       "start": "2026-09-08",
       "end": "2026-09-08",
-      "location": "ACT Companion Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/2100",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-ribbon-trial-actcdc/",
       "category": "Agility",
+      "source": "Dogs ACT",
       "cancelled": false,
       "region": "ACT",
       "color": "#1d6fb8",
-      "closes": null,
-      "topdog_open": false,
-      "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
         "Dogs ACT"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2100",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2100/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2100/catalogue/get",
-      "club": "ACT Companion Dog Club"
+      "club": "Agility Ribbon Trial \u2013 ACTCDC"
     },
     {
       "title": "Metro Mid Week Dog Training Club Inc \u2013 Tracking / Track & Search",
@@ -50428,16 +50295,13 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "sources": [
-        "Dogs ACT",
-        "Top Dog Events"
+        "Dogs ACT"
       ],
-      "topdog_open": true,
-      "closes": "2026-10-07",
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2107",
-      "open_now": true,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2107/schedule/get",
       "club": "Tuggeranong Dog Training Club"
@@ -59622,32 +59486,6 @@
       "is_past": true
     },
     {
-      "title": "Rosette & Sash Sponsorship ALCRC APRIL Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC) \u2013 Lure Coursing",
-      "club": "Rosette & Sash Sponsorship ALCRC APRIL Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC)",
-      "start": "2026-04-12",
-      "end": "2026-04-12",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "SA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-15",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "White Swiss Shepherd Dog Association Of Victoria Inc SprintDogTM",
       "club": "White Swiss Shepherd Dog Association Of Victoria Inc SprintDogTM",
       "start": "2026-04-15",
@@ -61460,32 +61298,6 @@
       "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-05-17",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Rosette & Sash Sponsorship ALCRC MAY Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC) \u2013 Lure Coursing",
-      "club": "Rosette & Sash Sponsorship ALCRC MAY Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC)",
-      "start": "2026-05-17",
-      "end": "2026-05-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "SA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-26",
       "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
@@ -65396,32 +65208,6 @@
       "is_past": true
     },
     {
-      "title": "Rosette & Sash Sponsorship ALCRC AUG Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC) \u2013 Lure Coursing",
-      "club": "Rosette & Sash Sponsorship ALCRC AUG Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC)",
-      "start": "2026-08-09",
-      "end": "2026-08-09",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "SA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-19",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Port Macquarie Dog Club Inc \u2013 Sprint",
       "club": "Port Macquarie Dog Club Inc",
       "start": "2026-08-11",
@@ -66741,32 +66527,6 @@
       "verified": true,
       "closes": "2026-09-06",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49780",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Rosette & Sash Sponsorship ALCRC SEP Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC) \u2013 Lure Coursing",
-      "club": "Rosette & Sash Sponsorship ALCRC SEP Lure Trial  (ADELAIDE LURE COURSING & RACING CLUB INC)",
-      "start": "2026-09-13",
-      "end": "2026-09-13",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "SA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-08-23",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "address": null,
