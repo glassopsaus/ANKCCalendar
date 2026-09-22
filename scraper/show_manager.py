@@ -265,7 +265,19 @@ def fetch_event_detail(event_id):
         return {}
 
     out = {"address": None, "schedule_url": None, "catalogue_url": None,
-           "event_name": None, "club": None}
+           "event_name": None, "club": None, "classes": None}
+
+    # Scent-work class levels named anywhere on the details page (e.g. "Class
+    # Entry limits: 30 Novice, Advanced & Excellent and 20 Masters"). Collect the
+    # SET of ANKC levels present. Only meaningful for scent work; the caller
+    # decides whether to use it based on the event's discipline.
+    _pt = soup.get_text(" ", strip=True)
+    _LV = [("Novice", r"\bnovice\b"), ("Advanced", r"\badvanced\b"),
+           ("Excellent", r"\bexcellent\b"), ("Masters", r"\bmasters?\b"),
+           ("Ultimate", r"\bultimate\b")]
+    _found = [n for n, rx in _LV if re.search(rx, _pt, re.I)]
+    if _found:
+        out["classes"] = _found
 
     # Event name: the main <h1> heading on the details page (full event title).
     h1 = soup.find("h1")
@@ -574,6 +586,8 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
                 x["catalogue_url"] = info["catalogue_url"]
             if info.get("club"):
                 x["club"] = info["club"]
+            if info.get("classes") and "scent" in (x.get("discipline") or "").lower():
+                x["classes"] = info["classes"]
             if req_delay and i < len(todays_targets):
                 time.sleep(req_delay)
             if i % 100 == 0:
