@@ -272,6 +272,35 @@ def fetch(url, retries=3, backoff=2.0):
     raise last_err
 
 
+import contextlib as _contextlib
+
+
+@_contextlib.contextmanager
+def _force_ipv4(*hosts):
+    """Temporarily make socket.getaddrinfo return ONLY IPv4 (A) results for the
+    given hosts. GitHub-hosted runners are IPv4-only for outbound, and Python
+    can otherwise try a host's IPv6 (AAAA) address first and fail with
+    "[Errno 101] Network is unreachable" without falling back to IPv4. Scoping
+    this to specific hosts (e.g. vicdog.com) avoids touching all other traffic.
+    Restores the original resolver on exit."""
+    import socket
+    _orig = socket.getaddrinfo
+    _targets = {h.lower() for h in hosts}
+
+    def _v4_only(host, *args, **kwargs):
+        res = _orig(host, *args, **kwargs)
+        if host and host.lower() in _targets:
+            v4 = [r for r in res if r[0] == socket.AF_INET]
+            return v4 or res  # if somehow no IPv4, fall back to whatever we got
+        return res
+
+    socket.getaddrinfo = _v4_only
+    try:
+        yield
+    finally:
+        socket.getaddrinfo = _orig
+
+
 def looks_like_tracking(*texts):
     return any(t and TRACKING_RE.search(t) for t in texts)
 
@@ -1357,22 +1386,28 @@ def scrape_vicdog_listings(year=None):
     and add schedule/close data) and events_from_unmatched_listings (to gap-fill
     anything the DV PDF missed)."""
     year = year or YEAR
-    urls = _vicdog_enumerate_event_urls(year)
-    print(f"[vicdog] enumerated {len(urls)} candidate {year} event pages",
-          file=sys.stderr)
-    listings = []
-    seen = set()
-    for url in urls:
-        L = _vicdog_parse_event_page(url)
-        if not L:
-            continue
-        if dt.date.fromisoformat(L["date"]).year != year:
-            continue
-        key = (L["club"].lower(), L["date"], L["discipline"])
-        if key in seen:
-            continue
-        seen.add(key)
-        listings.append(L)
+    # Force IPv4 for all vicdog.com traffic. vicdog resolves to both IPv4 and
+    # IPv6, and GitHub runners are IPv4-only — a run that tried the IPv6 address
+    # first failed with "[Errno 101] Network is unreachable" and never fell back.
+    # Pinning to IPv4 avoids that. (If it still fails on IPv4, that's a genuine
+    # host-side block of GitHub's IP range, which this can't fix.)
+    with _force_ipv4("vicdog.com", "www.vicdog.com"):
+        urls = _vicdog_enumerate_event_urls(year)
+        print(f"[vicdog] enumerated {len(urls)} candidate {year} event pages",
+              file=sys.stderr)
+        listings = []
+        seen = set()
+        for url in urls:
+            L = _vicdog_parse_event_page(url)
+            if not L:
+                continue
+            if dt.date.fromisoformat(L["date"]).year != year:
+                continue
+            key = (L["club"].lower(), L["date"], L["discipline"])
+            if key in seen:
+                continue
+            seen.add(key)
+            listings.append(L)
     from collections import Counter
     by_disc = Counter(x["discipline"] for x in listings)
     print(f"[vicdog] kept {len(listings)} listings across all disciplines "
