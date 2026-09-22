@@ -2377,7 +2377,7 @@ def _fetch_topdog_docs(trial_id):
     block). Top Dog EVENT pages (unlike its JS listing) are plain HTML, so a
     normal fetch works — no browser needed. Best-effort; never raises."""
     out = {"schedule_url": None, "catalogue_url": None, "address": None,
-           "club": None}
+           "club": None, "venue": None}
     url = f"https://www.topdogevents.com.au/trials/{trial_id}"
     try:
         resp = fetch(url)
@@ -2402,6 +2402,18 @@ def _fetch_topdog_docs(trial_id):
         club = cm.group(1).strip(" -\u2013\u2014·,")
         if club and 4 <= len(club) <= 90:
             out["club"] = club
+    # Venue NAME: "Venue: Bill Spilstead Complex for Canine Affairs". Many Top
+    # Dog pages expose only a venue name (no street address / no maps link), so
+    # capture it as a fallback location — a venue name beats repeating the club
+    # name. Terminated by the next labelled field.
+    vm = re.search(
+        r"Venue:\s*(.+?)\s*(?:Entries close|Vetting|Judging starts|"
+        r"Trial Secretary|Hosted by|Get Directions|$)", page_text, re.I)
+    if vm:
+        venue = vm.group(1).strip(" -\u2013\u2014·,")
+        # Guard against absurd captures (whole-page runs) and non-venue noise.
+        if venue and 3 <= len(venue) <= 80:
+            out["venue"] = venue
     for a in soup.find_all("a", href=True):
         txt = a.get_text(" ", strip=True).lower()
         href = a["href"]
@@ -2546,7 +2558,7 @@ def _enrich_topdog_schedules(events):
           f"{len(todays)} of {len(targets)} Top Dog events missing a "
           f"schedule/catalogue ({n_window} in catalogue window, checked daily; "
           f"~{req_delay:.1f}s apart)...", file=sys.stderr)
-    n_sched = n_cat = n_addr = 0
+    n_sched = n_cat = n_addr = n_venue = 0
     for i, (e, tid) in enumerate(todays, 1):
         docs = _fetch_topdog_docs(tid)
         if docs["schedule_url"] and not e.get("schedule_url"):
@@ -2581,11 +2593,26 @@ def _enrich_topdog_schedules(events):
                     e["_club_locked"] = True
                 e["location"] = addr
                 n_addr += 1
+        else:
+            # No street address on the page — fall back to the VENUE NAME (e.g.
+            # "Bill Spilstead Complex for Canine Affairs"), which is more useful
+            # than repeating the club name as the location. Only when the current
+            # location isn't already a street address, and we have a real club
+            # to keep on the left of the card.
+            venue = docs.get("venue")
+            cur = (e.get("location") or "").strip()
+            cur_is_street = bool(re.search(r"\d", cur)) and "," in cur
+            if venue and not cur_is_street and venue.lower() != cur.lower():
+                if cur and not e.get("club") and _looks_like_club(cur):
+                    e["club"] = cur
+                    e["_club_locked"] = True
+                e["location"] = venue
+                n_venue += 1
         if req_delay and i < len(todays):
             time.sleep(req_delay)
     print(f"[topdog-docs] captured {n_sched} schedule(s), {n_cat} catalogue(s), "
-          f"{n_addr} address(es)", file=sys.stderr)
-    return n_sched + n_cat + n_addr
+          f"{n_addr} address(es), {n_venue} venue name(s)", file=sys.stderr)
+    return n_sched + n_cat + n_addr + n_venue
 
 
 def _seed_addresses_from_prior(events):
