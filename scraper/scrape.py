@@ -3361,7 +3361,7 @@ def build_year():
     # address/venue (not a bare state), and the dates must match.
     def _real_entry(e):
         u = (e.get("entry_url") or "").strip()
-        return u if isEntryPlatform(u) else ""
+        return u if _is_specific_event_link(u) else ""
 
     def _real_venue(e):
         loc = (e.get("location") or "").strip()
