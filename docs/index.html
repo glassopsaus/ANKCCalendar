@@ -146,6 +146,7 @@
   .crow-bottom .crow-r{flex:1 1 auto; min-width:0; margin-left:auto; text-align:right; justify-content:flex-end;}
   .crow-bottom .tag.venue{text-align:right;}
   .tag.club{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:500;}
+  .tag.swclass{background:var(--fam-scent-bg,#efe8f5); color:var(--fam-scent,#6b3f8a); font-weight:600;}
   .tag.loc{background:transparent; color:var(--ink-soft); padding-left:0; font-weight:500;}
   .tag.src{background:transparent;color:var(--ink-soft);border:1px dashed var(--hair);font-weight:500}
   .right{display:flex; flex-direction:column; align-items:flex-end; gap:6px; text-align:right;}
@@ -240,6 +241,14 @@
       </button>
       <div class="filter-row facc-body" id="breed-filters"><span class="flabel"><span class="all"><button data-g="breed" data-a="all">all</button> / <button data-g="breed" data-a="none">clear</button></span> <span class="fnote">restricted events only (inferred)</span></span></div>
     </div>
+    <div class="faccordion" id="acc-swclass">
+      <button class="filters-toggle" aria-expanded="false" aria-controls="swclass-filters">
+        <span class="ft-label">Scent Work class</span>
+        <span class="ft-summary" id="sum-swclass"></span>
+        <span class="ft-chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="filter-row facc-body" id="swclass-filters"><span class="flabel"><span class="all"><button data-g="swclass" data-a="all">all</button> / <button data-g="swclass" data-a="none">clear</button></span> <span class="fnote">scent work only; events whose class isn't published are always shown</span></span></div>
+    </div>
     <div class="faccordion" id="acc-status">
       <button class="filters-toggle" aria-expanded="false" aria-controls="status-filters">
         <span class="ft-label">Entry status</span>
@@ -309,6 +318,7 @@ const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 let ALL = [];
 let shownLimit = PAGE_SIZE;
 const active = { region:new Set(), disc:new Set(), breed:new Set(),
+  swclass:new Set(),
   status:new Set(["open","listed","closed","approved","cancelled"]),
   verifiedOnly:false, showPast:false };
 // Entry-state chips select which entry-states show. `showPast` is an INDEPENDENT
@@ -374,6 +384,27 @@ function setupFilters(){
     buildChips(_bf, breeds.map(b=>[b, b, "var(--fam-other)", false, breedCountsAll[b]]), "breed");
   }
 
+  // Scent Work class levels (ANKC): fixed order Novice -> Ultimate. Count how
+  // many scent work events list each level. Only shown if there ARE scent work
+  // events with class data (else the filter would be empty/pointless).
+  const _swf = $("#swclass-filters"); if(_swf) clearChips(_swf);
+  if(_swf){
+    const LEVELS = ["Novice","Advanced","Excellent","Masters","Ultimate"];
+    const swCounts = {};
+    let swKnown = 0;
+    for(const e of ALL){
+      if(!/scent/i.test(e.category||"")) continue;
+      if(Array.isArray(e.classes) && e.classes.length){
+        swKnown++;
+        for(const c of e.classes) swCounts[c]=(swCounts[c]||0)+1;
+      }
+    }
+    for(const c of [...active.swclass]) if(!(c in swCounts)) active.swclass.delete(c);
+    if(swKnown>0){
+      buildChips(_swf, LEVELS.filter(l=>swCounts[l]).map(l=>[l,l,"var(--fam-scent)",false,swCounts[l]]), "swclass");
+    }
+  }
+
   buildChips($("#status-filters"), [["open","Open","var(--open)",false],["listed","Listed","var(--listed)",false],["closed","Entries closed","var(--closed)",false],["approved","Approved","var(--approved)",false],["cancelled","Cancelled","var(--cancel)",false]], "status");
 
   // Verified-only and Show-past are INDEPENDENT axes (not entry-states), so they
@@ -401,7 +432,7 @@ function setupFilters(){
     document.querySelectorAll(".flabel .all button").forEach(btn=>{
       btn.addEventListener("click",()=>{
         const g = btn.dataset.g, a = btn.dataset.a;
-        const containerById = {region:"#state-filters", disc:"#disc-filters", breed:"#breed-filters"};
+        const containerById = {region:"#state-filters", disc:"#disc-filters", breed:"#breed-filters", swclass:"#swclass-filters"};
         const container = $(containerById[g] || "#disc-filters");
         active[g].clear();
         if(a==="all"){ container.querySelectorAll(".chip").forEach(c=>active[g].add(c.dataset.val)); }
@@ -427,6 +458,19 @@ function renderLegend(){
 function _rOK(e){ return active.region.size===0 || active.region.has(e.region); }
 function _dOK(e){ return active.disc.size===0   || active.disc.has(e.category); }
 function _bOK(e){ return active.breed.size===0  || active.breed.has(e.breed_group); }
+// Scent Work class filter. TRANSPARENT by design: only applies to scent work
+// events, and an event whose class list we DON'T have (not published on the
+// source) is ALWAYS shown — never silently hidden — so a real trial can't be
+// filtered out just because its class wasn't scraped. When class(es) are
+// selected, a scent work event passes if it lists at least one selected class
+// OR has no class data at all.
+function _swOK(e){
+  if(active.swclass.size===0) return true;
+  if(!/scent/i.test(e.category||"")) return true;      // non-scent-work: unaffected
+  const cls = Array.isArray(e.classes) ? e.classes : null;
+  if(!cls || cls.length===0) return true;              // class unknown: always shown
+  return cls.some(c=>active.swclass.has(c));
+}
 function _sOK(e){ return active.status.has(statusKind(e)); }
 function _vOK(e){ return !active.verifiedOnly || e.verified; }
 function _pOK(e){ return active.showPast || !isPast(e); }
@@ -450,7 +494,7 @@ function filtered(){
   // narrow by entry-state. Past is an INDEPENDENT gate: unless showPast is on,
   // past events are hidden regardless of their entry-state. verifiedOnly narrows
   // to verified.
-  return ALL.filter(e=> _rOK(e) && _dOK(e) && _bOK(e) && _sOK(e) && _vOK(e) && _pOK(e))
+  return ALL.filter(e=> _rOK(e) && _dOK(e) && _bOK(e) && _swOK(e) && _sOK(e) && _vOK(e) && _pOK(e))
     .sort((a,b)=>(a.start||"").localeCompare(b.start||"") || (a.title||"").localeCompare(b.title||""));
 }
 
@@ -496,6 +540,7 @@ function buildICS(events){
     if(e.club && e.club!==e.title) descBits.push(e.club);
     if(e.status_label) descBits.push(`Status: ${e.status_label}`);
     if(e.breed_group) descBits.push(`Restricted: ${e.breed_group}`);
+    if(Array.isArray(e.classes) && e.classes.length) descBits.push(`Classes: ${e.classes.join(", ")}`);
     if(e.region) descBits.push(`State: ${e.region}`);
     // Separate Enter (real entry platform) and Schedule (document) links, the
     // same distinction the cards draw — never conflate them, and never present
@@ -603,6 +648,12 @@ function updateFilterSummary(){
     if(active.verifiedOnly) bits.push("verified");
     if(active.showPast) bits.push("incl. past");
     sEl.textContent = bits.length ? bits.join(" · ") : "All statuses";
+  }
+  const swEl = $("#sum-swclass");
+  if(swEl){
+    const sw = [...active.swclass];
+    swEl.textContent = !sw.length ? "All classes"
+      : (sw.length<=3 ? sw.join(", ") : `${sw.length} classes`);
   }
 }
 
@@ -768,13 +819,17 @@ function cardHtml(e,f){
   // the club on row 3. Past/cancelled/closing info rides along on row 2 with
   // the verified mark so those states remain visible.
   const row2Left = `${verifiedMark}${statusBadge}${pastBadge}${closes}`;
+  // Scent-work class levels tag (e.g. "Novice · Advanced"), when known. Sits
+  // with the discipline on the bottom row. Only for scent work with class data.
+  const swClassTag = (/scent/i.test(e.category||"") && Array.isArray(e.classes) && e.classes.length)
+    ? `<span class="tag swclass" title="Scent Work classes offered">${escapeHtml(e.classes.join(" · "))}</span>` : "";
   return `<article class="card ${sk==="cancelled"?"is-cancelled":""}${past?"is-past":""}" style="--disc:${famVar(fam)};--disc-bg:${famBg(fam)}">
     <div class="date">${dateCell}</div>
     <div class="body">
       <div class="crow crow-title"><p class="title">${escapeHtml(headline)}</p><span class="crow-r">${enter}${schedule}${catalogue}</span></div>
       <div class="crow crow-status"><span class="crow-l">${row2Left}</span><span class="crow-r crow-src">${srcTag}</span></div>
       ${clubTag ? `<div class="crow crow-club"><span class="crow-l">${clubTag}</span></div>` : ""}
-      <div class="crow crow-bottom"><span class="crow-l">${discTag}${stateTag}</span><span class="crow-r">${venueTag}</span></div>
+      <div class="crow crow-bottom"><span class="crow-l">${discTag}${swClassTag}${stateTag}</span><span class="crow-r">${venueTag}</span></div>
     </div>
   </article>`;
 }
