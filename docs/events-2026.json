@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T13:53:57+00:00",
+  "generated": "2026-09-22T15:27:40+00:00",
   "year": 2026,
   "count": 3063,
   "sources": [
@@ -62,12 +62,6 @@
       "region": null,
       "color": "#9c6d7f",
       "url": "https://dogsaustralia.org.au/members/events/national-events/"
-    },
-    {
-      "name": "Dogs Victoria (Vic Dog Trials)",
-      "region": "VIC",
-      "color": "#3aa657",
-      "url": "https://vicdog.com/events-page/"
     }
   ],
   "events": [
@@ -2904,20 +2898,19 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-02-09",
+      "closes": null,
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1285",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/01/20260214-Warragul-Scent-Work-Schedule.pdf",
       "open_now": false,
       "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1285/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1285/catalogue/get",
       "club": "Warragul & District Kennel & Obedience Club"
     },
@@ -5073,21 +5066,20 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-02-23",
+      "closes": null,
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1366",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/01/20260309-Lagotta-Scent-Work-Schedule.pdf",
-      "club": "Southern Obedience Dog Training Club",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1366/schedule/get",
+      "club": "Southern Obedience Dog Training Club"
     },
     {
       "title": "Sprintdog \u2122 All Breeds West Coast Dog Sports",
@@ -5347,21 +5339,20 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-02-23",
+      "closes": null,
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1322",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/01/20260309-Lagotta-Scent-Work-Schedule.pdf",
-      "club": "Lagotto Romagnolo Club of Victoria",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1322/schedule/get",
+      "club": "Lagotto Romagnolo Club of Victoria"
     },
     {
       "title": "Gawler Dog Training Club Inc Scent Work Trial- Excellent Vehicles",
@@ -10876,17 +10867,16 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46370",
-      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/04/20260411-Warragul-Scent-Work-Catalogue.pdf",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1511/schedule/get",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/04/20260411-Warragul-Scent-Work-Catalogue.pdf",
       "club": "Warragul & District Kennel & Obedience Club"
     },
     {
@@ -11070,22 +11060,21 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-04-05",
+      "closes": null,
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1521",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260412-Gippsland-Scent-Schedule.pdf",
-      "club": "Gippsland Obedience Dog Club",
       "open_now": false,
       "is_past": true,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1521/catalogue/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/1521/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1521/catalogue/get",
+      "club": "Gippsland Obedience Dog Club"
     },
     {
       "title": "MDODTC",
@@ -11433,21 +11422,20 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-04-10",
+      "closes": null,
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1371",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/01/20260416-Australian-Shepherd-Club-Scent-Work-Schedule.pdf",
-      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/04/20260416-Australian-Shepherd-Scent-Work-Catalogue.pdf",
       "open_now": false,
       "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1371/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1371/catalogue/get",
       "club": "Australian Shepherd Club of Victoria"
     },
     {
@@ -11504,24 +11492,23 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-04-10",
+      "closes": null,
       "topdog_open": false,
       "source": "Top Dog Events",
       "breed_group": "Group 5 (Working Dogs)",
       "breed": "bearded collie",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1372",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/01/20260417-Bearded-Collie-Club-Scent-Work-Schedule.pdf",
-      "club": "Bearded Collie Club Victoria",
       "open_now": false,
       "is_past": true,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1372/catalogue/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/1372/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1372/catalogue/get",
+      "club": "Bearded Collie Club Victoria"
     },
     {
       "title": "Breed Numbers \u2013 Huon & Cha...",
@@ -15545,17 +15532,16 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47457",
       "club": "Bendigo Obedience Dog Club",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/02/20260509-10-Bendigo-ODC-Scent-Work-Schedule.pdf",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/02/20260509-10-Bendigo-ODC-Scent-Work-Schedule.pdf"
     },
     {
       "title": "Bundaberg \u2013 Trick Dog",
@@ -21548,17 +21534,16 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47425",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/04/20260606-07-Western-Agility-Group-Agility-Schedule.pdf",
-      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/06/20260606-07-Western-Agility-Group-Agility-Catalogue.pdf",
       "open_now": false,
       "is_past": true,
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/04/20260606-07-Western-Agility-Group-Agility-Schedule.pdf",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/06/20260606-07-Western-Agility-Group-Agility-Catalogue.pdf",
       "club": "East Gippsland Dog Obedience Club"
     },
     {
@@ -22082,20 +22067,19 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-06-08",
+      "closes": null,
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1696",
-      "club": "Bendigo Obedience Dog Club",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "club": "Bendigo Obedience Dog Club"
     },
     {
       "title": "Border Collie Club of NSW Inc \u2013 Agility",
@@ -26728,21 +26712,20 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-06-24",
+      "closes": null,
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1591",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/03/20260704-Geelong-ODC-Rally-Schedule.pdf",
-      "club": "Geelong Obedience Dog Club",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1591/schedule/get",
+      "club": "Geelong Obedience Dog Club"
     },
     {
       "title": "German Shepherd \u2013 Rally Obedience",
@@ -30919,22 +30902,21 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-07-10",
+      "closes": null,
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1468",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/02/20260724-26-Bendigo-ODC-Track-Search-Schedule.pdf",
-      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/07/20260724-25-Bendigo-Track-Search-Catalogue.pdf",
-      "club": "Bendigo Obedience Dog Club",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1468/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1468/event_files/422/get",
+      "club": "Bendigo Obedience Dog Club"
     },
     {
       "title": "ACTCDC Agility & Games Trial July 2026",
@@ -42527,22 +42509,21 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-09-14",
+      "closes": null,
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1924",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/07/20260921-Australian-Shepherd-Club-Scent-Work-Schedule.pdf",
-      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/09/20260921-Australian-Shepherd-Club-Scent-Work-Catalogue.pdf",
-      "club": "Gippsland Obedience Dog Club",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1924/catalogue/get",
+      "club": "Gippsland Obedience Dog Club",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/07/20260921-Australian-Shepherd-Club-Scent-Work-Schedule.pdf"
     },
     {
       "title": "Gladstone \u2013 Rally Obedience",
@@ -42940,7 +42921,8 @@
       "club": "Grafton Dog Obedience Club Inc",
       "open_now": false,
       "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2139/schedule/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/2139/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2139/catalogue/get"
     },
     {
       "title": "North Queensland (COCT Inc) Multisport Trial",
@@ -43477,6 +43459,7 @@
       "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2140/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2140/catalogue/get",
       "club": "Grafton Dog Obedience Club Inc"
     },
     {
@@ -45260,17 +45243,16 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2060",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/08/20261009-11-Dogs-Victoria-State-Scent-Work-Schedule.pdf",
-      "club": "Dogs Victoria Scent Work Committee",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2060/schedule/get",
+      "club": "Dogs Victoria Scent Work Committee"
     },
     {
       "title": "4p\u2019s All Toy Dog Club of NSW \u2013 Conformation",
@@ -52842,8 +52824,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53779,8 +53760,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -54742,8 +54722,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -55237,8 +55216,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -55264,8 +55242,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56097,8 +56074,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -57008,8 +56984,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -58803,8 +58778,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59376,8 +59350,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59949,8 +59922,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60288,8 +60260,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -61589,8 +61560,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -61954,8 +61924,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -64867,8 +64836,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -65362,8 +65330,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -65935,8 +65902,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -66170,8 +66136,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
