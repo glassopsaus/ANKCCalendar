@@ -2624,6 +2624,10 @@ def _seed_addresses_from_prior(events):
         loc = e.get("location")
         return bool(loc) and not _is_bare_state_location(loc)
 
+    def _has_street_addr(e):
+        loc = e.get("location") or ""
+        return bool(re.search(r"\d", loc)) and "," in loc
+
     # Index prior events that carry a REAL location OR a schedule_url OR a
     # catalogue_url, by their fingerprint — so each field seeds independently.
     prior_by_key = {}
@@ -2643,9 +2647,19 @@ def _seed_addresses_from_prior(events):
         match = prior_by_key.get(k) if k else None
         if not match:
             continue
-        # Carry a real venue location if this event lacks one (don't overwrite a
-        # fresh address just fetched this run).
-        if not _has_real_loc(e) and _has_real_loc(match):
+        # Carry forward the prior run's real STREET ADDRESS when this run's event
+        # doesn't have one yet. Note: many sources (Top Dog especially) put the
+        # CLUB NAME in `location` as a placeholder — that passes _has_real_loc but
+        # is NOT a street address, so without this the captured address would
+        # never accumulate. We seed when the current location lacks a street
+        # address AND the prior one has one; we never overwrite a fresh street
+        # address just captured this run.
+        if not _has_street_addr(e) and _has_street_addr(match):
+            e["location"] = match["location"]
+            seeded_loc += 1
+        elif not _has_real_loc(e) and _has_real_loc(match):
+            # Fallback: current has nothing usable, prior has at least a real
+            # (non-bare) location — carry it rather than leave it blank.
             e["location"] = match["location"]
             seeded_loc += 1
         # Independently, carry the schedule + catalogue links if missing.
