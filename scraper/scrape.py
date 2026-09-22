@@ -2628,12 +2628,30 @@ def _seed_addresses_from_prior(events):
         loc = e.get("location") or ""
         return bool(re.search(r"\d", loc)) and "," in loc
 
-    # Index prior events that carry a REAL location OR a schedule_url OR a
-    # catalogue_url, by their fingerprint — so each field seeds independently.
+    def _looks_canonical_club(c):
+        # A proper club name: has a club-org word and NO trailing discipline /
+        # trial-descriptor / "(Trial N)" that marks a title-derived value.
+        if not c:
+            return False
+        if not re.search(r"club|association|kennel|society|\binc\b|committee",
+                         c, re.I):
+            return False
+        if re.search(r"[\u2013\u2014-]\s*(scent\s*work|rally|obedience|agility|"
+                     r"tracking|trick|sprint|dances|herding|lure|endurance|"
+                     r"retrieving|jumping|games)\b", c, re.I):
+            return False  # has a discipline descriptor -> title-derived, not canonical
+        if re.search(r"\(\s*trial\s*\d+\s*\)|\btrial\b|\bevening\b|\bam\b|\bpm\b",
+                     c, re.I):
+            return False
+        return True
+
+    # Index prior events that carry a REAL location OR schedule/catalogue link OR
+    # a canonical club name, by their fingerprint — so each field seeds
+    # independently and survives the daily detail-fetch cycle.
     prior_by_key = {}
     for pe in prior_events:
         if not (_has_real_loc(pe) or pe.get("schedule_url")
-                or pe.get("catalogue_url")):
+                or pe.get("catalogue_url") or _looks_canonical_club(pe.get("club"))):
             continue
         k = _key(pe)
         if k:
@@ -2642,6 +2660,7 @@ def _seed_addresses_from_prior(events):
     seeded_loc = 0
     seeded_sched = 0
     seeded_cat = 0
+    seeded_club = 0
     for e in events:
         k = _key(e)
         match = prior_by_key.get(k) if k else None
@@ -2669,13 +2688,23 @@ def _seed_addresses_from_prior(events):
         if not e.get("catalogue_url") and match.get("catalogue_url"):
             e["catalogue_url"] = match["catalogue_url"]
             seeded_cat += 1
-    if seeded_loc or seeded_sched or seeded_cat:
+        # Carry forward the CANONICAL club name (Show Manager 'Club' field / Top
+        # Dog 'Hosted by'), captured during the detail-fetch. Without this it
+        # degrades back to the title/abbreviation on the next daily run, exactly
+        # like the address did. Only when the prior is canonical and the current
+        # ISN'T already canonical.
+        if (_looks_canonical_club(match.get("club"))
+                and not _looks_canonical_club(e.get("club"))):
+            e["club"] = match["club"]
+            e["_club_locked"] = True  # so _derive_club won't re-derive over it
+            seeded_club += 1
+    if seeded_loc or seeded_sched or seeded_cat or seeded_club:
         print(f"[sm-detail] carried forward from prior file: "
               f"{seeded_loc} venue address(es), {seeded_sched} schedule link(s), "
-              f"{seeded_cat} catalogue link(s) "
+              f"{seeded_cat} catalogue link(s), {seeded_club} club name(s) "
               f"(accumulated over the daily detail-fetch cycle)",
               file=sys.stderr)
-    return seeded_loc + seeded_sched + seeded_cat
+    return seeded_loc + seeded_sched + seeded_cat + seeded_club
 
 
 def build_year():
