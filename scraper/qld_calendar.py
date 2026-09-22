@@ -56,6 +56,7 @@ QLD_FALLBACK_PDF = ("https://dogsqueensland.org.au/media/54908/"
                     "trial-calendar-2026-master-dogs-qld.pdf")
 QLD_SOURCE_NAME = "Dogs Queensland (trial calendar)"
 QLD_COLOR = "#c0392b"
+QLD_SHOWS_SOURCE_NAME = "Dogs Queensland (show dates)"
 
 _MONTHS3 = {m: i for i, m in enumerate(
     ["jan", "feb", "mar", "apr", "may", "jun",
@@ -109,6 +110,53 @@ _SKIP_TYPES = {"on hold", "club reserved", "club choice", "club reserved",
 # TT = "Tracking Trial". These are easy to conflate. We follow the legend:
 # TK -> Trick Dog, TT -> Tracking. (This differs from some other sources where
 # "TK" might be shorthand for tracking; QLD's own legend is authoritative here.)
+
+
+def find_current_qld_shows_url(year):
+    """Discover the current SHOW-DATES PDF for `year` from the Show/Trial Dates
+    page. Like find_current_qld_pdf_url but matches 'show-dates' filenames.
+    NOTE: unlike the trial calendar, QLD publishes the show list as a DRAFT
+    ('draft-show-dates-...', 'master-copy', 'publication-N'), so we do NOT screen
+    out 'draft' here — a draft is the only show list available. We still pin the
+    target YEAR to avoid grabbing another year's file. Returns (url, found)."""
+    try:
+        from bs4 import BeautifulSoup
+        resp = requests.get(QLD_DATES_PAGE, timeout=20,
+                            headers={"User-Agent": "ANKCEventCheck/1.0"})
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+        best = None
+        for a in soup.select('a[href]'):
+            href = a.get("href", "")
+            low = href.lower()
+            if ".pdf" not in low or "show-dates" not in low:
+                continue
+            if str(year) not in low:
+                continue
+            # 'copy-of'/'corals' are scratch copies; skip those, but ALLOW
+            # 'draft'/'master-copy'/'publication' (that's how QLD names shows).
+            if "copy-of" in low or "corals" in low:
+                continue
+            best = href if href.startswith("http") else \
+                "https://dogsqueensland.org.au" + href
+        if best:
+            print(f"[qld-shows] discovered {year} show dates: {best}",
+                  file=sys.stderr)
+            return best, True
+        print(f"[qld-shows] no {year} show-dates link found", file=sys.stderr)
+    except Exception as e:
+        print(f"[qld-shows] discovery failed ({e})", file=sys.stderr)
+    # Cache fallback (auto-updated on a good run).
+    try:
+        import pdf_cache
+        cached = pdf_cache.get_cached_url("qld_shows", year)
+    except Exception:
+        cached = None
+    if cached:
+        print(f"[qld-shows] using cached last-known-good URL: {cached}",
+              file=sys.stderr)
+        return cached, False
+    return None, False
 
 
 def find_current_qld_pdf_url(year):
@@ -285,6 +333,84 @@ def parse_qld_text(text, year):
     return _collapse_consecutive(events)
 
 
+# Show-type codes on the QLD show-dates PDF. All are Conformation events; we
+# keep the human label for the title but the discipline is always Conformation.
+_QLD_SHOW_TYPES = {
+    "CH": "Championship Show", "OS": "Open Show", "SPEC": "Speciality Show",
+    "MC": "Members Competition", "SBE": "Sweepstakes/Best Exhibit",
+    "GS": "Group Show", "SS": "Speciality Show",
+}
+# A show row: <W/E> <CLUB...> <GROUP: 1|2|3|Breed|DQ> <Day> <D-Mon> [<TYPE>]
+_QLD_SHOW_ROW = re.compile(
+    r"^\s*(\d{1,2})\s+"                      # week number
+    r"(.+?)\s+"                              # club (non-greedy)
+    r"(Breed|DQ|[123])\s+"                   # group column
+    r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"    # day name
+    r"(\d{1,2})-([A-Za-z]{3})"               # D-Mon
+    r"(?:\s+([A-Z]{2,4}))?\s*$",             # optional show-type code
+    re.I)
+
+
+def parse_qld_shows_text(text, year):
+    """Parse the Dogs Queensland *show dates* PDF (conformation) into events.
+    This is a DIFFERENT format from the trial calendar: rows read
+    "<W/E> <CLUB> <GROUP> <Day> <D-Mon> <TYPE>" and every event is Conformation.
+    Handles the source's quirks: duplicate rows (printed twice), empty rows
+    (a week+date with no club), and 'Breed'/'DQ' group markers. All events are
+    tagged discipline=Conformation; the show TYPE (Championship/Open/etc.) is
+    carried in the title."""
+    events = []
+    for raw in text.split("\n"):
+        line = raw.strip()
+        if not line:
+            continue
+        m = _QLD_SHOW_ROW.match(line)
+        if not m:
+            continue
+        _we, club, _grp, day, mon = m.group(1), m.group(2), m.group(3), \
+            m.group(4), m.group(5)
+        show_type = (m.group(6) or "").upper()
+        club = club.strip(" -\u2013\u2014")
+        # Skip rows whose "club" is empty or obviously not a club (defensive).
+        if not club or len(club) < 2:
+            continue
+        mon_n = _MONTHS3.get(mon.lower()[:3])
+        if not mon_n:
+            continue
+        try:
+            edate = dt.date(year, mon_n, int(day))
+        except ValueError:
+            continue
+        type_label = _QLD_SHOW_TYPES.get(show_type, "")
+        # Title: "<Club> — Championship Show" (or just "<Club> — Show" if the
+        # code is unknown/blank). Discipline is always Conformation.
+        title = f"{club.title()} \u2013 {type_label or 'Show'}"
+        events.append({
+            "title": title,
+            "club": club.title(),
+            "start": edate.isoformat(),
+            "end": edate.isoformat(),
+            "location": "Queensland",
+            "url": QLD_DATES_PAGE,
+            "category": "Conformation",
+            "region": "QLD",
+            "source": QLD_SHOWS_SOURCE_NAME,
+            "color": QLD_COLOR,
+            "cancelled": False,
+        })
+    # Dedup the printed-twice rows: identical club+date+title collapse to one.
+    seen = set()
+    deduped = []
+    for e in events:
+        k = (e["club"].lower(), e["start"], e["title"].lower())
+        if k in seen:
+            continue
+        seen.add(k)
+        deduped.append(e)
+    deduped.sort(key=lambda e: (e["start"], e["title"]))
+    return _collapse_consecutive(deduped)
+
+
 def _collapse_consecutive(events):
     """Merge consecutive-day rows for the same club+discipline into one event
     (e.g. a Sat+Sun Track & Search trial), matching NSW/DV behaviour."""
@@ -349,30 +475,45 @@ def parse_qld_calendar(year, pdf_url=None, pdf_bytes=None):
             for page in pdf.pages:
                 text_parts.append(page.extract_text() or "")
         text = "\n".join(text_parts)
-        # Year safety. IMPORTANT: the QLD PDF body carries NO year — rows are
-        # "17-Jan" etc. and the only date marker is an "Updated D/M/YYYY" line.
-        # So the trustworthy year signal is the FILENAME, which discovery pins
-        # to the target year and screens for drafts ("copy-of"/"draft"/"corals").
-        # We therefore:
-        #   (a) require the resolved filename/URL to name the target year; and
-        #   (b) reject only if the body shows POSITIVE evidence of a DIFFERENT
-        #       year (e.g. a wrong-year file that still had a plausible name).
-        # This avoids the false rejection we saw when requiring an in-body year
-        # that legitimately isn't there.
+        # Year safety. IMPORTANT: the QLD PDF body carries NO per-row year — rows
+        # are "17-Jan" etc. and the only explicit date is the "Updated D/M/YYYY"
+        # stamp. A legitimate current-year calendar DOES, however, mention other
+        # years in passing as per-event ANNOTATIONS ("... for 2026 only",
+        # "Commence 2027", "TT From WE 19 2024 and 2025 only"). So a blunt "reject
+        # if any other year appears" wrongly throws out the real file.
+        #
+        # Instead we (a) require the filename to name the target year, and
+        # (b) require the target year to DOMINATE the year mentions in the body.
+        # A genuine 2026 file mentions 2026 far more than any stray year; a truly
+        # wrong file (e.g. a 2025 calendar) would have 2025 dominant.
         url_ok = str(year) in resolved_url
-        other_years = set(re.findall(r"\b(20\d{2})\b", text)) - {str(year)}
-        # drop amendment-stamp year(s): those appearing in an "Updated ...YYYY"
-        stamp_years = set(re.findall(r"Updated[^\n]*?\b(20\d{2})\b", text, re.I))
-        wrong_year_evidence = other_years - stamp_years
+        all_year_hits = re.findall(r"\b(20\d{2})\b", text)
+        from collections import Counter as _Counter
+        counts = _Counter(all_year_hits)
+        # Subtract ONLY the amendment-stamp occurrences ("Updated D/M/YYYY"),
+        # not every mention of that year — the stamp year is usually the target
+        # year itself, so removing all of them would zero out the real signal.
+        for _sy in re.findall(r"Updated[^\n]*?\b(20\d{2})\b", text, re.I):
+            if counts.get(_sy):
+                counts[_sy] -= 1
+        target_n = counts.get(str(year), 0)
+        other_n = sum(n for y, n in counts.items() if y != str(year))
+        # Dominant if the target year appears and outnumbers all other years
+        # combined by a clear margin (>=2x). If the body names NO year at all,
+        # fall back to trusting the filename.
+        year_dominant = (target_n == 0 and other_n == 0) or \
+            (target_n >= 1 and target_n >= 2 * other_n)
         if not url_ok:
             print(f"[qld] WARNING: resolved PDF filename does not name {year} "
                   f"({resolved_url}); skipping to avoid mis-dated events",
                   file=sys.stderr)
             return []
-        if wrong_year_evidence:
-            print(f"[qld] WARNING: PDF body references other year(s) "
-                  f"{sorted(wrong_year_evidence)} - possible wrong file; "
-                  f"skipping to avoid mis-dated events", file=sys.stderr)
+        if not year_dominant:
+            other_years = sorted(y for y in counts if y != str(year))
+            print(f"[qld] WARNING: PDF body's year mentions are not dominated by "
+                  f"{year} (target={target_n}, others={other_n} {other_years}) - "
+                  f"possible wrong file; skipping to avoid mis-dated events",
+                  file=sys.stderr)
             # A DISCOVERED URL that fails this check may be a newer draft/multi-
             # year re-upload the site now links, while a good calendar still
             # exists elsewhere. Rather than yield 0 events (which forces a stale
@@ -420,6 +561,60 @@ def parse_qld_calendar(year, pdf_url=None, pdf_bytes=None):
         return events
     except Exception as e:
         print(f"[qld] FAILED, skipping: {e}", file=sys.stderr)
+        return []
+
+
+def parse_qld_shows(year, pdf_url=None, pdf_bytes=None):
+    """Fetch + parse the Dogs Queensland SHOW-DATES PDF (conformation) for
+    `year`. Discovers the show-dates PDF (draft is fine — that's how QLD
+    publishes shows), fetches it, and parses via parse_qld_shows_text. Fails
+    safe: any error yields [] so it never breaks the run. On a good discovery it
+    caches the URL as last-known-good for 'qld_shows'."""
+    try:
+        resolved_url = pdf_url or ""
+        was_discovered = False
+        if pdf_bytes is None:
+            if pdf_url:
+                url, found = pdf_url, True
+            else:
+                url, found = find_current_qld_shows_url(year)
+            if not url:
+                print(f"[qld-shows] no {year} show-dates PDF available; "
+                      f"no conformation events this pass", file=sys.stderr)
+                return []
+            resolved_url = url
+            was_discovered = found
+            # Filename must name the target year (guards against grabbing another
+            # year's show file).
+            if str(year) not in resolved_url:
+                print(f"[qld-shows] resolved PDF doesn't name {year} "
+                      f"({resolved_url}); skipping", file=sys.stderr)
+                return []
+            print(f"[qld-shows] using PDF: {url}", file=sys.stderr)
+            resp = requests.get(url, timeout=40,
+                                headers={"User-Agent": "ANKCEventCheck/1.0"})
+            resp.raise_for_status()
+            pdf_bytes = resp.content
+        text_parts = []
+        with pdfplumber.open(io.BytesIO(pdf_bytes)) as pdf:
+            for page in pdf.pages:
+                text_parts.append(page.extract_text() or "")
+        text = "\n".join(text_parts)
+        events = parse_qld_shows_text(text, year)
+        if not events:
+            print("[qld-shows] parsed 0 events - show-dates format may have "
+                  "changed; parser likely needs updating", file=sys.stderr)
+        elif was_discovered and resolved_url:
+            try:
+                import pdf_cache
+                pdf_cache.save_url("qld_shows", year, resolved_url)
+            except Exception:
+                pass
+        print(f"[qld-shows] parsed {len(events)} QLD conformation events",
+              file=sys.stderr)
+        return events
+    except Exception as e:
+        print(f"[qld-shows] FAILED, skipping: {e}", file=sys.stderr)
         return []
 
 
