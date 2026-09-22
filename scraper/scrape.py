@@ -2377,7 +2377,7 @@ def _fetch_topdog_docs(trial_id):
     block). Top Dog EVENT pages (unlike its JS listing) are plain HTML, so a
     normal fetch works — no browser needed. Best-effort; never raises."""
     out = {"schedule_url": None, "catalogue_url": None, "address": None,
-           "club": None, "venue": None}
+           "club": None, "venue": None, "classes": None}
     url = f"https://www.topdogevents.com.au/trials/{trial_id}"
     try:
         resp = fetch(url)
@@ -2414,6 +2414,17 @@ def _fetch_topdog_docs(trial_id):
         # Guard against absurd captures (whole-page runs) and non-venue noise.
         if venue and 3 <= len(venue) <= 80:
             out["venue"] = venue
+    # Scent-work CLASS LEVELS named on the page (ANKC: Novice, Advanced,
+    # Excellent, Masters, Ultimate). A trial usually runs several at once, so we
+    # collect the SET of levels mentioned. Only meaningful for scent work; the
+    # caller decides whether to use it based on the event's discipline. We match
+    # whole words to avoid false hits, and return a sorted list or None.
+    _LEVELS = [("Novice", r"\bnovice\b"), ("Advanced", r"\badvanced\b"),
+               ("Excellent", r"\bexcellent\b"), ("Masters", r"\bmasters?\b"),
+               ("Ultimate", r"\bultimate\b")]
+    found = [name for name, rx in _LEVELS if re.search(rx, page_text, re.I)]
+    if found:
+        out["classes"] = found
     for a in soup.find_all("a", href=True):
         txt = a.get_text(" ", strip=True).lower()
         href = a["href"]
@@ -2489,16 +2500,49 @@ def _enrich_topdog_schedules(events):
         loc = (e.get("location") or "")
         return bool(re.search(r"\d", loc)) and "," in loc
 
+    # A past event's detail never changes, so once we have its core detail there
+    # is nothing worth re-fetching — skip it to save the per-event request. We
+    # keep fetching a RECENTLY-past event (within GRACE days) so it can still
+    # pick up a late-posted catalogue; older past events with detail are done.
+    _today = dt.date.today()
+    try:
+        _grace = max(0, int(os.environ.get("PAST_DETAIL_GRACE_DAYS", "21")))
+    except ValueError:
+        _grace = 21
+
+    def _detail_done_and_past(e):
+        end = e.get("end") or e.get("start")
+        try:
+            end_d = dt.date.fromisoformat(end[:10])
+        except (ValueError, TypeError):
+            return False
+        if end_d >= _today:
+            return False  # not past
+        # recently past: still allow a late catalogue within the grace window
+        if (_today - end_d).days <= _grace and not e.get("catalogue_url"):
+            return False
+        # well past (or recently-past but catalogue already have): done if it has
+        # at least a location + schedule (address/schedule won't change now).
+        return bool(_has_street_address(e) or e.get("location")) \
+            and bool(e.get("schedule_url"))
+
     targets = []
+    n_skipped_past = 0
     for e in events:
         if (e.get("schedule_url") and e.get("catalogue_url")
                 and _has_street_address(e)):
             continue
         if not _is_topdog(e):
             continue
+        if _detail_done_and_past(e):
+            n_skipped_past += 1
+            continue
         m = _TOPDOG_ID_RE.search(str(e.get("entry_url") or e.get("url") or ""))
         if m:
             targets.append((e, m.group(1)))
+    if n_skipped_past:
+        print(f"[topdog-docs] skipped {n_skipped_past} past event(s) with detail "
+              f"already captured (no re-fetch needed)", file=sys.stderr)
     if not targets:
         return 0
 
@@ -2558,7 +2602,7 @@ def _enrich_topdog_schedules(events):
           f"{len(todays)} of {len(targets)} Top Dog events missing a "
           f"schedule/catalogue ({n_window} in catalogue window, checked daily; "
           f"~{req_delay:.1f}s apart)...", file=sys.stderr)
-    n_sched = n_cat = n_addr = n_venue = 0
+    n_sched = n_cat = n_addr = n_venue = n_classes = 0
     for i, (e, tid) in enumerate(todays, 1):
         docs = _fetch_topdog_docs(tid)
         if docs["schedule_url"] and not e.get("schedule_url"):
@@ -2567,6 +2611,13 @@ def _enrich_topdog_schedules(events):
         if docs["catalogue_url"] and not e.get("catalogue_url"):
             e["catalogue_url"] = docs["catalogue_url"]
             n_cat += 1
+        # Scent-work class levels stated on the page. Only for scent work events
+        # (the level names are scent-work-specific), and only fill if not set.
+        if (docs.get("classes")
+                and "scent" in (e.get("category") or "").lower()
+                and not e.get("classes")):
+            e["classes"] = docs["classes"]
+            n_classes += 1
         # Upgrade the displayed location to the real venue address. Top Dog
         # events usually carry the CLUB NAME as location (not a bare state), and
         # a street address is strictly more useful for "where do I go", so we
@@ -2611,8 +2662,9 @@ def _enrich_topdog_schedules(events):
         if req_delay and i < len(todays):
             time.sleep(req_delay)
     print(f"[topdog-docs] captured {n_sched} schedule(s), {n_cat} catalogue(s), "
-          f"{n_addr} address(es), {n_venue} venue name(s)", file=sys.stderr)
-    return n_sched + n_cat + n_addr + n_venue
+          f"{n_addr} address(es), {n_venue} venue name(s), "
+          f"{n_classes} class list(s)", file=sys.stderr)
+    return n_sched + n_cat + n_addr + n_venue + n_classes
 
 
 def _seed_addresses_from_prior(events):
@@ -2678,7 +2730,8 @@ def _seed_addresses_from_prior(events):
     prior_by_key = {}
     for pe in prior_events:
         if not (_has_real_loc(pe) or pe.get("schedule_url")
-                or pe.get("catalogue_url") or _looks_canonical_club(pe.get("club"))):
+                or pe.get("catalogue_url") or _looks_canonical_club(pe.get("club"))
+                or pe.get("classes")):
             continue
         k = _key(pe)
         if k:
@@ -2715,6 +2768,10 @@ def _seed_addresses_from_prior(events):
         if not e.get("catalogue_url") and match.get("catalogue_url"):
             e["catalogue_url"] = match["catalogue_url"]
             seeded_cat += 1
+        # Carry forward the scent-work class list (from a Top Dog detail fetch or
+        # title scan) so it doesn't churn away on a run that didn't re-fetch.
+        if not e.get("classes") and match.get("classes"):
+            e["classes"] = match["classes"]
         # Carry forward the CANONICAL club name (Show Manager 'Club' field / Top
         # Dog 'Hosted by'), captured during the detail-fetch. Without this it
         # degrades back to the title/abbreviation on the next daily run, exactly
@@ -3205,6 +3262,27 @@ def build_year():
         print(f"[dedup] removed {_removed} exact-duplicate card(s)",
               file=sys.stderr)
     unique = _deduped
+
+    # Scent-work CLASS LEVELS from the title/club text, for events that didn't
+    # get them from a Top Dog detail fetch. Free signal: many titles name the
+    # class ("... Trial - Advanced", "Excellent/Masters"). Only fills scent work
+    # events that don't already have a class list. Never guesses — only tags
+    # levels explicitly named.
+    _SW_LEVELS = [("Novice", r"\bnovice\b"), ("Advanced", r"\badvanced\b"),
+                  ("Excellent", r"\bexcellent\b"), ("Masters", r"\bmasters?\b"),
+                  ("Ultimate", r"\bultimate\b")]
+    _sw_tagged = 0
+    for e in unique:
+        if "scent" not in (e.get("category") or "").lower() or e.get("classes"):
+            continue
+        hay = (e.get("title") or "") + " " + (e.get("club") or "")
+        found = [n for n, rx in _SW_LEVELS if re.search(rx, hay, re.I)]
+        if found:
+            e["classes"] = found
+            _sw_tagged += 1
+    if _sw_tagged:
+        print(f"[scentwork] tagged {_sw_tagged} event(s) with class levels "
+              f"from title text", file=sys.stderr)
 
     # --- Entry-status cross-check --------------------------------------------
     # Load the TRDC NSW tracking-club calendar once (fail-safe []); it
