@@ -53,7 +53,12 @@
     padding:14px 0 12px; margin-bottom:6px; border-bottom:1px solid var(--hair);}
   /* Filters render as a row of DROPDOWN menus. Each .faccordion is a menu:
      a toggle button + a floating panel of colour-coded checkbox rows. */
-  .fmenus{display:flex; flex-wrap:wrap; gap:8px; align-items:flex-start;}
+  .fmenus{display:flex; flex-wrap:wrap; gap:8px; align-items:flex-start;
+    justify-content:center;}
+  /* Row 1 = State + Entry status (primary), row 2 = Discipline + Scent Work
+     class + Breed group. Both centred; a little gap between the rows. */
+  .fmenus-primary{margin-bottom:8px;}
+  .fmenus-secondary{}
   .faccordion{position:relative;}
   .filters-toggle{display:flex; align-items:center; gap:8px;
     background:var(--card); border:1px solid var(--hair); border-radius:9px;
@@ -216,7 +221,8 @@
     <div class="legend" id="legend"></div>
   </header>
   <div class="controls" id="controls">
-    <div class="fmenus">
+    <!-- Row 1: the two primary filters, centred. -->
+    <div class="fmenus fmenus-primary">
     <div class="faccordion" id="acc-region">
       <button class="filters-toggle" aria-expanded="false" aria-controls="state-filters">
         <span class="ft-label">State</span>
@@ -225,6 +231,17 @@
       </button>
       <div class="filter-row facc-body" id="state-filters"><span class="flabel"><span class="all"><button data-g="region" data-a="all">all</button> / <button data-g="region" data-a="none">clear</button></span></span></div>
     </div>
+    <div class="faccordion" id="acc-status">
+      <button class="filters-toggle" aria-expanded="false" aria-controls="status-filters">
+        <span class="ft-label">Entry status</span>
+        <span class="ft-summary" id="sum-status"></span>
+        <span class="ft-chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="filter-row facc-body" id="status-filters"></div>
+    </div>
+    </div>
+    <!-- Row 2: the discipline-oriented filters, left to right. -->
+    <div class="fmenus fmenus-secondary">
     <div class="faccordion" id="acc-disc">
       <button class="filters-toggle" aria-expanded="false" aria-controls="disc-filters">
         <span class="ft-label">Discipline</span>
@@ -232,14 +249,6 @@
         <span class="ft-chev" aria-hidden="true">▾</span>
       </button>
       <div class="filter-row facc-body" id="disc-filters"><span class="flabel"><span class="all"><button data-g="disc" data-a="all">all</button> / <button data-g="disc" data-a="none">clear</button></span></span></div>
-    </div>
-    <div class="faccordion" id="acc-breed">
-      <button class="filters-toggle" aria-expanded="false" aria-controls="breed-filters">
-        <span class="ft-label">Breed group</span>
-        <span class="ft-summary" id="sum-breed"></span>
-        <span class="ft-chev" aria-hidden="true">▾</span>
-      </button>
-      <div class="filter-row facc-body" id="breed-filters"><span class="flabel"><span class="all"><button data-g="breed" data-a="all">all</button> / <button data-g="breed" data-a="none">clear</button></span> <span class="fnote">restricted events only (inferred)</span></span></div>
     </div>
     <div class="faccordion" id="acc-swclass">
       <button class="filters-toggle" aria-expanded="false" aria-controls="swclass-filters">
@@ -249,13 +258,13 @@
       </button>
       <div class="filter-row facc-body" id="swclass-filters"><span class="flabel"><span class="all"><button data-g="swclass" data-a="all">all</button> / <button data-g="swclass" data-a="none">clear</button></span> <span class="fnote">scent work only; events whose class isn't published are always shown</span></span></div>
     </div>
-    <div class="faccordion" id="acc-status">
-      <button class="filters-toggle" aria-expanded="false" aria-controls="status-filters">
-        <span class="ft-label">Entry status</span>
-        <span class="ft-summary" id="sum-status"></span>
+    <div class="faccordion" id="acc-breed">
+      <button class="filters-toggle" aria-expanded="false" aria-controls="breed-filters">
+        <span class="ft-label">Breed group</span>
+        <span class="ft-summary" id="sum-breed"></span>
         <span class="ft-chev" aria-hidden="true">▾</span>
       </button>
-      <div class="filter-row facc-body" id="status-filters"></div>
+      <div class="filter-row facc-body" id="breed-filters"><span class="flabel"><span class="all"><button data-g="breed" data-a="all">all</button> / <button data-g="breed" data-a="none">clear</button></span> <span class="fnote">restricted events only (inferred)</span></span></div>
     </div>
     </div>
     <div class="toggle-strip" id="toggle-strip"></div>
