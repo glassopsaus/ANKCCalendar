@@ -2865,6 +2865,71 @@ def _seed_addresses_from_prior(events):
     return seeded_loc + seeded_sched + seeded_cat + seeded_club
 
 
+def _merge_same_event_dupes(events):
+    """Merge cards that are the SAME event but escaped the club-name dedup — e.g.
+    one trial listed under a host club and a running sub-club, or the same event
+    with differing titles. Two club-name-independent signals identify a single
+    event: (a) the SAME per-event entry_url; or (b) same region+date+discipline
+    +same real venue. Keeps the richer record, unions sources/links. Runs AFTER
+    enrichment/seeding so it sees final entry_urls and venue locations. Returns
+    the deduped list."""
+    def _real_entry(e):
+        u = (e.get("entry_url") or "").strip()
+        return u if _is_specific_event_link(u) else ""
+
+    def _real_venue(e):
+        loc = (e.get("location") or "").strip()
+        return "" if (not loc or _is_bare_state_location(loc)) else loc.lower()
+
+    def _merge_dupe(keep, drop):
+        srcs = keep.setdefault("sources", [])
+        for s in (drop.get("sources") or
+                  ([drop["source"]] if drop.get("source") else [])):
+            if s and s not in srcs:
+                srcs.append(s)
+        for fld in ("entry_url", "schedule_url", "catalogue_url", "closes",
+                    "classes"):
+            if not keep.get(fld) and drop.get(fld):
+                keep[fld] = drop[fld]
+        if _is_bare_state_location(keep.get("location")) and not \
+                _is_bare_state_location(drop.get("location")):
+            keep["location"] = drop["location"]
+        if drop.get("verified"):
+            keep["verified"] = True
+
+    by_entry = {}
+    by_venue = {}
+    out = []
+    merged = 0
+    for e in events:
+        ent = _real_entry(e)
+        ven = _real_venue(e)
+        vkey = (e.get("region"), e.get("start"), e.get("end"),
+                e.get("category"), ven) if ven else None
+        target = None
+        if ent and ent in by_entry:
+            target = by_entry[ent]
+        elif vkey and vkey in by_venue:
+            target = by_venue[vkey]
+        if target is not None:
+            _merge_dupe(target, e)
+            merged += 1
+            if ent:
+                by_entry.setdefault(ent, target)
+            if vkey:
+                by_venue.setdefault(vkey, target)
+            continue
+        out.append(e)
+        if ent:
+            by_entry[ent] = e
+        if vkey:
+            by_venue[vkey] = e
+    if merged:
+        print(f"[dedup] merged {merged} same-event duplicate(s) "
+              f"(shared entry link or venue+date+discipline)", file=sys.stderr)
+    return out
+
+
 def build_year():
     """Build and write ONE year's calendar. Reads the module globals YEAR and
     OUTPUT (the multi-year main() reassigns them before each call), so all the
@@ -3347,77 +3412,10 @@ def build_year():
               file=sys.stderr)
     unique = _deduped
 
-    # Stronger duplicate pass: the club-name-based dedup and the exact pass above
-    # both key on title/club, so they miss the case where the SAME trial is
-    # listed under two different club labels (e.g. a host club vs a running
-    # sub-club — "Berwick Obedience Dog Club" and "GSDCV Scent Work Trial" at the
-    # Berwick venue), or the same event with differing titles. Two signals
-    # reliably identify one-and-the-same event WITHOUT relying on the club name:
-    #   (a) the SAME per-event entry_url (two platform links to the one trial); OR
-    #   (b) same region + date + discipline + the SAME real venue location.
-    # We merge such cards into one, keeping the richer record and unioning their
-    # sources/links. Guarded so it never collapses distinct events: a shared
-    # entry_url must be a real per-event link, and a shared venue must be a real
-    # address/venue (not a bare state), and the dates must match.
-    def _real_entry(e):
-        u = (e.get("entry_url") or "").strip()
-        return u if _is_specific_event_link(u) else ""
-
-    def _real_venue(e):
-        loc = (e.get("location") or "").strip()
-        return "" if (not loc or _is_bare_state_location(loc)) else loc.lower()
-
-    def _merge_dupe(keep, drop):
-        # union sources
-        srcs = keep.setdefault("sources", [])
-        for s in (drop.get("sources") or ([drop["source"]] if drop.get("source") else [])):
-            if s and s not in srcs:
-                srcs.append(s)
-        # fill any missing links/detail from the dropped card
-        for fld in ("entry_url", "schedule_url", "catalogue_url", "closes",
-                    "classes"):
-            if not keep.get(fld) and drop.get(fld):
-                keep[fld] = drop[fld]
-        # prefer a real venue over a bare one
-        if _is_bare_state_location(keep.get("location")) and not \
-                _is_bare_state_location(drop.get("location")):
-            keep["location"] = drop["location"]
-        # keep verified if either was
-        if drop.get("verified"):
-            keep["verified"] = True
-
-    by_entry = {}
-    by_venue = {}
-    merged_out = []
-    _dupes_merged = 0
-    for e in unique:
-        ent = _real_entry(e)
-        ven = _real_venue(e)
-        vkey = (e.get("region"), e.get("start"), e.get("end"),
-                e.get("category"), ven) if ven else None
-        target = None
-        if ent and ent in by_entry:
-            target = by_entry[ent]
-        elif vkey and vkey in by_venue:
-            target = by_venue[vkey]
-        if target is not None:
-            _merge_dupe(target, e)
-            _dupes_merged += 1
-            # index the merged record under this card's keys too
-            if ent:
-                by_entry.setdefault(ent, target)
-            if vkey:
-                by_venue.setdefault(vkey, target)
-            continue
-        merged_out.append(e)
-        if ent:
-            by_entry[ent] = e
-        if vkey:
-            by_venue[vkey] = e
-    if _dupes_merged:
-        print(f"[dedup] merged {_dupes_merged} same-event duplicate(s) "
-              f"(shared entry link or venue+date+discipline)", file=sys.stderr)
-    unique = merged_out
+    # (The stronger same-event duplicate merge runs LATER, after Top Dog
+    # enrichment + prior-file seeding have populated final entry_urls/locations —
+    # see _merge_same_event_dupes(unique) below. Running it here (before those)
+    # would miss dupes whose links/venues only converge post-enrichment.)
 
     # Scent-work CLASS LEVELS from the title/club text, for events that didn't
     # get them from a Top Dog detail fetch. Free signal: many titles name the
@@ -3747,6 +3745,12 @@ def build_year():
     # accumulate over the cycle rather than resetting each run.
     _enrich_topdog_schedules(unique)
     _seed_addresses_from_prior(unique)
+
+    # Now that enrichment + seeding have set final entry_urls and venue
+    # locations, merge same-event duplicates that the earlier club-name dedup
+    # missed (e.g. host-club vs sub-club listings of one trial, or the same
+    # trial with two titles). Keyed on shared entry link OR venue+date+discipline.
+    unique = _merge_same_event_dupes(unique)
 
     # Derive the club/organisation name over EVERY event (for the info-line tag
     # between State and Source). Sources place the club in different fields; this
