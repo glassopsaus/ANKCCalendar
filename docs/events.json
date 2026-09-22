@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-22T19:40:23+00:00",
+  "generated": "2026-09-22T20:54:08+00:00",
   "year": 2026,
-  "count": 3151,
+  "count": 3035,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -636,50 +636,6 @@
       "club": "14/01/2026"
     },
     {
-      "title": "Breed Numbers \u2013 Hobart Dog Club...",
-      "start": "2026-01-14",
-      "end": "2026-01-14",
-      "location": "",
-      "url": "https://tasdogs.com/2026/01/14/breed-numbers-hobart-dog-club-17-jan-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/01/14/breed-numbers-hobart-dog-club-17-jan-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Hobart Dog Club..."
-    },
-    {
-      "title": "Read More",
-      "start": "2026-01-14",
-      "end": "2026-01-14",
-      "location": "",
-      "url": "https://tasdogs.com/2026/01/14/breed-numbers-hobart-dog-club-17-jan-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/01/14/breed-numbers-hobart-dog-club-17-jan-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
-    },
-    {
       "title": "New Rally Signs Clinic \u2013 Dogs ACT",
       "start": "2026-01-15",
       "end": "2026-01-15",
@@ -877,31 +833,6 @@
       "is_past": true
     },
     {
-      "title": "All Star Dog Sports \u2013 Scent Work",
-      "start": "2026-01-18",
-      "end": "2026-01-18",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-12-19",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45876",
-      "club": "NSDTC - Scent Work - January Masters Trial",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "All Star Dog Sports \u2013 Sled Sports",
       "start": "2026-01-18",
       "end": "2026-01-18",
@@ -1057,52 +988,6 @@
       "club": "22/01/2026"
     },
     {
-      "title": "Breed Numbers \u2013 Tas Toy Dog Clu...",
-      "start": "2026-01-22",
-      "end": "2026-01-22",
-      "location": "",
-      "url": "https://tasdogs.com/2026/01/22/breed-numbers-tas-toy-dog-club-26-jan-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "breed_group": "Group 1 (Toys)",
-      "breed": "toy",
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/01/22/breed-numbers-tas-toy-dog-club-26-jan-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Tas Toy Dog Clu..."
-    },
-    {
-      "title": "Read More",
-      "start": "2026-01-22",
-      "end": "2026-01-22",
-      "location": "",
-      "url": "https://tasdogs.com/2026/01/22/breed-numbers-tas-toy-dog-club-26-jan-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/01/22/breed-numbers-tas-toy-dog-club-26-jan-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
-    },
-    {
       "title": "Stellar Dogs Training & Education - Beginners Scentwork Course",
       "start": "2026-01-22",
       "end": "2026-01-22",
@@ -1147,28 +1032,6 @@
       "open_now": false,
       "is_past": true,
       "club": "23/01/2026"
-    },
-    {
-      "title": "Breed Numbers \u2013 Ulverstone 30-J...",
-      "start": "2026-01-23",
-      "end": "2026-01-23",
-      "location": "",
-      "url": "https://tasdogs.com/2026/01/23/breed-numbers-ulverstone-30-jan-to-1-feb-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/01/23/breed-numbers-ulverstone-30-jan-to-1-feb-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Ulverstone 30-J..."
     },
     {
       "title": "Championship Show (CFR - All Breeds) CAWA Events Ctee \u2013 Conformation",
@@ -1266,28 +1129,6 @@
         "Advanced"
       ],
       "club": "Noarlunga City Obedience Dog Club Inc"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-01-23",
-      "end": "2026-01-23",
-      "location": "",
-      "url": "https://tasdogs.com/2026/01/23/breed-numbers-ulverstone-30-jan-to-1-feb-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/01/23/breed-numbers-ulverstone-30-jan-to-1-feb-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Stellar Dogs Training & Education - Scentwork Run Throughs (Advanced/Excellent level)",
@@ -1926,28 +1767,6 @@
       "club": "04/02/2026"
     },
     {
-      "title": "Breed Numbers \u2013 Kennel Club of ...",
-      "start": "2026-02-04",
-      "end": "2026-02-04",
-      "location": "",
-      "url": "https://tasdogs.com/2026/02/04/breed-numbers-kennel-club-of-tas-sth-6-7-feb-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/02/04/breed-numbers-kennel-club-of-tas-sth-6-7-feb-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Kennel Club of ..."
-    },
-    {
       "title": "Jumping Trial (Ribbon) \u2013 TDTC",
       "start": "2026-02-04",
       "end": "2026-02-04",
@@ -1971,28 +1790,6 @@
       "schedule_url": "https://www.topdogevents.com.au/trials/1290/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1290/catalogue/get",
       "club": "Tuggeranong Dog Training Club"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-02-04",
-      "end": "2026-02-04",
-      "location": "",
-      "url": "https://tasdogs.com/2026/02/04/breed-numbers-kennel-club-of-tas-sth-6-7-feb-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/02/04/breed-numbers-kennel-club-of-tas-sth-6-7-feb-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Scent Work Trial (PM) \u2013 Dogs ACT",
@@ -3460,28 +3257,6 @@
       "is_past": true
     },
     {
-      "title": "Breed Numbers \u2013 TKC Breed Numbe...",
-      "start": "2026-02-21",
-      "end": "2026-02-21",
-      "location": "",
-      "url": "https://tasdogs.com/2026/02/21/breed-numbers-tkc-breed-numbers-21-feb-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/02/21/breed-numbers-tkc-breed-numbers-21-feb-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 TKC Breed Numbe..."
-    },
-    {
       "title": "Chihuahua Club \u2013 Championship Show",
       "club": "Chihuahua Club \u2013 Championship Show",
       "start": "2026-02-21",
@@ -3603,31 +3378,6 @@
       "club": "Gulgong Show Society Inc \u2013 Conformation"
     },
     {
-      "title": "Inner Sydney Dog Sports Club Inc \u2013 Scent Work",
-      "start": "2026-02-21",
-      "end": "2026-02-21",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-16",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46185",
-      "club": "Dobermann Club of NSW Inc Scent Work Trial",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "NCODC SW AM NV/NE & PM EV/EE",
       "start": "2026-02-21",
       "end": "2026-02-22",
@@ -3703,28 +3453,6 @@
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1294/schedule/get",
       "club": "Precision Agility Academy"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-02-21",
-      "end": "2026-02-21",
-      "location": "",
-      "url": "https://tasdogs.com/2026/02/21/breed-numbers-tkc-breed-numbers-21-feb-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/02/21/breed-numbers-tkc-breed-numbers-21-feb-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Rottweiler Club \u2013 Open Show",
@@ -3942,28 +3670,6 @@
       "club": "24/02/2026"
     },
     {
-      "title": "Breed Numbers \u2013 Cradle Coast Ke...",
-      "start": "2026-02-24",
-      "end": "2026-02-24",
-      "location": "",
-      "url": "https://tasdogs.com/2026/02/24/breed-numbers-cradle-coast-kennel-club-28-feb-01-mar/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/02/24/breed-numbers-cradle-coast-kennel-club-28-feb-01-mar/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Cradle Coast Ke..."
-    },
-    {
       "title": "Caboolture \u2013 Scent Work",
       "club": "Caboolture Sports Dog Obedience Club",
       "start": "2026-02-24",
@@ -4014,28 +3720,6 @@
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1262/schedule/get",
       "club": "Gawler Dog Training Club Inc."
-    },
-    {
-      "title": "Read More",
-      "start": "2026-02-24",
-      "end": "2026-02-24",
-      "location": "",
-      "url": "https://tasdogs.com/2026/02/24/breed-numbers-cradle-coast-kennel-club-28-feb-01-mar/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/02/24/breed-numbers-cradle-coast-kennel-club-28-feb-01-mar/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Dogs ACT Tracking Stewards Course.",
@@ -4472,30 +4156,6 @@
       "club": "Rylstone Kandos Show Society Inc \u2013 Conformation"
     },
     {
-      "title": "Scent Work Trial (PM) \u2013 ACTCDC",
-      "start": "2026-02-28",
-      "end": "2026-02-28",
-      "location": "",
-      "url": "https://dogsact.org.au/event/scent-work-trial-actcdc-2/",
-      "category": "Scent Work",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46311",
-      "club": "ACT Companion Dog Club Scent Work trial",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "TRAINING DAY - SprintDog",
       "start": "2026-02-28",
       "end": "2026-02-28",
@@ -4540,30 +4200,6 @@
       "verified": true,
       "closes": "2026-02-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45998",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scent Work Trial \u2013 Dogs ACT",
-      "start": "2026-03-01",
-      "end": "2026-03-01",
-      "location": "",
-      "url": "https://dogsact.org.au/event/scent-work-trial-dogs-act-14/",
-      "category": "Scent Work",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46311",
-      "club": "ACT Companion Dog Club Scent Work trial",
       "open_now": false,
       "is_past": true
     },
@@ -5292,31 +4928,6 @@
       "club": "DOGS NSW Public Relations Committee \u2013 Sled Sports"
     },
     {
-      "title": "DOGS NSW Scent Work Working Party \u2013 Scent Work",
-      "start": "2026-03-07",
-      "end": "2026-03-07",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-02",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46831",
-      "club": "Dogs NSW Scent Work Working Party",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Double Rally Evening Trial",
       "start": "2026-03-07",
       "end": "2026-03-07",
@@ -5943,28 +5554,6 @@
       "club": "11/03/2026"
     },
     {
-      "title": "Breed Numbers \u2013 Tas Ladies Kenn...",
-      "start": "2026-03-11",
-      "end": "2026-03-11",
-      "location": "",
-      "url": "https://tasdogs.com/2026/03/11/breed-numbers-tas-ladies-kennel-club-14-mar-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/03/11/breed-numbers-tas-ladies-kennel-club-14-mar-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Tas Ladies Kenn..."
-    },
-    {
       "title": "Logan \u2013 Scent Work",
       "club": "Logan All Breeds Dog Obedience Club Inc",
       "start": "2026-03-11",
@@ -5987,28 +5576,6 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46007",
       "open_now": false,
       "is_past": true
-    },
-    {
-      "title": "Read More",
-      "start": "2026-03-11",
-      "end": "2026-03-11",
-      "location": "",
-      "url": "https://tasdogs.com/2026/03/11/breed-numbers-tas-ladies-kennel-club-14-mar-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/03/11/breed-numbers-tas-ladies-kennel-club-14-mar-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Border Collie Club of NSW Inc \u2013 Scent Work",
@@ -6987,28 +6554,6 @@
       "club": "17/03/2026"
     },
     {
-      "title": "Breed Numbers \u2013 Brighton Kennel...",
-      "start": "2026-03-17",
-      "end": "2026-03-17",
-      "location": "",
-      "url": "https://tasdogs.com/2026/03/17/breed-numbers-brighton-kennel-club-21-mar-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/03/17/breed-numbers-brighton-kennel-club-21-mar-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Brighton Kennel..."
-    },
-    {
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
       "start": "2026-03-17",
       "end": "2026-03-17",
@@ -7038,28 +6583,6 @@
         "Masters"
       ],
       "club": "Oxley Dog Training Club Inc"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-03-17",
-      "end": "2026-03-17",
-      "location": "",
-      "url": "https://tasdogs.com/2026/03/17/breed-numbers-brighton-kennel-club-21-mar-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/03/17/breed-numbers-brighton-kennel-club-21-mar-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Yuggera \u2013 Sprint",
@@ -7967,31 +7490,6 @@
       "is_past": true
     },
     {
-      "title": "Brush Farm Dog Training Club Inc \u2013 Rally Obedience",
-      "start": "2026-03-22",
-      "end": "2026-03-22",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Rally Obedience",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-09",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46409",
-      "club": "Albury & Border Kennel Club Inc.",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Dances with Dogs (Double) \u2013 BDOC",
       "start": "2026-03-22",
       "end": "2026-03-22",
@@ -8269,50 +7767,6 @@
       "open_now": false,
       "is_past": true,
       "club": "26/03/2026"
-    },
-    {
-      "title": "Breed Numbers \u2013 Western Tiers &...",
-      "start": "2026-03-26",
-      "end": "2026-03-26",
-      "location": "",
-      "url": "https://tasdogs.com/2026/03/26/breed-numbers-western-tiers-28-mar-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/03/26/breed-numbers-western-tiers-28-mar-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Western Tiers &..."
-    },
-    {
-      "title": "Read More",
-      "start": "2026-03-26",
-      "end": "2026-03-26",
-      "location": "",
-      "url": "https://tasdogs.com/2026/03/26/breed-numbers-western-tiers-28-mar-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/03/26/breed-numbers-western-tiers-28-mar-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "VGC SprintDog Trial - Fundraiser for Cancer Research",
@@ -10639,7 +10093,7 @@
       "title": "SprintDog Trial \u2013 Dogs ACT",
       "start": "2026-04-06",
       "end": "2026-04-06",
-      "location": "",
+      "location": "Club Grounds, 1 Morisset Road, Mitchell",
       "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-2/",
       "category": "Sprint",
       "source": "Dogs ACT",
@@ -10648,7 +10102,8 @@
       "color": "#1d6fb8",
       "sources": [
         "Dogs ACT",
-        "Show Manager"
+        "Show Manager",
+        "Ready Entries"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -10708,31 +10163,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Staffordshire Bull Terrier Society of NSW"
-    },
-    {
-      "title": "Easter Sprint",
-      "start": "2026-04-07",
-      "end": "2026-04-07",
-      "location": "Club Grounds, 1 Morisset Road, Mitchell",
-      "url": "https://readyentries.com/view-event-group/1764726610616x145172714930831360",
-      "category": "Sprint",
-      "region": "ACT",
-      "cancelled": false,
-      "color": "#1d6fb8",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46422",
-      "closes": "2026-03-30",
-      "status": "closed",
-      "ep_status": "closed",
-      "source": "Ready Entries",
-      "sources": [
-        "Ready Entries",
-        "Show Manager"
-      ],
-      "status_label": "Entries closed",
-      "verified": true,
-      "club": "Dogs ACT - Sprint Dog Part A - Restricted",
-      "open_now": false,
-      "is_past": true
     },
     {
       "title": "Old English Sheepdog Club (NSW) \u2013 Conformation",
@@ -11153,28 +10583,6 @@
       "club": "Parkes & District Kennel Club Inc"
     },
     {
-      "title": "Read More",
-      "start": "2026-04-10",
-      "end": "2026-04-10",
-      "location": "",
-      "url": "https://tasdogs.com/2026/04/10/survey-to-members-from-dogs-australia-via-vero-voting/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/04/10/survey-to-members-from-dogs-australia-via-vero-voting/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
-    },
-    {
       "title": "Stellar Dogs Training & Education - Autumn 2026 Scentwork Courses",
       "start": "2026-04-10",
       "end": "2026-04-10",
@@ -11294,31 +10702,6 @@
       "closes": "2026-04-06",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47550",
       "club": "All Star Dog Sports - Eggcellent Pups - (DANCES WITH DOGS AM Trial)",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "All Star Dog Sports \u2013 Scent Work",
-      "start": "2026-04-11",
-      "end": "2026-04-12",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-03",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47524",
-      "club": "Scent Work Working Party 10 April Morning Trial",
       "open_now": false,
       "is_past": true
     },
@@ -12081,31 +11464,6 @@
       "club": "Stellar Dogs Training and Education"
     },
     {
-      "title": "Sutherland Shire Dog Training Club Inc \u2013 Dances with Dogs",
-      "start": "2026-04-12",
-      "end": "2026-04-12",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Dances with Dogs",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Ready Entries",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-06",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47550",
-      "club": "All Star Dog Sports - Eggcellent Pups - (DANCES WITH DOGS AM Trial)",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Triple Rally Master Trial",
       "start": "2026-04-12",
       "end": "2026-04-12",
@@ -12315,28 +11673,6 @@
       ]
     },
     {
-      "title": "Breed Numbers \u2013 Huon & Cha...",
-      "start": "2026-04-17",
-      "end": "2026-04-17",
-      "location": "",
-      "url": "https://tasdogs.com/2026/04/17/breed-numbers-huon-channel-kennel-club-18-apr-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/04/17/breed-numbers-huon-channel-kennel-club-18-apr-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Huon & Cha..."
-    },
-    {
       "title": "Burdekin Cc \u2013 Championship Show",
       "club": "Burdekin Cc \u2013 Championship Show",
       "start": "2026-04-17",
@@ -12509,28 +11845,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Glenreagh Dog Sports INC"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-04-17",
-      "end": "2026-04-17",
-      "location": "",
-      "url": "https://tasdogs.com/2026/04/17/breed-numbers-huon-channel-kennel-club-18-apr-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/04/17/breed-numbers-huon-channel-kennel-club-18-apr-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Yuggera \u2013 Scent Work",
@@ -12717,31 +12031,6 @@
       "verified": true,
       "closes": "2026-04-13",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46581",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Scent Work",
-      "start": "2026-04-18",
-      "end": "2026-04-18",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-13",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46922",
-      "club": "Dobermann Club of NSW Inc Scent Work Trial",
       "open_now": false,
       "is_past": true
     },
@@ -14562,28 +13851,6 @@
       "club": "28/04/2026"
     },
     {
-      "title": "Read More",
-      "start": "2026-04-28",
-      "end": "2026-04-28",
-      "location": "",
-      "url": "https://tasdogs.com/2026/04/28/dogs-australia-premise-of-the-proposed-champion-class/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/04/28/dogs-australia-premise-of-the-proposed-champion-class/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
-    },
-    {
       "title": "30/04/2026",
       "start": "2026-04-30",
       "end": "2026-04-30",
@@ -14632,50 +13899,6 @@
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/1217/catalogue/get",
       "club": "Brisbane Dog Training Club"
-    },
-    {
-      "title": "Breed Numbers \u2013 Working Dog Clu...",
-      "start": "2026-04-30",
-      "end": "2026-04-30",
-      "location": "",
-      "url": "https://tasdogs.com/2026/04/30/breed-numbers-working-dog-club-2-may-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/04/30/breed-numbers-working-dog-club-2-may-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Working Dog Clu..."
-    },
-    {
-      "title": "Read More",
-      "start": "2026-04-30",
-      "end": "2026-04-30",
-      "location": "",
-      "url": "https://tasdogs.com/2026/04/30/breed-numbers-working-dog-club-2-may-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/04/30/breed-numbers-working-dog-club-2-may-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Bathurst A H & P Association Inc \u2013 Obedience",
@@ -14813,7 +14036,8 @@
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
-        "Show Manager"
+        "Show Manager",
+        "Dogs ACT"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -15457,30 +14681,6 @@
       "club": "Redlands Dog Obedience Club Inc"
     },
     {
-      "title": "SprintDog Trial \u2013 Dogs ACT",
-      "start": "2026-05-02",
-      "end": "2026-05-02",
-      "location": "",
-      "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-3/",
-      "category": "Sprint",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-25",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46480",
-      "club": "Dogs ACT - Sprint Dog Part A Restricted",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Townsville \u2013 Tracking",
       "club": "Townsville",
       "start": "2026-05-02",
@@ -15730,31 +14930,6 @@
       "closes": "2026-04-24",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46584",
       "club": "The Golden Retriever Club of NSW Inc. Obedience Trial",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Bearded Collie Club of NSW \u2013 Rally Obedience",
-      "start": "2026-05-03",
-      "end": "2026-05-03",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Rally Obedience",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Ozentries",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46585",
-      "club": "The Golden Retriever Club of NSW Inc. RALLY",
       "open_now": false,
       "is_past": true
     },
@@ -18073,33 +17248,6 @@
       "is_past": true
     },
     {
-      "title": "Border Collie Club of NSW Inc \u2013 Scent Work",
-      "start": "2026-05-16",
-      "end": "2026-05-16",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "breed_group": "Group 5 (Working Dogs)",
-      "breed": "border collie",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-12",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48126",
-      "club": "Western Districts Boxer Club of NSW",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Central Coast Dog Obedience Training Club \u2013 Obedience",
       "start": "2026-05-16",
       "end": "2026-05-16",
@@ -19709,31 +18857,6 @@
       "is_past": true
     },
     {
-      "title": "Southern Highlands Kennel & Obedience \u2013 Scent Work",
-      "start": "2026-05-23",
-      "end": "2026-05-24",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-18",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47413",
-      "club": "Dobermann Club of NSW Inc Scent Work Trial",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Tableland \u2013 Agility",
       "club": "Tableland",
       "start": "2026-05-23",
@@ -21270,31 +20393,6 @@
       "is_past": true
     },
     {
-      "title": "Tracking & Rescue Dog Club Inc \u2013 Track & Search",
-      "start": "2026-05-31",
-      "end": "2026-05-31",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Track & Search",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": true,
-      "provider": null,
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "cancelled",
-      "status_label": "Cancelled",
-      "verified": true,
-      "closes": "2026-05-08",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47936",
-      "club": "Track & Trek - Tracking Trial",
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "June Sprint",
       "start": "2026-06-01",
       "end": "2026-06-01",
@@ -21311,7 +20409,8 @@
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
-        "Show Manager"
+        "Show Manager",
+        "Dogs ACT"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -21499,30 +20598,6 @@
         "Novice"
       ],
       "club": "Para District Obedience Dog Club"
-    },
-    {
-      "title": "SprintDog Trial \u2013 Dogs ACT",
-      "start": "2026-06-02",
-      "end": "2026-06-02",
-      "location": "",
-      "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-4/",
-      "category": "Sprint",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-24",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47525",
-      "club": "Dogs ACT - Sprint Dog - part A (restricted)",
-      "open_now": false,
-      "is_past": true
     },
     {
       "title": "Emerald Ag \u2013 Championship Show",
@@ -21929,28 +21004,6 @@
       "club": "Noarlunga City Obedience Dog Club Inc"
     },
     {
-      "title": "Read More",
-      "start": "2026-06-05",
-      "end": "2026-06-05",
-      "location": "",
-      "url": "https://tasdogs.com/2026/06/05/tas-kennel-club-change-of-judges-6-june-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/06/05/tas-kennel-club-change-of-judges-6-june-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
-    },
-    {
       "title": "Schedules for the 19th Dalmation Nati...",
       "start": "2026-06-05",
       "end": "2026-06-05",
@@ -22058,31 +21111,6 @@
       "provider": null,
       "breed_group": "Group 6 (Utility)",
       "breed": "malamute",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-23",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47159",
-      "club": "Combined Northern Canine Committee Sprint Dog Trial",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "All Star Dog Sports \u2013 Sprint",
-      "start": "2026-06-06",
-      "end": "2026-06-07",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
       "sources": [
         "Dogs NSW",
         "Show Manager"
@@ -22406,31 +21434,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Oxley Dog Training Club Inc"
-    },
-    {
-      "title": "Oxley Dog Training Club Inc \u2013 Trick Dog",
-      "start": "2026-06-06",
-      "end": "2026-06-07",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Trick Dog",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-01",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47570",
-      "club": "Dobermann Club of NSW Inc Trick Trial",
-      "open_now": false,
-      "is_past": true
     },
     {
       "title": "Parkes & District Kennel Club Inc \u2013 Conformation",
@@ -24800,30 +23803,6 @@
       "is_past": true
     },
     {
-      "title": "Cocker Spaniel National Championship ...",
-      "start": "2026-06-19",
-      "end": "2026-06-19",
-      "location": "",
-      "url": "https://tasdogs.com/2026/06/19/cocker-spaniel-national-championship-show-schedule-qld-10-11-aug/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "breed_group": "Group 3 (Gundogs)",
-      "breed": "cocker spaniel",
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/06/19/cocker-spaniel-national-championship-show-schedule-qld-10-11-aug/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Cocker Spaniel National Championship ..."
-    },
-    {
       "title": "Coffs Harbour District All Breeds Kennel \u2013 Conformation",
       "start": "2026-06-19",
       "end": "2026-06-21",
@@ -24917,28 +23896,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Rockhampton Dog Obedience Club"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-06-19",
-      "end": "2026-06-19",
-      "location": "",
-      "url": "https://tasdogs.com/2026/06/19/cocker-spaniel-national-championship-show-schedule-qld-10-11-aug/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/06/19/cocker-spaniel-national-championship-show-schedule-qld-10-11-aug/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Utility & Non Sporting Dog Club ...",
@@ -26477,28 +25434,6 @@
       "is_past": true
     },
     {
-      "title": "Breed Numbers \u2013 Southern Midlan...",
-      "start": "2026-06-26",
-      "end": "2026-06-26",
-      "location": "",
-      "url": "https://tasdogs.com/2026/06/26/breed-numbers-southern-midlands-27-june-2926/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/06/26/breed-numbers-southern-midlands-27-june-2926/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Southern Midlan..."
-    },
-    {
       "title": "Dobermann Club of NSW Inc \u2013 Scent Work",
       "start": "2026-06-26",
       "end": "2026-06-26",
@@ -26571,28 +25506,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Rockhampton Dog Obedience Club"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-06-26",
-      "end": "2026-06-26",
-      "location": "",
-      "url": "https://tasdogs.com/2026/06/26/breed-numbers-southern-midlands-27-june-2926/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/06/26/breed-numbers-southern-midlands-27-june-2926/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Redcliffe Ag \u2013 Championship Show",
@@ -26856,31 +25769,6 @@
       "status_label": "Approved (unverified)",
       "verified": false,
       "entry_url": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Scent Work",
-      "start": "2026-06-27",
-      "end": "2026-06-27",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-22",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47911",
-      "club": "Dobermann Club of NSW Inc Scent Work Trial",
       "open_now": false,
       "is_past": true
     },
@@ -28916,30 +27804,6 @@
       "end": "2026-07-08",
       "location": "",
       "url": "https://dogsact.org.au/event/scent-work-trial-actcdc-3/",
-      "category": "Scent Work",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-03",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48634",
-      "club": "ACT CDC Scent Work Trial",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scent Work Trial \u2013 ACTCDC",
-      "start": "2026-07-09",
-      "end": "2026-07-09",
-      "location": "",
-      "url": "https://dogsact.org.au/event/scent-work-trial-actcdc-5/",
       "category": "Scent Work",
       "source": "Dogs ACT",
       "cancelled": false,
@@ -31368,7 +30232,7 @@
       "title": "SprintDog Trial \u2013 Dogs ACT",
       "start": "2026-07-18",
       "end": "2026-07-18",
-      "location": "",
+      "location": "Club Grounds, 1 Morisset Road, Mitchell",
       "url": "https://dogsact.org.au/event/dogs-act-sprintdog-trial-5/",
       "category": "Sprint",
       "source": "Dogs ACT",
@@ -31377,7 +30241,8 @@
       "color": "#1d6fb8",
       "sources": [
         "Dogs ACT",
-        "Show Manager"
+        "Show Manager",
+        "Ready Entries"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -31719,31 +30584,6 @@
       "closes": "2026-07-10",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48132",
       "club": "Maitland Dog Obedience Club Inc",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Midwinter Sprint",
-      "start": "2026-07-19",
-      "end": "2026-07-19",
-      "location": "Club Grounds, 1 Morisset Road, Mitchell",
-      "url": "https://readyentries.com/view-event-group/1779325037854x785111154085068800",
-      "category": "Sprint",
-      "region": "ACT",
-      "cancelled": false,
-      "color": "#1d6fb8",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48501",
-      "closes": "2026-07-11",
-      "status": "closed",
-      "ep_status": "closed",
-      "source": "Ready Entries",
-      "sources": [
-        "Ready Entries",
-        "Show Manager"
-      ],
-      "status_label": "Entries closed",
-      "verified": true,
-      "club": "Dogs ACT - Sprint Dog Part A - Restricted.",
       "open_now": false,
       "is_past": true
     },
@@ -32116,28 +30956,6 @@
       "club": "23/07/2026"
     },
     {
-      "title": "Breed Numbers \u2013 Derwent Kennel ...",
-      "start": "2026-07-23",
-      "end": "2026-07-23",
-      "location": "",
-      "url": "https://tasdogs.com/2026/07/23/breed-numbers-derwent-kennel-club-25-july-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/07/23/breed-numbers-derwent-kennel-club-25-july-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Derwent Kennel ..."
-    },
-    {
       "title": "Metro Mid Week Dog Training Club Inc \u2013 Tracking / Track & Search",
       "start": "2026-07-23",
       "end": "2026-07-23",
@@ -32159,28 +30977,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Metro Mid Week Dog Training Club Inc \u2013 Tracking / Track & Search"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-07-23",
-      "end": "2026-07-23",
-      "location": "",
-      "url": "https://tasdogs.com/2026/07/23/breed-numbers-derwent-kennel-club-25-july-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/07/23/breed-numbers-derwent-kennel-club-25-july-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Bundaberg \u2013 Track & Search",
@@ -35155,28 +33951,6 @@
       "is_past": true
     },
     {
-      "title": "Read More",
-      "start": "2026-08-05",
-      "end": "2026-08-05",
-      "location": "",
-      "url": "https://tasdogs.com/2026/08/05/breed-numbers-tas-toy-dog-club-8-aug-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/08/05/breed-numbers-tas-toy-dog-club-8-aug-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
-    },
-    {
       "title": "Scentwork Trial Scent Work Club",
       "club": "Scentwork Trial Scent Work Club",
       "start": "2026-08-05",
@@ -36438,6 +35212,32 @@
       "club": "Dances with Dogs Club of SA"
     },
     {
+      "title": "DWDCSA: DWD Rookies p.m. (non-titling)",
+      "start": "2026-08-09",
+      "end": "2026-08-09",
+      "location": "934 Old Port Wakefield Road, Virginia",
+      "url": "https://www.topdogevents.com.au/trials/2004",
+      "category": "Dances with Dogs",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": null,
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2004",
+      "open_now": false,
+      "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2004/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2004/catalogue/get",
+      "club": "Dances with Dogs Club of SA"
+    },
+    {
       "title": "Earthdog Tests Dachshund Club",
       "club": "Dachshund Club of WA EARTHDOG TEST ONE",
       "start": "2026-08-09",
@@ -36488,31 +35288,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Labrador Club of WA"
-    },
-    {
-      "title": "One Pack Dog Training Club \u2013 Lure Coursing",
-      "start": "2026-08-09",
-      "end": "2026-08-09",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Lure Coursing",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-28",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49144",
-      "club": "One Pack Dog Training Club (Lure Pursuit)",
-      "open_now": false,
-      "is_past": true
     },
     {
       "title": "One Pack Dog Training Club \u2013 Scent Work",
@@ -36608,30 +35383,6 @@
       "verified": true,
       "closes": "2026-08-02",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49311",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Scent Work Trial \u2013 Dogs ACT",
-      "start": "2026-08-09",
-      "end": "2026-08-09",
-      "location": "",
-      "url": "https://dogsact.org.au/event/dogs-act-scent-work-trial-2/",
-      "category": "Scent Work",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-31",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49281",
-      "club": "Dogs ACT",
       "open_now": false,
       "is_past": true
     },
@@ -37888,33 +36639,6 @@
       "schedule_url": "https://www.topdogevents.com.au/trials/2018/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/2018/catalogue/get",
       "club": "Earthdog Advisory Committee"
-    },
-    {
-      "title": "Field Spaniel Club of NSW Inc \u2013 Scent Work",
-      "start": "2026-08-16",
-      "end": "2026-08-16",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "breed_group": "Group 3 (Gundogs)",
-      "breed": "field spaniel",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-08-09",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49315",
-      "club": "Field Spaniel Club of NSW Scent Work Trial",
-      "open_now": false,
-      "is_past": true
     },
     {
       "title": "Gundog & Heavy Breeds Club \u2013 Championship Show",
@@ -39813,50 +38537,6 @@
       "club": "25/08/2026"
     },
     {
-      "title": "Breed Numbers \u2013 Ulverstone Kenn...",
-      "start": "2026-08-25",
-      "end": "2026-08-25",
-      "location": "",
-      "url": "https://tasdogs.com/2026/08/25/breed-numbers-ulverstone-kennel-club-29-aug-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/08/25/breed-numbers-ulverstone-kennel-club-29-aug-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Ulverstone Kenn..."
-    },
-    {
-      "title": "Read More",
-      "start": "2026-08-25",
-      "end": "2026-08-25",
-      "location": "",
-      "url": "https://tasdogs.com/2026/08/25/breed-numbers-ulverstone-kennel-club-29-aug-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/08/25/breed-numbers-ulverstone-kennel-club-29-aug-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
-    },
-    {
       "title": "Yuggera \u2013 Sprint",
       "club": "Yuggera Canine Club",
       "start": "2026-08-25",
@@ -40826,31 +39506,6 @@
       "verified": true,
       "closes": "2026-08-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49547",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "DOGS NSW Spring Fair Lure Coursing Trial \u2013 Lure Coursing",
-      "start": "2026-08-30",
-      "end": "2026-08-30",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Lure Coursing",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": null,
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-08-18",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49020",
-      "club": "Fast Paws Sydney Inc (Lure Pursuit)",
       "open_now": false,
       "is_past": true
     },
@@ -42503,30 +41158,6 @@
       "is_past": true
     },
     {
-      "title": "Breed Numbers \u2013 Tas Toy Dog Clu...",
-      "start": "2026-09-11",
-      "end": "2026-09-11",
-      "location": "",
-      "url": "https://tasdogs.com/2026/09/11/breed-numbers-tas-toy-dog-club-12-sep-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "breed_group": "Group 1 (Toys)",
-      "breed": "toy",
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/09/11/breed-numbers-tas-toy-dog-club-12-sep-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Breed Numbers \u2013 Tas Toy Dog Clu..."
-    },
-    {
       "title": "CCKC 11th 12th 13th September Tricks Obedience Rally Agility Jumping and Snooker Trial Agility Obedience Rally",
       "start": "2026-09-11",
       "end": "2026-09-13",
@@ -42722,28 +41353,6 @@
       "open_now": false,
       "is_past": true,
       "club": "Northern Districts Bull Terrier Club of NSW \u2013 Conformation"
-    },
-    {
-      "title": "Read More",
-      "start": "2026-09-11",
-      "end": "2026-09-11",
-      "location": "",
-      "url": "https://tasdogs.com/2026/09/11/breed-numbers-tas-toy-dog-club-12-sep-2026/",
-      "category": "Conformation",
-      "region": "TAS",
-      "source": "Dogs Tasmania",
-      "color": "#c8632a",
-      "cancelled": false,
-      "sources": [
-        "Dogs Tasmania"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://tasdogs.com/2026/09/11/breed-numbers-tas-toy-dog-club-12-sep-2026/",
-      "open_now": false,
-      "is_past": true,
-      "club": "Read More"
     },
     {
       "title": "Track and Search Trial \u2013 ACTCDC",
@@ -44745,7 +43354,8 @@
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
-        "Show Manager"
+        "Show Manager",
+        "Dogs ACT"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -45152,32 +43762,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": true
-    },
-    {
-      "title": "SprintDog Trial \u2013 Dogs ACT",
-      "start": "2026-09-20",
-      "end": "2026-09-20",
-      "location": "Belconnen Dog Obedience, Cnr Flemington & Morisset Rd, Mitchell, 2125, ACT",
-      "url": "https://dogsact.org.au/event/bdoc-sprintdog-trial-5/",
-      "category": "Sprint",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-09-11",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49038",
-      "club": "Dogs ACT - Sprint Dog Part A restricted",
-      "open_now": false,
-      "is_past": true,
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49038/DogsACTSprintDogPartArestricted_20-Sep-2026_SPRINT_49038_Schedule_20260630.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49038/DogsACTSprintDogPartArestricted_20-Sep-2026_SPRINT_49038_Catalogue_a3wpatom6UC3GRDCdQWDRQ.pdf"
     },
     {
       "title": "CCKC 21st September SW Vehicle Trial",
@@ -50770,7 +49354,8 @@
       "provider": null,
       "sources": [
         "Dogs NSW",
-        "Show Manager"
+        "Show Manager",
+        "Ready Entries"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -50854,32 +49439,6 @@
       "club": "Eurobodalla District Show Society"
     },
     {
-      "title": "Eurobodalla Double Tricks and Rally",
-      "start": "2026-10-31",
-      "end": "2026-11-01",
-      "location": "Moruya Show Grounds, 98 Albert Street, Moruya",
-      "url": "https://readyentries.com/view-event-group/1784184632784x209597946872987650",
-      "category": "Rally Obedience",
-      "region": "NSW",
-      "cancelled": false,
-      "color": "#7a3ea6",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49794",
-      "closes": "2026-10-18",
-      "status": "open",
-      "ep_status": "listed",
-      "source": "Ready Entries",
-      "sources": [
-        "Ready Entries",
-        "Show Manager"
-      ],
-      "status_label": "Open (verified)",
-      "verified": true,
-      "club": "Hills Dog Club Rally",
-      "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49794/HillsDogClubRallyTrickDogTrials_31-Oct-2026_RO_49794_Schedule_20260819_fVLxVK5ZlUWuApXwHgR_qw.pdf"
-    },
-    {
       "title": "German Shepherd Club \u2013 Rally Obedience",
       "club": "German Shepherd Dog Club (Qld) Inc",
       "start": "2026-10-31",
@@ -50951,32 +49510,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Hills Dog Club Inc \u2013 Rally Obedience",
-      "start": "2026-10-31",
-      "end": "2026-10-31",
-      "location": "Castle Hill Showground, Showground road, Castle Hill, 2154, NSW",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Rally Obedience",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-10-18",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49794",
-      "club": "Hills Dog Club Rally",
-      "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49794/HillsDogClubRallyTrickDogTrials_31-Oct-2026_RO_49794_Schedule_20260819_fVLxVK5ZlUWuApXwHgR_qw.pdf"
     },
     {
       "title": "Hills Dog Club Inc \u2013 Trick Dog",
@@ -51301,32 +49834,6 @@
       "open_now": true,
       "is_past": false,
       "club": "Dances with Dogs Club of SA"
-    },
-    {
-      "title": "Eurobodalla District Show Society \u2013 Rally Obedience",
-      "start": "2026-11-01",
-      "end": "2026-11-01",
-      "location": "Castle Hill Showground, Showground road, Castle Hill, 2154, NSW",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Rally Obedience",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Show Manager",
-      "sources": [
-        "Dogs NSW",
-        "Show Manager"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-10-18",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49794",
-      "club": "Hills Dog Club Rally",
-      "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49794/HillsDogClubRallyTrickDogTrials_31-Oct-2026_RO_49794_Schedule_20260819_fVLxVK5ZlUWuApXwHgR_qw.pdf"
     },
     {
       "title": "German Shepherd Club \u2013 Trick Dog",
@@ -54481,87 +52988,6 @@
       "is_past": true
     },
     {
-      "title": "DogsQLD Lure Coursing Annual Awards - Extra Award (DogsQLD Lure Coursing Subcommittee)",
-      "club": "DogsQLD Lure Coursing Annual Awards - Extra Award (DogsQLD Lure Coursing Subcommittee)",
-      "start": "2026-02-01",
-      "end": "2026-02-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-12-31",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "DogsQLD Sled Sports Subcommittee - Extra Award  (DogsQLD Sled Sports Subcommittee)",
-      "club": "DogsQLD Sled Sports Subcommittee - Extra Award  (DogsQLD Sled Sports Subcommittee)",
-      "start": "2026-02-01",
-      "end": "2026-02-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sled Sports",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-12-31",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "DogsQLD SprintDog\u2122 Annual Awards - Extra Award (DogsQLD SprintDog\u2122 Subcommittee)",
-      "club": "DogsQLD SprintDog\u2122 Annual Awards - Extra Award (DogsQLD SprintDog\u2122 Subcommittee)",
-      "start": "2026-02-01",
-      "end": "2026-02-01",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-12-31",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "All Star Dog Sports - Fast Games a Good Game - SPRINT \u2013 Sprint",
       "club": "All Star Dog Sports - Fast Games a Good Game - SPRINT",
       "start": "2026-02-08",
@@ -54581,33 +53007,6 @@
       "verified": true,
       "closes": "2026-01-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46053",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "club": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "start": "2026-02-10",
-      "end": "2026-02-10",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-10",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -54751,60 +53150,6 @@
       "is_past": true
     },
     {
-      "title": "Annual Awards Presentation (DogsQLD Lure Coursing Subcommittee)",
-      "club": "Annual Awards Presentation (DogsQLD Lure Coursing Subcommittee)",
-      "start": "2026-02-14",
-      "end": "2026-02-14",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-01-31",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "DQSWSC 14Feb2026 Trial entry adjustment (Dogs QLD Scent Work Sub Committee)",
-      "club": "DQSWSC 14Feb2026 Trial entry adjustment (Dogs QLD Scent Work Sub Committee)",
-      "start": "2026-02-14",
-      "end": "2026-02-14",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Scent Work",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-13",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Field Spaniel Club of NSW SprintDogTM Trial",
       "club": "Field Spaniel Club of NSW SprintDogTM Trial",
       "start": "2026-02-15",
@@ -54940,60 +53285,6 @@
       "is_past": true
     },
     {
-      "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "start": "2026-02-26",
-      "end": "2026-02-26",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-25",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sprint Training - 26th Feb late payments (Russian Black Terrier Club of Queensland)",
-      "club": "Sprint Training - 26th Feb late payments (Russian Black Terrier Club of Queensland)",
-      "start": "2026-02-26",
-      "end": "2026-02-26",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-02-26",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "VICTORIAN HERDING ASSOCIATION Inc (Butcher) \u2013 Herding",
       "club": "VICTORIAN HERDING ASSOCIATION Inc (Butcher)",
       "start": "2026-02-28",
@@ -55040,33 +53331,6 @@
       "verified": true,
       "closes": "2026-02-21",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46278",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Earthdog Training  (Dogs QLD Earthdog Sub Committee)",
-      "club": "Earthdog Training  (Dogs QLD Earthdog Sub Committee)",
-      "start": "2026-02-28",
-      "end": "2026-02-28",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Earthdog",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -55264,33 +53528,6 @@
       "is_past": true
     },
     {
-      "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "start": "2026-03-10",
-      "end": "2026-03-10",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-09",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Field Spaniel Club of NSW SprintDogTM Trial",
       "club": "Field Spaniel Club of NSW SprintDogTM Trial",
       "start": "2026-03-13",
@@ -55399,33 +53636,6 @@
       "is_past": true
     },
     {
-      "title": "Earthdog training  (Dogs QLD Earthdog Sub Committee)",
-      "club": "Earthdog training  (Dogs QLD Earthdog Sub Committee)",
-      "start": "2026-03-14",
-      "end": "2026-03-14",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Earthdog",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Field Spaniel Club of NSW SprintDogTM Trial",
       "club": "Field Spaniel Club of NSW SprintDogTM Trial",
       "start": "2026-03-15",
@@ -55472,33 +53682,6 @@
       "verified": true,
       "closes": "2026-03-01",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46563",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "club": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "start": "2026-03-17",
-      "end": "2026-03-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-17",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -55769,33 +53952,6 @@
       "verified": true,
       "closes": "2026-03-12",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46025",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "start": "2026-03-26",
-      "end": "2026-03-26",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-03-25",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -56202,60 +54358,6 @@
       "verified": true,
       "closes": "2026-03-19",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46288",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "club": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "start": "2026-04-07",
-      "end": "2026-04-07",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-07",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "SprintDog\u2122 Raffle for Trial on 22/04/2026  (Cavalier King Charles Spaniel Club of Victoria Inc.)",
-      "club": "SprintDog\u2122 Raffle for Trial on 22/04/2026  (Cavalier King Charles Spaniel Club of Victoria Inc.)",
-      "start": "2026-04-07",
-      "end": "2026-04-07",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -57534,114 +55636,6 @@
       "is_past": true
     },
     {
-      "title": "SBTCQ Sprint Tryout Day (The Staffordshire Bull Terrier Club Of QLD Inc)",
-      "club": "SBTCQ Sprint Tryout Day (The Staffordshire Bull Terrier Club Of QLD Inc)",
-      "start": "2026-04-19",
-      "end": "2026-04-19",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-16",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "EARTHDOG TRY OUT DAY (Dachshund Club of WA) \u2013 Earthdog",
-      "club": "EARTHDOG TRY OUT DAY (Dachshund Club of WA)",
-      "start": "2026-04-19",
-      "end": "2026-04-19",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Earthdog",
-      "region": "WA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#16887a",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-19",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "RETRIEVING ABILITY TEST FOR GUNDOGS (Gippsland Obedience Dog Club Inc) \u2013 Retrieving",
-      "club": "RETRIEVING ABILITY TEST FOR GUNDOGS (Gippsland Obedience Dog Club Inc)",
-      "start": "2026-04-19",
-      "end": "2026-04-19",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Retrieving",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-12",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "SprintDog\u2122 Raffle for Trial on 07/05/2026  (Cavalier King Charles Spaniel Club of Victoria Inc.)",
-      "club": "SprintDog\u2122 Raffle for Trial on 07/05/2026  (Cavalier King Charles Spaniel Club of Victoria Inc.)",
-      "start": "2026-04-21",
-      "end": "2026-04-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-21",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Cavalier King Charles Spaniel Club of Victoria Inc. \u2013 Sprint",
       "club": "Cavalier King Charles Spaniel Club of Victoria Inc.",
       "start": "2026-04-22",
@@ -57669,33 +55663,6 @@
       "is_past": true
     },
     {
-      "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "start": "2026-04-23",
-      "end": "2026-04-23",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-04-22",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Cocker Spaniel Club of Victoria \u2013 Field Trial",
       "club": "Cocker Spaniel Club of Victoria \u2013 Field Trial",
       "start": "2026-04-24",
@@ -57715,33 +55682,6 @@
       "verified": true,
       "closes": "2026-04-17",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47846",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Laura Pratt Photography - private session (Warragul & Dist  Kennel & Obedience Club Inc)",
-      "club": "Laura Pratt Photography - private session (Warragul & Dist  Kennel & Obedience Club Inc)",
-      "start": "2026-04-24",
-      "end": "2026-04-24",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -57931,87 +55871,6 @@
       "verified": true,
       "closes": "2026-03-30",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45471",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "2026 National Obedience Trophy Donations (Weimaraner Club of Victoria Inc)",
-      "club": "2026 National Obedience Trophy Donations (Weimaraner Club of Victoria Inc)",
-      "start": "2026-04-30",
-      "end": "2026-04-30",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "2026 National Rally Trophy Donations (Weimaraner Club of Victoria Inc) \u2013 Rally Obedience",
-      "club": "2026 National Rally Trophy Donations (Weimaraner Club of Victoria Inc)",
-      "start": "2026-04-30",
-      "end": "2026-04-30",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Rally Obedience",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "2026 National RATG Trophy Donations (Weimaraner Club of Victoria Inc) \u2013 Retrieving",
-      "club": "2026 National RATG Trophy Donations (Weimaraner Club of Victoria Inc)",
-      "start": "2026-04-30",
-      "end": "2026-04-30",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Retrieving",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -58507,33 +56366,6 @@
       "is_past": true
     },
     {
-      "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "start": "2026-05-07",
-      "end": "2026-05-07",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-06",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Alaskan Malamute Club, Victoria - BackPacking event \u2013 Backpacking",
       "club": "Alaskan Malamute Club, Victoria - BackPacking event \u2013 Backpacking",
       "start": "2026-05-09",
@@ -58933,60 +56765,6 @@
       "verified": true,
       "closes": "2026-05-03",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/46882",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "club": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "start": "2026-05-12",
-      "end": "2026-05-12",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-12",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "SprintDog\u2122 Raffle for Trial on 27/05/2026 (Cavalier King Charles Spaniel Club of Victoria Inc.)",
-      "club": "SprintDog\u2122 Raffle for Trial on 27/05/2026 (Cavalier King Charles Spaniel Club of Victoria Inc.)",
-      "start": "2026-05-12",
-      "end": "2026-05-12",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-12",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -59400,33 +57178,6 @@
       "is_past": true
     },
     {
-      "title": "Pre-Season 'Mush Up' Camp (Western Australian Sleddog Sports Association) \u2013 Sled Sports",
-      "club": "Pre-Season 'Mush Up' Camp (Western Australian Sleddog Sports Association) \u2013 Sled Sports",
-      "start": "2026-05-16",
-      "end": "2026-05-16",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sled Sports",
-      "region": "WA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#16887a",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-13",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "ADELAIDE LURE COURSING & RACING CLUB INC \u2013 Lure Coursing",
       "club": "ADELAIDE LURE COURSING & RACING CLUB INC",
       "start": "2026-05-17",
@@ -59806,33 +57557,6 @@
       "is_past": true
     },
     {
-      "title": "EARTHDOG TRY OUT DAY (Dachshund Club of WA) \u2013 Earthdog",
-      "club": "EARTHDOG TRY OUT DAY (Dachshund Club of WA)",
-      "start": "2026-05-17",
-      "end": "2026-05-17",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Earthdog",
-      "region": "WA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#16887a",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-17",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Russian Black Terrier Club of Queensland \u2013 Scent Work",
       "club": "Russian Black Terrier Club of Queensland",
       "start": "2026-05-19",
@@ -59852,33 +57576,6 @@
       "verified": true,
       "closes": "2026-05-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48125",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "SprintDog\u2122 Raffle for Trial 14/6/26 - 2 Dogs Entry (Frankston & Peninsula Kennel Club Inc)",
-      "club": "SprintDog\u2122 Raffle for Trial 14/6/26 - 2 Dogs Entry (Frankston & Peninsula Kennel Club Inc)",
-      "start": "2026-05-22",
-      "end": "2026-05-22",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -60779,33 +58476,6 @@
       "is_past": true
     },
     {
-      "title": "Wangaratta SprintDog 2 free entries  (WANGARATTA KENNEL & OBEDIENCE CLUB INC) \u2013 Obedience",
-      "club": "Wangaratta SprintDog 2 free entries  (WANGARATTA KENNEL & OBEDIENCE CLUB INC)",
-      "start": "2026-05-31",
-      "end": "2026-05-31",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-05-31",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Darwin Obedience Dog Club",
       "club": "Darwin Obedience Dog Club",
       "start": "2026-06-05",
@@ -61103,33 +58773,6 @@
       "is_past": true
     },
     {
-      "title": "Fun DWD Comp (All Star Dog Sports) \u2013 Dances with Dogs",
-      "club": "Fun DWD Comp (All Star Dog Sports)",
-      "start": "2026-06-06",
-      "end": "2026-06-06",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Dances with Dogs",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Darwin Obedience Dog Club (Trial 1) \u2013 Trick Dog",
       "club": "Darwin Obedience Dog Club",
       "start": "2026-06-07",
@@ -61419,33 +59062,6 @@
       "verified": true,
       "closes": "2026-05-29",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47376",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Win a 6-tray  BIOCHEF Dehydrator valued at $259.00 (Redlands Dog Obedience Club Inc)",
-      "club": "Win a 6-tray  BIOCHEF Dehydrator valued at $259.00 (Redlands Dog Obedience Club Inc)",
-      "start": "2026-06-09",
-      "end": "2026-06-09",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-09",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -61878,33 +59494,6 @@
       "verified": true,
       "closes": "2026-06-05",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48399",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Training  (Dogs QLD Earthdog Sub Committee)",
-      "club": "Training  (Dogs QLD Earthdog Sub Committee)",
-      "start": "2026-06-13",
-      "end": "2026-06-13",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Earthdog",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -62751,60 +60340,6 @@
       "is_past": true
     },
     {
-      "title": "AMSHCQ Weight Pull Training Event (Alaskan Malamute and Siberian Husky Club)",
-      "club": "AMSHCQ Weight Pull Training Event (Alaskan Malamute and Siberian Husky Club)",
-      "start": "2026-06-21",
-      "end": "2026-06-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Weight Pull",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-20",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "SprintDog\u2122 Paw-some Prize Pack (The Welsh Corgi Club Of NSW Inc)",
-      "club": "SprintDog\u2122 Paw-some Prize Pack (The Welsh Corgi Club Of NSW Inc)",
-      "start": "2026-06-21",
-      "end": "2026-06-21",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "4P's All Toy Dog Club Of NSW SprintDogTM Trial",
       "club": "4P's All Toy Dog Club Of NSW SprintDogTM Trial",
       "start": "2026-06-25",
@@ -62824,33 +60359,6 @@
       "verified": true,
       "closes": "2026-06-08",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47576",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "STAINED GLASS PET PORTRAIT (Ingham Kennel & Obedience Club Inc)",
-      "club": "STAINED GLASS PET PORTRAIT (Ingham Kennel & Obedience Club Inc)",
-      "start": "2026-06-26",
-      "end": "2026-06-26",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-06-26",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -62987,33 +60495,6 @@
       "verified": true,
       "closes": "2026-06-06",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48438",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "start": "2026-07-02",
-      "end": "2026-07-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-01",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -63779,33 +61260,6 @@
       "is_past": true
     },
     {
-      "title": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "club": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "start": "2026-07-14",
-      "end": "2026-07-14",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-14",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Dogs QLD Scent Work Sub Committee (BALLOT)",
       "club": "Dogs QLD Scent Work Sub Committee (BALLOT)",
       "start": "2026-07-15",
@@ -63825,33 +61279,6 @@
       "verified": true,
       "closes": "2026-07-03",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48663",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "club": "Sprint Training (Russian Black Terrier Club of Queensland)",
-      "start": "2026-07-16",
-      "end": "2026-07-16",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-15",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -65428,60 +62855,6 @@
       "is_past": true
     },
     {
-      "title": "EARTHDOG TRY OUT DAY (Dachshund Club of WA) \u2013 Earthdog",
-      "club": "EARTHDOG TRY OUT DAY (Dachshund Club of WA)",
-      "start": "2026-08-02",
-      "end": "2026-08-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Earthdog",
-      "region": "WA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#16887a",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-08-02",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "RETRIEVING ABILITY TEST FOR GUNDOGS (Gippsland Obedience Dog Club Inc) \u2013 Retrieving",
-      "club": "RETRIEVING ABILITY TEST FOR GUNDOGS (Gippsland Obedience Dog Club Inc)",
-      "start": "2026-08-02",
-      "end": "2026-08-02",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Retrieving",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-07-26",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Dogs NSW SprintDog (TM) Working Party",
       "club": "Dogs NSW SprintDog (TM) Working Party",
       "start": "2026-08-06",
@@ -65826,33 +63199,6 @@
       "verified": true,
       "closes": "2026-07-29",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48623",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "club": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "start": "2026-08-11",
-      "end": "2026-08-11",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-08-11",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -66717,33 +64063,6 @@
       "verified": true,
       "closes": "2026-08-05",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48464",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "FLCV SprintDog Trial Entry Raffle (Finnish Lapphund Club of Victoria Inc)",
-      "club": "FLCV SprintDog Trial Entry Raffle (Finnish Lapphund Club of Victoria Inc)",
-      "start": "2026-08-22",
-      "end": "2026-08-22",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-08-21",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -67697,33 +65016,6 @@
       "is_past": true
     },
     {
-      "title": "Weight Pull Try out (All Star Dog Sports)",
-      "club": "Weight Pull Try out (All Star Dog Sports)",
-      "start": "2026-09-13",
-      "end": "2026-09-13",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Weight Pull",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": null,
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": true
-    },
-    {
       "title": "Rarer Gundog Spaniel Club of Victoria Restricted to Group 3 Scent Work Trial",
       "club": "Rarer Gundog Spaniel Club of Victoria Restricted to Group 3 Scent Work Trial",
       "start": "2026-09-18",
@@ -67940,33 +65232,6 @@
       "is_past": false
     },
     {
-      "title": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "club": "FCI Obedience Training (QLD Obed State Trials Sub Committee)",
-      "start": "2026-09-22",
-      "end": "2026-09-22",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Obedience",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-09-22",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Sprint",
       "club": "Newcastle All Breeds Dog Training Club Inc",
       "start": "2026-09-23",
@@ -68041,7 +65306,7 @@
       "closes": "2026-09-14",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48580",
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/48580/FinnishLapphundClubofVictoriaIncSprintDogTrial_25-Sep-2026_SPRINT_48580_Schedule_20260721.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/48580/FinnishLapphundClubofVictoriaIncSprintDogTrial_25-Sep-2026_SPRINT_48580_Catalogue_mDxinM1HBEGnOxo90b58cg.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/48580/FinnishLapphundClubofVictoriaIncSprintDogTrial_25-Sep-2026_SPRINT_48580_Catalogue_ONwqIc8JfU6fHaRChtyAQA.pdf",
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "open_now": false,
@@ -68149,33 +65414,6 @@
       "closes": "2026-09-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50066",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50066/SCVLURECOURSINGSHEVENT1SUN_27-Sep-2026_LURE_50066_Schedule_20260915_CUwq-B4b1UKR5jAb8S1nIg.pdf",
-      "catalogue_url": null,
-      "classes": null,
-      "address": "Malone Park Recreation Ground, Malone Rd,, MARONG, 3515, VIC",
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Saluki Club of Vic Inc \u2013 Lure Coursing",
-      "club": "Saluki Club of Vic Inc",
-      "start": "2026-09-27",
-      "end": "2026-09-27",
-      "location": "Malone Park Recreation Ground, Malone Rd,, MARONG, 3515, VIC",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50067",
-      "category": "Lure Coursing",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-09-20",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50067",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50067/SCVLUREPURSUITLPEVENT2SUN_27-Sep-2026_LURE_50067_Schedule_20260917_PIreNsqzc0K2CzGcpZKgcA.pdf",
       "catalogue_url": null,
       "classes": null,
       "address": "Malone Park Recreation Ground, Malone Rd,, MARONG, 3515, VIC",
@@ -68292,33 +65530,6 @@
       "is_past": false
     },
     {
-      "title": "Murray Valley Obedience Dog Club \u2013 Rally Obedience",
-      "club": "Murray Valley Obedience Dog Club",
-      "start": "2026-10-03",
-      "end": "2026-10-03",
-      "location": "Quandong Park red Cliffs, Park St, Red Cliffs, 3496, VIC",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49382",
-      "category": "Rally Obedience",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-09-21",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49382",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49381/MurrayValleyObedienceDogClubRallyTrial1_03-Oct-2026_RO_49381_Schedule_20260720.pdf",
-      "catalogue_url": null,
-      "classes": null,
-      "address": "Quandong Park red Cliffs, Park St, Red Cliffs, 3496, VIC",
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "The Welsh Corgi Club Of NSW Inc \u2013 Sprint",
       "club": "The Welsh Corgi Club Of NSW Inc",
       "start": "2026-10-03",
@@ -68342,33 +65553,6 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "SprintDog\u2122 Paw-some Prize Pack (The Welsh Corgi Club Of NSW Inc)",
-      "club": "SprintDog\u2122 Paw-some Prize Pack (The Welsh Corgi Club Of NSW Inc)",
-      "start": "2026-10-03",
-      "end": "2026-10-03",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-10-03",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
       "open_now": false,
       "is_past": false
     },
@@ -68454,33 +65638,6 @@
       "is_past": false
     },
     {
-      "title": "Murray Valley Obedience Dog Club",
-      "club": "Murray Valley Obedience Dog Club",
-      "start": "2026-10-04",
-      "end": "2026-10-04",
-      "location": "Quandong Park red Cliffs, Park St, Red Cliffs, 3496, VIC",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49384",
-      "category": "Obedience",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "closes": "2026-09-21",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49384",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49381/MurrayValleyObedienceDogClubRallyTrial1_03-Oct-2026_RO_49381_Schedule_20260720.pdf",
-      "catalogue_url": null,
-      "classes": null,
-      "address": "Quandong Park red Cliffs, Park St, Red Cliffs, 3496, VIC",
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "The Welsh Corgi Club Of NSW Inc \u2013 Sprint",
       "club": "The Welsh Corgi Club Of NSW Inc",
       "start": "2026-10-04",
@@ -68504,33 +65661,6 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "SprintDog\u2122 Paw-some Prize Pack (The Welsh Corgi Club Of NSW Inc)",
-      "club": "SprintDog\u2122 Paw-some Prize Pack (The Welsh Corgi Club Of NSW Inc)",
-      "start": "2026-10-04",
-      "end": "2026-10-04",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Sprint",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-10-04",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
       "open_now": false,
       "is_past": false
     },
@@ -69592,6 +66722,33 @@
       "is_past": false
     },
     {
+      "title": "Warragul & Dist  Kennel & Obedience Club Inc Trial 1",
+      "club": "Warragul & Dist  Kennel & Obedience Club Inc Trial 1",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "location": "",
+      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49388",
+      "category": "Obedience",
+      "region": "VIC",
+      "source": "Show Manager",
+      "sources": [
+        "Show Manager"
+      ],
+      "color": "#3aa657",
+      "cancelled": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-10-18",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49388",
+      "schedule_url": null,
+      "catalogue_url": null,
+      "classes": null,
+      "address": null,
+      "open_now": true,
+      "is_past": false
+    },
+    {
       "title": "Warragul & Dist  Kennel & Obedience Club Inc Trial 1 \u2013 Rally Obedience",
       "club": "Warragul & Dist  Kennel & Obedience Club Inc Trial 1",
       "start": "2026-10-25",
@@ -69613,33 +66770,6 @@
       "closes": "2026-10-18",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49385",
       "schedule_url": "https://vicdog.com/wp-content/uploads/2026/07/20261024-Knox-ODC-Agility-Schedule.pdf",
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Warragul & Dist  Kennel & Obedience Club Inc Trial 1",
-      "club": "Warragul & Dist  Kennel & Obedience Club Inc Trial 1",
-      "start": "2026-10-25",
-      "end": "2026-10-25",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49388",
-      "category": "Obedience",
-      "region": "VIC",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#3aa657",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-10-18",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49388",
-      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
       "address": null,
@@ -70265,33 +67395,6 @@
       "classes": null,
       "address": null,
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Win a custom portrait of your dog (ADELAIDE LURE COURSING & RACING CLUB INC) \u2013 Lure Coursing",
-      "club": "Win a custom portrait of your dog (ADELAIDE LURE COURSING & RACING CLUB INC)",
-      "start": "2026-12-15",
-      "end": "2026-12-15",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Lure Coursing",
-      "region": "SA",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2026-12-13",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
       "is_past": false
     },
     {
