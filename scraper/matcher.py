@@ -174,6 +174,8 @@ def match_events(governing_events, sm_listings, additive=False,
                 ev["schedule_url"] = L["schedule_url"]
             if L.get("catalogue_url"):
                 ev["catalogue_url"] = L["catalogue_url"]
+            if L.get("classes") and not ev.get("classes"):
+                ev["classes"] = L["classes"]
             if L.get("address"):
                 ev["address"] = L["address"]
                 # If the event's displayed location is only a bare state (as
@@ -324,7 +326,7 @@ def events_from_unmatched_listings(sm_listings, matched_ids, region_color=None,
                 ev["cancelled"] = True
             changed = True
         for fld in ("entry_url", "schedule_url", "catalogue_url", "closes",
-                    "address"):
+                    "address", "classes"):
             val = L.get("detail_url") if fld == "entry_url" else L.get(fld)
             if val and not ev.get(fld):
                 ev[fld] = val
@@ -383,6 +385,7 @@ def events_from_unmatched_listings(sm_listings, matched_ids, region_color=None,
             "entry_url": L.get("detail_url"),
             "schedule_url": L.get("schedule_url"),
             "catalogue_url": L.get("catalogue_url"),
+            "classes": L.get("classes"),
             "address": L.get("address"),
         }
         out.append(ev)
