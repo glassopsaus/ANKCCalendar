@@ -224,6 +224,15 @@ def fetch(url, retries=3, backoff=2.0):
     URLs they expect may not exist (e.g. tasdogs sub-category pages / pagination
     past the last page): retrying a 404 three times with backoff would waste
     ~6s per dead URL for no benefit.
+
+    Likewise, a "Network is unreachable" (errno 101) or DNS-resolution failure
+    will NOT change across retries within a single run — the runner simply can't
+    route to that host right now — so we fail fast on those too, rather than
+    burning the full retry+backoff budget on every URL. (A host that's briefly
+    unroutable during a run was, in practice, turning one bad source into ~25
+    minutes of wasted retries across its ~10 URLs.) Genuinely transient errors
+    (timeouts, connection resets, 5xx) are still retried, since those can
+    succeed on a second attempt.
     """
     import time
     last_err = None
@@ -244,6 +253,16 @@ def fetch(url, retries=3, backoff=2.0):
                       f"({e}); retrying in {wait:.0f}s", file=sys.stderr)
                 time.sleep(wait)
         except Exception as e:
+            # "Network is unreachable" / DNS failures are not retry-able within a
+            # run (the route won't appear between attempts), so fail fast — this
+            # avoids ~1min of dead retries per unreachable URL.
+            _msg = str(e).lower()
+            if ("network is unreachable" in _msg or "errno 101" in _msg
+                    or "name or service not known" in _msg
+                    or "nodename nor servname" in _msg
+                    or "failed to resolve" in _msg
+                    or "temporary failure in name resolution" in _msg):
+                raise
             last_err = e
             if attempt < retries:
                 wait = backoff * attempt
@@ -877,7 +896,10 @@ def _vicdog_enumerate_event_urls(year):
     missed by one feed can still be found via another.
     """
     urls = {}
+    _host_down = False  # once vicdog proves unreachable, skip the rest this run
     for base in VICDOG_LISTING_PAGES:
+        if _host_down:
+            break
         prev_signature = None
         for page in range(1, VICDOG_MAX_PAGES + 1):
             url = base if page == 1 else f"{base.rstrip('/')}/page/{page}/"
@@ -886,6 +908,23 @@ def _vicdog_enumerate_event_urls(year):
             except Exception as e:
                 # 404 => past the last page; anything else we just stop this list.
                 print(f"[vicdog] listing stop {url}: {e}", file=sys.stderr)
+                # A CONNECTION-level failure (unreachable, DNS, or timeout) on a
+                # feed's MAIN page (page 1) means vicdog is down for us this run —
+                # every remaining feed will fail identically, so abort the whole
+                # crawl rather than drag through ~10 URLs × retries (~27 min per
+                # build). A 404 deeper in a feed is a normal end-of-pages signal
+                # for a reachable host and only stops that one feed.
+                _m = str(e).lower()
+                _conn_fail = ("network is unreachable" in _m or "errno 101" in _m
+                              or "failed to establish a new connection" in _m
+                              or "name or service not known" in _m
+                              or "failed to resolve" in _m
+                              or "connecttimeout" in _m or "timed out" in _m
+                              or "max retries exceeded" in _m)
+                if _conn_fail and page == 1:
+                    print("[vicdog] host unreachable/unresponsive — skipping "
+                          "remaining vicdog feeds this run", file=sys.stderr)
+                    _host_down = True
                 break
             soup = BeautifulSoup(resp.text, "html.parser")
             anchors = [a.get("href", "") for a in soup.select('a[href*="/events/"]')]
