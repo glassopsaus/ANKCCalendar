@@ -2917,6 +2917,16 @@ def build_year():
             all_events.extend(qld_events)
         except Exception as e:
             print(f"[qld] FAILED: {e}", file=sys.stderr)
+        # QLD show-dates PDF (conformation) — a SEPARATE source/format from the
+        # trial calendar (which carries no conformation). Fails safe to [].
+        try:
+            qld_shows = qld_calendar.parse_qld_shows(YEAR)
+            for e in qld_shows:
+                e.setdefault("source", "Dogs Queensland (show dates)")
+                e["color"] = REGION_COLOR.get("QLD", "#c0392b")
+            all_events.extend(qld_shows)
+        except Exception as e:
+            print(f"[qld-shows] FAILED: {e}", file=sys.stderr)
 
     # --- Dogs West (WA calendar) (PDF, WA primary source) --------------------
     # Yearly calendar of all WA events. Free-text fixtures mapped to disciplines;
