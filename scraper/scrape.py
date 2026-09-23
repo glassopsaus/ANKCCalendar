@@ -3996,6 +3996,13 @@ def build_year():
                           f"carried prior", file=sys.stderr)
                 print(f"[guard] carried {carried} event(s) from prior file; "
                       f"total now {len(unique)}", file=sys.stderr)
+                # Carry-forward's own de-dup guard keys on (title,start,cat,region),
+                # so a carried event whose TITLE differs from the fresh card (the
+                # stub-vs-enriched case) slips back in and re-creates a duplicate
+                # that _merge_same_event_dupes already removed. Re-run the smart
+                # merge (entry-link / venue / club-token keys) on the combined set
+                # so carried-forward events can't reintroduce duplicates.
+                unique = _merge_same_event_dupes(unique)
                 # Rebuild the payload with the merged event list.
                 payload["events"] = unique
                 payload["count"] = len(unique)
