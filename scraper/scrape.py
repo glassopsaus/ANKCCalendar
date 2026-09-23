@@ -2881,6 +2881,29 @@ def _merge_same_event_dupes(events):
         loc = (e.get("location") or "").strip()
         return "" if (not loc or _is_bare_state_location(loc)) else loc.lower()
 
+    # Distinctive club tokens (drop generic scaffolding words) from club+title,
+    # used as a THIRD merge key for the common case where a governing-source stub
+    # (no entry link, bare-state location) duplicates the enriched entry-platform
+    # card for the same trial. Requiring a SHARED distinctive token keeps
+    # genuinely-different clubs (same day/discipline) apart.
+    _CLUB_STOP = {"dog", "dogs", "club", "clubs", "inc", "the", "and", "of",
+                  "trial", "trials", "test", "scent", "work", "scentwork",
+                  "obedience", "rally", "agility", "training", "kennel",
+                  "association", "society", "district", "districts", "committee",
+                  "open", "novice", "advanced", "excellent", "masters",
+                  "ultimate", "for", "victoria", "queensland", "wales",
+                  "australia"}
+    # NOTE: directional words (southern/northern/eastern/western) are KEPT — they
+    # are often part of a club's actual distinctive name ("Southern Obedience Dog
+    # Club"), and two different directional clubs running the same discipline on
+    # the same day is vanishingly unlikely, so keeping them helps real matches
+    # without meaningful false-merge risk.
+
+    def _club_tokens(e):
+        text = (e.get("club") or "") + " " + (e.get("title") or "")
+        return frozenset(w for w in re.findall(r"[a-z]{3,}", text.lower())
+                         if w not in _CLUB_STOP)
+
     def _merge_dupe(keep, drop):
         srcs = keep.setdefault("sources", [])
         for s in (drop.get("sources") or
@@ -2899,6 +2922,7 @@ def _merge_same_event_dupes(events):
 
     by_entry = {}
     by_venue = {}
+    by_clubtok = {}   # (region, start, end, category, frozenset-of-tokens) -> event
     out = []
     merged = 0
     for e in events:
@@ -2911,6 +2935,17 @@ def _merge_same_event_dupes(events):
             target = by_entry[ent]
         elif vkey and vkey in by_venue:
             target = by_venue[vkey]
+        else:
+            # Club-token key: match against any already-kept event with the same
+            # region/date/discipline that shares at least one distinctive token.
+            ctoks = _club_tokens(e)
+            if ctoks:
+                base = (e.get("region"), e.get("start"), e.get("end"),
+                        e.get("category"))
+                for (bkey, btoks), ev in by_clubtok.items():
+                    if bkey == base and (ctoks & btoks):
+                        target = ev
+                        break
         if target is not None:
             _merge_dupe(target, e)
             merged += 1
@@ -2924,6 +2959,11 @@ def _merge_same_event_dupes(events):
             by_entry[ent] = e
         if vkey:
             by_venue[vkey] = e
+        _ct = _club_tokens(e)
+        if _ct:
+            base = (e.get("region"), e.get("start"), e.get("end"),
+                    e.get("category"))
+            by_clubtok[(base, _ct)] = e
     if merged:
         print(f"[dedup] merged {merged} same-event duplicate(s) "
               f"(shared entry link or venue+date+discipline)", file=sys.stderr)
