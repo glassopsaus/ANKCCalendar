@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-22T21:03:49+00:00",
+  "generated": "2026-09-23T10:07:13+00:00",
   "year": 2027,
-  "count": 1114,
+  "count": 1107,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -4127,28 +4127,6 @@
       "is_past": false
     },
     {
-      "title": "Gold Coast \u2013 Trick Dog",
-      "club": "Gold Coast",
-      "start": "2027-05-08",
-      "end": "2027-05-08",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Trick Dog",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Hervey Bay \u2013 Agility",
       "club": "Hervey Bay",
       "start": "2027-05-08",
@@ -6597,28 +6575,6 @@
       "is_past": false
     },
     {
-      "title": "Townsville \u2013 Tracking",
-      "club": "Townsville",
-      "start": "2027-06-11",
-      "end": "2027-06-13",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Tracking",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "6 Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs",
       "start": "2027-06-12",
       "end": "2027-06-12",
@@ -8986,28 +8942,6 @@
       "is_past": false
     },
     {
-      "title": "Townsville \u2013 Tracking",
-      "club": "Townsville",
-      "start": "2027-07-09",
-      "end": "2027-07-11",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Tracking",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Alaskan Malamute \u2013 Weight Pull",
       "club": "Alaskan Malamute \u2013 Weight Pull",
       "start": "2027-07-10",
@@ -10329,28 +10263,6 @@
       "location": "Queensland",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Agility",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Tablelands \u2013 Trick Dog",
-      "club": "Tablelands",
-      "start": "2027-07-24",
-      "end": "2027-07-24",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Trick Dog",
       "region": "QLD",
       "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
@@ -14362,28 +14274,6 @@
       "is_past": false
     },
     {
-      "title": "Tableland \u2013 Trick Dog",
-      "club": "Tableland",
-      "start": "2027-09-18",
-      "end": "2027-09-18",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Trick Dog",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Championship Shows x 2 (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
       "club": "Championship Shows x 2 (Canine Development- All Breeds) CAWA Events Ctee \u2013 Conformation",
       "start": "2027-09-19",
@@ -14914,28 +14804,6 @@
       "is_past": false
     },
     {
-      "title": "Mackay \u2013 Trick Dog",
-      "club": "Mackay",
-      "start": "2027-10-01",
-      "end": "2027-10-01",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Trick Dog",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Cairns \u2013 Agility",
       "club": "Cairns",
       "start": "2027-10-02",
@@ -15184,28 +15052,6 @@
     {
       "title": "Hervey Bay \u2013 Trick Dog",
       "club": "Hervey Bay",
-      "start": "2027-10-08",
-      "end": "2027-10-08",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Trick Dog",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Sarina \u2013 Trick Dog",
-      "club": "Sarina",
       "start": "2027-10-08",
       "end": "2027-10-08",
       "location": "Queensland",
@@ -16948,11 +16794,11 @@
       "is_past": false
     },
     {
-      "title": "Boxer Club of NSW - (Group 6 Obedience Trial)",
-      "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
+      "title": "Boxer Club of NSW \u2013 Obedience",
+      "club": "Boxer Club of NSW",
       "start": "2027-06-12",
       "end": "2027-06-12",
-      "location": "",
+      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "category": "Obedience",
       "region": "NSW",
@@ -16967,10 +16813,10 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "schedule_url": null,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
       "is_past": false
     },
