@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-23T10:39:46+00:00",
+  "generated": "2026-09-23T19:36:25+00:00",
   "year": 2026,
-  "count": 2665,
+  "count": 2663,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -4999,8 +4999,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -7940,8 +7939,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -8337,8 +8335,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -8815,8 +8812,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Advanced"
@@ -9144,8 +9140,7 @@
       "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
-        "Ready Entries",
-        "Dogs Victoria (official calendar)"
+        "Ready Entries"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -10699,8 +10694,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -10731,8 +10725,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -11501,8 +11494,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -11826,8 +11818,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Ultimate"
@@ -16722,8 +16713,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Novice"
@@ -18617,8 +18607,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -21208,8 +21197,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Masters"
@@ -27595,8 +27583,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Ultimate"
@@ -30075,8 +30062,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -33757,8 +33743,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -38753,8 +38738,7 @@
       "breed": "collie",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -39043,8 +39027,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Novice"
@@ -41542,8 +41525,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -42111,8 +42093,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -42271,13 +42252,11 @@
       "cancelled": false,
       "region": "VIC",
       "color": "#3aa657",
-      "closes": "2026-09-14",
+      "closes": null,
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)",
-        "Dogs Victoria (Vic Dog Trials)"
+        "Top Dog Events"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -42286,11 +42265,11 @@
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1765/schedule/get",
+      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/09/20260921-Australian-Shepherd-Club-Scent-Work-Catalogue.pdf",
       "classes": [
         "Ultimate"
       ],
-      "club": "Australian Shepherd Club of Victoria",
-      "catalogue_url": "https://vicdog.com/wp-content/uploads/2026/09/20260921-Australian-Shepherd-Club-Scent-Work-Catalogue.pdf"
+      "club": "Australian Shepherd Club of Victoria"
     },
     {
       "title": "Redlands Scentwork - Ultimate trial",
@@ -42955,8 +42934,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Ultimate"
@@ -44951,8 +44929,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -45568,8 +45545,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -45726,8 +45702,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "classes": [
         "Advanced"
@@ -46336,8 +46311,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -47004,8 +46978,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs SA"
+        "Show Manager"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -47221,8 +47194,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -47321,8 +47293,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "classes": [
         "Advanced"
@@ -47768,8 +47739,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "classes": [
         "Novice"
@@ -48089,8 +48059,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -48115,8 +48084,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Excellent",
@@ -49691,8 +49659,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
+        "Top Dog Events"
       ],
       "classes": [
         "Novice"
@@ -49899,8 +49866,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "classes": [
         "Advanced"
@@ -51097,8 +51063,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -51476,8 +51441,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -51585,8 +51549,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -51910,8 +51873,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -52127,8 +52089,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -52453,8 +52414,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -52778,8 +52738,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -52806,8 +52765,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -52915,8 +52873,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -52971,8 +52928,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53053,8 +53009,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53459,8 +53414,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53488,8 +53442,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53597,8 +53550,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53814,8 +53766,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53842,8 +53793,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53871,8 +53821,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53900,8 +53849,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -53928,8 +53876,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -54118,8 +54065,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -54254,8 +54200,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -54309,8 +54254,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -54364,8 +54308,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -54447,8 +54390,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -54880,8 +54822,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -55476,8 +55417,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -55504,8 +55444,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -55532,8 +55471,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -55857,8 +55795,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -55939,8 +55876,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -55994,8 +55930,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56076,8 +56011,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56104,8 +56038,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56159,8 +56092,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56295,8 +56227,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56432,8 +56363,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56487,8 +56417,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56758,8 +56687,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56840,8 +56768,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -56896,8 +56823,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -57140,8 +57066,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -57357,8 +57282,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -57386,8 +57310,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -57441,8 +57364,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -57469,8 +57391,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -57687,8 +57608,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -58201,8 +58121,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -58337,8 +58256,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -58500,8 +58418,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -58690,8 +58607,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -58908,8 +58824,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59125,8 +59040,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59154,8 +59068,7 @@
       "source": "Show Manager",
       "sources": [
         "Show Manager",
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59263,8 +59176,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59372,8 +59284,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59454,8 +59365,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59644,8 +59554,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59726,8 +59635,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -59781,8 +59689,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60079,8 +59986,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60134,8 +60040,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60270,8 +60175,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60298,8 +60202,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60326,8 +60229,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60381,8 +60283,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -60598,8 +60499,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -61139,8 +61039,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -61357,8 +61256,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -61439,8 +61337,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -61657,8 +61554,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -61712,8 +61608,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -61875,8 +61770,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -62066,8 +61960,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -62123,8 +62016,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -62179,8 +62071,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -62207,8 +62098,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -62289,8 +62179,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -62452,8 +62341,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -63155,14 +63043,13 @@
       "region": "VIC",
       "source": "Dogs Victoria (Vic Dog Trials)",
       "sources": [
-        "Dogs Victoria (Vic Dog Trials)",
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (Vic Dog Trials)"
       ],
       "color": "#3aa657",
       "cancelled": false,
       "status": "closed",
       "status_label": "Entries closed",
-      "verified": true,
+      "verified": false,
       "closes": "2026-08-09",
       "entry_url": null,
       "schedule_url": "https://vicdog.com/wp-content/uploads/2026/06/20260816-Bendigo-Obedience-Rally-Schedule.pdf",
@@ -65243,29 +65130,6 @@
       "club": "Australian Cattle Dog Club of Vic - Melbourne Royal Show"
     },
     {
-      "title": "Munno Para Dog Obedience Club Inc \u2013 Rally Obedience",
-      "club": "Munno Para Dog Obedience Club Inc",
-      "start": "2026-09-26",
-      "end": "2026-09-26",
-      "location": "Morphett Vale",
-      "url": "https://www.dogssa.com.au/events/upcoming-events",
-      "category": "Rally Obedience",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-09-18",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": false,
-      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Royal Agricultural Society of Vic - Melbourne Royal Show",
       "start": "2026-09-26",
       "end": "2026-09-26",
@@ -65856,33 +65720,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Bendigo Agricultural Show Society Inc AM"
-    },
-    {
-      "title": "Gundog Club of SA Inc \u2013 Sprint",
-      "club": "Gundog Club of S.A. Inc",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "location": "Saints Road, Salisbury, SA, 5108",
-      "url": "https://www.dogssa.com.au/events/upcoming-events",
-      "category": "Sprint",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA",
-        "Top Dog Events",
-        "Show Manager"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-10-03",
-      "topdog_open": true,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1920",
-      "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1920/schedule/get"
     },
     {
       "title": "Victorian Herding Association",
