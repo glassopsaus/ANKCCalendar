@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T19:47:52+00:00",
+  "generated": "2026-09-24T20:05:44+00:00",
   "year": 2027,
   "count": 1072,
   "sources": [
@@ -16767,8 +16767,8 @@
       "is_past": false
     },
     {
-      "title": "Southern Obedience Dog Training Club Obedience & Rally Twilight Trial",
-      "club": "Southern Obedience Dog Training Club Obedience & Rally Twilight Trial",
+      "title": "Southern Obedience Dog Training Club",
+      "club": "Southern Obedience Dog Training Club",
       "start": "2027-01-23",
       "end": "2027-01-23",
       "location": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
@@ -16789,16 +16789,16 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "open_now": true,
       "is_past": false
     },
     {
-      "title": "Boxer Club of NSW \u2013 Obedience",
-      "club": "Boxer Club of NSW",
+      "title": "Boxer Club of NSW - (Group 6 Obedience Trial)",
+      "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
       "start": "2027-06-12",
       "end": "2027-06-12",
-      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "category": "Obedience",
       "region": "NSW",
@@ -16813,10 +16813,10 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
