@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T20:05:44+00:00",
+  "generated": "2026-09-25T20:10:22+00:00",
   "year": 2027,
   "count": 1072,
   "sources": [
@@ -16767,11 +16767,11 @@
       "is_past": false
     },
     {
-      "title": "Southern Obedience Dog Training Club",
-      "club": "Southern Obedience Dog Training Club",
+      "title": "Southern Obedience Dog Training Club Obedience & Rally Twilight Trial",
+      "club": "Southern Obedience Dog Training Club Obedience & Rally Twilight Trial",
       "start": "2027-01-23",
       "end": "2027-01-23",
-      "location": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50081",
       "category": "Obedience",
       "region": "VIC",
@@ -16786,10 +16786,10 @@
       "verified": true,
       "closes": "2027-01-17",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50081",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
