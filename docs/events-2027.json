@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27T19:51:42+00:00",
+  "generated": "2026-09-28T21:55:16+00:00",
   "year": 2027,
   "count": 1072,
   "sources": [
@@ -16821,11 +16821,11 @@
       "is_past": false
     },
     {
-      "title": "Boxer Club of NSW - (Group 6 Rally Trial) \u2013 Rally Obedience",
-      "club": "Boxer Club of NSW - (Group 6 Rally Trial)",
+      "title": "Boxer Club of NSW \u2013 Rally Obedience",
+      "club": "Boxer Club of NSW",
       "start": "2027-06-12",
       "end": "2027-06-12",
-      "location": "",
+      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45686",
       "category": "Rally Obedience",
       "region": "NSW",
@@ -16840,10 +16840,10 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45686",
-      "schedule_url": null,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45686/BoxerClubofNSWGroup6RallyTrial_12-Jun-2027_RO_45686_Schedule_20260611.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
       "is_past": false
     },
