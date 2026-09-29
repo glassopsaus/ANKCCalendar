@@ -3914,12 +3914,23 @@ def build_year():
             # carry forward rather than refusing the whole file.
             failed_sources = set()
             for key, oc in old_by_source.items():
-                if not key or oc < 15:
+                if not key:
+                    continue
+                # Floor: ignore trivially-small sources (noise) — BUT never
+                # abandon a source that dropped to exactly ZERO from a non-trivial
+                # prior count. The old `oc < 15` check caused a death-spiral: once
+                # a real source (e.g. Dogs SA) dipped below 15 it lost carry-
+                # forward protection and decayed to 0 permanently. We now protect
+                # any source with a prior count >= 3, and always protect a
+                # complete drop-to-zero from a prior count >= 3.
+                if oc < 3:
                     continue
                 if (key in _CURRENT_YEAR_ONLY_SOURCES
                         and YEAR != _current_year):
                     continue
-                if new_by_source.get(key, 0) < 0.2 * oc:
+                new_n = new_by_source.get(key, 0)
+                # Failed if it collapsed (>80% drop) OR went entirely to zero.
+                if new_n == 0 or new_n < 0.2 * oc:
                     failed_sources.add(key)
 
             # Is the OVERALL total collapsed (a broad failure carry-forward
