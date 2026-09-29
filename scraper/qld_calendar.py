@@ -333,21 +333,46 @@ def parse_qld_text(text, year):
     return _collapse_consecutive(events)
 
 
-# Show-type codes on the QLD show-dates PDF. All are Conformation events; we
-# keep the human label for the title but the discipline is always Conformation.
+# Show-type codes on the QLD show-dates PDF. All are Conformation events; we keep
+# the human label for the title but the discipline is always Conformation. A club
+# running two of the same show on one day appends a number (OS1/OS2, CH1/CH2), so
+# _qld_show_label() strips a trailing digit and maps the base code.
 _QLD_SHOW_TYPES = {
-    "CH": "Championship Show", "OS": "Open Show", "SPEC": "Speciality Show",
-    "MC": "Members Competition", "SBE": "Sweepstakes/Best Exhibit",
-    "GS": "Group Show", "SS": "Speciality Show",
+    "CH": "Championship Show",
+    "OS": "Open Show",
+    "SPEC": "Speciality Show",
+    "SP": "Speciality Show",
+    "MC": "Members Competition",
+    "SBE": "Sweepstakes/Best Exhibit",
+    "SS": "Sweepstakes",
+    "GS": "Group Specialty Show",
+    "GRP": "Group Show",           # Royal "GRP 6/7" group-judging days
+    "NAT": "National Show",
+    "OP": "Open Show",
+    "RES": "Restricted Show",
+    "PS": "Parade Show",
 }
+
+
+def _qld_show_label(code):
+    """Map a show-type code (e.g. CH, OS1, GRP) to a human label. Strips a
+    trailing count digit (OS1/OS2 -> OS) and falls back to 'Show' for unknowns."""
+    if not code:
+        return ""
+    c = code.upper().rstrip("0123456789")
+    return _QLD_SHOW_TYPES.get(c, "")
 # A show row: <W/E> <CLUB...> <GROUP: 1|2|3|Breed|DQ> <Day> <D-Mon> [<TYPE>]
+# The GROUP column is frequently jammed onto the end of the club with NO space in
+# the extracted text (e.g. "...(CACIB SHOW)1 Sat 6-Jun", "GRP 61 Sat 8-Aug"), so
+# we anchor on the DAY NAME (always Mon-Sun before the date) and allow the group
+# to abut the club: \s* before the group, and the club match is non-greedy.
 _QLD_SHOW_ROW = re.compile(
     r"^\s*(\d{1,2})\s+"                      # week number
-    r"(.+?)\s+"                              # club (non-greedy)
-    r"(Breed|DQ|[123])\s+"                   # group column
-    r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"    # day name
+    r"(.+?)"                                 # club (non-greedy)
+    r"\s*(Breed|DQ|[123])\s+"                # group column (may abut the club)
+    r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"    # day name (the reliable anchor)
     r"(\d{1,2})-([A-Za-z]{3})"               # D-Mon
-    r"(?:\s+([A-Z]{2,4}))?\s*$",             # optional show-type code
+    r"(?:\s+([A-Z]{1,5}\d?))?\s*$",          # optional show-type code (CH/OS/OS1/SBE/SS)
     re.I)
 
 
@@ -381,7 +406,7 @@ def parse_qld_shows_text(text, year):
             edate = dt.date(year, mon_n, int(day))
         except ValueError:
             continue
-        type_label = _QLD_SHOW_TYPES.get(show_type, "")
+        type_label = _qld_show_label(show_type)
         # Title: "<Club> — Championship Show" (or just "<Club> — Show" if the
         # code is unknown/blank). Discipline is always Conformation.
         title = f"{club.title()} \u2013 {type_label or 'Show'}"
