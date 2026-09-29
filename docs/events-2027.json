@@ -1,7 +1,7 @@
 {
-  "generated": "2026-09-29T20:38:06+00:00",
+  "generated": "2026-09-29T21:16:34+00:00",
   "year": 2027,
-  "count": 1076,
+  "count": 1188,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -132,6 +132,28 @@
       "club": "RCH Fundraising - DV SprintDog Committee"
     },
     {
+      "title": "Wide Bay Kc \u2013 Championship Show",
+      "club": "Wide Bay Kc \u2013 Championship Show",
+      "start": "2027-01-02",
+      "end": "2027-01-03",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Poodle Club of Victoria Inc",
       "start": "2027-01-03",
       "end": "2027-01-03",
@@ -169,6 +191,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Cjc Mentor Show \u2013 Championship Show",
+      "club": "Cjc Mentor Show \u2013 Championship Show",
+      "start": "2027-01-09",
+      "end": "2027-01-09",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -332,6 +376,28 @@
       "is_past": false
     },
     {
+      "title": "Gold Coast Cc / Dogs Queensland (A2O Show) \u2013 Championship Show",
+      "club": "Gold Coast Cc / Dogs Queensland (A2O Show) \u2013 Championship Show",
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Ballarat Dog Club Inc",
       "start": "2027-01-23",
       "end": "2027-01-23",
@@ -352,6 +418,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Ballarat Dog Club Inc"
+    },
+    {
+      "title": "Gold Coast Cc / Dogs Queensland (Cacib Show) \u2013 Championship Show",
+      "club": "Gold Coast Cc / Dogs Queensland (Cacib Show) \u2013 Championship Show",
+      "start": "2027-01-23",
+      "end": "2027-01-24",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Southern Obedience Dog Training Club Inc",
@@ -525,6 +613,28 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Stanthorpe Ag \u2013 Championship Show",
+      "club": "Stanthorpe Ag \u2013 Championship Show",
+      "start": "2027-01-29",
+      "end": "2027-01-30",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -710,6 +820,28 @@
       "is_past": false
     },
     {
+      "title": "Poty Final \u2013 Show",
+      "club": "Poty Final \u2013 Show",
+      "start": "2027-02-05",
+      "end": "2027-02-05",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Border Collie Club of Victoria \u2013 RTG5 Twilight RTG",
       "start": "2027-02-06",
       "end": "2027-02-06",
@@ -754,6 +886,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Classic Dog Show"
+    },
+    {
+      "title": "Doty Final \u2013 Show",
+      "club": "Doty Final \u2013 Show",
+      "start": "2027-02-06",
+      "end": "2027-02-06",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Logan \u2013 Agility",
@@ -815,6 +969,28 @@
       "breed": "whippet",
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Allora Ag \u2013 Championship Show",
+      "club": "Allora Ag \u2013 Championship Show",
+      "start": "2027-02-07",
+      "end": "2027-02-07",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -903,6 +1079,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Clifton Ag \u2013 Championship Show",
+      "club": "Clifton Ag \u2013 Championship Show",
+      "start": "2027-02-13",
+      "end": "2027-02-14",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -1167,6 +1365,30 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Beagle Club Of Qld \u2013 Open Show",
+      "club": "Beagle Club Of Qld \u2013 Open Show",
+      "start": "2027-02-20",
+      "end": "2027-02-20",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "beagle",
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -1446,6 +1668,30 @@
       "is_past": false
     },
     {
+      "title": "Gundog & Heavy Breeds Club (A2O Show) \u2013 Championship Show",
+      "club": "Gundog & Heavy Breeds Club (A2O Show) \u2013 Championship Show",
+      "start": "2027-02-26",
+      "end": "2027-02-27",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "gundog",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Rochester",
       "start": "2027-02-26",
       "end": "2027-02-26",
@@ -1488,6 +1734,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Ballaarat Dog Obedience Club Vic Inc"
+    },
+    {
+      "title": "Gundog & Heavy Breeds Club (Cacib Show) \u2013 Championship Show",
+      "club": "Gundog & Heavy Breeds Club (Cacib Show) \u2013 Championship Show",
+      "start": "2027-02-27",
+      "end": "2027-02-27",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "gundog",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Labrador Club \u2013 Retrieving",
@@ -1983,6 +2253,28 @@
       "club": "Melbourne Lure Dog Club"
     },
     {
+      "title": "Mt Morgan/Bouldercombe Kc \u2013 Championship Show",
+      "club": "Mt Morgan/Bouldercombe Kc \u2013 Championship Show",
+      "start": "2027-03-06",
+      "end": "2027-03-07",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Southern Obedience Dog Training Club",
       "start": "2027-03-06",
       "end": "2027-03-07",
@@ -2227,6 +2519,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Cohuna & District Kennel Club AM"
+    },
+    {
+      "title": "Beenleigh Ag \u2013 Championship Show",
+      "club": "Beenleigh Ag \u2013 Championship Show",
+      "start": "2027-03-13",
+      "end": "2027-03-13",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Championship Shows \u2013 Dogs ACT",
@@ -2785,6 +3099,28 @@
       "is_past": false
     },
     {
+      "title": "Goomeri Ag \u2013 Championship Show",
+      "club": "Goomeri Ag \u2013 Championship Show",
+      "start": "2027-03-19",
+      "end": "2027-03-21",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Sprintdog Club \u2013 Sprint",
       "club": "Sprintdog Club",
       "start": "2027-03-19",
@@ -2887,6 +3223,28 @@
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "German Shepherd Dog Club \u2013 Open Show",
+      "club": "German Shepherd Dog Club \u2013 Open Show",
+      "start": "2027-03-20",
+      "end": "2027-03-21",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -3210,6 +3568,28 @@
       "club": "Cavalier King Charles Spaniel Club of Victoria Inc"
     },
     {
+      "title": "Bundaberg Kc (A2O Show) \u2013 Championship Show",
+      "club": "Bundaberg Kc (A2O Show) \u2013 Championship Show",
+      "start": "2027-03-26",
+      "end": "2027-03-28",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Dogs Victoria Easter Festival",
       "start": "2027-03-26",
       "end": "2027-03-29",
@@ -3269,6 +3649,28 @@
       "breed": "malamute",
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Bundaberg Kc \u2013 Championship Show",
+      "club": "Bundaberg Kc \u2013 Championship Show",
+      "start": "2027-03-27",
+      "end": "2027-03-29",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -3524,6 +3926,28 @@
       "is_past": false
     },
     {
+      "title": "Burdekin Cc \u2013 Championship Show",
+      "club": "Burdekin Cc \u2013 Championship Show",
+      "start": "2027-04-02",
+      "end": "2027-04-04",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Evergreen Tracking \u2013 Track & Search",
       "club": "Evergreen Tracking",
       "start": "2027-04-02",
@@ -3649,6 +4073,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Pine Rivers Kc \u2013 Championship Show",
+      "club": "Pine Rivers Kc \u2013 Championship Show",
+      "start": "2027-04-03",
+      "end": "2027-04-04",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -4079,6 +4525,28 @@
       "is_past": false
     },
     {
+      "title": "Nanango Kc \u2013 Championship Show",
+      "club": "Nanango Kc \u2013 Championship Show",
+      "start": "2027-04-09",
+      "end": "2027-04-09",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Tracking Subcommittee \u2013 Tracking",
       "club": "Tracking Subcommittee",
       "start": "2027-04-09",
@@ -4143,6 +4611,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Ballarat Obedience Dog Club"
+    },
+    {
+      "title": "Bowen Kc \u2013 Championship Show",
+      "club": "Bowen Kc \u2013 Championship Show",
+      "start": "2027-04-10",
+      "end": "2027-04-10",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Chihuahua Club of Vic Inc",
@@ -4345,6 +4835,28 @@
       "club": "Greensborough and District Kennel Club - AM Show"
     },
     {
+      "title": "Junior Handler Committee \u2013 Show",
+      "club": "Junior Handler Committee \u2013 Show",
+      "start": "2027-04-11",
+      "end": "2027-04-11",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Moorabbin & Districts Obedience Dog Training Club",
       "start": "2027-04-11",
       "end": "2027-04-11",
@@ -4402,6 +4914,28 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Toowoomba Royal \u2013 Championship Show",
+      "club": "Toowoomba Royal \u2013 Championship Show",
+      "start": "2027-04-15",
+      "end": "2027-04-17",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -4677,6 +5211,28 @@
       "is_past": false
     },
     {
+      "title": "Mt Perry Ag \u2013 Championship Show",
+      "club": "Mt Perry Ag \u2013 Championship Show",
+      "start": "2027-04-17",
+      "end": "2027-04-17",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Sunshine Coast \u2013 Trick Dog",
       "club": "Sunshine Coast",
       "start": "2027-04-17",
@@ -4712,6 +5268,28 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Cjc Mentor Show / Dogapalooza \u2013 Championship Show",
+      "club": "Cjc Mentor Show / Dogapalooza \u2013 Championship Show",
+      "start": "2027-04-18",
+      "end": "2027-04-18",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -4891,6 +5469,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Doty Support Show \u2013 Championship Show",
+      "club": "Pioneer Valley Kennel Club \u2013 Championship Show",
+      "start": "2027-04-23",
+      "end": "2027-04-25",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -5137,6 +5737,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Goombungee Ag \u2013 Championship Show",
+      "club": "Goombungee Ag \u2013 Championship Show",
+      "start": "2027-04-24",
+      "end": "2027-04-24",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -5438,6 +6060,28 @@
       "club": "Dances with Dogs Advisory Committee - South Australia"
     },
     {
+      "title": "Paws Aid Anzac Day Show \u2013 Championship Show",
+      "club": "Paws Aid Anzac Day Show \u2013 Championship Show",
+      "start": "2027-04-25",
+      "end": "2027-04-25",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
       "club": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-04-25",
@@ -5595,6 +6239,28 @@
       "is_past": false
     },
     {
+      "title": "Cairns City Kc \u2013 Championship Show",
+      "club": "Cairns City Kc \u2013 Championship Show",
+      "start": "2027-04-30",
+      "end": "2027-05-02",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Tracking Club of Victoria",
       "start": "2027-04-30",
       "end": "2027-05-02",
@@ -5615,6 +6281,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Tracking Club of Victoria"
+    },
+    {
+      "title": "Bullmastiff Club Of Qld \u2013 Championship Show",
+      "club": "Bullmastiff Club Of Qld \u2013 Championship Show",
+      "start": "2027-05-01",
+      "end": "2027-05-01",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "bullmastiff",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Championship & Open Show Bull Terrier Club \u2013 Conformation",
@@ -6064,6 +6754,28 @@
       "club": "Croydon & District Obedience Dog Club"
     },
     {
+      "title": "Eidsvold Ag \u2013 Championship Show",
+      "club": "Eidsvold Ag \u2013 Championship Show",
+      "start": "2027-05-02",
+      "end": "2027-05-02",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Lure Coursing Trial West Coast Dog Sports",
       "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2027-05-02",
@@ -6356,6 +7068,28 @@
       "is_past": false
     },
     {
+      "title": "Marburg Ag \u2013 Championship Show",
+      "club": "Marburg Ag \u2013 Championship Show",
+      "start": "2027-05-07",
+      "end": "2027-05-07",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Shepparton & District Kennel Club Inc",
       "start": "2027-05-07",
       "end": "2027-05-07",
@@ -6549,6 +7283,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Innisfail Kc \u2013 Championship Show",
+      "club": "Innisfail Kc \u2013 Championship Show",
+      "start": "2027-05-08",
+      "end": "2027-05-09",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -7102,6 +7858,28 @@
       "is_past": false
     },
     {
+      "title": "Caboolture Kc \u2013 Championship Show",
+      "club": "Caboolture Kc \u2013 Championship Show",
+      "start": "2027-05-14",
+      "end": "2027-05-16",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Evergreen Tracking \u2013 Tracking",
       "club": "Evergreen Tracking",
       "start": "2027-05-14",
@@ -7181,6 +7959,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Biggenden Ag \u2013 Championship Show",
+      "club": "Biggenden Ag \u2013 Championship Show",
+      "start": "2027-05-15",
+      "end": "2027-05-16",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -7617,6 +8417,28 @@
       "is_past": false
     },
     {
+      "title": "Alpha Ag \u2013 Championship Show",
+      "club": "Alpha Ag \u2013 Championship Show",
+      "start": "2027-05-18",
+      "end": "2027-05-18",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Yuggera \u2013 Sprint",
       "club": "Yuggera",
       "start": "2027-05-18",
@@ -7698,6 +8520,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Esk Ag \u2013 Championship Show",
+      "club": "Esk Ag \u2013 Championship Show",
+      "start": "2027-05-21",
+      "end": "2027-05-21",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -7793,6 +8637,28 @@
       "open_now": false,
       "is_past": false,
       "club": "British Bulldog Club of Vic"
+    },
+    {
+      "title": "Brookfield Ag \u2013 Championship Show",
+      "club": "Brookfield Ag \u2013 Championship Show",
+      "start": "2027-05-22",
+      "end": "2027-05-23",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Canine Museum Foundation Inc AM",
@@ -8489,6 +9355,28 @@
       "is_past": false
     },
     {
+      "title": "Clermont Ag \u2013 Championship Show",
+      "club": "Clermont Ag \u2013 Championship Show",
+      "start": "2027-05-26",
+      "end": "2027-05-26",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Victorian Gundog Club",
       "start": "2027-05-26",
       "end": "2027-05-26",
@@ -8509,6 +9397,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Victorian Gundog Club"
+    },
+    {
+      "title": "Boonah Ag \u2013 Championship Show",
+      "club": "Boonah Ag \u2013 Championship Show",
+      "start": "2027-05-28",
+      "end": "2027-05-30",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Cairns \u2013 Agility",
@@ -8546,6 +9456,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Bowen Kc \u2013 Championship Show",
+      "club": "Bowen Kc \u2013 Championship Show",
+      "start": "2027-05-29",
+      "end": "2027-05-30",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -8799,6 +9731,28 @@
       "is_past": false
     },
     {
+      "title": "Emerald Ag \u2013 Championship Show",
+      "club": "Emerald Ag \u2013 Championship Show",
+      "start": "2027-06-02",
+      "end": "2027-06-02",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Evergreen \u2013 Tracking",
       "club": "Evergreen",
       "start": "2027-06-03",
@@ -9041,6 +9995,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Finnish Lapphund Club of Vic Inc"
+    },
+    {
+      "title": "Hervey Bay Kc \u2013 Championship Show",
+      "club": "Hervey Bay Kc \u2013 Championship Show",
+      "start": "2027-06-05",
+      "end": "2027-06-06",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Mackay \u2013 Scent Work",
@@ -9514,6 +10490,50 @@
       "is_past": false
     },
     {
+      "title": "Rockhampton Ag \u2013 Championship Show",
+      "club": "Rockhampton Ag \u2013 Championship Show",
+      "start": "2027-06-10",
+      "end": "2027-06-11",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Yuggera Cc/ Dogs Queensland (A2O Show) \u2013 Open Show",
+      "club": "Yuggera Cc/ Dogs Queensland (A2O Show) \u2013 Open Show",
+      "start": "2027-06-10",
+      "end": "2027-06-10",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Yuggera \u2013 Rally Obedience",
       "club": "Yuggera",
       "start": "2027-06-10",
@@ -9624,6 +10644,28 @@
       "club": "German Shepherd Dog Club of Vic Inc"
     },
     {
+      "title": "Mackay Kc \u2013 Championship Show",
+      "club": "Mackay Kc \u2013 Championship Show",
+      "start": "2027-06-11",
+      "end": "2027-06-12",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "West Gippsland Kennel Club",
       "start": "2027-06-11",
       "end": "2027-06-11",
@@ -9666,6 +10708,30 @@
       "open_now": false,
       "is_past": false,
       "club": "6 Championship Shows \u2013 ACT Ladies & Canberra All Breeds Kennel Clubs"
+    },
+    {
+      "title": "Afghan Hound Assn \u2013 Championship Show",
+      "club": "Basset Hound Club \u2013 Championship Show",
+      "start": "2027-06-12",
+      "end": "2027-06-13",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "afghan",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Airedale Terrier Club of Victoria",
@@ -10320,6 +11386,28 @@
       "club": "East Gippsland Obedience Dog Club Inc"
     },
     {
+      "title": "Finch Hatton Ag \u2013 Championship Show",
+      "club": "Finch Hatton Ag \u2013 Championship Show",
+      "start": "2027-06-13",
+      "end": "2027-06-13",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "G.S.P. Club \u2013 Retrieving",
       "club": "G.S.P. Club",
       "start": "2027-06-13",
@@ -10546,6 +11634,28 @@
       "is_past": false
     },
     {
+      "title": "Mackay Ag \u2013 Championship Show",
+      "club": "Mackay Ag \u2013 Championship Show",
+      "start": "2027-06-17",
+      "end": "2027-06-17",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Russian Black Terrier \u2013 Trick Dog",
       "club": "Russian Black Terrier",
       "start": "2027-06-17",
@@ -10636,6 +11746,28 @@
       "is_past": false
     },
     {
+      "title": "Kalbar Ag \u2013 Championship Show",
+      "club": "Kalbar Ag \u2013 Championship Show",
+      "start": "2027-06-18",
+      "end": "2027-06-18",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Rockhampton \u2013 Track & Search",
       "club": "Rockhampton",
       "start": "2027-06-18",
@@ -10715,6 +11847,28 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Cloncurry Kc \u2013 Championship Show",
+      "club": "Qld Kennel Council \u2013 Championship Show",
+      "start": "2027-06-19",
+      "end": "2027-06-20",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -11478,6 +12632,28 @@
       "is_past": false
     },
     {
+      "title": "Ingham Ag \u2013 Championship Show",
+      "club": "Ingham Ag \u2013 Championship Show",
+      "start": "2027-06-25",
+      "end": "2027-06-25",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Red Cliffs & District Kennel Club Inc AM",
       "start": "2027-06-25",
       "end": "2027-06-25",
@@ -11535,6 +12711,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Brisbane Valley Kc \u2013 Championship Show",
+      "club": "Brisbane Valley Kc \u2013 Championship Show",
+      "start": "2027-06-26",
+      "end": "2027-06-27",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -11995,6 +13193,28 @@
       "is_past": false
     },
     {
+      "title": "Callide Valley Kc \u2013 Championship Show",
+      "club": "Callide Valley Kc \u2013 Championship Show",
+      "start": "2027-07-02",
+      "end": "2027-07-04",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Evergreen Tracking \u2013 Tracking",
       "club": "Evergreen Tracking",
       "start": "2027-07-02",
@@ -12098,6 +13318,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Atherton Tableland Kc \u2013 Championship Show",
+      "club": "Border Collie Club \u2013 Championship Show",
+      "start": "2027-07-03",
+      "end": "2027-07-04",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -12465,6 +13707,30 @@
       "club": "Victorian Poultry & Kennel Club Inc AM"
     },
     {
+      "title": "Boston Terrier Club \u2013 Open Show",
+      "club": "Boston Terrier Club \u2013 Open Show",
+      "start": "2027-07-04",
+      "end": "2027-07-04",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "boston terrier",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Box Hill & District Kennel Club Inc",
       "start": "2027-07-04",
       "end": "2027-07-04",
@@ -12643,6 +13909,28 @@
       "is_past": false
     },
     {
+      "title": "Townsville Ag \u2013 Championship Show",
+      "club": "Townsville Ag \u2013 Championship Show",
+      "start": "2027-07-05",
+      "end": "2027-07-05",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Yuggera \u2013 Scent Work",
       "club": "Yuggera",
       "start": "2027-07-06",
@@ -12700,6 +13988,28 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Innisfail Ag \u2013 Championship Show",
+      "club": "Innisfail Ag \u2013 Championship Show",
+      "start": "2027-07-09",
+      "end": "2027-07-09",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -12768,6 +14078,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Atherton Tableland Kc \u2013 Championship Show",
+      "club": "Atherton Tableland Kc \u2013 Championship Show",
+      "start": "2027-07-10",
+      "end": "2027-07-11",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -13295,6 +14627,28 @@
       "is_past": false
     },
     {
+      "title": "Cairns Ag \u2013 Championship Show",
+      "club": "Cairns Ag \u2013 Championship Show",
+      "start": "2027-07-16",
+      "end": "2027-07-16",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Rockhampton \u2013 Tracking",
       "club": "Rockhampton",
       "start": "2027-07-16",
@@ -13418,6 +14772,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Cairns City Kc \u2013 Championship Show",
+      "club": "Cairns City Kc \u2013 Championship Show",
+      "start": "2027-07-17",
+      "end": "2027-07-18",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -14091,6 +15467,28 @@
       "club": "KCC Park Friends of the Park Show AM"
     },
     {
+      "title": "Kilcoy Ag \u2013 Championship Show",
+      "club": "Kilcoy Ag \u2013 Championship Show",
+      "start": "2027-07-23",
+      "end": "2027-07-23",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Casey All Breeds Kennel Club Inc PM",
       "start": "2027-07-24",
       "end": "2027-07-24",
@@ -14148,6 +15546,28 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Charters Towers Kc \u2013 Championship Show",
+      "club": "Ladies Kennel Assoc \u2013 Championship Show",
+      "start": "2027-07-24",
+      "end": "2027-07-24",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -14423,6 +15843,28 @@
       "is_past": false
     },
     {
+      "title": "Charters Towers Ag \u2013 Championship Show",
+      "club": "Charters Towers Ag \u2013 Championship Show",
+      "start": "2027-07-25",
+      "end": "2027-07-25",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Chihuahua Club of Victoria",
       "start": "2027-07-25",
       "end": "2027-07-25",
@@ -14668,6 +16110,28 @@
       "is_past": false
     },
     {
+      "title": "Northern Tropics Kc Inc \u2013 Championship Show",
+      "club": "Northern Tropics Kc Inc \u2013 Championship Show",
+      "start": "2027-07-30",
+      "end": "2027-08-01",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Agility Trial Perth Training &ODC",
       "club": "Agility Trial Perth Training &ODC",
       "start": "2027-07-31",
@@ -14835,6 +16299,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Northern Classic Kc \u2013 Championship Show",
+      "club": "Northern Classic Kc \u2013 Championship Show",
+      "start": "2027-07-31",
+      "end": "2027-07-31",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -15112,6 +16598,28 @@
       "is_past": false
     },
     {
+      "title": "Cjc Mentor Show \u2013 Championship Show",
+      "club": "Cjc Mentor Show \u2013 Championship Show",
+      "start": "2027-08-01",
+      "end": "2027-08-01",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "DWD & Trick Dog Tests DWD Club",
       "club": "DWD & Trick Dog Tests DWD Club",
       "start": "2027-08-01",
@@ -15333,6 +16841,30 @@
       "is_past": false
     },
     {
+      "title": "American Staffordshire Terrier Club \u2013 Championship Show",
+      "club": "American Staffordshire Terrier Club \u2013 Championship Show",
+      "start": "2027-08-06",
+      "end": "2027-08-06",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "american staffordshire terrier",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Bendigo Kennel Club Inc AM",
       "start": "2027-08-06",
       "end": "2027-08-06",
@@ -15401,6 +16933,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Australian Kelpie Club of Vic Inc AM"
+    },
+    {
+      "title": "Boxer Club Of Qld \u2013 Championship Show",
+      "club": "Boxer Club Of Qld \u2013 Championship Show",
+      "start": "2027-08-07",
+      "end": "2027-08-07",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "boxer",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Brisbane Royal \u2013 Obedience",
@@ -15713,6 +17269,30 @@
       "club": "Wangaratta Kennel & Obedience Dog Club Inc"
     },
     {
+      "title": "American Staffordshire Terrier Club \u2013 Championship Show",
+      "club": "American Staffordshire Terrier Club \u2013 Championship Show",
+      "start": "2027-08-08",
+      "end": "2027-08-08",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 2 (Terriers)",
+      "breed": "american staffordshire terrier",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Amstaff \u2013 Sprint",
       "club": "Amstaff",
       "start": "2027-08-08",
@@ -15917,6 +17497,52 @@
       "is_past": false
     },
     {
+      "title": "Qld Royal National Show Grp 3 \u2013 Championship Show",
+      "club": "Qld Royal National Show Grp 3 \u2013 Championship Show",
+      "start": "2027-08-09",
+      "end": "2027-08-09",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Chihuahua National Show \u2013 Championship Show",
+      "club": "Chihuahua National Show \u2013 Championship Show",
+      "start": "2027-08-10",
+      "end": "2027-08-11",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 1 (Toys)",
+      "breed": "chihuahua",
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Brisbane Royal \u2013 Scent Work",
       "club": "Brisbane Royal",
       "start": "2027-08-11",
@@ -15930,6 +17556,30 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Dachshund Club \u2013 Championship Show",
+      "club": "Dachshund Club \u2013 Championship Show",
+      "start": "2027-08-11",
+      "end": "2027-08-11",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -15959,6 +17609,28 @@
       "open_now": false,
       "is_past": false,
       "club": "White Swiss Shepherd Dog Association of Victoria Inc"
+    },
+    {
+      "title": "Australian Shepherd Club \u2013 Championship Show",
+      "club": "Australian Shepherd Club \u2013 Championship Show",
+      "start": "2027-08-12",
+      "end": "2027-08-13",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Lilydale Kennel Club Inc",
@@ -16003,6 +17675,28 @@
       "open_now": false,
       "is_past": false,
       "club": "North East Tracking & Scent Club"
+    },
+    {
+      "title": "Qld Royal National Show Grp 1 \u2013 Championship Show",
+      "club": "Qld Royal National Show Grp 1 \u2013 Championship Show",
+      "start": "2027-08-13",
+      "end": "2027-08-13",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "All Breeds Tracking \u2013 Scent Work",
@@ -16225,6 +17919,28 @@
       "is_past": false
     },
     {
+      "title": "Qld Royal National Show Ss And Gs \u2013 Championship Show",
+      "club": "Qld Royal National Show Ss And Gs \u2013 Championship Show",
+      "start": "2027-08-14",
+      "end": "2027-08-14",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Retrieving Trial - All Age Stakes Retrieving Club",
       "club": "Retrieving Trial - All Age Stakes Retrieving Club",
       "start": "2027-08-14",
@@ -16395,6 +18111,30 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Gundog & Heavy Breeds Club \u2013 Championship Show",
+      "club": "Gundog & Heavy Breeds Club \u2013 Championship Show",
+      "start": "2027-08-15",
+      "end": "2027-08-15",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "gundog",
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -16684,6 +18424,28 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Cjc Committee \u2013 Championship Show",
+      "club": "Cjc Committee \u2013 Championship Show",
+      "start": "2027-08-21",
+      "end": "2027-08-22",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -17298,6 +19060,28 @@
       "is_past": false
     },
     {
+      "title": "Burnett Kc \u2013 Championship Show",
+      "club": "Burnett Kc \u2013 Championship Show",
+      "start": "2027-08-27",
+      "end": "2027-08-29",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Gold Coast \u2013 Agility",
       "club": "Gold Coast",
       "start": "2027-08-27",
@@ -17540,6 +19324,28 @@
       "is_past": false
     },
     {
+      "title": "Thuringowa City Kc \u2013 Championship Show",
+      "club": "Thuringowa City Kc \u2013 Championship Show",
+      "start": "2027-08-28",
+      "end": "2027-08-29",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Townsville \u2013 Agility",
       "club": "Townsville",
       "start": "2027-08-28",
@@ -17738,6 +19544,28 @@
       "club": "Geelong Kennel Club"
     },
     {
+      "title": "Gold Coast Ag \u2013 Championship Show",
+      "club": "Gold Coast Ag \u2013 Championship Show",
+      "start": "2027-08-29",
+      "end": "2027-08-29",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Moorabbin & District Obedience Dog Club",
       "start": "2027-08-29",
       "end": "2027-08-29",
@@ -17905,6 +19733,28 @@
       "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Beaudesert Ag \u2013 Championship Show",
+      "club": "Central Qld Toy Dog Club \u2013 Championship Show",
+      "start": "2027-09-04",
+      "end": "2027-09-05",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -18355,6 +20205,28 @@
       "is_past": false
     },
     {
+      "title": "Redcliffe Kc \u2013 Championship Show",
+      "club": "Redcliffe Kc \u2013 Championship Show",
+      "start": "2027-09-05",
+      "end": "2027-09-05",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Scentwork Trial Scent Work Club",
       "club": "Scentwork Trial Scent Work Club",
       "start": "2027-09-05",
@@ -18544,6 +20416,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Noosa Ag \u2013 Championship Show",
+      "club": "Noosa Ag \u2013 Championship Show",
+      "start": "2027-09-10",
+      "end": "2027-09-10",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -18753,6 +20647,28 @@
       "open_now": false,
       "is_past": false,
       "club": "German Shepherd Dog Club of Vic Inc"
+    },
+    {
+      "title": "Gladstone Kc \u2013 Championship Show",
+      "club": "Gladstone Kc \u2013 Championship Show",
+      "start": "2027-09-11",
+      "end": "2027-09-12",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Herding Trial - Double Header Trials All Breeds Herding Club",
@@ -19093,6 +21009,28 @@
       "is_past": false
     },
     {
+      "title": "Api / Brisbane Valley Kc \u2013 Championship Show",
+      "club": "Api / Brisbane Valley Kc \u2013 Championship Show",
+      "start": "2027-09-16",
+      "end": "2027-09-16",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Russian Black Terrier \u2013 Trick Dog",
       "club": "Russian Black Terrier",
       "start": "2027-09-16",
@@ -19130,6 +21068,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Api / Waterloo Bay Kc (A2O) \u2013 Championship Show",
+      "club": "Api / Waterloo Bay Kc (A2O) \u2013 Championship Show",
+      "start": "2027-09-17",
+      "end": "2027-09-17",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -19269,6 +21229,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Tracking Club of Vic Inc"
+    },
+    {
+      "title": "Api / Waterloo Bay Kc (Cacib Show) \u2013 Championship Show",
+      "club": "Chihuahua Club \u2013 Championship Show",
+      "start": "2027-09-18",
+      "end": "2027-09-18",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Caboolture \u2013 Obedience",
@@ -19577,6 +21559,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Warragul & District Kennel & Obedience Dog Club Inc"
+    },
+    {
+      "title": "Api / Waterloo Bay Kc \u2013 Championship Show",
+      "club": "Api / Waterloo Bay Kc \u2013 Championship Show",
+      "start": "2027-09-19",
+      "end": "2027-09-19",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Ballarat Dog Club Inc",
@@ -20001,6 +22005,28 @@
       "is_past": false
     },
     {
+      "title": "Nanango Kc \u2013 Championship Show",
+      "club": "Nanango Kc \u2013 Championship Show",
+      "start": "2027-09-25",
+      "end": "2027-09-26",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Staffordshire Bull Terrier \u2013 Sprint",
       "club": "Staffordshire Bull Terrier",
       "start": "2027-09-25",
@@ -20289,6 +22315,50 @@
       "club": "Dogs Victoria State Agility Trial"
     },
     {
+      "title": "Proserpine Kc \u2013 Championship Show",
+      "club": "Proserpine Kc \u2013 Championship Show",
+      "start": "2027-10-01",
+      "end": "2027-10-04",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Beaudesert Kc \u2013 Championship Show",
+      "club": "Beaudesert Kc \u2013 Championship Show",
+      "start": "2027-10-02",
+      "end": "2027-10-02",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Cairns \u2013 Agility",
       "club": "Cairns",
       "start": "2027-10-02",
@@ -20331,6 +22401,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Dogs Victoria State Agility Trial & Top Dog"
+    },
+    {
+      "title": "German Shepherd Dog Club \u2013 Open Show",
+      "club": "German Shepherd Dog Club \u2013 Open Show",
+      "start": "2027-10-02",
+      "end": "2027-10-03",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Logan \u2013 Obedience",
@@ -20397,6 +22489,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Murray Valley Obedience Dog Club Inc"
+    },
+    {
+      "title": "Beaudesert Kc (Cacib Show) \u2013 Championship Show",
+      "club": "Beaudesert Kc (Cacib Show) \u2013 Championship Show",
+      "start": "2027-10-03",
+      "end": "2027-10-03",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Championship & Open Show WA Terrier Club \u2013 Conformation",
@@ -20601,6 +22715,28 @@
       "is_past": false
     },
     {
+      "title": "Beaudesert Kc \u2013 Championship Show",
+      "club": "Beaudesert Kc \u2013 Championship Show",
+      "start": "2027-10-04",
+      "end": "2027-10-04",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Yuggera \u2013 Trick Dog",
       "club": "Yuggera",
       "start": "2027-10-06",
@@ -20614,6 +22750,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Allora Kc \u2013 Championship Show",
+      "club": "Allora Kc \u2013 Championship Show",
+      "start": "2027-10-08",
+      "end": "2027-10-10",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -20865,6 +23023,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Rally Trial (Double Day Trial) \u2013 ACTCDC"
+    },
+    {
+      "title": "Sarina Kc \u2013 Championship Show",
+      "club": "Sarina Kc \u2013 Championship Show",
+      "start": "2027-10-09",
+      "end": "2027-10-09",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Sarina \u2013 Scent Work",
@@ -21131,6 +23311,28 @@
       "is_past": false
     },
     {
+      "title": "Sarina Kc \u2013 Championship Show",
+      "club": "Sarina Kc \u2013 Championship Show",
+      "start": "2027-10-11",
+      "end": "2027-10-11",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Scentwork Trial Advanced Tracking Trial",
       "club": "Scentwork Trial Advanced Tracking Trial",
       "start": "2027-10-13",
@@ -21198,6 +23400,28 @@
       "open_now": false,
       "is_past": false,
       "club": "White Swiss Shepherd Dog Association of Victoria Inc"
+    },
+    {
+      "title": "Beenleigh Kc \u2013 Championship Show",
+      "club": "Beenleigh Kc \u2013 Championship Show",
+      "start": "2027-10-15",
+      "end": "2027-10-17",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Benalla A & P Society Inc AM",
@@ -21668,6 +23892,28 @@
       "club": "Bendigo Agricultural Show Society Inc AM"
     },
     {
+      "title": "Ladies Kennel Assoc \u2013 Championship Show",
+      "club": "Ladies Kennel Assoc \u2013 Championship Show",
+      "start": "2027-10-22",
+      "end": "2027-10-22",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Agility Trials x 2 Southern River A&ODC",
       "club": "Agility Trials x 2 Southern River A&ODC",
       "start": "2027-10-23",
@@ -21727,6 +23973,28 @@
       "breed": "german shepherd",
       "sources": [
         "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Ipswich Kc \u2013 Championship Show",
+      "club": "Ipswich Kc \u2013 Championship Show",
+      "start": "2027-10-23",
+      "end": "2027-10-24",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -21980,6 +24248,28 @@
       "club": "German Shepherd Dog Club of Vic Inc RTB"
     },
     {
+      "title": "Maryborough Kc \u2013 Championship Show",
+      "club": "Maryborough Kc \u2013 Championship Show",
+      "start": "2027-10-29",
+      "end": "2027-10-29",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Afghan Hound Club of Vic Inc",
       "start": "2027-10-30",
       "end": "2027-10-30",
@@ -22131,6 +24421,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Maryborough Kc (Cacib Show) \u2013 Championship Show",
+      "club": "Maryborough Kc (Cacib Show) \u2013 Championship Show",
+      "start": "2027-10-30",
+      "end": "2027-10-30",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -22348,6 +24660,28 @@
       "club": "Little Lion Dogs of Victoria Inc"
     },
     {
+      "title": "Maryborough Kc \u2013 Championship Show",
+      "club": "Maryborough Kc \u2013 Championship Show",
+      "start": "2027-10-31",
+      "end": "2027-10-31",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Dobermann Club of Victoria",
       "start": "2027-11-01",
       "end": "2027-11-01",
@@ -22392,6 +24726,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Victorian Women\u2019s Dog Club Inc"
+    },
+    {
+      "title": "Maree Kc \u2013 Championship Show",
+      "club": "Maree Kc \u2013 Championship Show",
+      "start": "2027-11-02",
+      "end": "2027-11-02",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "German Shorthaired Pointer Club of Vic.",
@@ -22482,6 +24838,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Central Gippsland Kennel Club Inc"
+    },
+    {
+      "title": "Maree Kc \u2013 Championship Show",
+      "club": "Maree Kc \u2013 Championship Show",
+      "start": "2027-11-05",
+      "end": "2027-11-07",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Portland & District Kennel Club Inc",
@@ -22864,6 +25242,28 @@
       "is_past": false
     },
     {
+      "title": "Cjc Committee \u2013 Show",
+      "club": "Cjc Committee \u2013 Show",
+      "start": "2027-11-13",
+      "end": "2027-11-14",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Jumping & Games Trials Cloverdale Canine Companions \u2013 Agility",
       "club": "Jumping & Games Trials Cloverdale Canine Companions",
       "start": "2027-11-13",
@@ -23020,6 +25420,28 @@
       "is_past": false
     },
     {
+      "title": "Burnett Kc \u2013 Championship Show",
+      "club": "Burnett Kc \u2013 Championship Show",
+      "start": "2027-11-19",
+      "end": "2027-11-19",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Frankston & Penninsula Kennel Club",
       "start": "2027-11-19",
       "end": "2027-11-20",
@@ -23106,6 +25528,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Dances with Dogs Club of Victoria Inc"
+    },
+    {
+      "title": "Gympie Kc \u2013 Championship Show",
+      "club": "Gympie Kc \u2013 Championship Show",
+      "start": "2027-11-20",
+      "end": "2027-11-21",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Knox Obedience Dog Club",
@@ -23319,6 +25763,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Northern Classic Kc \u2013 Championship Show",
+      "club": "Northern Classic Kc \u2013 Championship Show",
+      "start": "2027-11-26",
+      "end": "2027-11-27",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -23819,6 +26285,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Maldon & District Kennel Club AM"
+    },
+    {
+      "title": "Wide Bay Kc \u2013 Championship Show",
+      "club": "Wide Bay Kc \u2013 Championship Show",
+      "start": "2027-12-11",
+      "end": "2027-12-12",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "category": "Conformation",
+      "region": "QLD",
+      "source": "Dogs Queensland (show dates)",
+      "color": "#c0392b",
+      "cancelled": false,
+      "sources": [
+        "Dogs Queensland (show dates)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Championship Show (All Breeds) Non Sporting Dog Club \u2013 Conformation",
