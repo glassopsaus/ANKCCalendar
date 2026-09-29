@@ -371,8 +371,8 @@ _QLD_SHOW_ROW = re.compile(
     r"(.+?)"                                 # club (non-greedy)
     r"\s*(Breed|DQ|[123])\s+"                # group column (may abut the club)
     r"(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"    # day name (the reliable anchor)
-    r"(\d{1,2})-([A-Za-z]{3})"               # D-Mon
-    r"(?:\s+([A-Z]{1,5}\d?))?\s*$",          # optional show-type code (CH/OS/OS1/SBE/SS)
+    r"(\d{1,2})-([A-Za-z]{3})(?:-\d{2})?"    # D-Mon, optional -YY (2027 file uses DD-Mon-YY)
+    r"(?:\s+([A-Z]{1,6}(?:/[A-Z]{1,3})?\d?))?\s*$",  # optional show-type (CH/OS1/SBE/MC/SBE/MC/SS AND GS -> first token)
     re.I)
 
 
