@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T20:46:06+00:00",
+  "generated": "2026-10-01T20:59:14+00:00",
   "year": 2027,
   "count": 1213,
   "sources": [
@@ -467,7 +467,7 @@
       "title": "Southern Obedience Dog Training Club Inc",
       "start": "2027-01-23",
       "end": "2027-01-23",
-      "location": "Victoria",
+      "location": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Obedience",
       "region": "VIC",
@@ -483,7 +483,9 @@
       "verified": true,
       "closes": "2027-01-17",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50081",
-      "club": "Southern Obedience Dog Training Club Obedience & Rally Twilight Trial",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf",
+      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
+      "club": "Southern Obedience Dog Training Club",
       "open_now": true,
       "is_past": false
     },
@@ -27069,11 +27071,11 @@
       "club": "Dogs Victoria New Year Committee AM"
     },
     {
-      "title": "Boxer Club of NSW \u2013 Obedience",
-      "club": "Boxer Club of NSW",
+      "title": "Boxer Club of NSW - (Group 6 Obedience Trial)",
+      "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
       "start": "2027-06-12",
       "end": "2027-06-12",
-      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
       "category": "Obedience",
       "region": "NSW",
@@ -27088,10 +27090,10 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
