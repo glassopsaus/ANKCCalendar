@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T20:59:14+00:00",
+  "generated": "2026-10-02T20:31:32+00:00",
   "year": 2027,
   "count": 1213,
   "sources": [
@@ -483,11 +483,10 @@
       "verified": true,
       "closes": "2027-01-17",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50081",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf",
-      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "club": "Southern Obedience Dog Training Club",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf"
     },
     {
       "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
@@ -690,28 +689,29 @@
       "is_past": false
     },
     {
-      "title": "Border Collie Club of Victoria \u2013 RTG5 Twilight RTG",
+      "title": "Border Collie Club of Victoria Restricted to Group 5 Obedience and Rally Trial",
       "start": "2027-01-30",
       "end": "2027-01-30",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "location": "Border Collie Club of Victoria",
+      "url": "https://www.topdogevents.com.au/trials/2236",
       "category": "Obedience",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
       "cancelled": false,
-      "breed_group": "Group 5 (Working Dogs)",
-      "breed": "border collie",
+      "region": "VIC",
+      "color": "#3aa657",
+      "closes": "2027-01-24",
+      "topdog_open": false,
+      "source": "Top Dog Events",
       "sources": [
+        "Top Dog Events",
         "Dogs Victoria (official calendar)"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2236",
       "open_now": false,
       "is_past": false,
-      "club": "Border Collie Club of Victoria \u2013 RTG5 Twilight RTG"
+      "club": "Border Collie Club of Victoria"
     },
     {
       "title": "Championship Show (All Breeds) Fremantle Dog Club \u2013 Conformation",
@@ -5567,6 +5567,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/2217",
       "open_now": true,
       "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2217/schedule/get",
       "club": "Dances with Dogs Advisory Committee - South Australia"
     },
     {
