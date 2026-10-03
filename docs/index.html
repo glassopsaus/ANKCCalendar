@@ -141,7 +141,8 @@
   .crow-title .crow-l{flex:1 1 auto; min-width:0; display:flex; align-items:flex-start; gap:8px;}
   .crow-title .title-disc{flex:0 0 auto; display:inline-flex; padding-top:1px;}
   .crow-title .title{flex:1 1 auto; min-width:0; font-weight:600; font-size:15px; margin:0; overflow-wrap:anywhere;}
-  .crow-title .crow-r{flex:0 0 auto; max-width:42%; text-align:right;}
+  /* Title row right = State tag (small); keep it from shrinking the title. */
+  .crow-title .crow-r{flex:0 0 auto; text-align:right;}
   .title{font-weight:600; font-size:15px; margin:0; word-wrap:break-word;}
   .tags{display:flex; flex-wrap:wrap; gap:6px; align-items:center;}
   .tag{font-size:11.5px; font-weight:600; padding:2px 8px; border-radius:5px;
@@ -150,14 +151,17 @@
   .tag.state{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:600;}
   .tag.venue{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding:0; white-space:normal; font-size:12px; line-height:1.35; display:inline;}
   .crow-venue{margin-top:-1px;}
+  /* Club row: right-aligned, a line below the state tag. */
+  .crow-club{margin-top:-2px;}
+  .crow-club .crow-r{flex:1 1 auto; min-width:0; margin-left:auto; justify-content:flex-end; text-align:right;}
+  /* Scent-work class row: its own line below the name, tags may wrap. */
+  .crow-class .crow-l{flex:1 1 auto; min-width:0; display:flex; flex-wrap:wrap; gap:6px; row-gap:4px;}
   .crow-bottom{align-items:flex-start;}
-  /* Left cluster (discipline + scent-work class + state) may WRAP: a full 5-class
-     list is long, and keeping it nowrap pushed the state tag off the card and
-     clipped the trailing classes. Allow it to grow/wrap and keep the venue on
-     the right from being squeezed out. */
-  .crow-bottom .crow-l{flex:1 1 auto; min-width:0; display:flex; flex-wrap:wrap;
-    gap:6px; row-gap:4px; align-items:center;}
-  .crow-bottom .crow-r{flex:0 1 auto; min-width:0; margin-left:auto; text-align:right; justify-content:flex-end;}
+  /* Bottom row: action links (left) + event address/venue (right), side by side.
+     Links wrap if there are three; the address takes remaining space on the right. */
+  .crow-bottom .crow-l{flex:0 1 auto; min-width:0; display:flex; flex-wrap:wrap;
+    gap:10px; row-gap:4px; align-items:center;}
+  .crow-bottom .crow-r{flex:1 1 auto; min-width:0; margin-left:auto; text-align:right; justify-content:flex-end;}
   .crow-bottom .tag.venue{text-align:right;}
   .tag.club{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:500;}
   /* The class tag can hold up to 5 levels; let its text wrap rather than force a
@@ -213,11 +217,9 @@
     .card{grid-template-columns:52px 1fr; gap:6px 12px;}
     .date{grid-row:auto;}
     .crow-src{max-width:55%;}
-    /* On narrow screens an event with Enter + Schedule + Catalogue (plus the
-       title) can't fit its right-aligned action links in 42% of the card, so
-       they ran off the edge. Let the title's action cluster use up to ~60% and
-       wrap onto a second line instead of overflowing; the links already wrap. */
-    .crow-title .crow-r{max-width:60%; flex-wrap:wrap; row-gap:4px;}
+    /* Bottom row holds Enter/Schedule/Catalogue (left) + address (right); on a
+       narrow card let it wrap so nothing runs off the edge. */
+    .crow-bottom .crow-l{flex-wrap:wrap; row-gap:4px;}
     /* The body is the grid cell that can overflow — hard-clip any stray width so
        nothing spills past the card edge on mobile. */
     .body{min-width:0; max-width:100%; overflow-x:hidden;}
@@ -840,25 +842,27 @@ function cardHtml(e,f){
   // Headline the event title (for scent work this carries the level + elements,
   // e.g. "Advanced - Interiors and Exteriors"); the club sits on the info line.
   const headline = e.title || e.club || "Untitled event";
-  // 3-row layout beside the date:
-  //  row1: event name (left)            + Enter/details (right)
-  //  row2: verified status (left)       + sources (right)
-  //  row3: club (left)                  + state (right)
-  // The discipline badge (which also colours the card's left border) sits with
-  // the club on row 3. Past/cancelled/closing info rides along on row 2 with
-  // the verified mark so those states remain visible.
-  const row2Left = `${verifiedMark}${statusBadge}${pastBadge}${closes}`;
-  // Scent-work class levels tag (e.g. "Novice · Advanced"), when known. Sits
-  // with the discipline on the bottom row. Only for scent work with class data.
+  // Card layout beside the date:
+  //  row1: [discipline] Event name (left)        + State tag (right)
+  //  row2: (right only) Club name — a line under the state tag
+  //  row3: scent-work class tags (left)          [scent work only]
+  //  row4: status + entries-close (left)         + sources (right)
+  //  row5: Enter / Schedule / Catalogue (left)   + event address/venue (right)
+  // The discipline badge also colours the card's left border.
+  const row4Left = `${verifiedMark}${statusBadge}${pastBadge}${closes}`;
+  const actionLinks = `${enter}${schedule}${catalogue}`;
+  // Scent-work class levels tag (e.g. "Novice · Advanced"), when known. Sits on
+  // its own line below the name, above the status. Only for scent work with data.
   const swClassTag = (/scent/i.test(e.category||"") && Array.isArray(e.classes) && e.classes.length)
     ? `<span class="tag swclass" title="Scent Work classes offered">${escapeHtml(e.classes.join(" · "))}</span>` : "";
   return `<article class="card ${sk==="cancelled"?"is-cancelled":""}${past?"is-past":""}" style="--disc:${famVar(fam)};--disc-bg:${famBg(fam)}">
     <div class="date">${dateCell}</div>
     <div class="body">
-      <div class="crow crow-title"><span class="crow-l"><span class="title-disc">${discTag}</span><p class="title">${escapeHtml(headline)}</p></span><span class="crow-r">${enter}${schedule}${catalogue}</span></div>
-      <div class="crow crow-status"><span class="crow-l">${row2Left}</span><span class="crow-r crow-src">${srcTag}</span></div>
-      ${clubTag ? `<div class="crow crow-club"><span class="crow-l">${clubTag}</span></div>` : ""}
-      <div class="crow crow-bottom"><span class="crow-l">${swClassTag}${stateTag}</span><span class="crow-r">${venueTag}</span></div>
+      <div class="crow crow-title"><span class="crow-l"><span class="title-disc">${discTag}</span><p class="title">${escapeHtml(headline)}</p></span><span class="crow-r">${stateTag}</span></div>
+      ${clubTag ? `<div class="crow crow-club"><span class="crow-r">${clubTag}</span></div>` : ""}
+      ${swClassTag ? `<div class="crow crow-class"><span class="crow-l">${swClassTag}</span></div>` : ""}
+      <div class="crow crow-status"><span class="crow-l">${row4Left}</span><span class="crow-r crow-src">${srcTag}</span></div>
+      <div class="crow crow-bottom"><span class="crow-l">${actionLinks}</span><span class="crow-r">${venueTag}</span></div>
     </div>
   </article>`;
 }
