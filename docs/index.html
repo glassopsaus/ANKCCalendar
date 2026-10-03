@@ -175,10 +175,13 @@
   .crow-club .crow-l{flex:1 1 auto; min-width:0; display:flex; flex-wrap:wrap; gap:6px; row-gap:4px;}
   .crow-club .crow-r{flex:0 1 auto; min-width:0; margin-left:auto; justify-content:flex-end; text-align:right;}
   .crow-bottom{align-items:flex-start;}
-  /* Bottom row: action links (left) + event address/venue (right), side by side.
-     Links wrap if there are three; the address takes remaining space on the right. */
+  /* Bottom row: action links (left) + event address/venue (right), side by side. */
   .crow-bottom .crow-l{flex:0 1 auto; min-width:0; display:flex; flex-wrap:wrap;
-    gap:10px; row-gap:4px; align-items:center;}
+    gap:8px; row-gap:6px; align-items:center;}
+  /* With all FOUR action buttons, when they can't sit on one line we want a tidy
+     2x2 (Enter/Schedule over Catalogue/Calendar), not 3 + a lone 4th. On wide
+     cards they stay inline; the 2x2 kicks in on narrow widths (see media query).*/
+  .crow-bottom .actions{align-items:center;}
   .crow-bottom .crow-r{flex:1 1 auto; min-width:0; margin-left:auto; text-align:right; justify-content:flex-end;}
   .crow-bottom .tag.venue{text-align:right;}
   .tag.club{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:500;}
@@ -248,6 +251,13 @@
     /* Bottom row holds Enter/Schedule/Catalogue (left) + address (right); on a
        narrow card let it wrap so nothing runs off the edge. */
     .crow-bottom .crow-l{flex-wrap:wrap; row-gap:4px;}
+    /* All four buttons on a narrow card: 2x2 grid instead of 3 + a lone 4th. */
+    .crow-bottom .actions-4{display:grid; grid-template-columns:1fr 1fr;
+      gap:6px; width:100%; max-width:260px;}
+    .crow-bottom .actions-4 .enter{width:100%; justify-content:center;}
+    /* With four buttons the address drops to its own line below them. */
+    .crow-bottom:has(.actions-4){flex-wrap:wrap;}
+    .crow-bottom:has(.actions-4) .crow-r{flex:1 1 100%; text-align:left; justify-content:flex-start; margin-top:4px;}
     /* The body is the grid cell that can overflow — hard-clip any stray width so
        nothing spills past the card edge on mobile. */
     .body{min-width:0; max-width:100%; overflow-x:hidden;}
@@ -926,6 +936,10 @@ function cardHtml(e,f){
   const calBtn = (!past && e.start)
     ? `<button type="button" class="enter cal-btn" data-cal="${e._idx}" title="Add this event to your calendar (.ics)">Calendar</button>` : "";
   const actionLinks = `${enter}${schedule}${catalogue}${calBtn}`;
+  // Count the action buttons present; when all FOUR show we switch the container
+  // to a 2x2 grid so a wrap produces two rows of two (not a lone 4th button).
+  const _btnCount = [enter, schedule, catalogue, calBtn].filter(Boolean).length;
+  const actionClass = _btnCount === 4 ? "crow-l actions actions-4" : "crow-l actions";
   // Scent-work class levels tag (e.g. "Novice · Advanced"), when known. Sits on
   // its own line below the name, above the status. Only for scent work with data.
   const swClassTag = (/scent/i.test(e.category||"") && Array.isArray(e.classes) && e.classes.length)
@@ -936,7 +950,7 @@ function cardHtml(e,f){
       <div class="crow crow-title"><span class="crow-l"><span class="title-disc">${discTag}</span><p class="title">${escapeHtml(headline)}</p></span><span class="crow-r">${stateTag}</span></div>
       ${(clubTag || swClassTag) ? `<div class="crow crow-club"><span class="crow-l">${swClassTag}</span><span class="crow-r">${clubTag}</span></div>` : ""}
       <div class="crow crow-status"><span class="crow-l">${row4Left}</span><span class="crow-r crow-src">${srcTag}</span></div>
-      <div class="crow crow-bottom"><span class="crow-l">${actionLinks}</span><span class="crow-r">${venueTag}</span></div>
+      <div class="crow crow-bottom"><span class="${actionClass}">${actionLinks}</span><span class="crow-r">${venueTag}</span></div>
     </div>
   </article>`;
 }
