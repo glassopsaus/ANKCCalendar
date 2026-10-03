@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T20:31:32+00:00",
+  "generated": "2026-10-03T19:11:35+00:00",
   "year": 2027,
   "count": 1213,
   "sources": [
@@ -699,17 +699,17 @@
       "region": "VIC",
       "color": "#3aa657",
       "closes": "2027-01-24",
-      "topdog_open": false,
+      "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
         "Dogs Victoria (official calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "open",
+      "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2236",
-      "open_now": false,
+      "open_now": true,
       "is_past": false,
       "club": "Border Collie Club of Victoria"
     },
