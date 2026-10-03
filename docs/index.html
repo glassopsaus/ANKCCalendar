@@ -148,7 +148,9 @@
   .tag{font-size:11.5px; font-weight:600; padding:2px 8px; border-radius:5px;
     display:inline-flex; align-items:center; gap:5px; white-space:nowrap;}
   .tag.disc{background:var(--disc-bg,#eee); color:var(--disc,#333); border:1px solid var(--disc,#ccc);}
-  .tag.state{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:600;}
+  /* State = primary location label: a solid, filled pill so it stands out as the
+     key identifier, clearly distinct from the quieter source metadata. */
+  .tag.state{background:var(--ink); color:var(--paper); border:1px solid var(--ink); font-weight:700; letter-spacing:0.02em;}
   .tag.venue{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding:0; white-space:normal; font-size:12px; line-height:1.35; display:inline;}
   .crow-venue{margin-top:-1px;}
   /* Shared row a line below the state tag: scent-work class tags on the LEFT,
@@ -168,7 +170,9 @@
      single overflowing line. */
   .tag.swclass{background:var(--fam-scent-bg,#efe8f5); color:var(--fam-scent,#6b3f8a); font-weight:600; white-space:normal;}
   .tag.loc{background:transparent; color:var(--ink-soft); padding-left:0; font-weight:500;}
-  .tag.src{background:transparent;color:var(--ink-soft);border:1px dashed var(--hair);font-weight:500}
+  /* Source = secondary metadata: no pill/border, muted and smaller, so it reads
+     as a quiet "via ..." note rather than a chip competing with the state tag. */
+  .tag.src{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding:2px 0; font-size:11px;}
   .right{display:flex; flex-direction:column; align-items:flex-end; gap:6px; text-align:right;}
   .status{font-size:12px; font-weight:700; padding:4px 10px; border-radius:999px;
     display:inline-flex; align-items:center; gap:6px; white-space:nowrap;}
