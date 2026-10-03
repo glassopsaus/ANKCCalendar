@@ -126,8 +126,11 @@
   .card.is-cancelled .title{text-decoration:line-through}
   .date{text-align:center; padding-top:2px;}
   .date .d{font-size:22px; font-weight:700; line-height:1; font-variant-numeric:tabular-nums;}
-  .date .d.range{font-size:15px;}
-  .date .dow{font-size:11px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.06em; margin-top:3px;}
+  .date .d.range{font-size:14px; line-height:1.15;}
+  .date .d.range2{font-size:12px; font-weight:700; line-height:1.25;}
+  .date .mon{font-size:12px; font-weight:600; color:var(--ink); text-transform:uppercase; letter-spacing:.04em; margin-top:1px;}
+  .date .mon:empty{display:none;}
+  .date .dow{font-size:11px; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.06em; margin-top:2px;}
   .body{min-width:0; display:flex; flex-direction:column; gap:5px;}
   /* Each card row: left group + right group on the same line. */
   .crow{display:flex; align-items:center; gap:10px; min-width:0;}
@@ -766,8 +769,17 @@ function cardHtml(e,f){
   let dateCell;
   if(e.end && e.end!==e.start){
     const g = fmtDate(e.end); const sameMon = g.mon===f.mon;
-    dateCell = `<div class="d range">${f.day}–${g.day}</div><div class="dow">${sameMon?MONTHS[f.mon].slice(0,3):DOW[f.dow]}</div>`;
-  }else{ dateCell = `<div class="d">${f.day}</div><div class="dow">${f.dow}</div>`; }
+    if(sameMon){
+      // Same month: "17–18" with the month beneath.
+      dateCell = `<div class="d range">${f.day}–${g.day}</div><div class="mon">${MONTHS[f.mon].slice(0,3)}</div><div class="dow">${f.dow}</div>`;
+    }else{
+      // Spans months: stack "17 Oct" over "→ 2 Nov" so it fits the narrow column.
+      dateCell = `<div class="d range2">${f.day} ${MONTHS[f.mon].slice(0,3)}</div><div class="d range2">→ ${g.day} ${MONTHS[g.mon].slice(0,3)}</div><div class="dow">${f.dow}</div>`;
+    }
+  }else{
+    // Single day: big day number, month, then weekday — e.g. 17 / Oct / Sat.
+    dateCell = `<div class="d">${f.day}</div><div class="mon">${MONTHS[f.mon].slice(0,3)}</div><div class="dow">${f.dow}</div>`;
+  }
   const discTag = `<span class="tag disc" style="--disc:${famVar(fam)};--disc-bg:${famBg(fam)}">${escapeHtml(e.category||"Event")}</span>`;
   const stateTag = e.region ? `<span class="tag state" data-state="${escapeHtml(e.region)}">${escapeHtml(e.region)}</span>` : "";
   // Club tag: the club name sits on the info line between State and Source.
