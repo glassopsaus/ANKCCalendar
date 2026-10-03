@@ -148,9 +148,20 @@
   .tag{font-size:11.5px; font-weight:600; padding:2px 8px; border-radius:5px;
     display:inline-flex; align-items:center; gap:5px; white-space:nowrap;}
   .tag.disc{background:var(--disc-bg,#eee); color:var(--disc,#333); border:1px solid var(--disc,#ccc);}
-  /* State = primary location label: a solid, filled pill so it stands out as the
-     key identifier, clearly distinct from the quieter source metadata. */
-  .tag.state{background:var(--ink); color:var(--paper); border:1px solid var(--ink); font-weight:700; letter-spacing:0.02em;}
+  /* State = primary location label: a solid filled pill, COLOURED PER STATE so
+     each is instantly recognisable and distinct from the quiet source metadata.
+     Colours drawn from each state/territory's colours, with text chosen for
+     strong contrast on the background. */
+  .tag.state{background:var(--ink); color:#fff; border:1px solid transparent;
+    font-weight:700; letter-spacing:0.03em;}
+  .tag.state[data-state="ACT"]{background:#1a56b0; color:#ffd54a; border-color:#ffd54a;} /* blue + gold */
+  .tag.state[data-state="NSW"]{background:#1176c4; color:#ffffff;}                        /* sky blue + white */
+  .tag.state[data-state="NT"] {background:#b5491f; color:#111111;}                        /* red ochre + black */
+  .tag.state[data-state="QLD"]{background:#73002e; color:#f2c14e;}                         /* maroon + gold */
+  .tag.state[data-state="SA"] {background:#c8102e; color:#ffd24a;}                         /* red + gold */
+  .tag.state[data-state="TAS"]{background:#0a5c36; color:#ffe14d;}                         /* bottle green + yellow */
+  .tag.state[data-state="VIC"]{background:#0b1f4d; color:#ffffff;}                         /* navy + white */
+  .tag.state[data-state="WA"] {background:#f2b100; color:#111111;}                         /* gold + black */
   .tag.venue{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding:0; white-space:normal; font-size:12px; line-height:1.35; display:inline;}
   .crow-venue{margin-top:-1px;}
   /* Shared row a line below the state tag: scent-work class tags on the LEFT,
@@ -324,8 +335,10 @@ function famOf(cat){ return DISC_FAMILY[cat] || "other"; }
 function famVar(fam){ return `var(--fam-${fam})`; }
 function famBg(fam){ return `var(--fam-${fam}-bg)`; }
 
-const RCOL = {ACT:"#1d6fb8",VIC:"#3aa657",TAS:"#c8632a",NSW:"#7a3ea6",SA:"#c9a227",
-              QLD:"#c0392b",WA:"#16887a",NT:"#b8621d"};
+// State/territory colours — matched to the per-state .tag.state palette so the
+// filter chips and the card state pills use a consistent colour per state.
+const RCOL = {ACT:"#1a56b0",NSW:"#1176c4",NT:"#b5491f",QLD:"#73002e",
+              SA:"#c8102e",TAS:"#0a5c36",VIC:"#0b1f4d",WA:"#f2b100"};
 
 // Entry-state, INDEPENDENT of both verified-ness and past-ness (both separate
 // flags now). One of: open, listed, closed, approved, cancelled.
@@ -754,7 +767,7 @@ function cardHtml(e,f){
     dateCell = `<div class="d range">${f.day}–${g.day}</div><div class="dow">${sameMon?MONTHS[f.mon].slice(0,3):DOW[f.dow]}</div>`;
   }else{ dateCell = `<div class="d">${f.day}</div><div class="dow">${f.dow}</div>`; }
   const discTag = `<span class="tag disc" style="--disc:${famVar(fam)};--disc-bg:${famBg(fam)}">${escapeHtml(e.category||"Event")}</span>`;
-  const stateTag = e.region ? `<span class="tag state">${escapeHtml(e.region)}</span>` : "";
+  const stateTag = e.region ? `<span class="tag state" data-state="${escapeHtml(e.region)}">${escapeHtml(e.region)}</span>` : "";
   // Club tag: the club name sits on the info line between State and Source.
   // Use the derived `club` (falls back to location for older data), and skip it
   // when it merely echoes the title/headline or is a bare state name.
