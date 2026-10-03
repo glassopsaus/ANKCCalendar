@@ -202,6 +202,15 @@
     .card{grid-template-columns:52px 1fr; gap:6px 12px;}
     .date{grid-row:auto;}
     .crow-src{max-width:55%;}
+    /* On narrow screens an event with Enter + Schedule + Catalogue (plus the
+       title) can't fit its right-aligned action links in 42% of the card, so
+       they ran off the edge. Let the title's action cluster use up to ~60% and
+       wrap onto a second line instead of overflowing; the links already wrap. */
+    .crow-title .crow-r{max-width:60%; flex-wrap:wrap; row-gap:4px;}
+    /* The body is the grid cell that can overflow — hard-clip any stray width so
+       nothing spills past the card edge on mobile. */
+    .body{min-width:0; max-width:100%; overflow-x:hidden;}
+    .crow{flex-wrap:wrap; row-gap:4px;}
     /* Dropdowns stack full-width on mobile; panels stay within the viewport. */
     .fmenus{flex-direction:column;}
     .faccordion{width:100%;}
