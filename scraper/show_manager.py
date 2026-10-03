@@ -340,8 +340,25 @@ def fetch_event_detail(event_id):
         for p in parts:
             if not dedup or dedup[-1].lower() != p.lower():
                 dedup.append(p)
-        out["address"] = ", ".join(dedup)
+        addr = ", ".join(dedup)
+        # Reject Show Manager's EMPTY-VENUE PLACEHOLDER. When no real venue is
+        # entered, SM returns suburb "Other" + post code "0" (e.g. "Other, 0,
+        # NSW") — that's not an address, so don't store it. Also guard the bare
+        # "0"/"Other"-only and state-only cases.
+        _real = [p for p in dedup
+                 if p.strip().lower() not in ("other", "0", "0000")
+                 and p.strip().upper() not in _STATE_CODES]
+        if _real:
+            out["address"] = addr
+        # else: leave address None — no usable venue
     return out
+
+
+# State codes/names used to recognise a "state-only" (non-)address.
+_STATE_CODES = {"NSW", "VIC", "QLD", "WA", "SA", "TAS", "ACT", "NT",
+                "NEW SOUTH WALES", "VICTORIA", "QUEENSLAND",
+                "WESTERN AUSTRALIA", "SOUTH AUSTRALIA", "TASMANIA",
+                "AUSTRALIAN CAPITAL TERRITORY", "NORTHERN TERRITORY"}
 
 
 def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
