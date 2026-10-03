@@ -147,11 +147,18 @@
   .tag.venue{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding:0; white-space:normal; font-size:12px; line-height:1.35; display:inline;}
   .crow-venue{margin-top:-1px;}
   .crow-bottom{align-items:flex-start;}
-  .crow-bottom .crow-l{flex:0 0 auto; flex-wrap:nowrap;}
-  .crow-bottom .crow-r{flex:1 1 auto; min-width:0; margin-left:auto; text-align:right; justify-content:flex-end;}
+  /* Left cluster (discipline + scent-work class + state) may WRAP: a full 5-class
+     list is long, and keeping it nowrap pushed the state tag off the card and
+     clipped the trailing classes. Allow it to grow/wrap and keep the venue on
+     the right from being squeezed out. */
+  .crow-bottom .crow-l{flex:1 1 auto; min-width:0; display:flex; flex-wrap:wrap;
+    gap:6px; row-gap:4px; align-items:center;}
+  .crow-bottom .crow-r{flex:0 1 auto; min-width:0; margin-left:auto; text-align:right; justify-content:flex-end;}
   .crow-bottom .tag.venue{text-align:right;}
   .tag.club{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:500;}
-  .tag.swclass{background:var(--fam-scent-bg,#efe8f5); color:var(--fam-scent,#6b3f8a); font-weight:600;}
+  /* The class tag can hold up to 5 levels; let its text wrap rather than force a
+     single overflowing line. */
+  .tag.swclass{background:var(--fam-scent-bg,#efe8f5); color:var(--fam-scent,#6b3f8a); font-weight:600; white-space:normal;}
   .tag.loc{background:transparent; color:var(--ink-soft); padding-left:0; font-weight:500;}
   .tag.src{background:transparent;color:var(--ink-soft);border:1px dashed var(--hair);font-weight:500}
   .right{display:flex; flex-direction:column; align-items:flex-end; gap:6px; text-align:right;}
