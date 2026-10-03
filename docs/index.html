@@ -207,6 +207,11 @@
   .enter{font-size:12.5px; font-weight:600; color:var(--fam-tracking); text-decoration:none;
     border-bottom:1px solid currentColor; padding-bottom:1px;}
   .enter:hover{color:var(--ink)}
+  /* The "+ Calendar" action is a <button>; reset native button chrome so it
+     matches the Enter/Schedule/Catalogue links. */
+  button.enter{background:none; border:none; padding:0; cursor:pointer; font-family:inherit;}
+  .enter.cal-btn{font-weight:500; color:var(--ink-soft);}
+  .enter.cal-btn:hover{color:var(--fam-tracking);}
   .enter.sched{font-weight:500; color:var(--ink-soft);}
   .enter.sched:hover{color:var(--ink)}
   .enter.cat{font-weight:500; color:var(--ink-soft); font-style:italic;}
@@ -495,6 +500,16 @@ function setupFilters(){
     });
     const exp = $("#export-ics");
     if(exp) exp.addEventListener("click", exportICS);
+    // Delegated handler for per-event "+ Calendar" buttons (cards re-render, so
+    // listen on the stable #list container).
+    const list = $("#list");
+    if(list) list.addEventListener("click", (ev)=>{
+      const btn = ev.target.closest(".cal-btn");
+      if(!btn) return;
+      ev.preventDefault();
+      const idx = parseInt(btn.getAttribute("data-cal"), 10);
+      if(!isNaN(idx)) downloadEventICS(idx);
+    });
   }
 }
 function renderLegend(){
@@ -636,6 +651,20 @@ function exportICS(){
   const yr = (typeof YEAR!=="undefined" && YEAR) ? YEAR : new Date().getFullYear();
   const name = `dog-events-${yr}${parts.length?"-"+parts.join("-"):""}.ics`.replace(/\s+/g,"_");
   const blob = new Blob([buildICS(events)], {type:"text/calendar;charset=utf-8"});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url; a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url), 1000);
+}
+// Per-event calendar download: build a .ics for the single event at ALL[idx].
+function downloadEventICS(idx){
+  const e = ALL[idx];
+  if(!e || !e.start) return;
+  const slug = (e.title||e.club||"event").replace(/[^a-z0-9]+/gi,"-")
+    .replace(/^-+|-+$/g,"").slice(0,40).toLowerCase() || "event";
+  const name = `${e.start}-${slug}.ics`;
+  const blob = new Blob([buildICS([e])], {type:"text/calendar;charset=utf-8"});
   const url = URL.createObjectURL(blob);
   const a = document.createElement("a");
   a.href = url; a.download = name;
@@ -881,7 +910,12 @@ function cardHtml(e,f){
   //  row5: Enter / Schedule / Catalogue (left)   + event address/venue (right)
   // The discipline badge also colours the card's left border.
   const row4Left = `${verifiedMark}${statusBadge}${pastBadge}${closes}`;
-  const actionLinks = `${enter}${schedule}${catalogue}`;
+  // Per-event "add to calendar" — downloads a single-event .ics. data-cal holds
+  // the event's stable index into ALL so the handler can rebuild its ICS. Not
+  // shown for past events (nothing to add).
+  const calBtn = (!past && e.start)
+    ? `<button type="button" class="enter cal-btn" data-cal="${e._idx}" title="Add this event to your calendar (.ics)">+ Calendar</button>` : "";
+  const actionLinks = `${enter}${schedule}${catalogue}${calBtn}`;
   // Scent-work class levels tag (e.g. "Novice · Advanced"), when known. Sits on
   // its own line below the name, above the status. Only for scent work with data.
   const swClassTag = (/scent/i.test(e.category||"") && Array.isArray(e.classes) && e.classes.length)
@@ -960,7 +994,7 @@ async function switchYear(y){
     const res = await fetch(dataUrlForYear(y),{cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);
     const data = await res.json();
-    ALL = (data.events||[]).filter(e=>e.start);
+    ALL = (data.events||[]).filter(e=>e.start); ALL.forEach((e,i)=>e._idx=i);
     renderMeta(data); renderLegend(); setupFilters(); render();
   }catch(err){
     $("#list").innerHTML = `<div class="state-msg err">No data for ${y} yet (${escapeHtml(err.message)}).<br>Each year fills in as its calendars are published.</div>`;
@@ -990,7 +1024,7 @@ async function load(){
     const res = await fetch("events.json",{cache:"no-store"});
     if(!res.ok) throw new Error("HTTP "+res.status);
     const data = await res.json();
-    ALL = (data.events||[]).filter(e=>e.start);
+    ALL = (data.events||[]).filter(e=>e.start); ALL.forEach((e,i)=>e._idx=i);
     CUR_YEAR = data.year || null;
     renderYearPicker();
     renderMeta(data); renderLegend(); setupFilters(); render();
