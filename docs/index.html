@@ -151,11 +151,11 @@
   .tag.state{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:600;}
   .tag.venue{background:transparent; color:var(--ink-soft); border:none; font-weight:500; padding:0; white-space:normal; font-size:12px; line-height:1.35; display:inline;}
   .crow-venue{margin-top:-1px;}
-  /* Club row: right-aligned, a line below the state tag. */
-  .crow-club{margin-top:-2px;}
-  .crow-club .crow-r{flex:1 1 auto; min-width:0; margin-left:auto; justify-content:flex-end; text-align:right;}
-  /* Scent-work class row: its own line below the name, tags may wrap. */
-  .crow-class .crow-l{flex:1 1 auto; min-width:0; display:flex; flex-wrap:wrap; gap:6px; row-gap:4px;}
+  /* Shared row a line below the state tag: scent-work class tags on the LEFT,
+     club name on the RIGHT. Class list can wrap; club stays right-aligned. */
+  .crow-club{margin-top:-2px; align-items:flex-start;}
+  .crow-club .crow-l{flex:1 1 auto; min-width:0; display:flex; flex-wrap:wrap; gap:6px; row-gap:4px;}
+  .crow-club .crow-r{flex:0 1 auto; min-width:0; margin-left:auto; justify-content:flex-end; text-align:right;}
   .crow-bottom{align-items:flex-start;}
   /* Bottom row: action links (left) + event address/venue (right), side by side.
      Links wrap if there are three; the address takes remaining space on the right. */
@@ -859,8 +859,7 @@ function cardHtml(e,f){
     <div class="date">${dateCell}</div>
     <div class="body">
       <div class="crow crow-title"><span class="crow-l"><span class="title-disc">${discTag}</span><p class="title">${escapeHtml(headline)}</p></span><span class="crow-r">${stateTag}</span></div>
-      ${clubTag ? `<div class="crow crow-club"><span class="crow-r">${clubTag}</span></div>` : ""}
-      ${swClassTag ? `<div class="crow crow-class"><span class="crow-l">${swClassTag}</span></div>` : ""}
+      ${(clubTag || swClassTag) ? `<div class="crow crow-club"><span class="crow-l">${swClassTag}</span><span class="crow-r">${clubTag}</span></div>` : ""}
       <div class="crow crow-status"><span class="crow-l">${row4Left}</span><span class="crow-r crow-src">${srcTag}</span></div>
       <div class="crow crow-bottom"><span class="crow-l">${actionLinks}</span><span class="crow-r">${venueTag}</span></div>
     </div>
