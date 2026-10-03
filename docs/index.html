@@ -178,10 +178,15 @@
   /* Bottom row: action links (left) + event address/venue (right), side by side. */
   .crow-bottom .crow-l{flex:0 1 auto; min-width:0; display:flex; flex-wrap:wrap;
     gap:8px; row-gap:6px; align-items:center;}
-  /* With all FOUR action buttons, when they can't sit on one line we want a tidy
-     2x2 (Enter/Schedule over Catalogue/Calendar), not 3 + a lone 4th. On wide
-     cards they stay inline; the 2x2 kicks in on narrow widths (see media query).*/
+  /* With all FOUR action buttons, lay them out as a fixed 2x2 grid so they always
+     read as two tidy rows of two (Enter/Schedule over Catalogue/Calendar) — never
+     3 on one line with a lone 4th. Applies at all widths. With 1–3 buttons the
+     default inline flex row is used. */
   .crow-bottom .actions{align-items:center;}
+  .crow-bottom .crow-l.actions-4{display:grid; grid-template-columns:auto auto;
+    gap:6px 8px; justify-content:start; width:max-content; max-width:100%;
+    flex-wrap:nowrap;}
+  .crow-bottom .crow-l.actions-4 .enter{width:100%; justify-content:center;}
   .crow-bottom .crow-r{flex:1 1 auto; min-width:0; margin-left:auto; text-align:right; justify-content:flex-end;}
   .crow-bottom .tag.venue{text-align:right;}
   .tag.club{background:transparent; color:var(--ink); border:1px solid var(--hair); font-weight:500;}
@@ -251,11 +256,8 @@
     /* Bottom row holds Enter/Schedule/Catalogue (left) + address (right); on a
        narrow card let it wrap so nothing runs off the edge. */
     .crow-bottom .crow-l{flex-wrap:wrap; row-gap:4px;}
-    /* All four buttons on a narrow card: 2x2 grid instead of 3 + a lone 4th. */
-    .crow-bottom .actions-4{display:grid; grid-template-columns:1fr 1fr;
-      gap:6px; width:100%; max-width:260px;}
-    .crow-bottom .actions-4 .enter{width:100%; justify-content:center;}
-    /* With four buttons the address drops to its own line below them. */
+    /* 4-button 2x2 grid applies at all widths (base rule); on a narrow card also
+       let the address drop to its own line below the grid. */
     .crow-bottom:has(.actions-4){flex-wrap:wrap;}
     .crow-bottom:has(.actions-4) .crow-r{flex:1 1 100%; text-align:left; justify-content:flex-start; margin-top:4px;}
     /* The body is the grid cell that can overflow — hard-clip any stray width so
