@@ -204,18 +204,21 @@
   .card.is-past{opacity:.66}
   .closes{font-size:11.5px; color:var(--ink-soft); white-space:nowrap;}
   .closes b{color:var(--ink); font-weight:600;}
-  .enter{font-size:12.5px; font-weight:600; color:var(--fam-tracking); text-decoration:none;
-    border-bottom:1px solid currentColor; padding-bottom:1px;}
-  .enter:hover{color:var(--ink)}
-  /* The "+ Calendar" action is a <button>; reset native button chrome so it
-     matches the Enter/Schedule/Catalogue links. */
-  button.enter{background:none; border:none; padding:0; cursor:pointer; font-family:inherit;}
-  .enter.cal-btn{font-weight:500; color:var(--ink-soft);}
-  .enter.cal-btn:hover{color:var(--fam-tracking);}
-  .enter.sched{font-weight:500; color:var(--ink-soft);}
-  .enter.sched:hover{color:var(--ink)}
-  .enter.cat{font-weight:500; color:var(--ink-soft); font-style:italic;}
-  .enter.cat:hover{color:var(--ink)}
+  /* Unified action buttons: Enter / Schedule / Catalogue / + Calendar all render
+     as the same sleek pill — no underlines, no arrows. Consistent box-model for
+     both <a> and <button> so they line up. */
+  .enter{
+    display:inline-flex; align-items:center; gap:0; font-family:inherit;
+    font-size:12px; font-weight:600; line-height:1; text-decoration:none;
+    padding:6px 12px; border-radius:999px; border:1px solid var(--hair);
+    background:var(--card); color:var(--ink-soft); cursor:pointer;
+    white-space:nowrap; transition:background .12s, color .12s, border-color .12s;}
+  .enter:hover{border-color:var(--ink-soft); color:var(--ink);
+    background:var(--paper);}
+  /* Primary action — Enter — gets a filled accent so it reads as the main CTA. */
+  .enter.enter-primary{background:var(--fam-tracking); border-color:var(--fam-tracking);
+    color:#fff;}
+  .enter.enter-primary:hover{background:var(--ink); border-color:var(--ink); color:#fff;}
   .state-msg{padding:48px 16px; text-align:center; color:var(--ink-soft);}
   .state-msg.err{color:var(--cancel);}
   .count{font-size:12.5px;color:var(--ink-soft);margin:8px 0 0}
@@ -607,6 +610,13 @@ function buildICS(events){
     const descBits = [];
     if(e.club && e.club!==e.title) descBits.push(e.club);
     if(e.status_label) descBits.push(`Status: ${e.status_label}`);
+    // Entries-close date — the most useful planning info for someone adding the
+    // event to their calendar. Formatted "14 Nov 2026"; only when known and the
+    // event isn't past/cancelled (a closed/past close date isn't actionable).
+    if(e.closes && e.status!=="cancelled"){
+      const cf = fmtDate(e.closes);
+      if(cf && !isNaN(cf.day)) descBits.push(`Entries close: ${cf.day} ${MONTHS[cf.mon].slice(0,3)} ${cf.yr}`);
+    }
     if(e.breed_group) descBits.push(`Restricted: ${e.breed_group}`);
     if(Array.isArray(e.classes) && e.classes.length) descBits.push(`Classes: ${e.classes.join(", ")}`);
     if(e.region) descBits.push(`State: ${e.region}`);
@@ -894,11 +904,11 @@ function cardHtml(e,f){
   const entryHref = eventEntryHref(e);
   const schedHref = eventSchedHref(e);
   const catHref = eventCatHref(e);
-  const enter = (entryHref && sk!=="cancelled" && !past) ? `<a class="enter" href="${escapeHtml(entryHref)}" target="_blank" rel="noopener">Enter →</a>` : "";
-  const schedule = (schedHref && !past) ? `<a class="enter sched" href="${escapeHtml(schedHref)}" target="_blank" rel="noopener">Schedule →</a>` : "";
+  const enter = (entryHref && sk!=="cancelled" && !past) ? `<a class="enter enter-primary" href="${escapeHtml(entryHref)}" target="_blank" rel="noopener">Enter</a>` : "";
+  const schedule = (schedHref && !past) ? `<a class="enter" href="${escapeHtml(schedHref)}" target="_blank" rel="noopener">Schedule</a>` : "";
   // Catalogue (entrant list) is a post-close document, so — unlike Schedule —
   // it's shown even on past/imminent events (that's exactly when it's useful).
-  const catalogue = catHref ? `<a class="enter cat" href="${escapeHtml(catHref)}" target="_blank" rel="noopener">Catalogue →</a>` : "";
+  const catalogue = catHref ? `<a class="enter" href="${escapeHtml(catHref)}" target="_blank" rel="noopener">Catalogue</a>` : "";
   // Headline the event title (for scent work this carries the level + elements,
   // e.g. "Advanced - Interiors and Exteriors"); the club sits on the info line.
   const headline = e.title || e.club || "Untitled event";
@@ -914,7 +924,7 @@ function cardHtml(e,f){
   // the event's stable index into ALL so the handler can rebuild its ICS. Not
   // shown for past events (nothing to add).
   const calBtn = (!past && e.start)
-    ? `<button type="button" class="enter cal-btn" data-cal="${e._idx}" title="Add this event to your calendar (.ics)">+ Calendar</button>` : "";
+    ? `<button type="button" class="enter cal-btn" data-cal="${e._idx}" title="Add this event to your calendar (.ics)">Calendar</button>` : "";
   const actionLinks = `${enter}${schedule}${catalogue}${calBtn}`;
   // Scent-work class levels tag (e.g. "Novice · Advanced"), when known. Sits on
   // its own line below the name, above the status. Only for scent work with data.
