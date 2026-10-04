@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-03T19:06:33+00:00",
+  "generated": "2026-10-04T19:05:35+00:00",
   "year": 2026,
-  "count": 2638,
+  "count": 2642,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -120,7 +120,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1254",
       "open_now": false,
       "is_past": true,
-      "club": "CASSA Novelty Challenge"
+      "club": "CASSA Events"
     },
     {
       "title": "New Year's Resolution Scent Work Trial",
@@ -1156,7 +1156,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1336",
       "open_now": false,
       "is_past": true,
-      "club": "Stellar Dogs Training & Education - Scentwork Run Throughs (Advanced/Excellent level)"
+      "club": "Stellar Dogs Training and Education"
     },
     {
       "title": "Championship Show (CFR - All Breeds) CAWA Events Ctee \u2013 Conformation",
@@ -8061,6 +8061,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1554",
       "open_now": false,
       "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1554/schedule/get",
       "club": "Border Collie Club of Victoria"
     },
     {
@@ -8921,7 +8922,7 @@
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1448/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1448/catalogue/get",
-      "club": "West Coast Dog Sports"
+      "club": "WCDS Sprint Dog(tm)"
     },
     {
       "title": "ADCV turns 30! EASTER 2 Day Agility, Jumping +",
@@ -9870,7 +9871,7 @@
     },
     {
       "title": "Sprintdog \u2122 Trial West Coast Dog Sports",
-      "club": "Sprintdog \u2122 Trial West Coast Dog Sports",
+      "club": "West Coast Dog Sports",
       "start": "2026-04-05",
       "end": "2026-04-05",
       "location": "602 Warton Road, Southern River, WA, 6110",
@@ -10903,6 +10904,10 @@
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1511/schedule/get",
+      "classes": [
+        "Excellent",
+        "Masters"
+      ],
       "club": "Warragul & District Kennel & Obedience Club"
     },
     {
@@ -11812,6 +11817,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1555",
       "open_now": false,
       "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1555/schedule/get",
       "club": "Action Dogs Victoria"
     },
     {
@@ -12621,7 +12627,7 @@
       "open_now": false,
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/1668/catalogue/get",
-      "club": "Queensland Dog Sports - Agility Sub-Committee"
+      "club": "Agility & Double Jumpers FR Trial"
     },
     {
       "title": "Agility Subcommittee \u2013 Agility",
@@ -15222,7 +15228,7 @@
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "Lure Coursing Trial West Coast Dog Sports",
+      "club": "West Coast Dog Sports",
       "start": "2026-05-03",
       "end": "2026-05-03",
       "location": "220 Dinsdale Rd, Wooroloo",
@@ -17224,7 +17230,7 @@
       "open_now": false,
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/1769/catalogue/get",
-      "club": "Queensland Dog Sports - Agility Sub-Committee"
+      "club": "Agility & Double Jumpers FR Trial"
     },
     {
       "title": "Agility Subcommittee \u2013 Agility",
@@ -20722,7 +20728,7 @@
         "Excellent",
         "Masters"
       ],
-      "club": "My Dog Can Do"
+      "club": "My Dog Can Do MOCK TRIAL"
     },
     {
       "title": "Nanango \u2013 Sprint",
@@ -21598,7 +21604,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1791",
       "open_now": false,
       "is_past": true,
-      "club": "CASSA Novelty Challenge"
+      "club": "CASSA Events"
     },
     {
       "title": "Championship & Open Show (All Breeds) Ladies Kennel Club \u2013 Conformation",
@@ -28961,7 +28967,7 @@
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1954/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1954/catalogue/get",
-      "club": "Agility x 2 and Jumping x 1 Trial - 9.30am start"
+      "club": "Gold Coast DOTC"
     },
     {
       "title": "Alaskan Malamute Club of Vic Inc",
@@ -30467,7 +30473,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1873",
-      "club": "Rockhampton Dog Obedience Club",
+      "club": "Dogs Qld Tracking and Track & Search Club",
       "open_now": false,
       "is_past": true
     },
@@ -33898,7 +33904,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1994",
       "open_now": false,
       "is_past": true,
-      "club": "CASSA Events"
+      "club": "CASSA Scent Work Trial"
     },
     {
       "title": "Caboolture Sports \u2013 Scent Work",
@@ -42289,7 +42295,7 @@
       "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2119",
-      "club": "Collie Club of Victoria Inc",
+      "club": "GSPCV - SprintDog\u2122  26/9 (German Shorthaired Pointer Club Vic Inc)",
       "open_now": false,
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/2119/schedule/get",
@@ -45361,7 +45367,7 @@
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "West Coast Dog Sports",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2026-09-20",
       "end": "2026-09-20",
       "location": "3275 Toodyay Road, Gidgegannup",
@@ -45604,7 +45610,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "Royal Agricultural Society of Vic - Melbourne Royal Show"
     },
     {
@@ -45853,7 +45859,7 @@
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1953",
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1953/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1953/catalogue/get",
       "classes": [
@@ -45875,13 +45881,13 @@
       "region": "SA",
       "color": "#c9a227",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2080",
       "open_now": false,
@@ -45948,13 +45954,13 @@
       "region": "TAS",
       "color": "#c8632a",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1982",
       "open_now": false,
@@ -45973,13 +45979,13 @@
       "region": "TAS",
       "color": "#c8632a",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2087",
       "open_now": false,
@@ -45998,14 +46004,14 @@
       "region": "QLD",
       "color": "#c0392b",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
         "Dogs Queensland (trial calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1978",
       "open_now": false,
@@ -46134,13 +46140,13 @@
       "region": "SA",
       "color": "#c9a227",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2052",
       "open_now": false,
@@ -46160,13 +46166,13 @@
       "region": "SA",
       "color": "#c9a227",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2044",
       "open_now": false,
@@ -46357,7 +46363,7 @@
       "region": "NSW",
       "color": "#7a3ea6",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
@@ -46365,8 +46371,8 @@
       "classes": [
         "Ultimate"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2140",
       "open_now": false,
@@ -46386,13 +46392,13 @@
       "region": "TAS",
       "color": "#c8632a",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2138",
       "open_now": false,
@@ -46983,6 +46989,56 @@
       "club": "Obedience Trial (Evening) \u2013 BDOC"
     },
     {
+      "title": "4CYTE Victorian State Agility Trial",
+      "start": "2026-10-02",
+      "end": "2026-10-04",
+      "location": "Dogs Victoria Agility Committee",
+      "url": "https://www.topdogevents.com.au/trials/1979",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "VIC",
+      "color": "#3aa657",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1979",
+      "open_now": true,
+      "is_past": false,
+      "club": "Dogs Victoria Agility Committee"
+    },
+    {
+      "title": "ACT State Titles",
+      "start": "2026-10-02",
+      "end": "2026-10-04",
+      "location": "DogsACT Agility",
+      "url": "https://www.topdogevents.com.au/trials/1693",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events",
+        "Dogs ACT"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1693",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1693/schedule/get",
+      "club": "DogsACT Agility"
+    },
+    {
       "title": "British Bulldog Club of Vic - Melbourne Royal Show",
       "start": "2026-10-02",
       "end": "2026-10-02",
@@ -47005,6 +47061,35 @@
       "club": "British Bulldog Club of Vic - Melbourne Royal Show"
     },
     {
+      "title": "CCKC 2nd 3rd 4th October Tricks Obedience Rally Agility Jumping Gamblers Trial Agility Obedience Rally",
+      "start": "2026-10-02",
+      "end": "2026-10-04",
+      "location": "Cairns City Kennel Club",
+      "url": "https://www.topdogevents.com.au/trials/2089",
+      "category": "Rally Obedience",
+      "cancelled": false,
+      "region": "QLD",
+      "color": "#c0392b",
+      "closes": "2026-09-25",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events",
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2089",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50587-SCHEDULE-Logan-All-Breeds-Dog-Obedience-Club-Inc-(Trial-2)-(QLD)-V1.pdf",
+      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49593/LoganAllBreedsDogObedienceClubIncTrial2_04-Oct-2026_RO_49593_Catalogue_SRmbRmcP20qvs5IFjrH9ZQ.pdf",
+      "address": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
+      "open_now": false,
+      "is_past": false,
+      "club": "Cairns City Kennel Club"
+    },
+    {
       "title": "Cairns \u2013 Obedience",
       "club": "Cairns",
       "start": "2026-10-02",
@@ -47024,39 +47109,11 @@
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49584",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50578-SCHEDULE-German-Shepherd-Dog-Club-of-Queensland-Inc-(RTB)-(QLD)-V1.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49584/GermanShepherdDogClubofQueenslandIncRTB_03-Oct-2026_OB_49584_Catalogue_ECjmfVOju0SsM-X2Xs_8sQ.pdf",
       "closes": "2026-09-27",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Cairns \u2013 Rally Obedience",
-      "club": "Cairns",
-      "start": "2026-10-02",
-      "end": "2026-10-03",
-      "location": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
-      "category": "Rally Obedience",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
-      "cancelled": false,
-      "sources": [
-        "Dogs Queensland (trial calendar)",
-        "Show Manager"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49593",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50587-SCHEDULE-Logan-All-Breeds-Dog-Obedience-Club-Inc-(Trial-2)-(QLD)-V1.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49593/LoganAllBreedsDogObedienceClubIncTrial2_04-Oct-2026_RO_49593_Catalogue_SRmbRmcP20qvs5IFjrH9ZQ.pdf",
-      "closes": "2026-09-25",
-      "address": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
-      "open_now": false,
-      "is_past": false
+      "is_past": true,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50578-SCHEDULE-German-Shepherd-Dog-Club-of-Queensland-Inc-(RTB)-(QLD)-V1.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49584/GermanShepherdDogClubofQueenslandIncRTB_03-Oct-2026_OB_49584_Catalogue_ECjmfVOju0SsM-X2Xs_8sQ.pdf"
     },
     {
       "title": "Cairns \u2013 Trick Dog",
@@ -47078,34 +47135,11 @@
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49587",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49586/MagpiesMackayDogObedienceClubIncTrial1_03-Oct-2026_TRICK_49586_Schedule_20260826_2FLBFcJx2UyfMzHuIrp91w.pdf",
-      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-reports/events/49587/MagpiesMackayDogObedienceClubIncTrial2_03-Oct-2026_TRICK_49587_TRICKMarkedCatalogue.pdf?d=20261003100010",
       "closes": "2026-09-25",
-      "address": "Abbott Park, Abbott Park, Casey Ave, Mackay, 4740, QLD",
-      "open_now": false,
-      "is_past": true
-    },
-    {
-      "title": "Dogs ACT Agility State Titles",
-      "start": "2026-10-02",
-      "end": "2026-10-02",
-      "location": "",
-      "url": "https://dogsact.org.au/event/dogs-act-agility-state-titles/",
-      "category": "Agility",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
       "open_now": false,
       "is_past": true,
-      "club": "Dogs ACT Agility State Titles"
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49586/MagpiesMackayDogObedienceClubIncTrial1_03-Oct-2026_TRICK_49586_Schedule_20260826_2FLBFcJx2UyfMzHuIrp91w.pdf",
+      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-reports/events/49587/MagpiesMackayDogObedienceClubIncTrial2_03-Oct-2026_TRICK_49587_TRICKMarkedCatalogue.pdf?d=20261003100010"
     },
     {
       "title": "Gawler Dog Training Club Inc Scent Work Trial - Advanced Interior & Vehicles",
@@ -47180,7 +47214,7 @@
       "verified": false,
       "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Beaudesert Kc \u2013 Championship Show",
@@ -47202,7 +47236,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Border Collie Club of NSW Inc \u2013 Obedience",
@@ -47224,7 +47258,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "Border Collie Club of NSW Inc"
     },
     {
@@ -47243,13 +47277,13 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2153",
-      "open_now": true,
-      "is_past": false,
-      "club": "CASSA Events"
+      "open_now": false,
+      "is_past": true,
+      "club": "CASSA Scent Work Trial"
     },
     {
       "title": "Cairns \u2013 Agility",
@@ -47292,7 +47326,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "Championship Shows \u2013 Dogs ACT"
     },
     {
@@ -47315,7 +47349,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "Culcairn Show Soceity \u2013 Conformation"
     },
     {
@@ -47339,12 +47373,11 @@
       "verified": true,
       "closes": "2026-09-18",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49086",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49086/EasternSuburbsDogTrainingClubIncObedienceTrial1andTricksTrial2_04-Oct-2026_OB_49086_Schedule_20260701.pdf",
-      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49086/EasternSuburbsDogTrainingClubInc_03-Oct-2026_OB_49086_Catalogue_LypLHJRT9E-tK8T8Ip95EA.pdf",
-      "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "club": "Eastern Suburbs Dog Training Club Inc",
       "open_now": false,
-      "is_past": false
+      "is_past": true,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49086/EasternSuburbsDogTrainingClubIncObedienceTrial1andTricksTrial2_04-Oct-2026_OB_49086_Schedule_20260701.pdf",
+      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49086/EasternSuburbsDogTrainingClubInc_03-Oct-2026_OB_49086_Catalogue_LypLHJRT9E-tK8T8Ip95EA.pdf"
     },
     {
       "title": "German Shepherd Dog Club \u2013 Members Competition",
@@ -47381,22 +47414,24 @@
       "cancelled": false,
       "provider": "Top Dog Events",
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2172",
+      "open_now": true,
       "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49519/FastPawsSydneyIncSNIFFEXPRESSScentWorkTrial_05-Oct-2026_SW_49519_Schedule_20260903_F1ZH93iWXUa39a1MktKiYg.pdf",
       "classes": [
         "Novice",
         "Advanced",
         "Excellent",
         "Masters"
       ],
-      "club": "Grafton Dog Obedience Club Inc"
+      "club": "Grafton Dog Obedience Club Inc",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49519/FastPawsSydneyIncSNIFFEXPRESSScentWorkTrial_05-Oct-2026_SW_49519_Schedule_20260903_F1ZH93iWXUa39a1MktKiYg.pdf"
     },
     {
       "title": "Irish Wolfhound Club of NSW Inc \u2013 Conformation",
@@ -47444,11 +47479,10 @@
       "verified": true,
       "closes": "2026-09-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49892",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49892/LOGANALLBREEDSDOGOBEDIENCECLUBINC_15-Sep-2026_OB_49892_Schedule_20260831_uevcSzesr0aJQLs49arvGw.pdf",
-      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49892/LOGANALLBREEDSDOGOBEDIENCECLUBINCTrial1_03-Oct-2026_OB_49892_Catalogue_jhq8mIFRqUalJ5wujOl7lg.pdf",
-      "address": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
       "open_now": false,
-      "is_past": false
+      "is_past": true,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49892/LOGANALLBREEDSDOGOBEDIENCECLUBINC_15-Sep-2026_OB_49892_Schedule_20260831_uevcSzesr0aJQLs49arvGw.pdf",
+      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49892/LOGANALLBREEDSDOGOBEDIENCECLUBINCTrial1_03-Oct-2026_OB_49892_Catalogue_jhq8mIFRqUalJ5wujOl7lg.pdf"
     },
     {
       "title": "Lure Coursing and Lure Pursuit",
@@ -47466,12 +47500,12 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2192",
-      "open_now": true,
-      "is_past": false,
+      "open_now": false,
+      "is_past": true,
       "club": "Lure Coursing Tasmania"
     },
     {
@@ -47479,7 +47513,7 @@
       "club": "Magpies Mackay & District Obedience Club Inc.",
       "start": "2026-10-03",
       "end": "2026-10-03",
-      "location": "Abbott Park, Abbott Park, Casey Ave, Mackay, 4740, QLD",
+      "location": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Trick Dog",
       "region": "QLD",
@@ -47495,11 +47529,11 @@
       "verified": true,
       "closes": "2026-09-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49586",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49586/MagpiesMackayDogObedienceClubIncTrial1_03-Oct-2026_TRICK_49586_Schedule_20260826_2FLBFcJx2UyfMzHuIrp91w.pdf",
-      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49586/MagpiesMackayDogObedienceClubIncTrial1_03-Oct-2026_TRICK_49586_Catalogue_RigeuYNM4UWpo1sWkhYMAQ.pdf",
-      "address": "Abbott Park, Abbott Park, Casey Ave, Mackay, 4740, QLD",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50585-SCHEDULE-Logan-All-Breeds-Dog-Obedience-Club-Inc-(Trial-2)-(QLD)-V1.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49591/LoganAllBreedsDogObedienceClubIncTrial2_04-Oct-2026_TRICK_49591_Catalogue_pgIEargYUUemVGyIuK3zzw.pdf",
+      "address": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Murray Valley Obedience Dog Club Inc",
@@ -47543,12 +47577,12 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2142",
-      "open_now": true,
-      "is_past": false,
+      "open_now": false,
+      "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/2142/event_files/497/get",
       "club": "Agility Dog Club of SA"
     },
@@ -47574,7 +47608,7 @@
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2164",
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/2164/schedule/get",
       "classes": [
         "Novice",
@@ -47600,12 +47634,12 @@
         "Top Dog Events",
         "Dogs NSW"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1805",
-      "open_now": true,
-      "is_past": false,
+      "open_now": false,
+      "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1805/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1805/catalogue/get",
       "club": "Shetland Sheepdog Club of NSW"
@@ -47626,14 +47660,39 @@
       "sources": [
         "Top Dog Events"
       ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2194",
+      "open_now": false,
+      "is_past": true,
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2194/catalogue/get",
+      "club": "SprintDogTM"
+    },
+    {
+      "title": "Track & Search Trial October 2026",
+      "start": "2026-10-03",
+      "end": "2026-10-04",
+      "location": "Tasmanian Dog Training Club Inc.",
+      "url": "https://www.topdogevents.com.au/trials/2162",
+      "category": "Track & Search",
+      "cancelled": false,
+      "region": "TAS",
+      "color": "#c8632a",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2194",
+      "entry_url": "https://www.topdogevents.com.au/trials/2162",
       "open_now": true,
       "is_past": false,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2194/catalogue/get",
-      "club": "Lure Coursing Tasmania"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2162/catalogue/get",
+      "club": "Tasmanian Dog Training Club Inc."
     },
     {
       "title": "United Retriever Club of NSW \u2013 Retrieving",
@@ -47657,9 +47716,9 @@
       "verified": true,
       "closes": "2026-09-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49788",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49788/UnitedRetrieverClubofNSW_03-Oct-2026_RETRIEVE_49788_Schedule_20260818_PNRC4836g0WLcQpUsv_SRQ.pdf",
       "club": "United Retriever Club of NSW",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49468/NSWObedienceStateTitles_05-Oct-2026_RATG_49468_Catalogue_N-0AtsWE80GJmaeXTWwa_g.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49788/UnitedRetrieverClubofNSW_03-Oct-2026_RETRIEVE_49788_Schedule_20260818_PNRC4836g0WLcQpUsv_SRQ.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49468/NSWObedienceStateTitles_05-Oct-2026_RATG_49468_Catalogue_w2-oPIMmJkqqA-qBDZ0Cag.pdf",
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
       "is_past": false
@@ -47786,7 +47845,7 @@
     },
     {
       "title": "German Shepherd Club \u2013 Rally Obedience",
-      "club": "German Shepherd Dog Club (Qld) Inc",
+      "club": "German Shepherd Dog Club of Queensland Inc (RTB)",
       "start": "2026-10-04",
       "end": "2026-10-04",
       "location": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
@@ -47807,11 +47866,10 @@
       "verified": true,
       "closes": "2026-09-27",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49585",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50579-SCHEDULE-German-Shepherd-Dog-Club-of-Queensland-Inc-(RTB)-(QLD)-V1.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49585/GermanShepherdDogClubofQueenslandIncRTB_03-Oct-2026_RO_49585_Catalogue_63fZ8LPFIku6ETRfxmQCCg.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50579-SCHEDULE-German-Shepherd-Dog-Club-of-Queensland-Inc-(RTB)-(QLD)-V1.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49585/GermanShepherdDogClubofQueenslandIncRTB_03-Oct-2026_RO_49585_Catalogue_63fZ8LPFIku6ETRfxmQCCg.pdf"
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
@@ -47906,7 +47964,7 @@
       "closes": "2026-09-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49590",
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50584-SCHEDULE-Logan-All-Breeds-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49590/LoganAllBreedsDogObedienceClubIncTrial1_04-Oct-2026_TRICK_49590_Catalogue_3fgsH-30ekOoAnyF1qZV4A.pdf",
+      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49590/LoganAllBreedsDogObedienceClubIncTrial1_04-Oct-2026_TRICK_49590_Catalogue_3fgsH-30ekOoAnyF1qZV4A.pdf",
       "address": "Gould Adams Park, Kingston Road, Kingston, Kingston Road, Kingston, 4114, QLD",
       "open_now": false,
       "is_past": false
@@ -47935,7 +47993,7 @@
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49356/PenrithKennelObedienceClubInc_04-Oct-2026_OB_49356_Schedule_20260717.pdf",
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "club": "Penrith Kennel & Obedience Club Inc",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49466/NSWObedienceStateTitles_05-Oct-2026_OB_49466_Catalogue_NZDOnjIGlEuEqIpJ7mndvA.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49466/NSWObedienceStateTitles_05-Oct-2026_OB_49466_Catalogue_M_R1EvJ8X0eDPr7vAw-t2g.pdf",
       "open_now": false,
       "is_past": false
     },
@@ -47960,12 +48018,37 @@
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49467",
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50464-SCHEDULE-NSW-Obedience-State-Titles-(NSW)-V1.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49467/NSWObedienceStateTitles_05-Oct-2026_RO_49467_Catalogue_IP4-o3BLEkqhC4tWs-udIw.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49467/NSWObedienceStateTitles_05-Oct-2026_RO_49467_Catalogue_303RJ7mk2kKAIRlI0lDdMA.pdf",
       "closes": "2026-09-18",
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
       "is_past": false,
       "club": "Penrith Kennel & Obedience Club Inc"
+    },
+    {
+      "title": "SAODC Obedience, Rally and Double Trick Test Trial Obedience Rally",
+      "start": "2026-10-04",
+      "end": "2026-10-04",
+      "location": "Beaumont Rd, South Parklands, SA, 5066",
+      "url": "https://www.topdogevents.com.au/trials/1774",
+      "category": "Rally Obedience",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/1774",
+      "open_now": true,
+      "is_past": false,
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1774/catalogue/get",
+      "club": "South Australian Obedience Dog Club Inc."
     },
     {
       "title": "Scentwork Trial Scent Work Club",
@@ -47988,6 +48071,31 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "SprintDogTM",
+      "start": "2026-10-04",
+      "end": "2026-10-04",
+      "location": "1385 Bridgenorth Rd, Rosevale",
+      "url": "https://www.topdogevents.com.au/trials/2195",
+      "category": "Sprint",
+      "cancelled": false,
+      "region": "TAS",
+      "color": "#c8632a",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2195",
+      "open_now": true,
+      "is_past": false,
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2195/catalogue/get",
+      "club": "Lure Coursing Tasmania"
     },
     {
       "title": "Beaudesert Kc (A2O Show) \u2013 Championship Show",
@@ -48090,31 +48198,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Kerang Agricultural Society Inc."
-    },
-    {
-      "title": "PDODC Rally and Tricks - October 5th",
-      "start": "2026-10-05",
-      "end": "2026-10-05",
-      "location": "Saints Road, Salisbury, 5108",
-      "url": "https://www.topdogevents.com.au/trials/2076",
-      "category": "Rally Obedience",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-09-25",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events",
-        "Dogs SA"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2076",
-      "open_now": false,
-      "is_past": false,
-      "club": "Para District Obedience Dog Club"
     },
     {
       "title": "Oxley Dog Training Club - MOCK Trial - Trainee Judge Practical Examinations - Not For Competition",
@@ -48259,6 +48342,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Scent Work Trial \u2013 ACTCDC"
+    },
+    {
+      "title": "NCODC & SDKODC Bale Seek Come N Try",
+      "start": "2026-10-08",
+      "end": "2026-10-08",
+      "location": "Noarlunga City Obedience Dog Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2227",
+      "category": "Obedience",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2026-10-07",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2227",
+      "open_now": true,
+      "is_past": false,
+      "club": "Noarlunga City Obedience Dog Club Inc"
     },
     {
       "title": "Scent Work Trial \u2013 ACTCDC",
@@ -48579,17 +48686,17 @@
       "region": "VIC",
       "color": "#3aa657",
       "closes": "2026-10-04",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
         "Dogs Victoria (official calendar)"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1781",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/1781/schedule/get",
       "club": "East Gippsland Dog Obedience Club"
@@ -48659,14 +48766,14 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-10-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49599",
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50593-SCHEDULE-Nanango-Kennel-Club-(QLD)-V1.pdf",
       "address": "Alan Downie Sports Fields, Burnett St, Nanango, 4615, QLD",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -48685,14 +48792,14 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-10-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49600",
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50594-SCHEDULE-Nanango-Kennel-Club-(QLD)-V1.pdf",
       "address": "Alan Downie Sports Fields, Burnett St, Nanango, 4615, QLD",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -49002,15 +49109,15 @@
         "Dogs Victoria (official calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-10-03",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48841",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/48841/VICTORIANHERDINGASSOCIATIONIncJudge1_10-Oct-2026_HERD_48841_Schedule_20260928_xKAx_ncOZkW8ESJxMeKBoQ.pdf",
       "address": "Nyora, 960 Mt Lyall Rd, Nyora, 3987, VIC",
       "club": "VICTORIAN HERDING ASSOCIATION Inc",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -49126,15 +49233,15 @@
         "Dogs Victoria (official calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-10-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49330",
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49330/CroydonDistrictObedienceDogClubInc_11-Oct-2026_OB_49330_Schedule_20260715.pdf",
       "address": "Silcock Reserve, William Road, Croydon, 3136, VIC",
       "club": "Croydon & District Obedience Dog Club Inc.",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -49229,13 +49336,12 @@
         "Dogs Victoria (official calendar)",
         "Top Dog Events"
       ],
-      "topdog_open": true,
       "closes": "2026-10-04",
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2021",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2021/schedule/get",
       "club": "Gippsland Obedience Dog Club"
@@ -49789,7 +49895,7 @@
     },
     {
       "title": "Lure Coursing Trial Whippet Club",
-      "club": "Lure Coursing Trial Whippet Club",
+      "club": "Whippet Club of WA",
       "start": "2026-10-17",
       "end": "2026-10-17",
       "location": "Western Australia",
@@ -49802,13 +49908,16 @@
       "breed_group": "Group 4 (Hounds)",
       "breed": "whippet",
       "sources": [
-        "Dogs West (WA calendar)"
+        "Dogs West (WA calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-10-15",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50195",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50195/WhippetClubofWA_17-Oct-2026_LURE_50195_Schedule_20261003_7vhzgqCrEUGK0xgM-oicrw.pdf",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -50101,8 +50210,8 @@
         "Top Dog Events"
       ],
       "closes": "2026-10-03",
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1744",
       "open_now": false,
@@ -50232,30 +50341,6 @@
       "club": "Echuca & District Kennel Club Inc AM"
     },
     {
-      "title": "Lure Coursing Trial Whippet Club",
-      "club": "Lure Coursing Trial Whippet Club",
-      "start": "2026-10-18",
-      "end": "2026-10-18",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Lure Coursing",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "breed_group": "Group 4 (Hounds)",
-      "breed": "whippet",
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "MDTC - Masters & Advanced Scent Work Trial",
       "start": "2026-10-18",
       "end": "2026-10-18",
@@ -50381,15 +50466,15 @@
       "verified": true,
       "closes": "2026-10-12",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49974",
-      "club": "Dogs ACT",
-      "open_now": true,
-      "is_past": false,
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49974/DogsACTScentWork_18-Oct-2026_SW_49974_Schedule_20260903_rCHSiE3fK0WY6eRrkJtEeA.pdf",
       "classes": [
         "Excellent",
         "Masters",
         "Ultimate"
-      ]
+      ],
+      "club": "Dogs ACT",
+      "open_now": true,
+      "is_past": false
     },
     {
       "title": "Sutherland Shire Dog Training Club Inc \u2013 Dances with Dogs",
@@ -50882,13 +50967,13 @@
       "color": "#c9a227",
       "cancelled": false,
       "closes": "2026-10-03",
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/1920",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49829/MountCityDistrictKennelClubSprintdog_25-Oct-2026_SPRINT_49829_Schedule_20260826_L5MGF6BtOkeyYxJ1ZaunCw.pdf",
-      "open_now": true,
-      "is_past": false
+      "open_now": false,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/1920/schedule/get"
     },
     {
       "title": "Hungarian Vizsla Club of NSW Inc \u2013 Scent Work",
@@ -51069,7 +51154,7 @@
       "verified": true,
       "closes": "2026-10-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49934",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50961-SCHEDULE-Toowoomba-Dog-Obedience-Club-Inc-(Trial-3)-(QLD)-V1.pdf",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50959-SCHEDULE-Toowoomba-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf",
       "address": "Norman park, Hursley St, TOOWOOMBA, 4350, QLD",
       "open_now": true,
       "is_past": false
@@ -51413,7 +51498,7 @@
     },
     {
       "title": "Marion Kennel Club Inc \u2013 Scent Work",
-      "club": "Marion Kennel Club Inc",
+      "club": "Marion Kennel Club Inc.",
       "start": "2026-10-27",
       "end": "2026-10-27",
       "location": "Jenkins Reserve, Saints Road, Salisbury",
@@ -51434,7 +51519,11 @@
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2134",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2134/schedule/get",
+      "classes": [
+        "Advanced"
+      ]
     },
     {
       "title": "Yuggera \u2013 Sprint",
@@ -51899,16 +51988,15 @@
       "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2136",
+      "open_now": true,
+      "is_past": false,
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49379/GSDCVScentWorkTrial_30-Oct-2026_SW_49379_Schedule_20260720.pdf",
-      "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "classes": [
         "Novice",
         "Advanced",
         "Excellent",
         "Masters"
       ],
-      "open_now": true,
-      "is_past": false,
       "club": "Berwick Obedience Dog Club Inc."
     },
     {
@@ -52347,11 +52435,10 @@
       "verified": true,
       "closes": "2026-10-16",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49507",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49507/AlburyBorderKennelClubInc_01-Nov-2026_OB_49507_Schedule_20260802_c2JQhiiAE0GKxJsG6xCJ3A.pdf",
-      "address": "ALBURY KENNEL CLUB GROUNDS, EAMES ST (OFF NORTH ST), ALBURY, 2640, NSW",
       "club": "Albury & Border Kennel Club Inc",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49507/AlburyBorderKennelClubInc_01-Nov-2026_OB_49507_Schedule_20260802_c2JQhiiAE0GKxJsG6xCJ3A.pdf"
     },
     {
       "title": "Boston Terrier Club of Vic Inc",
@@ -52664,10 +52751,9 @@
       "verified": true,
       "closes": "2026-10-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49949",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50964-SCHEDULE-Yuggera-Canine-Club-(Trial-1)-(QLD)-V1.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50964-SCHEDULE-Yuggera-Canine-Club-(Trial-1)-(QLD)-V1.pdf"
     },
     {
       "title": "Yuggera \u2013 Trick Dog",
@@ -52913,7 +52999,7 @@
       "title": "Bairnsdale & District Dog Obedience Club Inc",
       "start": "2026-11-07",
       "end": "2026-11-07",
-      "location": "Toners Lane, Morwell, 3840, VIC",
+      "location": "3rd Oval Lucknow Recreation Reserve, Lucknow Recreation Reserve, Great Alpine Rd, Lucknow, 3875, VIC",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Obedience",
       "region": "VIC",
@@ -52930,9 +53016,10 @@
       "closes": "2026-10-31",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49766",
       "club": "Bairnsdale & District Dog Obedience Club (Ring 1)",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49767/ObedienceRing1_07-Nov-2026_OB_49767_Schedule_20260816_CFep23LRt0KwrDVPbT5vgA.pdf",
+      "address": "3rd Oval Lucknow Recreation Reserve, Lucknow Recreation Reserve, Great Alpine Rd, Lucknow, 3875, VIC",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50146/GippslandObedienceDogClubInc_08-Nov-2026_OB_50146_Schedule_20260928_XGpZMgmHMk2YWjNlFPii_g.pdf"
+      "is_past": false
     },
     {
       "title": "Cairns \u2013 Trick Dog",
@@ -53774,11 +53861,10 @@
       "verified": true,
       "closes": "2026-11-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49545",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49545/BlacktownKennelTrainingClubInc_14-Nov-2026_OB_49545_Schedule_20260806_n-WsdpnOUkeENtBItVpMBg.pdf",
-      "address": "Blacktown City Canine Centre (Owen St), Owen St, Glendenning, 2761, NSW",
       "club": "Blacktown Kennel & Training Club Inc",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49545/BlacktownKennelTrainingClubInc_14-Nov-2026_OB_49545_Schedule_20260806_n-WsdpnOUkeENtBItVpMBg.pdf"
     },
     {
       "title": "Caboolture \u2013 Scent Work",
@@ -53801,13 +53887,14 @@
       "verified": true,
       "closes": "2026-11-01",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49959",
-      "open_now": true,
-      "is_past": false,
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50976-SCHEDULE-Caboolture-Sports-Dog-Obedience-Club-(QLD)-V1.pdf",
       "classes": [
         "Novice",
         "Advanced"
-      ]
+      ],
+      "address": "Morayfield, 34 Devine Crt, Morayfield, 4506, QLD",
+      "open_now": true,
+      "is_past": false
     },
     {
       "title": "Cjc Lecture Day \u2013 Show",
@@ -53967,9 +54054,10 @@
       "closes": "2026-11-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49027",
       "club": "Southern Obedience Dog Training Club",
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Schedule_20260629.pdf",
+      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Schedule_20260629.pdf"
+      "is_past": false
     },
     {
       "title": "SprintDog Trial \u2013 Dogs ACT",
@@ -54285,10 +54373,11 @@
       "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49850",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50857-SCHEDULE-Newcastle-All-Breeds-Dog-Training-Club-Inc-(AM-Trial)-(NSW)-V1.pdf",
       "closes": "2026-11-08",
+      "address": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
       "open_now": true,
       "is_past": false,
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50857-SCHEDULE-Newcastle-All-Breeds-Dog-Training-Club-Inc-(AM-Trial)-(NSW)-V1.pdf",
       "club": "Western Districts Boxer Club of NSW Inc"
     },
     {
@@ -54916,7 +55005,7 @@
       "open_now": true,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2221/schedule/get",
-      "club": "Dogs West DWD Working Party"
+      "club": "ROYAL CANIN STATE Dances With Dogs Championship"
     },
     {
       "title": "Tenterfield Terrier Club of NSW Inc \u2013 Conformation",
@@ -55082,7 +55171,7 @@
       "open_now": true,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2222/schedule/get",
-      "club": "Dogs West DWD Working Party"
+      "club": "ROYAL CANIN STATE Trick Test Titles"
     },
     {
       "title": "Sunshine Coast \u2013 Rally Obedience",
@@ -55410,10 +55499,9 @@
       "closes": "2026-11-28",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50031",
       "club": "Wollondilly All Breeds Kennel Club Inc",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50032/WollondillyAllBreedsKennelClubIncTrial2_05-Dec-2026_OB_50032_Schedule_20260911_pCsGklsxQkOj-NdXh2Ljdg.pdf",
-      "address": "Tahmoor Sports Ground, Thirlmere Way. Tahmoor, Thirlmere Way, Tahmoor, 2573, NSW",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50032/WollondillyAllBreedsKennelClubIncTrial2_05-Dec-2026_OB_50032_Schedule_20260911_pCsGklsxQkOj-NdXh2Ljdg.pdf"
     },
     {
       "title": "DOGS NSW Complex Fundraising Working \u2013 Conformation",
@@ -55625,7 +55713,7 @@
     },
     {
       "title": "Sprintdog Club \u2013 Sprint",
-      "club": "SprintDog Club of QLD Inc.",
+      "club": "Sprintdog Club of QLD Inc (Ballot)",
       "start": "2026-12-11",
       "end": "2026-12-12",
       "location": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
@@ -55644,10 +55732,9 @@
       "verified": true,
       "closes": "2026-11-30",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50193",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/51241-SCHEDULE-Sprintdog-Club-of-QLD-Inc-(QLD)-V1.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/51241-SCHEDULE-Sprintdog-Club-of-QLD-Inc-(QLD)-V1.pdf"
     },
     {
       "title": "Agility Trial ACWA",
@@ -63585,11 +63672,11 @@
       "is_past": true
     },
     {
-      "title": "Alaskan Malamute Club, Victoria \u2013 Weight Pull",
-      "club": "Alaskan Malamute Club, Victoria \u2013 Weight Pull",
+      "title": "Alaskan Malamute Club, Victoria - WeightPull event. \u2013 Weight Pull",
+      "club": "Alaskan Malamute Club, Victoria - WeightPull event. \u2013 Weight Pull",
       "start": "2026-10-03",
       "end": "2026-10-03",
-      "location": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49025",
       "category": "Weight Pull",
       "region": "VIC",
@@ -63604,12 +63691,12 @@
       "verified": true,
       "closes": "2026-09-30",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49025",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49025/AlaskanMalamuteClubVictoriaWeightPullevent_03-Oct-2026_WP_49025_Schedule_20260918_m9LlocjBBkyRNYXW2tf_xQ.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
+      "address": null,
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "DOGS VICTORIA RAFT COMMITTEE \u2013 Retrieving",
@@ -63636,7 +63723,7 @@
       "classes": null,
       "address": null,
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Eastern Suburbs Dog Training Club Inc \u2013 Trick Dog",
@@ -63661,16 +63748,16 @@
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49086/EasternSuburbsDogTrainingClubIncObedienceTrial1andTricksTrial2_04-Oct-2026_OB_49086_Schedule_20260701.pdf",
       "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49087/EasternSuburbsDogTrainingClubInc_03-Oct-2026_TRICK_49087_Catalogue_FNs8FcdHeU21ViakMw8UdQ.pdf",
       "classes": null,
-      "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
+      "address": null,
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
-      "title": "Murray Valley Obedience Dog Club \u2013 Rally Obedience",
-      "club": "Murray Valley Obedience Dog Club",
+      "title": "Murray Valley Obedience Dog Club - Rally Trial 1 \u2013 Rally Obedience",
+      "club": "Murray Valley Obedience Dog Club - Rally Trial 1",
       "start": "2026-10-03",
       "end": "2026-10-03",
-      "location": "Quandong Park red Cliffs, Park St, Red Cliffs, 3496, VIC",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49381",
       "category": "Rally Obedience",
       "region": "VIC",
@@ -63686,19 +63773,19 @@
       "verified": true,
       "closes": "2026-09-21",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49381",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49381/MurrayValleyObedienceDogClubRallyTrial1_03-Oct-2026_RO_49381_Schedule_20260720.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "Quandong Park red Cliffs, Park St, Red Cliffs, 3496, VIC",
+      "address": null,
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
-      "title": "The Welsh Corgi Club Of NSW Inc \u2013 Sprint",
-      "club": "The Welsh Corgi Club Of NSW Inc",
+      "title": "Welsh Corgi Club of NSW October SprintDog\u2122 Trials",
+      "club": "Welsh Corgi Club of NSW October SprintDog\u2122 Trials",
       "start": "2026-10-03",
       "end": "2026-10-03",
-      "location": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49480",
       "category": "Sprint",
       "region": "NSW",
@@ -63713,12 +63800,12 @@
       "verified": true,
       "closes": "2026-09-14",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49480",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49478/WelshCorgiClubofNSWOctoberSprintDogTrials_03-Oct-2026_SPRINT_49478_Schedule_20260730_9Fm_un4obUGD0Prl4Hk1-g.pdf",
-      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49480/WelshCorgiClubofNSWOctoberSprintDogTrials_03-Oct-2026_SPRINT_49480_Catalogue_EjRwjOxJYkiDumyrX6u5Mw.pdf",
+      "schedule_url": null,
+      "catalogue_url": null,
       "classes": null,
-      "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
+      "address": null,
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Eastern Suburbs Obedience Dog Club Inc Rally Trial \u2013 Rally Obedience",
@@ -63800,7 +63887,7 @@
       "closes": "2026-09-14",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49479",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49479/WelshCorgiClubofNSWOctoberSprintDogTrials_04-Oct-2026_SPRINT_49479_Schedule_20260730_6ubc_qQSDEi0Ct9RTbLpmg.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49479/WelshCorgiClubofNSWOctoberSprintDogTrials_04-Oct-2026_SPRINT_49479_Catalogue_0Z9qbp4CU0ioEwwm24vhyw.pdf",
+      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49479/WelshCorgiClubofNSWOctoberSprintDogTrials_04-Oct-2026_SPRINT_49479_Catalogue_0Z9qbp4CU0ioEwwm24vhyw.pdf",
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
@@ -63957,8 +64044,8 @@
       ],
       "color": "#3aa657",
       "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-10-03",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49268",
@@ -63966,7 +64053,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -64213,11 +64300,11 @@
       "is_past": false
     },
     {
-      "title": "Dogs NSW SprintDog (TM) Working Party SprintDog Trial (Ballot)",
-      "club": "Dogs NSW SprintDog (TM) Working Party SprintDog Trial (Ballot)",
+      "title": "Dogs NSW SprintDog (TM) Working Party",
+      "club": "Dogs NSW SprintDog (TM) Working Party",
       "start": "2026-10-18",
       "end": "2026-10-18",
-      "location": "",
+      "location": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49793",
       "category": "Sprint",
       "region": "NSW",
@@ -64232,19 +64319,19 @@
       "verified": true,
       "closes": "2026-10-01",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49793",
-      "schedule_url": null,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49792/DogsNSWSprintDogTMWorkingPartySprintDogTrial_17-Oct-2026_SPRINT_49792_Schedule_20260819_7bsfLYLjOkieQeuHiMyW3g.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
       "is_past": false
     },
     {
-      "title": "Poodle Club of Victoria Inc (Open PM Trial) \u2013 Rally Obedience",
-      "club": "Poodle Club of Victoria Inc (Open PM Trial)",
+      "title": "Poodle Club of Victoria Inc \u2013 Rally Obedience",
+      "club": "Poodle Club of Victoria Inc",
       "start": "2026-10-18",
       "end": "2026-10-18",
-      "location": "",
+      "location": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50091",
       "category": "Rally Obedience",
       "region": "VIC",
@@ -64260,19 +64347,19 @@
       "verified": true,
       "closes": "2026-10-10",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50091",
-      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/07/20261017-Precision-Agility-Schedule.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50090/PoodleClubofVictoriaInc_18-Oct-2026_RO_50090_Schedule_20260917_ExhEfDpGcU6kwb7APnpaoA.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "open_now": true,
       "is_past": false
     },
     {
-      "title": "Oxley Dog Training Club Inc SprintDogTM Trial",
-      "club": "Oxley Dog Training Club Inc SprintDogTM Trial",
+      "title": "Oxley Dog Training Club Inc \u2013 Sprint",
+      "club": "Oxley Dog Training Club Inc",
       "start": "2026-10-23",
       "end": "2026-10-23",
-      "location": "",
+      "location": "Attunga Recreational Grounds, Palmer St, Attunga, 2345, NSW",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49808",
       "category": "Sprint",
       "region": "NSW",
@@ -64287,19 +64374,19 @@
       "verified": true,
       "closes": "2026-10-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49808",
-      "schedule_url": null,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49808/OxleyDogTrainingClubInc_23-Oct-2026_SPRINT_49808_Schedule_20260820_2GsQ-riwBU2Xar442dEVng.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Attunga Recreational Grounds, Palmer St, Attunga, 2345, NSW",
       "open_now": true,
       "is_past": false
     },
     {
-      "title": "Oxley Dog Training Club Inc \u2013 Sprint",
-      "club": "Oxley Dog Training Club Inc",
+      "title": "Oxley Dog Training Club Inc SprintDogTM Trial",
+      "club": "Oxley Dog Training Club Inc SprintDogTM Trial",
       "start": "2026-10-24",
       "end": "2026-10-24",
-      "location": "Attunga Recreational Grounds, Palmer St, Attunga, 2345, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49809",
       "category": "Sprint",
       "region": "NSW",
@@ -64314,19 +64401,19 @@
       "verified": true,
       "closes": "2026-10-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49809",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49808/OxleyDogTrainingClubInc_23-Oct-2026_SPRINT_49808_Schedule_20260820_2GsQ-riwBU2Xar442dEVng.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "Attunga Recreational Grounds, Palmer St, Attunga, 2345, NSW",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
     {
-      "title": "DOGS NSW Grounds Development Committee SprintDogTM Trial (Ballot)",
-      "club": "DOGS NSW Grounds Development Committee SprintDogTM Trial (Ballot)",
+      "title": "DOGS NSW \u2013 Sprint",
+      "club": "DOGS NSW",
       "start": "2026-10-25",
       "end": "2026-10-25",
-      "location": "",
+      "location": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49798",
       "category": "Sprint",
       "region": "NSW",
@@ -64341,6 +64428,33 @@
       "verified": true,
       "closes": "2026-10-05",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49798",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49798/DOGSNSWGroundsDevelopmentCommitteeSprintDogTMTrial_25-Oct-2026_SPRINT_49798_Schedule_20260820_qS7Ap9MhFkSjErZ90g3gTA.pdf",
+      "catalogue_url": null,
+      "classes": null,
+      "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
+      "open_now": true,
+      "is_past": false
+    },
+    {
+      "title": "Oxley Dog Training Club Inc SprintDogTM Trial",
+      "club": "Oxley Dog Training Club Inc SprintDogTM Trial",
+      "start": "2026-10-25",
+      "end": "2026-10-25",
+      "location": "",
+      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49810",
+      "category": "Sprint",
+      "region": "NSW",
+      "source": "Show Manager",
+      "sources": [
+        "Show Manager"
+      ],
+      "color": "#7a3ea6",
+      "cancelled": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-10-09",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49810",
       "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
@@ -64378,11 +64492,11 @@
       "is_past": false
     },
     {
-      "title": "Warragul & Dist  Kennel & Obedience Club Inc \u2013 Rally Obedience",
-      "club": "Warragul & Dist  Kennel & Obedience Club Inc",
+      "title": "Warragul & Dist  Kennel & Obedience Club Inc Trial 1 \u2013 Rally Obedience",
+      "club": "Warragul & Dist  Kennel & Obedience Club Inc Trial 1",
       "start": "2026-10-25",
       "end": "2026-10-25",
-      "location": "Darnum Recreational Reserve, Shady Creek Rd, DARNUM, 3822, VIC",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49385",
       "category": "Rally Obedience",
       "region": "VIC",
@@ -64398,10 +64512,10 @@
       "verified": true,
       "closes": "2026-10-18",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49385",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49385/WarragulDistKennelObedienceClubIncTrial1_25-Oct-2026_RO_49385_Schedule_20260720.pdf",
+      "schedule_url": "https://vicdog.com/wp-content/uploads/2026/07/20261024-Knox-ODC-Agility-Schedule.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": "Darnum Recreational Reserve, Shady Creek Rd, DARNUM, 3822, VIC",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
@@ -64514,11 +64628,11 @@
       "is_past": false
     },
     {
-      "title": "Cessnock Dog Club \u2013 Sprint",
-      "club": "Cessnock Dog Club",
+      "title": "Cessnock Dog Club Sprint Trial 1 (Ballot)",
+      "club": "Cessnock Dog Club Sprint Trial 1 (Ballot)",
       "start": "2026-11-09",
       "end": "2026-11-09",
-      "location": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50004",
       "category": "Sprint",
       "region": "NSW",
@@ -64533,10 +64647,10 @@
       "verified": true,
       "closes": "2026-10-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50004",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50005/CessnockDogClubSprintTrial2_10-Nov-2026_SPRINT_50005_Schedule_20260911_vSTcwe9gvk6Y2uG4iW_M8Q.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
@@ -64622,11 +64736,11 @@
       "is_past": false
     },
     {
-      "title": "KNOX OBEDIENCE DOG CLUB INC \u2013 Obedience",
-      "club": "KNOX OBEDIENCE DOG CLUB INC",
+      "title": "Knox Obedience Dog Club Obedience & Rally AM TRIAL",
+      "club": "Knox Obedience Dog Club Obedience & Rally AM TRIAL",
       "start": "2026-11-21",
       "end": "2026-11-21",
-      "location": "Knox Park, Ferntree Gully Rd, Knoxfield, 3180, VIC",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49816",
       "category": "Obedience",
       "region": "VIC",
@@ -64641,10 +64755,10 @@
       "verified": true,
       "closes": "2026-11-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49816",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49816/KnoxObedienceDogClubObedienceRallyAMTRIAL_21-Nov-2026_OB_49816_Schedule_20260821_-zlK4I6kn06-VyZHngi55A.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "Knox Park, Ferntree Gully Rd, Knoxfield, 3180, VIC",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
