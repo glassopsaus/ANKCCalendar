@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T20:57:23+00:00",
+  "generated": "2026-10-07T21:10:57+00:00",
   "year": 2027,
   "count": 1750,
   "sources": [
@@ -926,10 +926,10 @@
     },
     {
       "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
-      "club": "Sprintdog \u2122 All breeds West Coast Dog Sports",
+      "club": "West Coast Dog Sports",
       "start": "2027-01-24",
       "end": "2027-01-24",
-      "location": "Western Australia",
+      "location": "West Coast Dog Sports",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Sprint",
       "region": "WA",
@@ -937,13 +937,16 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)"
+        "Dogs West (WA calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "topdog_open": true,
+      "closes": "2027-01-16",
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2250",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -16894,7 +16897,7 @@
       "title": "Labrador Retriever Club of NSW Inc \u2013 Obedience",
       "start": "2027-06-13",
       "end": "2027-06-13",
-      "location": "",
+      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Obedience",
       "region": "NSW",
@@ -16911,7 +16914,9 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "club": "Boxer Club of NSW - (Group 6 Obedience Trial)",
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "club": "Boxer Club of NSW",
       "open_now": true,
       "is_past": false
     },

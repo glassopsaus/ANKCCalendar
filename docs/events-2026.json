@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-06T20:52:40+00:00",
+  "generated": "2026-10-07T21:06:10+00:00",
   "year": 2026,
-  "count": 2682,
+  "count": 2687,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -552,8 +552,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -708,8 +707,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -717,14 +715,14 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1297",
       "open_now": false,
       "is_past": true,
-      "club": "Oxley Dog Training Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/1297/schedule/get",
       "classes": [
         "Novice",
         "Advanced",
         "Excellent",
         "Masters"
-      ]
+      ],
+      "club": "Oxley Dog Training Club Inc"
     },
     {
       "title": "Dogs ACT Rally Trial",
@@ -2321,8 +2319,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -2330,14 +2327,14 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1415",
       "open_now": false,
       "is_past": true,
-      "club": "Oxley Dog Training Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/1415/schedule/get",
       "classes": [
         "Novice",
         "Advanced",
         "Excellent",
         "Masters"
-      ]
+      ],
+      "club": "Oxley Dog Training Club Inc"
     },
     {
       "title": "Dogs ACT Track and Search Stewards Course",
@@ -2918,7 +2915,7 @@
       "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/1293/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1293/catalogue/get",
-      "club": "Western Classic Working Party"
+      "club": "WESTERN CLASSIC WEEKEND Dances With Dogs Obedience Rally"
     },
     {
       "title": "100m Sprint",
@@ -3085,8 +3082,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -3094,8 +3090,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1283",
       "open_now": false,
       "is_past": true,
-      "club": "Dogs NSW Agility Committee",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1283/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1283/catalogue/get",
+      "club": "Dogs NSW Agility Committee"
     },
     {
       "title": "TRAINING DAY - SprintDog",
@@ -3418,7 +3414,7 @@
       "open_now": false,
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/1437/catalogue/get",
-      "club": "Queensland Dog Sports - Agility Sub-Committee"
+      "club": "Agility & Double Jumpers FR Trial"
     },
     {
       "title": "Agility Subcommittee \u2013 Agility",
@@ -3582,8 +3578,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -5107,8 +5102,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -5476,8 +5470,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -6278,8 +6271,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -6839,7 +6831,7 @@
         "Excellent",
         "Masters"
       ],
-      "club": "Stellar Dogs Training and Education"
+      "club": "Stellar Dogs Training & Education - Scentwork Run Throughs (All Levels)"
     },
     {
       "title": "Bundaberg Kc \u2013 Championship Show",
@@ -11144,7 +11136,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1717",
       "open_now": false,
       "is_past": true,
-      "club": "CASSA Events"
+      "club": "CASSA Scent Work Trial"
     },
     {
       "title": "Championship & Restricted Parade Gun Dog Club \u2013 Conformation",
@@ -11895,8 +11887,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -11904,8 +11895,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1734",
       "open_now": false,
       "is_past": true,
-      "club": "All Star Dog Sports",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1734/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1734/catalogue/get",
+      "club": "All Star Dog Sports"
     },
     {
       "title": "Toowoomba Agility & Jumping Trials",
@@ -12096,8 +12087,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -12105,7 +12095,6 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1704",
       "open_now": false,
       "is_past": true,
-      "club": "Oxley Dog Training Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/1704/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1704/catalogue/get",
       "classes": [
@@ -12113,7 +12102,8 @@
         "Advanced",
         "Excellent",
         "Masters"
-      ]
+      ],
+      "club": "Oxley Dog Training Club Inc"
     },
     {
       "title": "Yuggera \u2013 Scent Work",
@@ -12736,7 +12726,7 @@
         "Advanced",
         "Excellent"
       ],
-      "club": "My Dog Can Do Scent Work MOCK TRIAL EI & AE"
+      "club": "My Dog Can Do"
     },
     {
       "title": "Obedience & Rally O Trials & Trick Dog Tests Midland Dog Training Club",
@@ -13295,8 +13285,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -13304,9 +13293,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1357",
       "open_now": false,
       "is_past": true,
-      "club": "Kyeamba Kennel and Training Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/1357/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1357/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1357/catalogue/get",
+      "club": "Kyeamba Kennel and Training Club Inc"
     },
     {
       "title": "WOLLONGONG WEDNESDAY",
@@ -14568,8 +14557,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -14577,8 +14565,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1292",
       "open_now": false,
       "is_past": true,
-      "club": "Albury and Border Kennel Club",
-      "schedule_url": "https://www.topdogevents.com.au/trials/1292/schedule/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/1292/schedule/get",
+      "club": "Albury and Border Kennel Club"
     },
     {
       "title": "Amstaff Club \u2013 Weight Pull",
@@ -16267,8 +16255,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -16276,7 +16263,6 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1800",
       "open_now": false,
       "is_past": true,
-      "club": "Oxley Dog Training Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/1800/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1800/catalogue/get",
       "classes": [
@@ -16284,7 +16270,8 @@
         "Advanced",
         "Excellent",
         "Masters"
-      ]
+      ],
+      "club": "Oxley Dog Training Club Inc"
     },
     {
       "title": "PDODC MEMBERS ONLY - Indoor Scent Work Training",
@@ -18521,8 +18508,7 @@
       "breed_group": "Group 5 (Working Dogs)",
       "breed": "border collie",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -18530,9 +18516,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1733",
       "open_now": false,
       "is_past": true,
-      "club": "Border Collie Club of NSW INC",
       "schedule_url": "https://www.topdogevents.com.au/trials/1733/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1733/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1733/catalogue/get",
+      "club": "Border Collie Club of NSW INC"
     },
     {
       "title": "Wangaratta Kennel & Obedience Dog Club",
@@ -18729,8 +18715,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -18738,11 +18723,11 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1688",
       "open_now": false,
       "is_past": true,
-      "club": "Cessnock Dog Club",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1688/catalogue/get",
       "classes": [
         "Novice"
-      ]
+      ],
+      "club": "Cessnock Dog Club"
     },
     {
       "title": "Championship Shows (CFR - All Breeds) CAWA Events Ctee \u2013 Conformation",
@@ -20495,8 +20480,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -21033,8 +21017,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -21779,8 +21762,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -21788,14 +21770,14 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1906",
       "open_now": false,
       "is_past": true,
-      "club": "Cessnock Dog Club",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1906/catalogue/get",
       "classes": [
         "Novice",
         "Advanced",
         "Excellent",
         "Masters"
-      ]
+      ],
+      "club": "Cessnock Dog Club"
     },
     {
       "title": "Championship & Open Show Oriental Breeds \u2013 Conformation",
@@ -23624,7 +23606,7 @@
     },
     {
       "title": "Lure Coursing Trial West Coast Dog Sports",
-      "club": "West Coast Dog Sports",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
       "start": "2026-07-18",
       "end": "2026-07-18",
       "location": "600 Maranup Ford rd, Maranup",
@@ -25052,8 +25034,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -26117,8 +26098,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -26126,9 +26106,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1779",
       "open_now": false,
       "is_past": true,
-      "club": "Manly & District Kennel & Dog Training Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/1779/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1779/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1779/catalogue/get",
+      "club": "Manly & District Kennel & Dog Training Club Inc"
     },
     {
       "title": "Melbourne Lure Dog Club",
@@ -26591,8 +26571,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -26600,7 +26579,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1936",
       "open_now": false,
       "is_past": true,
-      "club": "Herding Working Party - Dogs NSW"
+      "club": "HWP Aug Test Day"
     },
     {
       "title": "Herding Trial - Double header All Breeds Herding Club",
@@ -26759,8 +26738,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -27063,8 +27041,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -27072,9 +27049,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1829",
       "open_now": false,
       "is_past": true,
-      "club": "Orange Dog Sports Club Inc.",
       "schedule_url": "https://www.topdogevents.com.au/trials/1829/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1829/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1829/catalogue/get",
+      "club": "Orange Dog Sports Club Inc."
     },
     {
       "title": "Alaskan Malamute \u2013 Weight Pull",
@@ -27547,8 +27524,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -27556,8 +27532,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1843",
       "open_now": false,
       "is_past": true,
-      "club": "Parkes and District Kennel Club",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1843/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1843/catalogue/get",
+      "club": "Parkes and District Kennel Club"
     },
     {
       "title": "Redlands Scentwork Interior and Exterior trial",
@@ -27962,9 +27938,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1877",
       "open_now": false,
       "is_past": true,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2004/schedule/get",
       "catalogue_url": "https://www.topdogevents.com.au/trials/1877/catalogue/get",
-      "club": "Dances with Dogs Club of SA"
+      "club": "Dances with Dogs Club of SA",
+      "schedule_url": "https://www.topdogevents.com.au/trials/2004/schedule/get"
     },
     {
       "title": "Dogs Victoria Earthdog Committee EARTHDOG TEST",
@@ -29501,8 +29477,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -30728,7 +30703,7 @@
       "open_now": false,
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/2000/catalogue/get",
-      "club": "GC Showday - Jumping Trial and Games Trial (Pairs / Snooker)"
+      "club": "Gold Coast DOTC"
     },
     {
       "title": "Gippsland Obedience Dog Club Inc OPEN T&S TRIAL",
@@ -31057,7 +31032,7 @@
     },
     {
       "title": "Lure coursing Trial West Coast Dog Sports \u2013 Lure Coursing",
-      "club": "Lure coursing Trial West Coast Dog Sports",
+      "club": "West Coast Dog Sports",
       "start": "2026-08-29",
       "end": "2026-08-30",
       "location": "628 Bogling rd, Caljie",
@@ -33550,8 +33525,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -33682,8 +33656,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -33691,7 +33664,6 @@
       "entry_url": "https://www.topdogevents.com.au/trials/2160",
       "open_now": false,
       "is_past": true,
-      "club": "Hills Dog Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/2160/schedule/get",
       "classes": [
         "Novice",
@@ -33699,7 +33671,8 @@
         "Excellent",
         "Masters",
         "Ultimate"
-      ]
+      ],
+      "club": "Hills Dog Club Inc"
     },
     {
       "title": "Metropolitan \u2013 Rally Obedience",
@@ -33912,8 +33885,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -33921,8 +33893,8 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/48978",
       "open_now": false,
       "is_past": true,
-      "club": "Oxley Dog Training Club Inc",
-      "schedule_url": "https://www.topdogevents.com.au/trials/2168/schedule/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/2168/schedule/get",
+      "club": "Oxley Dog Training Club Inc"
     },
     {
       "title": "Russian Black Terrier \u2013 Trick Dog",
@@ -34665,8 +34637,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -34674,9 +34645,9 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49664",
       "open_now": false,
       "is_past": true,
-      "club": "NSW Herding Association",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49664/DogsNSWSportingCommitteeDraftTest_18-Sep-2026_DRAFT_49664_Schedule_20260810_EKwvklG5jUiTRTo0FLlQ1Q.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49664/DogsNSWSportingCommitteeDraftTest_18-Sep-2026_DRAFT_49664_Catalogue_GlZUkyVSFkOgRojS9FxaOg.pdf"
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49664/DogsNSWSportingCommitteeDraftTest_18-Sep-2026_DRAFT_49664_Catalogue_GlZUkyVSFkOgRojS9FxaOg.pdf",
+      "club": "NSW Herding Association"
     },
     {
       "title": "ATC Tracking and Track & Search (1-4 only) Trial Sunday 20th September 2026 Track and Search",
@@ -35243,8 +35214,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "classes": [
         "Ultimate"
@@ -35255,9 +35225,9 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49783",
       "open_now": false,
       "is_past": true,
-      "club": "Grafton Dog Obedience Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/2139/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2139/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2139/catalogue/get",
+      "club": "Grafton Dog Obedience Club Inc"
     },
     {
       "title": "2026 Perth Royal Show Agility Canine Hoopers Dances With Dogs Obedience Rally Scent Work",
@@ -36535,8 +36505,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -36544,15 +36513,15 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49519",
       "open_now": false,
       "is_past": true,
-      "club": "Grafton Dog Obedience Club Inc",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49519/FastPawsSydneyIncSNIFFEXPRESSScentWorkTrial_05-Oct-2026_SW_49519_Schedule_20260903_F1ZH93iWXUa39a1MktKiYg.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49519/FastPawsSydneyIncSNIFFEXPRESSScentWorkTrial_05-Oct-2026_SW_49519_Catalogue_X9RZA3iXB0qZNENdvXkEaA.pdf",
       "classes": [
         "Novice",
         "Advanced",
         "Excellent",
         "Masters"
       ],
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49519/FastPawsSydneyIncSNIFFEXPRESSScentWorkTrial_05-Oct-2026_SW_49519_Catalogue_X9RZA3iXB0qZNENdvXkEaA.pdf"
+      "club": "Grafton Dog Obedience Club Inc"
     },
     {
       "title": "Logan \u2013 Obedience",
@@ -37163,12 +37132,12 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2208",
-      "open_now": true,
-      "is_past": false,
+      "open_now": false,
+      "is_past": true,
       "schedule_url": "https://www.topdogevents.com.au/trials/2208/schedule/get",
       "classes": [
         "Novice",
@@ -37197,11 +37166,42 @@
       "verified": true,
       "closes": "2026-10-02",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49929",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49929/YuggeraCanineClub_06-Oct-2026_TRICK_49929_Schedule_20260907_RsAqflf3bUSzNAKSCcCKTQ.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49929/YuggeraCanineClub_06-Oct-2026_TRICK_49929_Catalogue_xGWUGOVmYk6sVPV2eo-Rug.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
-      "is_past": false
+      "is_past": true,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49929/YuggeraCanineClub_06-Oct-2026_TRICK_49929_Schedule_20260907_RsAqflf3bUSzNAKSCcCKTQ.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49929/YuggeraCanineClub_06-Oct-2026_TRICK_49929_Catalogue_xGWUGOVmYk6sVPV2eo-Rug.pdf"
+    },
+    {
+      "title": "Oxley Dog Training Club SW 7th October 2026",
+      "start": "2026-10-07",
+      "end": "2026-10-07",
+      "location": "Oxley Dog Training Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2199",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "NSW",
+      "color": "#7a3ea6",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2199",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2199/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2199/catalogue/get",
+      "classes": [
+        "Novice",
+        "Advanced",
+        "Excellent",
+        "Masters"
+      ],
+      "club": "Oxley Dog Training Club Inc"
     },
     {
       "title": "Scent Work Trial \u2013 ACTCDC",
@@ -37231,30 +37231,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Scent Work Trial \u2013 ACTCDC"
-    },
-    {
-      "title": "NCODC & SDKODC Bale Seek Come N Try",
-      "start": "2026-10-08",
-      "end": "2026-10-08",
-      "location": "Noarlunga City Obedience Dog Club Inc",
-      "url": "https://www.topdogevents.com.au/trials/2227",
-      "category": "Obedience",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-10-07",
-      "topdog_open": true,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2227",
-      "open_now": true,
-      "is_past": false,
-      "club": "Noarlunga City Obedience Dog Club Inc"
     },
     {
       "title": "Scent Work Trial \u2013 ACTCDC",
@@ -37655,6 +37631,7 @@
       "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/1961/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1961/catalogue/get",
       "club": "Tasmanian Dog Training Club Inc."
     },
     {
@@ -37680,6 +37657,7 @@
       "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/1962/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1962/catalogue/get",
       "club": "Tasmanian Dog Training Club Inc."
     },
     {
@@ -38469,7 +38447,7 @@
       "title": "Let the Games Begin",
       "start": "2026-10-17",
       "end": "2026-10-17",
-      "location": "All Star Dog Sports",
+      "location": "44 Luddenham Rd, Orchard Hills, NSW, 2748",
       "url": "https://www.topdogevents.com.au/trials/2159",
       "category": "Agility",
       "cancelled": false,
@@ -38479,8 +38457,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -38768,7 +38745,7 @@
     },
     {
       "title": "Border Collie Club of SA Inc \u2013 Agility",
-      "club": "Border Collie Club of South Australia Inc.",
+      "club": "Border Collie Club of SA Inc",
       "start": "2026-10-18",
       "end": "2026-10-18",
       "location": "Elliott Goodger Memorial Park",
@@ -39534,7 +39511,7 @@
     },
     {
       "title": "Gundog Club of SA Inc \u2013 Scent Work",
-      "club": "Gundog Club of SA Inc",
+      "club": "Gundog Club of S.A. Inc",
       "start": "2026-10-25",
       "end": "2026-10-25",
       "location": "Henley Beach High School",
@@ -39655,10 +39632,9 @@
       "closes": "2026-10-18",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49388",
       "club": "Warragul & Dist  Kennel & Obedience Club Inc",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49385/WarragulDistKennelObedienceClubIncTrial1_25-Oct-2026_RO_49385_Schedule_20260720.pdf",
-      "address": "Darnum Recreational Reserve, Shady Creek Rd, DARNUM, 3822, VIC",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49385/WarragulDistKennelObedienceClubIncTrial1_25-Oct-2026_RO_49385_Schedule_20260720.pdf"
     },
     {
       "title": "Championship Show (ROYAL) (All Breeds) RASWA \u2013 Conformation",
@@ -39879,10 +39855,9 @@
       "status_label": "Open (verified)",
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50181",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/51235-SCHEDULE-German-Shorthaired-Pointer-Club-of-Qld-(QLD)-V1.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": true,
       "is_past": false,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/51235-SCHEDULE-German-Shorthaired-Pointer-Club-of-Qld-(QLD)-V1.pdf",
       "club": "Cairns City Kennel Club"
     },
     {
@@ -39899,8 +39874,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -39908,7 +39882,6 @@
       "entry_url": "https://www.topdogevents.com.au/trials/2181",
       "open_now": true,
       "is_past": false,
-      "club": "Coffs Harbour Dog Training Club Inc.",
       "schedule_url": "https://www.topdogevents.com.au/trials/2181/schedule/get",
       "classes": [
         "Novice",
@@ -39916,7 +39889,8 @@
         "Excellent",
         "Masters",
         "Ultimate"
-      ]
+      ],
+      "club": "Coffs Harbour Dog Training Club Inc."
     },
     {
       "title": "Maryborough Kc \u2013 Championship Show",
@@ -40176,8 +40150,7 @@
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "status_label": "Open (verified)",
       "verified": true,
@@ -40209,10 +40182,9 @@
       "verified": true,
       "closes": "2026-10-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49939",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50967-SCHEDULE-German-Shepherd-Dog-Club-of-Queensland-Inc-(QLD)-V1.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50967-SCHEDULE-German-Shepherd-Dog-Club-of-Queensland-Inc-(QLD)-V1.pdf"
     },
     {
       "title": "German Shepherd Dog Club of Vic Inc RTG5",
@@ -40232,13 +40204,12 @@
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
-      "closes": "2026-10-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49380",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49380/GSDCVRTBGp5ObedienceRallyTrial_31-Oct-2026_OB_49380_Schedule_20260720.pdf",
-      "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
-      "club": "German Shepherd Dog Club of Victoria Inc",
+      "closes": "2026-10-23",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49380/GSDCVRTBGp5ObedienceRallyTrial_31-Oct-2026_OB_49380_Schedule_20260720.pdf",
+      "club": "German Shepherd Dog Club of Victoria Inc"
     },
     {
       "title": "Gsp Club \u2013 Scent Work",
@@ -40583,6 +40554,31 @@
       "club": "Queensland Dog Sports - Agility Sub-Committee"
     },
     {
+      "title": "SDK&ODC 1st Nov 2026 SWU",
+      "start": "2026-11-01",
+      "end": "2026-11-01",
+      "location": "Southern Districts Kennel & Obedience Dog Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2247",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2026-10-26",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events",
+        "Dogs SA"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2247",
+      "open_now": true,
+      "is_past": false,
+      "club": "Southern Districts Kennel & Obedience Dog Club Inc"
+    },
+    {
       "title": "Stratford Dog Agility",
       "start": "2026-11-01",
       "end": "2026-11-01",
@@ -40753,10 +40749,9 @@
       "verified": true,
       "closes": "2026-10-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49949",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50965-SCHEDULE-Yuggera-Canine-Club-(Trial-2)-(QLD)-V1.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50965-SCHEDULE-Yuggera-Canine-Club-(Trial-2)-(QLD)-V1.pdf"
     },
     {
       "title": "Yuggera \u2013 Trick Dog",
@@ -40806,15 +40801,15 @@
       "verified": true,
       "closes": "2026-10-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50182",
+      "open_now": true,
+      "is_past": false,
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/51234-SCHEDULE-Dalmatian-Association-of-Qld-Inc-(QLD)-V1.pdf",
       "classes": [
         "Novice",
         "Advanced",
         "Excellent",
         "Masters"
-      ],
-      "open_now": true,
-      "is_past": false
+      ]
     },
     {
       "title": "Obedience Trial (PM) \u2013 ACTCDC",
@@ -40900,8 +40895,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs NSW"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -40981,9 +40975,9 @@
       "verified": true,
       "closes": "2026-10-31",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49766",
-      "club": "Bairnsdale & District Dog Obedience Club (Ring 1)",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49767/ObedienceRing1_07-Nov-2026_OB_49767_Schedule_20260816_CFep23LRt0KwrDVPbT5vgA.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49766/ObedienceRing1_07-Nov-2026_OB_49766_Schedule_20260816_ngZY003LRk-NmGcBimX1QQ.pdf",
       "address": "3rd Oval Lucknow Recreation Reserve, Lucknow Recreation Reserve, Great Alpine Rd, Lucknow, 3875, VIC",
+      "club": "Bairnsdale and District Dog Obedience Club",
       "open_now": true,
       "is_past": false
     },
@@ -41144,6 +41138,30 @@
       "club": "Morwell/Traralgon Kennel Club Inc - PM"
     },
     {
+      "title": "November Agility and Jumping Trial",
+      "start": "2026-11-07",
+      "end": "2026-11-08",
+      "location": "Hobart Dog Training Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2246",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "TAS",
+      "color": "#c8632a",
+      "closes": "2026-10-31",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2246",
+      "open_now": true,
+      "is_past": false,
+      "club": "Hobart Dog Training Club Inc"
+    },
+    {
       "title": "Obedience Trial (PM) \u2013 ACTCDC",
       "start": "2026-11-07",
       "end": "2026-11-07",
@@ -41267,6 +41285,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Tracking Trial \u2013 ACTCDC"
+    },
+    {
+      "title": "WCDS Sprint Dog Trial",
+      "start": "2026-11-07",
+      "end": "2026-11-07",
+      "location": "West Coast Dog Sports",
+      "url": "https://www.topdogevents.com.au/trials/2248",
+      "category": "Sprint",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "closes": "2026-11-01",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2248",
+      "open_now": true,
+      "is_past": false,
+      "club": "West Coast Dog Sports"
     },
     {
       "title": "Yuggera \u2013 Scent Work",
@@ -41525,9 +41567,34 @@
       "verified": true,
       "closes": "2026-11-01",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49957",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49958/SprintdogClubofQLDInc_14-Nov-2026_SPRINT_49958_Schedule_20260902_N2C0BBqFZUWzHpU77th_Xg.pdf",
+      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "open_now": true,
+      "is_past": false
+    },
+    {
+      "title": "Agility and Jumping trial",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "Southern Districts Kennel & Obedience Dog Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2244",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2026-11-06",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2244",
       "open_now": true,
       "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49957/SprintdogClubofQLDInc_13-Nov-2026_SPRINT_49957_Schedule_20260902_rafZHvujTkiTlnXRrebQww.pdf"
+      "club": "Southern Districts Kennel & Obedience Dog Club Inc"
     },
     {
       "title": "Caboolture \u2013 Scent Work",
@@ -41584,7 +41651,7 @@
       "title": "Eastern Shore Dog Club Trick Dog Trials",
       "start": "2026-11-14",
       "end": "2026-11-15",
-      "location": "Eastern Shore Dog Club",
+      "location": "South Street Reserve, Bellerive, 7018",
       "url": "https://www.topdogevents.com.au/trials/2245",
       "category": "Trick Dog",
       "cancelled": false,
@@ -41672,11 +41739,10 @@
       "verified": true,
       "closes": "2026-11-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49027",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Schedule_20260629.pdf",
-      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "club": "Southern Obedience Dog Training Club",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Schedule_20260629.pdf"
     },
     {
       "title": "SprintDog Trial \u2013 Dogs ACT",
@@ -41699,10 +41765,9 @@
       "closes": "2026-10-22",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50028",
       "club": "Dogs ACT - Sprint Dog - Part A Restricted (Ballot)",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50028/DogsACTSprintDogPartARestricted_22-Oct-2026_SPRINT_50028_Schedule_20260911_shWh_QGs-0enaFwY6-MtHg.pdf",
-      "address": "ACT CDC Grounds, 240 Narrabundah Lane, Symonston, 2609, ACT",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50028/DogsACTSprintDogPartARestricted_22-Oct-2026_SPRINT_50028_Schedule_20260911_shWh_QGs-0enaFwY6-MtHg.pdf"
     },
     {
       "title": "Sprintdog\u2122 Trial Whippet Club",
@@ -42108,6 +42173,30 @@
       "club": "Redlands Dog Obedience Club Inc"
     },
     {
+      "title": "TFP Inc Jumpin' Up North!",
+      "start": "2026-11-21",
+      "end": "2026-11-22",
+      "location": "Tassie Flying Paws Dog Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2152",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "TAS",
+      "color": "#c8632a",
+      "closes": "2026-11-14",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2152",
+      "open_now": true,
+      "is_past": false,
+      "club": "Tassie Flying Paws Dog Club Inc"
+    },
+    {
       "title": "Western Agility Group",
       "start": "2026-11-21",
       "end": "2026-11-22",
@@ -42265,7 +42354,7 @@
     },
     {
       "title": "Marion Kennel Club Inc \u2013 Scent Work",
-      "club": "Marion Kennel Club Inc.",
+      "club": "Marion Kennel Club Inc",
       "start": "2026-11-24",
       "end": "2026-11-24",
       "location": "Jenkins Reserve, Saints Road, Salisbury",
@@ -42478,9 +42567,10 @@
       "verified": true,
       "closes": "2026-11-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49962",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50979-SCHEDULE-Sunshine-Coast-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf",
+      "address": "Ballinger Rd Sports, Balllinger Rd, Buderim, 4560, QLD",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50979-SCHEDULE-Sunshine-Coast-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf"
+      "is_past": false
     },
     {
       "title": "Sunshine Coast \u2013 Trick Dog",
@@ -42555,10 +42645,10 @@
     },
     {
       "title": "Sprintdog\u2122 Trial All breeds West Coast Dog Sports",
-      "club": "Sprintdog\u2122 Trial All breeds West Coast Dog Sports",
+      "club": "West Coast Dog Sports",
       "start": "2026-12-04",
       "end": "2026-12-04",
-      "location": "Western Australia",
+      "location": "West Coast Dog Sports",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Sprint",
       "region": "WA",
@@ -42566,13 +42656,16 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)"
+        "Dogs West (WA calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "topdog_open": true,
+      "closes": "2026-11-27",
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2249",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -42735,10 +42828,9 @@
       "verified": true,
       "closes": "2026-12-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50124",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50124/QLDObedStateTrialsSubCommitteeDoubleObedienceTrial_08-Dec-2026_OB_50124_Schedule_20260923_eQY_3OhnN0KqN0SJOTUfAw.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50124/QLDObedStateTrialsSubCommitteeDoubleObedienceTrial_08-Dec-2026_OB_50124_Schedule_20260923_eQY_3OhnN0KqN0SJOTUfAw.pdf"
     },
     {
       "title": "Yuggera \u2013 Sprint",
@@ -43133,8 +43225,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43161,8 +43252,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43189,8 +43279,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43271,8 +43360,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43461,8 +43549,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43489,8 +43576,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43517,8 +43603,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43788,8 +43873,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43870,8 +43954,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -43898,8 +43981,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44034,8 +44116,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44170,8 +44251,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44279,8 +44359,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44307,8 +44386,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44389,8 +44467,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44417,8 +44494,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44445,8 +44521,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44608,8 +44683,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44690,8 +44764,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -44826,8 +44899,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -45017,8 +45089,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -45477,8 +45548,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -45532,8 +45602,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -45722,8 +45791,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -45885,8 +45953,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -45940,8 +46007,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -45995,8 +46061,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46131,8 +46196,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46159,8 +46223,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46268,8 +46331,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46296,8 +46358,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46324,8 +46385,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46460,8 +46520,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46515,8 +46574,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46570,8 +46628,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46598,8 +46655,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46653,8 +46709,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46762,8 +46817,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46817,8 +46871,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46845,8 +46898,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -46927,8 +46979,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -47036,8 +47087,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -47091,8 +47141,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -47119,8 +47168,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -47174,8 +47222,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -47445,8 +47492,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -47473,8 +47519,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -47663,8 +47708,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -48232,8 +48276,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -48368,8 +48411,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": true,
@@ -48531,8 +48573,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -48667,8 +48708,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -48749,8 +48789,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -48939,8 +48978,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -48967,8 +49005,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -48995,8 +49032,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49023,8 +49059,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49078,8 +49113,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49187,8 +49221,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49404,8 +49437,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49540,8 +49572,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49595,8 +49626,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49623,8 +49653,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49732,8 +49761,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49760,8 +49788,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -49896,8 +49923,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50113,8 +50139,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50141,8 +50166,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50169,8 +50193,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50224,8 +50247,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50333,8 +50355,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50415,8 +50436,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50578,8 +50598,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50849,8 +50868,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50931,8 +50949,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -50959,8 +50976,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -51068,8 +51084,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -51204,8 +51219,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": true,
@@ -51232,8 +51246,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -51449,8 +51462,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -51558,8 +51570,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -51748,8 +51759,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52073,8 +52083,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52101,8 +52110,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52129,8 +52137,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52563,8 +52570,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52699,8 +52705,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52727,8 +52732,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52755,8 +52759,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52783,8 +52786,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52946,8 +52948,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -52974,8 +52975,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53029,8 +53029,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53165,8 +53164,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53328,8 +53326,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53518,8 +53515,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53573,8 +53569,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53655,8 +53650,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53710,8 +53704,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53738,8 +53731,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -53955,8 +53947,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -54172,8 +54163,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -54200,8 +54190,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -54228,8 +54217,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -54472,8 +54460,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -54500,8 +54487,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -54798,8 +54784,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -54961,8 +54946,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -55422,8 +55406,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -55504,8 +55487,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -55613,8 +55595,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -55705,7 +55686,7 @@
       "closes": "2026-10-05",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49312",
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49312/DobermannClubofNSWIncScentWorkTrial091026_09-Oct-2026_SW_49312_Schedule_20260713.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49312/DobermannClubofNSWIncScentWorkTrial091026_09-Oct-2026_SW_49312_Catalogue_D3PZhT-GykyE6MgXH2TTyw.pdf",
       "classes": [
         "Novice",
         "Excellent",
@@ -55862,8 +55843,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -55890,8 +55870,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -56009,7 +55988,7 @@
       "closes": "2026-09-21",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49910",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49910/BasenjiClubofNSWInc_11-Oct-2026_SPRINT_49910_Schedule_20260901_2mFwJdbAkk6PfvZm2HEZjg.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49419/FieldSpanielClubofNSWSprintDogTMTrial_11-Oct-2026_SPRINT_49419_Catalogue_-ZMudE4gmUOQmpWF9H_oWA.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49910/BasenjiClubofNSWInc_11-Oct-2026_SPRINT_49910_Catalogue_ITT6EHquUkeJ9PUQD45IhQ.pdf",
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
@@ -56385,8 +56364,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -56413,13 +56391,12 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-10-06",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50144",
@@ -56430,7 +56407,7 @@
         "Masters"
       ],
       "address": null,
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -56528,8 +56505,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -56556,8 +56532,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -56569,7 +56544,7 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49795/HillsDogClubIncRallyTrickDogTrials_31-Oct-2026_TRICK_49795_Schedule_20260819_pJ-VAM85iUiGDKvMsXDHrw.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": "Castle Hill Showground, Showground road, Castle Hill, 2154, NSW",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
@@ -56584,8 +56559,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -56624,13 +56598,13 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50021/MudgeeDistrictKennelObedClubInc_06-Nov-2026_SPRINT_50021_Schedule_20260912_-FEaV0HtsEyQ8zFvOwuC6Q.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Victoria Park , Gulgong, Grevillea St, Gulgong, 2852, NSW",
       "open_now": false,
       "is_past": false
     },
     {
-      "title": "Bairnsdale and District Dog Obedience Club \u2013 Rally Obedience",
-      "club": "Bairnsdale and District Dog Obedience Club",
+      "title": "Bairnsdale & District Dog Obedience Club (Ring 5) \u2013 Rally Obedience",
+      "club": "Bairnsdale & District Dog Obedience Club (Ring 5)",
       "start": "2026-11-07",
       "end": "2026-11-07",
       "location": "3rd Oval Lucknow Recreation Reserve, Lucknow Recreation Reserve, Great Alpine Rd, Lucknow, 3875, VIC",
@@ -56651,7 +56625,7 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49767/ObedienceRing1_07-Nov-2026_OB_49767_Schedule_20260816_CFep23LRt0KwrDVPbT5vgA.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": "3rd Oval Lucknow Recreation Reserve, Lucknow Recreation Reserve, Great Alpine Rd, Lucknow, 3875, VIC",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
@@ -56737,11 +56711,11 @@
       "is_past": false
     },
     {
-      "title": "Cessnock Dog Club \u2013 Sprint",
-      "club": "Cessnock Dog Club",
+      "title": "Cessnock Dog Club Sprint Trial 2 (Ballot)",
+      "club": "Cessnock Dog Club Sprint Trial 2 (Ballot)",
       "start": "2026-11-10",
       "end": "2026-11-10",
-      "location": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50005",
       "category": "Sprint",
       "region": "NSW",
@@ -56756,10 +56730,10 @@
       "verified": true,
       "closes": "2026-10-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50005",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50004/CessnockDogClubSprintTrial1_09-Nov-2026_SPRINT_50004_Schedule_20261006_UDbWKSUbC0amUS-vI7oCHQ.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
+      "address": null,
       "open_now": true,
       "is_past": false
     },
@@ -56845,11 +56819,11 @@
       "is_past": false
     },
     {
-      "title": "Field Spaniel Club of NSW SprintDogTM Trial (Ballot)",
-      "club": "Field Spaniel Club of NSW SprintDogTM Trial (Ballot)",
+      "title": "Field Spaniel Club of NSW \u2013 Sprint",
+      "club": "Field Spaniel Club of NSW",
       "start": "2026-11-21",
       "end": "2026-11-21",
-      "location": "",
+      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50018",
       "category": "Sprint",
       "region": "NSW",
@@ -56864,10 +56838,10 @@
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50018",
-      "schedule_url": null,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261007_GkjsAr64rkmsTlOqpkMz1Q.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
       "is_past": false
     },
@@ -56936,8 +56910,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
@@ -56981,11 +56954,11 @@
       "is_past": false
     },
     {
-      "title": "Field Spaniel Club of NSW SprintDogTM Trial (Ballot)",
-      "club": "Field Spaniel Club of NSW SprintDogTM Trial (Ballot)",
+      "title": "Field Spaniel Club of NSW \u2013 Sprint",
+      "club": "Field Spaniel Club of NSW",
       "start": "2026-11-22",
       "end": "2026-11-22",
-      "location": "",
+      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50019",
       "category": "Sprint",
       "region": "NSW",
@@ -57000,10 +56973,10 @@
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50019",
-      "schedule_url": null,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261007_GkjsAr64rkmsTlOqpkMz1Q.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
       "is_past": false
     },
@@ -57018,8 +56991,7 @@
       "region": "NSW",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs NSW"
+        "Show Manager"
       ],
       "color": "#7a3ea6",
       "cancelled": false,
