@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T20:40:35+00:00",
+  "generated": "2026-10-10T19:54:05+00:00",
   "year": 2027,
   "count": 1750,
   "sources": [
@@ -7262,13 +7262,13 @@
         "Dogs NSW",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "open",
+      "status_label": "Open (verified)",
       "verified": true,
-      "closes": "2027-04-08",
-      "entry_url": null,
+      "closes": "2027-04-04",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50248",
       "club": "Sighthound Development Day  (NSW Lure Coursing Association)",
-      "open_now": false,
+      "open_now": true,
       "is_past": false
     },
     {
@@ -11389,13 +11389,13 @@
         "Dogs NSW",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "open",
+      "status_label": "Open (verified)",
       "verified": true,
-      "closes": "2027-05-06",
-      "entry_url": null,
+      "closes": "2027-05-02",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50249",
       "club": "Sighthound Development Day  (NSW Lure Coursing Association)",
-      "open_now": false,
+      "open_now": true,
       "is_past": false
     },
     {
@@ -15371,13 +15371,13 @@
         "Dogs NSW",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "open",
+      "status_label": "Open (verified)",
       "verified": true,
-      "closes": "2027-06-03",
-      "entry_url": null,
+      "closes": "2027-05-30",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50253",
       "club": "Sighthound Development Day  (NSW Lure Coursing Association)",
-      "open_now": false,
+      "open_now": true,
       "is_past": false
     },
     {
@@ -21578,13 +21578,13 @@
         "Dogs NSW",
         "Show Manager"
       ],
-      "status": "listed",
-      "status_label": "Listed (verified)",
+      "status": "open",
+      "status_label": "Open (verified)",
       "verified": true,
-      "closes": "2027-07-08",
-      "entry_url": null,
+      "closes": "2027-07-04",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50254",
       "club": "Sighthound Development Day  (NSW Lure Coursing Association)",
-      "open_now": false,
+      "open_now": true,
       "is_past": false
     },
     {
@@ -25001,15 +25001,17 @@
       "cancelled": false,
       "provider": null,
       "sources": [
-        "Dogs NSW"
+        "Dogs NSW",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "NSW Lure Coursing Association"
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2027-07-25",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50255",
+      "club": "NSW Lure Coursing Association",
+      "open_now": true,
+      "is_past": false
     },
     {
       "title": "Nanango \u2013 Endurance",
