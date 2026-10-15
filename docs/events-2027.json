@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-14T20:10:29+00:00",
+  "generated": "2026-10-15T19:49:59+00:00",
   "year": 2027,
-  "count": 1750,
+  "count": 1752,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -657,7 +657,7 @@
     },
     {
       "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
-      "club": "Sprintdog \u2122 All breeds West Coast Dog Sports",
+      "club": "West Coast Dog Sports",
       "start": "2027-01-24",
       "end": "2027-01-24",
       "location": "602 Warton Road, Southern River, WA, 6110",
@@ -680,30 +680,6 @@
       "open_now": true,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2250/schedule/get"
-    },
-    {
-      "title": "Sprintdog \u2122 Whippet Club",
-      "club": "Sprintdog \u2122 Whippet Club",
-      "start": "2027-01-25",
-      "end": "2027-01-25",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Sprint",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "breed_group": "Group 4 (Hounds)",
-      "breed": "whippet",
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
     },
     {
       "title": "DOGS NSW Library & Archives Committee \u2013 Conformation",
@@ -4284,6 +4260,28 @@
       "club": "DOGS NSW Scent Work Working Party"
     },
     {
+      "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
+      "club": "Sprintdog \u2122 All breeds West Coast Dog Sports",
+      "start": "2027-03-26",
+      "end": "2027-03-26",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Sprint",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Alaskan Malamute \u2013 Weight Pull",
       "club": "Alaskan Malamute \u2013 Weight Pull",
       "start": "2027-03-27",
@@ -4487,6 +4485,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
+      "club": "Sprintdog \u2122 All breeds West Coast Dog Sports",
+      "start": "2027-03-27",
+      "end": "2027-03-27",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Sprint",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -5720,7 +5740,7 @@
       "title": "NSW Lure Coursing Association \u2013 Lure Coursing",
       "start": "2027-04-11",
       "end": "2027-04-11",
-      "location": "",
+      "location": "Marchmont Racecourse, Gums Lane, Yass, 2620, NSW",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Lure Coursing",
       "region": "NSW",
@@ -5737,7 +5757,9 @@
       "verified": true,
       "closes": "2027-04-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50248",
-      "club": "Sighthound Development Day  (NSW Lure Coursing Association)",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50248/NSWLureCoursingAssociationSighthoundTestTrial_11-Apr-2027_LURE_50248_Schedule_20261008_piaAhrdkfkKtnbHDnoujUw.pdf",
+      "address": "Marchmont Racecourse, Gums Lane, Yass, 2620, NSW",
+      "club": "NSW Lure Coursing Association",
       "open_now": true,
       "is_past": false
     },
@@ -6238,6 +6260,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Newcastle All Breeds Dog Training Club Inc"
+    },
+    {
+      "title": "Sprintdog \u2122 Whippet Club",
+      "club": "Sprintdog \u2122 Whippet Club",
+      "start": "2027-04-17",
+      "end": "2027-04-17",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Sprint",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Sunshine Coast \u2013 Trick Dog",
@@ -11813,6 +11859,29 @@
       "club": "Newcastle All Breeds Dog Training Club Inc"
     },
     {
+      "title": "Retrieving Trial - (Novice & Restricted Stakes) Gun Dog Club",
+      "club": "Retrieving Trial - (Novice & Restricted Stakes) Gun Dog Club",
+      "start": "2027-05-30",
+      "end": "2027-05-30",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Retrieving",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Sprint Dog Trial \u2013 BDOC",
       "start": "2027-05-30",
       "end": "2027-05-30",
@@ -12741,8 +12810,8 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50253/NSWLureCoursingAssociation_06-Jun-2027_LURE_50253_Schedule_20261008_1hrdHjFRKEW6Mb1B87HkgA.pdf"
     },
     {
-      "title": "Retrieving Trial - (Novice & Restricted Stakes) Gun Dog Club",
-      "club": "Retrieving Trial - (Novice & Restricted Stakes) Gun Dog Club",
+      "title": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
+      "club": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
       "start": "2027-06-06",
       "end": "2027-06-06",
       "location": "Western Australia",
@@ -13940,11 +14009,10 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
-      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "club": "Boxer Club of NSW",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf"
     },
     {
       "title": "Port Macquarie Dog Club Inc \u2013 Endurance",
@@ -17981,11 +18049,10 @@
       "verified": true,
       "closes": "2027-07-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50254",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50254/NSWLureCoursingAssociationSighthoundTestTrial_11-Jul-2027_LURE_50254_Schedule_20261008_7s1PbkCApES8NKJQlx2xcA.pdf",
-      "address": "Marchmont Racecourse, Gums Lane, Yass, 2620, NSW",
       "club": "NSW Lure Coursing Association",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50254/NSWLureCoursingAssociationSighthoundTestTrial_11-Jul-2027_LURE_50254_Schedule_20261008_7s1PbkCApES8NKJQlx2xcA.pdf"
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
@@ -29049,8 +29116,8 @@
       "club": "4p\u2019s All Toy Dog Club of NSW \u2013 Conformation"
     },
     {
-      "title": "Championship Show x 2 (All Breeds) Fremantle Dog Club \u2013 Conformation",
-      "club": "Championship Show x 2 (All Breeds) Fremantle Dog Club \u2013 Conformation",
+      "title": "Championship Show (All Breeds) and Open show Fremantle Dog Club \u2013 Conformation",
+      "club": "Championship Show (All Breeds) and Open show Fremantle Dog Club \u2013 Conformation",
       "start": "2027-10-09",
       "end": "2027-10-09",
       "location": "Western Australia",
@@ -29293,28 +29360,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Australian Kelpie Club of NSW Inc \u2013 Conformation"
-    },
-    {
-      "title": "Championship (All Breeds) and Open show Fremantle Dog Club \u2013 Conformation",
-      "club": "Championship (All Breeds) and Open show Fremantle Dog Club \u2013 Conformation",
-      "start": "2027-10-10",
-      "end": "2027-10-10",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Conformation",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
     },
     {
       "title": "Dwd Club Qld \u2013 Dances with Dogs",
@@ -32651,8 +32696,8 @@
       "club": "Newcastle Toy & All Breeds Kennel Club \u2013 Conformation"
     },
     {
-      "title": "Southern Obedience Dog Training Club Obedience & Rally Twilight Trial",
-      "club": "Southern Obedience Dog Training Club Obedience & Rally Twilight Trial",
+      "title": "Southern Obedience Dog Training Club",
+      "club": "Southern Obedience Dog Training Club",
       "start": "2027-01-23",
       "end": "2027-01-23",
       "location": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
@@ -32661,8 +32706,7 @@
       "region": "VIC",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Victoria (official calendar)"
+        "Show Manager"
       ],
       "color": "#3aa657",
       "cancelled": false,
@@ -32674,7 +32718,7 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50081/SouthernObedienceDogTrainingClub_23-Jan-2027_OB_50081_Schedule_20260916_NYxXYK0jlEmWd_dWseBatA.pdf",
       "catalogue_url": null,
       "classes": null,
-      "address": null,
+      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "open_now": true,
       "is_past": false
     },
