@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-18T18:47:00+00:00",
+  "generated": "2026-10-19T21:02:53+00:00",
   "year": 2027,
-  "count": 1753,
+  "count": 1754,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -15466,10 +15466,11 @@
       "verified": true,
       "closes": "2027-05-30",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50253",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50253/NSWLureCoursingAssociation_06-Jun-2027_LURE_50253_Schedule_20261008_1hrdHjFRKEW6Mb1B87HkgA.pdf",
+      "address": "Marchmont Racecourse, Gums Lane, Yass, 2620, NSW",
       "club": "NSW Lure Coursing Association",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50253/NSWLureCoursingAssociation_06-Jun-2027_LURE_50253_Schedule_20261008_1hrdHjFRKEW6Mb1B87HkgA.pdf"
+      "is_past": false
     },
     {
       "title": "Retrieving Trial - All Age Stakes (National Fundraiser) CAWA Events Ctee",
@@ -16400,12 +16401,13 @@
       "status": "open",
       "status_label": "Open (verified)",
       "verified": true,
-      "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45686",
-      "club": "Oxley Dog Training Club Inc",
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45686/BoxerClubofNSWGroup6RallyTrial_12-Jun-2027_RO_45686_Schedule_20260611.pdf",
+      "closes": "2027-05-07",
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
       "is_past": false,
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45686/BoxerClubofNSWGroup6RallyTrial_12-Jun-2027_RO_45686_Schedule_20260611.pdf"
+      "club": "Oxley Dog Training Club Inc"
     },
     {
       "title": "Oxley Dog Training Club Inc \u2013 Trick Dog",
@@ -16615,6 +16617,29 @@
       "location": "",
       "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
       "category": "Obedience",
+      "region": "NSW",
+      "source": "Dogs NSW",
+      "color": "#7a3ea6",
+      "cancelled": false,
+      "provider": null,
+      "sources": [
+        "Dogs NSW"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Southern Highlands Kennel & Obedience"
+    },
+    {
+      "title": "Southern Highlands Kennel & Obedience \u2013 Rally Obedience",
+      "start": "2027-06-12",
+      "end": "2027-06-12",
+      "location": "",
+      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
+      "category": "Rally Obedience",
       "region": "NSW",
       "source": "Dogs NSW",
       "color": "#7a3ea6",
@@ -25102,10 +25127,11 @@
       "verified": true,
       "closes": "2027-07-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50255",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50255/NSWLureCoursingAssociationSighthoundTestTrial_01-Aug-2027_LURE_50255_Schedule_20261008_P6uQgh1Kk0KA9j9FurM4nw.pdf",
+      "address": "Marchmont Racecourse, Gums Lane, Yass, 2620, NSW",
       "club": "NSW Lure Coursing Association",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50255/NSWLureCoursingAssociationSighthoundTestTrial_01-Aug-2027_LURE_50255_Schedule_20261008_P6uQgh1Kk0KA9j9FurM4nw.pdf"
+      "is_past": false
     },
     {
       "title": "Nanango \u2013 Endurance",
