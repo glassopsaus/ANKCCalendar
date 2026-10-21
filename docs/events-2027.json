@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T20:00:01+00:00",
+  "generated": "2026-10-21T20:06:27+00:00",
   "year": 2027,
   "count": 1762,
   "sources": [
@@ -1109,10 +1109,10 @@
     },
     {
       "title": "Agility, Jumping & Games Trial Cloverdale Canine Comp",
-      "club": "Agility, Jumping & Games Trial Cloverdale Canine Comp",
+      "club": "Cloverdale Canine Companions Inc",
       "start": "2027-01-30",
       "end": "2027-01-30",
-      "location": "Western Australia",
+      "location": "Cloverdale Canine Companions Inc",
       "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Agility",
       "region": "WA",
@@ -1120,13 +1120,16 @@
       "color": "#16887a",
       "cancelled": false,
       "sources": [
-        "Dogs West (WA calendar)"
+        "Dogs West (WA calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "topdog_open": true,
+      "closes": "2027-01-25",
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2277",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -11504,11 +11507,10 @@
       "verified": true,
       "closes": "2027-05-02",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50249",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50249/NSWLureCoursingAssociationSighthoundTestTrial_09-May-2027_LURE_50249_Schedule_20261008_OueZ4kHB9U-bcPeU6hlGZA.pdf",
-      "address": "Marchmont Racecourse, Gums Lane, Yass, 2620, NSW",
       "club": "NSW Lure Coursing Association",
       "open_now": true,
-      "is_past": false
+      "is_past": false,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50249/NSWLureCoursingAssociationSighthoundTestTrial_09-May-2027_LURE_50249_Schedule_20261008_OueZ4kHB9U-bcPeU6hlGZA.pdf"
     },
     {
       "title": "Retrieving Trial (All Age Stakes) Gundog Club of WA",
@@ -17058,10 +17060,11 @@
       "verified": true,
       "closes": "2027-05-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/45685",
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf",
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "club": "Boxer Club of NSW",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/45685/BoxerClubofNSWGroup6ObedienceTrial_12-Jun-2027_OB_45685_Schedule_20260611.pdf"
+      "is_past": false
     },
     {
       "title": "Port Macquarie Dog Club Inc \u2013 Endurance",
@@ -21764,10 +21767,11 @@
       "verified": true,
       "closes": "2027-07-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50254",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50254/NSWLureCoursingAssociationSighthoundTestTrial_11-Jul-2027_LURE_50254_Schedule_20261008_7s1PbkCApES8NKJQlx2xcA.pdf",
+      "address": "Marchmont Racecourse, Gums Lane, Yass, 2620, NSW",
       "club": "NSW Lure Coursing Association",
       "open_now": true,
-      "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50254/NSWLureCoursingAssociationSighthoundTestTrial_11-Jul-2027_LURE_50254_Schedule_20261008_7s1PbkCApES8NKJQlx2xcA.pdf"
+      "is_past": false
     },
     {
       "title": "Retrieving Trial - Novice & Restricted Stakes Retrieving Club",
