@@ -2598,20 +2598,27 @@ def _enrich_topdog_schedules(events):
         _grace = 21
 
     def _detail_done_and_past(e):
+        """Should we SKIP re-fetching this event's detail because it's past and
+        its detail is frozen? A past event's schedule/address never changes, and
+        a catalogue that hasn't appeared within GRACE days of the event is never
+        coming. So:
+          - within GRACE days of the event: still fetch IF a catalogue could yet
+            appear (missing one) — catches late-posted catalogues.
+          - beyond GRACE days: ALWAYS skip — the detail is final, re-fetching a
+            still-missing schedule/catalogue/address just wastes a daily request.
+        This is what stops hundreds of long-past events (that simply never had a
+        catalogue) being re-fetched every single day."""
         end = e.get("end") or e.get("start")
         try:
             end_d = dt.date.fromisoformat(end[:10])
         except (ValueError, TypeError):
             return False
         if end_d >= _today:
-            return False  # not past
-        # recently past: still allow a late catalogue within the grace window
-        if (_today - end_d).days <= _grace and not e.get("catalogue_url"):
-            return False
-        # well past (or recently-past but catalogue already have): done if it has
-        # at least a location + schedule (address/schedule won't change now).
-        return bool(_has_street_address(e) or e.get("location")) \
-            and bool(e.get("schedule_url"))
+            return False  # not past — normal upcoming fetch
+        days_past = (_today - end_d).days
+        if days_past <= _grace and not e.get("catalogue_url"):
+            return False  # recently past, catalogue may still appear — fetch it
+        return True  # well past (or recent + catalogue already have): skip
 
     targets = []
     n_skipped_past = 0
