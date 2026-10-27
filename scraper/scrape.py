@@ -413,6 +413,19 @@ _RE_EVENT_URL_FMT = "https://readyentries.com/view-event-group/{id}"
 _RE_LISTING_URL = "https://readyentries.com/view-events"
 
 
+def _today_aest():
+    """TODAY'S date in Australian eastern time, not UTC. The scrape runs ~02:00
+    AEST = ~16:00 UTC the PREVIOUS day, so dt.date.today() (UTC on the runner) is
+    usually a day behind the real Australian date — which made entry-closing
+    dates lag ~a day (events stayed 'open' for a day after they'd closed).
+    Falls back to a +10h nudge if the tz database isn't available."""
+    try:
+        from zoneinfo import ZoneInfo
+        return dt.datetime.now(ZoneInfo("Australia/Sydney")).date()
+    except Exception:
+        return (dt.datetime.utcnow() + dt.timedelta(hours=10)).date()
+
+
 def _re_epoch_to_iso(v):
     """Ready Entries dates are epoch MILLISECONDS (e.g. 1784688076433). Bubble
     stores an event's date as midnight AUSTRALIAN LOCAL time, so that instant is
@@ -1880,7 +1893,7 @@ def parse_topdog(source):
                 closes_passed = False
                 if td_closes:
                     try:
-                        closes_passed = dt.date.fromisoformat(td_closes[:10]) < dt.date.today()
+                        closes_passed = dt.date.fromisoformat(td_closes[:10]) <= _today_aest()
                     except (ValueError, TypeError):
                         closes_passed = False
                 if td_word == "closed" or closes_passed:
@@ -1955,7 +1968,7 @@ def parse_topdog_http(source):
                 closes_passed = False
                 if td_closes:
                     try:
-                        closes_passed = dt.date.fromisoformat(td_closes[:10]) < dt.date.today()
+                        closes_passed = dt.date.fromisoformat(td_closes[:10]) <= _today_aest()
                     except (ValueError, TypeError):
                         closes_passed = False
                 if td_word == "closed" or closes_passed:
@@ -3607,19 +3620,29 @@ def build_year():
     # entry platform, not otherwise corroborated.
     ENTRY_PLATFORMS = {"Show Manager", "Dogz Online", "Top Dog Events",
                        "Ready Entries", "Ozentries"}
-    today = dt.date.today()
+    today = _today_aest()  # Australian date, not UTC (see _today_aest)
 
-    def _closes_passed(ev):
-        """True if we KNOW the entry closing date and it is before today. A
-        passed closing date is unambiguous, so it overrides a stale 'open'
-        verdict from a source that was slow to flip the event to closed."""
+    def _close_date(ev):
         c = ev.get("closes")
         if not c:
-            return False
+            return None
         try:
-            return dt.date.fromisoformat(str(c)[:10]) < today
+            return dt.date.fromisoformat(str(c)[:10])
         except (ValueError, TypeError):
-            return False
+            return None
+
+    def _closes_before_today(ev):
+        """Closing date is strictly BEFORE today (AEST) — entries have closed."""
+        d = _close_date(ev)
+        return d is not None and d < today
+
+    def _closes_today(ev):
+        """Closing date IS today (AEST) — the last day to enter. Shown as a
+        distinct 'Closing today' status so it's clearer than a plain 'Open'/
+        'closed' the day entries close (we can't scrape the exact cutoff time)."""
+        d = _close_date(ev)
+        return d is not None and d == today
+
 
     for e2 in unique:
         srcs = set(e2.get("sources") or ([e2["source"]] if e2.get("source") else []))
@@ -3638,7 +3661,8 @@ def build_year():
         ep_status = e2.get("ep_status")
         ep_open = (ep_status == "open")
         ep_closed = (ep_status == "closed")
-        closes_passed = _closes_passed(e2)
+        closes_before = _closes_before_today(e2)   # entries already closed
+        closes_today = _closes_today(e2)            # last day to enter
 
         # Entry link: the "Enter / details" button should point where you can
         # actually ENTER. Pick the most enter-able SPECIFIC per-event link
@@ -3659,19 +3683,24 @@ def build_year():
 
         # ---- open (enterable) ----  distinct from verified
         # A source may be slow to flip open->closed, so if we KNOW the closing
-        # date has passed, the event is not open regardless of the source verdict.
+        # date is before today, the event is not open regardless of the source
+        # verdict. Still "enterable" on the closing day itself (closes_today).
         e2["open_now"] = (sm_open or topdog_open or ep_open) and not sm_cancelled \
-            and not closes_passed
+            and not closes_before
 
         # ---- headline status + label ----
         if sm_cancelled:
             e2["status"] = "cancelled"
             e2["status_label"] = "Cancelled"
+        elif closes_today and not sm_closed and not ep_closed and not td_closed:
+            # Last day to enter — flag distinctly (we don't know the cutoff time).
+            e2["status"] = "closing_today"
+            e2["status_label"] = "Closing today"
         elif e2["open_now"]:
             e2["status"] = "open"
             e2["status_label"] = "Open" + (" (verified)" if e2["verified"] else "")
-        elif sm_closed or ep_closed or td_closed or closes_passed:
-            # Either a source said closed, OR we know the closing date passed.
+        elif sm_closed or ep_closed or td_closed or closes_before:
+            # Either a source said closed, OR we know the closing date has passed.
             e2["status"] = "closed"
             e2["status_label"] = "Entries closed"
         elif on_entry_platform:
@@ -3695,7 +3724,7 @@ def build_year():
     # so the entry-state survives and the UI can show both badges.
     #   - Uses the END date, so a multi-day trial stays current until its last
     #     day has passed.
-    today = dt.date.today()
+    today = _today_aest()  # Australian date, not UTC
     for e2 in unique:
         end_iso = e2.get("end") or e2.get("start")
         try:
