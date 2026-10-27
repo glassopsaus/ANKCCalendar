@@ -10,6 +10,7 @@
     --verified:#1f7a4d; --verified-bg:#e7f2ec;
     --unverified:#9a6b12; --unverified-bg:#f6efdd;
     --open:#1f7a4d; --open-bg:#e7f2ec;
+    --closingtoday:#c2410c; --closingtoday-bg:#fdecde;
     --listed:#3a6ea5; --listed-bg:#e6eef6;
     --closed:#6b7280; --closed-bg:#eef0f2;
     --approved:#9a6b12; --approved-bg:#f6efdd;
@@ -202,6 +203,7 @@
     display:inline-flex; align-items:center; gap:6px; white-space:nowrap;}
   .status .ic{width:13px;height:13px;flex:none}
   .status.st-open{background:var(--open-bg); color:var(--open);}
+  .status.st-closing_today{background:var(--closingtoday-bg); color:var(--closingtoday); font-weight:700;}
   .status.st-listed{background:var(--listed-bg); color:var(--listed);}
   .status.st-closed{background:var(--closed-bg); color:var(--closed);}
   .status.st-approved{background:var(--approved-bg); color:var(--approved);}
@@ -339,7 +341,7 @@
   </div>
   <div id="list"><div class="state-msg">Loading events…</div></div>
   <footer>
-    <div>Sourced from ANKC state governing-body calendars and entry systems. Each event shows its <b>entry state</b> (Open, Listed, Entries closed, Approved, or Cancelled) and, separately, whether it is <b>Verified</b> — corroborated by an entry platform or two or more sources. "Past" marks events whose date has passed. Statuses reflect the last update and can change — always confirm with the club before entering.</div>
+    <div>Sourced from ANKC state governing-body calendars and entry systems. Each event shows its <b>entry state</b> (Open, Closing today, Listed, Entries closed, Approved, or Cancelled) and, separately, whether it is <b>Verified</b> — corroborated by an entry platform or two or more sources. "Past" marks events whose date has passed. Statuses reflect the last update and can change — always confirm with the club before entering.</div>
     <div class="sources" id="sources"></div>
   </footer>
 </div>
@@ -372,6 +374,7 @@ const RCOL = {ACT:"#1a56b0",NSW:"#1176c4",NT:"#9a3b16",QLD:"#73002e",
 // once an event has passed), and open/cancelled are mutually exclusive.
 function statusKind(e){
   if(e.cancelled || e.status==="cancelled") return "cancelled";
+  if(e.status==="closing_today") return "closing_today";
   if(e.status==="open") return "open";
   if(e.status==="closed") return "closed";
   if(e.status==="listed") return "listed";
@@ -392,7 +395,7 @@ let ALL = [];
 let shownLimit = PAGE_SIZE;
 const active = { region:new Set(), disc:new Set(), breed:new Set(),
   swclass:new Set(),
-  status:new Set(["open","listed","closed","approved","cancelled"]),
+  status:new Set(["open","closing_today","listed","closed","approved","cancelled"]),
   verifiedOnly:false, showPast:false };
 // Entry-state chips select which entry-states show. `showPast` is an INDEPENDENT
 // toggle (past-ness is orthogonal to entry-state): off by default so the page
@@ -478,7 +481,7 @@ function setupFilters(){
     }
   }
 
-  buildChips($("#status-filters"), [["open","Open","var(--open)",false],["listed","Listed","var(--listed)",false],["closed","Entries closed","var(--closed)",false],["approved","Approved","var(--approved)",false],["cancelled","Cancelled","var(--cancel)",false]], "status");
+  buildChips($("#status-filters"), [["open","Open","var(--open)",false],["closing_today","Closing today","var(--closingtoday)",false],["listed","Listed","var(--listed)",false],["closed","Entries closed","var(--closed)",false],["approved","Approved","var(--approved)",false],["cancelled","Cancelled","var(--cancel)",false]], "status");
 
   // Verified-only and Show-past are INDEPENDENT axes (not entry-states), so they
   // sit as standalone toggles beside the dropdowns rather than inside one.
@@ -531,6 +534,7 @@ function renderLegend(){
   $("#legend").innerHTML =
     `<span class="li"><span class="sw" style="background:var(--verified)"></span><span style="color:var(--verified);font-weight:600">Verified</span> — corroborated by an entry platform or 2+ sources</span>`+
     `<span class="li"><span class="sw" style="background:var(--open)"></span><span style="font-weight:600">Open</span> — entries open now on an entry platform</span>`+
+    `<span class="li"><span class="sw" style="background:var(--closingtoday)"></span><span style="font-weight:600">Closing today</span> — last day to enter (closing date is today)</span>`+
     `<span class="li"><span class="sw" style="background:var(--listed)"></span><span style="font-weight:600">Listed</span> — on an entry platform, entries not open yet</span>`+
     `<span class="li"><span class="sw" style="background:var(--closed)"></span><span style="font-weight:600">Entries closed</span> — closing date passed or marked closed</span>`+
     `<span class="li"><span class="sw" style="background:var(--approved)"></span><span style="font-weight:600">Approved</span> — on an ANKC calendar, no entry platform yet</span>`+
@@ -746,7 +750,7 @@ function updateFilterSummary(){
       : (d.length<=2 ? d.join(", ") : `${d.length} disciplines`);
   }
   if(sEl){
-    const allStatus = ["open","listed","closed","approved","cancelled"];
+    const allStatus = ["open","closing_today","listed","closed","approved","cancelled"];
     const bits = [];
     if(active.status.size < allStatus.length) bits.push(`${active.status.size} of ${allStatus.length}`);
     if(active.verifiedOnly) bits.push("verified");
