@@ -1667,13 +1667,27 @@ def _topdog_disciplines_from_tags(name_text):
 # items). Applied to Top Dog rows (and mirrored in show_manager.py) so these
 # never appear as trials. A name that ALSO contains an explicit trial/test word
 # is kept (safety valve applied at each call site).
-_NON_TRIAL_NAME_RE = re.compile(
-    r"raffle|fundrais|fund\s*rais|puppy\s*pen|trivia|quiz\s*night|"
-    r"\bagm\b|annual\s+general|working\s*bee|christmas\s+party|"
+# Club-admin / social items that are NOT public dog events — dropped entirely
+# (they only clutter a competition calendar): AGMs, committee/working-party
+# meetings, working bees, raffles, fundraisers, trivia/quiz nights, garage
+# sales, presentation/awards nights, club social gatherings/BBQs.
+_ADMIN_DROP_RE = re.compile(
+    r"raffle|fundrais|fund\s*rais|trivia|quiz\s*night|"
+    r"\bagm\b|annual\s+general|working\s*bee|working\s+party\s+meeting|"
+    r"committee\s+meeting|\bmeeting\b|christmas\s+party|"
     r"break\s*up|\bbreakup\b|\bsocial\b|catch[\s-]*up|\bbbq\b|barbecue|"
     r"presentation\s+(night|day)|awards?\s+(night|day)|garage\s+sale|"
-    r"open\s+day|fun\s*day|come\s*(and\s*)?try|information\s+(day|night)|"
-    r"\bseminar\b|\bworkshop\b|photo\s+fundrais|grazing\s+platter|sniff\s*&\s*go",
+    r"photo\s+fundrais|grazing\s+platter|membership",
+    re.I)
+
+# Useful NON-COMPETITION dog events — KEPT, but tagged category "Other" (shown
+# only when the user ticks the Other filter): training classes/courses,
+# workshops, seminars, fun/open/come-and-try days, information nights, puppy pens.
+_OTHER_EVENT_RE = re.compile(
+    r"training\s+(class|course|block|session|day|night)|\bclasses\b|"
+    r"\d+\s*week\s*(block|course|class)|\bworkshop\b|\bseminar\b|lessons?|"
+    r"puppy\s*pen|open\s+day|fun\s*day|come\s*(and\s*)?try|"
+    r"information\s+(day|night)|sniff\s*&\s*go",
     re.I)
 
 # Product / add-on listings (camping passes, food/meal vouchers, merchandise,
@@ -1774,33 +1788,38 @@ def _topdog_parse_rows(soup, year):
         close_cell = tr.find(["td", "th"], class_=lambda c: c and "tl-col-close" in c)
         close_cell_text = close_cell.get_text(" ", strip=True) if close_cell else ""
 
+        _is_trial = bool(re.search(
+            r"\b(trial|test|championship|champ\s+show)\b", name_text, re.I))
         # Products/add-ons (merchandise, camping, vouchers) are never events —
         # drop unconditionally, even if the name also says "Trial".
         if _PRODUCT_NAME_RE.search(name_text):
             continue
-        # Drop non-competition items (raffles, fundraisers, trivia, workshops,
-        # fun days, socials) even if Top Dog files them under a discipline —
-        # unless the name also names a real trial/test. Mirrors the Show Manager
-        # non-trial filter so a multi-source raffle is caught on both sides.
-        if _NON_TRIAL_NAME_RE.search(name_text) and not re.search(
-                r"\b(trial|test|championship|champ\s+show)\b", name_text, re.I):
-            continue
+        # Club admin/social (AGMs, raffles, meetings, BBQs) — KEEP but tag
+        # category "Admin" (off by default on the site), so the noise is confined
+        # there yet still accessible. Only when not itself a trial.
+        is_admin = bool(_ADMIN_DROP_RE.search(name_text)) and not _is_trial
+        # Useful non-competition events (training classes, workshops, fun days,
+        # come-and-try) — tag category "Other" (also off by default).
+        is_other = (not is_admin
+                    and bool(_OTHER_EVENT_RE.search(name_text)) and not _is_trial)
 
         row_text = " ".join([date_text, name_text, club_text])
-        # Discipline(s): PREFER Top Dog's OWN canonical discipline tag(s), which
-        # trail each row after the status word and are the authoritative labels
-        # powering the site's discipline filter. This avoids inferring the
-        # discipline from the free-text title/club (the source of club-name-leak
-        # mis-tags like a Scent Work trial by "...Tracking...Club" reading as
-        # Tracking). Only if the row carries no recognisable tag do we fall back
-        # to classifying the trial NAME, then the whole row.
-        disciplines = _topdog_disciplines_from_tags(name_text)
-        if not disciplines:
-            disciplines = _topdog_disciplines(name_text)
-        if not disciplines:
-            disciplines = _topdog_disciplines(row_text)
-        if not disciplines:
-            continue
+        if is_admin:
+            disciplines = ["Admin"]
+        elif is_other:
+            disciplines = ["Other"]
+        else:
+            # Discipline(s): PREFER Top Dog's OWN canonical discipline tag(s),
+            # which trail each row after the status word and are the authoritative
+            # labels powering the site's discipline filter. Only if the row
+            # carries no recognisable tag do we fall back to classifying the name.
+            disciplines = _topdog_disciplines_from_tags(name_text)
+            if not disciplines:
+                disciplines = _topdog_disciplines(name_text)
+            if not disciplines:
+                disciplines = _topdog_disciplines(row_text)
+            if not disciplines:
+                continue
 
         # region from the club cell's state token
         sm = TOPDOG_STATE_RE.search(club_text)
