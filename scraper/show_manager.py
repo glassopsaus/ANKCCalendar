@@ -159,14 +159,24 @@ _DISC_KEYS_BY_LEN = None
 # files them under a discipline's Event Type (e.g. a club that runs obedience
 # lists its "Puppy Pen Raffle!" under Obedience). These are fundraisers, socials
 # and admin items — drop them regardless of the discipline column.
-_SM_NON_TRIAL_RE = re.compile(
-    r"raffle|fundrais|fund\s*rais|puppy\s*pen|trivia|quiz\s*night|"
-    r"\bagm\b|annual\s+general|working\s*bee|\bbump\s*in\b|christmas\s+party|"
-    r"break\s*up|\bbreakup\b|social\b|catch[\s-]*up|\bbbq\b|barbecue|"
-    r"presentation\s+(night|day)|awards?\s+(night|day)|garage\s+sale|"
-    r"membership|working\s+party\s+meeting|committee\s+meeting|\bmeeting\b|"
-    r"open\s+day|fun\s*day|come\s*(and\s*)?try|information\s+(day|night)|"
-    r"seminar|workshop|training\s+(day|session|night)|\bclass(es)?\b",
+# Club-admin / social items NOT kept at all (drop): meetings, AGMs, raffles,
+# fundraisers, trivia, BBQs, garage sales, presentation/awards nights, socials.
+_SM_ADMIN_DROP_RE = re.compile(
+    r"raffle|fundrais|fund\s*rais|trivia|quiz\s*night|\bagm\b|annual\s+general|"
+    r"working\s*bee|\bbump\s*in\b|christmas\s+party|break\s*up|\bbreakup\b|"
+    r"social\b|catch[\s-]*up|\bbbq\b|barbecue|presentation\s+(night|day)|"
+    r"awards?\s+(night|day)|garage\s+sale|membership|working\s+party\s+meeting|"
+    r"committee\s+meeting|\bmeeting\b",
+    re.I)
+
+# Useful non-competition dog events — KEPT, tagged discipline "Other" (off by
+# default on the site): training classes/courses, workshops, seminars, fun/open/
+# come-and-try days, information nights, puppy pens.
+_SM_OTHER_EVENT_RE = re.compile(
+    r"puppy\s*pen|open\s+day|fun\s*day|come\s*(and\s*)?try|"
+    r"information\s+(day|night)|seminar|workshop|"
+    r"training\s+(class|course|block|session|day|night)|\bclass(es)?\b|"
+    r"\d+\s*week\s*(block|course|class)|lessons?",
     re.I)
 
 # Product / add-on listings that are NEVER events — drop UNCONDITIONALLY, even
@@ -454,17 +464,22 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
                 # fall back to the 2nd cell text
                 name = cell_texts[1] if len(cell_texts) > 1 else ""
 
+            _is_trial = bool(re.search(
+                r"\b(trial|test|championship|champ\s+show)\b", name, re.I))
             # Products/add-ons (merchandise, camping, vouchers, ribbons) are
             # never events — drop unconditionally, even if the name says "Trial".
             if _SM_PRODUCT_RE.search(name):
                 continue
-            # Drop non-competition items (raffles, socials, AGMs, workshops,
-            # etc.) even when filed under a discipline's Event Type — UNLESS the
-            # name also names an actual trial/test (so a real "... Trial" that
-            # merely mentions e.g. "presentation" is kept).
-            if _SM_NON_TRIAL_RE.search(name) and not re.search(
-                    r"\b(trial|test|championship|champ\s+show)\b", name, re.I):
-                continue
+            # Club admin/social (raffles, AGMs, meetings, BBQs) — KEEP but re-tag
+            # discipline "Admin" (off by default on the site). Not when it's a
+            # real trial.
+            if _SM_ADMIN_DROP_RE.search(name) and not _is_trial:
+                discipline = "Admin"
+            # Useful non-competition events (training classes, workshops, fun
+            # days) — re-tag discipline "Other" (also off by default). Only when
+            # not itself a trial and not already admin.
+            elif _SM_OTHER_EVENT_RE.search(name) and not _is_trial:
+                discipline = "Other"
 
             # closing date: the cell that looks like a weekday+date
             closes = None
