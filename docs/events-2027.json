@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T16:12:06+00:00",
+  "generated": "2026-10-27T18:07:49+00:00",
   "year": 2027,
   "count": 1766,
   "sources": [
@@ -2261,6 +2261,31 @@
       "club": "Dorrigo & District Kennel Club \u2013 Conformation"
     },
     {
+      "title": "GSDAWA Obedience & Rally Trial",
+      "start": "2027-02-20",
+      "end": "2027-02-20",
+      "location": "23 Passmore Street, Southern River",
+      "url": "https://www.topdogevents.com.au/trials/2296",
+      "category": "Obedience",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "closes": "2027-02-14",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events",
+        "Dogs West (WA calendar)"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2296",
+      "open_now": true,
+      "is_past": false,
+      "club": "German Shepherd Dog Association Of WA (Inc)"
+    },
+    {
       "title": "Inner Sydney Dog Sports Club Inc \u2013 Scent Work",
       "start": "2027-02-20",
       "end": "2027-02-20",
@@ -2282,28 +2307,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Inner Sydney Dog Sports Club Inc"
-    },
-    {
-      "title": "Obedience & Rally O Trials German Shepherd DC",
-      "club": "Obedience & Rally O Trials German Shepherd DC",
-      "start": "2027-02-20",
-      "end": "2027-02-20",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Obedience",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
     },
     {
       "title": "Obedience & Rally O Trials German Shepherd DC \u2013 Rally Obedience",
