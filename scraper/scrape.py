@@ -2638,9 +2638,9 @@ def _enrich_topdog_schedules(events):
     except ValueError:
         cycle_days = 7
     try:
-        req_delay = max(0.0, float(os.environ.get("SM_DETAIL_DELAY_SEC", "0.7")))
+        req_delay = max(0.0, float(os.environ.get("SM_DETAIL_DELAY_SEC", "1.5")))
     except ValueError:
-        req_delay = 0.7
+        req_delay = 1.5
     today_slice = today.timetuple().tm_yday % cycle_days
 
     def _slice_of(tid):
@@ -2677,17 +2677,27 @@ def _enrich_topdog_schedules(events):
         # No closing date known: treat the N days before the event as the window.
         return 0 <= (end_d - today).days <= cat_window_days
 
-    # One-off backfill: SM_DETAIL_FETCH_ALL=1 fetches EVERY target this run.
+    # DAILY FULL CHECK (default): check ALL upcoming targets every run. `targets`
+    # is already limited to upcoming events still missing detail (past events are
+    # skipped), so this is ~a couple hundred polite, throttled fetches per day —
+    # giving every event daily-fresh schedule/catalogue/address instead of weekly.
+    #   - SM_DETAIL_FETCH_ALL=1 : one-off backfill (same as full check; kept for
+    #     the backfill workflow's explicitness).
+    #   - SM_DETAIL_SLICE=1     : opt back INTO the old 1/N slicing if ever needed
+    #     to reduce load (e.g. if a host complains).
     fetch_all = os.environ.get("SM_DETAIL_FETCH_ALL") == "1"
-    if fetch_all:
-        todays = list(targets)
-    else:
+    use_slice = os.environ.get("SM_DETAIL_SLICE") == "1"
+    if use_slice and not fetch_all:
         todays = [(e, tid) for (e, tid) in targets
                   if _slice_of(tid) == today_slice or _in_catalogue_window(e)]
+        mode = f"slice {today_slice+1}/{cycle_days}"
+    else:
+        todays = list(targets)
+        mode = "BACKFILL (all)" if fetch_all else "all upcoming (daily)"
     n_window = sum(1 for (e, _t) in todays if _in_catalogue_window(e))
-    print(f"[topdog-docs] {'BACKFILL (all)' if fetch_all else f'slice {today_slice+1}/{cycle_days}'} today: "
+    print(f"[topdog-docs] {mode} today: "
           f"{len(todays)} of {len(targets)} Top Dog events missing a "
-          f"schedule/catalogue ({n_window} in catalogue window, checked daily; "
+          f"schedule/catalogue ({n_window} in catalogue window; "
           f"~{req_delay:.1f}s apart)...", file=sys.stderr)
     n_sched = n_cat = n_addr = n_venue = n_classes = 0
     for i, (e, tid) in enumerate(todays, 1):
