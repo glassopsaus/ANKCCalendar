@@ -571,25 +571,31 @@ def scrape_show_manager(year, months=range(1, 13), fetch_details=None):
         # fetches EVERY target this run (throttled), so a single manual run gives
         # complete coverage instead of waiting a full cycle. Normal runs leave it
         # unset and process today's 1/N slice PLUS the catalogue-window events.
+        # DAILY FULL CHECK (default): all upcoming targets every run (targets is
+        # already upcoming-only). ~100 polite throttled fetches/day for daily-fresh
+        # detail. SM_DETAIL_SLICE=1 opts back into 1/N slicing to reduce load.
         fetch_all = os.environ.get("SM_DETAIL_FETCH_ALL") == "1"
-        if fetch_all:
-            todays_targets = list(targets)
-        else:
+        use_slice = os.environ.get("SM_DETAIL_SLICE") == "1"
+        if use_slice and not fetch_all:
             todays_targets = [x for x in targets
                               if _slice_of(x["event_id"]) == today_slice
                               or _in_catalogue_window(x)]
-        # Delay between requests (seconds) to smooth out the load. Small but
-        # enough to avoid a tight burst; ~0.7s over e.g. 140 events ≈ 100s.
+            mode = f"slice {today_slice+1}/{cycle_days}"
+        else:
+            todays_targets = list(targets)
+            mode = "BACKFILL (all)" if fetch_all else "all upcoming (daily)"
+        # Delay between requests (seconds). Default 1.5s — gentle on the host when
+        # checking all upcoming events daily (sequential, ~100 req/host/day).
         try:
-            req_delay = float(os.environ.get("SM_DETAIL_DELAY_SEC", "0.7"))
+            req_delay = float(os.environ.get("SM_DETAIL_DELAY_SEC", "1.5"))
         except ValueError:
-            req_delay = 0.7
+            req_delay = 1.5
         req_delay = max(0.0, req_delay)
 
         n_window = sum(1 for x in todays_targets if _in_catalogue_window(x))
-        print(f"[sm-detail] {'BACKFILL (all)' if fetch_all else f'slice {today_slice+1}/{cycle_days}'} today: "
+        print(f"[sm-detail] {mode} today: "
               f"{len(todays_targets)} of {len(targets)} upcoming events "
-              f"({n_window} in catalogue window, checked daily; "
+              f"({n_window} in catalogue window; "
               f"~{req_delay:.1f}s apart)...", file=sys.stderr)
         n_addr = 0
         for i, x in enumerate(todays_targets, 1):
