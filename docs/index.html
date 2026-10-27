@@ -26,6 +26,7 @@
     --fam-endurance:#8a5a2f;  --fam-endurance-bg:#f1e8df;
     --fam-show:#8a3a5a;       --fam-show-bg:#f4e4ea;
     --fam-other:#556070;      --fam-other-bg:#e9ecef;
+    --fam-admin:#8a6d3b;      --fam-admin-bg:#f0ead9;
     --radius:10px; --shadow:0 1px 2px rgba(27,36,48,.06), 0 4px 16px rgba(27,36,48,.05);
   }
   *{box-sizing:border-box}
@@ -295,6 +296,14 @@
       </button>
       <div class="filter-row facc-body" id="state-filters"><span class="flabel"><span class="all"><button data-g="region" data-a="all">all</button> / <button data-g="region" data-a="none">clear</button></span></span></div>
     </div>
+    <div class="faccordion" id="acc-month">
+      <button class="filters-toggle" aria-expanded="false" aria-controls="month-filters">
+        <span class="ft-label">Month</span>
+        <span class="ft-summary" id="sum-month"></span>
+        <span class="ft-chev" aria-hidden="true">▾</span>
+      </button>
+      <div class="filter-row facc-body" id="month-filters"><span class="flabel"><span class="all"><button data-g="month" data-a="all">all</button> / <button data-g="month" data-a="none">clear</button></span></span></div>
+    </div>
     <div class="faccordion" id="acc-status">
       <button class="filters-toggle" aria-expanded="false" aria-controls="status-filters">
         <span class="ft-label">Entry status</span>
@@ -357,6 +366,7 @@ const DISC_FAMILY = {
   "Field Trial":"field", "Retrieving":"field", "Herding":"field", "Earthdog":"field", "Lure Coursing":"field",
   "Endurance":"endurance", "Sled Sports":"endurance", "Backpacking":"endurance", "Draft Test":"endurance", "RATG":"endurance",
   "Conformation":"show",
+  "Other":"other", "Admin":"admin",
 };
 function famOf(cat){ return DISC_FAMILY[cat] || "other"; }
 function famVar(fam){ return `var(--fam-${fam})`; }
@@ -394,7 +404,7 @@ const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
 let ALL = [];
 let shownLimit = PAGE_SIZE;
 const active = { region:new Set(), disc:new Set(), breed:new Set(),
-  swclass:new Set(),
+  swclass:new Set(), month:new Set(),
   status:new Set(["open","closing_today","listed","closed","approved","cancelled"]),
   verifiedOnly:false, showPast:false };
 // Entry-state chips select which entry-states show. `showPast` is an INDEPENDENT
@@ -481,6 +491,23 @@ function setupFilters(){
     }
   }
 
+  // Month filter: 12 chips (Jan..Dec) with a count of events in each. Value is
+  // the 0-indexed month as a string; an event counts toward every month it spans.
+  const _mf = $("#month-filters"); if(_mf) clearChips(_mf);
+  if(_mf){
+    const monCounts = {};
+    for(const e of ALL){
+      if(_OPT_IN_DISC.has(e.category)) continue; // match default (exclude Other/Admin)
+      const s = fmtDate(e.start); if(!s) continue;
+      const en = e.end ? fmtDate(e.end) : s;
+      const last = (en && en.yr===s.yr) ? en.mon : 11;
+      for(let m=s.mon; m<=last; m++) monCounts[m]=(monCounts[m]||0)+1;
+    }
+    const monChips = [];
+    for(let m=0;m<12;m++){ if(monCounts[m]) monChips.push([String(m), MONTHS[m].slice(0,3), "var(--ink-soft)", false, monCounts[m]]); }
+    buildChips(_mf, monChips, "month");
+  }
+
   buildChips($("#status-filters"), [["open","Open","var(--open)",false],["closing_today","Closing today","var(--closingtoday)",false],["listed","Listed","var(--listed)",false],["closed","Entries closed","var(--closed)",false],["approved","Approved","var(--approved)",false],["cancelled","Cancelled","var(--cancel)",false]], "status");
 
   // Verified-only and Show-past are INDEPENDENT axes (not entry-states), so they
@@ -508,7 +535,7 @@ function setupFilters(){
     document.querySelectorAll(".flabel .all button").forEach(btn=>{
       btn.addEventListener("click",()=>{
         const g = btn.dataset.g, a = btn.dataset.a;
-        const containerById = {region:"#state-filters", disc:"#disc-filters", breed:"#breed-filters", swclass:"#swclass-filters"};
+        const containerById = {region:"#state-filters", disc:"#disc-filters", breed:"#breed-filters", swclass:"#swclass-filters", month:"#month-filters"};
         const container = $(containerById[g] || "#disc-filters");
         active[g].clear();
         if(a==="all"){ container.querySelectorAll(".chip").forEach(c=>active[g].add(c.dataset.val)); }
@@ -543,7 +570,27 @@ function renderLegend(){
 }
 // Individual filter predicates, reusable for both filtering and faceted counts.
 function _rOK(e){ return active.region.size===0 || active.region.has(e.region); }
-function _dOK(e){ return active.disc.size===0   || active.disc.has(e.category); }
+// "Other" (training classes, workshops, fun days) and "Admin" (AGMs, meetings,
+// raffles, socials) are OFF BY DEFAULT: with no discipline filter active,
+// everything EXCEPT those shows; each appears only when its chip is ticked.
+const _OPT_IN_DISC = new Set(["Other","Admin"]);
+function _dOK(e){
+  if(active.disc.size===0) return !_OPT_IN_DISC.has(e.category);
+  return active.disc.has(e.category);
+}
+// Month filter. Selected months are 0-indexed (0=Jan). An event matches if ANY
+// month it spans (start..end) is selected, so a multi-day event straddling two
+// months shows when either is chosen. Empty = all months.
+function _mOK(e){
+  if(active.month.size===0) return true;
+  const s = fmtDate(e.start);
+  if(!s) return false;
+  const en = e.end ? fmtDate(e.end) : s;
+  // Walk the months from start to end (same year on this page).
+  let m = s.mon, last = (en && en.yr===s.yr) ? en.mon : 11;
+  for(; m<=last; m++){ if(active.month.has(String(m))) return true; }
+  return false;
+}
 function _bOK(e){ return active.breed.size===0  || active.breed.has(e.breed_group); }
 // Scent Work class filter. TRANSPARENT by design: only applies to scent work
 // events, and an event whose class list we DON'T have (not published on the
@@ -581,7 +628,7 @@ function filtered(){
   // narrow by entry-state. Past is an INDEPENDENT gate: unless showPast is on,
   // past events are hidden regardless of their entry-state. verifiedOnly narrows
   // to verified.
-  return ALL.filter(e=> _rOK(e) && _dOK(e) && _bOK(e) && _swOK(e) && _sOK(e) && _vOK(e) && _pOK(e))
+  return ALL.filter(e=> _rOK(e) && _dOK(e) && _bOK(e) && _swOK(e) && _mOK(e) && _sOK(e) && _vOK(e) && _pOK(e))
     .sort((a,b)=>(a.start||"").localeCompare(b.start||"") || (a.title||"").localeCompare(b.title||""));
 }
 
@@ -762,6 +809,12 @@ function updateFilterSummary(){
     const sw = [...active.swclass];
     swEl.textContent = !sw.length ? "All classes"
       : (sw.length<=3 ? sw.join(", ") : `${sw.length} classes`);
+  }
+  const mEl = $("#sum-month");
+  if(mEl){
+    const ms = [...active.month].map(Number).sort((a,b)=>a-b);
+    mEl.textContent = !ms.length ? "All months"
+      : (ms.length<=3 ? ms.map(m=>MONTHS[m].slice(0,3)).join(", ") : `${ms.length} months`);
   }
 }
 
