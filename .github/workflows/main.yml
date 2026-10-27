@@ -32,8 +32,12 @@ jobs:
           # over a week (1/7 of events per day) with a delay between requests so
           # we never surge traffic on Show Manager. See scrape_show_manager().
           SM_FETCH_DETAILS: "1"
-          SM_DETAIL_CYCLE_DAYS: "7"
-          SM_DETAIL_DELAY_SEC: "0.7"
+          # Detail fetch now checks ALL upcoming events each day (not a 1/7
+          # slice), throttled to 1.5s between requests — ~100 polite, sequential
+          # requests per host per day, giving daily-fresh schedule/catalogue/
+          # address. Set SM_DETAIL_SLICE=1 here to revert to 1/7 slicing if ever
+          # needed to reduce load. SM_DETAIL_CYCLE_DAYS only applies when slicing.
+          SM_DETAIL_DELAY_SEC: "1.5"
         run: |
           # Derive the year at runtime so the calendar's year window rolls over
           # automatically (no annual manual edit). This is an Australian calendar
