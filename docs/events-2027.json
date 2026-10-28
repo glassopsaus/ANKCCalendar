@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-27T20:39:41+00:00",
+  "generated": "2026-10-28T21:01:24+00:00",
   "year": 2027,
-  "count": 1766,
+  "count": 1768,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -2101,6 +2101,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Oxley Dog Training Club Inc"
+    },
+    {
+      "title": "Agility Trial Agility Club of WA",
+      "club": "Agility Trial Agility Club of WA",
+      "start": "2027-02-19",
+      "end": "2027-02-19",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Agility",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Championship Show (All Breeds) Hills Kennel Club \u2013 Conformation",
@@ -10245,8 +10267,8 @@
       "is_past": false
     },
     {
-      "title": "Championship & Open Show Shetland Sheepdog Club \u2013 Conformation",
-      "club": "Championship & Open Show Shetland Sheepdog Club \u2013 Conformation",
+      "title": "Championship & Open Show WA Beagle Club \u2013 Conformation",
+      "club": "Championship & Open Show WA Beagle Club \u2013 Conformation",
       "start": "2027-05-02",
       "end": "2027-05-02",
       "location": "Western Australia",
@@ -10256,6 +10278,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "beagle",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -19768,8 +19792,8 @@
       "club": "Labrador Retriever Club of NSW Inc"
     },
     {
-      "title": "Obedience/ Double header Rally Trial Shetland Sheepdog Club",
-      "club": "Obedience/ Double header Rally Trial Shetland Sheepdog Club",
+      "title": "Obedience and Rally Double Header Shetland Sheepdog Club",
+      "club": "Obedience and Rally Double Header Shetland Sheepdog Club",
       "start": "2027-06-27",
       "end": "2027-06-27",
       "location": "Western Australia",
@@ -19790,8 +19814,8 @@
       "is_past": false
     },
     {
-      "title": "Obedience/ Double header Rally Trial Shetland Sheepdog Club \u2013 Rally Obedience",
-      "club": "Obedience/ Double header Rally Trial Shetland Sheepdog Club",
+      "title": "Obedience and Rally Double Header Shetland Sheepdog Club \u2013 Rally Obedience",
+      "club": "Obedience and Rally Double Header Shetland Sheepdog Club",
       "start": "2027-06-27",
       "end": "2027-06-27",
       "location": "Western Australia",
@@ -39618,6 +39642,28 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Agility Trial Agility Club of WA",
+      "club": "Agility Trial Agility Club of WA",
+      "start": "2027-12-11",
+      "end": "2027-12-11",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Agility",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
