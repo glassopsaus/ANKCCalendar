@@ -1,7 +1,7 @@
 {
-  "generated": "2026-10-29T21:03:21+00:00",
+  "generated": "2026-10-30T20:36:29+00:00",
   "year": 2027,
-  "count": 1768,
+  "count": 1766,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -88,26 +88,34 @@
       "club": "Dogs Victoria New Year Committee"
     },
     {
-      "title": "Para Districts Obedience Dog Club Inc \u2013 Scent Work",
-      "club": "Para Districts Obedience Dog Club Inc",
+      "title": "New Year's Resolutions 2027",
       "start": "2027-01-02",
-      "end": "2027-01-02",
-      "location": "Jenkins Reserve",
-      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "end": "2027-01-03",
+      "location": "Para District Obedience Dog Club",
+      "url": "https://www.topdogevents.com.au/trials/2266",
       "category": "Scent Work",
+      "cancelled": false,
       "region": "SA",
-      "source": "Dogs SA",
+      "color": "#c9a227",
+      "closes": "2026-12-19",
+      "topdog_open": true,
+      "source": "Top Dog Events",
       "sources": [
+        "Top Dog Events",
         "Dogs SA"
       ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
-      "open_now": false,
-      "is_past": false
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2266",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2266/schedule/get",
+      "classes": [
+        "Advanced",
+        "Excellent"
+      ],
+      "club": "Para District Obedience Dog Club"
     },
     {
       "title": "RCH Fundraiser - Twilight",
@@ -220,6 +228,28 @@
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW Fast N Furious Working Party \u2013 Conformation"
+    },
+    {
+      "title": "Para Districts Obedience Dog Club Inc \u2013 Scent Work",
+      "club": "Para Districts Obedience Dog Club Inc",
+      "start": "2027-01-03",
+      "end": "2027-01-03",
+      "location": "Jenkins Reserve",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Scent Work",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Sprintdog Club \u2013 Sprint",
@@ -813,26 +843,30 @@
       "is_past": false
     },
     {
-      "title": "Sprintdog \u2122 All breeds West Coast Dog Sports",
-      "club": "Sprintdog \u2122 All breeds West Coast Dog Sports",
+      "title": "Sprint Dog Trial",
       "start": "2027-01-23",
       "end": "2027-01-23",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "location": "602 Warton Road, Southern River, WA, 6110",
+      "url": "https://www.topdogevents.com.au/trials/2304",
       "category": "Sprint",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
       "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "closes": "2027-01-16",
+      "topdog_open": true,
+      "source": "Top Dog Events",
       "sources": [
+        "Top Dog Events",
         "Dogs West (WA calendar)"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2304",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2304/schedule/get",
+      "club": "West Coast Dog Sports"
     },
     {
       "title": "Australia Day International Dog Club Inc",
@@ -1564,28 +1598,6 @@
       "club": "Bega Valley Kennel & Training Club Inc"
     },
     {
-      "title": "Lyndhurst Canine Country Club Inc",
-      "start": "2027-02-11",
-      "end": "2027-02-12",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Lyndhurst Canine Country Club Inc"
-    },
-    {
       "title": "Sapphire Coast Kennel & Obedience Club \u2013 Rally Obedience",
       "start": "2027-02-11",
       "end": "2027-02-11",
@@ -1652,6 +1664,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Dutch Shepherd Dog Club of Victoria Inc"
+    },
+    {
+      "title": "Lyndhurst Canine Country Club Inc",
+      "start": "2027-02-12",
+      "end": "2027-02-12",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Lyndhurst Canine Country Club Inc"
     },
     {
       "title": "Moree Kennel Club Inc \u2013 Conformation",
@@ -1722,7 +1756,7 @@
       "is_past": false
     },
     {
-      "title": "American Cocker Spaniel Club of Victoria Inc",
+      "title": "American Cocker Spaniel Club of Victoria Inc - 10am",
       "start": "2027-02-13",
       "end": "2027-02-13",
       "location": "Victoria",
@@ -1743,7 +1777,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "American Cocker Spaniel Club of Victoria Inc"
+      "club": "American Cocker Spaniel Club of Victoria Inc - 10am"
     },
     {
       "title": "Blacktown Kennel & Training Club Inc \u2013 Trick Dog",
@@ -1769,7 +1803,7 @@
       "club": "Blacktown Kennel & Training Club Inc"
     },
     {
-      "title": "Boston Terrier Club of Victoria Inc",
+      "title": "Boston Terrier Club of Victoria Inc - 9am",
       "start": "2027-02-13",
       "end": "2027-02-13",
       "location": "Victoria",
@@ -1790,7 +1824,7 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Boston Terrier Club of Victoria Inc"
+      "club": "Boston Terrier Club of Victoria Inc - 9am"
     },
     {
       "title": "Caboolture \u2013 Agility",
@@ -1857,28 +1891,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Lyndhurst Canine Country Club Inc - 1pm",
-      "start": "2027-02-13",
-      "end": "2027-02-13",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Lyndhurst Canine Country Club Inc - 1pm"
     },
     {
       "title": "Obedience & Rally Trial Albany All Breeds DC",
@@ -8612,28 +8624,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Action Dogs Victoria",
-      "start": "2027-04-24",
-      "end": "2027-04-24",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Agility",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Action Dogs Victoria"
     },
     {
       "title": "Championship Show (All Breeds) Metropolitan Kennel C \u2013 Conformation",
@@ -26804,28 +26794,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Bulla Agility Dogs Inc",
-      "start": "2027-08-14",
-      "end": "2027-08-14",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Agility",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Bulla Agility Dogs Inc"
     },
     {
       "title": "Cairns \u2013 Scent Work",
