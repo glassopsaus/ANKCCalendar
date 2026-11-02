@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-01T20:20:49+00:00",
+  "generated": "2026-11-02T23:33:44+00:00",
   "year": 2027,
-  "count": 1766,
+  "count": 1767,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -36596,29 +36596,6 @@
       "club": "Warragul & District Kennel & Obedience Club Inc"
     },
     {
-      "title": "Marion Kennel Club Inc \u2013 Scent Work",
-      "club": "Marion Kennel Club Inc",
-      "start": "2027-10-27",
-      "end": "2027-10-27",
-      "location": "Jenkins Reserve, Saints Road, Salisbury",
-      "url": "https://www.dogssa.com.au/events/upcoming-events",
-      "category": "Scent Work",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "closes": "2026-10-19",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": false,
-      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Scentwork Trial Scent Work Club",
       "club": "Scentwork Trial Scent Work Club",
       "start": "2027-10-27",
@@ -37413,6 +37390,31 @@
       "open_now": false,
       "is_past": false,
       "club": "Central Gippsland Kennel Club Inc"
+    },
+    {
+      "title": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla Exhibition Centre \u2013 Conformation",
+      "club": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla Exhibition Centre \u2013 Conformation",
+      "start": "2027-11-05",
+      "end": "2027-11-05",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "dachshund",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false,
+      "closes": "2026-09-29"
     },
     {
       "title": "Far South East Kennel Club \u2013 Conformation",
@@ -40052,6 +40054,33 @@
       "open_now": false,
       "is_past": false,
       "club": "Newcastle Toy & All Breeds Kennel Club \u2013 Conformation"
+    },
+    {
+      "title": "Field Spaniel Club of NSW \u2013 Sprint",
+      "club": "Field Spaniel Club of NSW",
+      "start": "2027-01-29",
+      "end": "2027-01-29",
+      "location": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50345",
+      "category": "Sprint",
+      "region": "NSW",
+      "source": "Show Manager",
+      "sources": [
+        "Show Manager"
+      ],
+      "color": "#7a3ea6",
+      "cancelled": false,
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "closes": "2027-01-04",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50345",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50345/FieldSpanielClubofNSWSprintDogTMTrial_29-Jan-2027_SPRINT_50345_Schedule_20261102_x-AlTnSotE6YpAN31CyeeA.pdf",
+      "catalogue_url": null,
+      "classes": null,
+      "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
+      "open_now": false,
+      "is_past": false
     }
   ]
 }
