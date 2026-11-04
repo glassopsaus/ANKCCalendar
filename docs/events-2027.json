@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T21:44:16+00:00",
+  "generated": "2026-11-04T21:57:29+00:00",
   "year": 2027,
   "count": 1769,
   "sources": [
@@ -272,6 +272,37 @@
       "open_now": false,
       "is_past": false,
       "club": "Combined Northern Canine Committee \u2013 Conformation"
+    },
+    {
+      "title": "Setter Club of SA Inc - Inaugural Scentwork Trial",
+      "start": "2027-01-08",
+      "end": "2027-01-08",
+      "location": "Setter Club of SA Inc",
+      "url": "https://www.topdogevents.com.au/trials/2310",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2027-01-01",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "setter",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2310",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2310/schedule/get",
+      "classes": [
+        "Novice",
+        "Advanced"
+      ],
+      "club": "Setter Club of SA Inc"
     },
     {
       "title": "Cjc Mentor Show \u2013 Championship Show",
@@ -15567,6 +15598,30 @@
       "club": "Kyeamba Kennel & Training Club Inc"
     },
     {
+      "title": "Lure Coursing Whippet Club",
+      "club": "Lure Coursing Whippet Club",
+      "start": "2027-06-06",
+      "end": "2027-06-06",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Lure Coursing",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "NSW Lure Coursing Association \u2013 Lure Coursing",
       "start": "2027-06-06",
       "end": "2027-06-06",
@@ -15699,50 +15754,6 @@
       "cancelled": false,
       "breed_group": "Group 4 (Hounds)",
       "breed": "whippet",
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Obedience & Rally O Trials Southern River A&ODC",
-      "club": "Obedience & Rally O Trials Southern River A&ODC",
-      "start": "2027-06-07",
-      "end": "2027-06-07",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Obedience",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Obedience & Rally O Trials Southern River A&ODC \u2013 Rally Obedience",
-      "club": "Obedience & Rally O Trials Southern River A&ODC",
-      "start": "2027-06-07",
-      "end": "2027-06-07",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Rally Obedience",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -28632,8 +28643,8 @@
       "club": "Brush Farm Dog Training Club Inc"
     },
     {
-      "title": "Championship & Open Show Non Sporting Dog Club \u2013 Conformation",
-      "club": "Championship & Open Show Non Sporting Dog Club \u2013 Conformation",
+      "title": "Championship & Open Shows Setter & Spaniel Soc. \u2013 Conformation",
+      "club": "Championship & Open Shows Setter & Spaniel Soc. \u2013 Conformation",
       "start": "2027-08-22",
       "end": "2027-08-22",
       "location": "Western Australia",
@@ -28643,6 +28654,8 @@
       "source": "Dogs West (WA calendar)",
       "color": "#16887a",
       "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "spaniel",
       "sources": [
         "Dogs West (WA calendar)"
       ],
@@ -28759,30 +28772,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Lure coursing Trial Whippet \u2013 Lure Coursing",
-      "club": "Lure coursing Trial Whippet",
-      "start": "2027-08-22",
-      "end": "2027-08-22",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Lure Coursing",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "breed_group": "Group 4 (Hounds)",
-      "breed": "whippet",
-      "sources": [
-        "Dogs West (WA calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -32364,6 +32353,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Kyneton & District Kennel Club Inc AM"
+    },
+    {
+      "title": "Lure Coursing Trial Whippet Club of WA",
+      "club": "Lure Coursing Trial Whippet Club of WA",
+      "start": "2027-09-18",
+      "end": "2027-09-18",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Lure Coursing",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "whippet",
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Mackay \u2013 Agility",

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-03T21:38:31+00:00",
+  "generated": "2026-11-04T21:51:41+00:00",
   "year": 2026,
-  "count": 2769,
+  "count": 2770,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -41977,12 +41977,11 @@
       "verified": true,
       "closes": "2026-10-27",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49819",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49819/MelbourneLureDogClubIncorporated_03-Nov-2026_LURE_49819_Schedule_20260824_SgCo78khzUm7joSgpxsGbA.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49819/MelbourneLureDogClubTuesday3rdNovLure_03-Nov-2026_LURE_49819_Catalogue_yD8i8g42tUuY1KEi5hEydg.pdf",
-      "address": "Mentone Pony Club, 1 Learmonth Rd, Patterson Lakes, 3197, VIC",
-      "club": "Melbourne Lure Dog Club Incorporated",
+      "club": "Melbourne Lure Dog Club Tuesday 3rd Nov Lure",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49819/MelbourneLureDogClubIncorporated_03-Nov-2026_LURE_49819_Schedule_20260824_SgCo78khzUm7joSgpxsGbA.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49819/MelbourneLureDogClubTuesday3rdNovLure_03-Nov-2026_LURE_49819_Catalogue_yD8i8g42tUuY1KEi5hEydg.pdf"
     },
     {
       "title": "ACTCDC November Agility Ribbon Trial",
@@ -42110,10 +42109,9 @@
       "verified": true,
       "closes": "2026-10-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49949",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50964-SCHEDULE-Yuggera-Canine-Club-(Trial-1)-(QLD)-V1.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
       "is_past": true,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50964-SCHEDULE-Yuggera-Canine-Club-(Trial-1)-(QLD)-V1.pdf",
       "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49949/YuggeraCanineClubTrial1_03-Nov-2026_RO_49949_Catalogue_grItVSZFrUGvi5Fn1XnKpQ.pdf"
     },
     {
@@ -42137,10 +42135,9 @@
       "verified": true,
       "closes": "2026-10-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49951",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50966-SCHEDULE-Yuggera-Canine-Club-(QLD)-V1.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50966-SCHEDULE-Yuggera-Canine-Club-(QLD)-V1.pdf"
     },
     {
       "title": "Dalmatian Club \u2013 Scent Work",
@@ -42556,6 +42553,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/2110",
       "open_now": false,
       "is_past": false,
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2110/catalogue/get",
       "club": "Redlands Dog Obedience Club Inc"
     },
     {
@@ -42822,16 +42820,16 @@
       "region": "SA",
       "color": "#c9a227",
       "closes": "2026-11-05",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2079",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "classes": [
         "Novice"
@@ -43326,6 +43324,30 @@
       "open_now": true,
       "is_past": false,
       "club": "Agility Dog Club of NSW Inc."
+    },
+    {
+      "title": "Wigglebutts Inaugural Mock Jumping Trial Mock",
+      "start": "2026-11-14",
+      "end": "2026-11-14",
+      "location": "Wigglebutts Boarding Training and Agility",
+      "url": "https://www.topdogevents.com.au/trials/2314",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "closes": "2026-11-12",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2314",
+      "open_now": true,
+      "is_past": false,
+      "club": "Wigglebutts Boarding Training and Agility"
     },
     {
       "title": "Golden Retriever Club of Victoria",
@@ -58982,7 +59004,7 @@
       "closes": "2026-09-27",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50021",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50021/MudgeeDistrictKennelObedClubInc_06-Nov-2026_SPRINT_50021_Schedule_20260912_-FEaV0HtsEyQ8zFvOwuC6Q.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50021/MudgeeDistrictKennelObedClubIncSprintDog_06-Nov-2026_SPRINT_50021_Catalogue_aekdhhZf9E-nHtTGNr-IlA.pdf",
       "classes": null,
       "address": "Victoria Park , Gulgong, Grevillea St, Gulgong, 2852, NSW",
       "open_now": false,
@@ -59120,8 +59142,8 @@
       "verified": true,
       "closes": "2026-10-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50004",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50005/CessnockDogClubSprintTrial2_10-Nov-2026_SPRINT_50005_Schedule_20261102_qzG2_UqDdUaGtajMLcU3hQ.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50004/CessnockDogClubSprintTrial1_09-Nov-2026_SPRINT_50004_Catalogue_Qxr7ubyh-kCyD-eCqP7cRQ.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50004/CessnockDogClubSprintTrial1_09-Nov-2026_SPRINT_50004_Schedule_20261104_7qe-IkoeD0ipWRwNsM5Iiw.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50004/CessnockDogClubSprintTrial1_09-Nov-2026_SPRINT_50004_Catalogue_37B-fnryd0eT4ojz5Fy3dw.pdf",
       "classes": null,
       "address": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
       "open_now": false,
@@ -59147,8 +59169,8 @@
       "verified": true,
       "closes": "2026-10-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50005",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50005/CessnockDogClubSprintTrial2_10-Nov-2026_SPRINT_50005_Schedule_20261102_qzG2_UqDdUaGtajMLcU3hQ.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50005/CessnockDogClubSprintTrial2_10-Nov-2026_SPRINT_50005_MarkedCatalogue_PeFiiCP5tkuCl-aYKfPaeg.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50004/CessnockDogClubSprintTrial1_09-Nov-2026_SPRINT_50004_Schedule_20261104_7qe-IkoeD0ipWRwNsM5Iiw.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50005/CessnockDogClubSprintTrial2_10-Nov-2026_SPRINT_50005_Catalogue_BaX2Ybruy0eA4UXhaq3vwg.pdf",
       "classes": null,
       "address": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
       "open_now": false,
@@ -59196,8 +59218,8 @@
       ],
       "color": "#3aa657",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50150",
@@ -59205,7 +59227,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -59309,8 +59331,8 @@
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50017",
@@ -59318,7 +59340,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -59363,8 +59385,8 @@
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50018",
@@ -59372,7 +59394,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -59525,8 +59547,8 @@
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50019",
@@ -59534,7 +59556,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
