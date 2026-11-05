@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-04T21:57:29+00:00",
+  "generated": "2026-11-05T22:11:13+00:00",
   "year": 2027,
-  "count": 1769,
+  "count": 1773,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -88,6 +88,29 @@
       "club": "Dogs Victoria New Year Committee"
     },
     {
+      "title": "Port Pirie Kennel Club Inc \u2013 Conformation",
+      "club": "Port Pirie Kennel Club Inc \u2013 Conformation",
+      "start": "2027-01-01",
+      "end": "2027-01-01",
+      "location": "David Roche Park",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Conformation",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
+      "open_now": false,
+      "is_past": false,
+      "closes": "2026-12-19"
+    },
+    {
       "title": "New Year's Resolutions 2027",
       "start": "2027-01-02",
       "end": "2027-01-03",
@@ -101,7 +124,8 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -230,10 +254,10 @@
     },
     {
       "title": "Sprintdog Club \u2013 Sprint",
-      "club": "Sprintdog Club",
+      "club": "SprintDog Club of QLD Inc.",
       "start": "2027-01-06",
       "end": "2027-01-07",
-      "location": "Queensland",
+      "location": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Sprint",
       "region": "QLD",
@@ -241,13 +265,17 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2027-12-20",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50386",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50386/SprintDogClubofQLDInc_06-Jan-2027_SPRINT_50386_Schedule_20261105_DHmZj1XELEGwGMRT02H0Xg.pdf",
+      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -289,7 +317,8 @@
       "breed_group": "Group 3 (Gundogs)",
       "breed": "setter",
       "sources": [
-        "Top Dog Events"
+        "Top Dog Events",
+        "Dogs SA"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -471,6 +500,38 @@
       "open_now": false,
       "is_past": false,
       "club": "Moree Kennel Club Inc \u2013 Conformation"
+    },
+    {
+      "title": "Setter Club of SA Inc - Twilight Scent Work Trial",
+      "start": "2027-01-15",
+      "end": "2027-01-15",
+      "location": "Setter Club of SA Inc",
+      "url": "https://www.topdogevents.com.au/trials/2316",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2027-01-08",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "setter",
+      "sources": [
+        "Top Dog Events",
+        "Dogs SA"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2316",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2316/schedule/get",
+      "classes": [
+        "Excellent",
+        "Masters"
+      ],
+      "club": "Setter Club of SA Inc"
     },
     {
       "title": "Warrnambool & District K & O Club Inc",
@@ -700,10 +761,10 @@
     },
     {
       "title": "Dq Sprintdog S'Cttee \u2013 Sprint",
-      "club": "Dq Sprintdog S'Cttee",
+      "club": "DogsQLD SprintDog\u2122 Subcommittee",
       "start": "2027-01-22",
       "end": "2027-01-22",
-      "location": "Queensland",
+      "location": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Sprint",
       "region": "QLD",
@@ -711,13 +772,17 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)"
+        "Dogs Queensland (trial calendar)",
+        "Show Manager"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2027-01-12",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50389",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50389/DogsQueenslandSprintDogCommittee_22-Jan-2027_SPRINT_50389_Schedule_20261105_OG7BpFSbYkmD0FqYmoLvCw.pdf",
+      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "open_now": true,
       "is_past": false
     },
     {
@@ -741,6 +806,39 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Setter Club of SA Inc - Twilight Scentwork Trial",
+      "start": "2027-01-22",
+      "end": "2027-01-22",
+      "location": "Setter Club of SA Inc",
+      "url": "https://www.topdogevents.com.au/trials/2317",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2027-01-15",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "setter",
+      "sources": [
+        "Top Dog Events",
+        "Dogs SA"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2317",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2317/schedule/get",
+      "classes": [
+        "Novice",
+        "Excellent",
+        "Masters"
+      ],
+      "club": "Setter Club of SA Inc"
     },
     {
       "title": "Ballarat Dog Club Inc",
@@ -37405,31 +37503,6 @@
       "club": "Central Gippsland Kennel Club Inc"
     },
     {
-      "title": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla Exhibition Centre \u2013 Conformation",
-      "club": "Dachshund Club of Victoria Inc via Dogs Victoria at the Bulla Exhibition Centre \u2013 Conformation",
-      "start": "2027-11-05",
-      "end": "2027-11-05",
-      "location": "David Roche Park",
-      "url": "https://www.dogssa.com.au/events/upcoming-events",
-      "category": "Conformation",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "breed_group": "Group 4 (Hounds)",
-      "breed": "dachshund",
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
-      "open_now": false,
-      "is_past": false,
-      "closes": "2026-09-29"
-    },
-    {
       "title": "Far South East Kennel Club \u2013 Conformation",
       "start": "2027-11-05",
       "end": "2027-11-06",
@@ -40067,6 +40140,60 @@
       "open_now": false,
       "is_past": false,
       "club": "Newcastle Toy & All Breeds Kennel Club \u2013 Conformation"
+    },
+    {
+      "title": "Sporting Terrier Club of QLD \u2013 Sprint",
+      "club": "Sporting Terrier Club of QLD",
+      "start": "2027-01-15",
+      "end": "2027-01-15",
+      "location": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50387",
+      "category": "Sprint",
+      "region": "QLD",
+      "source": "Show Manager",
+      "sources": [
+        "Show Manager"
+      ],
+      "color": "#c0392b",
+      "cancelled": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2027-01-02",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50387",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50387/SportingTerrierClubofQLDInc_15-Jan-2027_SPRINT_50387_Schedule_20261105_1KIP84wgfUO_mt39G5CEgw.pdf",
+      "catalogue_url": null,
+      "classes": null,
+      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "open_now": true,
+      "is_past": false
+    },
+    {
+      "title": "Chihuahua Club of Qld \u2013 Sprint",
+      "club": "Chihuahua Club of Qld",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "location": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50388",
+      "category": "Sprint",
+      "region": "QLD",
+      "source": "Show Manager",
+      "sources": [
+        "Show Manager"
+      ],
+      "color": "#c0392b",
+      "cancelled": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2027-01-02",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50388",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:2e9f1b04-6a9e-c255-37e0-804c485967a9/51411-SCHEDULE-Chihuahua-Club-of-Queensland-(QLD)-V1.pdf",
+      "catalogue_url": null,
+      "classes": null,
+      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "open_now": true,
+      "is_past": false
     },
     {
       "title": "Field Spaniel Club of NSW \u2013 Sprint",
