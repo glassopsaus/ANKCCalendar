@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-05T22:11:13+00:00",
+  "generated": "2026-11-06T21:29:58+00:00",
   "year": 2027,
-  "count": 1773,
+  "count": 1774,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -602,6 +602,31 @@
       "club": "Bulli District Kennel Club Inc \u2013 Conformation"
     },
     {
+      "title": "Jan Double Rally Trial",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "location": "ACT CDC Grounds, Narrabundah Lane, Symonston",
+      "url": "https://readyentries.com/view-event-group/1793943157279x528324741794889700",
+      "category": "Rally Obedience",
+      "region": "ACT",
+      "cancelled": false,
+      "color": "#1d6fb8",
+      "entry_url": "https://readyentries.com/view-event-group/1793943157279x528324741794889700",
+      "closes": "2027-01-08",
+      "status": "open",
+      "ep_status": "open",
+      "source": "Ready Entries",
+      "sources": [
+        "Ready Entries",
+        "Dogs ACT"
+      ],
+      "status_label": "Open (verified)",
+      "verified": true,
+      "open_now": true,
+      "is_past": false,
+      "club": "ACT CDC Grounds, Narrabundah Lane, Symonston"
+    },
+    {
       "title": "Lang Lang P A & H Society Inc",
       "start": "2027-01-16",
       "end": "2027-01-17",
@@ -645,28 +670,6 @@
       "open_now": false,
       "is_past": false,
       "club": "Northern Suburbs Dog Training Club Inc"
-    },
-    {
-      "title": "Rally Trial (Double Evening) \u2013 ACTCDC",
-      "start": "2027-01-16",
-      "end": "2027-01-16",
-      "location": "",
-      "url": "https://dogsact.org.au/event/rally-trial-double-evening-actcdc-3/",
-      "category": "Rally Obedience",
-      "source": "Dogs ACT",
-      "cancelled": false,
-      "region": "ACT",
-      "color": "#1d6fb8",
-      "sources": [
-        "Dogs ACT"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Rally Trial (Double Evening) \u2013 ACTCDC"
     },
     {
       "title": "Trick Trial \u2013 BDOC",
@@ -1710,6 +1713,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Bega Valley Kennel & Training Club Inc"
+    },
+    {
+      "title": "2027 Rally and Obedience Trials",
+      "start": "2027-02-11",
+      "end": "2027-02-13",
+      "location": "Dickinson Oval, Lamont Street, Bermagui",
+      "url": "https://readyentries.com/view-event-group/1793944150640x953574130077401100",
+      "category": "Rally Obedience",
+      "region": "NSW",
+      "cancelled": false,
+      "color": "#7a3ea6",
+      "entry_url": "https://readyentries.com/view-event-group/1793944150640x953574130077401100",
+      "closes": "2027-01-29",
+      "status": "open",
+      "ep_status": "open",
+      "source": "Ready Entries",
+      "sources": [
+        "Ready Entries"
+      ],
+      "status_label": "Open (verified)",
+      "verified": true,
+      "open_now": true,
+      "is_past": false,
+      "club": "2027 Rally and Obedience Trials"
     },
     {
       "title": "Sapphire Coast Kennel & Obedience Club \u2013 Rally Obedience",
@@ -2976,30 +3003,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Hound Club of Vic Inc",
-      "start": "2027-02-28",
-      "end": "2027-02-28",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Sprint",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "breed_group": "Group 4 (Hounds)",
-      "breed": "hound",
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Hound Club of Vic Inc"
     },
     {
       "title": "Samoyed Club of Vic Inc",
@@ -6067,28 +6070,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Dogs Victoria Easter Festival",
-      "start": "2027-03-29",
-      "end": "2027-03-29",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Dogs Victoria Easter Festival"
     },
     {
       "title": "Dq Scentwork S'Cttee \u2013 Scent Work",
@@ -14360,6 +14341,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Hills Dog Club Inc"
+    },
+    {
+      "title": "Hound Club of Vic Inc",
+      "start": "2027-05-29",
+      "end": "2027-05-29",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Sprint",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 4 (Hounds)",
+      "breed": "hound",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Hound Club of Vic Inc"
     },
     {
       "title": "Hunter Region Working Dog Club \u2013 Conformation",
@@ -34287,6 +34292,30 @@
       "club": "Western Districts Boxer Club of NSW Inc \u2013 Conformation"
     },
     {
+      "title": "Alaskan Malamute Club of Vic Inc",
+      "start": "2027-10-03",
+      "end": "2027-10-03",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "breed_group": "Group 6 (Utility)",
+      "breed": "malamute",
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Alaskan Malamute Club of Vic Inc"
+    },
+    {
       "title": "Beaudesert Kc (Cacib Show) \u2013 Championship Show",
       "club": "Beaudesert Kc (Cacib Show) \u2013 Championship Show",
       "start": "2027-10-03",
@@ -37139,29 +37168,7 @@
       "club": "Victorian Gundog Club Inc"
     },
     {
-      "title": "Championship Shows x 2 - (Celeb of Best All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "club": "Championship Shows x 2 - (Celeb of Best All Breeds) CAWA Events Ctee \u2013 Conformation",
-      "start": "2027-10-31",
-      "end": "2027-10-31",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Conformation",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Cocker Spaniel Club of Victoria",
+      "title": "American Cocker Spaniel Club of Vic Inc",
       "start": "2027-10-31",
       "end": "2027-10-31",
       "location": "Victoria",
@@ -37182,7 +37189,29 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "club": "Cocker Spaniel Club of Victoria"
+      "club": "American Cocker Spaniel Club of Vic Inc"
+    },
+    {
+      "title": "Championship Shows x 2 - (Celeb of Best All Breeds) CAWA Events Ctee \u2013 Conformation",
+      "club": "Championship Shows x 2 - (Celeb of Best All Breeds) CAWA Events Ctee \u2013 Conformation",
+      "start": "2027-10-31",
+      "end": "2027-10-31",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Conformation",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Eurobodalla District Show Society \u2013 Rally Obedience",
@@ -37230,30 +37259,6 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "Hound Club of Vic Inc",
-      "start": "2027-10-31",
-      "end": "2027-10-31",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "breed_group": "Group 4 (Hounds)",
-      "breed": "hound",
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Hound Club of Vic Inc"
     },
     {
       "title": "K9 Scent Club",
@@ -39444,30 +39449,6 @@
       "club": "Dogs Victoria Royal Canin Summer Spectacular"
     },
     {
-      "title": "Dobermann Club of Vic",
-      "start": "2027-12-04",
-      "end": "2027-12-04",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Conformation",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "breed_group": "Group 6 (Utility)",
-      "breed": "dobermann",
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Dobermann Club of Vic"
-    },
-    {
       "title": "Hawkesbury Dog Agility Club Inc \u2013 Agility",
       "start": "2027-12-04",
       "end": "2027-12-04",
@@ -39533,6 +39514,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Victorian Gundog Club"
+    },
+    {
+      "title": "White Swiss Shepherd Dog Association of Vic Inc",
+      "start": "2027-12-04",
+      "end": "2027-12-04",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Conformation",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
+      "cancelled": false,
+      "sources": [
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "White Swiss Shepherd Dog Association of Vic Inc"
     },
     {
       "title": "Wollondilly All Breeds Kennel Club Inc \u2013 Obedience",
@@ -40274,6 +40277,33 @@
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
+      "is_past": false
+    },
+    {
+      "title": "Sapphire Coast Cash Raffle  (Sapphire Coast Kennel & Obedience Club Inc) \u2013 Admin",
+      "club": "Sapphire Coast Cash Raffle  (Sapphire Coast Kennel & Obedience Club Inc) \u2013 Admin",
+      "start": "2027-02-12",
+      "end": "2027-02-12",
+      "location": "",
+      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
+      "category": "Admin",
+      "region": "NSW",
+      "source": "Show Manager",
+      "sources": [
+        "Show Manager"
+      ],
+      "color": "#7a3ea6",
+      "cancelled": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "closes": "2027-02-10",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
+      "schedule_url": null,
+      "catalogue_url": null,
+      "classes": null,
+      "address": null,
+      "open_now": false,
       "is_past": false
     }
   ]

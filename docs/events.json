@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-05T22:05:08+00:00",
+  "generated": "2026-11-06T21:23:49+00:00",
   "year": 2026,
-  "count": 2772,
+  "count": 2770,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -41097,7 +41097,7 @@
       "region": "SA",
       "color": "#c9a227",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
@@ -41105,8 +41105,8 @@
       "classes": [
         "Advanced"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2134",
       "open_now": false,
@@ -41246,7 +41246,7 @@
       "region": "QLD",
       "color": "#c0392b",
       "closes": "2026-10-25",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
@@ -42187,6 +42187,8 @@
       "verified": true,
       "closes": "2026-10-27",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50182",
+      "open_now": false,
+      "is_past": true,
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/51234-SCHEDULE-Dalmatian-Association-of-Qld-Inc-(QLD)-V1.pdf",
       "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50182/DalmatianAssociationofQldInc_05-Nov-2026_SW_50182_Catalogue_Jl6-6_X3sUqIwhY0l3Jhew.pdf",
       "classes": [
@@ -42194,9 +42196,7 @@
         "Advanced",
         "Excellent",
         "Masters"
-      ],
-      "open_now": false,
-      "is_past": true
+      ]
     },
     {
       "title": "Obedience Trial (PM) \u2013 ACTCDC",
@@ -42240,7 +42240,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Central Gippsland Kennel Club Inc",
@@ -42261,8 +42261,33 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "Central Gippsland Kennel Club Inc"
+    },
+    {
+      "title": "Grafton Obedience Trial (CCD, CD, CDX) November 2026",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "location": "Prince St, Grafton. 2460",
+      "url": "https://www.topdogevents.com.au/trials/2242",
+      "category": "Obedience",
+      "cancelled": false,
+      "region": "NSW",
+      "color": "#7a3ea6",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2242",
+      "open_now": false,
+      "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2242/event_files/499/get",
+      "club": "Grafton Dog Obedience Club Inc"
     },
     {
       "title": "Portland & District Kennel Club Inc",
@@ -42285,6 +42310,34 @@
       "open_now": false,
       "is_past": false,
       "club": "Portland & District Kennel Club Inc"
+    },
+    {
+      "title": "South West Victoria",
+      "start": "2026-11-06",
+      "end": "2026-11-06",
+      "location": "837 Warrnambool-Caramut Rd, Mailors Flat",
+      "url": "https://www.topdogevents.com.au/trials/2201",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "VIC",
+      "color": "#3aa657",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2201",
+      "open_now": false,
+      "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2201/schedule/get",
+      "classes": [
+        "Ultimate"
+      ],
+      "club": "Warrnambool & District Kennel & Obedience Dog Club Inc"
     },
     {
       "title": "Bairnsdale & District Dog Obedience Club Inc",
@@ -42312,30 +42365,6 @@
       "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50147/GippslandObedienceDogClubIncRallyObediencePMTrial_08-Nov-2026_OB_50147_Catalogue_u7QkiCAUjkW7DNQNP7O7Cg.pdf",
       "open_now": false,
       "is_past": false
-    },
-    {
-      "title": "CASSA Scent Work Trial",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "location": "CASSA Events",
-      "url": "https://www.topdogevents.com.au/trials/2241",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "closes": "2026-11-02",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2241",
-      "open_now": false,
-      "is_past": false,
-      "club": "CASSA Events"
     },
     {
       "title": "Cairns \u2013 Trick Dog",
@@ -42448,31 +42477,6 @@
       "club": "Morwell/Traralgon Kennel Club Inc - PM"
     },
     {
-      "title": "November Agility and Jumping Trial",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "location": "Hobart Dog Training Club Inc",
-      "url": "https://www.topdogevents.com.au/trials/2246",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "TAS",
-      "color": "#c8632a",
-      "closes": "2026-10-31",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2246",
-      "open_now": false,
-      "is_past": false,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2246/catalogue/get",
-      "club": "Hobart Dog Training Club Inc"
-    },
-    {
       "title": "Obedience Trial (PM) \u2013 ACTCDC",
       "start": "2026-11-07",
       "end": "2026-11-07",
@@ -42499,89 +42503,26 @@
       "club": "Obedience Trial (PM) \u2013 ACTCDC"
     },
     {
-      "title": "Redlands Agility and Jumping trial",
+      "title": "Redlands \u2013 Agility",
+      "club": "Redlands",
       "start": "2026-11-07",
       "end": "2026-11-07",
-      "location": "Redlands Dog Obedience Club Inc",
-      "url": "https://www.topdogevents.com.au/trials/2110",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Agility",
-      "cancelled": false,
       "region": "QLD",
+      "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
-      "closes": "2026-10-30",
-      "topdog_open": false,
-      "source": "Top Dog Events",
+      "cancelled": false,
       "sources": [
-        "Top Dog Events",
         "Dogs Queensland (trial calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2110",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
-      "is_past": false,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2110/catalogue/get",
-      "club": "Redlands Dog Obedience Club Inc"
-    },
-    {
-      "title": "SAODC Obedience and Trick Dog Test Trial",
-      "start": "2026-11-07",
-      "end": "2026-11-07",
-      "location": "Beaumont Rd, South Parklands, SA, 5066",
-      "url": "https://www.topdogevents.com.au/trials/1863",
-      "category": "Obedience",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-10-26",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/1863",
-      "open_now": false,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/1863/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1863/catalogue/get",
-      "club": "South Australian Obedience Dog Club Inc."
-    },
-    {
-      "title": "South West Victoria",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "location": "37 Caramut Road, Warrnambool",
-      "url": "https://www.topdogevents.com.au/trials/2202",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "closes": "2026-11-02",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events",
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2202",
-      "open_now": false,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2202/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2202/catalogue/get",
-      "classes": [
-        "Novice",
-        "Advanced",
-        "Excellent",
-        "Masters"
-      ],
-      "club": "Warrnambool & District Kennel & Obedience Dog Club Inc"
+      "is_past": false
     },
     {
       "title": "Tracking Trial \u2013 ACTCDC",
@@ -42606,29 +42547,26 @@
       "club": "Tracking Trial \u2013 ACTCDC"
     },
     {
-      "title": "WCDS Sprint Dog Trial",
+      "title": "Warrnambool & District K & O Club Inc",
       "start": "2026-11-07",
-      "end": "2026-11-07",
-      "location": "602 Warton Road, Southern River, WA, 6110",
-      "url": "https://www.topdogevents.com.au/trials/2248",
-      "category": "Sprint",
+      "end": "2026-11-08",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
+      "category": "Scent Work",
+      "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
+      "color": "#3aa657",
       "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "closes": "2026-11-01",
-      "topdog_open": false,
-      "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events"
+        "Dogs Victoria (official calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2248",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2248/schedule/get",
-      "club": "West Coast Dog Sports"
+      "club": "Warrnambool & District K & O Club Inc"
     },
     {
       "title": "Yuggera \u2013 Scent Work",
@@ -42971,8 +42909,8 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2244",
       "open_now": false,
@@ -43180,8 +43118,8 @@
         "Dogs ACT",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "closes": "2026-11-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50028",
@@ -44637,26 +44575,64 @@
       "club": "Victorian Gundog Club"
     },
     {
-      "title": "Redlands \u2013 Scent Work",
-      "club": "Redlands",
+      "title": "GRAFTON 6 December Containers trial",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "location": "Grafton Dog Obedience Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2308",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "NSW",
+      "color": "#7a3ea6",
+      "closes": "2026-11-28",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events",
+        "Dogs NSW"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2308",
+      "open_now": true,
+      "is_past": false,
+      "classes": [
+        "Novice",
+        "Advanced",
+        "Excellent",
+        "Masters"
+      ],
+      "club": "Grafton Dog Obedience Club Inc"
+    },
+    {
+      "title": "Redlands Scentwork - Vehicles trial",
       "start": "2026-12-07",
       "end": "2026-12-07",
-      "location": "Queensland",
-      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
+      "location": "Redlands Dog Obedience Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2010",
       "category": "Scent Work",
-      "region": "QLD",
-      "source": "Dogs Queensland (trial calendar)",
-      "color": "#c0392b",
       "cancelled": false,
+      "region": "QLD",
+      "color": "#c0392b",
+      "closes": "2026-11-28",
+      "topdog_open": true,
+      "source": "Top Dog Events",
       "sources": [
+        "Top Dog Events",
         "Dogs Queensland (trial calendar)"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2010",
+      "open_now": true,
+      "is_past": false,
+      "classes": [
+        "Novice",
+        "Excellent"
+      ],
+      "club": "Redlands Dog Obedience Club Inc"
     },
     {
       "title": "Obed State Trials \u2013 Obedience",
@@ -58987,7 +58963,7 @@
       "classes": null,
       "address": "Victoria Park , Gulgong, Grevillea St, Gulgong, 2852, NSW",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Bairnsdale and District Dog Obedience Club \u2013 Rally Obedience",
@@ -59065,7 +59041,7 @@
       "closes": "2026-10-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50256",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50256/OnePackDogTrainingClub_07-Nov-2026_SW_50256_Schedule_20261008_IK3nptN6J0imrdNYGbVABQ.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50256/OnePackDogTrainingClub_07-Nov-2026_SW_50256_Catalogue_LfepF8a8I0CxYCjkF4iL9A.pdf",
       "classes": [
         "Excellent",
         "Masters",
@@ -59225,8 +59201,8 @@
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-06",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50310",
@@ -59234,7 +59210,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -59252,8 +59228,8 @@
       ],
       "color": "#3aa657",
       "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "closes": "2026-11-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50247",
@@ -60072,8 +60048,8 @@
       ],
       "color": "#3aa657",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": false,
       "closes": "2026-11-06",
       "entry_url": null,
@@ -69161,29 +69137,6 @@
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW Complex Fundraising Working \u2013 Conformation"
-    },
-    {
-      "title": "Grafton Dog Obedience Club \u2013 Scent Work",
-      "start": "2026-12-06",
-      "end": "2026-12-06",
-      "location": "",
-      "url": "https://www.dogsnsw.org.au/events/show-and-trials-guide/",
-      "category": "Scent Work",
-      "region": "NSW",
-      "source": "Dogs NSW",
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "provider": "Top Dog Events",
-      "sources": [
-        "Dogs NSW"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Grafton Dog Obedience Club"
     },
     {
       "title": "Armidale All Breeds Kennel Club \u2013 Conformation",
