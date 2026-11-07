@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-06T21:29:58+00:00",
+  "generated": "2026-11-07T20:04:18+00:00",
   "year": 2027,
-  "count": 1774,
+  "count": 1786,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -1762,6 +1762,28 @@
       "club": "Sapphire Coast Kennel & Obedience Club"
     },
     {
+      "title": "Scent Work Trial \u2013 CSSC",
+      "start": "2027-02-11",
+      "end": "2027-02-11",
+      "location": "",
+      "url": "https://dogsact.org.au/event/cssc-scent-work-trial/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 CSSC"
+    },
+    {
       "title": "DOGS NSW Scent Work Working Party \u2013 Scent Work",
       "start": "2027-02-12",
       "end": "2027-02-12",
@@ -2937,6 +2959,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Scent Work Trial (Evening) \u2013 ACTCDC",
+      "start": "2027-02-27",
+      "end": "2027-02-27",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-actcdc-7/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial (Evening) \u2013 ACTCDC"
     },
     {
       "title": "Victorian Herding Association Inc",
@@ -6117,6 +6161,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Gordon Setter Club of NSW Inc \u2013 Sled Sports"
+    },
+    {
+      "title": "Sprint Dog Trial \u2013 Dogs ACT",
+      "start": "2027-03-29",
+      "end": "2027-03-29",
+      "location": "",
+      "url": "https://dogsact.org.au/event/sprint-dog-trial-dogs-act-9/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Sprint Dog Trial \u2013 Dogs ACT"
     },
     {
       "title": "Staffordshire Bull Terrier Society of NSW \u2013 Scent Work",
@@ -14548,6 +14614,28 @@
       "is_past": false
     },
     {
+      "title": "Sprint Dog Trial \u2013 Dogs ACT",
+      "start": "2027-05-29",
+      "end": "2027-05-29",
+      "location": "",
+      "url": "https://dogsact.org.au/event/sprint-dog-trial-dogs-act-10/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Sprint Dog Trial \u2013 Dogs ACT"
+    },
+    {
       "title": "Tracking/Track & Search Dog Trials Advanced Tracking Club",
       "club": "Tracking/Track & Search Dog Trials Advanced Tracking Club",
       "start": "2027-05-29",
@@ -21147,6 +21235,50 @@
       "club": "Oxley Dog Training Club Inc"
     },
     {
+      "title": "Scent Work Trial (Evening) \u2013 ACTCDC",
+      "start": "2027-07-07",
+      "end": "2027-07-07",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-evening-actcdc-3/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial (Evening) \u2013 ACTCDC"
+    },
+    {
+      "title": "Scent Work Trial (Evening) \u2013 ACTCDC",
+      "start": "2027-07-08",
+      "end": "2027-07-08",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-evening-actcdc-4/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial (Evening) \u2013 ACTCDC"
+    },
+    {
       "title": "All Breeds Tracking \u2013 Tracking",
       "club": "All Breeds Tracking",
       "start": "2027-07-09",
@@ -23279,6 +23411,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Sprint Dog Trial \u2013 Dogs ACT",
+      "start": "2027-07-18",
+      "end": "2027-07-18",
+      "location": "",
+      "url": "https://dogsact.org.au/event/sprint-dog-trial-dogs-act-11/",
+      "category": "Sprint",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Sprint Dog Trial \u2013 Dogs ACT"
     },
     {
       "title": "Toowoomba \u2013 Agility",
@@ -32190,6 +32344,28 @@
       "club": "Tracking Club of Vic Inc"
     },
     {
+      "title": "Agility and Jumping Trial \u2013 BDOC",
+      "start": "2027-09-18",
+      "end": "2027-09-18",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-and-jumping-trial-bdoc-6/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility and Jumping Trial \u2013 BDOC"
+    },
+    {
       "title": "Api / Waterloo Bay Kc (Cacib Show) \u2013 Championship Show",
       "club": "Chihuahua Club \u2013 Championship Show",
       "start": "2027-09-18",
@@ -34728,6 +34904,28 @@
       "club": "Oxley Dog Training Club Inc"
     },
     {
+      "title": "Scent Work Trial (Evening) \u2013 ACTCDC",
+      "start": "2027-10-06",
+      "end": "2027-10-06",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-evening-actcdc-5/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial (Evening) \u2013 ACTCDC"
+    },
+    {
       "title": "Yuggera \u2013 Trick Dog",
       "club": "Yuggera",
       "start": "2027-10-06",
@@ -34772,6 +34970,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Border Collie Club of SA Inc"
+    },
+    {
+      "title": "Scent Work Trial (Evening) \u2013 ACTCDC",
+      "start": "2027-10-07",
+      "end": "2027-10-07",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-evening-actcdc-6/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial (Evening) \u2013 ACTCDC"
     },
     {
       "title": "Allora Kc \u2013 Championship Show",
@@ -38710,6 +38930,28 @@
       "club": "Newcastle All Breeds Dog Training Club Inc"
     },
     {
+      "title": "Scent Work Trial \u2013 CSSC",
+      "start": "2027-11-19",
+      "end": "2027-11-19",
+      "location": "",
+      "url": "https://dogsact.org.au/event/sent-work-trial-cssc/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 CSSC"
+    },
+    {
       "title": "Agility Trials x 2 Albany All Breeds DC",
       "club": "Albany All Breeds DC",
       "start": "2027-11-20",
@@ -39896,6 +40138,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Scent Work Trial \u2013 CSSC",
+      "start": "2027-12-17",
+      "end": "2027-12-17",
+      "location": "",
+      "url": "https://dogsact.org.au/event/scent-work-trial-cssc-6/",
+      "category": "Scent Work",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Scent Work Trial \u2013 CSSC"
     },
     {
       "title": "Yarra Valley Kennel Club",
