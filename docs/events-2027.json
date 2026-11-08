@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T20:04:18+00:00",
+  "generated": "2026-11-08T20:21:49+00:00",
   "year": 2027,
   "count": 1786,
   "sources": [
@@ -40463,6 +40463,33 @@
       "is_past": false
     },
     {
+      "title": "DCV INC-INTRODUCTION TO SCENTWORK with Sonja Needs (Dobermann Club of Victoria Inc) \u2013 Scent Work",
+      "club": "DCV INC-INTRODUCTION TO SCENTWORK with Sonja Needs (Dobermann Club of Victoria Inc)",
+      "start": "2027-01-16",
+      "end": "2027-01-16",
+      "location": "",
+      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
+      "category": "Scent Work",
+      "region": "VIC",
+      "source": "Show Manager",
+      "sources": [
+        "Show Manager"
+      ],
+      "color": "#3aa657",
+      "cancelled": false,
+      "status": "listed",
+      "status_label": "Listed (verified)",
+      "verified": true,
+      "closes": "2027-01-15",
+      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
+      "schedule_url": null,
+      "catalogue_url": null,
+      "classes": null,
+      "address": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Field Spaniel Club of NSW \u2013 Sprint",
       "club": "Field Spaniel Club of NSW",
       "start": "2027-01-29",
@@ -40482,7 +40509,7 @@
       "verified": true,
       "closes": "2027-01-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50345",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50345/FieldSpanielClubofNSWSprintDogTMTrial_29-Jan-2027_SPRINT_50345_Schedule_20261103_CEzrMYOaTUSJghadcTiGCA.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50347/FieldSpanielClubofNSWSprintDogTMTrial_31-Jan-2027_SPRINT_50347_Schedule_20261108_33gcriEUI0aHsVXL3SKOIg.pdf",
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -40509,7 +40536,7 @@
       "verified": true,
       "closes": "2027-01-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50346",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50345/FieldSpanielClubofNSWSprintDogTMTrial_29-Jan-2027_SPRINT_50345_Schedule_20261103_CEzrMYOaTUSJghadcTiGCA.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50347/FieldSpanielClubofNSWSprintDogTMTrial_31-Jan-2027_SPRINT_50347_Schedule_20261108_33gcriEUI0aHsVXL3SKOIg.pdf",
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -40536,38 +40563,11 @@
       "verified": true,
       "closes": "2027-01-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50347",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50345/FieldSpanielClubofNSWSprintDogTMTrial_29-Jan-2027_SPRINT_50345_Schedule_20261103_CEzrMYOaTUSJghadcTiGCA.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50347/FieldSpanielClubofNSWSprintDogTMTrial_31-Jan-2027_SPRINT_50347_Schedule_20261108_33gcriEUI0aHsVXL3SKOIg.pdf",
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": true,
-      "is_past": false
-    },
-    {
-      "title": "Sapphire Coast Cash Raffle  (Sapphire Coast Kennel & Obedience Club Inc) \u2013 Admin",
-      "club": "Sapphire Coast Cash Raffle  (Sapphire Coast Kennel & Obedience Club Inc) \u2013 Admin",
-      "start": "2027-02-12",
-      "end": "2027-02-12",
-      "location": "",
-      "url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "category": "Admin",
-      "region": "NSW",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager"
-      ],
-      "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "listed",
-      "status_label": "Listed (verified)",
-      "verified": true,
-      "closes": "2027-02-10",
-      "entry_url": "https://www.showmanager.com.au/events/publicevents?g=2",
-      "schedule_url": null,
-      "catalogue_url": null,
-      "classes": null,
-      "address": null,
-      "open_now": false,
       "is_past": false
     }
   ]
