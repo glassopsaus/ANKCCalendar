@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-08T20:21:49+00:00",
+  "generated": "2026-11-10T00:13:18+00:00",
   "year": 2027,
-  "count": 1786,
+  "count": 1789,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -12874,6 +12874,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Sutherland Shire Dog Training Club Inc"
+    },
+    {
+      "title": "Tricks Double Header Rockingham Dog Club \u2013 Trick Dog",
+      "club": "Tricks Double Header Rockingham Dog Club",
+      "start": "2027-05-16",
+      "end": "2027-05-16",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Trick Dog",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Alpha Ag \u2013 Championship Show",
@@ -36932,6 +36954,50 @@
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW Grounds Development \u2013 Sled Sports"
+    },
+    {
+      "title": "Rally & Obedience Double Header Rockingham Dog Club",
+      "club": "Rally & Obedience Double Header Rockingham Dog Club",
+      "start": "2027-10-24",
+      "end": "2027-10-24",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Obedience",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
+      "title": "Rally & Obedience Double Header Rockingham Dog Club \u2013 Rally Obedience",
+      "club": "Rally & Obedience Double Header Rockingham Dog Club",
+      "start": "2027-10-24",
+      "end": "2027-10-24",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Rally Obedience",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Warragul & District Kennel & Obedience Club Inc",
