@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-10T00:06:55+00:00",
+  "generated": "2026-11-10T21:46:47+00:00",
   "year": 2026,
-  "count": 2777,
+  "count": 2778,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -43148,6 +43148,7 @@
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50283",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50283/DobermannClubofNSWInc_13-Nov-2026_SW_50283_Schedule_20261103_nuJZTXIXxUyi1SR4wfmMtw.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50283/DobermannClubofNSWInc_13-Nov-2026_SW_50283_Catalogue_WzMrESaMB0-EKGdU1K242Q.pdf",
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "classes": [
         "Advanced",
@@ -43255,8 +43256,8 @@
         "Dogs West (WA calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "closes": "2026-11-11",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50344",
@@ -43535,8 +43536,8 @@
         "Advanced",
         "Excellent"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2233",
       "open_now": false,
@@ -43877,6 +43878,7 @@
       "entry_url": "https://www.topdogevents.com.au/trials/2235",
       "open_now": true,
       "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2235/schedule/get",
       "club": "Redlands Dog Obedience Club Inc"
     },
     {
@@ -44041,6 +44043,33 @@
       "club": "Western Districts Kennel Club"
     },
     {
+      "title": "Stellar Dogs Training & Education - Summer Scentwork Courses (Nov-Dec)",
+      "start": "2026-11-23",
+      "end": "2026-12-07",
+      "location": "Lot 241 Tamby Court, Southern River",
+      "url": "https://www.topdogevents.com.au/trials/2318",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "closes": "2026-11-23",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2318",
+      "open_now": true,
+      "is_past": false,
+      "classes": [
+        "Advanced"
+      ],
+      "club": "Stellar Dogs Training and Education"
+    },
+    {
       "title": "Sw Sub Committee \u2013 Scent Work",
       "club": "Dogs QLD Scent Work Sub Committee",
       "start": "2026-11-23",
@@ -44117,8 +44146,8 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "closes": "2026-11-11",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49960",
@@ -59288,11 +59317,11 @@
       "closes": "2026-10-26",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50005",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50004/CessnockDogClubSprintTrial1_09-Nov-2026_SPRINT_50004_Schedule_20261104_7qe-IkoeD0ipWRwNsM5Iiw.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50005/CessnockDogClubSprintTrial2_10-Nov-2026_SPRINT_50005_Catalogue_BaX2Ybruy0eA4UXhaq3vwg.pdf",
+      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/50005/CessnockDogClubSprintTrial2_10-Nov-2026_SPRINT_50005_Catalogue_BaX2Ybruy0eA4UXhaq3vwg.pdf",
       "classes": null,
       "address": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Blacktown Kennel & Training Club Inc \u2013 Obedience",
@@ -59342,7 +59371,7 @@
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50150",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50150/BullaAmenitiesShowCommittee_14-Nov-2026_SPRINT_50150_Schedule_20260929_KqoeggA-WkKr10aOBBuBkQ.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50150/BullaAmenitiesShowCommittee_14-Nov-2026_SPRINT_50150_Catalogue_dyr0nwWXjUO-WLYAP7imTQ.pdf",
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "open_now": false,
@@ -59832,8 +59861,8 @@
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-10",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50400",
@@ -59841,7 +59870,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -59859,8 +59888,8 @@
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-10",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50401",
@@ -59868,7 +59897,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -59994,8 +60023,8 @@
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-10",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50402",
@@ -60003,7 +60032,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {

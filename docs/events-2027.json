@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-10T00:13:18+00:00",
+  "generated": "2026-11-10T21:52:38+00:00",
   "year": 2027,
-  "count": 1789,
+  "count": 1791,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -1690,6 +1690,54 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "2027 Trick Dog Test",
+      "start": "2027-02-09",
+      "end": "2027-02-09",
+      "location": "Bermagui Sports Oval, Lamont St, Bermagui",
+      "url": "https://readyentries.com/view-event-group/1793755317052x297506807336927200",
+      "category": "Trick Dog",
+      "region": "NSW",
+      "cancelled": false,
+      "color": "#7a3ea6",
+      "entry_url": "https://readyentries.com/view-event-group/1793755317052x297506807336927200",
+      "closes": "2027-01-22",
+      "status": "open",
+      "ep_status": "open",
+      "source": "Ready Entries",
+      "sources": [
+        "Ready Entries"
+      ],
+      "status_label": "Open (verified)",
+      "verified": true,
+      "open_now": true,
+      "is_past": false,
+      "club": "Bermagui Sports Oval, Lamont St, Bermagui"
+    },
+    {
+      "title": "2027 Rally Trial",
+      "start": "2027-02-10",
+      "end": "2027-02-10",
+      "location": "Bermagui Sports Oval, Lamont St, Bermagui",
+      "url": "https://readyentries.com/view-event-group/1793752596430x690291528091041800",
+      "category": "Rally Obedience",
+      "region": "NSW",
+      "cancelled": false,
+      "color": "#7a3ea6",
+      "entry_url": "https://readyentries.com/view-event-group/1793752596430x690291528091041800",
+      "closes": "2027-01-22",
+      "status": "open",
+      "ep_status": "open",
+      "source": "Ready Entries",
+      "sources": [
+        "Ready Entries"
+      ],
+      "status_label": "Open (verified)",
+      "verified": true,
+      "open_now": true,
+      "is_past": false,
+      "club": "Bermagui Sports Oval, Lamont St, Bermagui"
     },
     {
       "title": "Bega Valley Kennel & Training Club Inc \u2013 Rally Obedience",
