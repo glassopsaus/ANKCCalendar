@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-11T22:35:21+00:00",
+  "generated": "2026-11-12T22:14:15+00:00",
   "year": 2026,
-  "count": 2779,
+  "count": 2778,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -42846,11 +42846,10 @@
       "verified": true,
       "closes": "2026-10-28",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49955",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50973-SCHEDULE-Yuggera-Canine-Club-(QLD)-V1.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49956/YuggeraCanineClub_11-Nov-2026_SPRINT_49956_Catalogue_TL0-1np_RE-nlnQ409lfGw.pdf",
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50973-SCHEDULE-Yuggera-Canine-Club-(QLD)-V1.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49956/YuggeraCanineClub_11-Nov-2026_SPRINT_49956_Catalogue_TL0-1np_RE-nlnQ409lfGw.pdf"
     },
     {
       "title": "Scent Work Trial (Evening)- TDTC",
@@ -42871,12 +42870,12 @@
       "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50281",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50281/TuggeranongDogTrainingClub_11-Nov-2026_SW_50281_Schedule_20261019_4GrIg72iBEyuqlGXRqg9zw.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50281/TuggeranongDogTrainingClubNoviceElementTrial_11-Nov-2026_SW_50281_Catalogue_SuOC3S5HlE-sk4du_sFK3w.pdf",
       "closes": "2026-11-02",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50282/TuggeranongDogTrainingClubAdvancedElementTrial_12-Nov-2026_SW_50282_Schedule_20261019_e4jO3jWQ2UKdA5ytP94sIw.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50282/TuggeranongDogTrainingClubAdvancedElementTrial_12-Nov-2026_SW_50282_Catalogue_YGB_atd-Vkmfiqz6lS5pKw.pdf",
       "address": "TDTC Grounds, Cnr of Athllon Drive & Rowland Rees, Crescent Greenway, 2906, ACT",
       "classes": [
-        "Novice"
+        "Advanced"
       ],
       "open_now": false,
       "is_past": true,
@@ -42901,7 +42900,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "Scent Work Trial (evening) \u2013 TDTC"
     },
     {
@@ -42927,31 +42926,6 @@
       "is_past": false
     },
     {
-      "title": "Agility, Jumpers, Strategic Pairs FR Trial",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "location": "247 King Avenue, Durack, QLD, 4077",
-      "url": "https://www.topdogevents.com.au/trials/2176",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "QLD",
-      "color": "#c0392b",
-      "closes": "2026-11-01",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2176",
-      "open_now": false,
-      "is_past": false,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2176/catalogue/get",
-      "club": "Queensland Dog Sports - Agility Sub-Committee"
-    },
-    {
       "title": "Sprintdog Club \u2013 Sprint",
       "club": "SprintDog Club of QLD Inc.",
       "start": "2026-11-13",
@@ -42973,6 +42947,7 @@
       "closes": "2026-11-01",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49957",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49957/SprintdogClubofQLDInc_13-Nov-2026_SPRINT_49957_Schedule_20261021_587aZQXzz0icI1SZPNy39A.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49957/SprintdogClubofQLDInc_13-Nov-2026_SPRINT_49957_Catalogue_yxgzgJBv5Ua0W6n0w1uCSQ.pdf",
       "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
       "is_past": false
@@ -42993,8 +42968,8 @@
       "color": "#c9a227",
       "cancelled": false,
       "closes": "2026-11-12",
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": false,
       "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
       "open_now": false,
@@ -43209,6 +43184,7 @@
       "closes": "2026-11-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49027",
       "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Schedule_20260629.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Catalogue_buRZZtiNpE6CvWM2Rn4a9A.pdf",
       "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "club": "Southern Obedience Dog Training Club",
       "open_now": false,
@@ -43265,6 +43241,7 @@
       "closes": "2026-11-11",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50344",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50344/WhippetClubofWASprintDog_14-Nov-2026_SPRINT_50344_Schedule_20261102_S4pT6hepe0u8OpC85EAaHg.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50344/WhippetClubofWASprintDog_14-Nov-2026_SPRINT_50344_Catalogue__nhNczvHv0u3qFA2FJCvuA.pdf",
       "address": "Dogs West Showgrounds, Randford Road, Souther River, 6110, WA",
       "open_now": false,
       "is_past": false
@@ -43363,8 +43340,8 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2314",
       "open_now": false,
@@ -43655,8 +43632,8 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2098",
       "open_now": false,
@@ -43994,8 +43971,8 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2099",
       "open_now": false,
@@ -44225,8 +44202,8 @@
         "Top Dog Events",
         "Dogs SA"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2275",
       "open_now": false,
@@ -59426,7 +59403,7 @@
       "closes": "2026-11-06",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50310",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50310/OnePackDogTrainingClubDoubleTrickTrial_15-Nov-2026_TRICK_50310_Schedule_20261022_FNGZIh7WykaNQUGZ_QEQwA.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50310/OnePackDogTrainingClubDoubleAMTrial_15-Nov-2026_TRICK_50310_Catalogue_oKLxEj_eT0-iCDTUiAYVRA.pdf",
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
@@ -59480,7 +59457,7 @@
       "closes": "2026-11-08",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50348",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50348/DogsQLDScentWorkSubCommittee_17-Nov-2026_SW_50348_Schedule_20261102_x9bxlllShk2Ddw0ZPOyLfQ.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50348/DogsQLDScentWorkSubCommittee_17-Nov-2026_SW_50348_Catalogue_gnU-EJY-KUOKRHOd_KE9zQ.pdf",
       "classes": [
         "Novice",
         "Advanced",

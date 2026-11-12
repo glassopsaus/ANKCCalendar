@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-11T22:41:31+00:00",
+  "generated": "2026-11-12T22:21:57+00:00",
   "year": 2027,
-  "count": 1791,
+  "count": 1794,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -1169,6 +1169,30 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "SRAODC Obedience Rally and Tricks",
+      "start": "2027-01-29",
+      "end": "2027-01-29",
+      "location": "Belmont Oval, Abernethy Rd, Cloverdale, WA, 6105",
+      "url": "https://www.topdogevents.com.au/trials/2329",
+      "category": "Obedience",
+      "cancelled": false,
+      "region": "WA",
+      "color": "#16887a",
+      "closes": "2027-01-26",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2329",
+      "open_now": true,
+      "is_past": false,
+      "club": "Southern River Agility and Obedience Dog Club"
     },
     {
       "title": "Stanthorpe Ag \u2013 Championship Show",
@@ -8674,6 +8698,31 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Double Agility & Double Jumping",
+      "start": "2027-04-23",
+      "end": "2027-04-24",
+      "location": "Fred's Pass Reserve, 20 Bees Creek Road, Bees Creek, NT, 0821",
+      "url": "https://www.topdogevents.com.au/trials/2286",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "NT",
+      "color": "#b8621d",
+      "closes": "2026-10-15",
+      "topdog_open": false,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2286",
+      "open_now": false,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2286/schedule/get",
+      "club": "Top End Dog Club"
     },
     {
       "title": "Grafton Dog Obedience Club \u2013 Tracking / Track & Search",
@@ -25886,6 +25935,31 @@
       "open_now": false,
       "is_past": false,
       "club": "Bendigo Kennel Club Inc AM"
+    },
+    {
+      "title": "Games, Agility & Jumping",
+      "start": "2027-08-06",
+      "end": "2027-08-07",
+      "location": "Fred's Pass Reserve, 20 Bees Creek Road, Bees Creek, NT, 0821",
+      "url": "https://www.topdogevents.com.au/trials/2331",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "NT",
+      "color": "#b8621d",
+      "closes": "2027-07-29",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2331",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2331/schedule/get",
+      "club": "Top End Dog Club"
     },
     {
       "title": "German Breeds Club of NSW \u2013 Conformation",
