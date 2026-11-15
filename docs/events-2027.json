@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-14T20:32:50+00:00",
+  "generated": "2026-11-15T20:58:27+00:00",
   "year": 2027,
-  "count": 1796,
+  "count": 1810,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -341,6 +341,30 @@
       "is_past": false
     },
     {
+      "title": "Tassie\u2019s Got Moves! Tasmania\u2019s Inaugural Dances with Dogs Trials",
+      "start": "2027-01-09",
+      "end": "2027-01-09",
+      "location": "2 Winkleigh Road, Exeter TAS 7275",
+      "url": "https://www.topdogevents.com.au/trials/2324",
+      "category": "Dances with Dogs",
+      "cancelled": false,
+      "region": "TAS",
+      "color": "#c8632a",
+      "closes": "2027-01-03",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2324",
+      "open_now": true,
+      "is_past": false,
+      "club": "Canine Performance Association of Tasmania"
+    },
+    {
       "title": "Western Sydney Scent Work Club Inc \u2013 Scent Work",
       "start": "2027-01-09",
       "end": "2027-01-09",
@@ -362,6 +386,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Western Sydney Scent Work Club Inc"
+    },
+    {
+      "title": "CPAT Tricks Under The Trees Triple Trials",
+      "start": "2027-01-10",
+      "end": "2027-01-10",
+      "location": "Lonsdale Promenade, Westbury TAS 7303",
+      "url": "https://www.topdogevents.com.au/trials/2325",
+      "category": "Trick Dog",
+      "cancelled": false,
+      "region": "TAS",
+      "color": "#c8632a",
+      "closes": "2027-01-03",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2325",
+      "open_now": true,
+      "is_past": false,
+      "club": "Canine Performance Association of Tasmania"
     },
     {
       "title": "Combined Northern Canine Committee - \u2013 Conformation",
@@ -668,6 +716,28 @@
       "open_now": false,
       "is_past": false,
       "club": "All Star Dog Sports"
+    },
+    {
+      "title": "Dances with Dogs \u2013 BDOC",
+      "start": "2027-01-17",
+      "end": "2027-01-17",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dances-with-dogs-bdoc-7/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dances with Dogs \u2013 BDOC"
     },
     {
       "title": "Oxley Dog Training Club Inc \u2013 Scent Work",
@@ -1195,6 +1265,52 @@
       "open_now": false,
       "is_past": false,
       "club": "Wollongong & District Kennel Club Inc \u2013 Conformation"
+    },
+    {
+      "title": "Agility Ribbon Trial (Jumping) \u2013 TDTC",
+      "start": "2027-02-03",
+      "end": "2027-02-03",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-ribbon-trial-jumping-tdtc/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility Ribbon Trial (Jumping) \u2013 TDTC"
+    },
+    {
+      "title": "2027 Obedience Trials",
+      "start": "2027-02-06",
+      "end": "2027-02-08",
+      "location": "Bermagui Sports Oval, Lamont St, Bermagui",
+      "url": "https://readyentries.com/view-event-group/1793677454339x584537207431495700",
+      "category": "Obedience",
+      "region": "NSW",
+      "cancelled": false,
+      "color": "#7a3ea6",
+      "entry_url": "https://readyentries.com/view-event-group/1793677454339x584537207431495700",
+      "closes": "2027-01-22",
+      "status": "open",
+      "ep_status": "open",
+      "source": "Ready Entries",
+      "sources": [
+        "Ready Entries"
+      ],
+      "status_label": "Open (verified)",
+      "verified": true,
+      "open_now": true,
+      "is_past": false,
+      "club": "2027 Obedience Trials"
     },
     {
       "title": "All Star Dog Sports \u2013 Scent Work",
@@ -2073,7 +2189,7 @@
       "cancelled": false,
       "region": "WA",
       "color": "#16887a",
-      "closes": "2027-02-14",
+      "closes": "2027-02-15",
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
@@ -3701,6 +3817,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Trick Dog Trial (Double) ACTCDC",
+      "start": "2027-03-20",
+      "end": "2027-03-20",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-trial-double-actcdc/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Trick Dog Trial (Double) ACTCDC"
     },
     {
       "title": "Twilight Canine Country Club Inc",
@@ -5825,6 +5963,28 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "Trick Dog Trial (Double) \u2013 ACTCDC",
+      "start": "2027-04-17",
+      "end": "2027-04-17",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-trial-double-actcdc-2/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Trick Dog Trial (Double) \u2013 ACTCDC"
     },
     {
       "title": "Welsh Corgi Club of NSW Inc \u2013 Sled Sports",
@@ -14468,6 +14628,28 @@
       "is_past": false
     },
     {
+      "title": "Trick Dog Trial (Double) \u2013 ACTCDC",
+      "start": "2027-07-04",
+      "end": "2027-07-04",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-trial-double-actcdc-3/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Trick Dog Trial (Double) \u2013 ACTCDC"
+    },
+    {
       "title": "Working Gundog Club of NSW \u2013 Retrieving",
       "start": "2027-07-04",
       "end": "2027-07-04",
@@ -16886,6 +17068,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Toy & General All Breeds Dog Club of NSW \u2013 Conformation"
+    },
+    {
+      "title": "Agility & Jumping Trial \u2013 TDTC",
+      "start": "2027-07-31",
+      "end": "2027-07-31",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-jumping-trial-tdtc-3/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility & Jumping Trial \u2013 TDTC"
     },
     {
       "title": "Agility Trial Perth Training &ODC",
@@ -20125,6 +20329,28 @@
       "is_past": false
     },
     {
+      "title": "Trick Dog Trial (Double) \u2013 ACTCDC",
+      "start": "2027-08-28",
+      "end": "2027-08-28",
+      "location": "",
+      "url": "https://dogsact.org.au/event/trick-dog-trial-double-actcdc-4/",
+      "category": "Trick Dog",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Trick Dog Trial (Double) \u2013 ACTCDC"
+    },
+    {
       "title": "Working Gundog Club of NSW \u2013 Retrieving",
       "start": "2027-08-28",
       "end": "2027-08-29",
@@ -20215,6 +20441,28 @@
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW Spring Fair Lure Coursing Trial"
+    },
+    {
+      "title": "Dances with Dogs (Double) \u2013 ACTCDC",
+      "start": "2027-08-29",
+      "end": "2027-08-29",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dances-with-dogs-double-actcdc/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dances with Dogs (Double) \u2013 ACTCDC"
     },
     {
       "title": "Fast Paws Sydney Inc \u2013 Sled Sports",
@@ -23873,6 +24121,28 @@
       "is_past": false
     },
     {
+      "title": "Agility Ribbon Trial (Agility) \u2013 TDTC",
+      "start": "2027-10-13",
+      "end": "2027-10-13",
+      "location": "",
+      "url": "https://dogsact.org.au/event/agility-ribbon-trial-agility-tdtc/",
+      "category": "Agility",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Agility Ribbon Trial (Agility) \u2013 TDTC"
+    },
+    {
       "title": "Kyeamba Kennel & Training Club Inc \u2013 Agility",
       "start": "2027-10-13",
       "end": "2027-10-13",
@@ -25602,6 +25872,28 @@
       "club": "Coffs Harbour Dog Training Club Inc"
     },
     {
+      "title": "Dances with Dogs (Double) \u2013 ACTCDC",
+      "start": "2027-11-06",
+      "end": "2027-11-06",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dances-with-dogs-double-actcdc-2/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dances with Dogs (Double) \u2013 ACTCDC"
+    },
+    {
       "title": "Fast Paws Sydney Inc \u2013 Sled Sports",
       "start": "2027-11-06",
       "end": "2027-11-07",
@@ -25759,6 +26051,28 @@
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW Obedience, Tracking &"
+    },
+    {
+      "title": "Dances with Dogs (Double) \u2013 ACTCDC",
+      "start": "2027-11-07",
+      "end": "2027-11-07",
+      "location": "",
+      "url": "https://dogsact.org.au/event/dances-with-dogs-double-actcdc-2/",
+      "category": "Dances with Dogs",
+      "source": "Dogs ACT",
+      "cancelled": false,
+      "region": "ACT",
+      "color": "#1d6fb8",
+      "sources": [
+        "Dogs ACT"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false,
+      "club": "Dances with Dogs (Double) \u2013 ACTCDC"
     },
     {
       "title": "Far South East Kennel Club \u2013 Conformation",
@@ -27624,8 +27938,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -27760,8 +28073,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,

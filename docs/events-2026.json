@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-14T20:26:51+00:00",
+  "generated": "2026-11-15T20:52:34+00:00",
   "year": 2026,
-  "count": 2798,
+  "count": 2800,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -3902,8 +3902,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -4444,8 +4443,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -4530,8 +4528,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -4539,8 +4536,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1416",
       "open_now": false,
       "is_past": true,
-      "club": "Pine Rivers Dog Training Club",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1416/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1416/catalogue/get",
+      "club": "Pine Rivers Dog Training Club"
     },
     {
       "title": "Championship Show (All Breeds) WA Kennel Club \u2013 Conformation",
@@ -5985,8 +5982,7 @@
       "source": "Top Dog Events",
       "breed_group": "Group 3 (Gundogs)",
       "sources": [
-        "Top Dog Events",
-        "Dogs Queensland (trial calendar)"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -5994,9 +5990,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1484",
       "open_now": false,
       "is_past": true,
-      "club": "Redlands Dog Obedience Club Inc",
       "schedule_url": "https://www.topdogevents.com.au/trials/1484/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1484/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1484/catalogue/get",
+      "club": "Redlands Dog Obedience Club Inc"
     },
     {
       "title": "Scent Work Club of WA Trial Easter Extravaganza - Day 1",
@@ -7475,8 +7471,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -9174,8 +9169,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -12179,8 +12173,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -12887,8 +12880,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -14134,8 +14126,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -14697,8 +14688,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -15045,8 +15035,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -15054,8 +15043,8 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/47738",
       "open_now": false,
       "is_past": true,
-      "club": "Pine Rivers Dog Training Club",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1589/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1589/catalogue/get",
+      "club": "Pine Rivers Dog Training Club"
     },
     {
       "title": "Red Cliffs Ladies Kennel & Obedience Club Inc - PM",
@@ -16357,8 +16346,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -17284,8 +17272,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -18845,8 +18832,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -19380,8 +19366,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -20276,8 +20261,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -21350,8 +21334,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -22012,8 +21995,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -22153,8 +22135,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -22596,8 +22577,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -23990,8 +23970,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -24287,8 +24266,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -24432,8 +24410,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -24877,8 +24854,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -25339,8 +25315,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -25348,9 +25323,9 @@
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49230",
       "open_now": false,
       "is_past": true,
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50214-SCHEDULE-Magpies-Mackay-Dog-Obedience-Club-Inc-(QLD)-V1.pdf",
       "catalogue_url": "https://www.topdogevents.com.au/trials/2174/catalogue/get",
-      "club": "Jumpers, Gamblers, Snooker FR Trial - Judging 7pm",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50214-SCHEDULE-Magpies-Mackay-Dog-Obedience-Club-Inc-(QLD)-V1.pdf"
+      "club": "Jumpers, Gamblers, Snooker FR Trial - Judging 7pm"
     },
     {
       "title": "RDOC Track & Search Trial",
@@ -25392,8 +25367,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -26950,8 +26924,7 @@
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "status": "closed",
       "status_label": "Entries closed",
@@ -30464,14 +30437,14 @@
       "region": "ACT",
       "color": "#1d6fb8",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
         "Dogs ACT"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2243",
       "open_now": false,
@@ -30491,13 +30464,13 @@
       "region": "NSW",
       "color": "#7a3ea6",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2260",
       "open_now": false,
@@ -30523,13 +30496,13 @@
       "region": "WA",
       "color": "#16887a",
       "closes": null,
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
+      "status": "listed",
+      "status_label": "Listed (verified)",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2258",
       "open_now": false,
@@ -31332,6 +31305,63 @@
       "club": "Southern Districts Kennel & Obedience Dog Club Inc"
     },
     {
+      "title": "Eastern Shore Dog Club Trick Dog Trials",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "location": "South Street Reserve, Bellerive, 7018",
+      "url": "https://www.topdogevents.com.au/trials/2245",
+      "category": "Trick Dog",
+      "cancelled": false,
+      "region": "TAS",
+      "color": "#c8632a",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2245",
+      "open_now": false,
+      "is_past": true,
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2245/catalogue/get",
+      "club": "Eastern Shore Dog Club"
+    },
+    {
+      "title": "KKTC Scentwork trial November 2026",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "location": "Kyeamba Kennel and Training Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2047",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "NSW",
+      "color": "#7a3ea6",
+      "closes": "2026-11-09",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events",
+        "Show Manager"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50283",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50276/ISDSCNovemberScentWorkTrial_15-Nov-2026_SW_50276_Schedule_20261016_fKSGa7uSn0WwVgCNIj-8OQ.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50276/ISDSCNovemberScentWorkTrialAMTrial_15-Nov-2026_SW_50276_Catalogue_-XDNLNGOZEOb0piDAg3d1w.pdf",
+      "address": "Caringbah High School, 85 Willarong Road, Caringbah, 2229, NSW",
+      "classes": [
+        "Novice",
+        "Advanced"
+      ],
+      "open_now": false,
+      "is_past": true,
+      "club": "Kyeamba Kennel and Training Club Inc"
+    },
+    {
       "title": "Southern Obedience Dog Training Club Inc",
       "start": "2026-11-14",
       "end": "2026-11-14",
@@ -31351,12 +31381,11 @@
       "verified": true,
       "closes": "2026-11-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49027",
-      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Schedule_20260629.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Catalogue_buRZZtiNpE6CvWM2Rn4a9A.pdf",
-      "address": "Southern Obedience Dog Training Club, 56 Soden Rd, BANGHOLME, 3521, VIC",
       "club": "Southern Obedience Dog Training Club",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Schedule_20260629.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49027/SouthernObedienceDogTrainingClubObedienceRallyAMTrial_14-Nov-2026_OB_49027_Catalogue_buRZZtiNpE6CvWM2Rn4a9A.pdf"
     },
     {
       "title": "SprintDog Trial \u2013 Dogs ACT",
@@ -31378,12 +31407,11 @@
       "verified": true,
       "closes": "2026-11-07",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50028",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50028/DogsACTSprintDogPartARestricted_22-Oct-2026_SPRINT_50028_Schedule_20260911_shWh_QGs-0enaFwY6-MtHg.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50028/DogsACTSprintDogPartARestricted_14-Nov-2026_SPRINT_50028_Catalogue_v8mzJ9W18UKxtd0oVfv1ZQ.pdf",
-      "address": "ACT CDC Grounds, 240 Narrabundah Lane, Symonston, 2609, ACT",
-      "club": "Dogs ACT",
+      "club": "Dogs ACT - Sprint Dog - Part A Restricted",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50028/DogsACTSprintDogPartARestricted_22-Oct-2026_SPRINT_50028_Schedule_20260911_shWh_QGs-0enaFwY6-MtHg.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50028/DogsACTSprintDogPartARestricted_14-Nov-2026_SPRINT_50028_Catalogue_v8mzJ9W18UKxtd0oVfv1ZQ.pdf"
     },
     {
       "title": "Sprintdog\u2122 Trial Whippet Club",
@@ -31408,11 +31436,35 @@
       "verified": true,
       "closes": "2026-11-11",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50344",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50344/WhippetClubofWASprintDog_14-Nov-2026_SPRINT_50344_Schedule_20261102_S4pT6hepe0u8OpC85EAaHg.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50344/WhippetClubofWASprintDog_14-Nov-2026_SPRINT_50344_Catalogue__nhNczvHv0u3qFA2FJCvuA.pdf",
-      "address": "Dogs West Showgrounds, Randford Road, Souther River, 6110, WA",
       "open_now": false,
-      "is_past": true
+      "is_past": true,
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50344/WhippetClubofWASprintDog_14-Nov-2026_SPRINT_50344_Schedule_20261102_S4pT6hepe0u8OpC85EAaHg.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50344/WhippetClubofWASprintDog_14-Nov-2026_SPRINT_50344_Catalogue__nhNczvHv0u3qFA2FJCvuA.pdf"
+    },
+    {
+      "title": "WAG November K9 replacement Trial",
+      "start": "2026-11-14",
+      "end": "2026-11-15",
+      "location": "2150 Gisborne Rd, Coimadai",
+      "url": "https://www.topdogevents.com.au/trials/2279",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "VIC",
+      "color": "#3aa657",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events",
+        "Dogs Victoria (official calendar)"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2279",
+      "open_now": false,
+      "is_past": true,
+      "club": "Western Agility Group"
     },
     {
       "title": "WSSW Ultimate Trial",
@@ -31424,12 +31476,11 @@
       "cancelled": false,
       "region": "NSW",
       "color": "#7a3ea6",
-      "closes": "2026-11-09",
+      "closes": null,
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Show Manager"
+        "Top Dog Events"
       ],
       "classes": [
         "Ultimate"
@@ -31437,13 +31488,12 @@
       "status": "closed",
       "status_label": "Entries closed",
       "verified": true,
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50283",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50276/ISDSCNovemberScentWorkTrial_15-Nov-2026_SW_50276_Schedule_20261016_fKSGa7uSn0WwVgCNIj-8OQ.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50276/ISDSCNovemberScentWorkTrialAMTrial_15-Nov-2026_SW_50276_Catalogue_-XDNLNGOZEOb0piDAg3d1w.pdf",
-      "address": "Caringbah High School, 85 Willarong Road, Caringbah, 2229, NSW",
+      "entry_url": "https://www.topdogevents.com.au/trials/2272",
       "open_now": false,
       "is_past": true,
-      "club": "Western Sydney Scent Work Club"
+      "schedule_url": "https://www.topdogevents.com.au/trials/2272/schedule/get",
+      "club": "Western Sydney Scent Work Club",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50276/ISDSCNovemberScentWorkTrialAMTrial_15-Nov-2026_SW_50276_Catalogue_-XDNLNGOZEOb0piDAg3d1w.pdf"
     },
     {
       "title": "Wear It Pink - Charity Fundraiser Trial",
@@ -31469,28 +31519,6 @@
       "is_past": true,
       "catalogue_url": "https://www.topdogevents.com.au/trials/2294/catalogue/get",
       "club": "Agility Dog Club of NSW Inc."
-    },
-    {
-      "title": "Western Agility Group",
-      "start": "2026-11-14",
-      "end": "2026-11-15",
-      "location": "Victoria",
-      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
-      "category": "Agility",
-      "region": "VIC",
-      "source": "Dogs Victoria (official calendar)",
-      "color": "#3aa657",
-      "cancelled": false,
-      "sources": [
-        "Dogs Victoria (official calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false,
-      "club": "Western Agility Group"
     },
     {
       "title": "Wigglebutts Inaugural Mock Jumping Trial Mock",
@@ -31542,7 +31570,7 @@
       "address": "Clunes Field and Game Club, 75 Clunes - Mt Cameron road, Clunes, 3370, VIC",
       "club": "The Golden Retriever Club of VIC Inc",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Dances with Dogs Advisory committee - Tricks and DWD National 2027 fundraising raffle",
@@ -31608,8 +31636,8 @@
         "Top Dog Events"
       ],
       "closes": "2026-11-15",
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2302",
       "open_now": false,
@@ -31652,15 +31680,15 @@
       "color": "#1d6fb8",
       "entry_url": "https://readyentries.com/view-event-group/1789966621657x611782101854584800",
       "closes": "2026-11-15",
-      "status": "closing_today",
+      "status": "closed",
       "ep_status": "open",
       "source": "Ready Entries",
       "sources": [
         "Ready Entries"
       ],
-      "status_label": "Closing today",
+      "status_label": "Entries closed",
       "verified": true,
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "club": "CSSC Scent Work Trial"
     },
@@ -31819,7 +31847,7 @@
       "region": "SA",
       "color": "#c9a227",
       "closes": "2026-11-16",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
@@ -31828,11 +31856,11 @@
       "classes": [
         "Excellent"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2293",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2293/schedule/get",
       "club": "Gawler Dog Training Club Inc."
@@ -31905,8 +31933,8 @@
         "Dogs Victoria (official calendar)",
         "Dogs Victoria (Vic Dog Trials)"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "entry_url": null,
       "schedule_url": "https://vicdog.com/wp-content/uploads/2026/10/20261121-22-Western-Agility-Group-Agility-Schedule.pdf",
@@ -32041,17 +32069,17 @@
       "region": "VIC",
       "color": "#3aa657",
       "closes": "2026-11-16",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events",
         "Dogs Victoria (official calendar)"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2259",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "club": "Western Agility Group"
     },
@@ -32211,12 +32239,11 @@
       "color": "#c9a227",
       "cancelled": false,
       "closes": "2026-11-16",
-      "topdog_open": true,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2206",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2206/schedule/get",
       "classes": [
@@ -32721,16 +32748,16 @@
       "region": "VIC",
       "color": "#3aa657",
       "closes": "2026-11-16",
-      "topdog_open": true,
+      "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
         "Top Dog Events"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2303",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2303/schedule/get",
       "club": "Victorian Gundog Club"
@@ -33258,8 +33285,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -33448,8 +33474,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -33638,8 +33663,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -33666,8 +33690,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -33694,8 +33717,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -33722,8 +33744,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -33750,8 +33771,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -33940,8 +33960,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34184,8 +34203,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34293,8 +34311,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34375,8 +34392,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34403,8 +34419,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34431,8 +34446,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34513,8 +34527,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34541,8 +34554,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34569,8 +34581,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34705,8 +34716,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -34949,8 +34959,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35004,8 +35013,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35059,8 +35067,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35087,8 +35094,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35115,8 +35121,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35197,8 +35202,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35225,8 +35229,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35280,8 +35283,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35308,8 +35310,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35336,8 +35337,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35364,8 +35364,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35770,8 +35769,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35798,8 +35796,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35826,8 +35823,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35854,8 +35850,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35882,8 +35877,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35964,8 +35958,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -35992,8 +35985,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36047,8 +36039,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36075,8 +36066,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36130,8 +36120,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36185,8 +36174,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36213,8 +36201,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36430,8 +36417,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36458,8 +36444,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36568,8 +36553,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36596,8 +36580,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36651,8 +36634,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36679,8 +36661,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36923,8 +36904,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -36951,8 +36931,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -37303,8 +37282,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -37412,8 +37390,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -37521,8 +37498,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -37657,8 +37633,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -37928,8 +37903,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": true,
@@ -38118,8 +38092,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -38335,8 +38308,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -38363,8 +38335,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -38661,8 +38632,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -38743,8 +38713,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -38852,8 +38821,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": true,
@@ -38880,8 +38848,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -38908,8 +38875,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -38990,8 +38956,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -39072,8 +39037,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -39154,8 +39118,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -39209,8 +39172,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -39264,8 +39226,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -39292,8 +39253,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -39509,8 +39469,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40050,8 +40009,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40078,8 +40036,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40133,8 +40090,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40188,8 +40144,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40243,8 +40198,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40271,8 +40225,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40515,8 +40468,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40841,8 +40793,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40869,8 +40820,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -40978,8 +40928,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -41384,8 +41333,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -41412,8 +41360,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -41548,8 +41495,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -41657,8 +41603,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -41739,8 +41684,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -41767,8 +41711,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -41903,8 +41846,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -41958,8 +41900,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42148,8 +42089,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42284,8 +42224,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42393,8 +42332,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42448,8 +42386,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42476,8 +42413,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42504,8 +42440,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42559,8 +42494,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42587,8 +42521,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42669,8 +42602,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42724,8 +42656,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42779,8 +42710,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -42942,8 +42872,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": true,
@@ -42970,8 +42899,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -43079,8 +43007,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -43296,8 +43223,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -43405,8 +43331,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -43460,8 +43385,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -43731,8 +43655,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -43894,8 +43817,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -43922,8 +43844,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -43977,8 +43898,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44032,8 +43952,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44087,8 +44006,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44115,8 +44033,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44143,8 +44060,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44198,8 +44114,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44226,8 +44141,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44281,8 +44195,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44336,8 +44249,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44445,8 +44357,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44473,8 +44384,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44663,8 +44573,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44691,8 +44600,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44746,8 +44654,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44801,8 +44708,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -44856,8 +44762,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45019,8 +44924,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45128,8 +45032,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45264,8 +45167,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45292,8 +45194,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45428,8 +45329,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45483,8 +45383,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45511,8 +45410,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45539,8 +45437,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45621,8 +45518,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -45946,8 +45842,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -46082,8 +45977,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -46299,8 +46193,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -46327,8 +46220,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": true,
@@ -46490,8 +46382,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -46572,8 +46463,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -46654,8 +46544,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -46925,8 +46814,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -46953,8 +46841,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -47008,8 +46895,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -47307,8 +47193,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -47443,8 +47328,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -47498,8 +47382,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -47526,8 +47409,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -47689,8 +47571,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -47744,8 +47625,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -47988,8 +47868,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -48232,8 +48111,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -48665,8 +48543,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -48828,8 +48705,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -48856,8 +48732,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -48965,8 +48840,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49047,8 +48921,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49075,8 +48948,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49184,8 +49056,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49347,8 +49218,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49429,8 +49299,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49565,8 +49434,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49674,8 +49542,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49702,8 +49569,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49811,8 +49677,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49839,8 +49704,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49921,8 +49785,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49949,8 +49812,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -49977,8 +49839,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50167,8 +50028,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50195,8 +50055,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50223,8 +50082,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50386,8 +50244,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50414,8 +50271,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50442,8 +50298,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50551,8 +50406,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50606,8 +50460,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50634,8 +50487,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50689,8 +50541,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50852,8 +50703,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50907,8 +50757,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -50935,8 +50784,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -51206,8 +51054,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -51315,8 +51162,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -51370,8 +51216,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -51533,8 +51378,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -51561,8 +51405,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -51589,8 +51432,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -51726,8 +51568,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -51943,8 +51784,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -52025,8 +51865,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -52107,8 +51946,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -52135,8 +51973,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -52677,8 +52514,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -52925,8 +52761,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53007,8 +52842,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53173,8 +53007,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": true,
@@ -53336,8 +53169,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53472,8 +53304,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53500,8 +53331,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53646,8 +53476,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53757,8 +53586,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53812,8 +53640,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53852,7 +53679,7 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49545/BlacktownKennelTrainingClubInc_14-Nov-2026_OB_49545_Schedule_20260806_n-WsdpnOUkeENtBItVpMBg.pdf",
       "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/49545/BlacktownKennelTrainingClubInc_14-Nov-2026_OB_49545_Catalogue_a5tGIt45p0qnzirRmbekGg.pdf",
       "classes": null,
-      "address": "Blacktown City Canine Centre (Owen St), Owen St, Glendenning, 2761, NSW",
+      "address": null,
       "open_now": false,
       "is_past": true
     },
@@ -53879,7 +53706,7 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50150/BullaAmenitiesShowCommittee_14-Nov-2026_SPRINT_50150_Schedule_20260929_KqoeggA-WkKr10aOBBuBkQ.pdf",
       "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50150/BullaAmenitiesShowCommittee_14-Nov-2026_SPRINT_50150_Catalogue_dyr0nwWXjUO-WLYAP7imTQ.pdf",
       "classes": null,
-      "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
+      "address": null,
       "open_now": false,
       "is_past": true
     },
@@ -53894,8 +53721,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53910,7 +53736,7 @@
         "Novice",
         "Advanced"
       ],
-      "address": "Morayfield, 34 Devine Crt, Morayfield, 4506, QLD",
+      "address": null,
       "open_now": false,
       "is_past": true
     },
@@ -53925,8 +53751,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -53938,16 +53763,16 @@
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50198/MetropolitanDogObedienceClubInc_14-Nov-2026_OB_50198_Schedule_20261005_L0kY35FWP0ugKe8KFvJDaQ.pdf",
       "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/50198/MetropolitanDogObedienceClubInc_14-Nov-2026_OB_50198_Catalogue_k3MEglEIb06Ginn1VBASmA.pdf",
       "classes": null,
-      "address": "Metropolitan Dog Obedience Club, Marchant Park, Chermside, 4032, QLD",
+      "address": null,
       "open_now": false,
       "is_past": true
     },
     {
-      "title": "SprintDog Club of QLD Inc.",
-      "club": "SprintDog Club of QLD Inc.",
+      "title": "Sprintdog Club of QLD Inc",
+      "club": "Sprintdog Club of QLD Inc",
       "start": "2026-11-14",
       "end": "2026-11-14",
-      "location": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49958",
       "category": "Sprint",
       "region": "QLD",
@@ -53962,10 +53787,10 @@
       "verified": true,
       "closes": "2026-11-01",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49958",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49958/SprintdogClubofQLDInc_14-Nov-2026_SPRINT_49958_Schedule_20261021_YfFKCebga0iPiP1q87TiQw.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49958/SprintdogClubofQLDInc_14-Nov-2026_SPRINT_49958_Catalogue_05zaq91jpkOVvZJmXcIzHQ.pdf",
+      "schedule_url": null,
+      "catalogue_url": null,
       "classes": null,
-      "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
+      "address": null,
       "open_now": false,
       "is_past": true
     },
@@ -53994,7 +53819,7 @@
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Victorian Womens Dog Club \u2013 Sprint",
@@ -54021,7 +53846,7 @@
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Dogs QLD Scent Work Sub Committee",
@@ -54075,7 +53900,7 @@
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50017",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261108_Mq5yMU_TOECatDvv2FpcAQ.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261115_Mn_RfX24902kNf45tXNXrg.pdf",
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -54129,7 +53954,7 @@
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50018",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261108_Mq5yMU_TOECatDvv2FpcAQ.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261115_Mn_RfX24902kNf45tXNXrg.pdf",
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -54151,8 +53976,8 @@
       ],
       "color": "#3aa657",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49816",
@@ -54160,7 +53985,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "Knox Park, Ferntree Gully Rd, Knoxfield, 3180, VIC",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -54291,7 +54116,7 @@
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50019",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261108_Mq5yMU_TOECatDvv2FpcAQ.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261115_Mn_RfX24902kNf45tXNXrg.pdf",
       "catalogue_url": null,
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -54313,8 +54138,8 @@
       ],
       "color": "#7a3ea6",
       "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "closes": "2026-11-16",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50197",
@@ -54422,13 +54247,12 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50349",
@@ -54441,7 +54265,7 @@
         "Masters"
       ],
       "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -54459,8 +54283,8 @@
       ],
       "color": "#3aa657",
       "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "closes": "2026-11-16",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50159",
@@ -54482,8 +54306,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -54635,34 +54458,6 @@
       "is_past": false
     },
     {
-      "title": "Sunshine Coast Dog Obedience Club Inc \u2013 Trick Dog",
-      "club": "Sunshine Coast Dog Obedience Club Inc",
-      "start": "2026-11-28",
-      "end": "2026-11-28",
-      "location": "Ballinger Rd Sports, Balllinger Rd, Buderim, 4560, QLD",
-      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49964",
-      "category": "Trick Dog",
-      "region": "QLD",
-      "source": "Show Manager",
-      "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
-      ],
-      "color": "#c0392b",
-      "cancelled": false,
-      "status": "open",
-      "status_label": "Open (verified)",
-      "verified": true,
-      "closes": "2026-11-20",
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49964",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50981-SCHEDULE-Sunshine-Coast-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf",
-      "catalogue_url": null,
-      "classes": null,
-      "address": "Ballinger Rd Sports, Balllinger Rd, Buderim, 4560, QLD",
-      "open_now": true,
-      "is_past": false
-    },
-    {
       "title": "Sunshine Coast Dog Obedience Club Inc \u2013 Rally Obedience",
       "club": "Sunshine Coast Dog Obedience Club Inc",
       "start": "2026-11-28",
@@ -54673,8 +54468,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -54684,6 +54478,33 @@
       "closes": "2026-11-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49962",
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50979-SCHEDULE-Sunshine-Coast-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf",
+      "catalogue_url": null,
+      "classes": null,
+      "address": "Ballinger Rd Sports, Balllinger Rd, Buderim, 4560, QLD",
+      "open_now": true,
+      "is_past": false
+    },
+    {
+      "title": "Sunshine Coast Dog Obedience Club Inc \u2013 Trick Dog",
+      "club": "Sunshine Coast Dog Obedience Club Inc",
+      "start": "2026-11-28",
+      "end": "2026-11-28",
+      "location": "Ballinger Rd Sports, Balllinger Rd, Buderim, 4560, QLD",
+      "url": "https://www.showmanager.com.au/events/PublicEvents/Details/49964",
+      "category": "Trick Dog",
+      "region": "QLD",
+      "source": "Show Manager",
+      "sources": [
+        "Show Manager"
+      ],
+      "color": "#c0392b",
+      "cancelled": false,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "closes": "2026-11-20",
+      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49964",
+      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50981-SCHEDULE-Sunshine-Coast-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf",
       "catalogue_url": null,
       "classes": null,
       "address": "Ballinger Rd Sports, Balllinger Rd, Buderim, 4560, QLD",
@@ -54917,8 +54738,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -54945,8 +54765,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -55000,8 +54819,7 @@
       "region": "QLD",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs Queensland (trial calendar)"
+        "Show Manager"
       ],
       "color": "#c0392b",
       "cancelled": false,
@@ -70272,7 +70090,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "DOGS NSW Show Committee \u2013 Conformation"
     },
     {
