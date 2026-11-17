@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-17T00:11:03+00:00",
+  "generated": "2026-11-17T23:36:03+00:00",
   "year": 2027,
-  "count": 1814,
+  "count": 1811,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -251,6 +251,30 @@
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW Fast N Furious Working Party \u2013 Conformation"
+    },
+    {
+      "title": "DWDCSA Summer School (Course of 4 weeks x 1 hr) Mock",
+      "start": "2027-01-05",
+      "end": "2027-01-26",
+      "location": "Dances with Dogs Club of SA",
+      "url": "https://www.topdogevents.com.au/trials/2332",
+      "category": "Dances with Dogs",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2027-01-02",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2332",
+      "open_now": true,
+      "is_past": false,
+      "club": "Dances with Dogs Club of SA"
     },
     {
       "title": "Sprintdog Club \u2013 Sprint",
@@ -835,17 +859,15 @@
       "color": "#c0392b",
       "cancelled": false,
       "sources": [
-        "Dogs Queensland (trial calendar)",
-        "Show Manager"
+        "Dogs Queensland (trial calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
-      "verified": true,
-      "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50389",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50389/DogsQueenslandSprintDogCommittee_22-Jan-2027_SPRINT_50389_Schedule_20261105_OG7BpFSbYkmD0FqYmoLvCw.pdf",
-      "closes": "2027-01-12"
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50389/DogsQueenslandSprintDogCommittee_22-Jan-2027_SPRINT_50389_Schedule_20261105_OG7BpFSbYkmD0FqYmoLvCw.pdf"
     },
     {
       "title": "Gold Coast Cc / Dogs Queensland (A2O Show) \u2013 Championship Show",
@@ -4446,28 +4468,6 @@
       "is_past": false
     },
     {
-      "title": "Scentwork Trial Bunbury & Districts \u2013 Scent Work",
-      "club": "Scentwork Trial Bunbury & Districts",
-      "start": "2027-03-13",
-      "end": "2027-03-13",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
       "title": "Southern Obedience Dog Training Club Inc",
       "start": "2027-03-13",
       "end": "2027-03-13",
@@ -4637,28 +4637,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Scentwork Trial Bunbury & Districts \u2013 Scent Work",
-      "club": "Scentwork Trial Bunbury & Districts",
-      "start": "2027-03-14",
-      "end": "2027-03-14",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -13196,28 +13174,6 @@
       "breed": "terrier",
       "sources": [
         "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "Scentwork Trial Scent Work Club",
-      "start": "2027-05-19",
-      "end": "2027-05-19",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
@@ -26009,28 +25965,6 @@
       "cancelled": false,
       "sources": [
         "Dogs Queensland (trial calendar)"
-      ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Scentwork Trial Scent Work Club",
-      "club": "Scentwork Trial Scent Work Club",
-      "start": "2027-08-04",
-      "end": "2027-08-04",
-      "location": "Western Australia",
-      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
-      "category": "Scent Work",
-      "region": "WA",
-      "source": "Dogs West (WA calendar)",
-      "color": "#16887a",
-      "cancelled": false,
-      "sources": [
-        "Dogs West (WA calendar)"
       ],
       "status": "approved_not_open",
       "status_label": "Approved (unverified)",
