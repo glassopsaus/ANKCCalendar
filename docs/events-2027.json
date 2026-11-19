@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-18T23:04:16+00:00",
+  "generated": "2026-11-19T23:08:05+00:00",
   "year": 2027,
-  "count": 1818,
+  "count": 1820,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -251,6 +251,35 @@
       "open_now": false,
       "is_past": false,
       "club": "DOGS NSW Fast N Furious Working Party \u2013 Conformation"
+    },
+    {
+      "title": "Marion Kennel Club of SA Inc Scent Trial - Masters Containers",
+      "start": "2027-01-04",
+      "end": "2027-01-04",
+      "location": "Marion Kennel Club Inc.",
+      "url": "https://www.topdogevents.com.au/trials/2326",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2026-12-27",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events",
+        "Dogs SA"
+      ],
+      "classes": [
+        "Masters"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2326",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2326/schedule/get",
+      "club": "Marion Kennel Club Inc."
     },
     {
       "title": "DWDCSA Summer School (Course of 4 weeks x 1 hr) Mock",
@@ -6151,6 +6180,30 @@
       "open_now": false,
       "is_past": false,
       "club": "Australian Terrier Club of NSW Inc"
+    },
+    {
+      "title": "Backpackinf Trial German S/haired Pointer Club \u2013 Backpacking",
+      "club": "Backpackinf Trial German S/haired Pointer Club \u2013 Backpacking",
+      "start": "2027-03-28",
+      "end": "2027-03-28",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Backpacking",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Retrieving Trial - All Age Stakes Retrieving Club of WA",

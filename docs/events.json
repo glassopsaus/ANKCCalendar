@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-18T22:57:53+00:00",
+  "generated": "2026-11-19T23:01:25+00:00",
   "year": 2026,
-  "count": 2779,
+  "count": 2781,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -43526,7 +43526,7 @@
       "status_label": "Entries closed",
       "verified": true,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "CSSC Scent Work Trial"
     },
     {
@@ -43548,7 +43548,7 @@
       "verified": false,
       "entry_url": null,
       "open_now": false,
-      "is_past": false,
+      "is_past": true,
       "club": "Scent Work Trial \u2013 Canberra Scent Sport Club"
     },
     {
@@ -44137,6 +44137,7 @@
       "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2206/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2206/event_files/536/get",
       "classes": [
         "Advanced"
       ]
@@ -44264,12 +44265,11 @@
       "closes": "2026-11-20",
       "breed_group": "Group 3 (Gundogs)",
       "breed": "pointer",
-      "topdog_open": true,
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2298",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2298/schedule/get"
     },
@@ -44333,8 +44333,8 @@
       "sources": [
         "Top Dog Events"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2228",
       "open_now": false,
@@ -44446,8 +44446,8 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "closes": "2026-11-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49962",
@@ -44472,8 +44472,8 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "closes": "2026-11-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49964",
@@ -44751,6 +44751,31 @@
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2223/schedule/get",
       "club": "Noarlunga City Obedience Dog Club Inc"
+    },
+    {
+      "title": "Victorian Gundog Club SprintDog Trial",
+      "start": "2026-12-05",
+      "end": "2026-12-05",
+      "location": "655 Westernport Hwy, Ske  VIC  3977",
+      "url": "https://www.topdogevents.com.au/trials/2299",
+      "category": "Sprint",
+      "cancelled": false,
+      "region": "VIC",
+      "color": "#3aa657",
+      "closes": "2026-11-23",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2299",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2299/schedule/get",
+      "club": "Victorian Gundog Club"
     },
     {
       "title": "GRAFTON 6 December Containers trial",
@@ -45169,6 +45194,34 @@
       "open_now": false,
       "is_past": false,
       "club": "Sovereign City Kennel Club Inc"
+    },
+    {
+      "title": "The Pointer Club of SA Inc \u2013 Sprint",
+      "club": "The Pointer Club of South Australia Inc",
+      "start": "2026-12-27",
+      "end": "2026-12-28",
+      "location": "Williamstown Oval",
+      "url": "https://www.dogssa.com.au/events/upcoming-events",
+      "category": "Sprint",
+      "region": "SA",
+      "source": "Dogs SA",
+      "sources": [
+        "Dogs SA",
+        "Top Dog Events"
+      ],
+      "color": "#c9a227",
+      "cancelled": false,
+      "closes": "2026-12-18",
+      "breed_group": "Group 3 (Gundogs)",
+      "breed": "pointer",
+      "topdog_open": true,
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2342",
+      "open_now": true,
+      "is_past": false,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2342/schedule/get"
     },
     {
       "title": "Festive Fiesta / Kaq / Doty \u2013 Championship Show",
@@ -59474,7 +59527,7 @@
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50017",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261115_Mn_RfX24902kNf45tXNXrg.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50017/FieldSpanielClubofNSWSprintDogTMTrial_20-Nov-2026_SPRINT_50017_Schedule_20261119_5Gj-F0kM1UK3Q85NAvAFQw.pdf",
       "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50017/FieldSpanielClubofNSWSprintDogTMTrial_20-Nov-2026_SPRINT_50017_Catalogue_rjneF-hqU0WmybcwdrFGrg.pdf",
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -59528,7 +59581,7 @@
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50018",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261115_Mn_RfX24902kNf45tXNXrg.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50017/FieldSpanielClubofNSWSprintDogTMTrial_20-Nov-2026_SPRINT_50017_Schedule_20261119_5Gj-F0kM1UK3Q85NAvAFQw.pdf",
       "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50018/FieldSpanielClubofNSWSprintDogTMTrial_21-Nov-2026_SPRINT_50018_Catalogue_f_6Wmya0AkOFlk1YBSZSHA.pdf",
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
@@ -59556,7 +59609,7 @@
       "closes": "2026-11-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49816",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49816/KnoxObedienceDogClubObedienceRallyAMTRIAL_21-Nov-2026_OB_49816_Schedule_20260821_-zlK4I6kn06-VyZHngi55A.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/49816/KnoxObedienceDogClubObedienceRallyAMTRIAL_21-Nov-2026_OB_49816_Catalogue_OPdtSHt4jUePPX6dOZwVsw.pdf",
       "classes": null,
       "address": "Knox Park, Ferntree Gully Rd, Knoxfield, 3180, VIC",
       "open_now": false,
@@ -59664,7 +59717,7 @@
       "closes": "2026-11-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50212",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50212/TrackingClubofVictoria_21-Nov-2026_TS_50212_Schedule_20261007_SAEHBGb3DEy8Z2YdWk0fwQ.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50212/TrackingClubofVictoria_21-Nov-2026_TS_50212_Catalogue_FRZQtEDlIEiSnsu9_FxWXA.pdf",
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "open_now": false,
@@ -59722,19 +59775,19 @@
       "verified": true,
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50019",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Schedule_20261115_Mn_RfX24902kNf45tXNXrg.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Catalogue_QapW_luHPU6wN9Lpn6_WFw.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50017/FieldSpanielClubofNSWSprintDogTMTrial_20-Nov-2026_SPRINT_50017_Schedule_20261119_5Gj-F0kM1UK3Q85NAvAFQw.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50019/FieldSpanielClubofNSWSprintDogTMTrial_22-Nov-2026_SPRINT_50019_Catalogue_HqHXV7mSVEq-w-QHn2HvNQ.pdf",
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": false,
       "is_past": false
     },
     {
-      "title": "One Pack Dog Training Club \u2013 Trick Dog",
-      "club": "One Pack Dog Training Club",
+      "title": "One Pack Dog Training Club Double (AM Trial 1) \u2013 Trick Dog",
+      "club": "One Pack Dog Training Club Double (AM Trial 1)",
       "start": "2026-11-22",
       "end": "2026-11-22",
-      "location": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
+      "location": "",
       "url": "https://www.showmanager.com.au/events/PublicEvents/Details/50311",
       "category": "Trick Dog",
       "region": "NSW",
@@ -59743,16 +59796,16 @@
         "Show Manager"
       ],
       "color": "#7a3ea6",
-      "cancelled": false,
-      "status": "closed",
-      "status_label": "Entries closed",
+      "cancelled": true,
+      "status": "cancelled",
+      "status_label": "Cancelled",
       "verified": true,
       "closes": "2026-11-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50311",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50311/OnePackDogTrainingClubDoubleTrickTrial_22-Nov-2026_TRICK_50311_Schedule_20261022_XWJX2YFq80-pnAicajiSBg.pdf",
+      "schedule_url": null,
       "catalogue_url": null,
       "classes": null,
-      "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
+      "address": null,
       "open_now": false,
       "is_past": false
     },
@@ -59777,7 +59830,7 @@
       "closes": "2026-11-09",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50272",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50212/TrackingClubofVictoria_21-Nov-2026_TS_50212_Schedule_20261007_SAEHBGb3DEy8Z2YdWk0fwQ.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50272/TrackingClubofVictoria_22-Nov-2026_TS_50272_Catalogue_9NdAnCPofkGQlriexErh_w.pdf",
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "open_now": false,
@@ -59960,8 +60013,8 @@
       ],
       "color": "#3aa657",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-19",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49655",
@@ -59969,7 +60022,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -60041,8 +60094,8 @@
       ],
       "color": "#3aa657",
       "cancelled": false,
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-19",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49656",
@@ -60050,7 +60103,7 @@
       "catalogue_url": null,
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
