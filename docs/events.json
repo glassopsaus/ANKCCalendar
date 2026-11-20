@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-19T23:01:25+00:00",
+  "generated": "2026-11-20T22:37:25+00:00",
   "year": 2026,
-  "count": 2781,
+  "count": 2777,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -43530,6 +43530,36 @@
       "club": "CSSC Scent Work Trial"
     },
     {
+      "title": "Open Scent Work Trial - Advanced & Excellent",
+      "start": "2026-11-19",
+      "end": "2026-11-20",
+      "location": "655 Westernport Hwy, Skye VIC",
+      "url": "https://www.topdogevents.com.au/trials/2233",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "VIC",
+      "color": "#3aa657",
+      "closes": null,
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "classes": [
+        "Advanced",
+        "Excellent"
+      ],
+      "status": "closed",
+      "status_label": "Entries closed",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2233",
+      "open_now": false,
+      "is_past": true,
+      "schedule_url": "https://www.topdogevents.com.au/trials/2233/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2233/catalogue/get",
+      "club": "Dobermann Club of Victoria"
+    },
+    {
       "title": "Scent Work Trial \u2013 Canberra Scent Sport Club",
       "start": "2026-11-19",
       "end": "2026-11-19",
@@ -43572,32 +43602,7 @@
       "verified": false,
       "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
       "open_now": false,
-      "is_past": false
-    },
-    {
-      "title": "Albany All Breeds Dog Club Agility, Obedience, Rally and Tricks Trials",
-      "start": "2026-11-21",
-      "end": "2026-11-22",
-      "location": "Albany All Breeds Dog Club",
-      "url": "https://www.topdogevents.com.au/trials/2234",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "WA",
-      "color": "#16887a",
-      "closes": "2026-11-17",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2234",
-      "open_now": false,
-      "is_past": false,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2234/catalogue/get",
-      "club": "Albany All Breeds Dog Club"
+      "is_past": true
     },
     {
       "title": "Championship Show (All Breeds) Albany All Breeds DC \u2013 Conformation",
@@ -43644,60 +43649,6 @@
       "club": "Championship Shows \u2013 Dogs ACT"
     },
     {
-      "title": "Dances with Dogs Club of Victoria - DWD Competition",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "location": "655 Westernport Highway, Skye",
-      "url": "https://www.topdogevents.com.au/trials/2098",
-      "category": "Dances with Dogs",
-      "cancelled": false,
-      "region": "VIC",
-      "color": "#3aa657",
-      "closes": "2026-11-12",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2098",
-      "open_now": false,
-      "is_past": false,
-      "club": "Dances with Dogs Club of Victoria"
-    },
-    {
-      "title": "Gawler Dog Training Club Inc Scent Work Trial- Excellent Vehicles",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "location": "Gawler Dog Training Club Inc.",
-      "url": "https://www.topdogevents.com.au/trials/2293",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-11-16",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events",
-        "Dogs SA"
-      ],
-      "classes": [
-        "Excellent"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2293",
-      "open_now": false,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2293/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2293/catalogue/get",
-      "club": "Gawler Dog Training Club Inc."
-    },
-    {
       "title": "Gympie Kc \u2013 Championship Show",
       "club": "Gympie Kc \u2013 Championship Show",
       "start": "2026-11-21",
@@ -43731,14 +43682,12 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)",
-        "Top Dog Events"
+        "Dogs Victoria (official calendar)"
       ],
-      "closes": "2026-11-14",
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2207",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2207/schedule/get",
@@ -43747,31 +43696,6 @@
         "Novice"
       ],
       "club": "Hastings & District Obedience Dog Club"
-    },
-    {
-      "title": "Jimboomba DTC Agility /Jumping / Gamblers /Snooker Trial",
-      "start": "2026-11-21",
-      "end": "2026-11-21",
-      "location": "Tully Memorial Park, Beryl Parade, Jimboomba  4280",
-      "url": "https://www.topdogevents.com.au/trials/2169",
-      "category": "Agility",
-      "cancelled": false,
-      "region": "QLD",
-      "color": "#c0392b",
-      "closes": "2026-11-14",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2169",
-      "open_now": false,
-      "is_past": false,
-      "club": "Jimboomba Dog Training Club Inc",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2169/catalogue/get"
     },
     {
       "title": "Knox Obedience Dog Club OB &",
@@ -43866,78 +43790,45 @@
       "is_past": false
     },
     {
-      "title": "Redlands Double",
+      "title": "Redlands \u2013 Obedience",
+      "club": "Redlands",
       "start": "2026-11-21",
       "end": "2026-11-21",
-      "location": "Redlands Dog Obedience Club Inc",
-      "url": "https://www.topdogevents.com.au/trials/2235",
+      "location": "Queensland",
+      "url": "https://dogsqueensland.org.au/events/showtrial-dates/",
       "category": "Obedience",
-      "cancelled": false,
       "region": "QLD",
+      "source": "Dogs Queensland (trial calendar)",
       "color": "#c0392b",
-      "closes": "2026-11-14",
-      "topdog_open": false,
-      "source": "Top Dog Events",
+      "cancelled": false,
       "sources": [
-        "Top Dog Events",
         "Dogs Queensland (trial calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2235",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2235/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2235/catalogue/get",
-      "club": "Redlands Dog Obedience Club Inc"
+      "is_past": false
     },
     {
-      "title": "TFP Inc Jumpin' Up North!",
+      "title": "Western Agility Group",
       "start": "2026-11-21",
       "end": "2026-11-22",
-      "location": "10 Marriott St, Westbury TAS 7303",
-      "url": "https://www.topdogevents.com.au/trials/2152",
+      "location": "Victoria",
+      "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Agility",
-      "cancelled": false,
-      "region": "TAS",
-      "color": "#c8632a",
-      "closes": "2026-11-14",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2152",
-      "open_now": false,
-      "is_past": false,
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2152/catalogue/get",
-      "club": "Tassie Flying Paws Dog Club Inc"
-    },
-    {
-      "title": "WAG November",
-      "start": "2026-11-21",
-      "end": "2026-11-22",
-      "location": "2150 Gisborne Rd, Coimadai",
-      "url": "https://www.topdogevents.com.au/trials/2259",
-      "category": "Agility",
-      "cancelled": false,
       "region": "VIC",
+      "source": "Dogs Victoria (official calendar)",
       "color": "#3aa657",
-      "closes": "2026-11-16",
-      "topdog_open": false,
-      "source": "Top Dog Events",
+      "cancelled": false,
       "sources": [
-        "Top Dog Events",
         "Dogs Victoria (official calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2259",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
       "is_past": false,
       "club": "Western Agility Group"
@@ -44103,6 +43994,7 @@
       "closes": "2026-11-15",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50349",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50349/DogsQLDScentWorkSubCommittee_24-Nov-2026_SW_50349_Schedule_20261102_QAiIWb57gEqrQWk3Uy6wqg.pdf",
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50349/DogsQLDScentWorkSubCommittee_24-Nov-2026_SW_50349_Catalogue_wlCIkSDK9k6hbbjMnJdcWQ.pdf",
       "classes": [
         "Novice",
         "Advanced",
@@ -44163,7 +44055,7 @@
       "verified": true,
       "closes": "2026-11-11",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49960",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50977-SCHEDULE-Yuggera-Canine-Club-(QLD)-V1.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/49960/YuggeraCanineClub_24-Nov-2026_SPRINT_49960_Schedule_20261120_O9LNOOdiTE6p__egkYEhAg.pdf",
       "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
       "is_past": false
@@ -44265,8 +44157,8 @@
       "closes": "2026-11-20",
       "breed_group": "Group 3 (Gundogs)",
       "breed": "pointer",
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2298",
       "open_now": false,
@@ -44405,7 +44297,7 @@
       "title": "Scent Work November 2026",
       "start": "2026-11-28",
       "end": "2026-11-28",
-      "location": "Tasmanian Dog Training Club Inc.",
+      "location": "Edinburgh Park, 401 Gravelly Beach Road, Gravelly Beach",
       "url": "https://www.topdogevents.com.au/trials/2185",
       "category": "Scent Work",
       "cancelled": false,
@@ -44424,6 +44316,7 @@
       "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2185/schedule/get",
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2185/catalogue/get",
       "classes": [
         "Novice",
         "Advanced"
@@ -44446,14 +44339,14 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49962",
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50979-SCHEDULE-Sunshine-Coast-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf",
       "address": "Ballinger Rd Sports, Balllinger Rd, Buderim, 4560, QLD",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -44472,14 +44365,14 @@
         "Dogs Queensland (trial calendar)",
         "Show Manager"
       ],
-      "status": "closing_today",
-      "status_label": "Closing today",
+      "status": "closed",
+      "status_label": "Entries closed",
       "verified": true,
       "closes": "2026-11-20",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/49964",
       "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/50981-SCHEDULE-Sunshine-Coast-Dog-Obedience-Club-Inc-(Trial-1)-(QLD)-V1.pdf",
       "address": "Ballinger Rd Sports, Balllinger Rd, Buderim, 4560, QLD",
-      "open_now": true,
+      "open_now": false,
       "is_past": false
     },
     {
@@ -44908,7 +44801,7 @@
       "verified": true,
       "closes": "2026-10-25",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50191",
-      "schedule_url": "https://dkw0th85j7rqd.cloudfront.net/documents/ap-southeast-2:92b48c4e-93b5-4f85-9486-a3c898536385/51239-SCHEDULE-Yuggera-Canine-Club-(QLD)-V1.pdf",
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50191/YuggeraCanineClub_08-Dec-2026_SPRINT_50191_Schedule_20261120_H9MIoznhqUa-wgNw9Gu7gw.pdf",
       "address": "Dogs QLD Showgrounds, 247 King Avenue, Durack, 4077, QLD",
       "open_now": false,
       "is_past": false
@@ -59528,11 +59421,11 @@
       "closes": "2026-11-04",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50017",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50017/FieldSpanielClubofNSWSprintDogTMTrial_20-Nov-2026_SPRINT_50017_Schedule_20261119_5Gj-F0kM1UK3Q85NAvAFQw.pdf",
-      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50017/FieldSpanielClubofNSWSprintDogTMTrial_20-Nov-2026_SPRINT_50017_Catalogue_rjneF-hqU0WmybcwdrFGrg.pdf",
+      "catalogue_url": "https://showmanagerservice.blob.core.windows.net/public-files/events/50017/FieldSpanielClubofNSWSprintDogTMTrial_20-Nov-2026_SPRINT_50017_Catalogue_rjneF-hqU0WmybcwdrFGrg.pdf",
       "classes": null,
       "address": "Bill Spilstead Complex, Luddenham Rd, Orchard Hills, 2748, NSW",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Newcastle All Breeds Dog Training Club Inc \u2013 Obedience",
@@ -59559,7 +59452,7 @@
       "classes": null,
       "address": "CNCC Showground, Hillsborough, Hillsborough Rd, Hillsborough, 2290, NSW",
       "open_now": false,
-      "is_past": false
+      "is_past": true
     },
     {
       "title": "Field Spaniel Club of NSW \u2013 Sprint",

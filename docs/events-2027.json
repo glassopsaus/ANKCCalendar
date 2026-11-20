@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-19T23:08:05+00:00",
+  "generated": "2026-11-20T22:44:00+00:00",
   "year": 2027,
-  "count": 1820,
+  "count": 1821,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -2325,6 +2325,30 @@
       "is_past": false
     },
     {
+      "title": "HDTC Valentines Day Gala Agility, Jumping and Games Trial",
+      "start": "2027-02-13",
+      "end": "2027-02-14",
+      "location": "Hobart Dog Training Club Inc",
+      "url": "https://www.topdogevents.com.au/trials/2330",
+      "category": "Agility",
+      "cancelled": false,
+      "region": "TAS",
+      "color": "#c8632a",
+      "closes": "2027-02-06",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2330",
+      "open_now": true,
+      "is_past": false,
+      "club": "Hobart Dog Training Club Inc"
+    },
+    {
       "title": "Obedience & Rally Trial Albany All Breeds DC",
       "club": "Obedience & Rally Trial Albany All Breeds DC",
       "start": "2027-02-13",
@@ -4585,7 +4609,7 @@
       "title": "Melbourne & District DWD Club Inc",
       "start": "2027-03-14",
       "end": "2027-03-14",
-      "location": "Victoria",
+      "location": "5 Uniting Ln, Bulla VIC 3428",
       "url": "https://dogsvictoria.org.au/events/shows-and-trials-calendar/",
       "category": "Dances with Dogs",
       "region": "VIC",
@@ -4593,15 +4617,18 @@
       "color": "#3aa657",
       "cancelled": false,
       "sources": [
-        "Dogs Victoria (official calendar)"
+        "Dogs Victoria (official calendar)",
+        "Top Dog Events"
       ],
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": null,
-      "open_now": false,
+      "topdog_open": true,
+      "closes": "2027-03-07",
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2349",
+      "open_now": true,
       "is_past": false,
-      "club": "Melbourne & District DWD Club Inc"
+      "club": "Melbourne & District Dances with Dogs club"
     },
     {
       "title": "Pakenham Agricultural Society",
