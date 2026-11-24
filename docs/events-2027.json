@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-22T21:41:43+00:00",
+  "generated": "2026-11-24T03:02:47+00:00",
   "year": 2027,
-  "count": 1821,
+  "count": 1820,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -88,29 +88,6 @@
       "club": "Dogs Victoria New Year Committee"
     },
     {
-      "title": "Port Pirie Kennel Club Inc \u2013 Conformation",
-      "club": "Port Pirie Kennel Club Inc \u2013 Conformation",
-      "start": "2027-01-01",
-      "end": "2027-01-01",
-      "location": "David Roche Park",
-      "url": "https://www.dogssa.com.au/events/upcoming-events",
-      "category": "Conformation",
-      "region": "SA",
-      "source": "Dogs SA",
-      "sources": [
-        "Dogs SA"
-      ],
-      "color": "#c9a227",
-      "cancelled": false,
-      "status": "approved_not_open",
-      "status_label": "Approved (unverified)",
-      "verified": false,
-      "entry_url": "https://www.dogssa.com.au/events/upcoming-events",
-      "open_now": false,
-      "is_past": false,
-      "closes": "2026-12-19"
-    },
-    {
       "title": "New Year's Resolutions 2027",
       "start": "2027-01-02",
       "end": "2027-01-03",
@@ -124,8 +101,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -266,8 +242,7 @@
       "topdog_open": true,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "classes": [
         "Masters"
@@ -370,8 +345,7 @@
       "breed_group": "Group 3 (Gundogs)",
       "breed": "setter",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -618,8 +592,7 @@
       "breed_group": "Group 3 (Gundogs)",
       "breed": "setter",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
@@ -949,8 +922,7 @@
       "breed_group": "Group 3 (Gundogs)",
       "breed": "setter",
       "sources": [
-        "Top Dog Events",
-        "Dogs SA"
+        "Top Dog Events"
       ],
       "status": "open",
       "status_label": "Open (verified)",
