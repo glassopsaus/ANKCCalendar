@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-24T03:02:47+00:00",
+  "generated": "2026-11-25T00:32:52+00:00",
   "year": 2027,
-  "count": 1820,
+  "count": 1821,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -1027,6 +1027,33 @@
       "entry_url": null,
       "open_now": false,
       "is_past": false
+    },
+    {
+      "title": "PDODC MEMBER ONLY WORKSHOPS Mock",
+      "start": "2027-01-23",
+      "end": "2027-01-23",
+      "location": "Para District Obedience Dog Club",
+      "url": "https://www.topdogevents.com.au/trials/2355",
+      "category": "Scent Work",
+      "cancelled": false,
+      "region": "SA",
+      "color": "#c9a227",
+      "closes": "2027-01-10",
+      "topdog_open": true,
+      "source": "Top Dog Events",
+      "sources": [
+        "Top Dog Events"
+      ],
+      "status": "open",
+      "status_label": "Open (verified)",
+      "verified": true,
+      "entry_url": "https://www.topdogevents.com.au/trials/2355",
+      "open_now": true,
+      "is_past": false,
+      "classes": [
+        "Novice"
+      ],
+      "club": "Para District Obedience Dog Club"
     },
     {
       "title": "Southern Obedience Dog Training Club Inc",
