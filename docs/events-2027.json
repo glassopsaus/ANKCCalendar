@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-26T00:12:43+00:00",
+  "generated": "2026-11-27T00:27:02+00:00",
   "year": 2027,
-  "count": 1824,
+  "count": 1826,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -25761,6 +25761,28 @@
       "is_past": false
     },
     {
+      "title": "Lure Coursing Trial West Coast Dog Sports",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
+      "start": "2027-08-07",
+      "end": "2027-08-07",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Lure Coursing",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
+    },
+    {
       "title": "Northern All Breeds Kennel Club Inc \u2013 Conformation",
       "start": "2027-08-07",
       "end": "2027-08-08",
@@ -26193,6 +26215,28 @@
       "open_now": false,
       "is_past": false,
       "club": "Eugowra Kennel Club \u2013 Conformation"
+    },
+    {
+      "title": "Lure Coursing Trial West Coast Dog Sports",
+      "club": "Lure Coursing Trial West Coast Dog Sports",
+      "start": "2027-08-08",
+      "end": "2027-08-08",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
+      "category": "Lure Coursing",
+      "region": "WA",
+      "source": "Dogs West (WA calendar)",
+      "color": "#16887a",
+      "cancelled": false,
+      "sources": [
+        "Dogs West (WA calendar)"
+      ],
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
+      "open_now": false,
+      "is_past": false
     },
     {
       "title": "Open Pointer & Setter Field Trial Irish Setter Club of WA",

@@ -1,7 +1,7 @@
 {
-  "generated": "2026-11-26T00:05:59+00:00",
+  "generated": "2026-11-27T00:20:45+00:00",
   "year": 2026,
-  "count": 2789,
+  "count": 2787,
   "sources": [
     {
       "name": "Dogs ACT",
@@ -608,8 +608,7 @@
       "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
-        "Ready Entries",
-        "Dogs ACT"
+        "Ready Entries"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -1318,8 +1317,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -1327,9 +1325,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1290",
       "open_now": false,
       "is_past": true,
-      "club": "Tuggeranong Dog Training Club",
       "schedule_url": "https://www.topdogevents.com.au/trials/1290/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1290/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1290/catalogue/get",
+      "club": "Tuggeranong Dog Training Club"
     },
     {
       "title": "Australian Kelpie Club of Vic Inc - 11am",
@@ -3131,8 +3129,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -3140,9 +3137,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1280",
       "open_now": false,
       "is_past": true,
-      "club": "ACT Companion Dog Club",
       "schedule_url": "https://www.topdogevents.com.au/trials/1280/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1280/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1280/catalogue/get",
+      "club": "ACT Companion Dog Club"
     },
     {
       "title": "Oxley Dog Training Club Double Rally & Trick Trial Rally",
@@ -4270,8 +4267,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -4279,8 +4275,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1522",
       "open_now": false,
       "is_past": true,
-      "club": "Belconnen Dog Obedience Club",
-      "schedule_url": "https://www.topdogevents.com.au/trials/1522/schedule/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/1522/schedule/get",
+      "club": "Belconnen Dog Obedience Club"
     },
     {
       "title": "DWD COMPETITION",
@@ -5666,8 +5662,7 @@
       "ep_status": "closed",
       "source": "Ready Entries",
       "sources": [
-        "Ready Entries",
-        "Dogs ACT"
+        "Ready Entries"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -5800,8 +5795,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -5809,9 +5803,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1604",
       "open_now": false,
       "is_past": true,
-      "club": "ACT Companion Dog Club",
       "schedule_url": "https://www.topdogevents.com.au/trials/1604/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1604/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1604/catalogue/get",
+      "club": "ACT Companion Dog Club"
     },
     {
       "title": "Toowoomba Royal \u2013 Championship Show",
@@ -7532,8 +7526,7 @@
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -8594,8 +8587,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -8603,8 +8595,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1680",
       "open_now": false,
       "is_past": true,
-      "club": "Belconnen Dog Obedience Club",
-      "schedule_url": "https://www.topdogevents.com.au/trials/1680/schedule/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/1680/schedule/get",
+      "club": "Belconnen Dog Obedience Club"
     },
     {
       "title": "GRAFTON - 15th Apr 2026 - EXT/VEH",
@@ -11799,8 +11791,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -11808,8 +11799,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1656",
       "open_now": false,
       "is_past": true,
-      "club": "ACT Companion Dog Club",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1656/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1656/catalogue/get",
+      "club": "ACT Companion Dog Club"
     },
     {
       "title": "Oxley Dog Training Club SW 5th May 2026",
@@ -23852,8 +23843,7 @@
       "source": "Ready Entries",
       "sources": [
         "Ready Entries",
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -26076,8 +26066,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -26085,9 +26074,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1903",
       "open_now": false,
       "is_past": true,
-      "club": "Tuggeranong Dog Training Club",
       "schedule_url": "https://www.topdogevents.com.au/trials/1903/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/1903/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/1903/catalogue/get",
+      "club": "Tuggeranong Dog Training Club"
     },
     {
       "title": "WORKING PACK DOG TRIAL",
@@ -29168,8 +29157,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -29177,8 +29165,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/2030",
       "open_now": false,
       "is_past": true,
-      "club": "Belconnen Dog Obedience Club",
-      "schedule_url": "https://www.topdogevents.com.au/trials/2030/schedule/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/2030/schedule/get",
+      "club": "Belconnen Dog Obedience Club"
     },
     {
       "title": "GRAFTON - 19th Aug 26 Containers/Vehicles",
@@ -32655,8 +32643,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -32664,8 +32651,8 @@
       "entry_url": "https://www.topdogevents.com.au/trials/1876",
       "open_now": false,
       "is_past": true,
-      "club": "Belconnen Dog Obedience Club",
-      "schedule_url": "https://www.topdogevents.com.au/trials/1876/schedule/get"
+      "schedule_url": "https://www.topdogevents.com.au/trials/1876/schedule/get",
+      "club": "Belconnen Dog Obedience Club"
     },
     {
       "title": "Bundaberg \u2013 Trick Dog",
@@ -35231,8 +35218,7 @@
       "ep_status": "open",
       "source": "Ready Entries",
       "sources": [
-        "Ready Entries",
-        "Dogs ACT"
+        "Ready Entries"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -37440,8 +37426,7 @@
       "ep_status": "open",
       "source": "Ready Entries",
       "sources": [
-        "Ready Entries",
-        "Dogs ACT"
+        "Ready Entries"
       ],
       "status_label": "Entries closed",
       "verified": true,
@@ -37740,8 +37725,7 @@
       "topdog_open": false,
       "source": "Top Dog Events",
       "sources": [
-        "Top Dog Events",
-        "Dogs ACT"
+        "Top Dog Events"
       ],
       "status": "listed",
       "status_label": "Listed (verified)",
@@ -37749,9 +37733,9 @@
       "entry_url": "https://www.topdogevents.com.au/trials/2107",
       "open_now": false,
       "is_past": true,
-      "club": "Tuggeranong Dog Training Club",
       "schedule_url": "https://www.topdogevents.com.au/trials/2107/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2107/catalogue/get"
+      "catalogue_url": "https://www.topdogevents.com.au/trials/2107/catalogue/get",
+      "club": "Tuggeranong Dog Training Club"
     },
     {
       "title": "All Star Dog Sports \u2013 Agility",
@@ -40656,8 +40640,8 @@
       "closes": "2026-11-01",
       "open_now": false,
       "is_past": true,
-      "club": "Obedience Trial (PM) - ACTCDC",
-      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50279/ACTCompanionDogClub_07-Nov-2026_OB_50279_Schedule_20261016_X9UzOTu0QE61btuSXEc0Iw.pdf"
+      "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50279/ACTCompanionDogClub_07-Nov-2026_OB_50279_Schedule_20261016_X9UzOTu0QE61btuSXEc0Iw.pdf",
+      "club": "Obedience Trial (PM) - ACTCDC"
     },
     {
       "title": "Portland & District Kennel Club Inc - AM",
@@ -42318,87 +42302,26 @@
       "is_past": false
     },
     {
-      "title": "ROYAL CANIN STATE Dances With Dogs Championship",
+      "title": "State DWD Competition CAWA Events Ctee \u2013 Dances with Dogs",
+      "club": "State DWD Competition CAWA Events Ctee",
       "start": "2026-11-27",
       "end": "2026-11-27",
-      "location": "602 Warton Road, Southern River, WA, 6110",
-      "url": "https://www.topdogevents.com.au/trials/2221",
+      "location": "Western Australia",
+      "url": "https://dogswest.com/dogswest/Members-Yearly_Show_Date_Calendars.htm",
       "category": "Dances with Dogs",
-      "cancelled": false,
       "region": "WA",
+      "source": "Dogs West (WA calendar)",
       "color": "#16887a",
-      "closes": "2026-11-18",
-      "topdog_open": false,
-      "source": "Top Dog Events",
+      "cancelled": false,
       "sources": [
-        "Top Dog Events",
         "Dogs West (WA calendar)"
       ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2221",
+      "status": "approved_not_open",
+      "status_label": "Approved (unverified)",
+      "verified": false,
+      "entry_url": null,
       "open_now": false,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2221/schedule/get",
-      "catalogue_url": "https://www.topdogevents.com.au/trials/2221/catalogue/get",
-      "club": "Dogs West DWD Working Party"
-    },
-    {
-      "title": "SDK&ODC Friday 27 November 2026 CA CE",
-      "start": "2026-11-27",
-      "end": "2026-11-27",
-      "location": "111 Wheatsheaf Rd, Morphett Vale SA 5162",
-      "url": "https://www.topdogevents.com.au/trials/2275",
-      "category": "Scent Work",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-11-17",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2275",
-      "open_now": false,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2275/schedule/get",
-      "classes": [
-        "Advanced",
-        "Excellent"
-      ],
-      "club": "Southern Districts Kennel & Obedience Dog Club Inc"
-    },
-    {
-      "title": "The Pointer Club of South Australia Inc - Twilight SprintDog Trials - NOVEMBER 2026",
-      "start": "2026-11-27",
-      "end": "2026-11-28",
-      "location": "The Pointer Club of South Australia Inc",
-      "url": "https://www.topdogevents.com.au/trials/2298",
-      "category": "Sprint",
-      "cancelled": false,
-      "region": "SA",
-      "color": "#c9a227",
-      "closes": "2026-11-20",
-      "topdog_open": false,
-      "source": "Top Dog Events",
-      "breed_group": "Group 3 (Gundogs)",
-      "breed": "pointer",
-      "sources": [
-        "Top Dog Events"
-      ],
-      "status": "closed",
-      "status_label": "Entries closed",
-      "verified": true,
-      "entry_url": "https://www.topdogevents.com.au/trials/2298",
-      "open_now": false,
-      "is_past": false,
-      "schedule_url": "https://www.topdogevents.com.au/trials/2298/schedule/get",
-      "club": "The Pointer Club of South Australia Inc"
+      "is_past": false
     },
     {
       "title": "Championship Show (All Breeds) Collie & Shetland Sheepdog Club \u2013 Conformation",
@@ -42706,13 +42629,12 @@
         "Dogs West (WA calendar)",
         "Top Dog Events"
       ],
-      "topdog_open": true,
       "closes": "2026-11-27",
-      "status": "open",
-      "status_label": "Open (verified)",
+      "status": "closing_today",
+      "status_label": "Closing today",
       "verified": true,
       "entry_url": "https://www.topdogevents.com.au/trials/2249",
-      "open_now": true,
+      "open_now": false,
       "is_past": false,
       "schedule_url": "https://www.topdogevents.com.au/trials/2249/schedule/get"
     },
@@ -43570,8 +43492,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -43841,8 +43762,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -43950,8 +43870,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -44302,8 +44221,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -44438,8 +44356,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -44547,8 +44464,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -44602,8 +44518,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -44684,8 +44599,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -44793,8 +44707,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -45037,8 +44950,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -45308,8 +45220,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -45390,8 +45301,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -45526,8 +45436,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -46338,8 +46247,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -50849,8 +50757,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -51201,8 +51108,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -51364,8 +51270,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -51716,8 +51621,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -51906,8 +51810,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -54122,8 +54025,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -55446,8 +55348,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -55690,8 +55591,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -56880,8 +56780,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -57503,8 +57402,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -57642,8 +57540,7 @@
       "region": "ACT",
       "source": "Show Manager",
       "sources": [
-        "Show Manager",
-        "Dogs ACT"
+        "Show Manager"
       ],
       "color": "#1d6fb8",
       "cancelled": false,
@@ -58936,7 +58833,7 @@
       "closes": "2026-11-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50290",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50290/ObedienceT1DoubletheFunAllStarDogSports_28-Nov-2026_OB_50290_Schedule_20261021_e7QQR9OMyE6D3Zjc7HDHmA.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50290/ObedienceT1DoubletheFunAllStarDogSports_28-Nov-2026_OB_50290_Catalogue_bEbSQw30ck2x6qbk09R81Q.pdf",
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
@@ -58963,7 +58860,7 @@
       "closes": "2026-11-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50292",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50290/ObedienceT1DoubletheFunAllStarDogSports_28-Nov-2026_OB_50290_Schedule_20261021_e7QQR9OMyE6D3Zjc7HDHmA.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50292/RallyT1DoubletheFunAllStarDogSports_28-Nov-2026_RO_50292_Catalogue_gxaGV-eip0i5ILVbxCVrJA.pdf",
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
@@ -59017,7 +58914,7 @@
       "closes": "2026-11-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50294",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50293/RallyT2DoubletheFunAllStarDogSports_28-Nov-2026_RO_50293_Schedule_20261021_o1aoacpJwkuHF5OJLCr5gA.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50294/TricksT1DoubletheFunAllStarDogSports_28-Nov-2026_TRICK_50294_Catalogue_7_ok2VaQCU2dRD01TeN5eA.pdf",
       "classes": null,
       "address": "Orchard Hills, 44 Luddenham Rd, Orchard Hills, 2759, NSW",
       "open_now": false,
@@ -59098,7 +58995,7 @@
       "closes": "2026-11-23",
       "entry_url": "https://www.showmanager.com.au/events/PublicEvents/Details/50165",
       "schedule_url": "https://cdn.showmanager.com.au/public-files/events/50165/DogsVictoriaObedienceTrackingEnduranceCommittee_01-Dec-2026_RO_50165_Schedule_20261027_DfzURscbUUiV9aOkTg2SHg.pdf",
-      "catalogue_url": null,
+      "catalogue_url": "https://cdn.showmanager.com.au/public-files/events/50165/DogsVictoriaObedienceTrackingEnduranceCommittee_01-Dec-2026_RO_50165_Catalogue__WdFH1Y_AUWJT_52bPFHdw.pdf",
       "classes": null,
       "address": "KCC Park, 655 Dandenong-Hastings Rd, Skye, 3977, VIC",
       "open_now": false,
